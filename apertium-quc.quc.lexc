@@ -1,30 +1,51 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Multichar_Symbols
 
-%<n%>                ! Имя существительное, Noun
-%<pl%>
+%<n%>                ! Sustantivo, Noun
+%<pl%>               ! Plural
+
+%>                   ! Morpheme boundary
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
+
 Nouns ;
 Determiners ;
 Adjectives ;
-LEXICON N-ixoq
 
-%<pl%>:iibʼ # ;
-# ;
-LEXICON N-iyoom
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-%<pl%>:aabʼ # ;
+LEXICON N-ixoq    ! -iibʼ
+
+%<pl%>:%>iibʼ # ;
 # ;
+
+LEXICON N-iyoom   ! -aabʼ
+
+%<pl%>:%>aabʼ # ;
+# ;
+
 LEXICON A-saq
+
 # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON Determiners
-we%<det%>:we # ;
-le%<det%>:le # ;
-ri%<det%>:ri # ;
+
+we%<det%>:we # ; ! "this", "este"
+le%<det%>:le # ; ! "the", "el"
+ri%<det%>:ri # ; ! "the", "el"
+
 LEXICON Nouns
+
 ixoq%<n%>:ixoq N-ixoq ;   ! "woman", "mujer"
-ajchaak%<n%>:ajchaak N-ixoq ;
-iyoom%<n%>:iyoom N-iyoom ;
+ajchaak%<n%>:ajchaak N-ixoq ; ! "worker", "trabajador"
+iyoom%<n%>:iyoom N-iyoom ; ! "midwife", "partera"
+
 LEXICON Adjectives
-saq%<adj%>:saq A-saq ;
-qʼeq%<adj%>:qʼeq A-saq ;
+
+saq%<adj%>:saq A-saq ; ! "white", "blanco"
+qʼeq%<adj%>:qʼeq A-saq ; ! "black", "negro"
