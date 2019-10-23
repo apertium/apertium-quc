@@ -9,11 +9,11 @@ Determiners ;
 Adjectives ;
 LEXICON N-ixoq
 
-%<pl%>:iib' # ;
+%<pl%>:iibʼ # ;
 # ;
 LEXICON N-iyoom
 
-%<pl%>:aab' # ;
+%<pl%>:aabʼ # ;
 # ;
 LEXICON A-saq
 # ;
@@ -27,3 +27,4 @@ ajchaak%<n%>:ajchaak N-ixoq ;
 iyoom%<n%>:iyoom N-iyoom ;
 LEXICON Adjectives
 saq%<adj%>:saq A-saq ;
+qʼeq%<adj%>:qʼeq A-saq ;
