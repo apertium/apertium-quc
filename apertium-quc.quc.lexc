@@ -1,0 +1,29 @@
+Multichar_Symbols
+
+%<n%>                ! Имя существительное, Noun
+%<pl%>
+
+LEXICON Root
+Nouns ;
+Determiners ;
+Adjectives ;
+LEXICON N-ixoq
+
+%<pl%>:iib' # ;
+# ;
+LEXICON N-iyoom
+
+%<pl%>:aab' # ;
+# ;
+LEXICON A-saq
+# ;
+LEXICON Determiners
+we%<det%>:we # ;
+le%<det%>:le # ;
+ri%<det%>:ri # ;
+LEXICON Nouns
+ixoq%<n%>:ixoq N-ixoq ;   ! "woman", "mujer"
+ajchaak%<n%>:ajchaak N-ixoq ;
+iyoom%<n%>:iyoom N-iyoom ;
+LEXICON Adjectives
+saq%<adj%>:saq A-saq ;
