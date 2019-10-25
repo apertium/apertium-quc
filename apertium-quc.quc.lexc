@@ -15,6 +15,7 @@ LEXICON Root
 Nouns ;
 Determiners ;
 Adjectives ;
+Adverbs ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -32,6 +33,10 @@ LEXICON A-saq
 
 %<adj%>: # ;
 
+LEXICON Ad-aninaq
+
+%<adv%> # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Determiners
@@ -45,8 +50,27 @@ LEXICON Nouns
 ixoq:ixoq N-ixoq ;                 ! "mujer; woman"
 ajchaak:ajchaak N-ixoq ;           ! "trabajador; worker"
 iyoom:iyoom N-iyoom ;              ! "partera; midwife"
+teem:teem N-ixoq ;                 ! "silla; chair"
+wuuj:wuuj N-ixoq ;                 ! "papel; paper"
+sii':sii' N-ixoq ;                 ! "leña; firewood"
 
 LEXICON Adjectives
 
 saq:saq A-saq ;                    ! "blanco; white"
 qʼeq:qʼeq A-saq ;                  ! "negro; black"
+
+LEXICON Adverbs
+
+aninaq:aninaq Ad-aninaq ;          ! "rápidamente; quickly"
+utz:utz Ad-aninaq ;                ! "bien; well"
+ojeer:ojeer Ad-aninaq ;            ! "hace tiempo; long time"
+iwiir:iwiir Ad-aninaq ;            ! "ayer; yesterday"
+chwe'q:chwe'q Ad-aninaq ;          ! "mañana; tomorrow"
+kamiik:kamiik Ad-aninaq ;          ! "hoy; today"
+wene':wene' Ad-aninaq ;            ! "tal vez; perhaps"
+je:je Ad-aninaq ;                  ! "sí; yes"
+jampa':jampa' Ad-aninaq ;          ! "cuándo; when"
+jachinaq:jachinaq Ad-aninaq ;      ! "quién es; who is"
+jachike;jachike Ad-aninaq ;        ! "cuál es; which"
+jasuch;jasuch Ad-aninaq ;          ! "qué es; what"
+janik'ipa;janik'ipa Ad-aninaq ;    ! "cuántos; how many"
