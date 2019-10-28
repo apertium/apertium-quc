@@ -5,6 +5,7 @@ Multichar_Symbols
 %<n%>                ! Sustantivo; Noun
 %<adj%>              ! Adjetivo; Adjective
 %<pl%>               ! Plural
+%<adv%>              ! Adverb
 
 %>                   ! Morpheme boundary
 
@@ -29,13 +30,18 @@ LEXICON N-iyoom   ! -aabʼ
 %<n%>%<pl%>:%>aabʼ # ;
 %<n%>: # ;
 
+LEXICON N-alit   ! -omʼ
+
+%<n%>%<pl%>:%>omʼ # ;
+%<n%>: # ;
+
 LEXICON A-saq
 
 %<adj%>: # ;
 
 LEXICON Ad-aninaq
 
-%<adv%> # ;
+%<adv%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -53,6 +59,8 @@ iyoom:iyoom N-iyoom ;              ! "partera; midwife"
 teem:teem N-ixoq ;                 ! "silla; chair"
 wuuj:wuuj N-ixoq ;                 ! "papel; paper"
 siiʼ:siiʼ N-ixoq ;                 ! "leña; firewood"
+alit:alit N-alit ;                 ! "señorita; young woman"
+alab:alab N-alit ;                 ! "muchacho; man"
 
 LEXICON Adjectives
 
