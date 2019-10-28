@@ -1,0 +1,12 @@
+Alphabet
+p t k q z c h s x j m n l r w y ' b
+a e i o u
+;
+
+Sets
+
+Vow = a e i o u ;
+
+Rules
+"remove morpheme boundary"
+%>:0 <=> _ ;
