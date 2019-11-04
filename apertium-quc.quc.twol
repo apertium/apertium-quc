@@ -8,5 +8,3 @@ Sets
 Vow = a e i o u ;
 
 Rules
-"remove morpheme boundary"
-%>:0 <=> _ ;
