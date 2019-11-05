@@ -6,12 +6,24 @@ Multichar_Symbols
 %<adj%>              ! Adjetivo; Adjective
 %<pl%>               ! Plural
 %<adv%>              ! Adverb
+%<px1sg%>            ! First person singular possessive
+%<px2sg%>            ! Second person singular possessive
+%<px3sg%>            ! First person singular possessive
+%<px1pl%>            ! First person singular possessive
+%<px2pl%>            ! First person singular possessive
+%<px3pl%>            ! First person singular possessive
+%{n%}
+%{w%}
+%{r%}
+%{a%}
+%{i%}
 
 %>                   ! Morpheme boundary
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
+Poss ;
 
 Nouns ;
 Determiners ;
@@ -20,19 +32,36 @@ Adverbs ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON N-ixoq    ! -iibʼ
+LEXICON Poss
+Nouns ;
+%<px1sg%>:%{n%}u%> Nouns ; ! nu w
+%<px2sg%>:a%{w%}%> Nouns ; ! a aw
+%<px3sg%>:%{r%}%> Nouns ;  ! u r
+%<px1pl%>:q%{a%}%> Nouns ; ! qa q
+%<px2pl%>:i%{w%}%> Nouns ; ! i iw
+%<px3pl%>:k%{i%}%> Nouns ; ! ki k
 
-%<n%>%<pl%>:%>iibʼ # ;
+LEXICON N-ixoq    ! -ibʼ
+
+%<n%>%<pl%>:%>ibʼ # ;
 %<n%>: # ;
 
-LEXICON N-iyoom   ! -aabʼ
+LEXICON N-iyoom   ! -abʼ
 
-%<n%>%<pl%>:%>aabʼ # ;
+%<n%>%<pl%>:%>abʼ # ;
 %<n%>: # ;
 
 LEXICON N-alit   ! -omʼ
 
 %<n%>%<pl%>:%>omʼ # ;
+%<n%>: # ;
+
+LEXICON N-chak
+
+%<n%>: # ;
+
+LEXICON N-imul
+
 %<n%>: # ;
 
 LEXICON A-saq
@@ -61,11 +90,16 @@ wuuj:wuuj N-ixoq ;                 ! "papel; paper"
 siiʼ:siiʼ N-ixoq ;                 ! "leña; firewood"
 alit:alit N-alit ;                 ! "señorita; young woman"
 alab:alab N-alit ;                 ! "muchacho; man"
+tzij:tzij N-alit ;                 ! "word, story"
+winaq:winaq N-ixoq ;               ! "person, people"
+chak:chak N-chak ;                 ! "trabajo; work"
+imul:imul N-imul ;                 ! "conejo; rabbit"
 
 LEXICON Adjectives
 
 saq:saq A-saq ;                    ! "blanco; white"
 qʼeq:qʼeq A-saq ;                  ! "negro; black"
+tzij:tzij A-saq ;                  ! "verdadero; true"
 
 LEXICON Adverbs
 
@@ -82,3 +116,4 @@ jachinaq:jachinaq Ad-aninaq ;      ! "quién es; who is"
 jachike:jachike Ad-aninaq ;        ! "cuál es; which"
 jasuch:jasuch Ad-aninaq ;          ! "qué es; what"
 janikʼipa:janikʼipa Ad-aninaq ;    ! "cuántos; how many"
+tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"

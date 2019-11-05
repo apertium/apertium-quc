@@ -1,8 +1,11 @@
 Alphabet
 p t k q z c h s x j m n l r w y ' b
 a e i o u
-
-%>:%>
+%{n%}:n %{n%}:0
+%{w%}:w %{w%}:0
+%{r%}:r %{r%}:u
+%{a%}:a %{a%}:0
+%{i%}:i %{i%}:0
 
 ;
 
@@ -11,6 +14,25 @@ Sets
 Vow = a e i o u ;
 
 Rules
+"remove morpheme boundary"
+%>:0 <=> _ ;
 
-"Morpheme boundary"
-%>:0 <=> _ ; 
+"third person possessive"
+%{r%}:r <=> _ %>: Vow ;
+
+"w rule"
+%{w%}:w <=> _ %>: Vow ;
+
+"a rule"
+Vx:0 <=> _ %>: Vow ;
+  where Vx in ( %{a%} %{i%}) ;
+
+! {n}u>imul
+! 0  w0imul
+
+! {n}u>chak
+! n  u0chak
+"n rule"
+%{n%}:0 <=> _ u: %>: Vow ;
+"uw rule"
+u:w <=> %{n%}:0 _ %>: Vow ; 
