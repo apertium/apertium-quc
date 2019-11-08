@@ -6,6 +6,7 @@ Multichar_Symbols
 %<adj%>              ! Adjetivo; Adjective
 %<pl%>               ! Plural
 %<adv%>              ! Adverb
+%<pr%>               ! Preposition
 %<px1sg%>            ! First person singular possessive
 %<px2sg%>            ! Second person singular possessive
 %<px3sg%>            ! First person singular possessive
@@ -29,6 +30,7 @@ Nouns ;
 Determiners ;
 Adjectives ;
 Adverbs ;
+Prepositions ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -71,6 +73,10 @@ LEXICON A-saq
 LEXICON Ad-aninaq
 
 %<adv%>: # ;
+
+LEXICON Pr
+
+%<pr%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -135,3 +141,8 @@ jachike:jachike Ad-aninaq ;        ! "cuál es; which"
 jasuch:jasuch Ad-aninaq ;          ! "qué es; what"
 janikʼipa:janikʼipa Ad-aninaq ;    ! "cuántos; how many"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
+
+LEXICON Prepositions
+
+chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, another"
+pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
