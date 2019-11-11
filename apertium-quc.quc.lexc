@@ -7,13 +7,14 @@ Multichar_Symbols
 %<pl%>               ! Plural
 %<adv%>              ! Adverb
 %<pr%>               ! Preposition
-%<num%>              ! Numbers
+%<num%>              ! Numerals
 %<px1sg%>            ! First person singular possessive
 %<px2sg%>            ! Second person singular possessive
 %<px3sg%>            ! First person singular possessive
 %<px1pl%>            ! First person singular possessive
 %<px2pl%>            ! First person singular possessive
 %<px3pl%>            ! First person singular possessive
+
 %{n%}
 %{w%}
 %{r%}
@@ -32,7 +33,7 @@ Determiners ;
 Adjectives ;
 Adverbs ;
 Prepositions ;
-Numbers ;
+Numerals ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -50,7 +51,7 @@ LEXICON N-ixoq    ! -ibʼ
 %<n%>%<pl%>:%>ibʼ # ;
 %<n%>: # ;
 
-LEXICON N-iyoom   ! -abʼ
+LEXICON N-iyom   ! -abʼ
 
 %<n%>%<pl%>:%>abʼ # ;
 %<n%>: # ;
@@ -86,17 +87,36 @@ LEXICON Num
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Prepositions
+
+chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, another"
+pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
+
 LEXICON Determiners
 
 we%<det%>:we # ;                   ! "este; this"
 le%<det%>:le # ;                   ! "el; the"
 ri%<det%>:ri # ;                   ! "el; the"
 
+LEXICON Numerals
+
+jun:jun Num ;                      ! "uno; one"
+kebʼ:kebʼ Num ;                    ! "dos; two"
+oxibʼ:oxibʼ Num ;                  ! "tres; three"
+kajibʼ:kajib Num ;                 ! "cuatro; four"
+jobʼ:jobʼ Num ;                    ! "cinco; five"
+waqibʼ:waqibʼ Num ;                ! "seis; six"
+wuqubʼ:wuqubʼ Num ;                ! "siete; seven"
+wajxaqibʼ:wajxaqib Num ;           ! "ocho; eight"
+bʼelejebʼ:bʼelejebʼ Num ;          ! "nueve; nine"
+lajuj:lajuj Num ;                  ! "diez; ten"
+
+
 LEXICON Nouns
 
 ixoq:ixoq N-ixoq ;                 ! "mujer; woman"
 ajchak:ajchak N-ixoq ;             ! "trabajador; worker (traditional peasant)"
-iyoom:iyoom N-iyoom ;              ! "partera; midwife"
+iyom:iyom N-iyom ;                 ! "partera; midwife"
 teem:teem N-ixoq ;                 ! "silla; chair"
 wuuj:wuuj N-ixoq ;                 ! "papel; paper"
 siiʼ:siiʼ N-ixoq ;                 ! "leña; firewood"
@@ -106,24 +126,24 @@ tzij:tzij N-alit ;                 ! "palabra, cuento; word, story"
 winaq:winaq N-ixoq ;               ! "persona; person, people"
 chak:chak N-chak ;                 ! "trabajo; work"
 imul:imul N-imul ;                 ! "conejo; rabbit"
-akʼal:akʼal N-iyoom ;              ! "nino; boy"
-chʼajomanel:chʼajomanel N-iyoom ;  ! "lavandero; laundryman"
-nuchʼ:nuchʼ N-iyoom ;              ! "bebe; baby"
-ajtij:ajtij N-iyoom ;              ! "profesor; professor"
-tijoxel:tijoxel N-iyoom ;          ! "alumno; alumnus"
-kʼayinel:k'ayinel N-iyoom ;        ! "vendedor; vender"
-riʼj:riʼj N-iyoom ;                ! "anciano; elderly person"
-chajinel:chajinel N-iyoom ;        ! "guardian; guardian"
-loqʼomanel:loqʼomanel N-iyoom ;    ! "comprador; buyer"
-chakunel:chakunel N-iyoom ;        ! "trabajador; worker"
-elaqʼom:elaqʼom N-iyoom ;          ! "ladrón; thief"
-kamisanel:kamisanel N-iyoom ;      ! "homicida; homicide"
-etanel:etanel N-iyoom ;            ! "medidor; measurer"
-etzʼanel:etzʼanel N-iyoom ;        ! "jugador; player"
-pixabʼanel:pixabʼanel N-iyoom ;    ! "consejero; adviser"
-ajchʼoʼj:ajchʼoʼj N-iyoom ;        ! "peleador; fighter"
-kunanel:kunanel N-iyoom ;          ! "curandero; medicine man"
-muqunel:muqunel N-iyoom ;          ! "quienes entierran; who bury"
+akʼal:akʼal N-iyom ;              ! "nino; boy"
+chʼajomanel:chʼajomanel N-iyom ;  ! "lavandero; laundryman"
+nuchʼ:nuchʼ N-iyom ;              ! "bebe; baby"
+ajtij:ajtij N-iyom ;              ! "profesor; professor"
+tijoxel:tijoxel N-iyom ;          ! "alumno; alumnus"
+kʼayinel:k'ayinel N-iyom ;        ! "vendedor; vender"
+riʼj:riʼj N-iyom ;                ! "anciano; elderly person"
+chajinel:chajinel N-iyom ;        ! "guardian; guardian"
+loqʼomanel:loqʼomanel N-iyom ;    ! "comprador; buyer"
+chakunel:chakunel N-iyom ;        ! "trabajador; worker"
+elaqʼom:elaqʼom N-iyom ;          ! "ladrón; thief"
+kamisanel:kamisanel N-iyom ;      ! "homicida; homicide"
+etanel:etanel N-iyom ;            ! "medidor; measurer"
+etzʼanel:etzʼanel N-iyom ;        ! "jugador; player"
+pixabʼanel:pixabʼanel N-iyom ;    ! "consejero; adviser"
+ajchʼoʼj:ajchʼoʼj N-iyom ;        ! "peleador; fighter"
+kunanel:kunanel N-iyom ;          ! "curandero; medicine man"
+muqunel:muqunel N-iyom ;          ! "quienes entierran; who bury"
 
 LEXICON Adjectives
 
@@ -148,20 +168,3 @@ jasuch:jasuch Ad-aninaq ;          ! "qué es; what"
 janikʼipa:janikʼipa Ad-aninaq ;    ! "cuántos; how many"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 
-LEXICON Prepositions
-
-chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, another"
-pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
-
-LEXICON Numbers
-
-jun:jun Num ;                      ! "uno; one"
-kebʼ:kebʼ Num ;                    ! "dos; two"
-oxibʼ:oxibʼ Num ;                  ! "tres; three"
-kajibʼ:kajib Num ;                 ! "cuatro; four"
-jobʼ:jobʼ Num ;                    ! "cinco; five"
-waqibʼ:waqibʼ Num ;                ! "seis; six"
-wuqubʼ:wuqubʼ Num ;                ! "siete; seven"
-wajxaqibʼ:wajxaqib Num ;           ! "ocho; eight"
-bʼelejebʼ:bʼelejebʼ Num ;          ! "nueve; nine"
-lajuj:lajuj Num ;                  ! "diez; ten"
