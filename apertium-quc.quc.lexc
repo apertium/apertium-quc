@@ -28,15 +28,17 @@ Multichar_Symbols
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
-Poss ;
-Asp ;
 
+Miscellaneous ; 
 Nouns ;
 Determiners ;
 Adjectives ;
 Adverbs ;
 Prepositions ;
 Numerals ;
+
+Poss ;
+Asp ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -113,6 +115,10 @@ LEXICON V-IV
 %<v%>%<iv%>:%> # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Miscellaneous
+
+taq%<pl%>:taq # ; 
 
 LEXICON Prepositions
 
