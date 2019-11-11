@@ -110,6 +110,7 @@ LEXICON B
 LEXICON V-IV
 
 %<v%>%<iv%>:%>%{i%}k # ;
+%<v%>%<iv%>:%> # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -171,6 +172,7 @@ ajchʼoʼj:ajchʼoʼj N-iyom ;        ! "peleador; fighter"
 kunanel:kunanel N-iyom ;          ! "curandero; medicine man"
 muqunel:muqunel N-iyom ;          ! "quienes entierran; who bury"
 tinamit:tinamit N-tinamit ;       ! "pueblo; village"
+tijobʼal:tijobʼal N-tinamit ;     ! "escuela; school"
 
 LEXICON Adjectives
 
@@ -200,3 +202,8 @@ LEXICON IV
 
 bʼe:%>bʼe V-IV ;                    ! "ir; to go"
 war:%>war V-IV ;                    ! "dormir; to sleep"
+waʼ:%>waʼ V-IV ;                    ! "comer; to eat"
+el:%>el V-IV ;                      ! "salir; to leave"
+chʼaw:%>chʼaw V-IV ;                ! "hablar; to speak"
+opan:%>opan V-IV ;                  ! "llegar (alla); to arrive (there)"
+ul:%>ul V-IV ;                      ! "llegar (aqui); to arrive (here)"
