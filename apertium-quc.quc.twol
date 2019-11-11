@@ -6,6 +6,8 @@ a e i o u
 %{r%}:r %{r%}:u
 %{a%}:a %{a%}:0
 %{i%}:i %{i%}:0
+%{m%}:m %{m%}:n
+%{o%}:o %{o%}:u
 
 ;
 
@@ -25,6 +27,7 @@ Rules
 
 "a rule"
 Vx:0 <=> _ %>: Vow ;
+  Vow %>: _ ;
   where Vx in ( %{a%} %{i%}) ;
 
 ! {n}u>imul
@@ -35,4 +38,9 @@ Vx:0 <=> _ %>: Vow ;
 "n rule"
 %{n%}:0 <=> _ u: %>: Vow ;
 "uw rule"
-u:w <=> %{n%}:0 _ %>: Vow ; 
+u:w <=> %{n%}:0 _ %>: Vow ;
+
+"rule for n/m"
+%{m%}:m <=> _ %>: [b | p];
+! k{a}>i{m}bʼe>k
+! k0 0 i m bʼe0k

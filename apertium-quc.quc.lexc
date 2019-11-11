@@ -20,6 +20,8 @@ Multichar_Symbols
 %{r%}
 %{a%}
 %{i%}
+%{m%}
+%{o%}
 
 %>                   ! Morpheme boundary
 
@@ -27,6 +29,7 @@ Multichar_Symbols
 
 LEXICON Root
 Poss ;
+Asp ;
 
 Nouns ;
 Determiners ;
@@ -69,6 +72,10 @@ LEXICON N-imul
 
 %<n%>: # ;
 
+LEXICON N-tinamit
+
+%<n%>: # ;
+
 LEXICON A-saq
 
 %<adj%>: # ;
@@ -84,6 +91,25 @@ LEXICON Pr
 LEXICON Num
 
 %<num%>: # ;
+
+LEXICON Asp
+
+%<impf%>:k%{a%} B ;
+
+LEXICON B
+
+%<s_sg1%>:%>i%{m%} IV;
+%<s_sg2%>:%>at IV;
+! %<s_sg2%>:%> IV;
+%<s_sg3%>:%> IV;
+%<s_pl1%>:%>%{o%}j IV;
+%<s_pl2%>:%>ix IV;
+! %<s_pl2%>:%> IV;
+%<s_pl3%>:%>e IV;
+
+LEXICON V-IV
+
+%<v%>%<iv%>:%>%{i%}k # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -144,6 +170,7 @@ pixabʼanel:pixabʼanel N-iyom ;    ! "consejero; adviser"
 ajchʼoʼj:ajchʼoʼj N-iyom ;        ! "peleador; fighter"
 kunanel:kunanel N-iyom ;          ! "curandero; medicine man"
 muqunel:muqunel N-iyom ;          ! "quienes entierran; who bury"
+tinamit:tinamit N-tinamit ;       ! "pueblo; village"
 
 LEXICON Adjectives
 
@@ -168,3 +195,8 @@ jasuch:jasuch Ad-aninaq ;          ! "qué es; what"
 janikʼipa:janikʼipa Ad-aninaq ;    ! "cuántos; how many"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 
+
+LEXICON IV
+
+bʼe:%>bʼe V-IV ;                    ! "ir; to go"
+war:%>war V-IV ;                    ! "dormir; to sleep"
