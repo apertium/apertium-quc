@@ -1,5 +1,5 @@
 Alphabet
-p t k q z c h s x j m n l r w y ' b
+p t k q z c h s x j m n l r w y ʼ b
 a e i o u
 %{n%}:n %{n%}:0
 %{w%}:w %{w%}:0
