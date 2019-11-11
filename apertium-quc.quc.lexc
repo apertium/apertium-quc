@@ -7,6 +7,7 @@ Multichar_Symbols
 %<pl%>               ! Plural
 %<adv%>              ! Adverb
 %<pr%>               ! Preposition
+%<num%>              ! Numbers
 %<px1sg%>            ! First person singular possessive
 %<px2sg%>            ! Second person singular possessive
 %<px3sg%>            ! First person singular possessive
@@ -31,6 +32,7 @@ Determiners ;
 Adjectives ;
 Adverbs ;
 Prepositions ;
+Numbers ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -77,6 +79,10 @@ LEXICON Ad-aninaq
 LEXICON Pr
 
 %<pr%>: # ;
+
+LEXICON Num
+
+%<num%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -146,3 +152,16 @@ LEXICON Prepositions
 
 chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, another"
 pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
+
+LEXICON Numbers
+
+jun:jun Num ;                      ! "uno; one"
+kebʼ:kebʼ Num ;                    ! "dos; two"
+oxibʼ:oxibʼ Num ;                  ! "tres; three"
+kajibʼ:kajib Num ;                 ! "cuatro; four"
+jobʼ:jobʼ Num ;                    ! "cinco; five"
+waqibʼ:waqibʼ Num ;                ! "seis; six"
+wuqubʼ:wuqubʼ Num ;                ! "siete; seven"
+wajxaqibʼ:wajxaqib Num ;           ! "ocho; eight"
+bʼelejebʼ:bʼelejebʼ Num ;          ! "nueve; nine"
+lajuj:lajuj Num ;                  ! "diez; ten"
