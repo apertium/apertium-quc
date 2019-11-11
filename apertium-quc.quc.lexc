@@ -8,6 +8,7 @@ Multichar_Symbols
 %<adv%>              ! Adverb
 %<pr%>               ! Preposition
 %<num%>              ! Numerals
+%<prn%>              ! Pronouns
 %<px1sg%>            ! First person singular possessive
 %<px2sg%>            ! Second person singular possessive
 %<px3sg%>            ! First person singular possessive
@@ -29,13 +30,14 @@ Multichar_Symbols
 
 LEXICON Root
 
-Miscellaneous ; 
+Miscellaneous ;
 Nouns ;
 Determiners ;
 Adjectives ;
 Adverbs ;
 Prepositions ;
 Numerals ;
+Pronouns ;
 
 Poss ;
 Asp ;
@@ -86,6 +88,10 @@ LEXICON Ad-aninaq
 
 %<adv%>: # ;
 
+LEXICON Ad-jampaʼ
+
+%<adv%>%<itg%>: # ;
+
 LEXICON Pr
 
 %<pr%>: # ;
@@ -114,11 +120,14 @@ LEXICON V-IV
 %<v%>%<iv%>:%>%{i%}k # ;
 %<v%>%<iv%>:%> # ;
 
+LEXICON Pron-jasuch
+
+%<prn%>%<itg%>: # ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Miscellaneous
 
-taq%<pl%>:taq # ; 
+taq%<pl%>:taq # ;
 
 LEXICON Prepositions
 
@@ -179,6 +188,8 @@ kunanel:kunanel N-iyom ;          ! "curandero; medicine man"
 muqunel:muqunel N-iyom ;          ! "quienes entierran; who bury"
 tinamit:tinamit N-tinamit ;       ! "pueblo; village"
 tijobʼal:tijobʼal N-tinamit ;     ! "escuela; school"
+wuj:wuj N-tinamit ;               ! "libro; book"
+tijonik:tijonik N-tinamit ;       ! "unidad; unit"
 
 LEXICON Adjectives
 
@@ -197,13 +208,15 @@ chweʼq:chweʼq Ad-aninaq ;          ! "mañana; tomorrow"
 kamiik:kamiik Ad-aninaq ;          ! "hoy; today"
 weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
 je:je Ad-aninaq ;                  ! "sí; yes"
-jampaʼ:jampaʼ Ad-aninaq ;          ! "cuándo; when"
-jachinaq:jachinaq Ad-aninaq ;      ! "quién es; who is"
-jachike:jachike Ad-aninaq ;        ! "cuál es; which"
-jasuch:jasuch Ad-aninaq ;          ! "qué es; what"
-janikʼipa:janikʼipa Ad-aninaq ;    ! "cuántos; how many"
+jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 
+LEXICON Pronouns
+
+jachinaq:jachinaq Pron-jasuch ;      ! "quién es; who is"
+jasuch:jasuch Pron-jasuch ;          ! "qué es; what"
+jachike:jachike Pron-jasuch ;        ! "cuál es; which"
+janikʼipa:janikʼipa Pron-jasuch ;    ! "cuántos; how many"
 
 LEXICON IV
 
