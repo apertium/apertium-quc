@@ -1,14 +1,17 @@
 Alphabet
-p t k q z c h s x j m n l r w y ʼ b
-a e i o u
-%{n%}:n %{n%}:0
-%{w%}:w %{w%}:0
-%{r%}:r %{r%}:u
-%{a%}:a %{a%}:0
-%{i%}:i %{i%}:0
-%{m%}:m %{m%}:n
-%{o%}:o %{o%}:u
 
+  a b c d e f g h i j k l m n o p q r s t u v w x y z ʼ
+
+  %{n%}:n %{n%}:0
+  %{w%}:w %{w%}:0
+  %{r%}:r %{r%}:u
+  %{a%}:a %{a%}:0
+  %{i%}:i %{i%}:0
+  %{m%}:m %{m%}:n
+  %{o%}:o %{o%}:u
+
+  %>:0 
+  
 ;
 
 Sets
@@ -16,8 +19,6 @@ Sets
 Vow = a e i o u ;
 
 Rules
-"remove morpheme boundary"
-%>:0 <=> _ ;
 
 "third person possessive"
 %{r%}:r <=> _ %>: Vow ;
@@ -30,17 +31,20 @@ Vx:0 <=> _ %>: Vow ;
   Vow %>: _ ;
   where Vx in ( %{a%} %{i%}) ;
 
-! {n}u>imul
-! 0  w0imul
-
-! {n}u>chak
-! n  u0chak
 "n rule"
 %{n%}:0 <=> _ u: %>: Vow ;
+
+! {n}u>imul
+! 0w0imul
+
+! {n}u>chak
+! nu0chak
+
 "uw rule"
 u:w <=> %{n%}:0 _ %>: Vow ;
 
 "rule for n/m"
 %{m%}:m <=> _ %>: [b | p];
+
 ! k{a}>i{m}bʼe>k
-! k0 0 i m bʼe0k
+! k00imbʼe0k

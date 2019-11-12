@@ -9,6 +9,7 @@ Multichar_Symbols
 %<pr%>               ! Preposition
 %<num%>              ! Numerals
 %<prn%>              ! Pronouns
+
 %<px1sg%>            ! First person singular possessive
 %<px2sg%>            ! Second person singular possessive
 %<px3sg%>            ! First person singular possessive
@@ -16,13 +17,22 @@ Multichar_Symbols
 %<px2pl%>            ! First person singular possessive
 %<px3pl%>            ! First person singular possessive
 
-%{n%}
-%{w%}
-%{r%}
-%{a%}
-%{i%}
-%{m%}
-%{o%}
+%<cm%>
+%<guio%>
+%<lpar%>
+%<lquest%>
+%<lquot%>
+%<rpar%>
+%<rquot%>
+%<sent%>
+
+%{n%}                ! n / 0
+%{w%}                ! w / 0
+%{r%}                ! r / 0 
+%{a%}                ! a / 0
+%{i%}                ! i / 0 
+%{m%}                ! n / m 
+%{o%}                ! o / u 
 
 %>                   ! Morpheme boundary
 
@@ -38,6 +48,7 @@ Adverbs ;
 Prepositions ;
 Numerals ;
 Pronouns ;
+Punctuation ;
 
 Poss ;
 Asp ;
@@ -227,3 +238,35 @@ el:%>el V-IV ;                      ! "salir; to leave"
 chʼaw:%>chʼaw V-IV ;                ! "hablar; to speak"
 opan:%>opan V-IV ;                  ! "llegar (alla); to arrive (there)"
 ul:%>ul V-IV ;                      ! "llegar (aqui); to arrive (here)"
+
+
+LEXICON Punctuation
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%¡%<sent%>:%¡ # ; 
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+%–%<guio%>:%– # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ; 
+%¿%<lquest%>:%¿ # ; 
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+（%<lpar%>:（ # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+）%<rpar%>:） # ;
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
+…%<sent%>:… # ;
+
