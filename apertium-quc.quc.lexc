@@ -206,6 +206,14 @@ qʼat:qʼat N-tinamit ;              ! "herd, cattle"
 Dyos:Dyos N-tinamit ;              ! "Dios; God"
 uwachulew:uwachulew N-tinamit ;    ! "mundo; world"
 taqanik:taqanik N-tinamit ;        ! "commandment, authority, command"
+junab:junab N-tinamit ;            ! "year"
+tzaqatil:tzaqatil N-tinamit ;      ! "piece"
+tajin:tajin N-tinamit ;            ! "cultivation of land"
+achi:achi N-iyom ;                 ! "man"
+alanxax:alanxax N-tinamit ;        ! "orange, orange tree"
+ulew:ulew N-tinamit ;              ! "land, soil, earth"
+awaj:awaj N-ixoq ;                 ! "beast, animal"
+ixim:ixim N-tinamit ;              ! "corn, dry corn kernels"
 
 LEXICON Adjectives
 
@@ -216,6 +224,7 @@ xuqujeʼ:xuqujeʼ A-saq ;            ! "tambien; also"
 rajawaxik:rajawaxik A-saq ;        ! "importante; important, necessary"
 sib:sib A-saq ;                    ! "smoky-colored"
 alaj:alaj A-saq ;                  ! "small, little"
+taqal:taqal A-saq ;                ! "worthy"
 
 
 LEXICON Adverbs
