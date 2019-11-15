@@ -28,11 +28,11 @@ Multichar_Symbols
 
 %{n%}                ! n / 0
 %{w%}                ! w / 0
-%{r%}                ! r / 0 
+%{r%}                ! r / 0
 %{a%}                ! a / 0
-%{i%}                ! i / 0 
-%{m%}                ! n / m 
-%{o%}                ! o / u 
+%{i%}                ! i / 0
+%{m%}                ! n / m
+%{o%}                ! o / u
 
 %>                   ! Morpheme boundary
 
@@ -144,6 +144,7 @@ LEXICON Prepositions
 
 chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, another"
 pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
+jachaʼ:jachaʼ Pr ;                 ! "like, as"
 
 LEXICON Determiners
 
@@ -179,28 +180,32 @@ tzij:tzij N-alit ;                 ! "palabra, cuento; word, story"
 winaq:winaq N-ixoq ;               ! "persona; person, people"
 chak:chak N-chak ;                 ! "trabajo; work"
 imul:imul N-imul ;                 ! "conejo; rabbit"
-akʼal:akʼal N-iyom ;              ! "nino; boy"
-chʼajomanel:chʼajomanel N-iyom ;  ! "lavandero; laundryman"
-nuchʼ:nuchʼ N-iyom ;              ! "bebe; baby"
-ajtij:ajtij N-iyom ;              ! "profesor; professor"
-tijoxel:tijoxel N-iyom ;          ! "alumno; alumnus"
-kʼayinel:k'ayinel N-iyom ;        ! "vendedor; vender"
-riʼj:riʼj N-iyom ;                ! "anciano; elderly person"
-chajinel:chajinel N-iyom ;        ! "guardian; guardian"
-loqʼomanel:loqʼomanel N-iyom ;    ! "comprador; buyer"
-chakunel:chakunel N-iyom ;        ! "trabajador; worker"
-elaqʼom:elaqʼom N-iyom ;          ! "ladrón; thief"
-kamisanel:kamisanel N-iyom ;      ! "homicida; homicide"
-etanel:etanel N-iyom ;            ! "medidor; measurer"
-etzʼanel:etzʼanel N-iyom ;        ! "jugador; player"
-pixabʼanel:pixabʼanel N-iyom ;    ! "consejero; adviser"
-ajchʼoʼj:ajchʼoʼj N-iyom ;        ! "peleador; fighter"
-kunanel:kunanel N-iyom ;          ! "curandero; medicine man"
-muqunel:muqunel N-iyom ;          ! "quienes entierran; who bury"
-tinamit:tinamit N-tinamit ;       ! "pueblo; village"
-tijobʼal:tijobʼal N-tinamit ;     ! "escuela; school"
-wuj:wuj N-tinamit ;               ! "libro; book"
-tijonik:tijonik N-tinamit ;       ! "unidad; unit"
+akʼal:akʼal N-iyom ;               ! "nino; boy"
+chʼajomanel:chʼajomanel N-iyom ;   ! "lavandero; laundryman"
+nuchʼ:nuchʼ N-iyom ;               ! "bebe; baby"
+ajtij:ajtij N-iyom ;               ! "profesor; professor"
+tijoxel:tijoxel N-iyom ;           ! "alumno; alumnus"
+kʼayinel:k'ayinel N-iyom ;         ! "vendedor; vender"
+riʼj:riʼj N-iyom ;                 ! "anciano; elderly person"
+chajinel:chajinel N-iyom ;         ! "guardian; guardian"
+loqʼomanel:loqʼomanel N-iyom ;     ! "comprador; buyer"
+chakunel:chakunel N-iyom ;         ! "trabajador; worker"
+elaqʼom:elaqʼom N-iyom ;           ! "ladrón; thief"
+kamisanel:kamisanel N-iyom ;       ! "homicida; homicide"
+etanel:etanel N-iyom ;             ! "medidor; measurer"
+etzʼanel:etzʼanel N-iyom ;         ! "jugador; player"
+pixabʼanel:pixabʼanel N-iyom ;     ! "consejero; adviser"
+ajchʼoʼj:ajchʼoʼj N-iyom ;         ! "peleador; fighter"
+kunanel:kunanel N-iyom ;           ! "curandero; medicine man"
+muqunel:muqunel N-iyom ;           ! "quienes entierran; who bury"
+tinamit:tinamit N-tinamit ;        ! "pueblo; village"
+tijobʼal:tijobʼal N-tinamit ;      ! "escuela; school"
+wuj:wuj N-tinamit ;                ! "libro; book"
+tijonik:tijonik N-tinamit ;        ! "unidad; unit"
+qʼat:qʼat N-tinamit ;              ! "herd, cattle"
+Dyos:Dyos N-tinamit ;              ! "Dios; God"
+uwachulew:uwachulew N-tinamit ;    ! "mundo; world"
+taqanik:taqanik N-tinamit ;        ! "commandment, authority, command"
 
 LEXICON Adjectives
 
@@ -208,6 +213,10 @@ saq:saq A-saq ;                    ! "blanco; white"
 qʼeq:qʼeq A-saq ;                  ! "negro; black"
 tzij:tzij A-saq ;                  ! "verdadero; true"
 xuqujeʼ:xuqujeʼ A-saq ;            ! "tambien; also"
+rajawaxik:rajawaxik A-saq ;        ! "importante; important, necessary"
+sib:sib A-saq ;                    ! "smoky-colored"
+alaj:alaj A-saq ;                  ! "small, little"
+
 
 LEXICON Adverbs
 
@@ -221,6 +230,8 @@ weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
 je:je Ad-aninaq ;                  ! "sí; yes"
 jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
+aretaq:aretaq Ad-aninaq ;          ! "when, while"
+maj:maj Ad-aninaq ;                ! "none, nothing"
 
 LEXICON Pronouns
 
@@ -248,13 +259,13 @@ LEXICON Punctuation
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
-%¡%<sent%>:%¡ # ; 
+%¡%<sent%>:%¡ # ;
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
 %–%<guio%>:%– # ;
 ,%<cm%>:, # ;
-%?%<sent%>:%? # ; 
-%¿%<lquest%>:%¿ # ; 
+%?%<sent%>:%? # ;
+%¿%<lquest%>:%¿ # ;
 %"%<sent%>:%" # ;
 %«%<lquot%>:%« # ;
 %»%<rquot%>:%» # ;
@@ -269,4 +280,3 @@ LEXICON Punctuation
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
 …%<sent%>:… # ;
-
