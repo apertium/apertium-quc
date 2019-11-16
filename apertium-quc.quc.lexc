@@ -9,6 +9,7 @@ Multichar_Symbols
 %<pr%>               ! Preposition
 %<num%>              ! Numerals
 %<prn%>              ! Pronouns
+%<mark%>             ! Marker
 
 %<px1sg%>            ! First person singular possessive
 %<px2sg%>            ! Second person singular possessive
@@ -54,6 +55,11 @@ Poss ;
 Asp ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON K 
+
+%+ik%<mark%>:%>%{i%}k # ;
+                      # ; 
 
 LEXICON Poss
 Nouns ;
@@ -128,8 +134,7 @@ LEXICON B
 
 LEXICON V-IV
 
-%<v%>%<iv%>:%>%{i%}k # ;
-%<v%>%<iv%>:%> # ;
+%<v%>%<iv%>:%> K ;
 
 LEXICON Pron-jasuch
 
