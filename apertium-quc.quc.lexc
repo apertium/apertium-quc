@@ -199,6 +199,7 @@ ajchʼoʼj:ajchʼoʼj N-iyom ;         ! "peleador; fighter"
 kunanel:kunanel N-iyom ;           ! "curandero; medicine man"
 muqunel:muqunel N-iyom ;           ! "quienes entierran; who bury"
 tinamit:tinamit N-tinamit ;        ! "pueblo; village"
+tinamit:tinimit N-tinamit ;        ! "pueblo; village" ! Src/bible
 tijobʼal:tijobʼal N-tinamit ;      ! "escuela; school"
 wuj:wuj N-tinamit ;                ! "libro; book"
 tijonik:tijonik N-tinamit ;        ! "unidad; unit"
