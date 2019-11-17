@@ -150,6 +150,7 @@ LEXICON Prepositions
 chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, another"
 pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
 jachaʼ:jachaʼ Pr ;                 ! "like, as"
+chuwach:chuwach Pr ;               ! "facing, before, ahead of"
 
 LEXICON Determiners
 
@@ -229,6 +230,11 @@ patan:patan N-ixoq ;               ! "service, use, usefulness"
 jastaq:jastaq N-tinamit ;          ! "things, goods (already in plural form?)"
 chomanik:chomanik N-tinamit ;      ! "thought, worries"
 tzʼib:tzʼib N-tinamit ;            ! "letter, hand writing"
+par:par N-tinamit ;                ! "skunk"
+ulewal:ulewal N-tinamit ;          ! "sepulcher"
+xaq:xaq N-tinamit ;                ! "leaf, page (of book)"
+ajawal:ajawal N-tinamit ;          ! "king"
+cho:cho N-tinamit ;                ! "lake"
 
 
 LEXICON Adjectives
@@ -244,6 +250,12 @@ taqal:taqal A-saq ;                ! "worthy"
 tzukum:tzukum A-saq ;              ! "hunted, elected, looked for, sought after"
 tzʼibʼatal:tzʼibʼatal A-saq ;      ! "written"
 jalajoj:jalajoj A-saq ;            ! "different, distinct"
+kaxlan:kaxlan A-saq ;              ! "foreign"
+yab:yab A-saq ;                    ! "sick"
+nim:nim A-saq ;                    ! "large, abundant"
+kʼin:kʼin A-saq ;                  ! "diminutive (used with animals)"
+e:e A-saq ;                        ! "plural marker"
+cho:cho A-saq ;                    ! "deep"
 
 
 LEXICON Adverbs
@@ -260,6 +272,13 @@ jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 aretaq:aretaq Ad-aninaq ;          ! "when, while"
 maj:maj Ad-aninaq ;                ! "none, nothing"
+xuqujʼe:xuqujʼe Ad-aninaq ;        ! "also"
+chanim:chanim Ad-aninaq ;          ! "right now, rapidly"
+uloq:uloq Ad-aninaq ;              ! "toward speaker, here, toward here"
+waral:waral Ad-aninaq ;            ! "here"
+jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
+taj:taj Ad-aninaq ;                ! "indicator of negativity or doubtfulness"
+na:na Ad-aninaq ;                  ! "marker of future or certainty"
 
 LEXICON Pronouns
 
