@@ -235,6 +235,8 @@ ulewal:ulewal N-tinamit ;          ! "sepulcher"
 xaq:xaq N-tinamit ;                ! "leaf, page (of book)"
 ajawal:ajawal N-tinamit ;          ! "king"
 cho:cho N-tinamit ;                ! "lake"
+itzel:itzel N-tinamit ;            ! "badness, evil"
+kʼolibal:kʼolibal N-tinamit ;      ! "place"
 
 
 LEXICON Adjectives
@@ -256,6 +258,7 @@ nim:nim A-saq ;                    ! "large, abundant"
 kʼin:kʼin A-saq ;                  ! "diminutive (used with animals)"
 e:e A-saq ;                        ! "plural marker"
 cho:cho A-saq ;                    ! "deep"
+itzel:itzel A-saq ;                ! "bad, evil"
 
 
 LEXICON Adverbs
