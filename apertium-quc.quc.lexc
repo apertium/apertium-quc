@@ -56,10 +56,10 @@ Asp ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON K 
+LEXICON K
 
 %+ik%<mark%>:%>%{i%}k # ;
-                      # ; 
+                      # ;
 
 LEXICON Poss
 Nouns ;
@@ -190,7 +190,7 @@ chʼajomanel:chʼajomanel N-iyom ;   ! "lavandero; laundryman"
 nuchʼ:nuchʼ N-iyom ;               ! "bebe; baby"
 ajtij:ajtij N-iyom ;               ! "profesor; professor"
 tijoxel:tijoxel N-iyom ;           ! "alumno; alumnus"
-kʼayinel:k'ayinel N-iyom ;         ! "vendedor; vender"
+kʼayinel:kʼayinel N-iyom ;         ! "vendedor; vender"
 riʼj:riʼj N-iyom ;                 ! "anciano; elderly person"
 chajinel:chajinel N-iyom ;         ! "guardian; guardian"
 loqʼomanel:loqʼomanel N-iyom ;     ! "comprador; buyer"
@@ -220,6 +220,16 @@ alanxax:alanxax N-tinamit ;        ! "orange, orange tree"
 ulew:ulew N-tinamit ;              ! "land, soil, earth"
 awaj:awaj N-ixoq ;                 ! "beast, animal"
 ixim:ixim N-tinamit ;              ! "corn, dry corn kernels"
+alaxik:alaxik N-tinamit ;          ! "clan, patrilieage, relative, family member, birth"
+ajtij:ajtij N-iyom ;               ! "teacher"
+wach:wach N-ixoq ;                 ! "condition, appearance, face, countenance, eye"
+winaqil:winaqil  N-tinamit ;       ! "church community, people of a country, group, humanity"
+ichaj:ichaj N-tinamit ;            ! "edible green leaf, salad, herb, vegetables"
+patan:patan N-ixoq ;               ! "service, use, usefulness"
+jastaq:jastaq N-tinamit ;          ! "things, goods (already in plural form?)"
+chomanik:chomanik N-tinamit ;      ! "thought, worries"
+tzʼib:tzʼib N-tinamit ;            ! "letter, hand writing"
+
 
 LEXICON Adjectives
 
@@ -231,6 +241,9 @@ rajawaxik:rajawaxik A-saq ;        ! "importante; important, necessary"
 sib:sib A-saq ;                    ! "smoky-colored"
 alaj:alaj A-saq ;                  ! "small, little"
 taqal:taqal A-saq ;                ! "worthy"
+tzukum:tzukum A-saq ;              ! "hunted, elected, looked for, sought after"
+tzʼibʼatal:tzʼibʼatal A-saq ;      ! "written"
+jalajoj:jalajoj A-saq ;            ! "different, distinct"
 
 
 LEXICON Adverbs
