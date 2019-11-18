@@ -132,7 +132,7 @@ oj%<prn%>%<pers%>%<p1%>%<pl%>:oj # ;
 uj%<prn%>%<pers%>%<p1%>%<pl%>:uj # ;
 ix%<prn%>%<pers%>%<p2%>%<pl%>:ix # ;
 alaq%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:alaq # ;
-arʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:arʼeʼ # ; 
+arʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:arʼeʼ # ;
 
 LEXICON Num
 
@@ -145,6 +145,11 @@ LEXICON Asp
 
 LEXICON B
 
+B-IV ;
+B-TV ;
+
+LEXICON B-IV
+
 %<s_sg1%>:%>i%{m%} IV;
 %<s_sg2%>:%>at IV;
 ! %<s_sg2%>:%> IV;
@@ -154,9 +159,35 @@ LEXICON B
 ! %<s_pl2%>:%> IV;
 %<s_pl3%>:%>e IV;
 
+LEXICON A-TV
+
+%<s_sg1%>:%>i%{m%} TV;
+%<s_sg2%>:%>a TV;
+! %<s_sg2%>:%> TV;
+%<s_sg3%>:%>u TV;
+%<s_pl1%>:%>qa TV;
+%<s_pl2%>:%>i TV;
+! %<s_pl2%>:%> TV;
+%<s_pl3%>:%>ki TV;
+
+LEXICON B-TV
+
+%<o_sg1%>:%>i%{m%} A-TV;
+%<o_sg2%>:%>at A-TV;
+! %<o_sg2%>:%> A-TV;
+%<o_sg3%>:%> A-TV;
+%<o_pl1%>:%>%{o%}j A-TV;
+%<o_pl2%>:%>ix A-TV;
+! %<o_pl2%>:%> A-TV;
+%<o_pl3%>:%>e A-TV;
+
 LEXICON V-IV
 
 %<v%>%<iv%>:%> K ;
+
+LEXICON V-TV
+
+%<v%>%<tv%>:%> K ;
 
 LEXICON Pron-jasuch
 
@@ -339,6 +370,11 @@ el:%>el V-IV ;                      ! "salir; to leave"
 chʼaw:%>chʼaw V-IV ;                ! "hablar; to speak"
 opan:%>opan V-IV ;                  ! "llegar (alla); to arrive (there)"
 ul:%>ul V-IV ;                      ! "llegar (aqui); to arrive (here)"
+
+LEXICON TV
+
+sikʼij:sikʼij V-TV ;                ! "llamar; to call"
+chʼabʼej:chʼabʼej V-TV ;            ! "hablar; to speak"
 
 
 LEXICON Punctuation
