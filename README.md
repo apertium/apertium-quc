@@ -14,3 +14,9 @@ Some common Unicode encodings for apostrophe:
 * `ʼ`: `U+02BC MODIFIER LETTER APOSTROPHE` ✔
 * `’`: `U+2019 RIGHT SINGLE QUOTATION MARK`
 * `'`: `U+0027 APOSTROPHE` 
+
+Check for bad apostrophes:
+
+```
+$ grep -nH "[’']" apertium-quc.quc.lexc apertium-quc.quc.twol 
+```
