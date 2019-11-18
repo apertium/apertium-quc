@@ -63,12 +63,16 @@ LEXICON K
 
 LEXICON Poss
 Nouns ;
-%<px1sg%>:%{n%}u%> Nouns ; ! nu w
-%<px2sg%>:a%{w%}%> Nouns ; ! a aw
-%<px3sg%>:%{r%}%> Nouns ;  ! u r
-%<px1pl%>:q%{a%}%> Nouns ; ! qa q
-%<px2pl%>:i%{w%}%> Nouns ; ! i iw
-%<px3pl%>:k%{i%}%> Nouns ; ! ki k
+%<px1sg%>:%{n%}u%> Sust ; ! nu w
+%<px2sg%>:a%{w%}%> Sust ; ! a aw
+%<px3sg%>:%{r%}%> Sust ;  ! u r
+%<px1pl%>:q%{a%}%> Sust ; ! qa q
+%<px2pl%>:i%{w%}%> Sust ; ! i iw
+%<px3pl%>:k%{i%}%> Sust ; ! ki k
+
+LEXICON Sust
+Nouns ;
+Relationals ;
 
 LEXICON N-ixoq    ! -ibʼ
 
@@ -113,6 +117,11 @@ LEXICON Pr
 
 %<pr%>: # ;
 
+LEXICON Rel
+
+%<n%>%<rel%>: # ;
+
+
 LEXICON Num
 
 %<num%>: # ;
@@ -120,6 +129,7 @@ LEXICON Num
 LEXICON Asp
 
 %<impf%>:k%{a%} B ;
+%<perf%>:x B ;
 
 LEXICON B
 
@@ -151,6 +161,16 @@ chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, 
 pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
 jachaʼ:jachaʼ Pr ;                 ! "like, as"
 chuwach:chuwach Pr ;               ! "facing, before, ahead of"
+
+LEXICON Relationals
+
+ukʼ:ukʼ Rel ;                      ! "con"
+ech:ech Rel ;                      ! "de"
+umal:umal Rel ;                    ! "por"
+ibʼ:ibʼ Rel ;                      ! ""
+ach:ach Rel ;                      ! ""
+onojel:onojel Rel ;                ! "todos"
+tukel:tukel Rel ;                  ! "solo"
 
 LEXICON Determiners
 
@@ -286,6 +306,7 @@ na:na Ad-aninaq ;                  ! "marker of future or certainty"
 LEXICON Pronouns
 
 jachinaq:jachinaq Pron-jasuch ;      ! "quién es; who is"
+jachin:jachin Pron-jasuch ;          ! "quién; who"
 jasuch:jasuch Pron-jasuch ;          ! "qué es; what"
 jachike:jachike Pron-jasuch ;        ! "cuál es; which"
 janikʼipa:janikʼipa Pron-jasuch ;    ! "cuántos; how many"
