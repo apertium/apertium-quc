@@ -5,6 +5,7 @@ Multichar_Symbols
 %<n%>                ! Sustantivo; Noun
 %<adj%>              ! Adjetivo; Adjective
 %<pl%>               ! Plural
+%<prn%>              ! Pronombre; Pronoun
 %<adv%>              ! Adverb
 %<pr%>               ! Preposition
 %<num%>              ! Numerals
@@ -121,6 +122,9 @@ LEXICON Rel
 
 %<n%>%<rel%>: # ;
 
+LEXICON Pers 
+
+in%<prn%>%<pers%>%<p1%>%<sg%>:in # ; 
 
 LEXICON Num
 
@@ -177,6 +181,18 @@ LEXICON Determiners
 we%<det%>:we # ;                   ! "este; this"
 le%<det%>:le # ;                   ! "el; the"
 ri%<det%>:ri # ;                   ! "el; the"
+
+LEXICON Pronouns 
+
+Pers ;                             ! Pronombres personales
+
+jachinaq:jachinaq Pron-jasuch ;      ! "quién es; who is"
+jachin:jachin Pron-jasuch ;          ! "quién; who"
+jasuch:jasuch Pron-jasuch ;          ! "qué es; what"
+jachike:jachike Pron-jasuch ;        ! "cuál es; which"
+janikʼipa:janikʼipa Pron-jasuch ;    ! "cuántos; how many"
+
+
 
 LEXICON Numerals
 
@@ -302,14 +318,6 @@ waral:waral Ad-aninaq ;            ! "here"
 jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
 taj:taj Ad-aninaq ;                ! "indicator of negativity or doubtfulness"
 na:na Ad-aninaq ;                  ! "marker of future or certainty"
-
-LEXICON Pronouns
-
-jachinaq:jachinaq Pron-jasuch ;      ! "quién es; who is"
-jachin:jachin Pron-jasuch ;          ! "quién; who"
-jasuch:jasuch Pron-jasuch ;          ! "qué es; what"
-jachike:jachike Pron-jasuch ;        ! "cuál es; which"
-janikʼipa:janikʼipa Pron-jasuch ;    ! "cuántos; how many"
 
 LEXICON IV
 
