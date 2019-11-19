@@ -207,10 +207,14 @@ pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, int
 jachaʼ:jachaʼ Pr ;                 ! "like, as"
 chuwach:chuwach Pr ;               ! "facing, before, ahead of"
 
+
 ! Contracciones:
 chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:chiwech # ;  ! ""
-chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chkech  # ;  ! ""
+chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:chiwach # ;  ! ""
 chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:chech  # ;  ! ""
+chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:chqech # ;  ! ""
+!
+chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chkech  # ;  ! ""
 
 LEXICON Relationals
 
