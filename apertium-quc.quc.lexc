@@ -63,22 +63,22 @@ LEXICON K
                       # ;
 
 LEXICON Poss
-Nouns ;
-%<px1sg%>:%{n%}u%> Sust ; ! nu w
-%<px2sg%>:a%{w%}%> Sust ; ! a aw
-%<px3sg%>:%{r%}%> Sust ;  ! u r
-%<px1pl%>:q%{a%}%> Sust ; ! qa q
-%<px2pl%>:i%{w%}%> Sust ; ! i iw
-%<px3pl%>:k%{i%}%> Sust ; ! ki k
+                      Nouns ;
+%<px1sg%>:%{n%}u%>    Sust ; ! nu w
+%<px2sg%>:a%{w%}%>    Sust ; ! a aw
+%<px3sg%>:%{r%}%>     Sust ;  ! u r
+%<px1pl%>:q%{a%}%>    Sust ; ! qa q
+%<px2pl%>:i%{w%}%>    Sust ; ! i iw
+%<px3pl%>:k%{i%}%>    Sust ; ! ki k
 
 LEXICON Sust
-Nouns ;
-Relationals ;
+                      Nouns ;
+                      Relationals ;
 
 LEXICON N-ixoq    ! -ibʼ
 
-%<n%>%<pl%>:%>ibʼ # ;
-%<n%>: # ;
+%<n%>%<pl%>:%>ibʼ     # ;
+%<n%>:                # ;
 
 LEXICON N-iyom   ! -abʼ
 
@@ -128,6 +128,7 @@ in%<prn%>%<pers%>%<p1%>%<sg%>:in # ;
 at%<prn%>%<pers%>%<p2%>%<sg%>:at # ;
 lal%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>:lal # ;
 areʼ%<prn%>%<pers%>%<p3%>%<sg%>:areʼ # ;
+! FIXME: Comprueba las reglas para -oj/-uj
 oj%<prn%>%<pers%>%<p1%>%<pl%>:oj # ;
 uj%<prn%>%<pers%>%<p1%>%<pl%>:uj # ;
 ix%<prn%>%<pers%>%<p2%>%<pl%>:ix # ;
@@ -192,6 +193,7 @@ LEXICON V-TV
 LEXICON Pron-jasuch
 
 %<prn%>%<itg%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Miscellaneous
@@ -207,6 +209,7 @@ chuwach:chuwach Pr ;               ! "facing, before, ahead of"
 
 ! Contracciones:
 chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:chiwech # ;  ! ""
+chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chkech  # ;  ! ""
 
 LEXICON Relationals
 
