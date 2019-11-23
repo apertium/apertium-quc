@@ -18,6 +18,8 @@ Sets
 
 Vow = a e i o u ;
 
+ArchiVow = %{o%} ; 
+
 Rules
 
 "third person possessive"
@@ -27,7 +29,7 @@ Rules
 %{w%}:w <=> _ %>: Vow ;
 
 "a rule"
-Vx:0 <=> _ %>: Vow ;
+Vx:0 <=> _ %>: [ ArchiVow: | Vow ] ;
   Vow %>: _ ;
   where Vx in ( %{a%} %{i%}) ;
 
