@@ -323,6 +323,8 @@ ajawal:ajawal N-tinamit ;          ! "rey; king"
 cho:cho N-tinamit ;                ! "lago; lake"
 itzel:itzel N-tinamit ;            ! "badness, evil"
 kʼolibal:kʼolibal N-tinamit ;      ! "lugar; place"
+q’ij:q’ij N-tinamit ;              ! "día; day"
+amaq’:amaq’ N-tinamit ;            ! "país; country"
 
 
 LEXICON Adjectives
@@ -368,6 +370,7 @@ waral:waral Ad-aninaq ;            ! "here"
 jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
 taj:taj Ad-aninaq ;                ! "indicator of negativity or doubtfulness"
 na:na Ad-aninaq ;                  ! "marker of future or certainty"
+jik:jik Ad-aninaq ;                ! "faithful, just"
 
 LEXICON IV
 
@@ -378,11 +381,14 @@ el:%>el V-IV ;                      ! "salir; to leave"
 chʼaw:%>chʼaw V-IV ;                ! "hablar; to speak"
 opan:%>opan V-IV ;                  ! "llegar (allá); to arrive (there)"
 ul:%>ul V-IV ;                      ! "llegar (aquí); to arrive (here)"
+poroj:%>poroj V-IV ;                ! "quemar; to burn"
 
 LEXICON TV
 
 sikʼij:sikʼij V-TV ;                ! "llamar; to call"
 chʼabʼej:chʼabʼej V-TV ;            ! "hablar; to speak"
+oqʼ:oqʼ V-TV ;                      ! "llorar; to cry"
+
 
 
 LEXICON Punctuation
