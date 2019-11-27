@@ -325,6 +325,24 @@ itzel:itzel N-tinamit ;            ! "badness, evil"
 kʼolibal:kʼolibal N-tinamit ;      ! "lugar; place"
 q’ij:q’ij N-tinamit ;              ! "día; day"
 amaq’:amaq’ N-tinamit ;            ! "país; country"
+mul:mul N-tinamit ;                ! "time, furrow, anthill, mound"
+jumul:jumul N-tinamit ;            ! "one time, once, noise"
+Tikal:Tikal N-tinamit ;            ! "Tikal"
+nan:nan N-tinamit ;                ! "lady, ma'am, mother"
+ali:ali N-tinamit ;                ! "young girl"
+juperaj:juperaj N-tinamit ;        ! "one side"
+sikʼin:sikʼin N-tinamit ;          ! "guest, invited visitor"
+ukʼab:ukʼab N-tinamit ;            ! "edible green"
+nimal:nimal N-tinamit ;            ! "leader, size, greatness"
+nojimal:nojimal N-tinamit ;        ! "slowness"
+wiʼ:wiʼ N-tinamit ;                ! "extra"
+kumatz:kumatz N-tinamit ;          ! "snake, snake illness, stitch"
+tzʼiʼ:tzʼiʼ N-tinamit ;            ! "dog"
+kuk:kuk N-tinamit ;                ! "squirrel"
+ja:ja N-tinamit ;                  ! "house"
+cheʼ:cheʼ N-tinamit ;              ! "wood, tree, jail, pole"
+tzijobʼelil:tzijobʼelil N-tinamit ; ! "story"
+kʼaslemal:kʼaslemal N-tinamit ;    ! "life"
 
 
 LEXICON Adjectives
@@ -347,6 +365,15 @@ kʼin:kʼin A-saq ;                  ! "diminutivo; diminutive (used with animal
 e:e A-saq ;                        ! "plural marker"
 cho:cho A-saq ;                    ! "profundo; deep"
 itzel:itzel A-saq ;                ! "malo; bad, evil"
+sibʼalaj:sibʼalaj A-saq ;          ! "very"
+jik:jik A-saq ;                    ! "faithful, just"
+junam:junam A-saq ;                ! "equal, identical, together"
+kaq:kaq A-saq ;                    ! "rojo; red"
+nimaʼq:nimaʼq A-saq ;              ! "large (plural)"
+naj:naj A-saq ;                    ! "far, far away, long"
+jujun:jujun A-saq ;                ! "some, a few"
+komon:komon A-saq ;                ! "all"
+tzʼiʼ:tzʼiʼ A-saq ;                ! "foolish, disobedient"
 
 
 LEXICON Adverbs
@@ -370,7 +397,9 @@ waral:waral Ad-aninaq ;            ! "here"
 jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
 taj:taj Ad-aninaq ;                ! "indicator of negativity or doubtfulness"
 na:na Ad-aninaq ;                  ! "marker of future or certainty"
-jik:jik Ad-aninaq ;                ! "faithful, just"
+kanoq:kanoq Ad-aninaq ;            ! "left behind, behind, before"
+naj:naj Ad-aninaq ;                ! "from afar, for a long time"
+
 
 LEXICON IV
 
@@ -387,7 +416,15 @@ LEXICON TV
 
 sikʼij:sikʼij V-TV ;                ! "llamar; to call"
 chʼabʼej:chʼabʼej V-TV ;            ! "hablar; to speak"
-oqʼ:oqʼ V-TV ;                      ! "llorar; to cry"
+oqʼej:oqʼej V-TV ;                  ! "llorar; to cry"
+eqaj:eqaj V-TV ;                    ! "cargar (en la espalda); carry (on ones back)"
+elaq’aj:elaq’aj V-TV ;              ! "robar; to steal"
+esaj:esaj V-TV ;                    ! "sacar, quitar; to throw away"
+b’isoj:b’isoj V-TV ;                ! "extrañar; to miss (someone)"
+k’ayij:k’ayij V-TV ;                ! "vender; to sell"
+tzukuj:tzukuj V-TV ;                ! "buscar; to look (for someone, something)"
+chajij:chajij V-TV ;                ! "cuidar; to look after"
+loq’oj:loq’oj V-TV ;                ! "amar; to love"
 
 
 
