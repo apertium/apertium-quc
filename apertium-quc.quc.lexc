@@ -302,6 +302,7 @@ Dyos:Dyos N-tinamit ;              ! "Dios; God"
 uwachulew:uwachulew N-tinamit ;    ! "mundo; world"
 taqanik:taqanik N-tinamit ;        ! "commandment, authority, command"
 junab:junab N-tinamit ;            ! "year"
+junab':junab' N-tinamit ;          ! "year"
 tzaqatil:tzaqatil N-tinamit ;      ! "piece"
 tajin:tajin N-tinamit ;            ! "cultivation of land"
 achi:achi N-iyom ;                 ! "man"
@@ -354,6 +355,9 @@ neʼ:neʼ N-iyom ;                   ! "newborn baby"
 qʼij:qʼij N-tinamit ;              ! "day, sun"
 jaʼ:jaʼ N-tinamit ;                ! "water"
 juyub:juyub N-tinamit ;            ! "hill, mountain"
+tikoʼn:tikoʼn N-tinamit ;          ! "cultivated plot, creation"
+kunabʼal:kunabʼal N-tinamit ;      ! "medicine, insecticide"
+chuch:chuch N-tinamit ;            ! "mother"
 
 
 LEXICON Adjectives
@@ -381,6 +385,7 @@ jik:jik A-saq ;                    ! "faithful, just"
 junam:junam A-saq ;                ! "equal, identical, together"
 kaq:kaq A-saq ;                    ! "rojo; red"
 nimaʼq:nimaʼq A-saq ;              ! "large (plural)"
+nimaq:nimaq A-saq ;                ! "large (plural)"
 naj:naj A-saq ;                    ! "far, far away, long"
 jujun:jujun A-saq ;                ! "some, a few"
 komon:komon A-saq ;                ! "all"
@@ -432,6 +437,7 @@ chʼaw:%>chʼaw V-IV ;                ! "hablar; to speak"
 opan:%>opan V-IV ;                  ! "llegar (allá); to arrive (there)"
 ul:%>ul V-IV ;                      ! "llegar (aquí); to arrive (here)"
 poroj:%>poroj V-IV ;                ! "quemar; to burn"
+qʼay:%>qʼay V-IV ;                  ! "to rot, decompose"
 
 LEXICON TV
 
