@@ -206,6 +206,7 @@ chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, 
 pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
 jachaʼ:jachaʼ Pr ;                 ! "like, as"
 chuwach:chuwach Pr ;               ! "facing, before, ahead of"
+ikim:ikim Pr ;                     ! "down below"
 
 
 ! Contracciones:
@@ -240,6 +241,7 @@ jachinaq:jachinaq Pron-jasuch ;      ! "quién es; who is"
 jachin:jachin Pron-jasuch ;          ! "quién; who"
 jasuch:jasuch Pron-jasuch ;          ! "qué es; what"
 jachike:jachike Pron-jasuch ;        ! "cuál es; which"
+jachke:jachke Pron-jasuch ;          ! "cuál es; which"
 janikʼipa:janikʼipa Pron-jasuch ;    ! "cuántos; how many"
 
 
@@ -300,6 +302,7 @@ Dyos:Dyos N-tinamit ;              ! "Dios; God"
 uwachulew:uwachulew N-tinamit ;    ! "mundo; world"
 taqanik:taqanik N-tinamit ;        ! "commandment, authority, command"
 junab:junab N-tinamit ;            ! "year"
+junab':junab' N-tinamit ;          ! "year"
 tzaqatil:tzaqatil N-tinamit ;      ! "piece"
 tajin:tajin N-tinamit ;            ! "cultivation of land"
 achi:achi N-iyom ;                 ! "man"
@@ -343,6 +346,18 @@ ja:ja N-tinamit ;                  ! "house"
 cheʼ:cheʼ N-tinamit ;              ! "wood, tree, jail, pole"
 tzijobʼelil:tzijobʼelil N-tinamit ; ! "story"
 kʼaslemal:kʼaslemal N-tinamit ;    ! "life"
+kʼicheʼ:kʼicheʼ N-tinamit ;         ! "Kʼicheʼ"
+tzijobʼal:tzijobʼal N-tinamit ;    ! "information"
+wa:wa N-tinamit ;                  ! "food"
+nikʼaj:nikʼaj N-tinamit ;          ! "half"
+qʼatbʼaltzij:qʼatbʼaltzij N-tinamit ;  ! "law, courthouse, judge, government, verdict"
+neʼ:neʼ N-iyom ;                   ! "newborn baby"
+qʼij:qʼij N-tinamit ;              ! "day, sun"
+jaʼ:jaʼ N-tinamit ;                ! "water"
+juyub:juyub N-tinamit ;            ! "hill, mountain"
+tikoʼn:tikoʼn N-tinamit ;          ! "cultivated plot, creation"
+kunabʼal:kunabʼal N-tinamit ;      ! "medicine, insecticide"
+chuch:chuch N-tinamit ;            ! "mother"
 
 
 LEXICON Adjectives
@@ -370,10 +385,18 @@ jik:jik A-saq ;                    ! "faithful, just"
 junam:junam A-saq ;                ! "equal, identical, together"
 kaq:kaq A-saq ;                    ! "rojo; red"
 nimaʼq:nimaʼq A-saq ;              ! "large (plural)"
+nimaq:nimaq A-saq ;                ! "large (plural)"
 naj:naj A-saq ;                    ! "far, far away, long"
 jujun:jujun A-saq ;                ! "some, a few"
 komon:komon A-saq ;                ! "all"
 tzʼiʼ:tzʼiʼ A-saq ;                ! "foolish, disobedient"
+Kʼicheʼ:Kʼicheʼ A-saq ;            ! "Kʼicheʼ"
+Ukabʼ:Ukabʼ A-saq ;                ! "Second"
+rajawixik:rajawixik A-saq ;        ! "important"
+yaʼtalik:yaʼtalik A-saq ;          ! "given, permitted"
+wiʼ:wiʼ A-saq ;                    ! "extra"
+juyubʼ:juyubʼ A-saq ;              ! "steep"
+
 
 
 LEXICON Adverbs
@@ -399,6 +422,9 @@ taj:taj Ad-aninaq ;                ! "indicator of negativity or doubtfulness"
 na:na Ad-aninaq ;                  ! "marker of future or certainty"
 kanoq:kanoq Ad-aninaq ;            ! "left behind, behind, before"
 naj:naj Ad-aninaq ;                ! "from afar, for a long time"
+are:are Ad-aninaq ;                ! "when, while"
+ne:ne Ad-aninaq ;                  ! "marker of doubt"
+apawijeʼ:apawijeʼ Ad-aninaq ;      ! "wherever"
 
 
 LEXICON IV
@@ -411,6 +437,7 @@ chʼaw:%>chʼaw V-IV ;                ! "hablar; to speak"
 opan:%>opan V-IV ;                  ! "llegar (allá); to arrive (there)"
 ul:%>ul V-IV ;                      ! "llegar (aquí); to arrive (here)"
 poroj:%>poroj V-IV ;                ! "quemar; to burn"
+qʼay:%>qʼay V-IV ;                  ! "to rot, decompose"
 
 LEXICON TV
 
