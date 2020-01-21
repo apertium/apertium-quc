@@ -227,6 +227,7 @@ LEXICON Miscellaneous
 taq%<pl%>:taq # ;
 la%<qst%>:la # ;
 wi%<part%>:wi # ;
+man%<neg%>:man # ;
 
 LEXICON Prepositions
 
@@ -252,6 +253,7 @@ ukʼ:ukʼ Rel ;                      ! "con"
 ech:ech Rel ;                      ! "de"
 umal:umal Rel ;                    ! "por"
 ibʼ:ibʼ Rel ;                      ! ""
+ibʼ:ib Rel ;                       ! "" ! Src/diccionario
 ach:ach Rel ;                      ! ""
 onojel:onojel Rel ;                ! "todos"
 tukel:tukel Rel ;                  ! "solo"
