@@ -18,6 +18,9 @@ Multichar_Symbols
 %<cnjcoo%>           ! Coordinating conjunction
 %<np%>               ! Nombre Propio
 %<top%>              ! Toponimo
+%<ant%>              ! Anthroponym
+%<m%>                ! Masculino
+%<f%>                ! Femenino
 %<part%>             ! Particle
 
 %<px1sg%>            ! First person singular possessive
@@ -219,6 +222,12 @@ LEXICON CC
 
 LEXICON NP-Top
 %<np%>%<top%>: # ;
+
+LEXICON NP-Ant-M
+%<np%>%<ant%>%<m%>: # ;
+
+LEXICON NP-Ant-F
+%<np%>%<ant%>%<f%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -3664,6 +3673,8 @@ yutʼuyik:yutʼuyik N-tinamit ; ! "bundle"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
+Jesus:Jesus NP-Ant-M ;
+Mariʼy:Mariʼy NP-Ant-F ;
 
 
 LEXICON Adjectives
@@ -3706,6 +3717,7 @@ nabʼe:nabʼe A-saq ;                ! "first"
 laj:laj A-saq ;                    ! "small"
 riqom:riqom A-saq ;                ! "found"
 petniaq:petinaq A-saq ;            ! "arrived, come"
+nimalaj:nimalaf A-saq ;            ! "great"
 
 
 
