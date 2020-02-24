@@ -261,21 +261,31 @@ aj:aj Pr ;                         ! "of"
 
 
 ! Contracciones:
-chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:chiwech # ;  ! ""
-chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:chiwach # ;  ! ""
-chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:chech  # ;  ! ""
-chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:chqech # ;  ! ""
-!
-chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chkech  # ;  ! ""
+chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>wech # ;  ! ""
+chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:cha%>wech # ;  ! ""
+!chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:chi%>wach # ;  ! ""
+chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>ech  # ;  ! ""
+chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>qech # ;  ! ""
+chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>wech # ;  ! ""
+!chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:chi%>wach # ;  ! ""
+chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>kech  # ;  ! ""
 
-chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
-chi%<pr%>%+awe%<prn%>%<pers%>%<p2%>%<sg%>:chawe # ; ! ""
+! Estos parecen contracciones también, chi + POSS + wach "face"
+chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:ch%>nu%>wach # ; ! ""
+chi%<pr%>%+%<px2sg%>wach%<n%>%<rel%>:ch%>a%>wach # ; ! ""
+chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>u%>wach # ; ! ""
+chi%<pr%>%+%<px1pl%>wach%<n%>%<rel%>:ch%>qa%>wach # ; ! ""
+chi%<pr%>%+%<px2pl%>wach%<n%>%<rel%>:ch%>i%>wach # ; ! ""
+chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:ch%>ki%>wach # ; ! ""
+
+chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:ch%>we # ; ! ""
+chi%<pr%>%+awe%<prn%>%<pers%>%<p2%>%<sg%>:ch%>awe # ; ! ""
 !chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
-chi%<pr%>%+re%<prn%>%<pers%>%<p3%>%<sg%>:che # ; ! ""
-chi%<pr%>%+qe%<prn%>%<pers%>%<p1%>%<pl%>:chqe # ; ! ""
-chi%<pr%>%+iwe%<prn%>%<pers%>%<p2%>%<pl%>:chiwe # ; ! ""
+chi%<pr%>%+re%<prn%>%<pers%>%<p3%>%<sg%>:ch%>e # ; ! ""
+chi%<pr%>%+qe%<prn%>%<pers%>%<p1%>%<pl%>:ch%>qe # ; ! ""
+chi%<pr%>%+iwe%<prn%>%<pers%>%<p2%>%<pl%>:ch%>iwe # ; ! ""
 !chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
-chi%<pr%>%+ke%<prn%>%<pers%>%<p3%>%<pl%>:chke # ; ! ""
+chi%<pr%>%+ke%<prn%>%<pers%>%<p3%>%<pl%>:ch%>ke # ; ! ""
 
 LEXICON Relationals
 
@@ -287,6 +297,7 @@ ibʼ:ib Rel ;                       ! "" ! Src/diccionario
 ach:ach Rel ;                      ! ""
 onojel:onojel Rel ;                ! "todos"
 tukel:tukel Rel ;                  ! "solo"
+wach:wach Rel ;                    ! "frente"
 
 LEXICON Determiners
 
