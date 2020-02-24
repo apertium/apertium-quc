@@ -22,6 +22,7 @@ Multichar_Symbols
 %<m%>                ! Masculino
 %<f%>                ! Femenino
 %<part%>             ! Particle
+%<mod%>              ! Modal
 
 %<px1sg%>            ! First person singular possessive
 %<px2sg%>            ! Second person singular possessive
@@ -190,14 +191,15 @@ LEXICON B-IV
 
 LEXICON A-TV
 
-%<s_sg1%>:%>i%{m%} TV;
-%<s_sg2%>:%>a TV;
+%<s_sg1%>:%>%{n%}u TV;
+%<s_sg2%>:%>a%{w%} TV;
 ! %<s_sg2%>:%> TV;
-%<s_sg3%>:%>u TV;
-%<s_pl1%>:%>qa TV;
-%<s_pl2%>:%>i TV;
+%<s_sg3%>:%>%{r%} TV;
+%<s_pl1%>:%>q%{a%} TV;
+%<s_pl2%>:%>i%{w%} TV;
 ! %<s_pl2%>:%> TV;
-%<s_pl3%>:%>ki TV;
+%<s_pl3%>:%>k%{i%} TV;
+
 
 LEXICON B-TV
 
@@ -246,6 +248,7 @@ taq%<pl%>:taq # ;
 la%<qst%>:la # ;
 wi%<part%>:wi # ;
 man%<neg%>:man # ;
+ta%<mod%>:ta # ;
 
 LEXICON Prepositions
 
