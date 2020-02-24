@@ -22,6 +22,10 @@ ArchiVow = %{o%} ;
 
 Rules
 
+"Remove beginning and end of token boundaries"
+%>:0 <=> _ .#. ;
+         .#. _ ; 
+
 "third person possessive"
 %{r%}:r <=> _ %>: Vow ;
 

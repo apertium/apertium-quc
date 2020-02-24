@@ -1,6 +1,9 @@
-all: quc.gen.hfst quc.mor.hfst quc.mor.hfstol 
+all: quc.gen.hfst quc.mor.hfst quc.seg.hfst quc.mor.hfstol quc.seg.hfstol
 
 quc.mor.hfstol: quc.mor.hfst 
+	hfst-fst2fst -w $< -o $@
+
+quc.seg.hfstol: quc.seg.hfst 
 	hfst-fst2fst -w $< -o $@
 
 quc.mor.hfst: quc.gen.hfst quc.mor.twol.hfst quc.spellrelax.hfst
