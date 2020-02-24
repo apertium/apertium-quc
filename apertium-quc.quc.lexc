@@ -265,6 +265,15 @@ chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:chqech # ;  ! ""
 !
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chkech  # ;  ! ""
 
+chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
+chi%<pr%>%+awe%<prn%>%<pers%>%<p2%>%<sg%>:chawe # ; ! ""
+!chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
+chi%<pr%>%+re%<prn%>%<pers%>%<p3%>%<sg%>:che # ; ! ""
+chi%<pr%>%+qe%<prn%>%<pers%>%<p1%>%<pl%>:chqe # ; ! ""
+chi%<pr%>%+iwe%<prn%>%<pers%>%<p2%>%<pl%>:chiwe # ; ! ""
+!chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
+chi%<pr%>%+ke%<prn%>%<pers%>%<p3%>%<pl%>:chke # ; ! ""
+
 LEXICON Relationals
 
 ukʼ:ukʼ Rel ;                      ! "con"
