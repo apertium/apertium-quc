@@ -65,7 +65,7 @@ Punctuation ;
 Barbarisms ;
 Conjunctions ;
 Propios ;
-Digits ; 
+Digits ;
 
 Poss ;
 Asp ;
@@ -160,7 +160,7 @@ alaq%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:alaq # ;
 arʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:arʼeʼ # ;
 eʼarʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:eʼarʼeʼ # ;
 eʼarʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:eʼareʼ # ;
-eʼarʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:e% areʼ # ; 
+eʼarʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:e% areʼ # ;
 
 LEXICON Num
 
@@ -3632,6 +3632,7 @@ yab:yab N-tinamit ; ! "sickness"
 !yabal qʼaqʼ:yabal qʼaqʼ N-tinamit ; ! "torch"
 !yabal tzij:yabal tzij N-tinamit ; ! "promise"
 yabil:yabil N-tinamit ; ! "illness"
+yabil:yabʼil N-tinamit ; ! "illness"
 !-yabil ixoq:-yabil ixoq N-tinamit ; ! "menstruation"
 !yabil re ikʼ:yabil re ikʼ N-tinamit ; ! "menstrual period"
 yabwäch:yabwäch N-tinamit ; ! "sickness of the eye"
@@ -3688,8 +3689,8 @@ Judeʼa:Judeʼa NP-Top ;
 Masedoniʼa:Masedoniʼa NP-Top ;
 
 Jesus:Jesus NP-Ant-M ;
-Pabʼlo:Pabʼlo NP-Ant-M ; 
-Isaʼak:Isaʼak NP-Ant-M ; 
+Pabʼlo:Pabʼlo NP-Ant-M ;
+Isaʼak:Isaʼak NP-Ant-M ;
 Moʼises:Moʼises  NP-Ant-M ;
 Abʼraham:Abʼraham NP-Ant-M ;
 David:David NP-Ant-M ;
@@ -5547,8 +5548,8 @@ LEXICON Punctuation
 
 LEXICON NUM
 
-%<num%>: # ; 
+%<num%>: # ;
 
-LEXICON Digits 
+LEXICON Digits
 
-<[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ; 
+<[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ;
