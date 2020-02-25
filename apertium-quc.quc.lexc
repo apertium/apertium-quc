@@ -3717,6 +3717,12 @@ Galileʼa:Galileʼa NP-Top ;
 Judeʼa:Judeʼa NP-Top ;
 Masedoniʼa:Masedoniʼa NP-Top ;
 
+Antiʼokiʼa:Antiʼokiʼa NP-Top ;
+Egipto:Egipto NP-Top ;
+Jordan:Jordan NP-Top ;
+Damasko:Damasko NP-Top ;
+Bʼabʼiloniʼa:Bʼabʼiloniʼa NP-Top ;
+
 Jesus:Jesus NP-Ant-M ;
 Wel:Wel NP-Ant-M ;
 Pabʼlo:Pabʼlo NP-Ant-M ;
@@ -3733,6 +3739,15 @@ Timoteʼo:Timoteʼo NP-Ant-M ;
 Felipe:Felipe NP-Ant-M ;
 Jesukristo:Jesukristo NP-Ant-M ;
 Lasaro:Lasaro NP-Ant-M ;
+
+Simon:Simon NP-Ant-M ;
+Bʼernabʼe:Bʼernabʼe NP-Ant-M ;
+Eliʼas:Eliʼas NP-Ant-M ;
+Saʼulo:Saʼulo NP-Ant-M ;
+Jakobʼ:Jakobʼ NP-Ant-M ;
+Isaʼiʼas:Isaʼiʼas NP-Ant-M ;
+Salomon:Salomon NP-Ant-M ;
+
 
 Mariʼy:Mariʼy NP-Ant-F ;
 
