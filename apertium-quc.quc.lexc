@@ -123,7 +123,7 @@ LEXICON N-chuch
 %<n%>%<pl%>:%>uʼibʼ     # ;
 %<n%>: # ;
 
-!LEXICON N-chi’
+!LEXICON N-chiʼ
 
 !<n%>: # ;
 
@@ -249,6 +249,9 @@ la%<qst%>:la # ;
 wi%<part%>:wi # ;
 man%<neg%>:man # ;
 ta%<mod%>:ta # ;
+kʼo%<part%>%+ik%<mark%>:kʼol%>%{i%}k # ;
+kʼo%<part%>:kʼo # ;
+
 
 LEXICON Prepositions
 
