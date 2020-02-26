@@ -258,7 +258,7 @@ ta%<mod%>:ta # ;
 kʼo%<part%>%+ik%<mark%>:kʼol%>%{i%}k # ;
 kʼo%<part%>:kʼo # ;
 tajin%<aux%>:tajin # ;  ! Use/Colloq
-katajin%<aux%>:katajin # ; 
+katajin%<aux%>:katajin # ;
 
 
 LEXICON Prepositions
@@ -3718,14 +3718,14 @@ yutʼ:yutʼ N-tinamit ; ! "knot"
 yutʼbal:yutʼbal N-tinamit ; ! "dressing (for wound)"
 yutʼuyik:yutʼuyik N-tinamit ; ! "bundle"
 
-alkalte’:alkalte’ N-tinamit ; 
-alkalte:alkalte N-tinamit ; 
+alkalte’:alkalte’ N-tinamit ;
+alkalte:alkalte N-tinamit ;
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Jerusalem:Jerusalem NP-Top ;
 Israʼel:Israʼel NP-Top ;
-Nawaljaʼ:Nawaljaʼ NP-Top ; 
+Nawaljaʼ:Nawaljaʼ NP-Top ;
 Galileʼa:Galileʼa NP-Top ;
 Judeʼa:Judeʼa NP-Top ;
 Masedoniʼa:Masedoniʼa NP-Top ;
@@ -3809,7 +3809,7 @@ laj:laj A-saq ;                    ! "small"
 laʼj:laj A-saq ;                   ! "small"
 riqom:riqom A-saq ;                ! "found"
 petinaq:petinaq A-saq ;            ! "arrived, come"
-nimalaj:nimalaf A-saq ;            ! "great"
+nimalaj:nimalaj A-saq ;            ! "great"
 a:a A-saq ; ! "masculine youth indicator (a Xuan = the young Juan)"
 aʼtam:aʼtam A-saq ; ! "early"
 achʼiʼy:achʼiʼy A-saq ; ! "elastic"
@@ -5695,7 +5695,7 @@ de%<pr%>%<barb%>:de #  ;
 
 LEXICON Conjunctions
 xaneʼ:xaneʼ   CC ;                  ! "pero; but"
-xane:xane   CC ;                    ! "pero; but" 
+xane:xane   CC ;                    ! "pero; but"
 tzare:tzare   CC ;                  ! "pero; but"
 on:on CC ;                          ! "o; or"
 
