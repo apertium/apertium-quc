@@ -4478,6 +4478,7 @@ ojeer:ojeer Ad-aninaq ;            ! "hace tiempo; long time"
 iwiir:iwiir Ad-aninaq ;            ! "ayer; yesterday"
 chweʼq:chweʼq Ad-aninaq ;          ! "mañana; tomorrow"
 kamiik:kamiik Ad-aninaq ;          ! "hoy; today"
+kamik:kamik Ad-aninaq ;            ! "hoy; today" ! Src/UTexas
 weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
 je:je Ad-aninaq ;                  ! "sí; yes"
 jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
@@ -5583,7 +5584,7 @@ pax:pax V-TV ;                      ! "romper; break"
 pis:pis V-TV ;                      ! "envolver, vendar; wrap, bandage"
 tzʼuʼ:tzʼuʼ V-TV ;                  ! "chupar; suck"
 etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
-eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/utexas
+eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
 
 LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
