@@ -270,17 +270,24 @@ chuwach:chuwach Pr ;               ! "facing, before, ahead of"
 ikim:ikim Pr ;                     ! "down below"
 aj:aj Pr ;                         ! "of"
 
+! nu w
+! a aw
+! u r
+! qa q
+! i iw
+! ki k
 
 ! Contracciones:
-chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>wech # ;  ! ""
-chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:cha%>wech # ;  ! ""
+chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>w%>ech # ;  ! ""
+chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>ech # ;  ! ""
 !chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:chi%>wach # ;  ! ""
 chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>ech  # ;  ! ""
-chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>qech # ;  ! ""
-chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:chi%>qech # ;  ! ""
-chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>wech # ;  ! ""
+chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>r%>ech  # ;  ! "" ! Src/Biblia
+chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>q%>ech # ;  ! ""
+chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:chi%>q%>ech # ;  ! ""
+chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>w%>ech # ;  ! ""
 !chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:chi%>wach # ;  ! ""
-chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>kech  # ;  ! ""
+chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>k%>ech  # ;  ! ""
 
 ! Estos parecen contracciones también, chi + POSS + wach "face"
 chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:ch%>nu%>wach # ; ! ""
