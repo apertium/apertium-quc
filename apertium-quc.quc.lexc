@@ -5573,7 +5573,7 @@ pax:pax V-TV ;                      ! "romper; break"
 pis:pis V-TV ;                      ! "envolver, vendar; wrap, bandage"
 tzʼuʼ:tzʼuʼ V-TV ;                  ! "chupar; suck"
 etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
-etaʼmaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/utexas
+eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/utexas
 
 LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
