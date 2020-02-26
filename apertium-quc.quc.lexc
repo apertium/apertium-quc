@@ -229,8 +229,12 @@ LEXICON Pron-waʼ
 
 %<prn%>%<dem%>: # ;
 
+LEXICON CS
+%<cnjsub%>: # ;
+
+
 LEXICON CC
-%<cjncoo%>: # ;
+%<cnjcoo%>: # ;
 
 LEXICON NP-Top
 %<np%>%<top%>: # ;
@@ -5579,7 +5583,12 @@ LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
 
 LEXICON Conjunctions
-xaneʼ:xaneʼ   CC ;                  ! "but"
+xaneʼ:xaneʼ   CC ;                  ! "pero; but"
+xane:xane   CC ;                    ! "pero; but" 
+tzare:tzare   CC ;                  ! "pero; but"
+
+we:we CS ;                          ! "si; if"
+pune:pune CS ;                      ! "aunque; although"
 
 LEXICON Punctuation
 
