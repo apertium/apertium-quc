@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <mode name="quc-morph" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w">
+        <file name="quc.mor.hfstol"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="quc-disam" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w">
+        <file name="quc.mor.hfstol"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="quc.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+</modes>
