@@ -126,7 +126,21 @@ LEXICON N-chuch
 
 !LEXICON N-chiʼ
 
-!<n%>: # ;
+!%<n%>: # ;
+
+LEXICON N-estado
+
+%<n%>%<barb%>: # ;
+%<n%>%<barb%>%<pl%>:%>s # ;
+
+LEXICON N-reacción
+
+%<n%>%<barb%>:ón # ;
+%<n%>%<barb%>%<pl%>:on%>es # ;
+
+LEXICON N-virus
+
+%<n%>%<barb%>: # ;
 
 LEXICON A-saq
 
@@ -240,6 +254,9 @@ LEXICON CC
 LEXICON NP-Top
 %<np%>%<top%>: # ;
 
+LEXICON NP-Top-Barb
+%<np%>%<top%>%<barb%>: # ;
+
 LEXICON NP-Ant-M
 %<np%>%<ant%>%<m%>: # ;
 
@@ -335,6 +352,7 @@ jachinaq:jachinaq Pron-jasuch ;      ! "quién es; who is"
 jachin:jachin Pron-jasuch ;          ! "quién; who"
 jasuch:jasuch Pron-jasuch ;          ! "qué es; what"
 jachike:jachike Pron-jasuch ;        ! "cuál es; which"
+jachike:jachikeʼ Pron-jasuch ;        ! "cuál es; which" ! Src/Biblia
 jachke:jachke Pron-jasuch ;          ! "cuál es; which"
 janikʼipa:janikʼipa Pron-jasuch ;    ! "cuántos; how many"
 jas:jas Pron-jasuch ;                ! "cual; "     ! FIXME
@@ -3744,6 +3762,7 @@ Damasko:Damasko NP-Top ;
 Bʼabʼiloniʼa:Bʼabʼiloniʼa NP-Top ;
 
 Jesus:Jesus NP-Ant-M ;
+Carlos:Carlos NP-Ant-M ; 
 Wel:Wel NP-Ant-M ;
 Pabʼlo:Pabʼlo NP-Ant-M ;
 Isaʼak:Isaʼak NP-Ant-M ;
@@ -3772,6 +3791,7 @@ Salomon:Salomon NP-Ant-M ;
 
 Mariʼy:Mariʼy NP-Ant-F ;
 Marta:Marta NP-Ant-F ;
+
 
 
 LEXICON Adjectives
@@ -5696,13 +5716,102 @@ pis:pis V-TV ;                      ! "envolver, vendar; wrap, bandage"
 tzʼuʼ:tzʼuʼ V-TV ;                  ! "chupar; suck"
 etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
 eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
-bij:bij V-TV ;                      ! "to say" ! Src/dictionary
-bij:bʼij V-TV ;                     ! "to say" ! Src/Lopez Ixcoy 1997
+bij:bij V-TV ;                      ! "to say" ! Src/Dico
+bij:bʼij V-TV ;                     ! "to say" ! Src/Ixcoy1997
 ban:ban V-TV ;                      ! "to say" ! Src/Dico
-ban:bʼan V-TV ;                     ! "to say" ! Src/Bible
+ban:bʼan V-TV ;                     ! "to say" ! Src/Biblia
 
 LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
+
+África:África NP-Top-Barb ; ! ""
+Africa:Africa NP-Top-Barb ; ! ""
+América:América NP-Top-Barb ; ! ""
+Argentina:Argentina NP-Top-Barb ; ! ""
+Asia:Asia NP-Top-Barb ; ! ""
+Australia:Australia NP-Top-Barb ; ! ""
+Bolivia:Bolivia NP-Top-Barb ; ! ""
+Brasil:Brasil NP-Top-Barb ; ! ""
+Chile:Chile NP-Top-Barb ; ! ""
+Colombia:Colombia NP-Top-Barb ; ! ""
+Congo:Congo NP-Top-Barb ; ! ""
+Cuenca:Cuenca NP-Top-Barb ; ! ""
+Escocia:Escocia NP-Top-Barb ; ! ""
+Europa:Europa NP-Top-Barb ; ! ""
+Grecia:Grecia NP-Top-Barb ; ! ""
+Guatemala:Guatemala NP-Top-Barb ; ! ""
+Guinea:Guinea NP-Top-Barb ; ! ""
+India:India NP-Top-Barb ; ! ""
+Liberia:Liberia NP-Top-Barb ; ! ""
+Man:Man NP-Top-Barb ; ! ""
+Maryland:Maryland NP-Top-Barb ; ! ""
+Nigeria:Nigeria NP-Top-Barb ; ! ""
+Paraguay:Paraguay NP-Top-Barb ; ! ""
+Sudán:Sudán NP-Top-Barb ; ! ""
+Sur:Sur NP-Top-Barb ; ! ""
+Uganda:Uganda NP-Top-Barb ; ! ""
+Venezuela:Venezuela NP-Top-Barb ; ! ""
+Wisconsin:Wisconsin NP-Top-Barb ; ! ""
+
+anafilaxia:anafilaxia N-estado ; ! ""
+estreptocócica:estreptocócica N-estado ; ! ""
+epinefrina:epinefrina N-estado ; ! ""
+ébola:ébola N-estado ; ! ""
+interferón:interferón N-estado ; ! ""
+
+abuelo:abuelo N-estado ; ! ""
+alergia:alergia N-estado ; ! ""
+antibiótico:antibiótico N-estado ; ! ""
+cefalea:cefalea N-estado ; ! ""
+centímetro:centímetro N-estado ; ! ""
+citoquina:citoquina N-estado ; ! ""
+corticosteroide:corticosteroide N-estado ; ! ""
+dólar:dólar N-estado ; ! ""
+eosinófilo:eosinófilo N-estado ; ! ""
+estado:estado N-estado ; ! ""
+esteroide:esteroide N-estado ; ! ""
+estreptococo:estreptococo N-estado ; ! ""
+ganglio:ganglio N-estado ; ! ""
+garbanzo:garbanzo N-estado ; ! ""
+griego:griego N-estado ; ! ""
+himenóptero:himenóptero N-estado ; ! ""
+ingreso:ingreso N-estado ; ! ""
+mastocito:mastocito N-estado ; ! ""
+mediador:mediador N-estado ; ! ""
+milímetro:milímetro N-estado ; ! ""
+órgano:órgano N-estado ; ! ""
+paperas:paperas N-estado ; ! ""
+penicilina:penicilina N-estado ; ! ""
+proteína:proteína N-estado ; ! ""
+rayo:rayo N-estado ; ! ""
+autopsia:autopsia N-estado ; ! ""
+barbero:barbero N-estado ; ! ""
+basófilo:basófilo N-estado ; ! ""
+santo:santo N-estado ; ! ""
+serotipo:serotipo N-estado ; ! ""
+usuario:usuario N-estado ; ! ""
+influenza:influenza N-estado ; ! ""
+vitamina:vitamina N-estado ; ! ""
+histamina:histamina N-estado ; ! ""
+siglo:siglo N-estado ; ! ""
+
+millón:mill N-reacción ; ! ""
+reacción:reacci N-reacción ; ! ""
+donación:donaci N-reacción ; ! ""
+
+hepatitis:hepatitis N-virus ; ! ""
+virus:virus N-virus ; ! ""
+adenovirus:adenovirus N-virus ; ! ""
+rinovirus:rinovirus N-virus ; ! ""
+picornavirus:picornavirus N-virus ; ! ""
+metapneumovirus:metapneumovirus N-virus ; ! ""
+enterovirus:enterovirus N-virus ; ! ""
+coronavirus:coronavirus N-virus ; ! ""
+
+chupador:chupador N-estado ; ! ""
+
+!europeo:europeo N-estado ; ! ""
+!terapéutico:terapéutic N- ; ! ""
 
 LEXICON Conjunctions
 xaneʼ:xaneʼ   CC ;                  ! "pero; but"
@@ -5746,7 +5855,9 @@ LEXICON Punctuation
 LEXICON NUM
 
 %<num%>: # ;
+%<num%>%<percent%>:%% # ;
 
 LEXICON Digits
 
 <[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ;
+<[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ [ %, | %. ] [ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ;
