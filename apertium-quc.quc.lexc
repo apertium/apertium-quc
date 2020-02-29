@@ -207,7 +207,7 @@ LEXICON B-IV
 
 LEXICON A-TV
 
-%<s_sg1%>:%>%{n%}u     TV;     ! in inw
+%<s_sg1%>:%>in%{w%}    TV;     ! in inw
 %<s_sg2%>:%>a%{w%}     TV;     ! a  aw
 ! %<s_sg2%>:%> TV;
 %<s_sg3%>:%>%{r%}      TV;     ! u  r
@@ -3763,7 +3763,7 @@ Damasko:Damasko NP-Top ;
 Bʼabʼiloniʼa:Bʼabʼiloniʼa NP-Top ;
 
 Jesus:Jesus NP-Ant-M ;
-Carlos:Carlos NP-Ant-M ; 
+Carlos:Carlos NP-Ant-M ;
 Wel:Wel NP-Ant-M ;
 Pabʼlo:Pabʼlo NP-Ant-M ;
 Isaʼak:Isaʼak NP-Ant-M ;
