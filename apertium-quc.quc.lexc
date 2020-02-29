@@ -271,6 +271,7 @@ jachaʼ:jachaʼ Pr ;                 ! "like, as"
 chuwach:chuwach Pr ;               ! "facing, before, ahead of"
 ikim:ikim Pr ;                     ! "down below"
 aj:aj Pr ;                         ! "of"
+kʼa:kʼa Pr ;                       ! "hasta"
 
 ! nu w
 ! a aw
@@ -4488,6 +4489,7 @@ kamiik:kamiik Ad-aninaq ;          ! "hoy; today"
 kamik:kamik Ad-aninaq ;            ! "hoy; today" ! Src/UTexas
 weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
 je:je Ad-aninaq ;                  ! "sí; yes"
+je:jeʼ Ad-aninaq ;                 ! "sí; yes" ! Src/Lopez Ixcoy 1997
 jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 aretaq:aretaq Ad-aninaq ;          ! "when, while"
