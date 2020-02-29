@@ -236,6 +236,17 @@ LEXICON V-TV
 
 %<v%>%<tv%>: K ;
 
+LEXICON V-TV-O
+
+%<v%>%<tv%>: # ;
+%<v%>%<tv%>%+o%<mark%>:%>o # ;
+!
+!LEXICON V-TV-U
+!
+!%<v%>%<tv%>:  # ;
+!%<v%>%<tv%>%+u%<mark%>:%>u  # ;
+
+
 LEXICON Pron-jasuch
 
 %<prn%>%<itg%>: # ;
@@ -5730,6 +5741,12 @@ ban:ban V-TV ;                      ! "hacer; do" ! Src/Dico
 ban:bʼan V-TV ;                     ! "hacer; do" ! Src/Biblia
 kʼam:kʼam V-TV ;                    ! "recibir; receive"
 chiʼj:chiʼj V-TV ;                  ! "ofrecer; offer"
+il:il V-TV-O ;                      ! "ver; see"
+ta:ta V-TV ;                        ! "entender; understand"
+ya:ya V-TV ;                        ! "dar; give" ! Src/Biblia
+yaʼ:yaʼ V-TV ;                      ! "dar; give" ! Src/Dico
+tzʼibaj:tzʼibaj V-TV ;              ! "escribir; write" ; ! Src/Dico
+tzʼibʼaj:tzʼibʼaj V-TV ;            ! "escribir; write" ; ! Src/Biblia
 
 LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
