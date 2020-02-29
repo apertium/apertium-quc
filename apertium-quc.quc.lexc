@@ -5724,10 +5724,12 @@ pis:pis V-TV ;                      ! "envolver, vendar; wrap, bandage"
 tzʼuʼ:tzʼuʼ V-TV ;                  ! "chupar; suck"
 etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
 eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
-bij:bij V-TV ;                      ! "to say" ! Src/Dico
-bij:bʼij V-TV ;                     ! "to say" ! Src/Ixcoy1997
-ban:ban V-TV ;                      ! "to say" ! Src/Dico
-ban:bʼan V-TV ;                     ! "to say" ! Src/Biblia
+bij:bij V-TV ;                      ! "decir; say" ! Src/Dico
+bij:bʼij V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
+ban:ban V-TV ;                      ! "hacer; do" ! Src/Dico
+ban:bʼan V-TV ;                     ! "hacer; do" ! Src/Biblia
+kʼam:kʼam V-TV ;                    ! "recibir; receive"
+chiʼj:chiʼj V-TV ;                  ! "ofrecer; offer"
 
 LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
