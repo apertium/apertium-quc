@@ -471,7 +471,7 @@ juyub:juyub N-tinamit ;            ! "hill, mountain"
 tikoʼn:tikoʼn N-tinamit ;          ! "cultivated plot, creation"
 kunabʼal:kunabʼal N-tinamit ;      ! "medicine, insecticide"
 kunabal:kunabal N-tinamit ;        ! "medicine"
-chuch:chuch N-chuch ;            ! "mother"
+chuch:chuch N-chuch ;              ! "mother"
 noʼj:noʼj N-tinamit ;              ! "idea"
 ikʼ:ikʼ N-tinamit ;                ! "moon, month of 20 days"
 wachibʼal:wachibʼal N-tinamit ;    ! "appearence, sculpture"
@@ -5695,6 +5695,8 @@ pis:pis V-TV ;                      ! "envolver, vendar; wrap, bandage"
 tzʼuʼ:tzʼuʼ V-TV ;                  ! "chupar; suck"
 etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
 eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
+bij:bij V-TV ;                      ! "to say" ! Src/dictionary
+bij:bʼij V-TV ;                     ! "to say" ! Src/Lopez Ixcoy 1997
 
 LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
