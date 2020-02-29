@@ -3778,6 +3778,7 @@ Bʼabʼiloniʼa:Bʼabʼiloniʼa NP-Top ;
 Korinto:Korinto NP-Top ; 
 
 Kristo:Kristo NP-Ant-M ; 
+Tun:Tun NP-Ant-M ; 
 Satanas:Satanas NP-Ant-M ; 
 Jesus:Jesus NP-Ant-M ;
 Carlos:Carlos NP-Ant-M ;
@@ -5756,6 +5757,7 @@ il:il V-TV-O ;                      ! "ver; see"
 ta:ta V-TV-O ;                        ! "entender; understand"
 ya:ya V-TV-O ;                        ! "dar; give" ! Src/Biblia
 yaʼ:yaʼ V-TV-O ;                      ! "dar; give" ! Src/Dico
+loqʼ:loqʼ V-TV-O ;                  ! "comprar; buy"
 
 
 riq:riq V-TV ;                      ! ";find"
