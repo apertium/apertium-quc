@@ -33,3 +33,6 @@ quc.rlx.bin: apertium-quc.quc.rlx
 
 modes/quc-morph.mode: modes.xml
 	apertium-gen-modes modes.xml
+
+clean:
+	rm *.hfst *.hfstol
