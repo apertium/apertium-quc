@@ -33,9 +33,12 @@ Rules
 %{w%}:w <=> _ %>: Vow ;
 
 "a rule"
-Vx:0 <=> _ %>: [ ArchiVow: | Vow ] ;
+Vx:0 <=> _ [ %>: ]+ [ ArchiVow: | :Vow ] ;
   Vow %>: _ ;
   where Vx in ( %{a%} %{i%}) ;
+
+!  k{a}>>{r}>bʼij
+!  k0>>u>bʼij
 
 "n rule"
 %{n%}:0 <=> _ u: %>: Vow ;
@@ -54,3 +57,5 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 
 ! k{a}>i{m}bʼe>k
 ! k00imbʼe0k
+
+
