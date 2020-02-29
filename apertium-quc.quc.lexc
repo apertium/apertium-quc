@@ -3778,6 +3778,7 @@ Bʼabʼiloniʼa:Bʼabʼiloniʼa NP-Top ;
 Korinto:Korinto NP-Top ; 
 
 Kristo:Kristo NP-Ant-M ; 
+Satanas:Satanas NP-Ant-M ; 
 Jesus:Jesus NP-Ant-M ;
 Carlos:Carlos NP-Ant-M ;
 Wel:Wel NP-Ant-M ;
@@ -5730,23 +5731,43 @@ tzukuj:tzukuj V-TV ;                ! "buscar; look (for someone, something)"
 chajij:chajij V-TV ;                ! "cuidar; look after"
 loqʼoj:loqʼoj V-TV ;                ! "amar; love"
 iyeʼj:iyeʼj V-TV ;                  ! "esperar; hope"
+etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
+eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
+tzʼibaj:tzʼibaj V-TV ;              ! "escribir; write" ; ! Src/Dico
+tzʼibʼaj:tzʼibʼaj V-TV ;            ! "escribir; write" ; ! Src/Biblia
+
+xutuj:xutuj V-TV ;                  ! "abandon"
+chomaj:chomaj V-TV ;                ! ";think of"
+majij:majij V-TV ;                  ! "take away"
+tzijoj:tzijoj V-TV ;                ! "tell, relate"
+sutij:sutij V-TV ;                  ! "spin, rotate"
+qasaj:qasaj V-TV ;                  ! "demolish"
+
 pax:pax V-TV ;                      ! "romper; break"
 pis:pis V-TV ;                      ! "envolver, vendar; wrap, bandage"
 tzʼuʼ:tzʼuʼ V-TV ;                  ! "chupar; suck"
-etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
-eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
 bij:bij V-TV ;                      ! "decir; say" ! Src/Dico
 bij:bʼij V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
-ban:ban V-TV ;                      ! "hacer; do" ! Src/Dico
-ban:bʼan V-TV ;                     ! "hacer; do" ! Src/Biblia
+ban:ban V-TV-O ;                      ! "hacer; do" ! Src/Dico
+ban:bʼan V-TV-O ;                     ! "hacer; do" ! Src/Biblia
 kʼam:kʼam V-TV ;                    ! "recibir; receive"
 chiʼj:chiʼj V-TV ;                  ! "ofrecer; offer"
 il:il V-TV-O ;                      ! "ver; see"
-ta:ta V-TV ;                        ! "entender; understand"
-ya:ya V-TV ;                        ! "dar; give" ! Src/Biblia
-yaʼ:yaʼ V-TV ;                      ! "dar; give" ! Src/Dico
-tzʼibaj:tzʼibaj V-TV ;              ! "escribir; write" ; ! Src/Dico
-tzʼibʼaj:tzʼibʼaj V-TV ;            ! "escribir; write" ; ! Src/Biblia
+ta:ta V-TV-O ;                        ! "entender; understand"
+ya:ya V-TV-O ;                        ! "dar; give" ! Src/Biblia
+yaʼ:yaʼ V-TV-O ;                      ! "dar; give" ! Src/Dico
+
+
+riq:riq V-TV ;                      ! ";find"
+taq:taq V-TV ;                      ! ";send, command"
+riq:riq V-TV ;                      ! "find"
+jach:jach V-TV ;                    ! "divide"
+tzaq:tzaq V-TV ;                    ! "drop something"
+toqij:toqij V-TV ;                  ! "take away by force"
+tik:tik V-TV ;                      ! "plant"
+sach:sach V-TV ;                    ! "lose"
+petik:petik V-TV ;                  ! "come"
+okisax:okisax V-TV ;                ! "be put in"
 
 LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
