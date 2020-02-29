@@ -5698,6 +5698,8 @@ etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
 eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
 bij:bij V-TV ;                      ! "to say" ! Src/dictionary
 bij:bʼij V-TV ;                     ! "to say" ! Src/Lopez Ixcoy 1997
+ban:ban V-TV ;                      ! "to say" ! Src/Dico
+ban:bʼan V-TV ;                     ! "to say" ! Src/Bible
 
 LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
