@@ -58,4 +58,8 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 ! k{a}>i{m}bʼe>k
 ! k00imbʼe0k
 
+"kki rule"
+%{a%}:0 <=> k _ [ %>: ]+ k :i ;
 
+! k{a}>>k{i}>kʼayij
+! k0>>ki>kʼayij
