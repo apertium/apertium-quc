@@ -124,6 +124,10 @@ LEXICON N-chuch
 %<n%>%<pl%>:%>uʼibʼ     # ;
 %<n%>: # ;
 
+LEXICON N-bʼe
+
+%<n%>: # ;
+
 !LEXICON N-chiʼ
 
 !%<n%>: # ;
@@ -3760,6 +3764,8 @@ kʼax:kʼax N-tinamit ; ! "evil, illness"
 alkalteʼ:alkalteʼ N-tinamit ;
 alkalte:alkalte N-tinamit ;
 apostol:apostol N-tinamit ;
+
+bʼe:bʼe N-bʼe ; ! "camino; road"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
