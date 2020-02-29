@@ -10,6 +10,15 @@
     </pipeline>
   </mode>
 
+  <mode name="quc-segmenter" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc">
+        <file name="quc.seg.hfstol"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="quc-disam" install="yes">
     <pipeline>
       <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
