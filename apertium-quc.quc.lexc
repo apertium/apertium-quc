@@ -3748,6 +3748,7 @@ kʼax:kʼax N-tinamit ; ! "evil, illness"
 
 alkalteʼ:alkalteʼ N-tinamit ;
 alkalte:alkalte N-tinamit ;
+apostol:apostol N-tinamit ;
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -3763,7 +3764,9 @@ Egipto:Egipto NP-Top ;
 Jordan:Jordan NP-Top ;
 Damasko:Damasko NP-Top ;
 Bʼabʼiloniʼa:Bʼabʼiloniʼa NP-Top ;
+Korinto:Korinto NP-Top ; 
 
+Kristo:Kristo NP-Ant-M ; 
 Jesus:Jesus NP-Ant-M ;
 Carlos:Carlos NP-Ant-M ;
 Wel:Wel NP-Ant-M ;
