@@ -3743,6 +3743,8 @@ yut:yut N-tinamit ; ! "maguey leaf"
 yutʼ:yutʼ N-tinamit ; ! "knot"
 yutʼbal:yutʼbal N-tinamit ; ! "dressing (for wound)"
 yutʼuyik:yutʼuyik N-tinamit ; ! "bundle"
+chiʼ:chiʼ N-tinamit ; ! "side, in the presence of"
+kʼax:kʼax N-tinamit ! "evil, illness"
 
 alkalteʼ:alkalteʼ N-tinamit ;
 alkalte:alkalte N-tinamit ;
@@ -4509,12 +4511,13 @@ kamiik:kamiik Ad-aninaq ;          ! "hoy; today"
 kamik:kamik Ad-aninaq ;            ! "hoy; today" ! Src/UTexas
 weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
 je:je Ad-aninaq ;                  ! "sí; yes"
-je:jeʼ Ad-aninaq ;                 ! "sí; yes" ! Src/Lopez Ixcoy 1997
+jeʼ:jeʼ Ad-aninaq ;                ! "sí; yes" ! Src/Lopez Ixcoy 1997
 jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 aretaq:aretaq Ad-aninaq ;          ! "when, while"
 maj:maj Ad-aninaq ;                ! "none, nothing"
 xuqujʼe:xuqujʼe Ad-aninaq ;        ! "also"
+xuqujʼe:xoqujeʼ Ad-aninaq ;        ! "also"
 chanim:chanim Ad-aninaq ;          ! "right now, rapidly"
 uloq:uloq Ad-aninaq ;              ! "toward speaker, here, toward here"
 waral:waral Ad-aninaq ;            ! "here"
