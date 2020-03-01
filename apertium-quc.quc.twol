@@ -58,8 +58,8 @@ i:0 <=> k %{a%}: %>: e %>: _ n ;
 "uw rule"
 u:w <=> %{n%}:0 _ %>: Vow ;
 
-"rule for n/m"
-%{m%}:m <=> _ %>: [b | p];
+!"rule for n/m"
+!%{m%}:m <=> _ %>: [b | p];
 
 ! k{a}>i{m}bʼe>k
 ! k00imbʼe0k

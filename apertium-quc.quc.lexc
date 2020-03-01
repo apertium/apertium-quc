@@ -86,7 +86,11 @@ LEXICON Poss
 %<px3sg%>:%{r%}%>     Sust ;  ! u r
 %<px1pl%>:q%{a%}%>    Sust ; ! qa q
 %<px2pl%>:i%{w%}%>    Sust ; ! i iw
+
+! TODO: Find out better rules for this
+! kbʼe/<px3pl>bʼe<n>
 %<px3pl%>:k%{i%}%>    Sust ; ! ki k
+%<px3pl%>:k%>         Sust ; ! ki k ! Use/Sub ! Src/Biblia
 
 LEXICON Sust
                       Nouns ;
@@ -200,7 +204,8 @@ B-TV ;
 
 LEXICON B-IV
 
-%<s_sg1%>:%>i%{m%} IV;
+!%<s_sg1%>:%>i%{m%} IV;
+%<s_sg1%>:%>in IV;
 %<s_sg2%>:%>at IV;
 ! %<s_sg2%>:%> IV;
 %<s_sg3%>:%> IV;
@@ -223,7 +228,8 @@ LEXICON A-TV
 
 LEXICON B-TV
 
-%<o_sg1%>:%>i%{m%}     A-TV;
+!%<o_sg1%>:%>i%{m%}     A-TV;
+%<o_sg1%>:%>in     A-TV;
 %<o_sg2%>:%>at         A-TV;
 ! %<o_sg2%>:%> A-TV;
 %<o_sg3%>:%>           A-TV;
