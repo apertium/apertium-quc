@@ -200,7 +200,8 @@ B-TV ;
 
 LEXICON B-IV
 
-%<s_sg1%>:%>i%{m%} IV;
+!%<s_sg1%>:%>i%{m%} IV;
+%<s_sg1%>:%>in IV;
 %<s_sg2%>:%>at IV;
 ! %<s_sg2%>:%> IV;
 %<s_sg3%>:%> IV;
@@ -223,7 +224,8 @@ LEXICON A-TV
 
 LEXICON B-TV
 
-%<o_sg1%>:%>i%{m%}     A-TV;
+!%<o_sg1%>:%>i%{m%}     A-TV;
+%<o_sg1%>:%>in     A-TV;
 %<o_sg2%>:%>at         A-TV;
 ! %<o_sg2%>:%> A-TV;
 %<o_sg3%>:%>           A-TV;
