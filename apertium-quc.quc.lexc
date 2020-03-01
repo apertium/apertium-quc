@@ -86,7 +86,11 @@ LEXICON Poss
 %<px3sg%>:%{r%}%>     Sust ;  ! u r
 %<px1pl%>:q%{a%}%>    Sust ; ! qa q
 %<px2pl%>:i%{w%}%>    Sust ; ! i iw
+
+! TODO: Find out better rules for this
+! kbʼe/<px3pl>bʼe<n>
 %<px3pl%>:k%{i%}%>    Sust ; ! ki k
+%<px3pl%>:k%>         Sust ; ! ki k ! Use/Sub ! Src/Biblia
 
 LEXICON Sust
                       Nouns ;
