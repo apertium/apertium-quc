@@ -41,6 +41,10 @@ Multichar_Symbols
 %<rquot%>
 %<sent%>
 
+@R.Poss.None@
+@P.Poss.None@
+@D.Poss@
+
 %{n%}                ! n / 0
 %{w%}                ! w / 0
 %{r%}                ! r / 0
@@ -56,7 +60,7 @@ Multichar_Symbols
 LEXICON Root
 
 Miscellaneous ;
-Nouns ;
+@P.Poss.None@ Nouns ;
 Determiners ;
 Adjectives ;
 Adverbs ;
@@ -80,7 +84,7 @@ LEXICON K
                       # ;
 
 LEXICON Poss
-                      Nouns ;
+@P.Poss.None@         Nouns ;
 %<px1sg%>:%{n%}u%>    Sust ; ! nu w
 %<px2sg%>:a%{w%}%>    Sust ; ! a aw
 %<px3sg%>:%{r%}%>     Sust ;  ! u r
@@ -110,6 +114,11 @@ LEXICON N-alit   ! -omʼ
 
 %<n%>%<pl%>:%>omʼ # ;
 %<n%>: # ;
+
+LEXICON N-nan
+
+@R.Poss.None@%<n%>:@R.Poss.None@%>axel # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
 
 LEXICON N-chak
 
@@ -488,7 +497,7 @@ amaqʼ:amaqʼ N-tinamit ;            ! "país; country"
 amaqʼ:amaq N-tinamit ;             ! "país; country"
 mul:mul N-tinamit ;                ! "time, furrow, anthill, mound"
 jumul:jumul N-tinamit ;            ! "one time, once, noise"
-nan:nan N-tinamit ;                ! "lady, ma'am, mother"
+nan:nan N-nan ;                    ! "lady, ma'am, mother"
 ali:ali N-tinamit ;                ! "young girl"
 juperaj:juperaj N-tinamit ;        ! "one side"
 sikʼin:sikʼin N-tinamit ;          ! "guest, invited visitor"
