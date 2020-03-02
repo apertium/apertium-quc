@@ -275,6 +275,9 @@ LEXICON CC
 LEXICON NP-Top
 %<np%>%<top%>: # ;
 
+LEXICON NP-Al
+%<np%>%<al%>: # ;
+
 LEXICON NP-Top-Barb
 %<np%>%<top%>%<barb%>: # ;
 
@@ -3822,6 +3825,8 @@ Salomon:Salomon NP-Ant-M ;
 
 Mariʼy:Mariʼy NP-Ant-F ;
 Marta:Marta NP-Ant-F ;
+
+Microsoft:Microsoft NP-Al ; 
 
 
 
