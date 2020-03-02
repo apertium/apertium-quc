@@ -5761,14 +5761,14 @@ pis:pis V-TV ;                      ! "envolver, vendar; wrap, bandage"
 tzʼuʼ:tzʼuʼ V-TV ;                  ! "chupar; suck"
 bij:bij V-TV ;                      ! "decir; say" ! Src/Dico
 bij:bʼij V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
-ban:ban V-TV-O ;                      ! "hacer; do" ! Src/Dico
-ban:bʼan V-TV-O ;                     ! "hacer; do" ! Src/Biblia
+ban:ban V-TV-O ;                    ! "hacer; do" ! Src/Dico
+ban:bʼan V-TV-O ;                   ! "hacer; do" ! Src/Biblia
 kʼam:kʼam V-TV ;                    ! "recibir; receive"
 chiʼj:chiʼj V-TV ;                  ! "ofrecer; offer"
 il:il V-TV-O ;                      ! "ver; see"
-ta:ta V-TV-O ;                        ! "entender; understand"
-ya:ya V-TV-O ;                        ! "dar; give" ! Src/Biblia
-yaʼ:yaʼ V-TV-O ;                      ! "dar; give" ! Src/Dico
+ta:ta V-TV-O ;                      ! "entender; understand"
+ya:ya V-TV-O ;                      ! "dar; give" ! Src/Biblia
+yaʼ:yaʼ V-TV-O ;                    ! "dar; give" ! Src/Dico
 loqʼ:loqʼ V-TV-O ;                  ! "comprar; buy"
 
 
