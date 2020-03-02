@@ -315,6 +315,7 @@ katajin%<aux%>:katajin # ;
 chik%<part%>:chik # ; ! "ya no/otra vez/ya esta" ! Src/Lopez Ixcoy 1997
 bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
+pe%<part%>:pe # ; ! 
 
 
 LEXICON Prepositions
@@ -4555,6 +4556,7 @@ yutʼulik:yutʼulik A-saq ; ! "bound"
 yutʼum:yutʼum A-saq ; ! "bound up"
 yutuʼt:yutuʼt A-saq ; ! "dried (fruit)"
 yuxulik:yuxulik A-saq ; ! "head bowed (from humility, shame)"
+utzalaj:utzalaj A-saq ; ! "good" ! Src/Bible
 
 
 LEXICON Adverbs
@@ -4688,6 +4690,8 @@ xqʼeqal:xqʼeqal  Ad-aninaq ; ! "at night; tonight"
 !xu<wi>:xu<wi>  Ad-aninaq ; ! "only"
 xukiʼk:xukiʼk  Ad-aninaq ; ! "standing on knees only"
 xuwi:xuwi  Ad-aninaq ; ! "only"
+
+jacha:jacha Ad-aninaq ; ! "asi, so"
 
 
 
