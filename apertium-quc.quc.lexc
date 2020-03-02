@@ -4538,8 +4538,9 @@ chweʼq:chweʼq Ad-aninaq ;          ! "mañana; tomorrow"
 kamiik:kamiik Ad-aninaq ;          ! "hoy; today"
 kamik:kamik Ad-aninaq ;            ! "hoy; today" ! Src/UTexas
 weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
+weneʼ:wene Ad-aninaq ;             ! "tal vez; perhaps" ! Src/Wiki
 je:je Ad-aninaq ;                  ! "sí; yes"
-jeʼ:jeʼ Ad-aninaq ;                ! "sí; yes" ! Src/Lopez Ixcoy 1997
+jeʼ:jeʼ Ad-aninaq ;                ! "sí; yes" ! Src/LopezIxcoy1997
 jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 aretaq:aretaq Ad-aninaq ;          ! "when, while"
