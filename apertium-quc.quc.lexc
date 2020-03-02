@@ -361,6 +361,13 @@ chi%<pr%>%+iwe%<prn%>%<pers%>%<p2%>%<pl%>:ch%>iwe # ; ! ""
 !chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
 chi%<pr%>%+ke%<prn%>%<pers%>%<p3%>%<pl%>:ch%>ke # ; ! ""
 
+pa%<pr%>%+%<px1sg%>wiʼ%<n%>%<rel%>:pa%>nu%>wiʼ # ; ! ""
+pa%<pr%>%+%<px2sg%>wiʼ%<n%>%<rel%>:p%>a%>wiʼ # ; ! ""
+pa%<pr%>%+%<px3sg%>wiʼ%<n%>%<rel%>:p%>u%>wiʼ # ; ! ""
+pa%<pr%>%+%<px1pl%>wiʼ%<n%>%<rel%>:pa%>qa%>wiʼ # ; ! ""
+pa%<pr%>%+%<px2pl%>wiʼ%<n%>%<rel%>:p%>i%>wiʼ # ; ! ""
+pa%<pr%>%+%<px3pl%>wiʼ%<n%>%<rel%>:pa%>ki%>wiʼ # ; ! ""
+
 LEXICON Relationals
 
 ukʼ:ukʼ Rel ;                      ! "con"
@@ -372,6 +379,7 @@ ach:ach Rel ;                      ! ""
 onojel:onojel Rel ;                ! "todos"
 tukel:tukel Rel ;                  ! "solo"
 wach:wach Rel ;                    ! "frente"
+wiʼ:wiʼ Rel ;                      ! "con"
 
 LEXICON Determiners
 
