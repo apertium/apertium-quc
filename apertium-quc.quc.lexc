@@ -313,6 +313,8 @@ kʼo%<part%>:kʼo # ;
 tajin%<aux%>:tajin # ;  ! Use/Colloq
 katajin%<aux%>:katajin # ;
 chik%<part%>:chik # ; ! "ya no/otra vez/ya esta" ! Src/Lopez Ixcoy 1997
+bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
+bʼaʼ%<ij%>:baʼ # ; ! "pues"
 
 
 LEXICON Prepositions
@@ -397,6 +399,7 @@ jas:jas Pron-jasuch ;                ! "cual; "     ! FIXME
 waʼ:waʼ Pron-waʼ ;                   ! "este"
 riʼ:riʼ Pron-waʼ ;                   ! "ese"
 laʼ:laʼ Pron-waʼ ;                   ! "este"
+weriʼ:weriʼ Pron-waʼ ;               ! "esto"
 
 ki%<prn%>:ki # ;
 
@@ -3839,7 +3842,7 @@ Salomon:Salomon NP-Ant-M ;
 Mariʼy:Mariʼy NP-Ant-F ;
 Marta:Marta NP-Ant-F ;
 
-Microsoft:Microsoft NP-Al ; 
+Microsoft:Microsoft NP-Al ;
 
 
 
