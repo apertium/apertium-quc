@@ -196,6 +196,8 @@ LEXICON Asp
 
 %<impf%>:k%{a%} B ;
 %<perf%>:x B ;
+%<imp%>:ch B ;
+%<imp%>%<neg%>:m%{a%} B ;
 
 LEXICON B
 
