@@ -315,7 +315,8 @@ katajin%<aux%>:katajin # ;
 chik%<part%>:chik # ; ! "ya no/otra vez/ya esta" ! Src/Lopez Ixcoy 1997
 bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
-pe%<part%>:pe # ; ! 
+pe%<part%>:pe # ; !
+kʼu%<part%>:kʼu # ; !
 
 
 LEXICON Prepositions
@@ -710,7 +711,7 @@ Akiel:Akiel N-tinamit ; ! "Miguel"
 !-al qʼij:-al qʼij N-tinamit ; ! "Quiché people"
 !-al ri puaq:-al ri puaq N-tinamit ; ! "interest (on debt)"
 !al<al>:al<al>N-tinamit ; ! "weight"
-!al<axel>:al<axel>N-tinamit ; ! "child (boy or girl) of a female"
+al:al N-nan ; ! "child (boy or girl) of a female"
 !al<axel>ala:al<axel>ala N-tinamit ; ! "son of a female"
 !al<ixel>ali:al<ixel>ali N-tinamit ; ! "daughter of a female"
 ala:ala N-tinamit ; ! "young boy"
@@ -718,7 +719,7 @@ ala:ala N-tinamit ; ! "young boy"
 alaʼs:alaʼs N-tinamit ; ! "doll"
 alaʼs:alaʼs N-tinamit ; ! "doll, puppet"
 !alab<atz>:alab<atz>N-tinamit ; ! "son-in-law of a female"
-alabal:alabal N-tinamit ; ! "step-son or daughter (of woman)"
+alabal:alabal N-nan ; ! "step-son or daughter (of woman)"
 !alabal ala:alabal ala N-tinamit ; ! "god-son"
 !alabal ali:alabal ali N-tinamit ; ! "god-daughter (of woman)"
 !alabal<axel>:alabal<axel>N-tinamit ; ! "nephew (of woman)"
@@ -2281,8 +2282,6 @@ najtil:najtil N-tinamit ; ! "length"
 !-nakʼ tiʼj:-nakʼ tiʼj N-tinamit ; ! "chunk of meat"
 nakʼbal:nakʼbal N-tinamit ; ! "glue"
 nakanik:nakanik N-tinamit ; ! "fool"
-!nan cho Dios:nan cho Dios N-tinamit ; ! "god-mother (madrina)"
-!nan<axel>:nan<axel>N-tinamit ; ! "mother"
 nanabal:nanabal N-tinamit ; ! "step-mother"
 nanochʼ:nanochʼ N-tinamit ; ! "shadow (person)"
 Nantat:Nantat N-tinamit ; ! "title for ancestors used in prayers"
