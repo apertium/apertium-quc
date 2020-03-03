@@ -65,7 +65,10 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 ! k00imbʼe0k
 
 "kki rule"
-%{a%}:0 <=> k _ [ %>: ]+ k :i ;
+%{a%}:0 <=> k _ [ %>: ]+ k %{i%}: ;
 
 ! k{a}>>k{i}>kʼayij
 ! k0>>ki>kʼayij
+
+! k{a}>>k{i}>il
+! k0>>k0>il
