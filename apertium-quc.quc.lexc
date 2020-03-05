@@ -262,10 +262,10 @@ LEXICON V-TV-O
 %<v%>%<tv%>: # ;
 %<v%>%<tv%>%+o%<mark%>:%>o # ;
 !
-!LEXICON V-TV-U
-!
-!%<v%>%<tv%>:  # ;
-!%<v%>%<tv%>%+u%<mark%>:%>u  # ;
+LEXICON V-TV-U
+
+%<v%>%<tv%>:  # ;
+%<v%>%<tv%>%+u%<mark%>:%>u  # ;
 
 
 LEXICON Pron-jasuch
@@ -6494,6 +6494,41 @@ yat:yat V-TV-O ; ! "to gather together and tie up (wheat, etc.)"
 yitzʼ:yitzʼ V-TV-O ; ! "to squeeze"
 yoch:yoch V-TV-O ; ! "to take in hem of something"
 yoqʼ:yoqʼ V-TV-O ; ! "to criticize"
+
+buj:buj V-TV-U ; ! "to beat down fruit from tree"
+buk:buk V-TV-U ; ! "to cover"
+bus:bus V-TV-U ; ! "to fold"
+chʼuq:chʼuq V-TV-U ; ! "to cover"
+chup:chup V-TV-U ; ! "to turn off"
+juchʼ:juchʼ V-TV-U ; ! "to make lines (on paper, in the earth for planting)"
+juq:juq V-TV-U ; ! "to scrape (metal on stone to sharpen)"
+jut:jut V-TV-U ; ! "to string (beads)"
+jux:jux V-TV-U ; ! "submerge"
+juy:juy V-TV-U ; ! "to hurt something (cargo hurts back)"
+kʼut:kʼut V-TV-U ; ! "to show"
+kʼux:kʼux V-TV-U ; ! "to gnaw on (rat on corn)"
+kuch:kuch V-TV-U ; ! "to gather together"
+kuy:kuy V-TV-U ; ! "to forgive"
+mukʼ:mukʼ V-TV-U ; ! "to grind something crunchy with teeth"
+muq:muq V-TV-U ; ! "to bury something"
+nukʼ:nukʼ V-TV-U ; ! "to join (two wires, etc.)"
+puqʼ:puqʼ V-TV-U ; ! "to knead (dough)"
+pus:pus V-TV-U ; ! "to cut something in pieces (bread)"
+qʼuch:qʼuch V-TV-U ; ! "to crumple up"
+qʼul:qʼul V-TV-U ; ! "to skin (animal)"
+qʼup:qʼup V-TV-U ; ! "to break something thin and cylindrical (stick"
+qʼus:qʼus V-TV-U ; ! "to bend into curved shape (wire, stick)"
+qʼut:qʼut V-TV-U ; ! "to mash (chile)"
+rub:rub V-TV-U ; ! "to sop food in liquid (bread in coffee)"
+ruj:ruj V-TV-U ; ! "beat (eggs)"
+sub:sub V-TV-U ; ! "to deceive"
+suq:suq V-TV-U ; ! "to tie loosely"
+tʼul:tʼul V-TV-U ; ! "to eat leaves of plant (chicken to corn plant)"
+tur:tur V-TV-U ; ! "to take something apart"
+tzur:tzur V-TV-U ; ! "to dare"
+yuchʼ:yuchʼ V-TV-U ; ! "to harass or molest (little brother)"
+yuj:yuj V-TV-U ; ! "to empty (liquid from container)"
+yuq:yuq V-TV-U ; ! "stretch out (rubber)"
 
 
 
