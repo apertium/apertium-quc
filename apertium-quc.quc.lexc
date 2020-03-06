@@ -60,6 +60,7 @@ Multichar_Symbols
 LEXICON Root
 
 Miscellaneous ;
+Direccionales ;
 @P.Poss.None@ Nouns ;
 Determiners ;
 Adjectives ;
@@ -323,6 +324,50 @@ bʼaʼ%<ij%>:baʼ # ; ! "pues"
 pe%<part%>:pe # ; !
 kʼu%<part%>:kʼu # ; !
 
+LEXICON Direccionales 
+
+uloq%<adv%>%<dir%>:uloq # ;              ! "toward speaker, here, toward here"
+na:na Ad-aninaq ;                  ! "marker of future or certainty"
+
+na%<adv%>%+uloq%<adv%>%<dir%>:nuʼ%>loq # ; ! Na + (u)loq > nuʼloq
+na%<adv%>%+la%<adv%>%<dir%>:nuʼ%>la # ; ! Na + la > nuʼla
+! la + loq > luʼloq
+! la + la > luʼla
+! wi + loq > wuʼloq
+!  wi + la > wuʼla
+! chi + loq > chuʼloq
+!  chi+la> chuʼla
+! Na…taj + loq > Na… tuʼloq
+!  Na…taj + la > Na…tuʼla
+
+!la + bʼik > luʼbʼik
+! la + bʼi > luʼbʼi
+!wi + bʼik > wuʼbʼik
+!wi + bʼi > wuʼbʼi
+!chi + bʼik > chuʼbʼik
+! chi + bʼi > chuʼbʼi
+!na…taj + bʼik > na…tuʼbʼik
+! na…taj + bʼi > na…tuʼbʼi
+
+bʼik%<adv%>%<dir%>:bʼik # ; 
+bʼi%<adv%>%<dir%>:bʼi # ; 
+na%<adv%>%+bʼik%<adv%>%<dir%>:nuʼ%>bʼik # ; 
+na%<adv%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi # ; 
+
+kanoq%<adv%>%<dir%>:kanoq # ; 
+kan%<adv%>%<dir%>:kan # ; 
+
+apanoq%<adv%>%<dir%>:apanoq # ; 
+apan%<adv%>%<dir%>:apan # ; 
+
+qʼanoq%<adv%>%<dir%>:qʼanoq # ; 
+qʼan%<adv%>%<dir%>:qʼan # ; 
+
+qajoq%<adv%>%<dir%>:qajoq # ; 
+qaj%<adv%>%<dir%>:qaj # ; 
+
+koq%<adv%>%<dir%>:koq # ; 
+ka%<adv%>%<dir%>:ka # ; 
 
 LEXICON Prepositions
 
@@ -4579,12 +4624,9 @@ maj:maj Ad-aninaq ;                ! "none, nothing"
 xuqujʼe:xuqujʼe Ad-aninaq ;        ! "also"
 xuqujʼe:xoqujeʼ Ad-aninaq ;        ! "also"
 chanim:chanim Ad-aninaq ;          ! "right now, rapidly"
-uloq:uloq Ad-aninaq ;              ! "toward speaker, here, toward here"
 waral:waral Ad-aninaq ;            ! "here"
 jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
 taj:taj Ad-aninaq ;                ! "indicator of negativity or doubtfulness"
-na:na Ad-aninaq ;                  ! "marker of future or certainty"
-kanoq:kanoq Ad-aninaq ;            ! "left behind, behind, before"
 naj:naj Ad-aninaq ;                ! "from afar, for a long time"
 are:are Ad-aninaq ;                ! "when, while"
 ne:ne Ad-aninaq ;                  ! "marker of doubt"
@@ -4677,7 +4719,6 @@ tzalatzik:tzalatzik  Ad-aninaq ; ! "slightly sideways"
 tzij:tzij  Ad-aninaq ; ! "truly"
 tzpa:tzpa  Ad-aninaq ; ! "since"
 ubik:ubik  Ad-aninaq ; ! "away from speaker"
-uloq:uloq  Ad-aninaq ; ! "toward speaker; here; toward here"
 wachanim:wachanim  Ad-aninaq ; ! "now"
 wakamik:wakamik  Ad-aninaq ; ! "right now; now; this day"
 waral:waral  Ad-aninaq ; ! "here"
