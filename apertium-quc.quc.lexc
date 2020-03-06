@@ -973,7 +973,11 @@ beʼel:beʼel N-tinamit ; ! "plaza"
 benam:benam N-tinamit ; ! "act of going"
 !benam winäq:benam winäq N-tinamit ; ! "wanderer"
 beyaʼ:beyaʼ N-tinamit ; ! "valley"
+
 biʼ:biʼ N-tinamit ; ! "name"
+bʼi:bʼi N-tinamit ; ! "name"
+bʼiʼ:bʼiʼ N-tinamit ; ! "name" 
+
 biloj:biloj N-tinamit ; ! "string bean (ejote)"
 binabal:binabal N-tinamit ; ! "crutches"
 binel:binel N-tinamit ; ! "walker"
@@ -3820,6 +3824,8 @@ wiʼ:wiʼ N-chiʼ ; ! "top"
 xaq:xaq N-chiʼ ; ! "leaf"
 xikin:xikin N-chiʼ ; ! "ear"
 
+
+
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Jerusalem:Jerusalem NP-Top ;
@@ -3869,8 +3875,11 @@ Salomon:Salomon NP-Ant-M ;
 
 Mariʼy:Mariʼy NP-Ant-F ;
 Marta:Marta NP-Ant-F ;
+María:María NP-Ant-F ;
+Ixkikʼ:Ixkikʼ NP-Ant-F ;
 
 Microsoft:Microsoft NP-Al ;
+Apocalypto:Apocalypto NP-Al ; 
 
 Chuwila:Chuwila NP-Top ; ! "Chichicastenango"
 Armita:Armita NP-Top ; ! "Guatemala City"
@@ -6398,6 +6407,8 @@ pis:pis V-TV ;                      ! "envolver, vendar; wrap, bandage"
 tzʼuʼ:tzʼuʼ V-TV ;                  ! "chupar; suck"
 bij:bij V-TV ;                      ! "decir; say" ! Src/Dico
 bij:bʼij V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
+!bij:bʼi V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
+!bij:bʼiʼ V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
 ban:ban V-TV-O ;                    ! "hacer; do" ! Src/Dico
 ban:bʼan V-TV-O ;                   ! "hacer; do" ! Src/Biblia
 kʼam:kʼam V-TV ;                    ! "recibir; receive"
