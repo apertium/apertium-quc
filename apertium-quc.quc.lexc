@@ -120,6 +120,11 @@ LEXICON N-nan
 @R.Poss.None@%<n%>:@R.Poss.None@%>axel # ;
 @D.Poss@%<n%>:@D.Poss@ # ;
 
+LEXICON N-chiʼ
+
+@R.Poss.None@%<n%>:@R.Poss.None@%>chiʼ # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
 LEXICON N-chak
 
 %<n%>: # ;
@@ -3777,6 +3782,47 @@ bʼe:bʼe N-bʼe ; ! "camino; road"
 
 pwaq:pwaq N-tinamit ; ! "dinero; money"
 maxän:maxän N-tinamit ; ! "large leaf in which tamales are wrapped"
+
+aʼ:aʼ N-chiʼ ; ! "thigh"
+achaq:achaq N-chiʼ ; ! "buttocks"
+aqʼ:aqʼ N-chiʼ ; ! "tongue"
+aqän:aqän N-chiʼ ; ! "leg, foot, step (nabe r-aqan ri neʼ-babyʼs first step)"
+baqil:baqil N-chiʼ ; ! "skeleton"
+chʼakat:chʼakat N-chiʼ ; ! "pillow"
+chiʼ:chiʼ N-chiʼ ; ! "mouth"
+chub:chub N-chiʼ ; ! "saliva"
+eʼ:eʼ N-chiʼ ; ! "tooth"
+ij:ij N-chiʼ ; ! "back"
+ismal:ismal N-chiʼ ; ! "hair"
+ixkoʼl:ixkoʼl N-chiʼ ; ! "intestines"
+jeʼ:jeʼ N-chiʼ ; ! "tail"
+jolom:jolom N-chiʼ ; ! "head"
+jumuqʼ:jumuqʼ N-chiʼ ; ! "fistful"
+kʼas:kʼas N-chiʼ ; ! "debt"
+kʼuʼx:kʼuʼx N-chiʼ ; ! "soul"
+kinäqʼ:kinäqʼ N-chiʼ ; ! "kidney"
+mak:mak N-chiʼ ; ! "sin"
+palaj:palaj N-chiʼ ; ! "face"
+pam:pam N-chiʼ ; ! "stomach"
+qʼab:qʼab N-chiʼ ; ! "hand"
+qʼoʼtz:qʼoʼtz N-chiʼ ; ! "cheek"
+qʼuʼ:qʼuʼ N-chiʼ ; ! "blanket"
+qul:qul N-chiʼ ; ! "throat"
+qul:qul N-chiʼ ; ! "voice"
+seseb:seseb N-chiʼ ; ! "liver (see also saseb)"
+sok:sok N-chiʼ ; ! "straw bed"
+sokal wiʼ:sokal wiʼ N-chiʼ ; ! "barber"
+teleb:teleb N-chiʼ ; ! "shoulder"
+tunaq:tunaq N-chiʼ ; ! "esophagus"
+tzʼum:tzʼum N-chiʼ ; ! "skin"
+tzaʼm:tzaʼm N-chiʼ ; ! "nose"
+ukʼaʼ:ukʼaʼ N-chiʼ ; ! "horn, testicle"
+uxlab:uxlab N-chiʼ ; ! "breath"
+wäch:wäch N-chiʼ ; ! "condition"
+wareʼ:wareʼ N-chiʼ ; ! "tooth"
+wiʼ:wiʼ N-chiʼ ; ! "top"
+xaq:xaq N-chiʼ ; ! "leaf"
+xikin:xikin N-chiʼ ; ! "ear"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
