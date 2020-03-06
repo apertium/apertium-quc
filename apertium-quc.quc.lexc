@@ -79,6 +79,12 @@ Asp ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Q
+
+%+oq%<mark%>:%>oq     # ;
+                      # ;
+
+
 LEXICON K
 
 %+ik%<mark%>:%>%{i%}k # ;
@@ -349,24 +355,15 @@ na%<adv%>%<fut%>%+la%<adv%>%<dir%>:nuʼ%>la # ; ! Na + la > nuʼla
 !na…taj + bʼik > na…tuʼbʼik
 ! na…taj + bʼi > na…tuʼbʼi
 
-bʼik%<adv%>%<dir%>:bʼik # ; 
-bʼi%<adv%>%<dir%>:bʼi # ; 
-na%<adv%>%<fut%>%+bʼik%<adv%>%<dir%>:nuʼ%>bʼik # ; 
-na%<adv%>%<fut%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi # ; 
+bʼi%<adv%>%<dir%>:bʼi K ; 
+na%<adv%>%<fut%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi K ; 
 
-kanoq%<adv%>%<dir%>:kanoq # ; 
-kan%<adv%>%<dir%>:kan # ; 
+kan%<adv%>%<dir%>:kan Q ; 
+apan%<adv%>%<dir%>:apan Q ; 
+qʼan%<adv%>%<dir%>:qʼan Q ; 
+qaj%<adv%>%<dir%>:qaj Q ; 
 
-apanoq%<adv%>%<dir%>:apanoq # ; 
-apan%<adv%>%<dir%>:apan # ; 
-
-qʼanoq%<adv%>%<dir%>:qʼanoq # ; 
-qʼan%<adv%>%<dir%>:qʼan # ; 
-
-qajoq%<adv%>%<dir%>:qajoq # ; 
-qaj%<adv%>%<dir%>:qaj # ; 
-
-koq%<adv%>%<dir%>:koq # ; 
+ka%<adv%>%<dir%>%+oq%<mark%>:koq # ; 
 ka%<adv%>%<dir%>:ka # ; 
 
 LEXICON Prepositions
@@ -374,7 +371,7 @@ LEXICON Prepositions
 chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, another"
 pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
 jachaʼ:jachaʼ Pr ;                 ! "like, as"
-chuwach:chuwach Pr ;               ! "facing, before, ahead of"
+chuwach:chuwach Pr ;               ! "facing, before, ahead of" ! TODO: Check 
 ikim:ikim Pr ;                     ! "down below"
 aj:aj Pr ;                         ! "of"
 kʼa:kʼa Pr ;                       ! "hasta"
