@@ -826,6 +826,7 @@ amuʼs:amuʼs N-tinamit ; ! "non-Indian"
 anababal:anababal N-tinamit ; ! "step-sister of a male"
 anim:anim N-tinamit ; ! "hurry"
 animaʼ:animaʼ N-tinamit ; ! "heart (from Spanish)"
+animaʼ:anima N-tinamit ; ! "heart (from Spanish)" ! Src/UDHR
 !-animaʼ ixim:-animaʼ ixim N-tinamit ; ! "heart of corn grain)"
 aninäqil:aninäqil N-tinamit ; ! "moment"
 ankaneʼy:ankaneʼy N-tinamit ; ! "banana"
