@@ -327,10 +327,10 @@ kʼu%<part%>:kʼu # ; !
 LEXICON Direccionales 
 
 uloq%<adv%>%<dir%>:uloq # ;              ! "toward speaker, here, toward here"
-na:na Ad-aninaq ;                  ! "marker of future or certainty"
+na%<adv%>%<fut%>:na # ;                  ! "marker of future or certainty"
 
-na%<adv%>%+uloq%<adv%>%<dir%>:nuʼ%>loq # ; ! Na + (u)loq > nuʼloq
-na%<adv%>%+la%<adv%>%<dir%>:nuʼ%>la # ; ! Na + la > nuʼla
+na%<adv%>%<fut%>%+uloq%<adv%>%<dir%>:nuʼ%>loq # ; ! Na + (u)loq > nuʼloq
+na%<adv%>%<fut%>%+la%<adv%>%<dir%>:nuʼ%>la # ; ! Na + la > nuʼla
 ! la + loq > luʼloq
 ! la + la > luʼla
 ! wi + loq > wuʼloq
@@ -351,8 +351,8 @@ na%<adv%>%+la%<adv%>%<dir%>:nuʼ%>la # ; ! Na + la > nuʼla
 
 bʼik%<adv%>%<dir%>:bʼik # ; 
 bʼi%<adv%>%<dir%>:bʼi # ; 
-na%<adv%>%+bʼik%<adv%>%<dir%>:nuʼ%>bʼik # ; 
-na%<adv%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi # ; 
+na%<adv%>%<fut%>%+bʼik%<adv%>%<dir%>:nuʼ%>bʼik # ; 
+na%<adv%>%<fut%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi # ; 
 
 kanoq%<adv%>%<dir%>:kanoq # ; 
 kan%<adv%>%<dir%>:kan # ; 
