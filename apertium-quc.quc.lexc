@@ -1772,9 +1772,6 @@ kʼoʼxal:kʼoʼxal N-tinamit ; ! "shell of a dead animal"
 kʼoj:kʼoj N-tinamit ; ! "mask"
 kʼojbal:kʼojbal N-tinamit ; ! "patch"
 kʼojobal:kʼojobal N-tinamit ; ! "patch"
-!kʼojol<axel>:kʼojol<axel>N-tinamit ; ! "son of male"
-!kʼojolabal<axel>:kʼojolabal<axel>N-tinamit ; ! "son-in-law"
-kʼojolaxel:kʼojolaxel N-tinamit ; ! "prince"
 !kʼokʼ<al>:kʼokʼ<al>N-tinamit ; ! "incense"
 !kʼolaj -qʼab:kʼolaj -qʼab N-tinamit ; ! "fist"
 !kʼolaj qʼabaj:kʼolaj qʼabaj N-tinamit ; ! "handfull"
@@ -3832,6 +3829,10 @@ wareʼ:wareʼ N-chiʼ ; ! "tooth"
 wiʼ:wiʼ N-chiʼ ; ! "top"
 xaq:xaq N-chiʼ ; ! "leaf"
 xikin:xikin N-chiʼ ; ! "ear"
+
+kʼojolaxel:kʼojol N-nan ; ! "son of male"
+kʼojolabalaxel:kʼojolabal N-nan ; ! "son-in-law"
+kʼojolaxel:kʼojolaxel N-tinamit ; ! "prince"
 
 chuqʼabʼ:chuqʼabʼ N-tinamit ; ! "poder; strength" ! Src/Biblia
 chuqʼabʼ:chuqabʼ N-tinamit ; ! "poder; strength" ! Src/Biblia
