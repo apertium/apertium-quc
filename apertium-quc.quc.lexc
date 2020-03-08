@@ -388,6 +388,8 @@ katajin%<aux%>:katajin # ;
 chik%<part%>:chik # ; ! "ya no/otra vez/ya esta" ! Src/Lopez Ixcoy 1997
 pe%<part%>:pe # ; !
 kʼu%<part%>:kʼu # ; !
+xas%<part%>:xas # ; ! Src/Bible
+xas%<part%>:xaas # ; ! Src/LopezIxcoy1997
 
 bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
@@ -6877,6 +6879,7 @@ xaneʼ:xaneʼ   CC ;                  ! "pero; but"
 xane:xane   CC ;                    ! "pero; but"
 tzare:tzare   CC ;                  ! "pero; but"
 on:on CC ;                          ! "o; or"
+kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Bible
 
 we:we CS ;                          ! "si; if"
 pune:pune CS ;                      ! "aunque; although"
