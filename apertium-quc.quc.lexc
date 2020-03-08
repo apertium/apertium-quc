@@ -164,6 +164,11 @@ LEXICON N-tinamit
 
 %<n%>: # ;
 
+LEXICON N-uxlabʼal
+
+%<n%>: # ;
+
+
 LEXICON N-chuch
 
 %<n%>%<pl%>:%>uʼibʼ     # ;
@@ -3907,6 +3912,11 @@ jatʼim:jatʼim N-tinamit ; ! "amarrador"
 okinaq:okinaq N-tinamit ; ! "entrada"
 
 tzʼibʼatalik:tzʼibʼatalik N-tinamit ; ! "escrito"
+
+uxlabʼal:uxlabʼal N-uxlabʼal ; ! "espíritu; spirit"
+kajbʼal:kajbʼal N-uxlabʼal ; ! "hoja; leaf"
+kʼutbʼal:kʼutbʼal N-uxlabʼal ; ! "signo; sign"
+etabʼal:etabʼal N-uxlabʼal ; ! "medida; measure"
 
 !-lajujil:    -lajuj N-cholaj ; ! "tenth"
 
