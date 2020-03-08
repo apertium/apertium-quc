@@ -132,6 +132,12 @@ LEXICON N-chiʼ
 @R.Poss.None@%<n%>:@R.Poss.None@%>chiʼ # ;
 @D.Poss@%<n%>:@D.Poss@ # ;
 
+LEXICON N-cholaj
+
+@R.Poss.None@%<n%>:@R.Poss.None@%>il # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+
 LEXICON N-chak
 
 %<n%>: # ;
@@ -1073,7 +1079,6 @@ chʼäq:chʼäq N-tinamit ; ! "gangrene"
 chʼaqajil:chʼaqajil N-tinamit ; ! "piece"
 !chʼaqap qʼij:chʼaqap qʼij N-tinamit ; ! "hour"
 !chʼaqap tzʼum:chʼaqap tzʼum N-tinamit ; ! "leather whip"
-!chʼaqap<il>:chʼaqap<il>N-tinamit ; ! "piece"
 chʼaqat:chʼaqat N-tinamit ; ! "leftovers (from meal)"
 chʼaqataq:chʼaqataq N-tinamit ; ! "pieces [Momos]"
 !chʼaqiʼ tew:chʼaqiʼ tew N-tinamit ; ! "malaria"
@@ -1280,7 +1285,6 @@ chochoʼ:chochoʼ N-tinamit ; ! "diaper"
 chojombal:chojombal N-tinamit ; ! "washing place"
 chokej:chokej N-tinamit ; ! "charley horse cramp (seen as calling to become diviner)"
 chokonisaʼn:chokonisaʼn N-tinamit ; ! "dishes"
-!cholaj<il>:cholaj<il>N-tinamit ; ! "purpose"
 !chom laq:chom laq N-tinamit ; ! "tray"
 !chom u-wiʼ -qʼab:chom u-wiʼ -qʼab N-tinamit ; ! "thumb"
 chomabal:chomabal N-tinamit ; ! "memory"
@@ -1379,7 +1383,6 @@ ichikʼ:ichikʼ N-tinamit ; ! "dream"
 ij:ij N-tinamit ; ! "measles"
 ij:ij N-tinamit ; ! "peal (apple)"
 !ijaʼ<l>:    ijaʼ<l>N-tinamit ; ! "seed used for planting"
-!ijaʼl<il>:    ijaʼl<il>N-tinamit ; ! "generation"
 ik:ik N-tinamit ; ! "chile"
 !ikʼan<axel>:    ikʼan<axel>N-tinamit ; ! "aunt"
 ikʼil:ikʼil N-tinamit ; ! "month"
@@ -1701,7 +1704,6 @@ kʼamal:kʼamal N-tinamit ; ! "root"
 !kʼamal be:kʼamal be N-tinamit ; ! "leader"
 !-kʼamal cheʼ:-kʼamal cheʼ N-tinamit ; ! "tree root"
 !-kʼamal xajäb:-kʼamal xajäb N-tinamit ; ! "shoelace"
-!kʼamal<il>:kʼamal<il>N-tinamit ; ! "root [Toto]"
 kʼamaninaq:kʼamaninaq N-tinamit ; ! "custom"
 kʼambal:kʼambal N-tinamit ; ! "trap (for birds)"
 !kʼambal be:kʼambal be N-tinamit ; ! "example"
@@ -1749,7 +1751,6 @@ kʼim:kʼim N-tinamit ; ! "long grass"
 kʼip:kʼip N-tinamit ; ! "maguey blanco"
 !kʼis cheʼ:kʼis cheʼ N-tinamit ; ! "cedar"
 !-kʼisbal ri junab:-kʼisbal ri junab N-tinamit ; ! "end of the year"
-!kʼisbal<il>:kʼisbal<il>N-tinamit ; ! "end"
 kʼisik:kʼisik N-tinamit ; ! "end"
 kʼisïkʼ:kʼisïkʼ N-tinamit ; ! "goat"
 kʼisis:kʼisis N-tinamit ; ! "cypress"
@@ -2085,7 +2086,6 @@ labal:labal N-tinamit ; ! "war"
 !lablaj noʼj:    lablaj noʼj N-tinamit ; ! "barbarism"
 lajab:lajab N-tinamit ; ! "trap"
 !lajuj:    lajuj N-tinamit ; ! "ten"
-!-lajuj<il>:    -lajuj<il>N-tinamit ; ! "tenth"
 !lajujkʼal:    lajujkʼal N-tinamit ; ! "200"
 lantaʼr:lantaʼr N-tinamit ; ! "man's skirt"
 laq:laq N-tinamit ; ! "plate"
@@ -2370,7 +2370,8 @@ nix:nix N-tinamit ; ! "worm that gives barniz negro (Baja Verapaz)"
 Noʼj:noʼj N-tinamit ; ! "day in the sacred calendar"
 !noʼj chʼumil:noʼj chʼumil N-tinamit ; ! "astronomy"
 !noʼj jujunel:noʼj jujunel N-tinamit ; ! "accord"
-noʼjibal:noʼjibal N-tinamit ; ! "idea"
+noʼjibal:noʼjibal N-tinamit ; ! "idea" ! Src/Dico
+noʼjibʼal:noʼjibʼal N-tinamit ; ! "idea" ! Src/UDHR
 noʼjil:noʼjil N-tinamit ; ! "idealism"
 noʼs:noʼs N-tinamit ; ! "turkey"
 nochʼ:nochʼ N-tinamit ; ! "shadow (of a man)"
@@ -2895,7 +2896,6 @@ sal:sal N-tinamit ; ! "mange"
 sal:sal N-tinamit ; ! "the reverse side (ri u-sal ri kamixaʼ--the reverse side of shirt)"
 !-sal tzʼiʼ:-sal tzʼiʼ N-tinamit ; ! "dandruff (of person or animal)"
 salkʼäm:salkʼäm N-tinamit ; ! "itch (on a person)"
-!sälot<il>:sälot<il>N-tinamit ; ! "chaff (from grain)"
 salpiʼch:salpiʼch N-tinamit ; ! "mange"
 salqʼum:salqʼum N-tinamit ; ! "hurrikane"
 salqʼut:salqʼut N-tinamit ; ! "hurricane"
@@ -3250,7 +3250,6 @@ tuney:tuney N-tinamit ; ! "dalia silvestre"
 tup:tup N-tinamit ; ! "cherry"
 tuq:tuq N-tinamit ; ! "brooding hen"
 tuqan:tuqan N-tinamit ; ! "blackberry bush"
-!tuqar<il>:tuqar<il>N-tinamit ; ! "debility"
 tur:tur N-tinamit ; ! "ear of corn with corn grains which are underdeveloped"
 tur:tur N-tinamit ; ! "stitch"
 turaʼs:turaʼs N-tinamit ; ! "peach"
@@ -3313,7 +3312,6 @@ tzʼuʼm:tzʼum N-tinamit ; ! "breasts" ! Src/Biblia
 tzʼubu:tzʼubu N-tinamit ; ! "a sip"
 tzʼuj:tzʼuj N-tinamit ; ! "drop"
 tzʼujbal:tzʼujbal N-tinamit ; ! "gutter"
-!tzʼumal<il>:tzʼumal<il>N-tinamit ; ! "leather"
 tzʼumanel:tzʼumanel N-tinamit ; ! "kisser"
 tzʼumanik:tzʼumanik N-tinamit ; ! "kiss"
 tzʼunuj:tzʼunuj N-tinamit ; ! "roble (oak)"
@@ -3614,7 +3612,6 @@ xeraʼ:xeraʼ N-tinamit ; ! "root (of tree)"
 xere:xere N-tinamit ; ! "mandible"
 xerka:xerka N-tinamit ; ! "piece of blanket used by men around waist (Nahuala)"
 xetʼ:xetʼ N-tinamit ; ! "small piece"
-!xeteʼy<il>:xeteʼy<il>N-tinamit ; ! "tribe"
 !xex pa -chiʼ:xex pa -chiʼ N-tinamit ; ! "smell of bad breath"
 xexal:xexal N-tinamit ; ! "smell of body odor"
 xiʼl:xiʼl N-tinamit ; ! "cricket"
@@ -3838,6 +3835,17 @@ chuqʼabʼ:chuqʼabʼ N-tinamit ; ! "poder; strength" ! Src/Biblia
 chuqʼabʼ:chuqabʼ N-tinamit ; ! "poder; strength" ! Src/Biblia
 chuqʼab:chuqʼab N-tinamit ; ! "poder; strength" ! Src/Dico
 
+cholajil:cholaj N-cholaj ; ! "purpose"
+chʼaqapil:chʼaqap N-cholaj ; ! "piece"
+ijaʼlil:ijaʼl N-cholaj ; ! "generation"
+kʼamalil:kʼamal N-cholaj ; ! "root [Toto]"
+kʼisbalil:kʼisbal N-cholaj ; ! "end"
+sälotil:sälot N-cholaj ; ! "chaff (from grain)"
+tuqaril:tuqar N-cholaj ; ! "debility"
+tzʼumalil:tzʼumal N-cholaj ; ! "leather"
+xeteʼyil:xeteʼy N-cholaj ; ! "tribe"
+
+!-lajujil:    -lajuj N-cholaj ; ! "tenth"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -3871,6 +3879,7 @@ David:David NP-Ant-M ;
 Santiʼago:Santiʼago NP-Ant-M ;
 Pedro:Pedro NP-Ant-M ;
 Judas:Judas NP-Ant-M ;
+Herodiʼas:Herodiʼas NP-Ant-M ; 
 Pilato:Pilato NP-Ant-M ;
 Herodes:Herodes NP-Ant-M ;
 Timoteʼo:Timoteʼo NP-Ant-M ;
