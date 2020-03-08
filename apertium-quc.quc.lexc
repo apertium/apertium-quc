@@ -232,7 +232,7 @@ LEXICON Num-Ord
 LEXICON Asp
 
 %<impf%>:k%{a%} B ;
-%<impf%>:k B ;               ! TODO: Check kraj vs. karaj ! Src/Biblia 
+%<impf%>:k B ;               ! TODO: Check kraj vs. karaj ! Src/Biblia
 %<perf%>:x B ;
 %<imp%>:ch B ;
 %<imp%>%<neg%>:m%{a%} B ;
@@ -278,7 +278,7 @@ LEXICON B-TV
 ! %<o_pl2%>:%> MOV;
 %<o_pl3%>:%>e          MOV;
 
-LEXICON MOV 
+LEXICON MOV
 ! lat - movement towards
 ! e - movement away
 
@@ -371,12 +371,12 @@ bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
 bʼaʼ%<ij%>:bʼa # ; ! "pues"
 
-amen%<ij%>:amen # ; 
+amen%<ij%>:amen # ;
 
 jat%<ij%>:jat # ;
-jix%<ij%>:jix # ; 
+jix%<ij%>:jix # ;
 
-LEXICON Direccionales 
+LEXICON Direccionales
 
 uloq%<adv%>%<dir%>:uloq # ;              ! "toward speaker, here, toward here"
 na%<adv%>%<fut%>:na # ;                  ! "marker of future or certainty"
@@ -401,23 +401,23 @@ na%<adv%>%<fut%>%+la%<adv%>%<dir%>:nuʼ%>la # ; ! Na + la > nuʼla
 !na…taj + bʼik > na…tuʼbʼik
 ! na…taj + bʼi > na…tuʼbʼi
 
-bʼi%<adv%>%<dir%>:bʼi K ; 
-na%<adv%>%<fut%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi K ; 
+bʼi%<adv%>%<dir%>:bʼi K ;
+na%<adv%>%<fut%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi K ;
 
-kan%<adv%>%<dir%>:kan Q ; 
-apan%<adv%>%<dir%>:apan Q ; 
-qʼan%<adv%>%<dir%>:qʼan Q ; 
-qaj%<adv%>%<dir%>:qaj Q ; 
+kan%<adv%>%<dir%>:kan Q ;
+apan%<adv%>%<dir%>:apan Q ;
+qʼan%<adv%>%<dir%>:qʼan Q ;
+qaj%<adv%>%<dir%>:qaj Q ;
 
-ka%<adv%>%<dir%>%+oq%<mark%>:koq # ; 
-ka%<adv%>%<dir%>:ka # ; 
+ka%<adv%>%<dir%>%+oq%<mark%>:koq # ;
+ka%<adv%>%<dir%>:ka # ;
 
 LEXICON Prepositions
 
 chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, another"
 pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
 jachaʼ:jachaʼ Pr ;                 ! "like, as"
-chuwach:chuwach Pr ;               ! "facing, before, ahead of" ! TODO: Check 
+chuwach:chuwach Pr ;               ! "facing, before, ahead of" ! TODO: Check
 ikim:ikim Pr ;                     ! "down below"
 aj:aj Pr ;                         ! "of"
 kʼa:kʼa Pr ;                       ! "hasta"
@@ -494,8 +494,9 @@ onojel:onojel Rel ;                ! "todos"
 tukel:tukel Rel ;                  ! "solo"
 wach:wach Rel ;                    ! "frente"
 wiʼ:wiʼ Rel ;                      ! "con"
-pam:pam Rel ;                      ! "adentro" ! TODO: Check 
+pam:pam Rel ;                      ! "adentro" ! TODO: Check
 naqaj:naqaj Rel ;                  ! "cerca" ! TODO: Check
+re:re Rel ;                        ! "" ! Src/LopezIxcoy1997
 
 LEXICON Determiners
 
@@ -1048,7 +1049,7 @@ beyaʼ:beyaʼ N-tinamit ; ! "valley"
 
 biʼ:biʼ N-tinamit ; ! "name"
 bʼi:bʼi N-tinamit ; ! "name"
-bʼiʼ:bʼiʼ N-tinamit ; ! "name" 
+bʼiʼ:bʼiʼ N-tinamit ; ! "name"
 
 biloj:biloj N-tinamit ; ! "string bean (ejote)"
 binabal:binabal N-tinamit ; ! "crutches"
@@ -3888,7 +3889,7 @@ jatʼibʼal:jatʼibʼal N-tinamit ; ! "amarrador"
 jatʼim:jatʼim N-tinamit ; ! "amarrador"
 okinaq:okinaq N-tinamit ; ! "entrada"
 
-tzʼibʼatalik:tzʼibʼatalik N-tinamit ; ! "escrito" 
+tzʼibʼatalik:tzʼibʼatalik N-tinamit ; ! "escrito"
 
 !-lajujil:    -lajuj N-cholaj ; ! "tenth"
 
@@ -3960,7 +3961,7 @@ Nawaljaʼ:Nawaljaʼ NP-Top ;
 Galileʼa:Galileʼa NP-Top ;
 Judeʼa:Judeʼa NP-Top ;
 Masedoniʼa:Masedoniʼa NP-Top ;
-Samariʼa:Samariʼa NP-Top ; 
+Samariʼa:Samariʼa NP-Top ;
 
 Antiʼokiʼa:Antiʼokiʼa NP-Top ;
 Egipto:Egipto NP-Top ;
@@ -3971,7 +3972,7 @@ Korinto:Korinto NP-Top ;
 Efeso:Efeso NP-Top ;
 
 Levi:Levi NP-Ant-M ;
-Jose:Jose NP-Ant-M ; 
+Jose:Jose NP-Ant-M ;
 Atrix:Atrix NP-Ant-M ;
 Kristo:Kristo NP-Ant-M ;
 Tun:Tun NP-Ant-M ;
@@ -3987,7 +3988,7 @@ David:David NP-Ant-M ;
 Santiʼago:Santiʼago NP-Ant-M ;
 Pedro:Pedro NP-Ant-M ;
 Judas:Judas NP-Ant-M ;
-Herodiʼas:Herodiʼas NP-Ant-M ; 
+Herodiʼas:Herodiʼas NP-Ant-M ;
 Pilato:Pilato NP-Ant-M ;
 Herodes:Herodes NP-Ant-M ;
 Timoteʼo:Timoteʼo NP-Ant-M ;
@@ -4009,7 +4010,7 @@ Mariʼy:Mariʼy NP-Ant-F ;
 Marta:Marta NP-Ant-F ;
 María:María NP-Ant-F ;
 Ixkikʼ:Ixkikʼ NP-Ant-F ;
-Agripa:Agripa NP-Ant-M ; 
+Agripa:Agripa NP-Ant-M ;
 
 Jonas:Jonas NP-Ant-M ;
 Apolo:Apolo NP-Ant-M ;
@@ -4023,10 +4024,11 @@ Sakariʼas:Sakariʼas NP-Ant-M ;
 
 
 Microsoft:Microsoft NP-Al ;
-Apocalypto:Apocalypto NP-Al ; 
+Apocalypto:Apocalypto NP-Al ;
 Qʼaxebʼal:Qʼaxebʼal NP-Al ;
-Paskuʼa:Paskuʼa NP-Al ; 
-Sanedrin:Sanedrin NP-Al ; 
+Paskuʼa:Paskuʼa NP-Al ;
+Sanedrin:Sanedrin NP-Al ;
+USAID:USAID NP-Al ;
 
 Akaya:Akaya NP-Top ;
 Olivo:Olivo NP-Top ;
