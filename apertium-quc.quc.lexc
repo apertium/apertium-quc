@@ -305,7 +305,7 @@ LEXICON MOV
 ! POSS + V + bʼal
 !        V + bʼal
 !
-!%<der_bʼal%>:%>bʼal    # ;  
+!%<der_bʼal%>:%>bʼal    # ;
 
 LEXICON V-IV
 
@@ -4907,6 +4907,7 @@ tzalatzik:tzalatzik  Ad-aninaq ; ! "slightly sideways"
 tzij:tzij  Ad-aninaq ; ! "truly"
 tzpa:tzpa  Ad-aninaq ; ! "since"
 ubik:ubik  Ad-aninaq ; ! "away from speaker"
+ubik:ubʼik  Ad-aninaq ; ! "away from speaker" ! Src/Bible
 wachanim:wachanim  Ad-aninaq ; ! "now"
 wakamik:wakamik  Ad-aninaq ; ! "right now; now; this day"
 waral:waral  Ad-aninaq ; ! "here"
@@ -4925,6 +4926,7 @@ jacha:jacha Ad-aninaq ; ! "asi, so"
 
 
 kʼatekʼuriʼ:kʼatekʼuriʼ Ad-aninaq ; ! "and then it happened"
+jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Bible
 
 
 
@@ -5003,6 +5005,7 @@ biririk:birir V-IV ; ! "to vibrate"
 birnajik:birnaj V-IV ; ! "to pulse (vessel of wrist or neck)"
 bititik:bitit V-IV ; ! "to be well-dressed"
 bixik:bix V-IV ; ! "to be said"
+bixik:bʼix V-IV ; ! "to be said" ! Src/Bible
 bixonik:bixon V-IV ; ! "coo (dove)"
 bixonik:bixon V-IV ; ! "to sing"
 bixtajik:bixtaj V-IV ; ! "to be spoken to"
