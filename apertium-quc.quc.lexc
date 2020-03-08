@@ -45,6 +45,10 @@ Multichar_Symbols
 @P.Poss.None@
 @D.Poss@
 
+@R.VPref.None@
+@P.VPref.None@
+@D.VPref@
+
 %{n%}                ! n / 0
 %{w%}                ! w / 0
 %{r%}                ! r / 0
@@ -79,19 +83,19 @@ Asp ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Q
+LEXICON OQ
 
 %+oq%<mark%>:%>oq     # ;
                       # ;
 
-
-LEXICON K
+LEXICON IK
 
 %+ik%<mark%>:%>%{i%}k # ;
                       # ;
 
 LEXICON Poss
 @P.Poss.None@         Nouns ;
+
 %<px1sg%>:%{n%}u%>    Sust ; ! nu w
 %<px2sg%>:a%{w%}%>    Sust ; ! a aw
 %<px3sg%>:%{r%}%>     Sust ;  ! u r
@@ -106,6 +110,10 @@ LEXICON Poss
 LEXICON Sust
                       Nouns ;
                       Relationals ;
+
+!LEXICON Verbs
+!                      IVʼ ;
+!                      TVʼ ;
 
 LEXICON N-ixoq    ! -ibʼ
 
@@ -282,38 +290,47 @@ LEXICON MOV
 ! lat - movement towards
 ! e - movement away
 
-%<lat%>:%>ul A-TV ;
-%<abl%>:%>e A-TV ;
-%<abl%>:%>bʼe A-TV ;
-              A-TV ;
+%<lat%>:%>ul                   A-TV ;
+%<abl%>:%>e                    A-TV ;
+%<abl%>:%>bʼe                  A-TV ;
+                               A-TV ;
+
+!LEXICON NONFIN
+!
+! POSS + V + bʼal
+!        V + bʼal
+!
+!%<der_bʼal%>:%>bʼal    # ;  
 
 LEXICON V-IV
 
-%<v%>%<iv%>: K ;
+%<v%>%<iv%>:   IK ;
+!%<v%>%<iv%>:   NONFIN ;
 
 LEXICON V-IV-OQ
 
-%<v%>%<iv%>: # ;
-%<v%>%<tv%>%+oq%<mark%>:%>oq # ;
+%<v%>%<iv%>:   OQ ;
+!%<v%>%<iv%>:   NONFIN ;
 
 LEXICON V-TV
 
-%<v%>%<tv%>: K ;
+%<v%>%<tv%>:   IK ;
+!%<v%>%<tv%>:   NONFIN ;
 
 LEXICON V-TV-O
 
-%<v%>%<tv%>: # ;
-%<v%>%<tv%>%+o%<mark%>:%>o # ;
-!
+%<v%>%<tv%>:   # ;
+%<v%>%<tv%>%+o%<mark%>:%>o     # ;
+
 LEXICON V-TV-U
 
-%<v%>%<tv%>:  # ;
-%<v%>%<tv%>%+u%<mark%>:%>u  # ;
+%<v%>%<tv%>:   # ;
+%<v%>%<tv%>%+u%<mark%>:%>u     # ;
 
 LEXICON V-TV-Aʼ
 
-%<v%>%<tv%>:  # ;
-%<v%>%<tv%>%+aʼ%<mark%>:%>aʼ  # ;
+%<v%>%<tv%>:   # ;
+%<v%>%<tv%>%+aʼ%<mark%>:%>aʼ   # ;
 
 
 
@@ -401,13 +418,13 @@ na%<adv%>%<fut%>%+la%<adv%>%<dir%>:nuʼ%>la # ; ! Na + la > nuʼla
 !na…taj + bʼik > na…tuʼbʼik
 ! na…taj + bʼi > na…tuʼbʼi
 
-bʼi%<adv%>%<dir%>:bʼi K ;
-na%<adv%>%<fut%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi K ;
+bʼi%<adv%>%<dir%>:bʼi IK ;
+na%<adv%>%<fut%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi IK ;
 
-kan%<adv%>%<dir%>:kan Q ;
-apan%<adv%>%<dir%>:apan Q ;
-qʼan%<adv%>%<dir%>:qʼan Q ;
-qaj%<adv%>%<dir%>:qaj Q ;
+kan%<adv%>%<dir%>:kan OQ ;
+apan%<adv%>%<dir%>:apan OQ ;
+qʼan%<adv%>%<dir%>:qʼan OQ ;
+qaj%<adv%>%<dir%>:qaj OQ ;
 
 ka%<adv%>%<dir%>%+oq%<mark%>:koq # ;
 ka%<adv%>%<dir%>:ka # ;
