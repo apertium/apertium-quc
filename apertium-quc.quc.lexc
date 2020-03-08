@@ -262,19 +262,33 @@ LEXICON A-TV
 
 LEXICON B-TV
 
-!%<o_sg1%>:%>i%{m%}     A-TV;
-%<o_sg1%>:%>in     A-TV;
-%<o_sg2%>:%>at         A-TV;
-! %<o_sg2%>:%> A-TV;
-%<o_sg3%>:%>           A-TV;
-%<o_pl1%>:%>%{o%}j     A-TV;
-%<o_pl2%>:%>ix         A-TV;
-! %<o_pl2%>:%> A-TV;
-%<o_pl3%>:%>e          A-TV;
+!%<o_sg1%>:%>i%{m%}     MOV;
+%<o_sg1%>:%>in     MOV;
+%<o_sg2%>:%>at         MOV;
+! %<o_sg2%>:%> MOV;
+%<o_sg3%>:%>           MOV;
+%<o_pl1%>:%>%{o%}j     MOV;
+%<o_pl2%>:%>ix         MOV;
+! %<o_pl2%>:%> MOV;
+%<o_pl3%>:%>e          MOV;
+
+LEXICON MOV 
+! lat - movement towards
+! e - movement away
+
+%<lat%>:%>ul A-TV ;
+%<abl%>:%>e A-TV ;
+%<abl%>:%>bʼe A-TV ;
+              A-TV ;
 
 LEXICON V-IV
 
 %<v%>%<iv%>: K ;
+
+LEXICON V-IV-OQ
+
+%<v%>%<iv%>: # ;
+%<v%>%<tv%>%+oq%<mark%>:%>oq # ;
 
 LEXICON V-TV
 
@@ -289,6 +303,12 @@ LEXICON V-TV-U
 
 %<v%>%<tv%>:  # ;
 %<v%>%<tv%>%+u%<mark%>:%>u  # ;
+
+LEXICON V-TV-Aʼ
+
+%<v%>%<tv%>:  # ;
+%<v%>%<tv%>%+aʼ%<mark%>:%>aʼ  # ;
+
 
 
 LEXICON Pron-jasuch
@@ -338,12 +358,17 @@ kʼo%<part%>:kʼo # ;
 tajin%<aux%>:tajin # ;  ! Use/Colloq
 katajin%<aux%>:katajin # ;
 chik%<part%>:chik # ; ! "ya no/otra vez/ya esta" ! Src/Lopez Ixcoy 1997
+pe%<part%>:pe # ; !
+kʼu%<part%>:kʼu # ; !
+
 bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
 bʼaʼ%<ij%>:bʼa # ; ! "pues"
+
 amen%<ij%>:amen # ; 
-pe%<part%>:pe # ; !
-kʼu%<part%>:kʼu # ; !
+
+jat%<ij%>:jat # ;
+jix%<ij%>:jix # ; 
 
 LEXICON Direccionales 
 
@@ -3855,6 +3880,8 @@ jatʼibʼal:jatʼibʼal N-tinamit ; ! "amarrador"
 jatʼim:jatʼim N-tinamit ; ! "amarrador"
 okinaq:okinaq N-tinamit ; ! "entrada"
 
+tzʼibʼatalik:tzʼibʼatalik N-tinamit ; ! "escrito" 
+
 !-lajujil:    -lajuj N-cholaj ; ! "tenth"
 
 !al<al>:al<al>N-tinamit ; ! "weight"
@@ -4872,7 +4899,7 @@ LEXICON IVʼ
 
 bʼe:bʼe V-IV ;                    ! "ir; to go"
 war:war V-IV ;                    ! "dormir; to sleep"
-waʼ:waʼ V-IV ;                    ! "comer; to eat"
+waʼ:waʼ V-IV-OQ ;                    ! "comer; to eat"
 el:el V-IV ;                      ! "salir; to leave"
 chʼaw:chʼaw V-IV ;                ! "hablar; to speak"
 opan:opan V-IV ;                  ! "llegar (allá); to arrive (there)"
@@ -4930,6 +4957,7 @@ beyetajik:beyetaj V-IV ; ! "to be delayed"
 beyik:bey V-IV ; ! "to be delayed"
 bilbitik:bilbit V-IV ; ! "to flow slowly (large river)"
 binik:bin V-IV ; ! "to walk"
+binik:bʼin V-IV ; ! "to walk"
 biqʼbatik:biqʼbat V-IV ; ! "to sob"
 biqʼilijik:biqʼilij V-IV ; ! "quick intake of breath (when startled)"
 biqʼonik:biqʼon V-IV ; ! "to swallow"
@@ -6529,7 +6557,7 @@ bij:bʼij V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
 !bij:bʼiʼ V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
 ban:ban V-TV-O ;                    ! "hacer; do" ! Src/Dico
 ban:bʼan V-TV-O ;                   ! "hacer; do" ! Src/Biblia
-kʼam:kʼam V-TV ;                    ! "recibir; receive"
+kʼam:kʼam V-TV-Aʼ ;                    ! "recibir; receive"
 chiʼj:chiʼj V-TV ;                  ! "ofrecer; offer"
 il:il V-TV-O ;                      ! "ver; see"
 ta:ta V-TV-O ;                      ! "entender; understand"
