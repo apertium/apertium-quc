@@ -1041,7 +1041,8 @@ busunel:busunel N-tinamit ; ! "ghost"
 chʼaʼk:chʼaʼk N-tinamit ; ! "abscess"
 chʼab:chʼab N-tinamit ; ! "arrow"
 chʼababal:chʼababal N-tinamit ; ! "gift given to obtain the favor of a person"
-chʼabal:chʼabal N-tinamit ; ! "voice"
+chʼabal:chʼabal N-tinamit ; ! "voice" ! Src/Dico
+chʼabʼal:chʼabʼal N-tinamit ; ! "voice" ! Src/UTexas
 chʼabalil:chʼabalil N-tinamit ; ! "grammatical conjugation"
 chʼabanel:chʼabanel N-tinamit ; ! "visitor (to sick person or jailed person)"
 chʼajachʼ:chʼajachʼ N-tinamit ; ! "corn smut"
@@ -3845,6 +3846,7 @@ Nawaljaʼ:Nawaljaʼ NP-Top ;
 Galileʼa:Galileʼa NP-Top ;
 Judeʼa:Judeʼa NP-Top ;
 Masedoniʼa:Masedoniʼa NP-Top ;
+Samariʼa:Samariʼa NP-Top ; 
 
 Antiʼokiʼa:Antiʼokiʼa NP-Top ;
 Egipto:Egipto NP-Top ;
