@@ -226,6 +226,7 @@ LEXICON Num-Ord
 LEXICON Asp
 
 %<impf%>:k%{a%} B ;
+%<impf%>:k B ;               ! TODO: Check kraj vs. karaj ! Src/Biblia 
 %<perf%>:x B ;
 %<imp%>:ch B ;
 %<imp%>%<neg%>:m%{a%} B ;
@@ -3847,6 +3848,7 @@ kaxlanwa:kaxlanwa N-tinamit ; ! "pan; bread"
 wachaj:wachaj N-tinamit ; ! "rostro; face"
 suʼ:suʼ N-tinamit ; ! "flauta; flute"
 suʼt:suʼt N-tinamit ; ! "pañuelo; serviette"
+polow:polow N-tinamit ; ! "mar; sea"
 
 
 !-lajujil:    -lajuj N-cholaj ; ! "tenth"
