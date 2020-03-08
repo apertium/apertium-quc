@@ -3977,6 +3977,11 @@ etabʼal:etabʼal N-uxlabʼal ; ! "medida; measure"
 !xibal<axel>:xibal<axel>N-tinamit ; ! "brother of a female"
 !yoʼx<ib>:yoʼx<ib>N-tinamit ; ! "twin<s>"
 
+jukubʼ:jukubʼ N-tinamit ; ! "barco; boat"
+ajbʼanal:ajbʼanal N-tinamit ; ! ""
+kʼuwaʼ:kʼuwaʼ N-tinamit ; ! ""
+
+
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Sidon:Sidon NP-Top ;
@@ -4927,6 +4932,10 @@ jacha:jacha Ad-aninaq ; ! "asi, so"
 
 kʼatekʼuriʼ:kʼatekʼuriʼ Ad-aninaq ; ! "and then it happened"
 jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Bible
+xaqbʼiʼ:xaqbʼiʼ Ad-aninaq ; ! "inmediatamente"
+
+jawichiʼ:jawichiʼ Ad-aninaq ; ! "¿dónde?"
+
 
 
 
