@@ -132,6 +132,12 @@ LEXICON N-chiʼ
 @R.Poss.None@%<n%>:@R.Poss.None@%>chiʼ # ;
 @D.Poss@%<n%>:@D.Poss@ # ;
 
+LEXICON N-ixoqilom
+
+@R.Poss.None@%<n%>:@R.Poss.None@%>om # ;
+@D.Poss@%<n%>:@D.Poss@ # ;
+
+
 LEXICON N-cholaj
 
 @R.Poss.None@%<n%>:@R.Poss.None@%>il # ;
@@ -3862,6 +3868,8 @@ sälotil:sälot N-cholaj ; ! "chaff (from grain)"
 tuqaril:tuqar N-cholaj ; ! "debility"
 tzʼumalil:tzʼumal N-cholaj ; ! "leather"
 xeteʼyil:xeteʼy N-cholaj ; ! "tribe"
+
+ixoqilom:ixoqil N-ixoqilom ; ! "mujer; wife"
 
 wokaj:wokaj N-tinamit ; ! "grupo; group"
 tyox:tyox N-tinamit ; ! "imagen"
