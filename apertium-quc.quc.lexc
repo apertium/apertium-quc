@@ -325,8 +325,10 @@ LEXICON NP-Ant-F
 LEXICON Miscellaneous
 
 taq%<pl%>:taq # ;
+jetaq%<pl%>:jetaq # ;
 la%<qst%>:la # ;
 wi%<part%>:wi # ;
+si%<emph%>:si # ;
 man%<neg%>:man # ;
 ma%<neg%>:ma # ;
 ta%<mod%>:ta # ;
@@ -338,6 +340,7 @@ chik%<part%>:chik # ; ! "ya no/otra vez/ya esta" ! Src/Lopez Ixcoy 1997
 bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
 bʼaʼ%<ij%>:bʼa # ; ! "pues"
+amen%<ij%>:amen # ; 
 pe%<part%>:pe # ; !
 kʼu%<part%>:kʼu # ; !
 
@@ -2532,6 +2535,7 @@ pitzʼkʼiy:pitzʼkʼiy N-tinamit ; ! "gizzard"
 pix:pix N-tinamit ; ! "tomato"
 !-pix qʼaqʼ:-pix qʼaqʼ N-tinamit ; ! "spark (from fire)"
 pixab:pixab N-tinamit ; ! "commandment"
+pixabʼ:pixabʼ N-tinamit ; ! "commandment" ! Src/Biblia
 pixabanik:pixabanik N-tinamit ; ! "act of counselling"
 pixikʼ:pixikʼ N-tinamit ; ! "acorn"
 pixlankoʼk:pixlankoʼk N-tinamit ; ! "cockroach"
@@ -3088,6 +3092,7 @@ tasbal:tasbal N-tinamit ; ! "divider"
 !tasbal kiej:tasbal kiej N-tinamit ; ! "horse blanket"
 !tasow ib:tasow ib N-tinamit ; ! "division (within a community over controversy)"
 tat:tat N-tinamit ; ! "father"
+Tatxel:tatxel N-tinamit ; ! "Holy father"
 !tat cho tiox:tat cho tiox N-tinamit ; ! "godfather ("father before God")"
 !tat nan:tat nan N-tinamit ; ! "parents"
 tataʼ:tataʼ N-tinamit ; ! "a gentleman"
@@ -3814,6 +3819,12 @@ tzʼumalil:tzʼumal N-cholaj ; ! "leather"
 xeteʼyil:xeteʼy N-cholaj ; ! "tribe"
 
 wokaj:wokaj N-tinamit ; ! "grupo; group"
+tyox:tyox N-tinamit ; ! "imagen"
+
+Uxlabʼxel:uxlabʼxel N-tinamit ; ! "espíritu"
+Uxlabʼaxel:uxlabʼaxel N-tinamit ; ! "espíritu"
+
+tzaltmal:tzaltmal N-tinamit ; ! "side"
 
 !-lajujil:    -lajuj N-cholaj ; ! "tenth"
 
@@ -3876,6 +3887,7 @@ wokaj:wokaj N-tinamit ; ! "grupo; group"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
+Asiʼa:Asiʼa NP-Top ;
 Jerusalem:Jerusalem NP-Top ;
 Israʼel:Israʼel NP-Top ;
 Nawaljaʼ:Nawaljaʼ NP-Top ;
@@ -3890,8 +3902,11 @@ Jordan:Jordan NP-Top ;
 Damasko:Damasko NP-Top ;
 Bʼabʼiloniʼa:Bʼabʼiloniʼa NP-Top ;
 Korinto:Korinto NP-Top ;
+Efeso:Efeso NP-Top ;
 
+Levi:Levi NP-Ant-M ;
 Jose:Jose NP-Ant-M ; 
+Atrix:Atrix NP-Ant-M ;
 Kristo:Kristo NP-Ant-M ;
 Tun:Tun NP-Ant-M ;
 Satanas:Satanas NP-Ant-M ;
@@ -3928,9 +3943,28 @@ Mariʼy:Mariʼy NP-Ant-F ;
 Marta:Marta NP-Ant-F ;
 María:María NP-Ant-F ;
 Ixkikʼ:Ixkikʼ NP-Ant-F ;
+Agripa:Agripa NP-Ant-M ; 
+
+Jonas:Jonas NP-Ant-M ;
+Apolo:Apolo NP-Ant-M ;
+Bʼarrabʼas:Bʼarrabʼas NP-Ant-M ;
+Sesar:Sesar NP-Ant-M ;
+
+Iskariʼote:Iskariʼote NP-Ant-M ;
+Sebʼedeʼo:Sebʼedeʼo NP-Ant-M ;
+Juda:Juda NP-Ant-M ;
+Sakariʼas:Sakariʼas NP-Ant-M ;
+
 
 Microsoft:Microsoft NP-Al ;
 Apocalypto:Apocalypto NP-Al ; 
+Qʼaxebʼal:Qʼaxebʼal NP-Al ;
+Paskuʼa:Paskuʼa NP-Al ; 
+Sanedrin:Sanedrin NP-Al ; 
+
+Akaya:Akaya NP-Top ;
+Olivo:Olivo NP-Top ;
+Bʼetaniʼa:Bʼetaniʼa NP-Top ;
 
 Chuwila:Chuwila NP-Top ; ! "Chichicastenango"
 Armita:Armita NP-Top ; ! "Guatemala City"
@@ -4661,6 +4695,7 @@ yutuʼt:yutuʼt A-saq ; ! "dried (fruit)"
 yuxulik:yuxulik A-saq ; ! "head bowed (from humility, shame)"
 utzalaj:utzalaj A-saq ; ! "good" ! Src/Bible
 
+tyoxlaj:tyoxlaj A-saq ; ! "santísimo"
 
 LEXICON Adverbs
 
