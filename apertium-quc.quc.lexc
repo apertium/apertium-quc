@@ -3827,6 +3827,7 @@ chuqʼabʼ:chuqʼabʼ N-tinamit ; ! "poder; strength" ! Src/Biblia
 chuqʼabʼ:chuqabʼ N-tinamit ; ! "poder; strength" ! Src/Biblia
 chuqʼab:chuqʼab N-tinamit ; ! "poder; strength" ! Src/Dico
 
+cholajil:cholajil N-tinamit ; ! "orden; order" ! Src/Biblia ! TODO: Check
 cholajil:cholaj N-cholaj ; ! "purpose"
 chʼaqapil:chʼaqap N-cholaj ; ! "piece"
 ijaʼlil:ijaʼl N-cholaj ; ! "generation"
@@ -3850,6 +3851,9 @@ suʼ:suʼ N-tinamit ; ! "flauta; flute"
 suʼt:suʼt N-tinamit ; ! "pañuelo; serviette"
 polow:polow N-tinamit ; ! "mar; sea"
 
+jatʼibʼal:jatʼibʼal N-tinamit ; ! "amarrador"
+jatʼim:jatʼim N-tinamit ; ! "amarrador"
+okinaq:okinaq N-tinamit ; ! "entrada"
 
 !-lajujil:    -lajuj N-cholaj ; ! "tenth"
 
@@ -3912,6 +3916,8 @@ polow:polow N-tinamit ; ! "mar; sea"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
+Sidon:Sidon NP-Top ;
+Kafarnaʼum:Kafarnaʼum NP-Top ;
 Asiʼa:Asiʼa NP-Top ;
 Jerusalem:Jerusalem NP-Top ;
 Israʼel:Israʼel NP-Top ;
