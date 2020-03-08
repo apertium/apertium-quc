@@ -219,6 +219,10 @@ LEXICON Num
 
 %<num%>: # ;
 
+LEXICON Num-Ord
+
+%<num%>%<ord%>: # ;
+
 LEXICON Asp
 
 %<impf%>:k%{a%} B ;
@@ -488,6 +492,24 @@ waqlajuj:waqlajuj Num ;            ! "dieciséis; sixteen"
 wuqlajuj:wuqlajuj Num ;            ! "diecisiete; seventeen"
 uwajxaqlajuj:uwajxaqlajuj Num ;    ! "dieciocho eighteen"
 belejlajuj:belejlajuj Num ;        ! "diecinueve; nineteen"
+
+ukakʼal:ukakʼal Num ; ! "" TODO: Is this ord or not?
+
+! https://tzij.coerll.utexas.edu/tijonik-23-lesson-23-jun-tzi-keb-tzi-oxib-tzi-one-tzi-two-tzi-three-tzi-numbers/
+nabʼe:nabʼe Num-Ord ; !  "first"
+ukabʼ:ukabʼ Num-Ord ; !  "second"
+urox:urox Num-Ord ; !  "third"
+ukaj:ukaj Num-Ord ; !  "fourth"
+uroʼ:uroʼ Num-Ord ; !  "fifth"
+uwaqaq:uwaqaq Num-Ord ; !  "sixth"
+uwaq:uwaq Num-Ord ; !  "sixth"
+uwuq:uwuq Num-Ord ; !  "seventh"
+uwajxaq:uwajxaq Num-Ord ; !  "eighth"
+ubʼelej:ubʼelej Num-Ord ; !  "ninth"
+ulaj:ulaj Num-Ord ; !  "tenth"
+ujulaj:ujulaj Num-Ord ; !  "eleventh"
+ujulajuj:ujulajuj Num-Ord ; !  "eleventh"
+ujuwinaq:ujuwinaq Num-Ord ; !  "twentieth"
 
 
 LEXICON Nouns
