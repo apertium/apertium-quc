@@ -427,6 +427,22 @@ chi%<pr%>%+iwe%<prn%>%<pers%>%<p2%>%<pl%>:ch%>iwe # ; ! ""
 !chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
 chi%<pr%>%+ke%<prn%>%<pers%>%<p3%>%<pl%>:ch%>ke # ; ! ""
 
+! TODO: Comprueba
+chi%<pr%>%+%<px1sg%>pam%<n%>%<rel%>:ch%>nu%>pam # ; ! ""
+chi%<pr%>%+%<px2sg%>pam%<n%>%<rel%>:ch%>a%>pam # ; ! ""
+chi%<pr%>%+%<px3sg%>pam%<n%>%<rel%>:ch%>u%>pam # ; ! ""
+chi%<pr%>%+%<px1pl%>pam%<n%>%<rel%>:ch%>qa%>pam # ; ! ""
+chi%<pr%>%+%<px2pl%>pam%<n%>%<rel%>:ch%>i%>pam # ; ! ""
+chi%<pr%>%+%<px3pl%>pam%<n%>%<rel%>:ch%>ki%>pam # ; ! ""
+
+chi%<pr%>%+%<px1sg%>naqaj%<n%>%<rel%>:ch%>nu%>naqaj # ; ! ""
+chi%<pr%>%+%<px2sg%>naqaj%<n%>%<rel%>:ch%>a%>naqaj # ; ! ""
+chi%<pr%>%+%<px3sg%>naqaj%<n%>%<rel%>:ch%>u%>naqaj # ; ! ""
+chi%<pr%>%+%<px1pl%>naqaj%<n%>%<rel%>:ch%>qa%>naqaj # ; ! ""
+chi%<pr%>%+%<px2pl%>naqaj%<n%>%<rel%>:ch%>i%>naqaj # ; ! ""
+chi%<pr%>%+%<px3pl%>naqaj%<n%>%<rel%>:ch%>ki%>naqaj # ; ! ""
+
+
 pa%<pr%>%+%<px1sg%>wiʼ%<n%>%<rel%>:pa%>nu%>wiʼ # ; ! ""
 pa%<pr%>%+%<px2sg%>wiʼ%<n%>%<rel%>:p%>a%>wiʼ # ; ! ""
 pa%<pr%>%+%<px3sg%>wiʼ%<n%>%<rel%>:p%>u%>wiʼ # ; ! ""
@@ -446,6 +462,8 @@ onojel:onojel Rel ;                ! "todos"
 tukel:tukel Rel ;                  ! "solo"
 wach:wach Rel ;                    ! "frente"
 wiʼ:wiʼ Rel ;                      ! "con"
+pam:pam Rel ;                      ! "adentro" ! TODO: Check 
+naqaj:naqaj Rel ;                  ! "cerca" ! TODO: Check
 
 LEXICON Determiners
 
@@ -3824,7 +3842,12 @@ tyox:tyox N-tinamit ; ! "imagen"
 Uxlabʼxel:uxlabʼxel N-tinamit ; ! "espíritu"
 Uxlabʼaxel:uxlabʼaxel N-tinamit ; ! "espíritu"
 
-tzaltmal:tzaltmal N-tinamit ; ! "side"
+tzaltmal:tzaltmal N-tinamit ; ! "lado; side"
+kaxlanwa:kaxlanwa N-tinamit ; ! "pan; bread"
+wachaj:wachaj N-tinamit ; ! "rostro; face"
+suʼ:suʼ N-tinamit ; ! "flauta; flute"
+suʼt:suʼt N-tinamit ; ! "pañuelo; serviette"
+
 
 !-lajujil:    -lajuj N-cholaj ; ! "tenth"
 
