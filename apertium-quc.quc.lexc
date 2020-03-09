@@ -280,8 +280,11 @@ LEXICON Asp
 %<impf%>:k%{a%} B ;
 %<impf%>:k B ;               ! TODO: Check kraj vs. karaj ! Src/Biblia
 %<perf%>:x B ;
+! B ;
 %<imp%>:ch B ;
 %<imp%>%<neg%>:m%{a%} B ;
+
+! Perfect: This aspect is only marked by a suffix and carries no prefixed aspect marker. 
 
 LEXICON B
 
@@ -310,7 +313,6 @@ LEXICON A-TV
 %<s_pl2%>:%>i%{w%}     TV;     ! i  iw
 ! %<s_pl2%>:%> TV;
 %<s_pl3%>:%>k%{i%}     TV;     ! ki k
-
 
 LEXICON B-TV
 
@@ -343,6 +345,7 @@ LEXICON MOV
 LEXICON V-IV
 
 %<v%>%<iv%>:   IK ;
+%<v%>%<iv%>%<perf%>:%>naq   # ;
 !%<v%>%<iv%>:   NONFIN ;
 
 LEXICON V-IV-OQ
@@ -354,6 +357,10 @@ LEXICON V-TV
 
 %<v%>%<tv%>:   IK ;
 !%<v%>%<tv%>:   NONFIN ;
+
+LEXICON V-TV-PERF
+
+%<v%>%<tv%>%<perf%>:   # ;
 
 LEXICON V-TV-O
 
@@ -482,6 +489,7 @@ chuwach:chuwach Pr ;               ! "facing, before, ahead of" ! TODO: Check
 ikim:ikim Pr ;                     ! "down below"
 aj:aj Pr ;                         ! "of"
 kʼa:kʼa Pr ;                       ! "hasta"
+chuxeʼ:chuxeʼ Pr ;                 ! "debajo de"
 
 ! nu w
 ! a aw
@@ -1677,7 +1685,7 @@ jiqʼ:jiqʼ N-tinamit ; ! "glutton"
 jiqʼobal:jiqʼobal N-tinamit ; ! "tidbits"
 joʼq:joʼq N-tinamit ; ! "leaf of ear of corn"
 joʼq:joʼq N-tinamit ; ! "shuck"
-!joʼs (n, adj) liar:joʼs (n, adj) liar N-tinamit ; ! ""
+joʼs:joʼs N-tinamit ; ! ""
 jobichal:jobichal N-tinamit ; ! "group of five"
 jobisal:jobisal N-tinamit ; ! "quintuplet"
 jochʼ:jochʼ N-tinamit ; ! "strained atole drink"
@@ -4039,6 +4047,9 @@ judiʼo:judiʼo N-ajjudiʼo ; ! "judio"
 denariʼo:denariʼo N-ajjudiʼo ; ! ""
 fariseʼo:fariseʼo N-ajjudiʼo ; ! ""
 hebʼreʼo:hebʼreʼo N-ajjudiʼo ; ! ""
+ajgriʼego:ajgriʼego N-ajjudiʼo ; ! ""
+griʼego:griʼego N-ajjudiʼo ; ! ""
+
 uva:uva N-tinamit ; ! "uva"
 
 
@@ -4872,6 +4883,7 @@ yaʼtalik:yaʼtalik A-saq ;          ! "given, permitted"
 
 kʼi:kʼi A-saq ; ! "many"
 ekʼi:ekʼi A-saq ; ! "many (personas)"
+joʼs:joʼs A-saq ; ! ""
 
 LEXICON Adverbs
 
@@ -6104,10 +6116,16 @@ tzukuj:tzukuj V-TV ;                ! "buscar; look (for someone, something)"
 chajij:chajij V-TV ;                ! "cuidar; look after"
 loqʼoj:loqʼoj V-TV ;                ! "amar; love"
 iyeʼj:iyeʼj V-TV ;                  ! "esperar; hope"
-etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
-eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
+
+
 tzʼibaj:tzʼibaj V-TV ;              ! "escribir; write" ; ! Src/Dico
 tzʼibʼaj:tzʼibʼaj V-TV ;            ! "escribir; write" ; ! Src/Biblia
+
+etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
+eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
+
+! TODO: Check this seems to take possessive prefixes
+etaʼm:etaʼm V-TV-PERF ;             ! "saber; know"
 
 achiʼlaj:achiʼlaj V-TV ;            ! "to accompany"
 achikʼaj:achikʼaj V-TV ;            ! "to dream"
