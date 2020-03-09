@@ -56,6 +56,7 @@ Multichar_Symbols
 %{i%}                ! i / 0
 %{m%}                ! n / m
 %{o%}                ! o / u
+%{ʼ%}                ! ʼ / 0
 
 %>                   ! Morpheme boundary
 
@@ -78,6 +79,7 @@ Conjunctions ;
 Propios ;
 Digits ;
 
+Procliticos ;
 Poss ;
 Asp ;
 
@@ -93,6 +95,10 @@ LEXICON IK
 %+ik%<mark%>:%>%{i%}k # ;
                       # ;
 
+LEXICON Procliticos
+
+e%<pl%>%+:e%{ʼ%}%> Poss ; 
+
 LEXICON Poss
 @P.Poss.None@         Nouns ;
 
@@ -106,6 +112,8 @@ LEXICON Poss
 ! kbʼe/<px3pl>bʼe<n>
 %<px3pl%>:k%{i%}%>    Sust ; ! ki k
 %<px3pl%>:k%>         Sust ; ! ki k ! Use/Sub ! Src/Biblia
+
+! enuchikop -> e+nuchikop
 
 LEXICON Sust
                       Nouns ;
@@ -136,8 +144,9 @@ LEXICON N-nan
 @D.Poss@%<n%>:@D.Poss@ # ;
 
 LEXICON N-chiʼ
-
-@R.Poss.None@%<n%>:@R.Poss.None@%>chiʼ # ;
+! chi’aj     mouth 	
+! nuchi’  my mouth
+@R.Poss.None@%<n%>:@R.Poss.None@%>aj # ;
 @D.Poss@%<n%>:@D.Poss@ # ;
 
 LEXICON N-ixoqilom
@@ -168,6 +177,10 @@ LEXICON N-uxlabʼal
 
 %<n%>: # ;
 
+LEXICON N-ajjudiʼo
+
+%<n%>: # ;
+%<n%>%<pl%>:%>s # ;
 
 LEXICON N-chuch
 
@@ -200,9 +213,28 @@ LEXICON A-saq
 
 %<adj%>: # ;
 
+LEXICON A-nim
+
+%<adj%>: # ;
+%<adj%>%<pl%>:%>aq # ;
+%<adj%>%<pl%>:%>aʼq # ;
+
+LEXICON A-chʼutin
+
+%<adj%>:%>in # ;
+%<adj%>%<pl%>:%>iq # ;
+
+LEXICON A-yaʼtal
+! yaʼtal(ik)
+%<adj%>: # ; 
+
 LEXICON Ad-aninaq
 
 %<adv%>: # ;
+
+LEXICON Ad-jawi
+
+%<adv%>%<itg%>: # ;
 
 LEXICON Ad-jampaʼ
 
@@ -228,6 +260,7 @@ oj%<prn%>%<pers%>%<p1%>%<pl%>:oj # ;
 uj%<prn%>%<pers%>%<p1%>%<pl%>:uj # ;
 ix%<prn%>%<pers%>%<p2%>%<pl%>:ix # ;
 alaq%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:alaq # ;
+aʼre%<prn%>%<pers%>%<p3%>%<pl%>:aʼre # ;
 arʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:arʼeʼ # ;
 eʼarʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:eʼarʼeʼ # ;
 eʼarʼeʼ%<prn%>%<pers%>%<p3%>%<pl%>:eʼareʼ # ;
@@ -374,6 +407,7 @@ LEXICON NP-Ant-F
 LEXICON Miscellaneous
 
 taq%<pl%>:taq # ;
+e%<pl%>:e # ; 
 jetaq%<pl%>:jetaq # ;
 la%<qst%>:la # ;
 wi%<part%>:wi # ;
@@ -383,6 +417,7 @@ ma%<neg%>:ma # ;
 ta%<mod%>:ta # ;
 kʼo%<part%>%+ik%<mark%>:kʼol%>%{i%}k # ;
 kʼo%<part%>:kʼo # ;
+e%<pl%>+kʼo%<part%>:ekʼo # ;
 tajin%<aux%>:tajin # ;  ! Use/Colloq
 katajin%<aux%>:katajin # ;
 chik%<part%>:chik # ; ! "ya no/otra vez/ya esta" ! Src/Lopez Ixcoy 1997
@@ -399,6 +434,8 @@ amen%<ij%>:amen # ;
 
 jat%<ij%>:jat # ;
 jix%<ij%>:jix # ;
+
+! jeʼ nakʼut = así es
 
 LEXICON Direccionales
 
@@ -540,9 +577,10 @@ jachike:jachike Pron-jasuch ;        ! "cuál es; which"
 jachike:jachikeʼ Pron-jasuch ;        ! "cuál es; which" ! Src/Biblia
 jachke:jachke Pron-jasuch ;          ! "cuál es; which"
 janikʼipa:janikʼipa Pron-jasuch ;    ! "cuántos; how many"
-jas:jas Pron-jasuch ;                ! "cual; "     ! FIXME
+jas:jas Pron-jasuch ;                ! "qué; "     ! FIXME
+su:su Pron-jasuch ;                ! "qué; "     ! FIXME
+sa:sa Pron-jasuch ;                ! "qué; "     ! FIXME
 jasa:jasa Pron-jasuch ;                ! "qué; "     ! Src/UDHR
-
 
 waʼ:waʼ Pron-waʼ ;                   ! "este"
 riʼ:riʼ Pron-waʼ ;                   ! "ese"
@@ -555,8 +593,10 @@ LEXICON Numerals
 
 jun:jun Num ;                      ! "uno; one"
 kebʼ:kebʼ Num ;                    ! "dos; two"
+oxibʼ:oxib Num ;                  ! "tres; three"
 oxibʼ:oxibʼ Num ;                  ! "tres; three"
 kajibʼ:kajib Num ;                 ! "cuatro; four"
+kajibʼ:kajibʼ Num ;                 ! "cuatro; four"
 jobʼ:jobʼ Num ;                    ! "cinco; five"
 waqibʼ:waqibʼ Num ;                ! "seis; six"
 wuqubʼ:wuqubʼ Num ;                ! "siete; seven"
@@ -748,7 +788,6 @@ ajawab:ajawab N-tinamit ; ! "community elders (permanent office) who choose auxi
 ajawam:ajawam N-tinamit ; ! "freewill"
 Ajawaxel:ajawaxel N-tinamit ; ! "Lord (title for Christian God)"
 Ajawaxel:ajawxel N-tinamit ; ! "Lord (title for Christian God)"
-ajawibal:ajawibal N-tinamit ; ! "kingdom"
 ajawinel:ajawinel N-tinamit ; ! "king"
 ajbe:ajbe N-tinamit ; ! "traveller"
 ajbeʼil:ajbeʼil N-tinamit ; ! "foreigner"
@@ -3823,7 +3862,6 @@ yut:yut N-tinamit ; ! "maguey leaf"
 yutʼ:yutʼ N-tinamit ; ! "knot"
 yutʼbal:yutʼbal N-tinamit ; ! "dressing (for wound)"
 yutʼuyik:yutʼuyik N-tinamit ; ! "bundle"
-chiʼ:chiʼ N-tinamit ; ! "side, in the presence of"
 kʼax:kʼax N-tinamit ; ! "evil, illness"
 
 alkalteʼ:alkalteʼ N-tinamit ;
@@ -3835,6 +3873,7 @@ bʼe:bʼe N-bʼe ; ! "camino; road"
 pwaq:pwaq N-tinamit ; ! "dinero; money"
 maxän:maxän N-tinamit ; ! "large leaf in which tamales are wrapped"
 
+chiʼ:chiʼ N-tinamit ; ! "side, in the presence of"
 aʼ:aʼ N-chiʼ ; ! "thigh"
 achaq:achaq N-chiʼ ; ! "buttocks"
 aqʼ:aqʼ N-chiʼ ; ! "tongue"
@@ -3853,10 +3892,10 @@ jumuqʼ:jumuqʼ N-chiʼ ; ! "fistful"
 kʼas:kʼas N-chiʼ ; ! "debt"
 kʼuʼx:kʼuʼx N-chiʼ ; ! "soul"
 kinäqʼ:kinäqʼ N-chiʼ ; ! "kidney"
-mak:mak N-chiʼ ; ! "sin"
 palaj:palaj N-chiʼ ; ! "face"
 pam:pam N-chiʼ ; ! "stomach"
 qʼab:qʼab N-chiʼ ; ! "hand"
+qʼabʼ:qʼabʼ N-chiʼ ; ! "hand"
 qʼoʼtz:qʼoʼtz N-chiʼ ; ! "cheek"
 qʼuʼ:qʼuʼ N-chiʼ ; ! "blanket"
 qul:qul N-chiʼ ; ! "throat"
@@ -3876,6 +3915,7 @@ xaq:xaq N-chiʼ ; ! "leaf"
 xikin:xikin N-chiʼ ; ! "ear"
 
 kʼojolaxel:kʼojol N-nan ; ! "son of male"
+kʼojolaxel:kʼajol N-nan ; ! "son of male"
 kʼojolabalaxel:kʼojolabal N-nan ; ! "son-in-law"
 kʼojolaxel:kʼojolaxel N-tinamit ; ! "prince"
 
@@ -3982,6 +4022,24 @@ etabʼal:etabʼal N-uxlabʼal ; ! "medida; measure"
 jukubʼ:jukubʼ N-tinamit ; ! "barco; boat"
 ajbʼanal:ajbʼanal N-tinamit ; ! ""
 kʼuwaʼ:kʼuwaʼ N-tinamit ; ! ""
+etaʼmabʼal:etaʼmabʼal N-tinamit ; ! "sabiduría"
+sinagoga:sinagoga N-tinamit ; ! ""
+ajtzʼibʼanel:ajtzʼibʼanel N-iyom ; ! "escritor"
+ajtzʼibʼ:ajtzʼibʼ N-iyom ; ! "escritor"
+kaminaq:kaminaq N-ixoq ; ! "muerto, cadáver"
+mak:mak N-chiʼ ; ! "sin"
+mak:mak N-tinamit ; ! "pecado"
+
+ajawibal:ajawibal N-tinamit ; ! "kingdom" ! Src/Dico
+ajawibʼal:ajawibʼal N-tinamit ; ! "reino" ! Src/Biblia
+ajawarem:ajawarem N-tinamit ; ! "reino"
+
+ajjudiʼo:ajjudiʼo N-ajjudiʼo ; ! "judio"
+judiʼo:judiʼo N-ajjudiʼo ; ! "judio"
+denariʼo:denariʼo N-ajjudiʼo ; ! ""
+fariseʼo:fariseʼo N-ajjudiʼo ; ! ""
+hebʼreʼo:hebʼreʼo N-ajjudiʼo ; ! ""
+uva:uva N-tinamit ; ! "uva"
 
 
 LEXICON Propios
@@ -4005,7 +4063,13 @@ Bʼabʼiloniʼa:Bʼabʼiloniʼa NP-Top ;
 Korinto:Korinto NP-Top ;
 Efeso:Efeso NP-Top ;
 
+Sesareʼa:Sesareʼa NP-Top ; 
+Tesalonika:Tesalonika NP-Top ;
+
+Tito:Tito NP-Ant-M ; 
 Levi:Levi NP-Ant-M ;
+Festo:Festo NP-Ant-M ;
+Félix:Félix NP-Ant-M ;
 Jose:Jose NP-Ant-M ;
 Atrix:Atrix NP-Ant-M ;
 Kristo:Kristo NP-Ant-M ;
@@ -4033,6 +4097,7 @@ Silas:Silas NP-Ant-M ;
 
 Simon:Simon NP-Ant-M ;
 Bʼernabʼe:Bʼernabʼe NP-Ant-M ;
+Korneliʼo:Korneliʼo NP-Ant-M ;
 Eliʼas:Eliʼas NP-Ant-M ;
 Saʼulo:Saʼulo NP-Ant-M ;
 Jakobʼ:Jakobʼ NP-Ant-M ;
@@ -4044,6 +4109,8 @@ Mariʼy:Mariʼy NP-Ant-F ;
 Marta:Marta NP-Ant-F ;
 María:María NP-Ant-F ;
 Ixkikʼ:Ixkikʼ NP-Ant-F ;
+Bʼerenise:Bʼerenise NP-Ant-F ; 
+
 Agripa:Agripa NP-Ant-M ;
 
 Jonas:Jonas NP-Ant-M ;
@@ -4111,22 +4178,18 @@ kaxlan:kaxlan A-saq ;              ! "extranjero; foreign"
 yab:yab A-saq ;                    ! "enfermo; sick"
 nim:nim A-saq ;                    ! "grande; large, abundant"
 kʼin:kʼin A-saq ;                  ! "diminutivo; diminutive (used with animals)"
-e:e A-saq ;                        ! "plural marker"
 cho:cho A-saq ;                    ! "profundo; deep"
 itzel:itzel A-saq ;                ! "malo; bad, evil"
 sibʼalaj:sibʼalaj A-saq ;          ! "very"
 jik:jik A-saq ;                    ! "faithful, just"
 junam:junam A-saq ;                ! "equal, identical, together"
 kaq:kaq A-saq ;                    ! "rojo; red"
-nimaʼq:nimaʼq A-saq ;              ! "large (plural)"
-nimaq:nimaʼq A-saq ;               ! "large (plural)"
 naj:naj A-saq ;                    ! "far, far away, long"
 jujun:jujun A-saq ;                ! "some, a few"
 komon:komon A-saq ;                ! "all"
 tzʼiʼ:tzʼiʼ A-saq ;                ! "foolish, disobedient"
 Kʼicheʼ:Kʼicheʼ A-saq ;            ! "Kʼicheʼ"
 ukabʼ:ukabʼ A-saq ;                ! "Second"
-yaʼtalik:yaʼtalik A-saq ;          ! "given, permitted"
 wiʼ:wiʼ A-saq ;                    ! "extra"
 juyubʼ:juyubʼ A-saq ;              ! "steep"
 rax:rax A-saq ;                    ! "green"
@@ -4314,7 +4377,6 @@ kʼatän:kʼatän A-saq ; ! "hot"
 kʼatinaq:kʼatinaq A-saq ; ! "burned"
 kʼatom:kʼatom A-saq ; ! "burned"
 kʼel:kʼel A-saq ; ! "green color"
-kʼi:kʼi A-saq ; ! "many"
 kʼiaqalik:kʼiaqalik A-saq ; ! "appropriate (words at a blessing--kiaqal kätzijonik)"
 kʼiaqat:kʼiaqat A-saq ; ! "mischievous"
 kʼiaqoʼj:kʼiaqoʼj A-saq ; ! "color brown"
@@ -4775,7 +4837,6 @@ xotoxik:xotoxik A-saq ; ! "bent up (cardboard box)"
 xuʼy:xuʼy A-saq ; ! "cheap"
 xukulik:xukulik A-saq ; ! "kneeling"
 xuluxuj:xuluxuj A-saq ; ! "steep"
-!yaʼtal<ik>:yaʼtal<ik>A-saq ; ! "given"
 yababik:yababik A-saq ; ! "weak"
 yatom:yatom A-saq ; ! "bundled (green onions tied together)"
 yawab:yawab A-saq ; ! "sick"
@@ -4798,6 +4859,19 @@ yuxulik:yuxulik A-saq ; ! "head bowed (from humility, shame)"
 utzalaj:utzalaj A-saq ; ! "good" ! Src/Bible
 
 tyoxlaj:tyoxlaj A-saq ; ! "santísimo"
+
+nim:nim A-nim ;              ! "large (plural)"
+chom:chom A-nim ;              ! ""
+pim:pim A-nim ;              ! ""
+chʼutin:chʼuti A-chʼutin ;              ! ""
+
+! TODO: Qué quiere decir <ik> ?
+yaʼtal:yaʼtal A-yaʼtal ; ! "lícito"
+yaʼtalik:yaʼtalik A-saq ;          ! "given, permitted"
+!yaʼtal<ik>:yaʼtal<ik>A-saq ; ! "given"
+
+kʼi:kʼi A-saq ; ! "many"
+ekʼi:ekʼi A-saq ; ! "many (personas)"
 
 LEXICON Adverbs
 
@@ -4936,7 +5010,13 @@ kʼatekʼuriʼ:kʼatekʼuriʼ Ad-aninaq ; ! "and then it happened"
 jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Bible
 xaqbʼiʼ:xaqbʼiʼ Ad-aninaq ; ! "inmediatamente"
 
-jawichiʼ:jawichiʼ Ad-aninaq ; ! "¿dónde?"
+jawichiʼ:jawichiʼ Ad-jawi ; ! "¿dónde?"
+jawi:jawi Ad-jawi ; ! "¿dónde?"
+jawi:jawiʼ Ad-jawi ; ! "¿dónde?"
+jawije:jawije Ad-jawi ; ! "¿dónde?"
+jawijeʼ:jawijeʼ Ad-jawi ; ! "¿dónde?"
+chiwchiʼ:chiwchiʼ Ad-jawi ; ! ""
+pachiwchiʼ:pachiwchiʼ Ad-jawi ; ! ""
 
 
 
@@ -6892,6 +6972,7 @@ kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Bible
 
 we:we CS ;                          ! "si; if"
 pune:pune CS ;                      ! "aunque; although"
+kʼut:kʼut CS ;                      ! "pero"
 
 LEXICON Punctuation
 

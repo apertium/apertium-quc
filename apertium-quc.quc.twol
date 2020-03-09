@@ -9,6 +9,7 @@ Alphabet
   %{i%}:i %{i%}:0
   %{m%}:m %{m%}:n
   %{o%}:o %{o%}:u
+  %{ʼ%}:ʼ %{ʼ%}:0
 
   %>:%>
   
@@ -72,3 +73,6 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 
 ! k{a}>>k{i}>il
 ! k0>>k0>il
+
+"Glottal insertion in plural"
+%{ʼ%}:ʼ <=> _ %>: :Vow ;
