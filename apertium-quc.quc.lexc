@@ -118,6 +118,7 @@ LEXICON Poss
 LEXICON Sust
                       Nouns ;
                       Relationals ;
+                      Propios ;
 
 !LEXICON Verbs
 !                      IVʼ ;
@@ -4032,7 +4033,6 @@ jukubʼ:jukubʼ N-tinamit ; ! "barco; boat"
 ajbʼanal:ajbʼanal N-tinamit ; ! ""
 kʼuwaʼ:kʼuwaʼ N-tinamit ; ! ""
 etaʼmabʼal:etaʼmabʼal N-tinamit ; ! "sabiduría"
-sinagoga:sinagoga N-tinamit ; ! ""
 ajtzʼibʼanel:ajtzʼibʼanel N-iyom ; ! "escritor"
 ajtzʼibʼ:ajtzʼibʼ N-iyom ; ! "escritor"
 kaminaq:kaminaq N-ixoq ; ! "muerto, cadáver"
@@ -4047,6 +4047,7 @@ ajjudiʼo:ajjudiʼo N-ajjudiʼo ; ! "judio"
 judiʼo:judiʼo N-ajjudiʼo ; ! "judio"
 denariʼo:denariʼo N-ajjudiʼo ; ! ""
 fariseʼo:fariseʼo N-ajjudiʼo ; ! ""
+sinagoga:sinagoga N-ajjudiʼo ; ! ""
 hebʼreʼo:hebʼreʼo N-ajjudiʼo ; ! ""
 ajgriʼego:ajgriʼego N-ajjudiʼo ; ! ""
 griʼego:griʼego N-ajjudiʼo ; ! ""
@@ -4063,13 +4064,18 @@ Chuatroj:Chuatroj NP-Top ;
 Sidon:Sidon NP-Top ;
 Kafarnaʼum:Kafarnaʼum NP-Top ;
 Asiʼa:Asiʼa NP-Top ;
-Jerusalem:Jerusalem NP-Top ;
+Jerusalem:jerusalem NP-Top ; ! TODO: Lowercase because of 'Ujerusalem'
 Israʼel:Israʼel NP-Top ;
 Nawaljaʼ:Nawaljaʼ NP-Top ;
 Galileʼa:Galileʼa NP-Top ;
 Judeʼa:Judeʼa NP-Top ;
 Masedoniʼa:Masedoniʼa NP-Top ;
 Samariʼa:Samariʼa NP-Top ;
+
+Anfipolis:Anfipolis NP-Top ;
+Dekapolis:Dekapolis NP-Top ;
+Neʼapolis:Neʼapolis NP-Top ;
+Nikopolis:Nikopolis NP-Top ;
 
 Antiʼokiʼa:Antiʼokiʼa NP-Top ;
 Egipto:Egipto NP-Top ;
@@ -4081,14 +4087,26 @@ Efeso:Efeso NP-Top ;
 
 Sesareʼa:Sesareʼa NP-Top ; 
 Tesalonika:Tesalonika NP-Top ;
+Sirakusa:Sirakusa NP-Top ;
+Sinaʼi:Sinaʼi NP-Top ;
+Roma:Roma NP-Top ;
+Mesopotamiʼa:Mesopotamiʼa NP-Top ;
 
+Sara:Sara NP-Ant-F ;
+Rebʼeka:Rebʼeka NP-Ant-F ;
+Prissilla:Prissilla NP-Ant-F ;
+
+Migueʼl:Migueʼl NP-Ant-M ;
+Rubʼen:Rubʼen NP-Ant-M ;
+Samson:Samson NP-Ant-M ;
+Saʼul:Saʼul NP-Ant-M ;
 Tito:Tito NP-Ant-M ; 
 Levi:Levi NP-Ant-M ;
 Festo:Festo NP-Ant-M ;
 Félix:Félix NP-Ant-M ;
 Jose:Jose NP-Ant-M ;
 Atrix:Atrix NP-Ant-M ;
-Kristo:Kristo NP-Ant-M ;
+Kristo:kristo NP-Ant-M ; ! TODO: Lowercase because of Ukristo
 Tun:Tun NP-Ant-M ;
 Satanas:Satanas NP-Ant-M ;
 Jesus:Jesus NP-Ant-M ;
@@ -4112,6 +4130,8 @@ Jesukristo:Jesukristo NP-Ant-M ;
 Lasaro:Lasaro NP-Ant-M ;
 Silas:Silas NP-Ant-M ;
 
+Xwaʼn:Xwaʼn NP-Ant-M ;
+
 Simon:Simon NP-Ant-M ;
 Bʼernabʼe:Bʼernabʼe NP-Ant-M ;
 Korneliʼo:Korneliʼo NP-Ant-M ;
@@ -4127,6 +4147,13 @@ Marta:Marta NP-Ant-F ;
 María:María NP-Ant-F ;
 Ixkikʼ:Ixkikʼ NP-Ant-F ;
 Bʼerenise:Bʼerenise NP-Ant-F ; 
+Susana:Susana NP-Ant-F ;
+
+
+Stefano:Stefano NP-Ant-M ;
+
+Siʼon:Siʼon NP-Top ;
+Sodoma:Sodoma NP-Top ;
 
 Agripa:Agripa NP-Ant-M ;
 

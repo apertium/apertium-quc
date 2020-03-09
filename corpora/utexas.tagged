@@ -1,0 +1,30 @@
+# sent =  Kimb’e pa le tinamit.
+# sent[eng] =  I go to the town. 
+# labels = tijonik-10 ex-1
+^Kimbʼe/<impf><s_sg1>bʼe<v><iv>$
+^pa/pa<pr>$ 
+^le/le<det>$ 
+^tinamit/tinamit<n>$
+^./.<sent>$
+
+# sent =  La katb’e pa le tinamit?
+# sent[eng] =  Are you going to town?
+# labels = tijonik-10 ex-2
+^La/la<n>/la<qst>$ 
+^katbʼe/<impf><s_sg2>bʼe<v><iv>$ 
+^pa/pa<pr>$ 
+^le/le<det>$ 
+^tinamit/tinamit<n>$
+^?/?<sent>$
+
+# sent = Rajawaxik kak’aman chawe le utijik le lej
+# sent[spa] =  Es necesario que te acostumbres a comer tortillas.
+# labels = tijonik-41 
+^Rajawaxik/rajawaxik<adj>$ 
+^kakʼaman/<impf><s_sg3>kʼamanik<v><iv>$ 
+^chawe/chi<pr>+awe<prn><pers><p2><sg>$ 
+^le/le<det>$ 
+^utijik/<px3sg>tijik<v><iv><act>$ 
+^le/le<det>$ 
+^lej/lej<n>$
+^./.<sent>$
