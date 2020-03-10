@@ -1,3 +1,184 @@
+# sent = K’o jun nuk’otoj chi’aj. 
+# sent[eng] = I have a question.
+# labels = tijonik-2
+^Kʼo/kʼo<part>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^nukʼotoj/<px1sg>kʼotoj<n>$
+^chiʼaj/chiʼ<n>$
+^./.<sent>$
+
+# sent = La k’o jun k’otoj chi’aj? 
+# sent[eng] = Is there a question?
+# labels = tijonik-2
+^La/la<n>/la<qst>$
+^kʼo/kʼo<part>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^kʼotoj/kʼotoj<n>$
+^chiʼaj/chiʼ<n>$
+^?/?<sent>$
+
+# sent = La k’o jun na kak’oxomaj taj? 
+# sent[eng] = Is there something you don’t understand?
+# labels = tijonik-2
+^La/la<n>/la<qst>$
+^kʼo/kʼo<part>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^na/na<adv>/na<adv><fut>$
+^kakʼoxomaj/<impf><o_sg3><s_sg2>kʼoxomaj<v><tv>$
+^taj/taj<adv>$
+^?/?<sent>$
+
+# sent = La k’o na kik’oxomaj taj? 
+# sent[eng] = Is there something you all don’t understand?
+# labels = tijonik-2
+^La/la<n>/la<qst>$
+^kʼo/kʼo<part>$
+^na/na<adv>/na<adv><fut>$
+^kikʼoxomaj/<impf><o_sg3><s_pl2>kʼoxomaj<v><tv>$
+^taj/taj<adv>$
+^?/?<sent>$
+
+# sent = La k’o tzij na kik’oxomaj taj? 
+# sent[eng] = ¿Is there any word you all don’t understand?
+# labels = tijonik-2
+^La/la<n>/la<qst>$
+^kʼo/kʼo<part>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^na/na<adv>/na<adv><fut>$
+^kikʼoxomaj/<impf><o_sg3><s_pl2>kʼoxomaj<v><tv>$
+^taj/taj<adv>$
+^?/?<sent>$
+
+# sent = Na kink’oxomaj taj jas karaj kub’ij …  
+# sent[eng] = I don’t understand what … means.
+# labels = tijonik-2
+^Na/na<adv>/na<adv><fut>$
+^kinkʼoxomaj/<impf><o_sg3><s_sg1>kʼoxomaj<v><tv>$
+^taj/taj<adv>$
+^jas/jas<prn><itg>$
+^karaj/<impf><o_sg3><s_sg3>aj<v><tv>$
+^kubʼij/<impf><o_sg3><s_sg3>bij<v><tv>$
+^…/…<sent>$
+
+# sent = Xinsachik. 
+# sent[eng] = I made a mistake.
+# labels = tijonik-2
+^Xinsachik/<perf><o_sg3><s_sg1>sach<v><tv>+ik<mark>/<perf><s_sg1>sachik<v><iv>+ik<mark>$
+^./.<sent>$
+
+# sent = Xinsachik. 
+# sent[eng] = I got lost.
+# labels = tijonik-2
+^Xinsachik/<perf><o_sg3><s_sg1>sach<v><tv>+ik<mark>/<perf><s_sg1>sachik<v><iv>+ik<mark>$
+^./.<sent>$
+
+# sent = Xinsach che le uwokik le tzij. 
+# sent[eng] = I made a mistake in the construction of the words.
+# labels = tijonik-2
+^Xinsach/<perf><o_sg3><s_sg1>sach<v><tv>/<perf><s_sg1>sachik<v><iv>$
+^che/chi<pr>+re<prn><pers><p3><sg>$
+^le/le<det>$
+^uwokik/*uwokik$
+^le/le<det>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^./.<sent>$
+
+# sent = Xsachan le tzij chwe. 
+# sent[eng] = I forgot that word.
+# labels = tijonik-2
+^Xsachan/*Xsachan$
+^le/le<det>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^chwe/chi<pr>+we<prn><pers><p1><sg>$
+^./.<sent>$
+
+# sent = Xsachan chwe. 
+# sent[eng] = I forgot. 
+# labels = tijonik-2
+^Xsachan/*Xsachan$
+^chwe/chi<pr>+we<prn><pers><p1><sg>$
+^./.<sent>$
+
+# sent = Xsachan chwe. 
+# sent[eng] = I can’t remember.
+# labels = tijonik-2
+^Xsachan/*Xsachan$
+^chwe/chi<pr>+we<prn><pers><p1><sg>$
+^./.<sent>$
+
+# sent = Na weta’m taj. 
+# sent[eng] = I don’t know
+# labels = tijonik-2
+^Na/na<adv>/na<adv><fut>$
+^wetaʼm/*wetaʼm$
+^taj/taj<adv>$
+^./.<sent>$
+
+# sent = Jas ub’ixik …?
+# sent[eng] = How do you say…?
+# labels = tijonik-2
+^Jas/jas<prn><itg>$
+^ubʼixik/*ubʼixik$
+^…/…<sent>$
+^?/?<sent>$
+
+# sent = Jas ub’ixik … pa K’iche’? 
+# sent[eng] = How do you say… in K’iche’?
+# labels = tijonik-2
+^Jas/jas<prn><itg>$
+^ubʼixik/*ubʼixik$
+^…/…<sent>$
+^pa/pa<pr>$
+^Kʼicheʼ/Kʼicheʼ<adj>/kʼicheʼ<n>$
+^?/?<sent>$
+
+# sent = Jas karaj kub’ij…?
+# sent[eng] = What does… mean?
+# labels = tijonik-2
+^Jas/jas<prn><itg>$
+^karaj/<impf><o_sg3><s_sg3>aj<v><tv>$
+^kubʼij/<impf><o_sg3><s_sg3>bij<v><tv>$
+^…/…<sent>$
+^?/?<sent>$
+
+# sent = Jas upatan le tzij…? 
+# sent[eng] = What’s the function of the word…?
+# labels = tijonik-2
+^Jas/jas<prn><itg>$
+^upatan/<px3sg>patan<n>/<px3sg>patän<n>$
+^le/le<det>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^…/…<sent>$
+^?/?<sent>$
+
+# sent = La utz we kinb’ij…?
+# sent[eng] = Is it ok to say…?
+# labels = tijonik-2
+^La/la<n>/la<qst>$
+^utz/utz<adj>/utz<adv>$
+^we/we<cnjsub>/we<det>$
+^kinbʼij/<impf><o_sg3><s_sg1>bij<v><tv>$
+^…/…<sent>$
+^?/?<sent>$
+
+# sent = Nutom le tzij…
+# sent[eng] = I have heard the word…
+# labels = tijonik-2
+^Nutom/<px1sg>toʼm<n>$
+^le/le<det>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^…/…<sent>$
+
+# sent = Na nutom ta le tzij … 
+# sent[eng] = I have not heard the word…
+# labels = tijonik-2
+^Na/na<adv>/na<adv><fut>$
+^nutom/<px1sg>toʼm<n>$
+^ta/ta<mod>$
+^le/le<det>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^…/…<sent>$
+
 # sent =  Kimb’e pa le tinamit.
 # sent[eng] =  I go to the town. 
 # labels = tijonik-10 ex-1

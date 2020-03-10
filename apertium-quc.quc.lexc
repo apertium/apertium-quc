@@ -145,8 +145,8 @@ LEXICON N-nan
 @D.Poss@%<n%>:@D.Poss@ # ;
 
 LEXICON N-chiʼ
-! chi’aj     mouth 	
-! nuchi’  my mouth
+! chiʼaj     mouth 	
+! nuchiʼ  my mouth
 @R.Poss.None@%<n%>:@R.Poss.None@%>aj # ;
 @D.Poss@%<n%>:@D.Poss@ # ;
 
@@ -1908,6 +1908,7 @@ kʼolkʼäx:kʼolkʼäx N-tinamit ; ! "side"
 kʼopibal:kʼopibal N-tinamit ; ! "bar on door"
 !kʼoq ki:kʼoq ki N-tinamit ; ! "izote"
 !kʼotbal chiʼaj:kʼotbal chiʼaj N-tinamit ; ! "question"
+kʼotoj:kʼotoj N-tinamit ; ! "question"
 kʼotom:kʼotom N-tinamit ; ! "furrow"
 kʼotonel:kʼotonel N-tinamit ; ! "digger"
 !-kʼoxil jaʼ:-kʼoxil jaʼ N-tinamit ; ! "well of water"
