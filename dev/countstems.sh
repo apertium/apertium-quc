@@ -2,7 +2,7 @@
 
 LEXC=../apertium-quc.quc.lexc
 
-allcounts=`foma -e "read lexc $LEXC" -e "quit" | grep Root | sed 's/,/\n/g'`
+allcounts=`foma -e "read lexc $LEXC" -e "quit" 2> /dev/null | grep Root | sed 's/,/\n/g'`
 
 for line in $allcounts; do
 	thing=`echo $line | sed -r 's/(.*)\.\.\.([0-9]*),?/\1/'`;
