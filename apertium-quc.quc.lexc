@@ -98,6 +98,7 @@ LEXICON IK
 LEXICON Procliticos
 
 e%<pl%>%+:e%{ʼ%}%> Poss ; 
+e%<pl%>%+:e%{ʼ%}%> Adjectives ;  ! etyoxlaj
 
 LEXICON Poss
 @P.Poss.None@         Nouns ;
