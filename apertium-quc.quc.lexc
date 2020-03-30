@@ -83,6 +83,9 @@ Procliticos ;
 Poss ;
 Asp ;
 
+Irregulares ;
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON OQ
@@ -288,6 +291,8 @@ LEXICON Asp
 
 ! Perfect: This aspect is only marked by a suffix and carries no prefixed aspect marker. 
 
+
+
 LEXICON B
 
 B-IV ;
@@ -343,6 +348,19 @@ LEXICON MOV
 !        V + bʼal
 !
 !%<der_bʼal%>:%>bʼal    # ;
+
+LEXICON V-etaʼm
+
+%<o_sg3%>%<s_sg1%>etaʼm:%>w%>etaʼm    V-TV-PERF;     ! in inw
+%<o_sg3%>%<s_sg2%>etaʼm:%>a%{w%}%>etaʼm     V-TV-PERF;     ! a  aw
+! %<s_sg2%>:%> V-TV-PERF;
+%<o_sg3%>%<s_sg3%>etaʼm:%>%{r%}%>etaʼm      V-TV-PERF;     ! u  r
+%<o_sg3%>%<s_pl1%>etaʼm:%>q%{a%}%>etaʼm     V-TV-PERF;     ! qa q
+%<o_sg3%>%<s_pl2%>etaʼm:%>i%{w%}%>etaʼm     V-TV-PERF;     ! i  iw
+! %<s_pl2%>:%> V-TV-PERF;
+%<o_sg3%>%<s_pl3%>etaʼm:%>k%{i%}%>etaʼm     V-TV-PERF;     ! ki k
+
+
 
 LEXICON V-IV
 
@@ -6167,7 +6185,7 @@ etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
 eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
 
 ! TODO: Check this seems to take possessive prefixes
-etaʼm:etaʼm V-TV-PERF ;             ! "saber; know"
+!etaʼm:etaʼm V-TV-PERF ;             ! "saber; know"
 
 achiʼlaj:achiʼlaj V-TV ;            ! "to accompany"
 achikʼaj:achikʼaj V-TV ;            ! "to dream"
@@ -6930,6 +6948,10 @@ tik:tik V-TV ;                      ! "plant"
 sach:sach V-TV ;                    ! "lose"
 petik:petik V-TV ;                  ! "come"
 okisax:okisax V-TV ;                ! "be put in"
+
+LEXICON Irregulares
+! Irregular
+V-etaʼm ;                           ! "saber; know"
 
 LEXICON Barbarisms
 de%<pr%>%<barb%>:de #  ;
