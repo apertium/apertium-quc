@@ -646,6 +646,7 @@ ujuwinaq:ujuwinaq Num-Ord ; !  "twentieth"
 LEXICON Nouns
 
 ixoq:ixoq N-ixoq ;                 ! "mujer; woman"
+anjel:anjel N-ixoq ;               ! ""
 ajchak:ajchak N-ixoq ;             ! "trabajador; worker (traditional peasant)"
 iyom:iyom N-iyom ;                 ! "partera; midwife"
 teem:teem N-ixoq ;                 ! "silla; chair"
@@ -4920,6 +4921,9 @@ yaʼtalik:yaʼtalik A-saq ;          ! "given, permitted"
 kʼi:kʼi A-saq ; ! "many"
 ekʼi:ekʼi A-saq ; ! "many (personas)"
 joʼs:joʼs A-saq ; ! ""
+
+! TODO: MWE "qʼaxal utzij"
+qʼaxal:qʼaxal A-saq ; ! "profeta" 
 
 LEXICON Adverbs
 
