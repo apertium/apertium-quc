@@ -678,6 +678,7 @@ alit:alit N-alit ;                 ! "señorita; young woman"
 alab:alab N-alit ;                 ! "muchacho; man"
 tzij:tzij N-alit ;                 ! "palabra, cuento; word, story"
 saqalajtzij:saqalajtzij N-alit ;   ! "verdad; truth" ! Src/Biblia
+qʼatojtzij:qʼatojtzij N-alit ;     ! "; " ! Src/Biblia
 winaq:winaq N-ixoq ;               ! "persona; person, people"
 chak:chak N-chak ;                 ! "trabajo; work"
 imul:imul N-imul ;                 ! "conejo; rabbit"
