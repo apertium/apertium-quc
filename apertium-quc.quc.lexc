@@ -6203,6 +6203,7 @@ tzʼibʼaj:tzʼibʼaj V-TV ;            ! "escribir; write" ; ! Src/Biblia
 etaʼmaj:etaʼmaj V-TV ;              ! "aprender; learn"
 eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
 
+
 ! TODO: Check this seems to take possessive prefixes
 !etaʼm:etaʼm V-TV-PERF ;             ! "saber; know"
 
@@ -6792,6 +6793,7 @@ ta:ta V-TV-O ;                      ! "entender; understand"
 ya:ya V-TV-O ;                      ! "dar; give" ! Src/Biblia
 yaʼ:yaʼ V-TV-O ;                    ! "dar; give" ! Src/Dico
 loqʼ:loqʼ V-TV-O ;                  ! "comprar; buy"
+chʼobʼ:chʼobʼ V-TV-O ;              ! "saber, comprender; know, understand"
 
 bil:bil V-TV-O ; ! "to anoint (with medicine, oil)"
 biqʼ:biqʼ V-TV-O ; ! "to swallow whole"
