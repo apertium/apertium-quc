@@ -512,6 +512,8 @@ aj:aj Pr ;                         ! "of"
 kʼa:kʼa Pr ;                       ! "hasta"
 chuxeʼ:chuxeʼ Pr ;                 ! "debajo de"
 uxeʼ:uxeʼ Pr ;                     ! "abajo de"
+panikʼaj:panikʼaj Pr ;             ! "en medio de"
+panikʼaj:panikʼyaj Pr ;            ! "en medio de" 
 
 ! nu w
 ! a aw
@@ -4089,6 +4091,7 @@ sinagoga:sinagoga N-ajjudiʼo ; ! ""
 hebʼreʼo:hebʼreʼo N-ajjudiʼo ; ! ""
 ajgriʼego:ajgriʼego N-ajjudiʼo ; ! ""
 griʼego:griʼego N-ajjudiʼo ; ! ""
+exoltato:exoltato N-ajjudiʼo ; ! ""
 
 uva:uva N-tinamit ; ! "uva"
 kaqiqʼ:kaqiqʼ N-tinamit ; ! "viento; wind"
@@ -4103,6 +4106,7 @@ qʼequʼmal:qʼequʼmal N-tinamit ; ! "oscuridad; darkness"
 
 yawabʼ:yawabʼ N-ixoq ; ! "enfermo; "
 alkʼuwaʼl:alkʼuwaʼl N-tinamit ; ! "hijo, hija; "
+ripibʼal:ripibʼal N-tinamit ; ! ""
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
