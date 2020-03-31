@@ -4262,7 +4262,8 @@ LEXICON Adjectives
 saq:saq A-saq ;                    ! "blanco; white"
 qʼeq:qʼeq A-saq ;                  ! "negro; black"
 tzij:tzij A-saq ;                  ! "verdadero; true"
-xuqujeʼ:xuqujeʼ A-saq ;            ! "también; also"                                       ! FIXME: Comprueba categoría
+
+
 rajawaxik:rajawaxik A-saq ;        ! "importante; important, necessary"
 rajawaxik:rajawixik A-saq ;        ! "important" ! Src/xelaorganica
 sib:sib A-saq ;                    ! "humado; smokey-colored"
@@ -4980,6 +4981,11 @@ qʼaxal:qʼaxal A-saq ; ! "profeta"
 qʼaxel:qʼaxel A-saq ; ! ""
 
 LEXICON Adverbs
+
+xuqujeʼ:xuqujeʼ Ad-aninaq ;            ! "también; also"                                       ! FIXME: Comprueba categoría
+xuqeʼ:xuqeʼ Ad-aninaq ;                ! FIXME: Comprueba categoría
+xuq:xuq Ad-aninaq ;                    ! FIXME: Comprueba categoría
+xuqe:xuqe Ad-aninaq ;                  ! FIXME: Comprueba categoría
 
 aninaq:aninaq Ad-aninaq ;          ! "rápidamente; quickly"
 utz:utz Ad-aninaq ;                ! "bien; well"
