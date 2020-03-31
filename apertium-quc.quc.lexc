@@ -4090,6 +4090,7 @@ atzʼyaq:atzʼyaq N-tinamit ; ! "ropa; clothes"
 kikʼel:kikʼel N-tinamit ; ! "sangre; blood"
 woqʼoch:woqʼoch N-chiʼ ; ! "ojo; eye"
 woqʼoch:woqʼochʼ N-chiʼ ; ! "ojo; eye" ! Use/Spell
+qʼequʼmal:qʼequʼmal N-tinamit ; ! "oscuridad; darkness"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -4955,6 +4956,7 @@ joʼs:joʼs A-saq ; ! ""
 
 ! TODO: MWE "qʼaxal utzij"
 qʼaxal:qʼaxal A-saq ; ! "profeta" 
+qʼequʼm:qʼequʼm A-saq ; ! "oscuro; dark"
 
 LEXICON Adverbs
 
@@ -7068,6 +7070,7 @@ xane:xane   CC ;                    ! "pero; but"
 tzare:tzare   CC ;                  ! "pero; but"
 on:on CC ;                          ! "o; or"
 kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Bible
+tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
 
 we:we CS ;                          ! "si; if"
 pune:pune CS ;                      ! "aunque; although"
