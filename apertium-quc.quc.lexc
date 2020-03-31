@@ -6770,8 +6770,8 @@ bij:bij V-TV ;                      ! "decir; say" ! Src/Dico
 bij:bʼij V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
 !bij:bʼi V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
 !bij:bʼiʼ V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
-ban:ban V-TV-O ;                    ! "hacer; do" ! Src/Dico
-ban:bʼan V-TV-O ;                   ! "hacer; do" ! Src/Biblia
+bʼan:ban V-TV-O ;                    ! "hacer; do" ! Src/Dico
+bʼan:bʼan V-TV-O ;                   ! "hacer; do" ! Src/Biblia
 kʼam:kʼam V-TV-Aʼ ;                    ! "recibir; receive"
 chiʼj:chiʼj V-TV ;                  ! "ofrecer; offer"
 il:il V-TV-O ;                      ! "ver; see"
