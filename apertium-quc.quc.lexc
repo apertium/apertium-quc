@@ -102,6 +102,7 @@ LEXICON Procliticos
 
 e%<pl%>%+:e%{ʼ%}%> Poss ; 
 e%<pl%>%+:e%{ʼ%}%> Adjectives ;  ! etyoxlaj
+e%<pl%>%+:e%{ʼ%}%> Cardinals ;  ! ewuqubʼ
 
 LEXICON Poss
 @P.Poss.None@         Nouns ;
@@ -623,13 +624,14 @@ weriʼ:weriʼ Pron-waʼ ;               ! "esto"
 
 ki%<prn%>:ki # ;
 
-LEXICON Numerals
+LEXICON Cardinals 
 
 jun:jun Num ;                      ! "uno; one"
 kebʼ:kebʼ Num ;                    ! "dos; two"
 oxibʼ:oxib Num ;                  ! "tres; three"
 oxibʼ:oxibʼ Num ;                  ! "tres; three"
 kajibʼ:kajib Num ;                 ! "cuatro; four"
+kijebʼ:kijebʼ Num ;                ! "cuatro; four" ! Src/Biblia
 kajibʼ:kajibʼ Num ;                 ! "cuatro; four"
 jobʼ:jobʼ Num ;                    ! "cinco; five"
 waqibʼ:waqibʼ Num ;                ! "seis; six"
@@ -648,6 +650,10 @@ uwajxaqlajuj:uwajxaqlajuj Num ;    ! "dieciocho eighteen"
 belejlajuj:belejlajuj Num ;        ! "diecinueve; nineteen"
 
 ukakʼal:ukakʼal Num ; ! "" TODO: Is this ord or not?
+
+LEXICON Numerals
+
+Cardinals ;
 
 ! https://tzij.coerll.utexas.edu/tijonik-23-lesson-23-jun-tzi-keb-tzi-oxib-tzi-one-tzi-two-tzi-three-tzi-numbers/
 nabʼe:nabʼe Num-Ord ; !  "first"
@@ -685,6 +691,7 @@ tzij:tzij N-alit ;                 ! "palabra, cuento; word, story"
 saqalajtzij:saqalajtzij N-alit ;   ! "verdad; truth" ! Src/Biblia
 qʼatojtzij:qʼatojtzij N-alit ;     ! "; " ! Src/Biblia
 qʼaxeltzij:qʼaxeltzij N-alit ;     ! "mediador; " ! Src/Biblia
+qʼataltzij:qʼataltzij N-alit ;     ! "; " ! Src/Biblia
 qʼatbʼaltzij:qʼatbʼaltzij N-alit ; ! "law, courthouse, judge, government, verdict"
 winaq:winaq N-ixoq ;               ! "persona; person, people"
 chak:chak N-chak ;                 ! "trabajo; work"
@@ -4094,6 +4101,8 @@ woqʼoch:woqʼoch N-chiʼ ; ! "ojo; eye"
 woqʼoch:woqʼochʼ N-chiʼ ; ! "ojo; eye" ! Use/Spell
 qʼequʼmal:qʼequʼmal N-tinamit ; ! "oscuridad; darkness"
 
+yawabʼ:yawabʼ N-ixoq ; ! "enfermo; "
+
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Chirijquiac:Chirijquiac NP-Top ;
@@ -4259,6 +4268,7 @@ tzʼibʼatal:tzʼibʼatal A-saq ;      ! "escrito; written"
 jalajoj:jalajoj A-saq ;            ! "diferente; different, distinct"
 kaxlan:kaxlan A-saq ;              ! "extranjero; foreign"
 yab:yab A-saq ;                    ! "enfermo; sick"
+yawabʼ:yawabʼ A-saq ;              ! "enfermo; sick"
 nim:nim A-saq ;                    ! "grande; large, abundant"
 kʼin:kʼin A-saq ;                  ! "diminutivo; diminutive (used with animals)"
 cho:cho A-saq ;                    ! "profundo; deep"
