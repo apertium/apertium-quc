@@ -604,6 +604,7 @@ LEXICON Pronouns
 Pers ;                             ! Pronombres personales
 
 jachinaq:jachinaq Pron-jasuch ;      ! "quién es; who is"
+jachintaq:jachintaq Pron-jasuch ;    ! "" ! Src/Biblia
 jachin:jachin Pron-jasuch ;          ! "quién; who"
 jasuch:jasuch Pron-jasuch ;          ! "qué es; what"
 jachike:jachike Pron-jasuch ;        ! "cuál es; which"
@@ -683,6 +684,8 @@ alab:alab N-alit ;                 ! "muchacho; man"
 tzij:tzij N-alit ;                 ! "palabra, cuento; word, story"
 saqalajtzij:saqalajtzij N-alit ;   ! "verdad; truth" ! Src/Biblia
 qʼatojtzij:qʼatojtzij N-alit ;     ! "; " ! Src/Biblia
+qʼaxeltzij:qʼaxeltzij N-alit ;     ! "mediador; " ! Src/Biblia
+qʼatbʼaltzij:qʼatbʼaltzij N-alit ; ! "law, courthouse, judge, government, verdict"
 winaq:winaq N-ixoq ;               ! "persona; person, people"
 chak:chak N-chak ;                 ! "trabajo; work"
 imul:imul N-imul ;                 ! "conejo; rabbit"
@@ -768,7 +771,6 @@ tzijobʼal:tzijobʼal N-tinamit ;    ! "information"
 tzijobʼal:tzijobal N-tinamit ;     ! "information"
 wa:wa N-tinamit ;                  ! "food"
 nikʼaj:nikʼaj N-tinamit ;          ! "half"
-qʼatbʼaltzij:qʼatbʼaltzij N-tinamit ;  ! "law, courthouse, judge, government, verdict"
 neʼ:neʼ N-iyom ;                   ! "newborn baby"
 jaʼ:jaʼ N-tinamit ;                ! "water"
 juyub:juyub N-tinamit ;            ! "hill, mountain"
@@ -4250,6 +4252,7 @@ rajawaxik:rajawaxik A-saq ;        ! "importante; important, necessary"
 rajawaxik:rajawixik A-saq ;        ! "important" ! Src/xelaorganica
 sib:sib A-saq ;                    ! "humado; smokey-colored"
 alaj:alaj A-saq ;                  ! "pequeño; small, little"
+chʼutiʼn:chʼutiʼn A-saq ;          ! "pequeño; "
 taqal:taqal A-saq ;                ! "worthy"
 tzukum:tzukum A-saq ;              ! "buscado; hunted, elected, looked for, sought after"
 tzʼibʼatal:tzʼibʼatal A-saq ;      ! "escrito; written"
@@ -4954,9 +4957,11 @@ kʼi:kʼi A-saq ; ! "many"
 ekʼi:ekʼi A-saq ; ! "many (personas)"
 joʼs:joʼs A-saq ; ! ""
 
+qʼequʼm:qʼequʼm A-saq ; ! "oscuro; dark"
+
 ! TODO: MWE "qʼaxal utzij"
 qʼaxal:qʼaxal A-saq ; ! "profeta" 
-qʼequʼm:qʼequʼm A-saq ; ! "oscuro; dark"
+qʼaxel:qʼaxel A-saq ; ! ""
 
 LEXICON Adverbs
 
