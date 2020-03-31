@@ -4086,6 +4086,10 @@ kaqiqʼ:kaqiqʼ N-tinamit ; ! "viento; wind"
 
 mayibʼal:mayibʼal N-tinamit ; ! "milagro; miracle"
 qʼijil:qʼijil N-tinamit ; ! "gloria; glory"
+atzʼyaq:atzʼyaq N-tinamit ; ! "ropa; clothes"
+kikʼel:kikʼel N-tinamit ; ! "sangre; blood"
+woqʼoch:woqʼoch N-chiʼ ; ! "ojo; eye"
+woqʼoch:woqʼochʼ N-chiʼ ; ! "ojo; eye" ! Use/Spell
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -5090,6 +5094,9 @@ kʼatekʼuriʼ:kʼatekʼuriʼ Ad-aninaq ; ! "and then it happened"
 jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Bible
 xaqbʼiʼ:xaqbʼiʼ Ad-aninaq ; ! "inmediatamente"
 
+chaqʼabʼ:chaqʼabʼ Ad-aninaq ; ! "de noche"
+chipaqʼij:chipaqʼij Ad-aninaq ; ! "de día"
+
 jawichiʼ:jawichiʼ Ad-jawi ; ! "¿dónde?"
 jawi:jawi Ad-jawi ; ! "¿dónde?"
 jawi:jawiʼ Ad-jawi ; ! "¿dónde?"
@@ -5117,6 +5124,8 @@ ul:ul V-IV ;                      ! "llegar (aquí); to arrive (here)"
 poroj:poroj V-IV ;                ! "quemar; to burn"
 qʼay:qʼay V-IV ;                  ! "to rot, decompose"
 pe:pe V-IV ;                      ! "venir; come"
+
+kʼojiʼk:kʼojiʼ V-IV ;            ! "inhabitar; inhabit"
 
 abäjirik:abäjir V-IV ; ! "to harden"
 abanik:aban V-IV ; ! "to invent"

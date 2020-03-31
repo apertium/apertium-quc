@@ -36,6 +36,7 @@ Rules
 "a rule"
 Vx:0 <=>          _ [ %>: ]+ [ ArchiVow: | :Vow ] ;
           Vow [ %>: ]+ _ ;
+!          Vow ʼ [ %>: ]+ _ ;
      where Vx in ( %{a%} %{i%} ) ;
 
 !  k{a}>>{r}>bʼij
