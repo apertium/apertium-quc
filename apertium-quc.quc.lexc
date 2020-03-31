@@ -572,6 +572,10 @@ pa%<pr%>%+%<px1pl%>wiʼ%<n%>%<rel%>:pa%>qa%>wiʼ # ; ! ""
 pa%<pr%>%+%<px2pl%>wiʼ%<n%>%<rel%>:p%>i%>wiʼ # ; ! ""
 pa%<pr%>%+%<px3pl%>wiʼ%<n%>%<rel%>:pa%>ki%>wiʼ # ; ! ""
 
+! FIXME: Check
+chi%<pr%>%+uwachulew%<n%>:ch%>uwachulew # ; ! "en mundo" ! Src/Biblia
+chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>%+ulew%<n%>:ch%>uwach%>ulew # ; ! "en su mundo" ! Src/Biblia
+
 LEXICON Relationals
 
 ukʼ:ukʼ Rel ;                      ! "con"
@@ -4079,6 +4083,7 @@ griʼego:griʼego N-ajjudiʼo ; ! ""
 uva:uva N-tinamit ; ! "uva"
 kaqiqʼ:kaqiqʼ N-tinamit ; ! "viento; wind"
 
+mayibʼal:mayibʼal N-tinamit ; ! "milagro; miracle"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
