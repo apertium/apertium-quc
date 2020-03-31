@@ -705,7 +705,8 @@ ajchʼoʼj:ajchʼoʼj N-iyom ;         ! "peleador; fighter"
 kunanel:kunanel N-iyom ;           ! "curandero; medicine man"
 muqunel:muqunel N-iyom ;           ! "quienes entierran; who bury, evil witch"
 tinamit:tinamit N-tinamit ;        ! "pueblo; village"
-tinamit:tinimit N-tinamit ;        ! "pueblo; village" ! Src/bible
+tinamit:tinimit N-tinamit ;        ! "pueblo; village" ! Src/Biblia
+siwantinimit:siwantinimit N-tinamit ; ! "habitantes; " ! Src/Biblia
 tijobʼal:tijobʼal N-tinamit ;      ! "escuela; school"
 tijobʼal:tijobal N-tinamit ; ! "classroom"
 tijonik:tijonik N-tinamit ;        ! "unidad; unit"
@@ -4084,6 +4085,7 @@ uva:uva N-tinamit ; ! "uva"
 kaqiqʼ:kaqiqʼ N-tinamit ; ! "viento; wind"
 
 mayibʼal:mayibʼal N-tinamit ; ! "milagro; miracle"
+qʼijil:qʼijil N-tinamit ; ! "gloria; glory"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
