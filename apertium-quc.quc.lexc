@@ -2303,6 +2303,7 @@ malkaʼn:malkaʼn N-tinamit ; ! "widow or widower"
 malkaʼnil:malkaʼnil N-tinamit ; ! "widowhood"
 malqʼab:malqʼab N-tinamit ; ! "ring (to wear on finger)"
 maltiox:maltiox N-tinamit ; ! "thanks"
+maltyox:maltyox N-tinamit ; ! "thanks"
 maltioxinik:maltioxinik N-tinamit ; ! "act of giving thanks"
 mam:mam N-tinamit ; ! "grandfather"
 Mam:mam N-tinamit ; ! "Year-Bearer of 365 day solar calendar year"
@@ -2498,6 +2499,7 @@ nil:nil N-tinamit ; ! "waterfall"
 !nima u wi qʼab:nima u wi qʼab N-tinamit ; ! "thumb"
 !nima winaq:nima winaq N-tinamit ; ! "old man"
 nimaʼ:nimaʼ N-tinamit ; ! "river"
+nimaʼ:nima N-tinamit ; ! "river" ! Src/Wiki
 nimabal:nimabal N-tinamit ; ! "greatness"
 nimal:nimal N-tinamit ; ! "size"
 !-nimal -qʼab:-nimal -qʼab N-tinamit ; ! "thumb"
@@ -4984,6 +4986,7 @@ LEXICON Adverbs
 
 xuqujeʼ:xuqujeʼ Ad-aninaq ;            ! "también; also"                                       ! FIXME: Comprueba categoría
 xuqeʼ:xuqeʼ Ad-aninaq ;                ! FIXME: Comprueba categoría
+xuquje:xuquje Ad-aninaq ;                ! FIXME: Comprueba categoría
 xuq:xuq Ad-aninaq ;                    ! FIXME: Comprueba categoría
 xuqe:xuqe Ad-aninaq ;                  ! FIXME: Comprueba categoría
 
@@ -7006,7 +7009,9 @@ de%<pr%>%<barb%>:de #  ;
 
 África:África NP-Top-Barb ; ! ""
 Africa:Africa NP-Top-Barb ; ! ""
+Canada:Canada NP-Top-Barb ; ! ""
 América:América NP-Top-Barb ; ! ""
+America:America NP-Top-Barb ; ! ""
 Argentina:Argentina NP-Top-Barb ; ! ""
 Asia:Asia NP-Top-Barb ; ! ""
 Australia:Australia NP-Top-Barb ; ! ""
