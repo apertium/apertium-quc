@@ -458,6 +458,8 @@ bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
 bʼaʼ%<ij%>:bʼa # ; ! "pues"
 
+alo%<ij%>:alo # ; 
+
 amen%<ij%>:amen # ;
 
 jat%<ij%>:jat # ;
@@ -5167,7 +5169,10 @@ jawijeʼ:jawijeʼ Ad-jawi ; ! "¿dónde?"
 chiwchiʼ:chiwchiʼ Ad-jawi ; ! ""
 pachiwchiʼ:pachiwchiʼ Ad-jawi ; ! ""
 
-
+jubʼiqʼ:jubʼiqʼ Ad-aninaq ; ! "un poco" 
+sqeʼn:sqeʼn Ad-aninaq ; ! "un poco"
+juxitʼ:juxitʼ Ad-aninaq ; ! "un poco"
+junkʼet:junkʼet Ad-aninaq ; ! "un poco"
 
 
 LEXICON IV
@@ -6850,6 +6855,7 @@ kʼam:kʼam V-TV-Aʼ ;                    ! "recibir; receive"
 chiʼj:chiʼj V-TV ;                  ! "ofrecer; offer"
 il:il V-TV-O ;                      ! "ver; see"
 ta:ta V-TV-O ;                      ! "entender; understand"
+taʼ:taʼ V-TV-O ;                    ! "preguntar; ask"
 ya:ya V-TV-O ;                      ! "dar; give" ! Src/Biblia
 yaʼ:yaʼ V-TV-O ;                    ! "dar; give" ! Src/Dico
 loqʼ:loqʼ V-TV-O ;                  ! "comprar; buy"
