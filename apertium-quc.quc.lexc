@@ -219,6 +219,11 @@ LEXICON A-saq
 
 %<adj%>: # ;
 
+LEXICON A-jeʼl 
+! <ik>
+
+%<adj%>: # ;
+
 LEXICON A-nim
 
 %<adj%>: # ;
@@ -459,6 +464,7 @@ bʼaʼ%<ij%>:baʼ # ; ! "pues"
 bʼaʼ%<ij%>:bʼa # ; ! "pues"
 
 alo%<ij%>:alo # ; 
+mmm%<ij%>:mmm # ;
 
 amen%<ij%>:amen # ;
 
@@ -514,9 +520,11 @@ aj:aj Pr ;                         ! "of"
 kʼa:kʼa Pr ;                       ! "hasta"
 chuxeʼ:chuxeʼ Pr ;                 ! "debajo de"
 uxeʼ:uxeʼ Pr ;                     ! "abajo de"
+xeʼ:xeʼ Pr ;                       ! "debajo de"
 panikʼaj:panikʼaj Pr ;             ! "en medio de"
 panikʼaj:panikʼyaj Pr ;            ! "en medio de" 
 kʼateʼ:kʼateʼ Pr ;                 ! "hasta" 
+kʼateʼ:kʼate Pr ;                  ! "hasta"  ! Src/Cuentos
 
 ! nu w
 ! a aw
@@ -545,6 +553,7 @@ chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>wach # ; ! "" ! Src/UDHR
 chi%<pr%>%+%<px1pl%>wach%<n%>%<rel%>:ch%>qa%>wach # ; ! ""
 chi%<pr%>%+%<px2pl%>wach%<n%>%<rel%>:ch%>i%>wach # ; ! ""
 chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:ch%>ki%>wach # ; ! ""
+chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:chi%>ki%>wach # ; ! "" ! Src/Cuentos
 
 chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:ch%>we # ; ! ""
 chi%<pr%>%+awe%<prn%>%<pers%>%<p2%>%<sg%>:ch%>awe # ; ! ""
@@ -574,6 +583,7 @@ chi%<pr%>%+%<px3pl%>naqaj%<n%>%<rel%>:ch%>ki%>naqaj # ; ! ""
 pa%<pr%>%+%<px1sg%>wiʼ%<n%>%<rel%>:pa%>nu%>wiʼ # ; ! ""
 pa%<pr%>%+%<px2sg%>wiʼ%<n%>%<rel%>:p%>a%>wiʼ # ; ! ""
 pa%<pr%>%+%<px3sg%>wiʼ%<n%>%<rel%>:p%>u%>wiʼ # ; ! ""
+pa%<pr%>%+%<px3sg%>wiʼ%<n%>%<rel%>:p%>u%>wi # ; ! "" ! Src/Cuentos
 pa%<pr%>%+%<px1pl%>wiʼ%<n%>%<rel%>:pa%>qa%>wiʼ # ; ! ""
 pa%<pr%>%+%<px2pl%>wiʼ%<n%>%<rel%>:p%>i%>wiʼ # ; ! ""
 pa%<pr%>%+%<px3pl%>wiʼ%<n%>%<rel%>:pa%>ki%>wiʼ # ; ! ""
@@ -683,6 +693,7 @@ ixoq:ixoq N-ixoq ;                 ! "mujer; woman"
 anjel:anjel N-ixoq ;               ! ""
 ajchak:ajchak N-ixoq ;             ! "trabajador; worker (traditional peasant)"
 iyom:iyom N-iyom ;                 ! "partera; midwife"
+alitom:alitom N-iyom ;             ! ""
 teem:teem N-ixoq ;                 ! "silla; chair"
 wuuj:wuuj N-ixoq ;                 ! "papel; paper"
 wuuj:wuj N-ixoq ;                  ! "libro; book"
@@ -4116,6 +4127,8 @@ qʼequʼmal:qʼequʼmal N-tinamit ; ! "oscuridad; darkness"
 yawabʼ:yawabʼ N-ixoq ; ! "enfermo; "
 alkʼuwaʼl:alkʼuwaʼl N-tinamit ; ! "hijo, hija; "
 ripibʼal:ripibʼal N-tinamit ; ! ""
+kʼwaʼ:kʼwaʼ N-tinamit ; ! "pozo"
+kʼuwaʼ:kʼuwaʼ N-tinamit ; ! "pozo"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -4458,6 +4471,7 @@ jatʼajik:jatʼajik A-saq ; ! "well bound"
 jatʼim:jatʼim A-saq ; ! "bound"
 jayalik:jayalik A-saq ; ! "uneven dress or pants"
 !jeʼl<ik>:jeʼl<ik>A-saq ; ! "pretty, beautiful"
+jeʼl:jeʼl A-jeʼl ; ! "bonito, precioso"
 !jebel<ik>:jebel<ik>A-saq ; ! "very pretty"
 jechʼ:jechʼ A-saq ; ! "crooked (pack on horse)"
 jechʼejik:jechʼejik A-saq ; ! "crooked"
