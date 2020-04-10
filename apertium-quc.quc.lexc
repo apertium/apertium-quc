@@ -465,6 +465,7 @@ bʼaʼ%<ij%>:bʼa # ; ! "pues"
 
 alo%<ij%>:alo # ; 
 mmm%<ij%>:mmm # ;
+aaa%<ij%>:aaa # ;
 
 amen%<ij%>:amen # ;
 
@@ -544,6 +545,7 @@ chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:chi%>q%>ech # ;  ! ""
 chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>w%>ech # ;  ! ""
 !chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:chi%>wach # ;  ! ""
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>k%>ech  # ;  ! ""
+chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chi%>k%>ech  # ;  ! "" ! Src/Cuentos
 
 ! Estos parecen contracciones también, chi + POSS + wach "face"
 chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:ch%>nu%>wach # ; ! ""
@@ -4171,6 +4173,7 @@ Rebʼeka:Rebʼeka NP-Ant-F ;
 Prissilla:Prissilla NP-Ant-F ;
 
 Migueʼl:Migueʼl NP-Ant-M ;
+Ajpu:Ajpu NP-Ant-M ; 
 Rubʼen:Rubʼen NP-Ant-M ;
 Samson:Samson NP-Ant-M ;
 Saʼul:Saʼul NP-Ant-M ;
