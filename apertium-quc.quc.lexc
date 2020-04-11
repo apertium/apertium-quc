@@ -423,6 +423,9 @@ LEXICON CC
 LEXICON NP-Top
 %<np%>%<top%>: # ;
 
+LEXICON NP-Cog
+%<np%>%<cog%>: # ;
+
 LEXICON NP-Al
 %<np%>%<al%>: # ;
 
@@ -4172,6 +4175,8 @@ Mesopotamiʼa:Mesopotamiʼa NP-Top ;
 Sara:Sara NP-Ant-F ;
 Rebʼeka:Rebʼeka NP-Ant-F ;
 Prissilla:Prissilla NP-Ant-F ;
+
+Perez:Perez NP-Cog ; 
 
 Migueʼl:Migueʼl NP-Ant-M ;
 Ajpu:Ajpu NP-Ant-M ; 
