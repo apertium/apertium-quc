@@ -729,6 +729,7 @@ chajinel:chajinel N-iyom ;         ! "guardian; guardian"
 loqʼomanel:loqʼomanel N-iyom ;     ! "comprador; buyer"
 chakunel:chakunel N-iyom ;         ! "trabajador; worker"
 elaqʼom:elaqʼom N-iyom ;           ! "ladrón; thief"
+elaqʼom:eʼlaqʼom N-iyom ;          ! "ladrón; thief" ! Src/UTexas unit 6
 kamisanel:kamisanel N-iyom ;       ! "homicida; homicide"
 etanel:etanel N-iyom ;             ! "medidor; measurer"
 etzʼanel:etzʼanel N-iyom ;         ! "jugador; player"
@@ -2853,6 +2854,7 @@ qʼaqʼ:qʼaqʼ N-tinamit ; ! "fire"
 !-qʼaqʼal:-qʼaqʼal N-tinamit ; ! "temperature"
 qʼaqʼil:qʼaqʼil N-tinamit ; ! "electricity"
 !qʼatal tzij:qʼatal tzij N-tinamit ; ! "judge"
+qʼatal:qʼatal N-tinamit ; ! "judge" Src/UTexas unit 6
 qʼatanel:qʼatanel N-tinamit ; ! "one who is just passing through"
 qʼatatal:qʼatatal N-tinamit ; ! "a little"
 !qʼatatal qʼij:qʼatatal qʼij N-tinamit ; ! "a few days"
@@ -3934,6 +3936,7 @@ yutʼ:yutʼ N-tinamit ; ! "knot"
 yutʼbal:yutʼbal N-tinamit ; ! "dressing (for wound)"
 yutʼuyik:yutʼuyik N-tinamit ; ! "bundle"
 kʼax:kʼax N-tinamit ; ! "evil, illness"
+wokol:wokol N-tinamit ; ! "construction worker"
 
 alkalteʼ:alkalteʼ N-tinamit ;
 alkalte:alkalte N-tinamit ;
@@ -4032,6 +4035,8 @@ kʼutbʼal:kʼutbʼal N-uxlabʼal ; ! "signo; sign"
 etabʼal:etabʼal N-uxlabʼal ; ! "medida; measure"
 
 !-lajujil:    -lajuj N-cholaj ; ! "tenth"
+
+cholaj:cholaj N-tinamit ; ! "line" Src/UTexas unit 6 TODO: Check
 
 !al<al>:al<al>N-tinamit ; ! "weight"
 !al<axel>ala:al<axel>ala N-tinamit ; ! "son of a female"
@@ -4315,6 +4320,7 @@ Xtu'p:Xtu'p NP-Ant-M ; ! "Cristóbal"
 Xwan:Xwan NP-Ant-M ; ! "Juan"
 Xwaʼn:Xwaʼn NP-Ant-F ; ! "Juana"
 Weʼl:Weʼl NP-Ant-F ; ! "Manuela"
+Tuʼr:Tuʼr NP-Ant-M ; ! "Venturo"
 
 
 LEXICON Adjectives

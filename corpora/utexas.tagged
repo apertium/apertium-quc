@@ -438,3 +438,71 @@ $^!/!<sent>$
 ^Lal/lal<prn><pers><p2><frm><sg>$
 ^k’amal/kʼamal<n>$
 ^b’e/bʼe<n>$
+
+# sent = In k’o pa le uk’isb’al cholaj.
+# sent[spa] =  (Yo) estoy en la última fila
+# labels = tijonik-6
+^In/in<prn><pers><p1><sg>$
+^kʼo/kʼo<part>$
+^pa/pa<pr>$
+^le/le<det>$
+^ukʼisbʼal/*ukʼisbʼal$
+^cholaj/*cholaj$
+^./.<sent>$
+
+# sent = E k’o keb’ uk’ajol le tat Xwan
+# sent[spa] =  Don Juan tiene dos hijos.
+# labels = tijonik-6
+^E/e<pl>$
+^k’o/kʼo<part>$
+^keb’/kebʼ<num>$
+^uk’ajol/<px3sg>kʼojolaxel<n>$
+^le/le<det>$
+^tat/tat<n>$
+^Xwan/Xwan<np><ant><m>$
+
+# sent = In in k’o pa tijob’al.
+# sent[spa] =  Yo estoy en la clase.
+# labels = tijonik-6
+^In/in<prn><pers><p1><sg>$
+^in/in<prn><pers><p1><sg>$
+^k’o/kʼo<part>$
+^pa/pa<pr>$
+^tijob’al/tijobʼal<n>$
+^./.<sent>$
+
+# sent = At at utaqo’n le q’atal tzij.
+# sent[spa] =  ¡Tú, tu eres el mensajero del juez!
+# labels = tijonik-6
+^At/at<prn><pers><p2><sg>$
+^at/at<prn><pers><p2><sg>$
+^utaqo’n/<px3sg>taqoʼn<n>$
+^le/le<det>$
+^q’atal/*q’atal$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^./.<sent>$
+
+# sent = Are le Tu’r le loq’omanel.
+# sent[spa] =  Es Venturo el comprador.
+# labels = tijonik-6
+^Are/are<adv>/<px2sg>re<n><rel>$
+^le/le<det>$
+^Tuʼr/*Tuʼr$
+^le/le<det>$
+^loqʼomanel/loqʼomanel<n>$
+^./.<sent>$
+
+# sent = Oj oj wokol ja!
+# sent[spa] =  Nosotros somos albañiles.
+# labels = tijonik-6
+^Oj/oj<n>/oj<prn><pers><p1><pl>$
+^oj/oj<n>/oj<prn><pers><p1><pl>$
+^wokol/*wokol$
+^ja/ja<n>$
+
+# sent = Ix ix e’laq’omab’!
+# sent[spa] =  ¡Ustedes son ladrones!
+# labels = tijonik-6
+^Ix/Ix<n>/ix<prn><pers><p2><pl>$
+^ix/Ix<n>/ix<prn><pers><p2><pl>$
+^eʼlaqʼomabʼ/*eʼlaqʼomabʼ$
