@@ -100,7 +100,7 @@ LEXICON IK
 
 LEXICON Procliticos
 
-e%<pl%>%+:e%{ʼ%}%> Poss ; 
+e%<pl%>%+:e%{ʼ%}%> Poss ;
 e%<pl%>%+:e%{ʼ%}%> Adjectives ;  ! etyoxlaj
 e%<pl%>%+:e%{ʼ%}%> Cardinals ;  ! ewuqubʼ
 
@@ -150,7 +150,7 @@ LEXICON N-nan
 @D.Poss@%<n%>:@D.Poss@ # ;
 
 LEXICON N-chiʼ
-! chiʼaj     mouth 	
+! chiʼaj     mouth
 ! nuchiʼ  my mouth
 @R.Poss.None@%<n%>:@R.Poss.None@%>aj # ;
 @D.Poss@%<n%>:@D.Poss@ # ;
@@ -219,7 +219,7 @@ LEXICON A-saq
 
 %<adj%>: # ;
 
-LEXICON A-jeʼl 
+LEXICON A-jeʼl
 ! <ik>
 
 %<adj%>: # ;
@@ -237,7 +237,7 @@ LEXICON A-chʼutin
 
 LEXICON A-yaʼtal
 ! yaʼtal(ik)
-%<adj%>: # ; 
+%<adj%>: # ;
 
 LEXICON Ad-aninaq
 
@@ -295,7 +295,7 @@ LEXICON Asp
 %<imp%>:ch B ;
 %<imp%>%<neg%>:m%{a%} B ;
 
-! Perfect: This aspect is only marked by a suffix and carries no prefixed aspect marker. 
+! Perfect: This aspect is only marked by a suffix and carries no prefixed aspect marker.
 
 
 
@@ -443,7 +443,7 @@ LEXICON NP-Ant-F
 LEXICON Miscellaneous
 
 taq%<pl%>:taq # ;
-e%<pl%>:e # ; 
+e%<pl%>:e # ;
 jetaq%<pl%>:jetaq # ;
 la%<qst%>:la # ;
 wi%<part%>:wi # ;
@@ -466,7 +466,7 @@ bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
 bʼaʼ%<ij%>:bʼa # ; ! "pues"
 
-alo%<ij%>:alo # ; 
+alo%<ij%>:alo # ;
 mmm%<ij%>:mmm # ;
 aaa%<ij%>:aaa # ;
 
@@ -526,8 +526,8 @@ chuxeʼ:chuxeʼ Pr ;                 ! "debajo de"
 uxeʼ:uxeʼ Pr ;                     ! "abajo de"
 xeʼ:xeʼ Pr ;                       ! "debajo de"
 panikʼaj:panikʼaj Pr ;             ! "en medio de"
-panikʼaj:panikʼyaj Pr ;            ! "en medio de" 
-kʼateʼ:kʼateʼ Pr ;                 ! "hasta" 
+panikʼaj:panikʼyaj Pr ;            ! "en medio de"
+kʼateʼ:kʼateʼ Pr ;                 ! "hasta"
 kʼateʼ:kʼate Pr ;                  ! "hasta"  ! Src/Cuentos
 
 ! nu w
@@ -644,7 +644,7 @@ weriʼ:weriʼ Pron-waʼ ;               ! "esto"
 
 ki%<prn%>:ki # ;
 
-LEXICON Cardinals 
+LEXICON Cardinals
 
 jun:jun Num ;                      ! "uno; one"
 kebʼ:kebʼ Num ;                    ! "dos; two"
@@ -949,6 +949,7 @@ ajxib:ajxib N-tinamit ; ! "coward"
 ajxik:ajxik N-tinamit ; ! "thief"
 ajxojoj:ajxojoj N-tinamit ; ! "dancer"
 ajxojolab:ajxojolab N-tinamit ; ! "dancers"
+ajxojolab:ajxojolob’ N-tinamit ; ! "dancers" ! Src/UTexas unit 6
 ajxul:ajxul N-tinamit ; ! "flautist"
 ajyitz:ajyitz N-tinamit ; ! "cow udder"
 ajyuqʼ:ajyuqʼ N-tinamit ; ! "shepherd"
@@ -4165,7 +4166,7 @@ Bʼabʼiloniʼa:Bʼabʼiloniʼa NP-Top ;
 Korinto:Korinto NP-Top ;
 Efeso:Efeso NP-Top ;
 
-Sesareʼa:Sesareʼa NP-Top ; 
+Sesareʼa:Sesareʼa NP-Top ;
 Tesalonika:Tesalonika NP-Top ;
 Sirakusa:Sirakusa NP-Top ;
 Sinaʼi:Sinaʼi NP-Top ;
@@ -4176,15 +4177,15 @@ Sara:Sara NP-Ant-F ;
 Rebʼeka:Rebʼeka NP-Ant-F ;
 Prissilla:Prissilla NP-Ant-F ;
 
-Perez:Perez NP-Cog ; 
+Perez:Perez NP-Cog ;
 
 Migueʼl:Migueʼl NP-Ant-M ;
 Vicente:Vicente NP-Ant-M ;
-Ajpu:Ajpu NP-Ant-M ; 
+Ajpu:Ajpu NP-Ant-M ;
 Rubʼen:Rubʼen NP-Ant-M ;
 Samson:Samson NP-Ant-M ;
 Saʼul:Saʼul NP-Ant-M ;
-Tito:Tito NP-Ant-M ; 
+Tito:Tito NP-Ant-M ;
 Levi:Levi NP-Ant-M ;
 Festo:Festo NP-Ant-M ;
 Félix:Félix NP-Ant-M ;
@@ -4230,7 +4231,7 @@ Mariʼy:Mariʼy NP-Ant-F ;
 Marta:Marta NP-Ant-F ;
 María:María NP-Ant-F ;
 Ixkikʼ:Ixkikʼ NP-Ant-F ;
-Bʼerenise:Bʼerenise NP-Ant-F ; 
+Bʼerenise:Bʼerenise NP-Ant-F ;
 Susana:Susana NP-Ant-F ;
 
 
@@ -4313,6 +4314,7 @@ Wel:Wel NP-Ant-M ; ! "Manuel"
 Xtu'p:Xtu'p NP-Ant-M ; ! "Cristóbal"
 Xwan:Xwan NP-Ant-M ; ! "Juan"
 Xwaʼn:Xwaʼn NP-Ant-F ; ! "Juana"
+Weʼl:Weʼl NP-Ant-F ; ! "Manuela"
 
 
 LEXICON Adjectives
@@ -5035,7 +5037,7 @@ joʼs:joʼs A-saq ; ! ""
 qʼequʼm:qʼequʼm A-saq ; ! "oscuro; dark"
 
 ! TODO: MWE "qʼaxal utzij"
-qʼaxal:qʼaxal A-saq ; ! "profeta" 
+qʼaxal:qʼaxal A-saq ; ! "profeta"
 qʼaxel:qʼaxel A-saq ; ! ""
 
 LEXICON Adverbs
@@ -5193,7 +5195,7 @@ jawijeʼ:jawijeʼ Ad-jawi ; ! "¿dónde?"
 chiwchiʼ:chiwchiʼ Ad-jawi ; ! ""
 pachiwchiʼ:pachiwchiʼ Ad-jawi ; ! ""
 
-jubʼiqʼ:jubʼiqʼ Ad-aninaq ; ! "un poco" 
+jubʼiqʼ:jubʼiqʼ Ad-aninaq ; ! "un poco"
 sqeʼn:sqeʼn Ad-aninaq ; ! "un poco"
 juxitʼ:juxitʼ Ad-aninaq ; ! "un poco"
 junkʼet:junkʼet Ad-aninaq ; ! "un poco"
