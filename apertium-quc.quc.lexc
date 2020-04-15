@@ -729,7 +729,7 @@ chajinel:chajinel N-iyom ;         ! "guardian; guardian"
 loqʼomanel:loqʼomanel N-iyom ;     ! "comprador; buyer"
 chakunel:chakunel N-iyom ;         ! "trabajador; worker"
 elaqʼom:elaqʼom N-iyom ;           ! "ladrón; thief"
-elaqʼom:eʼlaqʼom N-iyom ;          ! "ladrón; thief" ! Src/UTexas unit 6
+elaqʼom:eʼlaqʼom N-iyom ;          ! "ladrón; thief" ! Src/UTexas:6
 kamisanel:kamisanel N-iyom ;       ! "homicida; homicide"
 etanel:etanel N-iyom ;             ! "medidor; measurer"
 etzʼanel:etzʼanel N-iyom ;         ! "jugador; player"
@@ -950,7 +950,7 @@ ajxib:ajxib N-tinamit ; ! "coward"
 ajxik:ajxik N-tinamit ; ! "thief"
 ajxojoj:ajxojoj N-tinamit ; ! "dancer"
 ajxojolab:ajxojolab N-tinamit ; ! "dancers"
-ajxojolab:ajxojolob’ N-tinamit ; ! "dancers" ! Src/UTexas unit 6
+ajxojolab:ajxojolobʼ N-tinamit ; ! "dancers" ! Src/UTexas:6
 ajxul:ajxul N-tinamit ; ! "flautist"
 ajyitz:ajyitz N-tinamit ; ! "cow udder"
 ajyuqʼ:ajyuqʼ N-tinamit ; ! "shepherd"
@@ -2854,7 +2854,7 @@ qʼaqʼ:qʼaqʼ N-tinamit ; ! "fire"
 !-qʼaqʼal:-qʼaqʼal N-tinamit ; ! "temperature"
 qʼaqʼil:qʼaqʼil N-tinamit ; ! "electricity"
 !qʼatal tzij:qʼatal tzij N-tinamit ; ! "judge"
-qʼatal:qʼatal N-tinamit ; ! "judge" Src/UTexas unit 6
+qʼatal:qʼatal N-tinamit ; ! "judge" Src/UTexas:6
 qʼatanel:qʼatanel N-tinamit ; ! "one who is just passing through"
 qʼatatal:qʼatatal N-tinamit ; ! "a little"
 !qʼatatal qʼij:qʼatatal qʼij N-tinamit ; ! "a few days"
@@ -3998,6 +3998,7 @@ chuqʼabʼ:chuqabʼ N-tinamit ; ! "poder; strength" ! Src/Biblia
 chuqʼab:chuqʼab N-tinamit ; ! "poder; strength" ! Src/Dico
 
 cholajil:cholajil N-tinamit ; ! "orden; order" ! Src/Biblia ! TODO: Check
+cholaj:cholaj N-tinamit ; ! "clase; class" ! Src/UTexas
 cholajil:cholaj N-cholaj ; ! "purpose"
 chʼaqapil:chʼaqap N-cholaj ; ! "piece"
 ijaʼlil:ijaʼl N-cholaj ; ! "generation"
@@ -4036,7 +4037,7 @@ etabʼal:etabʼal N-uxlabʼal ; ! "medida; measure"
 
 !-lajujil:    -lajuj N-cholaj ; ! "tenth"
 
-cholaj:cholaj N-tinamit ; ! "line" Src/UTexas unit 6 TODO: Check
+cholaj:cholaj N-tinamit ; ! "line" Src/UTexas:6 TODO: Check
 
 !al<al>:al<al>N-tinamit ; ! "weight"
 !al<axel>ala:al<axel>ala N-tinamit ; ! "son of a female"
@@ -4179,6 +4180,7 @@ Roma:Roma NP-Top ;
 Mesopotamiʼa:Mesopotamiʼa NP-Top ;
 
 Sara:Sara NP-Ant-F ;
+Skaʼ:Skaʼ NP-Ant-F ;
 Rebʼeka:Rebʼeka NP-Ant-F ;
 Prissilla:Prissilla NP-Ant-F ;
 
