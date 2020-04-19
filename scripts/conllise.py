@@ -1,3 +1,8 @@
+"""
+	This script creates a CoNLL-U file from two input files:
+	1) DEP_FILE ... This is a list of sentences in VISLCG3 format
+	2) SEG_FILE ... This is a list of sentences in Apertium format
+"""
 import sys
 
 # comments
@@ -100,6 +105,7 @@ for i in range(0, len(sents_dep)):
 			word = token[1][0]
 			print('%d\t%s\t%s\t%s\t%s\t%s\t%d\t%s\t%s\t%s' % (word[0], token[0],word[2],'_','_','_',word[6],word[7],'_','_'))
 #		print('@',tokens[j], segmentations[j])	
+	print()
 
 	
 	

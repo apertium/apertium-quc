@@ -1,0 +1,11 @@
+# sent = Rajawaxik kak’aman chawe le utijik le lej.
+# sent[spa] =  Es necesario que te acostumbres a comer tortillas.
+# labels = tijonik-41
+^Rajawaxik/rajawaxik<adj>/rajawaxik<n>$
+^kakʼaman/<impf><s_sg3>kʼamanik<v><iv>$
+^chawe/chi<pr>+awe<prn><pers><p2><sg>$
+^le/le<det>$
+^utijik/<px3sg>tij<v><iv><act>$
+^le/le<det>$
+^lej/lej<n>$
+^./.<sent>$
