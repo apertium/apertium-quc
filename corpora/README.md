@@ -1,6 +1,8 @@
 # Corpora
 
-## Example
+## Available corpora
+
+### Example
 
 This corpus consists of a small set of test sentences which illustrate the different formats and conversions.
 
@@ -12,7 +14,7 @@ This corpus consists of a small set of test sentences which illustrate the diffe
 
 The files `example.dep` and `example.seg` can be used to generate CoNLL-U output.
 
-## UTexas
+### UTexas
 
 * `utexas.tagged`:
 
