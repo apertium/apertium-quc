@@ -11,7 +11,7 @@
 "<iwach>"
 	"wach" n rel px2pl @obl #4->1
 "<nutijoxelabʼ>"
-	"tijoxel" n pl px1sg @appos #5->1
+	"tijoxel" n pl px1sg @vocative #5->1
 "<!>"
 	"!" text @punct #6->1
 
