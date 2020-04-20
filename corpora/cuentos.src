@@ -86,7 +86,7 @@
 ^ik/ik<n>$
 ^rumal/<px3sg>umal<n><rel>$
 ^ri/ri<det>$
-^kinimaqʼij/*kinimaqʼij$
+^kinimaqʼij/<px3pl>nimaqʼij<n>$
 ^./.<sent>$
 
 # sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:8
@@ -99,7 +99,7 @@
 ^kabʼan/<impf><o_sg3><s_sg2>bʼan<v><tv>$
 ^chike/*chike$
 ^,/,<cm>$
-^kabʼison/*kabʼison$
+^kabʼison/<impf><s_sg3>bʼisonik<v><iv>$
 ^le/le<det>$
 ^rajaw/<px3sg>ajaw<n>$
 ^tuj/tuj<n>$

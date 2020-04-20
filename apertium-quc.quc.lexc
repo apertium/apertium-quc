@@ -4143,6 +4143,7 @@ alkʼuwaʼl:alkʼuwaʼl N-tinamit ; ! "hijo, hija; "
 ripibʼal:ripibʼal N-tinamit ; ! ""
 kʼwaʼ:kʼwaʼ N-tinamit ; ! "pozo"
 kʼuwaʼ:kʼuwaʼ N-tinamit ; ! "pozo"
+nimaqʼij:nimaqʼij N-tinamit ; ! "fiesta; party"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -5229,6 +5230,7 @@ qʼay:qʼay V-IV ;                  ! "to rot, decompose"
 pe:pe V-IV ;                      ! "venir; come"
 
 kʼojiʼk:kʼojiʼ V-IV ;            ! "inhabitar; inhabit"
+bʼisonik:bʼison V-IV ;             ! FIXME: check ! Src/Cuentos
 
 abäjirik:abäjir V-IV ; ! "to harden"
 abanik:aban V-IV ; ! "to invent"
