@@ -1,0 +1,107 @@
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:1
+# text = Ri kabʼan Tzʼunil are chiʼ kil uwach jun lochʼ.
+# text[spa] =
+# labels = 
+^Ri/ri<det>$
+^kabʼan/<impf><o_sg3><s_sg2>bʼan<v><tv>$
+^Tzʼunil/Tzʼunil<np><top>$
+^are/are<adv>/<px2sg>re<n><rel>$
+^chiʼ/chiʼ<n>$
+^kil/<px3pl>il<n>$
+^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^lochʼ/*lochʼ$
+^./.<sent>$
+
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:2
+# text = Are kel wajxaqibʼ uqʼij ri xkʼojik.
+# text[spa] =
+# labels = 
+^Are/are<adv>/<px2sg>re<n><rel>$
+^kel/<impf><s_sg3>elik<v><iv>/<impf><s_sg3>el<v><iv>$
+^wajxaqibʼ/wajxaqibʼ<num>$
+^uqʼij/<px3sg>qʼij<n>$
+^ri/ri<det>$
+^xkʼojik/<perf><s_sg3>kʼojiʼk<v><iv>+ik<mark>$
+^./.<sent>$
+
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:3
+# text = Kakoj kyaq usok ri unan rech kachʼaj bʼik.
+# text[spa] =
+# labels = 
+^Kakoj/<impf><o_sg3><s_sg2>koj<v><tv>$
+^kyaq/*kyaq$
+^usok/<px3sg>sok<n>$
+^ri/ri<det>$
+^unan/<px3sg>nan²<n>/<px3sg>nan¹<n>$
+^rech/<px3sg>ech<n><rel>$
+^kachʼaj/<impf><o_sg3><s_sg2>chʼaj<v><tv>$
+^bʼik/bʼi<adv><dir>+ik<mark>$
+^./.<sent>$
+
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:4
+# text = Pa le nimaʼ kechʼajoq rech utz.
+# text[spa] =
+# labels = 
+^Pa/pa<pr>$
+^le/le<det>$
+^nimaʼ/nimaʼ<n>$
+^kechʼajoq/*kechʼajoq$
+^rech/<px3sg>ech<n><rel>$
+^utz/utz<adj>/utz<adv>$
+^./.<sent>$ 
+
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:5
+# text = E kebʼ kekʼam bʼik pa tuj.
+# text[spa] =
+# labels = 
+^E/e<pl>$
+^kebʼ/kebʼ<num>$
+^kekʼam/*kekʼam$
+^bʼik/bʼi<adv><dir>+ik<mark>$
+^pa/pa<pr>$
+^tuj/tuj<n>$
+^./.<sent>$
+
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:6
+# text = Tekʼuriʼ kabʼan jun komon waʼim pa kachoch.
+# text[spa] =
+# labels = 
+^Tekʼuriʼ/tekʼuriʼ<cnjcoo>$
+^kabʼan/<impf><o_sg3><s_sg2>bʼan<v><tv>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^komon/komon<adj>/komon<n>$
+^waʼim/waʼim<n>$
+^pa/pa<pr>$
+^kachoch/<px3pl>achoch<n>$
+^./.<sent>$
+
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:7
+# text = Ktij ri uwaʼl ik rumal ri kinimaqʼij.
+# text[spa] =
+# labels = 
+^Ktij/<impf><s_sg3>tijik<v><iv>$
+^ri/ri<det>$
+^uwaʼl/<px3sg>waʼl<n>$
+^ik/ik<n>$
+^rumal/<px3sg>umal<n><rel>$
+^ri/ri<det>$
+^kinimaqʼij/*kinimaqʼij$
+^./.<sent>$
+
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:8
+# text = We man je kabʼan chike, kabʼison le rajaw tuj.
+# text[spa] =
+# labels = 
+^We/we<cnjsub>/we<det>$
+^man/man<neg>/<imp><neg><s_sg3>anik<v><iv>$
+^je/je<adv>$
+^kabʼan/<impf><o_sg3><s_sg2>bʼan<v><tv>$
+^chike/*chike$
+^,/,<cm>$
+^kabʼison/*kabʼison$
+^le/le<det>$
+^rajaw/<px3sg>ajaw<n>$
+^tuj/tuj<n>$
+^./.<sent>$
+
