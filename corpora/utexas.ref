@@ -1,5 +1,5 @@
 # sent_id = fixme
-# text = K’o jun nuk’otoj chi’aj.
+# text = Kʼo jun nukʼotoj chiʼaj.
 # text[eng] = I have a question.
 # labels = tijonik-2
 ^Kʼo/kʼo<part>$
@@ -9,7 +9,7 @@
 ^./.<sent>$
 
 # sent_id = fixme
-# text = La k’o jun k’otoj chi’aj?
+# text = La kʼo jun kʼotoj chiʼaj?
 # text[eng] = Is there a question?
 # labels = tijonik-2
 ^La/la<n>/la<qst>$
@@ -20,8 +20,8 @@
 ^?/?<sent>$
 
 # sent_id = fixme
-# text = La k’o jun na kak’oxomaj taj?
-# text[eng] = Is there something you don’t understand?
+# text = La kʼo jun na kakʼoxomaj taj?
+# text[eng] = Is there something you donʼt understand?
 # labels = tijonik-2
 ^La/la<n>/la<qst>$
 ^kʼo/kʼo<part>$
@@ -32,8 +32,8 @@
 ^?/?<sent>$
 
 # sent_id = fixme
-# text = La k’o na kik’oxomaj taj?
-# text[eng] = Is there something you all don’t understand?
+# text = La kʼo na kikʼoxomaj taj?
+# text[eng] = Is there something you all donʼt understand?
 # labels = tijonik-2
 ^La/la<n>/la<qst>$
 ^kʼo/kʼo<part>$
@@ -43,8 +43,8 @@
 ^?/?<sent>$
 
 # sent_id = fixme
-# text = La k’o tzij na kik’oxomaj taj?
-# text[eng] = ¿Is there any word you all don’t understand?
+# text = La kʼo tzij na kikʼoxomaj taj?
+# text[eng] = ¿Is there any word you all donʼt understand?
 # labels = tijonik-2
 ^La/la<n>/la<qst>$
 ^kʼo/kʼo<part>$
@@ -55,8 +55,8 @@
 ^?/?<sent>$
 
 # sent_id = fixme
-# text = Na kink’oxomaj taj jas karaj kub’ij …
-# text[eng] = I don’t understand what … means.
+# text = Na kinkʼoxomaj taj jas karaj kubʼij …
+# text[eng] = I donʼt understand what … means.
 # labels = tijonik-2
 ^Na/na<adv>/na<adv><fut>$
 ^kinkʼoxomaj/<impf><o_sg3><s_sg1>kʼoxomaj<v><tv>$
@@ -112,15 +112,15 @@
 
 # sent_id = fixme
 # text = Xsachan chwe.
-# text[eng] = I can’t remember.
+# text[eng] = I canʼt remember.
 # labels = tijonik-2
 ^Xsachan/*Xsachan$
 ^chwe/chi<pr>+we<prn><pers><p1><sg>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = Na weta’m taj.
-# text[eng] = I don’t know
+# text = Na wetaʼm taj.
+# text[eng] = I donʼt know
 # labels = tijonik-2
 ^Na/na<adv>/na<adv><fut>$
 ^wetaʼm/*wetaʼm$
@@ -128,7 +128,7 @@
 ^./.<sent>$
 
 # sent_id = fixme
-# text = Jas ub’ixik …?
+# text = Jas ubʼixik …?
 # text[eng] = How do you say…?
 # labels = tijonik-2
 ^Jas/jas<prn><itg>$
@@ -137,8 +137,8 @@
 ^?/?<sent>$
 
 # sent_id = fixme
-# text = Jas ub’ixik … pa K’iche’?
-# text[eng] = How do you say… in K’iche’?
+# text = Jas ubʼixik … pa Kʼicheʼ?
+# text[eng] = How do you say… in Kʼicheʼ?
 # labels = tijonik-2
 ^Jas/jas<prn><itg>$
 ^ubʼixik/*ubʼixik$
@@ -148,7 +148,7 @@
 ^?/?<sent>$
 
 # sent_id = fixme
-# text = Jas karaj kub’ij…?
+# text = Jas karaj kubʼij…?
 # text[eng] = What does… mean?
 # labels = tijonik-2
 ^Jas/jas<prn><itg>$
@@ -159,7 +159,7 @@
 
 # sent_id = fixme
 # text = Jas upatan le tzij…?
-# text[eng] = What’s the function of the word…?
+# text[eng] = Whatʼs the function of the word…?
 # labels = tijonik-2
 ^Jas/jas<prn><itg>$
 ^upatan/<px3sg>patan<n>/<px3sg>patän<n>$
@@ -169,7 +169,7 @@
 ^?/?<sent>$
 
 # sent_id = fixme
-# text = La utz we kinb’ij…?
+# text = La utz we kinbʼij…?
 # text[eng] = Is it ok to say…?
 # labels = tijonik-2
 ^La/la<n>/la<qst>$
@@ -200,7 +200,7 @@
 ^…/…<sent>$
 
 # sent_id = fixme
-# text =  Kimb’e pa le tinamit.
+# text =  Kimbʼe pa le tinamit.
 # text[eng] =  I go to the town.
 # labels = tijonik-10 ex-1
 ^Kimbʼe/<impf><s_sg1>bʼe<v><iv>$
@@ -210,7 +210,7 @@
 ^./.<sent>$
 
 # sent_id = fixme
-# text =  La katb’e pa le tinamit?
+# text =  La katbʼe pa le tinamit?
 # text[eng] =  Are you going to town?
 # labels = tijonik-10 ex-2
 ^La/la<n>/la<qst>$
@@ -221,7 +221,7 @@
 ^?/?<sent>$
 
 # sent_id = fixme
-# text = Rajawaxik kak’aman chawe le utijik le lej
+# text = Rajawaxik kakʼaman chawe le utijik le lej
 # text[spa] =  Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41
 ^Rajawaxik/rajawaxik<adj>$
@@ -234,36 +234,36 @@
 ^./.<sent>$
 
 # sent_id = fixme
-# text = Xb’e q’ij!
+# text = Xbʼe qʼij!
 # text[spa] =  ¡Buenas tardes!
 # labels = tijonik-3
-^Xb’e/<perf><s_sg3>bʼe<v><iv>$
-^q’ij/qʼij<n>$
+^Xbʼe/<perf><s_sg3>bʼe<v><iv>$
+^qʼij/qʼij<n>$
 ^!/!<sent>$
 
 # sent_id = fixme
-# text = Xok aq’ab’!
+# text = Xok aqʼabʼ!
 # text[spa] =  	¡Buenas noches!
 # labels = tijonik-3
 ^Xok/<perf><s_sg3>okik<v><iv>$
-^aq’ab’/<px2sg>qʼabʼ<n>$
+^aqʼabʼ/<px2sg>qʼabʼ<n>$
 ^!/!<sent>$
 
 # sent_id = fixme
-# text = Xb’e q’ij nan!
+# text = Xbʼe qʼij nan!
 # text[spa] =  ¡Buenas tardes señora!
 # labels = tijonik-3
-^Xb’e/<perf><s_sg3>bʼe<v><iv>$
-^q’ij/qʼij<n>$
+^Xbʼe/<perf><s_sg3>bʼe<v><iv>$
+^qʼij/qʼij<n>$
 ^nan/nan²<n>$
 ^!/!<sent>$
 
 # sent_id = fixme
-# text = Xok aq’ab’ ali!
+# text = Xok aqʼabʼ ali!
 # text[spa] =  ¡Buenas noches, muchacha!
 # labels = tijonik-3
 ^Xok/<perf><s_sg3>okik<v><iv>$
-^aq’ab’/<px2sg>qʼabʼ<n>$
+^aqʼabʼ/<px2sg>qʼabʼ<n>$
 ^ali/ali<n>$
 ^!/!<sent>$
 
@@ -275,18 +275,18 @@
 ^wachaj/wachaj<n>/wäch<n>$
 
 # sent_id = fixme
-# text = Are wa’ nuwuj
+# text = Are waʼ nuwuj
 # text[spa] =  Este es mi libro
 # labels = tijonik-4
 ^Are/are<adv>/<px2sg>re<n><rel>$
-^wa’/waʼ<det>/waʼ<prn><dem>/<px1sg>aʼ<n>$
+^waʼ/waʼ<det>/waʼ<prn><dem>/<px1sg>aʼ<n>$
 ^nuwuj/<px1sg>wuj<n>/<px1sg>wuuj<n>$
 
 # sent_id = fixme
-# text = K’o jun qat’u’y pa ja!
+# text = Kʼo jun qatʼuʼy pa ja!
 # text[spa] =  Tenemos una olla en casa
 # labels = tijonik-5
-^K’o/kʼo<part>$
+^Kʼo/kʼo<part>$
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^qatʼuʼy/*qatʼuʼy$
 ^pa/pa<pr>$
@@ -294,101 +294,101 @@
 ^!/!<sent>$
 
 # sent_id = fixme
-# text = K’o nuwuj
+# text = Kʼo nuwuj
 # text[spa] =  Tengo un libro
 # labels = tijonik-5
-^K’o/kʼo<part>$
+^Kʼo/kʼo<part>$
 ^nuwuj/<px1sg>wuj<n>/<px1sg>wuuj<n>$
 
 # sent_id = fixme
-# text = K’o nuwa chi’
+# text = Kʼo nuwa chiʼ
 # text[spa] =  Tengo comida aquí
 # labels = tijonik-5
-^K’o/kʼo<part>$
+^Kʼo/kʼo<part>$
 ^nuwa/<px1sg>wa<n>$
-^chi’/chiʼ<n>$
+^chiʼ/chiʼ<n>$
 
 # sent_id = fixme
-# text = K’o uxajab’ ri ak’al
+# text = Kʼo uxajabʼ ri akʼal
 # text[spa] =  El niño tiene sandalias.
 # labels = tijonik-5
-^K’o/kʼo<part>$
+^Kʼo/kʼo<part>$
 ^uxajab/<px3sg>xajäb<n>$
 ^ri/ri<det>$
-^ak’al/akʼal<adj>/akʼal<n>$
+^akʼal/akʼal<adj>/akʼal<n>$
 
 # sent_id = fixme
-# text = K’o qo’ch chila’ Nawalja’
+# text = Kʼo qoʼch chilaʼ Nawaljaʼ
 # text[spa] =  Tenemos casa en Nahualá
 # labels = tijonik-5
-^K’o/kʼo<part>$
-^qo’ch/<px1pl>oʼch<n>$
-^chila’/chilaʼ<adv>$
-^Nawalja’/Nawaljaʼ<np><top>$
+^Kʼo/kʼo<part>$
+^qoʼch/<px1pl>oʼch<n>$
+^chilaʼ/chilaʼ<adv>$
+^Nawaljaʼ/Nawaljaʼ<np><top>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = K’o iwab’ix pa juyub’.
+# text = Kʼo iwabʼix pa juyubʼ.
 # text[spa] =  Ustedes tienen una milpa en la montaña.
 # labels = tijonik-5
-^K’o/kʼo<part>$
+^Kʼo/kʼo<part>$
 ^iwab/<px2pl>ab<n>$
 ^ix/Ix<n>/ix<prn><pers><p2><pl>$
 ^pa/pa<pr>$
-^juyub’/juyubʼ<adj>$
+^juyubʼ/juyubʼ<adj>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = K’o ekik’ajol le achijab’.
+# text = Kʼo ekikʼajol le achijabʼ.
 # text[spa] =  Los hombres tienen hijos.
 # labels = tijonik-5
-^K’o/kʼo<part>$
-^ekik’ajol/e<pl>+<px3pl>kʼojolaxel<n>$
+^Kʼo/kʼo<part>$
+^ekikʼajol/e<pl>+<px3pl>kʼojolaxel<n>$
 ^le/le<det>$
-^achijab’/achij<n><pl>$
+^achijabʼ/achij<n><pl>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = K’o jun ala pa tijob’al.
+# text = Kʼo jun ala pa tijobʼal.
 # text[spa] =  Hay un muchacho en la escuela.
 # labels = tijonik-5
-^K’o/kʼo<part>$
+^Kʼo/kʼo<part>$
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^ala/ala<n>/<px2sg>la<n>$
 ^pa/pa<pr>$
-^tijob’al/tijobʼal<n>$
+^tijobʼal/tijobʼal<n>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = K’o jun tz’i’ pa b’e.
+# text = Kʼo jun tzʼiʼ pa bʼe.
 # text[spa] =  Hay un perro en la calle.
 # labels = tijonik-5
-^K’o/kʼo<part>$
+^Kʼo/kʼo<part>$
 ^jun/jun<adj>/jun<n>/jun<num>$
-^tz’i’/Tzʼiʼ<n>/tzʼiʼ<adj>/tzʼiʼ<n>$
+^tzʼiʼ/Tzʼiʼ<n>/tzʼiʼ<adj>/tzʼiʼ<n>$
 ^pa/pa<pr>$
-^b’e/bʼe<n>$
+^bʼe/bʼe<n>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = At k’o pa siwan!
+# text = At kʼo pa siwan!
 # text[spa] =  Estás en el barranco!
 # labels = tijonik-5
 ^At/at<prn><pers><p2><sg>$
-^k’o/kʼo<part>$
+^kʼo/kʼo<part>$
 ^pa/pa<pr>$
 ^siwan/siwan<n>$
 ^!/!<sent>$
 
 # sent_id = fixme
-# text = Oj k’o pa le ro’ch le a Wel.
+# text = Oj kʼo pa le roʼch le a Wel.
 # text[spa] =  Estamos en la casa de Manuel.
 # labels = tijonik-5
 ^Oj/oj<n>/oj<prn><pers><p1><pl>$
-^k’o/kʼo<part>$
+^kʼo/kʼo<part>$
 ^pa/pa<pr>$
 ^le/le<det>$
-^ro’ch/<px3sg>oʼch<n>$
+^roʼch/<px3sg>oʼch<n>$
 ^le/le<det>$
 ^a/a<adj>$
 ^Wel/Wel<np><ant><m>$
@@ -415,7 +415,7 @@
 ^./.<sent>$
 
 # sent_id = fixme
-# text = Are le utat le al Ska’.
+# text = Are le utat le al Skaʼ.
 # text[spa] =  Él es el padre de Francisca
 # labels = tijonik-6
 ^Are/are<adv>/<px2sg>re<n><rel>$
@@ -423,25 +423,25 @@
 ^utat/<px3sg>tat<n>$
 ^le/le<det>$
 ^al/al<adj>$
-^Ska/*Ska$
+^Skaʼ/Skaʼ<np><ant><f>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = Oj ajxojolob’ pa Awas Q’ij.
+# text = Oj ajxojolobʼ pa Awas Qʼij.
 # text[spa] =  Nosotros somos bailarines en Viernes Santo.
 # labels = tijonik-6
 ^Oj/oj<n>/oj<prn><pers><p1><pl>$
-^ajxojolob/*ajxojolob$’
+^ajxojolob/*ajxojolob$ʼ
 ^pa/pa<pr>$
 ^Awas/awas<adj>/awas<n>$
-^Q’ij/qʼij<n>$
+^Qʼij/qʼij<n>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = A’re e ral le nan We’l.
+# text = Aʼre e ral le nan Weʼl.
 # text[spa] =  Ellos son los niños(as) de doña Manuela.
 # labels = tijonik-6
-^A’re/aʼre<prn><pers><p3><pl>$
+^Aʼre/aʼre<prn><pers><p3><pl>$
 ^e/e<pl>$
 ^ral/<px3sg>al<n>$
 ^le/le<det>$
@@ -450,7 +450,7 @@
 ^./.<sent>$
 
 # sent_id = fixme
-# text = La utz awach?- Utz maltyox , e k’u ri at ?– Utz maltyox.
+# text = La utz awach?- Utz maltyox , e kʼu ri at ?– Utz maltyox.
 # text[spa] =  ¿Cómo estás? – Bien, ¿y tú? – Bien, gracias.
 # labels = tijonik-6
 ^La/la<n>/la<qst>$
@@ -462,7 +462,7 @@
 ^maltyox/maltyox<n>$
 ^,/,<cm>$
 ^e/e<pl>$
-^k’u/kʼu<part>$
+^kʼu/kʼu<part>$
 ^ri/ri<det>$
 ^at/at<prn><pers><p2><sg>$
 ^?/?<sent>$
@@ -472,23 +472,23 @@
 ^./.<sent>$
 
 # sent_id = fixme
-# text = Are utz una’oj
+# text = Are utz unaʼoj
 # text[spa] =  (Él/ella) es buena gente.
 # labels = tijonik-6
 ^Are/are<adv>/<px2sg>re<n><rel>$
 ^utz/utz<adj>/utz<adv>$
-^una’oj/<px3sg>naʼoj<n>$
+^unaʼoj/<px3sg>naʼoj<n>$
 
 # sent_id = fixme
-# text = Lal k’amal b’e
+# text = Lal kʼamal bʼe
 # text[spa] =  (Usted) es líder.
 # labels = tijonik-6
 ^Lal/lal<prn><pers><p2><frm><sg>$
-^k’amal/kʼamal<n>$
-^b’e/bʼe<n>$
+^kʼamal/kʼamal<n>$
+^bʼe/bʼe<n>$
 
 # sent_id = fixme
-# text = In k’o pa le uk’isb’al cholaj.
+# text = In kʼo pa le ukʼisbʼal cholaj.
 # text[spa] =  (Yo) estoy en la última fila
 # labels = tijonik-6
 ^In/in<prn><pers><p1><sg>$
@@ -500,42 +500,42 @@
 ^./.<sent>$
 
 # sent_id = fixme
-# text = E k’o keb’ uk’ajol le tat Xwan
+# text = E kʼo kebʼ ukʼajol le tat Xwan
 # text[spa] =  Don Juan tiene dos hijos.
 # labels = tijonik-6
 ^E/e<pl>$
-^k’o/kʼo<part>$
-^keb’/kebʼ<num>$
-^uk’ajol/<px3sg>kʼojolaxel<n>$
+^kʼo/kʼo<part>$
+^kebʼ/kebʼ<num>$
+^ukʼajol/<px3sg>kʼojolaxel<n>$
 ^le/le<det>$
 ^tat/tat<n>$
 ^Xwan/Xwan<np><ant><m>$
 
 # sent_id = fixme
-# text = In in k’o pa tijob’al.
+# text = In in kʼo pa tijobʼal.
 # text[spa] =  Yo estoy en la clase.
 # labels = tijonik-6
 ^In/in<prn><pers><p1><sg>$
 ^in/in<prn><pers><p1><sg>$
-^k’o/kʼo<part>$
+^kʼo/kʼo<part>$
 ^pa/pa<pr>$
-^tijob’al/tijobʼal<n>$
+^tijobʼal/tijobʼal<n>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = At at utaqo’n le q’atal tzij.
+# text = At at utaqoʼn le qʼatal tzij.
 # text[spa] =  ¡Tú, tu eres el mensajero del juez!
 # labels = tijonik-6
 ^At/at<prn><pers><p2><sg>$
 ^at/at<prn><pers><p2><sg>$
-^utaqo’n/<px3sg>taqoʼn<n>$
+^utaqoʼn/<px3sg>taqoʼn<n>$
 ^le/le<det>$
-^q’atal/*q’atal$
+^qʼatal/*qʼatal$
 ^tzij/tzij<adj>/tzij<adv>/tzij<n>$
 ^./.<sent>$
 
 # sent_id = fixme
-# text = Are le Tu’r le loq’omanel.
+# text = Are le Tuʼr le loqʼomanel.
 # text[spa] =  Es Venturo el comprador.
 # labels = tijonik-6
 ^Are/are<adv>/<px2sg>re<n><rel>$
@@ -555,7 +555,7 @@
 ^ja/ja<n>$
 
 # sent_id = fixme
-# text = Ix ix e’laq’omab’!
+# text = Ix ix eʼlaqʼomabʼ!
 # text[spa] =  ¡Ustedes son ladrones!
 # labels = tijonik-6
 ^Ix/Ix<n>/ix<prn><pers><p2><pl>$
@@ -564,15 +564,15 @@
 ^!/!<sent>$
 
 # sent_id = fixme
-# text = Ub’antajik le nutinamit
+# text = Ubʼantajik le nutinamit
 # text[spa] =  Así es mi pueblo
 # labels = tijonik-7
-^Ub’antajik/*Ub’antajik$
+^Ubʼantajik/*Ubʼantajik$
 ^le/le<det>$
 ^nutinamit/<px1sg>tinamit<n>$
 
 # sent_id = fixme
-# text = Kinya jun rutzil iwach nutijoxelab’!
+# text = Kinya jun rutzil iwach nutijoxelabʼ!
 # text[spa] =  Les doy un cordial saludo, mis estudiantes
 # labels = tijonik-7
 ^Kinya/<impf><o_sg3><s_sg1>ya<v><tv>$
@@ -582,7 +582,7 @@
 ^nutijoxelabʼ/<px1sg>tijoxel<n><pl>$
 
 # sent_id = fixme
-# text = Kinki’kotik in k’o iwuk’. 
+# text = Kinkiʼkotik in kʼo iwukʼ. 
 # text[spa] =  Estoy muy contento de estar con ustedes
 # labels = tijonik-7
 ^Kinkiʼkotik/*Kinkiʼkotik$
