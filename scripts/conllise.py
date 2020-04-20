@@ -3,6 +3,9 @@
 	1) UDX_FILE ... This is a tab separated file with tagset correspondences
 	2) DEP_FILE ... This is a list of sentences in VISLCG3 format
 	3) SEG_FILE ... This is a list of sentences in Apertium format
+
+	TODO:
+		- Maybe mark the POS/lemma/dep differently from other tags?
 """
 
 ###############################################################################
