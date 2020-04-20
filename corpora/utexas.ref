@@ -6,7 +6,7 @@
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^nukʼotoj/<px1sg>kʼotoj<n>$
 ^chiʼaj/chiʼ<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = La k’o jun k’otoj chi’aj?
@@ -17,7 +17,7 @@
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^kʼotoj/kʼotoj<n>$
 ^chiʼaj/chiʼ<n>$
-^?/?<text>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = La k’o jun na kak’oxomaj taj?
@@ -29,7 +29,7 @@
 ^na/na<adv>/na<adv><fut>$
 ^kakʼoxomaj/<impf><o_sg3><s_sg2>kʼoxomaj<v><tv>$
 ^taj/taj<adv>$
-^?/?<text>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = La k’o na kik’oxomaj taj?
@@ -40,7 +40,7 @@
 ^na/na<adv>/na<adv><fut>$
 ^kikʼoxomaj/<impf><o_sg3><s_pl2>kʼoxomaj<v><tv>$
 ^taj/taj<adv>$
-^?/?<text>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = La k’o tzij na kik’oxomaj taj?
@@ -52,7 +52,7 @@
 ^na/na<adv>/na<adv><fut>$
 ^kikʼoxomaj/<impf><o_sg3><s_pl2>kʼoxomaj<v><tv>$
 ^taj/taj<adv>$
-^?/?<text>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = Na kink’oxomaj taj jas karaj kub’ij …
@@ -64,21 +64,21 @@
 ^jas/jas<prn><itg>$
 ^karaj/<impf><o_sg3><s_sg3>aj<v><tv>$
 ^kubʼij/<impf><o_sg3><s_sg3>bij<v><tv>$
-^…/…<text>$
+^…/…<sent>$
 
 # sent_id = fixme
 # text = Xinsachik.
 # text[eng] = I made a mistake.
 # labels = tijonik-2
 ^Xinsachik/<perf><o_sg3><s_sg1>sach<v><tv>+ik<mark>/<perf><s_sg1>sachik<v><iv>+ik<mark>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Xinsachik.
 # text[eng] = I got lost.
 # labels = tijonik-2
 ^Xinsachik/<perf><o_sg3><s_sg1>sach<v><tv>+ik<mark>/<perf><s_sg1>sachik<v><iv>+ik<mark>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Xinsach che le uwokik le tzij.
@@ -90,7 +90,7 @@
 ^uwokik/*uwokik$
 ^le/le<det>$
 ^tzij/tzij<adj>/tzij<adv>/tzij<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Xsachan le tzij chwe.
@@ -100,7 +100,7 @@
 ^le/le<det>$
 ^tzij/tzij<adj>/tzij<adv>/tzij<n>$
 ^chwe/chi<pr>+we<prn><pers><p1><sg>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Xsachan chwe.
@@ -108,7 +108,7 @@
 # labels = tijonik-2
 ^Xsachan/*Xsachan$
 ^chwe/chi<pr>+we<prn><pers><p1><sg>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Xsachan chwe.
@@ -116,7 +116,7 @@
 # labels = tijonik-2
 ^Xsachan/*Xsachan$
 ^chwe/chi<pr>+we<prn><pers><p1><sg>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Na weta’m taj.
@@ -125,7 +125,7 @@
 ^Na/na<adv>/na<adv><fut>$
 ^wetaʼm/*wetaʼm$
 ^taj/taj<adv>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Jas ub’ixik …?
@@ -133,8 +133,8 @@
 # labels = tijonik-2
 ^Jas/jas<prn><itg>$
 ^ubʼixik/*ubʼixik$
-^…/…<text>$
-^?/?<text>$
+^…/…<sent>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = Jas ub’ixik … pa K’iche’?
@@ -142,10 +142,10 @@
 # labels = tijonik-2
 ^Jas/jas<prn><itg>$
 ^ubʼixik/*ubʼixik$
-^…/…<text>$
+^…/…<sent>$
 ^pa/pa<pr>$
 ^Kʼicheʼ/Kʼicheʼ<adj>/kʼicheʼ<n>$
-^?/?<text>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = Jas karaj kub’ij…?
@@ -154,8 +154,8 @@
 ^Jas/jas<prn><itg>$
 ^karaj/<impf><o_sg3><s_sg3>aj<v><tv>$
 ^kubʼij/<impf><o_sg3><s_sg3>bij<v><tv>$
-^…/…<text>$
-^?/?<text>$
+^…/…<sent>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = Jas upatan le tzij…?
@@ -165,8 +165,8 @@
 ^upatan/<px3sg>patan<n>/<px3sg>patän<n>$
 ^le/le<det>$
 ^tzij/tzij<adj>/tzij<adv>/tzij<n>$
-^…/…<text>$
-^?/?<text>$
+^…/…<sent>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = La utz we kinb’ij…?
@@ -176,8 +176,8 @@
 ^utz/utz<adj>/utz<adv>$
 ^we/we<cnjsub>/we<det>$
 ^kinbʼij/<impf><o_sg3><s_sg1>bij<v><tv>$
-^…/…<text>$
-^?/?<text>$
+^…/…<sent>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = Nutom le tzij…
@@ -186,7 +186,7 @@
 ^Nutom/<px1sg>toʼm<n>$
 ^le/le<det>$
 ^tzij/tzij<adj>/tzij<adv>/tzij<n>$
-^…/…<text>$
+^…/…<sent>$
 
 # sent_id = fixme
 # text = Na nutom ta le tzij …
@@ -197,7 +197,7 @@
 ^ta/ta<mod>$
 ^le/le<det>$
 ^tzij/tzij<adj>/tzij<adv>/tzij<n>$
-^…/…<text>$
+^…/…<sent>$
 
 # sent_id = fixme
 # text =  Kimb’e pa le tinamit.
@@ -207,7 +207,7 @@
 ^pa/pa<pr>$
 ^le/le<det>$
 ^tinamit/tinamit<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text =  La katb’e pa le tinamit?
@@ -218,7 +218,7 @@
 ^pa/pa<pr>$
 ^le/le<det>$
 ^tinamit/tinamit<n>$
-^?/?<text>$
+^?/?<sent>$
 
 # sent_id = fixme
 # text = Rajawaxik kak’aman chawe le utijik le lej
@@ -231,23 +231,23 @@
 ^utijik/<px3sg>tijik<v><iv><act>$
 ^le/le<det>$
 ^lej/lej<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Xb’e q’ij!
 # text[spa] =  ¡Buenas tardes!
 # labels = tijonik-3
 ^Xb’e/<perf><s_sg3>bʼe<v><iv>$
-^q’ij/qʼij<n>
-$^!/!<text>$
+^q’ij/qʼij<n>$
+^!/!<sent>$
 
 # sent_id = fixme
 # text = Xok aq’ab’!
 # text[spa] =  	¡Buenas noches!
 # labels = tijonik-3
 ^Xok/<perf><s_sg3>okik<v><iv>$
-^aq’ab’/<px2sg>qʼabʼ<n>
-$^!/!<text>$
+^aq’ab’/<px2sg>qʼabʼ<n>$
+^!/!<sent>$
 
 # sent_id = fixme
 # text = Xb’e q’ij nan!
@@ -256,16 +256,16 @@ $^!/!<text>$
 ^Xb’e/<perf><s_sg3>bʼe<v><iv>$
 ^q’ij/qʼij<n>$
 ^nan/nan²<n>$
-^!/!<text>$
+^!/!<sent>$
 
 # sent_id = fixme
-# text = Xb’e q’ij nan!
+# text = Xok aq’ab’ ali!
 # text[spa] =  ¡Buenas noches, muchacha!
 # labels = tijonik-3
 ^Xok/<perf><s_sg3>okik<v><iv>$
 ^aq’ab’/<px2sg>qʼabʼ<n>$
 ^ali/ali<n>$
-^!/!<text>$
+^!/!<sent>$
 
 # sent_id = fixme
 # text = Rutzil wachaj
@@ -291,7 +291,7 @@ $^!/!<text>$
 ^qatʼuʼy/*qatʼuʼy$
 ^pa/pa<pr>$
 ^ja/ja<n>$
-^!/!<text>$
+^!/!<sent>$
 
 # sent_id = fixme
 # text = K’o nuwuj
@@ -325,7 +325,7 @@ $^!/!<text>$
 ^qo’ch/<px1pl>oʼch<n>$
 ^chila’/chilaʼ<adv>$
 ^Nawalja’/Nawaljaʼ<np><top>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = K’o iwab’ix pa juyub’.
@@ -336,7 +336,7 @@ $^!/!<text>$
 ^ix/Ix<n>/ix<prn><pers><p2><pl>$
 ^pa/pa<pr>$
 ^juyub’/juyubʼ<adj>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = K’o ekik’ajol le achijab’.
@@ -346,7 +346,7 @@ $^!/!<text>$
 ^ekik’ajol/e<pl>+<px3pl>kʼojolaxel<n>$
 ^le/le<det>$
 ^achijab’/achij<n><pl>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = K’o jun ala pa tijob’al.
@@ -357,7 +357,7 @@ $^!/!<text>$
 ^ala/ala<n>/<px2sg>la<n>$
 ^pa/pa<pr>$
 ^tijob’al/tijobʼal<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = K’o jun tz’i’ pa b’e.
@@ -368,7 +368,7 @@ $^!/!<text>$
 ^tz’i’/Tzʼiʼ<n>/tzʼiʼ<adj>/tzʼiʼ<n>$
 ^pa/pa<pr>$
 ^b’e/bʼe<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = At k’o pa siwan!
@@ -378,7 +378,7 @@ $^!/!<text>$
 ^k’o/kʼo<part>$
 ^pa/pa<pr>$
 ^siwan/siwan<n>$
-^!/!<text>$
+^!/!<sent>$
 
 # sent_id = fixme
 # text = Oj k’o pa le ro’ch le a Wel.
@@ -392,7 +392,7 @@ $^!/!<text>$
 ^le/le<det>$
 ^a/a<adj>$
 ^Wel/Wel<np><ant><m>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = In ajtij; at tijoxel
@@ -400,7 +400,7 @@ $^!/!<text>$
 # labels = tijonik-6
 ^In/in<prn><pers><p1><sg>$
 ^ajtij/ajtij<n>$
-^;/;<text>$
+^;/;<sent>$
 ^at/at<prn><pers><p2><sg>$
 ^tijoxel/tijoxel<n>$
 
@@ -412,7 +412,7 @@ $^!/!<text>$
 ^rajkun/<px3sg>ajkun<n>$
 ^le/le<det>$
 ^nunan/<px1sg>nan²<n>/<px1sg>nan¹<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Are le utat le al Ska’.
@@ -424,7 +424,7 @@ $^!/!<text>$
 ^le/le<det>$
 ^al/al<adj>$
 ^Ska/*Ska$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Oj ajxojolob’ pa Awas Q’ij.
@@ -435,7 +435,7 @@ $^!/!<text>$
 ^pa/pa<pr>$
 ^Awas/awas<adj>/awas<n>$
 ^Q’ij/qʼij<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = A’re e ral le nan We’l.
@@ -447,7 +447,7 @@ $^!/!<text>$
 ^le/le<det>$
 ^nan/nan²<n>$
 ^Weʼl/*Weʼl$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = La utz awach?- Utz maltyox , e k’u ri at ?– Utz maltyox.
@@ -456,7 +456,7 @@ $^!/!<text>$
 ^La/la<n>/la<qst>$
 ^utz/utz<adj>/utz<adv>$
 ^awach/<px2sg>ach<n><rel>/<px2sg>wach<n>/<px2sg>wach<n><rel>/<px2sg>wäch<n>$
-^?/?<text>$
+^?/?<sent>$
 ^-/-<guio>$
 ^Utz/utz<adj>/utz<adv>$
 ^maltyox/maltyox<n>$
@@ -465,11 +465,11 @@ $^!/!<text>$
 ^k’u/kʼu<part>$
 ^ri/ri<det>$
 ^at/at<prn><pers><p2><sg>$
-^?/?<text>$
+^?/?<sent>$
 ^–/–<guio>$
 ^Utz/utz<adj>/utz<adv>$
 ^maltyox/maltyox<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Are utz una’oj
@@ -497,7 +497,7 @@ $^!/!<text>$
 ^le/le<det>$
 ^ukʼisbʼal/*ukʼisbʼal$
 ^cholaj/*cholaj$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = E k’o keb’ uk’ajol le tat Xwan
@@ -520,7 +520,7 @@ $^!/!<text>$
 ^k’o/kʼo<part>$
 ^pa/pa<pr>$
 ^tijob’al/tijobʼal<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = At at utaqo’n le q’atal tzij.
@@ -532,7 +532,7 @@ $^!/!<text>$
 ^le/le<det>$
 ^q’atal/*q’atal$
 ^tzij/tzij<adj>/tzij<adv>/tzij<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Are le Tu’r le loq’omanel.
@@ -543,7 +543,7 @@ $^!/!<text>$
 ^Tuʼr/*Tuʼr$
 ^le/le<det>$
 ^loqʼomanel/loqʼomanel<n>$
-^./.<text>$
+^./.<sent>$
 
 # sent_id = fixme
 # text = Oj oj wokol ja!
