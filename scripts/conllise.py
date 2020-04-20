@@ -109,7 +109,8 @@ def apply_rules(rules, analysis):
 			for (i, j) in enumerate(rule[2]):
 				if j == '_': continue
 				if type(o[i]) == list:
-					o[i].append(j)
+					for k in j.split('|'):
+						o[i].append(k)
 				else:
 					o[i] = j
 			msd = remainder
