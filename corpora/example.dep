@@ -1,5 +1,6 @@
-# sent = Kinya jun rutzil iwach nutijoxelab’!
-# sent[spa] =  Les doy un cordial saludo, mis estudiantes!
+# sent_id = 1
+# text = Kinya jun rutzil iwach nutijoxelab’!
+# text[spa] =  Les doy un cordial saludo, mis estudiantes!
 # labels = tijonik-7
 "<Kinya>"
 	"ya" v tv impf o_sg3 s_sg1 @root #1->0
@@ -12,10 +13,11 @@
 "<nutijoxelabʼ>"
 	"tijoxel" n pl px1sg @appos #5->1
 "<!>"
-	"!" sent @punct #6->1
+	"!" text @punct #6->1
 
-# sent = Rajawaxik kak’aman chawe le utijik le lej.
-# sent[spa] =  Es necesario que te acostumbres a comer tortillas.
+# sent_id = 2
+# text = Rajawaxik kak’aman chawe le utijik le lej.
+# text[spa] =  Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41
 "<Rajawaxik>"
 	"rajawaxik" adj @root #1->0
@@ -33,4 +35,4 @@
 "<lej>"
 	"lej" n @obj #8->6
 "<.>"
-	"." sent @punct #9->1
+	"." text @punct #9->1
