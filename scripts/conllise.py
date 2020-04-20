@@ -145,6 +145,7 @@ if len(sents_dep) != len(sents_seg):
 
 rules = load_rules(tag_rules)
 
+# Loop through each of the sentences
 for i in range(0, len(sents_dep)):
 	comments = get_comments(sents_dep[i])
 	segmentations = get_segmentations(sents_seg[i])
@@ -176,5 +177,5 @@ for i in range(0, len(sents_dep)):
 			print(format_conllu_line(line))
 	print()
 
-
+###############################################################################
 

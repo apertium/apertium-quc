@@ -657,6 +657,7 @@ jobʼ:jobʼ Num ;                    ! "cinco; five"
 waqibʼ:waqibʼ Num ;                ! "seis; six"
 wuqubʼ:wuqubʼ Num ;                ! "siete; seven"
 wajxaqibʼ:wajxaqib Num ;           ! "ocho; eight"
+wajxaqibʼ:wajxaqibʼ Num ;          ! "ocho; eight" ! Src/Cuentos
 bʼelejebʼ:bʼelejebʼ Num ;          ! "nueve; nine"
 lajuj:lajuj Num ;                  ! "diez; ten"
 julajuj:julajuj Num ;              ! "once; eleven"
@@ -4147,6 +4148,7 @@ LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Chirijquiac:Chirijquiac NP-Top ;
 
+Tzʼunil:Tzʼunil NP-Top ; ! "" ! Src/Cuentos
 Chuatroj:Chuatroj NP-Top ;
 Sidon:Sidon NP-Top ;
 Kafarnaʼum:Kafarnaʼum NP-Top ;

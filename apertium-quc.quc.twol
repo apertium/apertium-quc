@@ -36,11 +36,18 @@ Rules
 "a rule"
 Vx:0 <=>          _ [ %>: ]+ [ ArchiVow: | :Vow ] ;
           Vow [ %>: ]+ _ ;
-!          Vow ʼ [ %>: ]+ _ ;
+     except
+          Vow ʼ [ %>: ]+ _ ; ! TODO: Doesn't apply to -i- ?
      where Vx in ( %{a%} %{i%} ) ;
 
 !  k{a}>>{r}>bʼij
 !  k0>>u>bʼij
+
+"i rule"
+%{i%}:0 <=> i ʼ [ %>: ]+ _ ;
+
+!  x>>kʼojiʼ>{i}k
+!  x>>kʼojiʼ>0k
 
 "Fusion"
 i:0 <=> k %{a%}: %>: e %>: _ n ; 
