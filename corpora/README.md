@@ -16,7 +16,9 @@ The files `example.dep` and `example.seg` can be used to generate CoNLL-U output
 
 ### UTexas
 
-* `utexas.tagged`:
+* `utexas.src`: This should be the output of the morphological analyser
+* `utexas.ref`: This should be the hand-disambiguated output of the morphological analyser
+* `utexas.seg`: This should be corrected, segmented generation of the tagged output 
 
 ## Generating CoNLL-U
 
