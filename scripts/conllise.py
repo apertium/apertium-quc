@@ -101,6 +101,7 @@ def apply_rules(rules, analysis):
 	# (2, '_', 'kʼamanik', '_', 'v|iv|impf|s_sg3', '_', 1, 'x', '_', '_')
 	msd = set([analysis[2], analysis[7]] + analysis[4].split('|'))
 
+	remainder = msd
 	for rule in rules:
 		remainder = msd - rule[1]
 		intersect = msd.intersection(rule[1])
@@ -115,12 +116,14 @@ def apply_rules(rules, analysis):
 
 	o[2].sort()
 	o[2] = '|'.join(o[2])
-#	print(msd)
-#	print(o)
+	for i in range(0, len(o)):
+		if o[i] == '':
+			o[i] = '_'
 
-	return o
+	return (o, remainder)
 
 def format_conllu_line(line):
+	#       1   2   3   4   5   6   7   8   9   10
         return '%d\t%s\t%s\t%s\t%s\t%s\t%d\t%s\t%s\t%s' % line
 
 
@@ -160,14 +163,16 @@ for i in range(0, len(sents_dep)):
 			# {2: ('chawe', [(3, '_', 'chi', '_', '_', '_', 4, '_', '_', '_'), (4, '_', 'awe', '_', '_', '_', 2, '_', '_', '_')])}
 			print('%d-%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
 			for (k, word) in enumerate(token[1]):
-				analysis = apply_rules(rules, word)
-				line = (word[0], segmentations[j][1][k],word[2],analysis[1],'_',analysis[2],word[6],word[7],'_','_')
+				(analysis, misc) = apply_rules(rules, word)
+				#       1        2                       3        4            5    6            7        8        9    10
+				line = (word[0], segmentations[j][1][k], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
 				print(format_conllu_line(line))
 		else:
 			# {0: ('Rajawaxik', [(1, '_', 'rajawaxik', '_', '_', '_', 0, '_', '_', '_')])}
 			word = token[1][0]
-			analysis = apply_rules(rules, word)
-			line = (word[0], token[0],word[2],analysis[1],'_',analysis[2],word[6],word[7],'_','_')
+			(analysis, misc) = apply_rules(rules, word)
+			#       1        2         3        4            5    6            7        8        9    10
+			line = (word[0], token[0], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
 			print(format_conllu_line(line))
 	print()
 
