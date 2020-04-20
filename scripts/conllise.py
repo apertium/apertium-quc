@@ -1,8 +1,11 @@
 """
-	This script creates a CoNLL-U file from two input files:
-	1) DEP_FILE ... This is a list of sentences in VISLCG3 format
-	2) SEG_FILE ... This is a list of sentences in Apertium format
+	This script creates a CoNLL-U file from three input files:
+	1) UDX_FILE ... This is a tab separated file with tagset correspondences
+	2) DEP_FILE ... This is a list of sentences in VISLCG3 format
+	3) SEG_FILE ... This is a list of sentences in Apertium format
 """
+
+###############################################################################
 import sys
 
 # comments
@@ -26,11 +29,18 @@ def get_func_cg(line):
 		if len(i) > 1 and i[0] == '@':
 			return i[1:]
 
+def get_tags_cg(line):
+	tags = []
+	for i in line.strip().split(' '):
+		if i[0] not in ['@', '"', '#']:
+			tags.append(i)
+	return '|'.join(tags)
+
 # forms = {}
 # forms[0] = ("chawe", [(3, "_", "chi", "_", "_", "_", 4), (4, "_", "awe", "_", "_", "_", 2)])
 def get_tokens(sent):
 	tokens = {}
-	counter = -1	
+	counter = -1
 	for line in sent.split('\n'):
 		line = line.strip('\n ')
 		if line == '': continue
@@ -39,10 +49,11 @@ def get_tokens(sent):
 			tokens[counter] = (get_surface_cg(line), [])
 		elif line[0] == '\t':
 			deps = get_deps_cg(line)
-			tokens[counter][1].append((deps[0], '_', get_lemma_cg(line), '_', '_', '_', deps[1], get_func_cg(line), '_', '_'))
+			tags = get_tags_cg(line)
+			tokens[counter][1].append((deps[0], '_', get_lemma_cg(line), '_', tags, '_', deps[1], get_func_cg(line), '_', '_'))
 		else:
 			continue
-	return tokens	
+	return tokens
 
 # segs[0] = ("chawe", ["ch", "awe"])
 def get_segmentations(sent):
@@ -53,9 +64,9 @@ def get_segmentations(sent):
 		if line == '': continue
 		if line[0] != '^':
 			continue
-		(surface, segmentation) = line[1:-1].split('/')	
+		(surface, segmentation) = line[1:-1].split('/')
 		segmentations[counter] = (surface, segmentation.split('>')) 
-		counter += 1	
+		counter += 1
 	return segmentations
 
 def get_comments(sent):
@@ -65,20 +76,67 @@ def get_comments(sent):
 			comments.append(line)
 	return '\n'.join(comments)
 
+def load_rules(f):
+	rules = []
+	for line in f:
+		if line[0] == '#':
+			continue
+		row = line.strip().split('\t')
+		if len(row) != 8:
+			print('WARNING: Broken rule', file=sys.stderr)
+			print(line, '||', row, file=sys.stderr)
+			continue
+		score = sum([i for (i, j) in enumerate(reversed(row[:4])) if j is not '_'])
+		rule = (score, set([i for i in row[:4] if i is not '_']), row[4:])
+#		print('RULE:',rule)
+		rules.append(rule)
+	rules.sort()
+	rules.reverse()
+
+	return rules
+
+def apply_rules(rules, analysis):
+	o = ['_', '_', [], '_']
+
+	# (2, '_', 'kʼamanik', '_', 'v|iv|impf|s_sg3', '_', 1, 'x', '_', '_')
+	msd = set([analysis[2], analysis[7]] + analysis[4].split('|'))
+
+	for rule in rules:
+		remainder = msd - rule[1]
+		intersect = msd.intersection(rule[1])
+		if intersect == rule[1]:
+			for (i, j) in enumerate(rule[2]):
+				if j == '_': continue
+				if type(o[i]) == list:
+					o[i].append(j)
+				else:
+					o[i] = j
+			msd = remainder
+
+	o[2].sort()
+	o[2] = '|'.join(o[2])
+#	print(msd)
+#	print(o)
+
+	return o
+
 ###############################################################################
 
-if len(sys.argv) != 3:
+if len(sys.argv) != 4:
 	print(sys.argv, file=sys.stderr)
-	print('conllise.py DEP_FILE SEG_FILE', file=sys.stderr)
+	print('conllise.py UDX_FILE DEP_FILE SEG_FILE', file=sys.stderr)
 	sys.exit(-1)
 
-sents_dep = open(sys.argv[1]).read().split('\n\n')
-sents_seg = open(sys.argv[2]).read().split('\n\n')
+tag_rules = open(sys.argv[1]).readlines()
+sents_dep = open(sys.argv[2]).read().split('\n\n')
+sents_seg = open(sys.argv[3]).read().split('\n\n')
 
 if len(sents_dep) != len(sents_seg):
 	print('ERROR:', sys.argv, file=sys.stderr)
 	print('ERROR:', len(sents_dep), len(sents_seg), file=sys.stderr)
 	sys.exit(-1)
+
+rules = load_rules(tag_rules)
 
 for i in range(0, len(sents_dep)):
 	comments = get_comments(sents_dep[i])
@@ -87,8 +145,8 @@ for i in range(0, len(sents_dep)):
 #	print(tokens)
 
 	if len(tokens) != len(segmentations):
-		print('ERROR:',tokens, file=sys.stderr)	
-		print('ERROR:',segmentations, file=sys.stderr)	
+		print('ERROR:',tokens, file=sys.stderr)
+		print('ERROR:',segmentations, file=sys.stderr)
 		continue
 
 	print(comments)
@@ -99,13 +157,13 @@ for i in range(0, len(sents_dep)):
 			print('%d-%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
 			for (k, word) in enumerate(token[1]):
 				print('%d\t%s\t%s\t%s\t%s\t%s\t%d\t%s\t%s\t%s' % (word[0], segmentations[j][1][k],word[2],'_','_','_',word[6],word[7],'_','_'))
-				
 		else:
 			# {0: ('Rajawaxik', [(1, '_', 'rajawaxik', '_', '_', '_', 0, '_', '_', '_')])
 			word = token[1][0]
-			print('%d\t%s\t%s\t%s\t%s\t%s\t%d\t%s\t%s\t%s' % (word[0], token[0],word[2],'_','_','_',word[6],word[7],'_','_'))
-#		print('@',tokens[j], segmentations[j])	
+			analysis = apply_rules(rules, word)
+			print('%d\t%s\t%s\t%s\t%s\t%s\t%d\t%s\t%s\t%s' % (word[0], token[0],word[2],analysis[1],'_',analysis[2],word[6],word[7],'_','_'))
+#		print('@',tokens[j], segmentations[j])
 	print()
 
-	
-	
+
+
