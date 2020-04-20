@@ -560,7 +560,8 @@ $^!/!<text>$
 # labels = tijonik-6
 ^Ix/Ix<n>/ix<prn><pers><p2><pl>$
 ^ix/Ix<n>/ix<prn><pers><p2><pl>$
-^eʼlaqʼomabʼ/*eʼlaqʼomabʼ$
+^eʼlaqʼomabʼ/elaqʼom<n><pl>$
+^!/!<sent>$
 
 # sent_id = fixme
 # text = Ub’antajik le nutinamit
