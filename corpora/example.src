@@ -1,3 +1,13 @@
+# sent = Kinya jun rutzil iwach nutijoxelab’!
+# sent[spa] =  Les doy un cordial saludo, mis estudiantes!
+# labels = tijonik-7
+^Kinya/<impf><o_sg3><s_sg1>ya<v><tv>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^rutzil/<px3sg>utzil<n>$
+^iwach/<px2pl>ach<n><rel>/<px2pl>wach<n>/<px2pl>wach<n><rel>/<px2pl>wäch<n>$
+^nutijoxelabʼ/<px1sg>tijoxel<n><pl>$
+^!/!<sent>$
+
 # sent = Rajawaxik kak’aman chawe le utijik le lej.
 # sent[spa] =  Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41
@@ -9,3 +19,4 @@
 ^le/le<det>$
 ^lej/lej<n>$
 ^./.<sent>$
+
