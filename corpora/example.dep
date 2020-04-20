@@ -1,5 +1,5 @@
 # sent = Kinya jun rutzil iwach nutijoxelab’!
-# sent[spa] =  Les doy un cordial saludo, mis estudiantes
+# sent[spa] =  Les doy un cordial saludo, mis estudiantes!
 # labels = tijonik-7
 "<Kinya>"
 	"ya" v tv impf o_sg3 s_sg1 @root #1->0

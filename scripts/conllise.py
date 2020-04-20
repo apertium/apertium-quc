@@ -120,6 +120,10 @@ def apply_rules(rules, analysis):
 
 	return o
 
+def format_conllu_line(line):
+        return '%d\t%s\t%s\t%s\t%s\t%s\t%d\t%s\t%s\t%s' % line
+
+
 ###############################################################################
 
 if len(sys.argv) != 4:
@@ -152,17 +156,19 @@ for i in range(0, len(sents_dep)):
 	print(comments)
 	for j in range(0, len(tokens)):
 		token = tokens[j]
-		if len(token[1]) > 1:
-			# {2: ('chawe', [(3, '_', 'chi', '_', '_', '_', 4, '_', '_', '_'), (4, '_', 'awe', '_', '_', '_', 2, '_', '_', '_')])
+		if len(token[1]) > 1: # This is a multi-token word
+			# {2: ('chawe', [(3, '_', 'chi', '_', '_', '_', 4, '_', '_', '_'), (4, '_', 'awe', '_', '_', '_', 2, '_', '_', '_')])}
 			print('%d-%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
 			for (k, word) in enumerate(token[1]):
-				print('%d\t%s\t%s\t%s\t%s\t%s\t%d\t%s\t%s\t%s' % (word[0], segmentations[j][1][k],word[2],'_','_','_',word[6],word[7],'_','_'))
+				analysis = apply_rules(rules, word)
+				line = (word[0], segmentations[j][1][k],word[2],analysis[1],'_',analysis[2],word[6],word[7],'_','_')
+				print(format_conllu_line(line))
 		else:
-			# {0: ('Rajawaxik', [(1, '_', 'rajawaxik', '_', '_', '_', 0, '_', '_', '_')])
+			# {0: ('Rajawaxik', [(1, '_', 'rajawaxik', '_', '_', '_', 0, '_', '_', '_')])}
 			word = token[1][0]
 			analysis = apply_rules(rules, word)
-			print('%d\t%s\t%s\t%s\t%s\t%s\t%d\t%s\t%s\t%s' % (word[0], token[0],word[2],analysis[1],'_',analysis[2],word[6],word[7],'_','_'))
-#		print('@',tokens[j], segmentations[j])
+			line = (word[0], token[0],word[2],analysis[1],'_',analysis[2],word[6],word[7],'_','_')
+			print(format_conllu_line(line))
 	print()
 
 
