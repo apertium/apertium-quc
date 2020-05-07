@@ -582,10 +582,26 @@
 ^nutijoxelabʼ/<px1sg>tijoxel<n><pl>$
 
 # sent_id = fixme
-# text = Kinkiʼkotik in kʼo iwukʼ. 
+# text = Kinkiʼkotik in kʼo iwukʼ.
 # text[spa] =  Estoy muy contento de estar con ustedes
 # labels = tijonik-7
 ^Kinkiʼkotik/*Kinkiʼkotik$
 ^in/in<prn><pers><p1><sg>$
 ^kʼo/kʼo<part>$
 ^iwukʼ/<px2pl>ukʼ<n>/<px2pl>ukʼ<n><rel>$
+
+# sent_id = fixme
+# text = Che we qʼij kamik kʼo jun nutzijonem chirij le nutinamit.
+# text[spa] =  El día de hoy daré una plática sobre mi pueblo.
+# labels = tijonik-7
+^Che/chi<pr>+re<prn><pers><p3><sg>$
+^we/we<cnjsub>/we<det>$
+^qʼij/qʼij<n>$
+^kamik/kamik<adv>$
+^kʼo/kʼo<part>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^nutzijonem/<px1sg>tzijonem<n>$ 
+^chirij/*chirij$
+^le/le<det>$
+^nutinamit/<px1sg>tinamit<n>$
+^./.<sent>$
