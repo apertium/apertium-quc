@@ -11,11 +11,6 @@
 ###############################################################################
 import sys
 
-# comments
-# "<chawe>"
-#	"chi" pr @case #3->4
-#		"awe" prn pers p2 sg @obl #4->2
-
 def get_surface_cg(line):
 	return line[2:-2]
 

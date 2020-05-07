@@ -7,7 +7,7 @@
 ^rutzil/<px3sg>utzil<n>$
 ^iwach/<px2pl>ach<n><rel>/<px2pl>wach<n>/<px2pl>wach<n><rel>/<px2pl>wäch<n>$
 ^nutijoxelabʼ/<px1sg>tijoxel<n><pl>$
-^!/!<text>$
+^!/!<sent>$
 
 # sent_id = 2
 # text = Rajawaxik kak’aman chawe le utijik le lej.
@@ -20,5 +20,5 @@
 ^utijik/<px3sg>tij<v><iv><act>$
 ^le/le<det>$
 ^lej/lej<n>$
-^./.<text>$
+^./.<sent>$
 
