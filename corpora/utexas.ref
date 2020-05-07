@@ -595,11 +595,11 @@
 # text[spa] =  El día de hoy daré una plática sobre mi pueblo.
 # labels = tijonik-7
 ^Che/chi<pr>+re<prn><pers><p3><sg>$
-^we/we<cnjsub>/we<det>$
+^we/we<det>$
 ^qʼij/qʼij<n>$
 ^kamik/kamik<adv>$
 ^kʼo/kʼo<part>$
-^jun/jun<adj>/jun<n>/jun<num>$
+^jun/jun<num>$
 ^nutzijonem/<px1sg>tzijonem<n>$ 
 ^chirij/*chirij$
 ^le/le<det>$
