@@ -1,0 +1,15 @@
+# sent_id = fixme
+# text = Che we qʼij kamik kʼo jun nutzijonem chirij le nutinamit.
+# text[spa] =  El día de hoy daré una plática sobre mi pueblo.
+# labels = tijonik-7
+^Che/chi>re$
+^we/we$
+^qʼij/qʼij$
+^kamik/kamik$
+^kʼo/kʼo$
+^jun/jun$
+^nutzijonem/nu>tzijonem$ 
+^chirij/*chirij$
+^le/le$
+^nutinamit/nu>tinamit$
+^./.$
