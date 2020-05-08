@@ -4136,6 +4136,10 @@ boqʼwäch:boqʼwäch N-tinamit ; ! "eye"
 bʼoqʼoch:bʼoqʼoch N-tinamit ; ! "eyes; ojos"
 woqʼoch:woqʼoch N-tinamit ; ! "eyes; ojos"
 
+kʼaybʼal:kʼaybʼal N-tinamit ; ! "store" ! Src/UTexas
+kʼachelaʼj:kʼachelaʼj N-tinamit ; ! "forest" ! Src/UTexas
+
+
 qʼequʼmal:qʼequʼmal N-tinamit ; ! "oscuridad; darkness"
 
 yawabʼ:yawabʼ N-ixoq ; ! "enfermo; "
@@ -5030,6 +5034,8 @@ yuxulik:yuxulik A-saq ; ! "head bowed (from humility, shame)"
 utzalaj:utzalaj A-saq ; ! "good" ! Src/Bible
 
 tyoxlaj:tyoxlaj A-saq ; ! "santísimo"
+
+kosnaq:kosnaq A-saq ; ! "tired" ! Src/utexas
 
 nim:nim A-nim ;              ! "large (plural)"
 chom:chom A-nim ;              ! ""

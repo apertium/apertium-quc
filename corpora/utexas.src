@@ -606,3 +606,94 @@
 ^nutinamit/<px1sg>tinamit<n>$
 ^./.<sent>$
 
+# sent_id = utexas:60
+# text = Kosnaq le achi.
+# text[spa] =  El hombre está cansado.
+# labels = tijonik-7
+^Kosnaq/kosnaq<adj>$
+^le/le<det>$
+^achi/achi<n>$
+^./.<sent>$
+
+# sent_id = utexas:61
+# text = Je’l le tyox.
+# text[spa] =  La iglesia es bonita.
+# labels = tijonik-7
+^Je’l/jeʼl<adj>$
+^le/le<det>$
+^tyox/tyox<n>$
+^./.<sent>$
+
+# sent_id = utexas:62
+# text = Nim raqan le che’.
+# text[spa] =  El árbol es alto.
+# labels = tijonik-7
+^Nim/nim<adj>$
+^raqan/<px3sg>aqan<n>/<px3sg>aqän<n>$
+^le/le<det>$
+^che’/cheʼ<adj>/cheʼ<n>$
+^./.<sent>$
+
+# sent_id = utexas:63
+# text = Sib’alaj nim le tinamit.
+# text[spa] =  El pueblo es muy grande.
+# labels = tijonik-7
+^Sib’alaj/sibʼalaj<adj>$
+^nim/nim<adj>$
+^le/le<det>$
+^tinamit/tinamit<n>$
+^./.<sent>$
+
+# sent_id = utexas:64
+# text = K’ax le kib’e le winaq.
+# text[spa] =  El camino de la gente es difícil.
+# labels = tijonik-7
+^K’ax/kʼax<n>$
+^le/le<det>$
+^kib’e/<px3pl>bʼe<n>$
+^le/le<det>$
+^winaq/winaq<n>$
+^./.<sent>$
+
+# sent_id = utexas:65
+# text = E k’o oxib’ ak’.
+# text[spa] =  Hay tres gallinas.
+# labels = tijonik-7
+^E/e<pl>$
+^k’o/kʼo<part>$
+^oxib’/oxibʼ<num>$
+^ak’/akʼ<n>/äkʼ<n>$
+^./.<sent>$
+
+# sent_id = utexas:66
+# text = K’ak’ le po’t.
+# text[spa] =  El huipil es nuevo.
+# labels = tijonik-7
+^K’ak’/kʼakʼ<adj>$
+^le/le<det>$
+^po’t/poʼt<n>$
+^./.<sent>$
+
+# sent_id = utexas:67
+# text = E k’o ixoqib’ pa le k’ayb’al.
+# text[spa] =  Hay mujeres en la tienda.
+# labels = tijonik-7
+^E/e<pl>$
+^kʼo/kʼo<part>$
+^ixoqibʼ/ixoq<n><pl>$
+^pa/pa<pr>$
+^le/le<det>$
+^kʼaybʼal/kʼaybʼal<n>$
+^./.<sent>$
+
+# sent_id = utexas:68
+# text = E k’o ixoqib’ pa le k’ayb’al.
+# text[spa] =  Hay mujeres en la tienda.
+# labels = tijonik-7
+^E/e<pl>$
+^kʼo/kʼo<part>$
+^ixoqibʼ/ixoq<n><pl>$
+^pa/pa<pr>$
+^le/le<det>$
+^kʼaybʼal/kʼaybʼal<n>$
+^./.<sent>$
