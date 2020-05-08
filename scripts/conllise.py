@@ -9,7 +9,7 @@
 """
 
 ###############################################################################
-import sys
+import sys, re
 
 def get_surface_cg(line):
 	return line[2:-2]
@@ -137,18 +137,48 @@ tag_rules = open(sys.argv[1]).readlines()
 sents_dep = open(sys.argv[2]).read().split('\n\n')
 sents_seg = open(sys.argv[3]).read().split('\n\n')
 
-if len(sents_dep) != len(sents_seg):
-	print('ERROR:', sys.argv, file=sys.stderr)
-	print('ERROR:', len(sents_dep), len(sents_seg), file=sys.stderr)
-	sys.exit(-1)
-
+#if len(sents_dep) != len(sents_seg):
+#	print('ERROR:', sys.argv, file=sys.stderr)
+#	print('ERROR:', len(sents_dep), len(sents_seg), file=sys.stderr)
+#	sys.exit(-1)
+#
 rules = load_rules(tag_rules)
+
+sents_depseg = {}
+
 
 # Loop through each of the sentences
 for i in range(0, len(sents_dep)):
-	comments = get_comments(sents_dep[i])
-	segmentations = get_segmentations(sents_seg[i])
-	tokens = get_tokens(sents_dep[i])
+	sent_id_match = re.match('# sent_id = .*', sents_dep[i])
+	if not sent_id_match:
+		continue
+	sent_id = sent_id_match[0]
+	if sent_id not in sents_depseg:
+		sents_depseg[sent_id] = {}
+	sents_depseg[sent_id][0] = sents_dep[i]
+
+for i in range(0, len(sents_dep)):
+	sent_id_match = re.match('# sent_id = .*', sents_dep[i])
+	if not sent_id_match:
+		continue
+	sent_id = sent_id_match[0]
+	if sent_id not in sents_depseg:
+		sents_depseg[sent_id] = {}
+	sents_depseg[sent_id][1] = sents_seg[i]
+
+for depseg in sents_depseg:
+	if len(sents_depseg[depseg]) != 2:
+		if 0 not in sents_depseg[depseg]:
+			print(depseg, '| WARNING: Empty parse', file=sys.stderr)
+		if 1 not in sents_depseg[depseg]:
+			print(depseg, '| WARNING: Empty segmentation', file=sys.stderr)
+		continue
+
+	parse = sents_depseg[depseg][0]
+	comments = get_comments(parse)
+	tokens = get_tokens(parse)
+	segmentations = get_segmentations(sents_depseg[depseg][1])
+
 #	print(tokens)
 
 	if len(tokens) != len(segmentations):
