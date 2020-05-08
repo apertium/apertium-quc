@@ -1,0 +1,17 @@
+# sent_id = utexas:57
+# text = Kinya jun rutzil iwach nutijoxelabʼ!
+# text[spa] =  Les doy un cordial saludo, mis estudiantes
+# labels = tijonik-7
+"<Kinya>"
+	"ya" v tv impf o_sg3 s_sg1 @root #1->0
+"<jun>"
+	"jun" num @nummod #2->3
+"<rutzil>"
+	"utzil" n px3sg @obj #3->1
+"<iwach>"
+	"wach" n rel px2pl @obl #4->1
+"<nutijoxelabʼ>"
+	"tijoxel" n pl px1sg @vocative #5->1
+"<!>"
+	"!" sent @punct #6->1
+
