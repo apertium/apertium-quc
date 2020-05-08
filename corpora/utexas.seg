@@ -1,3 +1,14 @@
+# sent_id = utexas:57
+# text = Kinya jun rutzil iwach nutijoxelabʼ!
+# text[spa] =  Les doy un cordial saludo, mis estudiantes
+# labels = tijonik-7
+^Kinya/k>in>ya$
+^jun/jun$
+^rutzil/r>utzil$
+^iwach/i>wach$
+^nutijoxelabʼ/nu>tijoxel>abʼ$
+^!/!$
+
 # sent_id = utexas:59
 # text = Che we qʼij kamik kʼo jun nutzijonem chirij le nutinamit.
 # text[spa] =  El día de hoy daré una plática sobre mi pueblo.
