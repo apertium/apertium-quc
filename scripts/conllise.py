@@ -157,8 +157,8 @@ for i in range(0, len(sents_dep)):
 		sents_depseg[sent_id] = {}
 	sents_depseg[sent_id][0] = sents_dep[i]
 
-for i in range(0, len(sents_dep)):
-	sent_id_match = re.match('# sent_id = .*', sents_dep[i])
+for i in range(0, len(sents_seg)):
+	sent_id_match = re.match('# sent_id = .*', sents_seg[i])
 	if not sent_id_match:
 		continue
 	sent_id = sent_id_match[0]
@@ -166,7 +166,9 @@ for i in range(0, len(sents_dep)):
 		sents_depseg[sent_id] = {}
 	sents_depseg[sent_id][1] = sents_seg[i]
 
+
 for depseg in sents_depseg:
+	#print('-->', depseg, file=sys.stderr)
 	if len(sents_depseg[depseg]) != 2:
 		if 0 not in sents_depseg[depseg]:
 			print(depseg, '| WARNING: Empty parse', file=sys.stderr)

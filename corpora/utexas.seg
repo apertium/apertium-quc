@@ -25,3 +25,12 @@
 ^nutinamit/nu>tinamit$
 ^./.$
 
+# sent_id = utexas:66
+# text = K’ak’ le po’t.
+# text[spa] =  El huipil es nuevo.
+# labels = tijonik-7
+^K’ak’/kʼakʼ$
+^le/le$
+^po’t/poʼt$
+^./.$
+

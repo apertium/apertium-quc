@@ -15,3 +15,16 @@
 "<!>"
 	"!" sent @punct #6->1
 
+# sent_id = utexas:66
+# text = K’ak’ le po’t.
+# text[spa] =  El huipil es nuevo.
+# labels = tijonik-7
+"<K’ak’>"
+	"kʼakʼ" adj @root #1->0
+"<le>"
+	"le" det @det #2->3
+"<po’t>"
+	"poʼt" n @nsubj #3->1
+"<.>"
+	"." sent @punct #4->1
+
