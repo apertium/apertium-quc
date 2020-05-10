@@ -19,6 +19,8 @@ The files `example.dep` and `example.seg` can be used to generate CoNLL-U output
 * `utexas.src`: This should be the output of the morphological analyser
 * `utexas.ref`: This should be the hand-disambiguated output of the morphological analyser
 * `utexas.seg`: This should be corrected, segmented generation of the tagged output 
+* `utexas.dep`: Dependency trees in VISLCG3 format
+  * The input is sentences from `utexas.ref`, passed through `cg-conv -a -l` and then hand-annotated for dependencies
 
 ## Generating CoNLL-U
 
@@ -53,3 +55,6 @@ $ python3 conllise.py ../apertium-quc.quc.udx ../corpora/example.dep ../corpora/
 9	.	.	_	_	_	1	punct	_	_
 
 ```
+
+Note that sentences are aligned based on `sent_id`, so the two files do not have to have identical numbers of
+sentences.
