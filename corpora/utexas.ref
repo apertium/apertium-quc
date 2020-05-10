@@ -648,7 +648,7 @@
 # text = K’ax le kib’e le winaq.
 # text[spa] =  El camino de la gente es difícil.
 # labels = tijonik-7
-^K’ax/kʼax<n>$
+^K’ax/kʼax<adj>$
 ^le/le<det>$
 ^kib’e/<px3pl>bʼe<n>$
 ^le/le<det>$

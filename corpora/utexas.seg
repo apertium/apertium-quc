@@ -25,6 +25,17 @@
 ^nutinamit/nu>tinamit$
 ^./.$
 
+# sent_id = utexas:64
+# text = K’ax le kib’e le winaq.
+# text[spa] =  El camino de la gente es difícil.
+# labels = tijonik-7
+^K’ax/kʼax$
+^le/le$
+^kib’e/ki>bʼe$
+^le/le$
+^winaq/winaq$
+^./.$
+
 # sent_id = utexas:66
 # text = K’ak’ le po’t.
 # text[spa] =  El huipil es nuevo.
