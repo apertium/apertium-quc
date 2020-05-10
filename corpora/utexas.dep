@@ -19,7 +19,7 @@
 # text = K’ax le kib’e le winaq.
 # text[spa] =  El camino de la gente es difícil.
 # labels = tijonik-7
-# notes = (le) PX-noun1 (le) noun2 = the noun1 of the noun2
+# notes = (le) PX-noun1 (le) noun2 = (el) noun1 de (el) noun2
 "<K’ax>"
 	"kʼax" adj @root #1->0
 "<le>"
