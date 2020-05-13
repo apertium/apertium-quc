@@ -2110,6 +2110,7 @@ kayapaʼ:kayapaʼ N-tinamit ; ! "lightning [Toto]"
 keboxib:keboxib N-tinamit ; ! "some"
 kebut:kebut N-tinamit ; ! "rush"
 kechelaj:kechelaj N-tinamit ; ! "forest"
+kʼachelaʼj:kechelaj N-tinamit ; ! "forest" Src/UTexas
 Kej:kej N-tinamit ; ! "day in the sacred calendar"
 kej:kej N-tinamit ; ! "horse"
 kem:kem N-tinamit ; ! "weaving (see also kiem)"
@@ -3217,6 +3218,7 @@ tʼisobal:tʼisobal N-tinamit ; ! "needle"
 tʼisomanel:tʼisomanel N-tinamit ; ! "tailor (Totonicapán)"
 tʼisombal:tʼisombal N-tinamit ; ! "tailor shop"
 tʼison:tʼison N-tinamit ; ! "seam"
+tʼison:tʼisom N-tinamit ; ! "seam" Src/UTexas
 tʼix:tʼix N-tinamit ; ! "tapir"
 tʼixam:tʼixam N-tinamit ; ! "sneeze"
 tʼoʼy:tʼoʼy N-tinamit ; ! "woven cap"
@@ -3938,6 +3940,9 @@ yutʼbal:yutʼbal N-tinamit ; ! "dressing (for wound)"
 yutʼuyik:yutʼuyik N-tinamit ; ! "bundle"
 kʼax:kʼax N-tinamit ; ! "evil, illness"
 wokol:wokol N-tinamit ; ! "construction worker"
+rajil:rajil N-tinamit ; ! "money" Src/UTexas
+prut:prut N-tinamit ; ! "plantain" Src/UTexas
+
 
 alkalteʼ:alkalteʼ N-tinamit ;
 alkalte:alkalte N-tinamit ;
@@ -4190,6 +4195,7 @@ Sara:Sara NP-Ant-F ;
 Skaʼ:Skaʼ NP-Ant-F ;
 Rebʼeka:Rebʼeka NP-Ant-F ;
 Prissilla:Prissilla NP-Ant-F ;
+Mariy:Mariy NP-Ant-F ;
 
 Perez:Perez NP-Cog ;
 

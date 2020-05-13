@@ -45,3 +45,117 @@
 ^po’t/poʼt$
 ^./.$
 
+# sent_id = utexas:67
+# text = E k’o ixoqib’ pa le k’ayb’al.
+# text[spa] =  Hay mujeres en la tienda.
+# labels = tijonik-7
+^E/e$
+^kʼo/kʼo$
+^ixoqibʼ/ixoq>ib$
+^pa/pa$
+^le/le$
+^kʼaybʼal/kʼaybʼal$
+^./.$
+
+# sent_id = utexas:68
+# text = K’o che’ pa le k’achela’j.
+# text[spa] = Hay árboles en el bosque.
+# labels = tijonik-7
+^Kʼo/kʼo$
+^cheʼ/cheʼ$
+^pa/pa$
+^le/le$
+^kʼachelaʼj/kʼachelaʼj$
+^./.$
+
+# sent_id = utexas:69
+# text = E k’o kajib’ ak’alab’ pa le b’e.
+# text[spa] = Hay cuatro niños en la calle.
+# labels = tijonik-7
+^E/e$
+^kʼo/kʼo$
+^kajibʼ/kajibʼ$
+^akʼalabʼ/akʼal>abʼ$
+^pa/pa$
+^le/le$
+^b’e/bʼe$
+^./.$
+
+# sent_id = utexas:70
+# text = Na nim ta raqan wa’ we che’.
+# text[spa] = Este árbol no es alto.
+# labels = tijonik-8
+^Na/na$
+^nim/nim$
+^ta/ta$
+^raqan/r>aqän$
+^wa’/waʼ$
+^we/we$
+^che’/cheʼ$
+^./.$
+
+# sent_id = utexas:71
+# text = Na rax ta uwach le juyub’.
+# text[spa] = La montaña no es verde.
+# labels = tijonik-8
+^Na/na$
+^rax/rax$
+^ta/ta$
+^uwach/u>wach$
+^le/le$
+^juyub’/juyubʼ$
+^./.$
+
+# sent_id = utexas:72
+# text = Maj urajil le q’abarel.
+# text[spa] = El borracho no tiene dinero.
+# labels = tijonik-8
+^Maj/maj$
+^urajil/u>rajil$
+^le/le<det>$
+^q’abarel/qʼabarel$
+^./.$
+
+# sent_id = utexas:73
+# text = Na utz ta le ut’isom le al Mariy.
+# text[spa] = El borracho no tiene dinero.
+# labels = tijonik-8
+^Na/na$
+^utz/utz$
+^ta/ta$
+^le/le$
+^utʼisom/u>tʼison$
+^le/le$
+^al/al$
+^Mariy/Mariy$
+^./.$
+
+# sent_id = utexas:74
+# text = Na q’an ta uwach le qaprut.
+# text[spa] = Nuestro plátano no está maduro (amarillo).
+# labels = tijonik-8
+^Na/na$
+^q’an/qʼän$
+^ta/ta$
+^uwach/u>wach$
+^le/le<det>$
+^qaprut/qa>prut$
+^./.<sent>$
+
+# sent_id = utexas:75
+# text = Maj jab’ chanim.
+# text[spa] = No hay lluvia ahorita.
+# labels = tijonik-8
+^Maj/maj$
+^jab/jäb$’
+^chanim/chanim$
+^./.$
+
+# sent_id = utexas:76
+# text = Maj sutz’ iwir.
+# text[spa] = No hubo nubes  ayer.
+# labels = tijonik-8
+^Maj/maj$
+^sutz’/sutzʼ$
+^iwir/iwir$
+^./.$
