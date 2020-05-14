@@ -616,66 +616,66 @@
 ^./.<sent>$
 
 # sent_id = utexas:61
-# text = Je’l le tyox.
+# text = Jeʼl le tyox.
 # text[spa] =  La iglesia es bonita.
 # labels = tijonik-7
-^Je’l/jeʼl<adj>$
+^Jeʼl/jeʼl<adj>$
 ^le/le<det>$
 ^tyox/tyox<n>$
 ^./.<sent>$
 
 # sent_id = utexas:62
-# text = Nim raqan le che’.
+# text = Nim raqan le cheʼ.
 # text[spa] =  El árbol es alto.
 # labels = tijonik-7
 ^Nim/nim<adj>$
 ^raqan/<px3sg>aqan<n>/<px3sg>aqän<n>$
 ^le/le<det>$
-^che’/cheʼ<adj>/cheʼ<n>$
+^cheʼ/cheʼ<adj>/cheʼ<n>$
 ^./.<sent>$
 
 # sent_id = utexas:63
-# text = Sib’alaj nim le tinamit.
+# text = Sibʼalaj nim le tinamit.
 # text[spa] =  El pueblo es muy grande.
 # labels = tijonik-7
-^Sib’alaj/sibʼalaj<adj>$
+^Sibʼalaj/sibʼalaj<adj>$
 ^nim/nim<adj>$
 ^le/le<det>$
 ^tinamit/tinamit<n>$
 ^./.<sent>$
 
 # sent_id = utexas:64
-# text = K’ax le kib’e le winaq.
+# text = Kʼax le kibʼe le winaq.
 # text[spa] =  El camino de la gente es difícil.
 # labels = tijonik-7
-^K’ax/kʼax<n>$
+^Kʼax/kʼax<n>$
 ^le/le<det>$
-^kib’e/<px3pl>bʼe<n>$
+^kibʼe/<px3pl>bʼe<n>$
 ^le/le<det>$
 ^winaq/winaq<n>$
 ^./.<sent>$
 
 # sent_id = utexas:65
-# text = E k’o oxib’ ak’.
+# text = E kʼo oxibʼ akʼ.
 # text[spa] =  Hay tres gallinas.
 # labels = tijonik-7
 ^E/e<pl>$
-^k’o/kʼo<part>$
-^oxib’/oxibʼ<num>$
-^ak’/akʼ<n>/äkʼ<n>$
+^kʼo/kʼo<part>$
+^oxibʼ/oxibʼ<num>$
+^akʼ/akʼ<n>/äkʼ<n>$
 ^./.<sent>$
 
 # sent_id = utexas:66
-# text = K’ak’ le po’t.
+# text = Kʼakʼ le poʼt.
 # text[spa] =  El huipil es nuevo.
 # labels = tijonik-7
-^K’ak’/kʼakʼ<adj>$
+^Kʼakʼ/kʼakʼ<adj>$
 ^le/le<det>$
-^po’t/poʼt<n>$
+^poʼt/poʼt<n>$
 ^./.<sent>$
 
 # sent_id = utexas:67
-# text = E k’o ixoqib’ pa le k’ayb’al.
+# text = E kʼo ixoqibʼ pa le kʼaybʼal.
 # text[spa] =  Hay mujeres en la tienda.
 # labels = tijonik-7
 ^E/e<pl>$
@@ -687,7 +687,7 @@
 ^./.<sent>$
 
 # sent_id = utexas:68
-# text = K’o che’ pa le k’achela’j.
+# text = Kʼo cheʼ pa le kʼachelaʼj.
 # text[spa] = Hay árboles en el bosque.
 # labels = tijonik-7
 ^Kʼo/kʼo<part>$
@@ -698,7 +698,7 @@
 ^./.<sent>$
 
 # sent_id = utexas:69
-# text = E k’o kajib’ ak’alab’ pa le b’e.
+# text = E kʼo kajibʼ akʼalabʼ pa le bʼe.
 # text[spa] = Hay cuatro niños en la calle.
 # labels = tijonik-7
 ^E/e<pl>$
@@ -707,24 +707,24 @@
 ^akʼalabʼ/akʼal<n><pl>$
 ^pa/pa<pr>$
 ^le/le<det>$
-^b’e/bʼe<n>$
+^bʼe/bʼe<n>$
 ^./.<sent>$
 
 # sent_id = utexas:70
-# text = Na nim ta raqan wa’ we che’.
+# text = Na nim ta raqan waʼ we cheʼ.
 # text[spa] = Este árbol no es alto.
 # labels = tijonik-8
 ^Na/na<adv>/na<adv><fut>$
 ^nim/nim<adj>$
 ^ta/ta<mod>$
 ^raqan/<px3sg>aqan<n>/<px3sg>aqän<n>$
-^wa’/waʼ<det>/waʼ<prn><dem>/<px1sg>aʼ<n>$
+^waʼ/waʼ<det>/waʼ<prn><dem>/<px1sg>aʼ<n>$
 ^we/we<cnjsub>/we<det>$
-^che’/cheʼ<adj>/cheʼ<n>$
+^cheʼ/cheʼ<adj>/cheʼ<n>$
 ^./.<sent>$
 
 # sent_id = utexas:71
-# text = Na rax ta uwach le juyub’.
+# text = Na rax ta uwach le juyubʼ.
 # text[spa] = La montaña no es verde.
 # labels = tijonik-8
 ^Na/na<adv>/na<adv><fut>$
@@ -732,21 +732,21 @@
 ^ta/ta<mod>$
 ^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
 ^le/le<det>$
-^juyub’/juyubʼ<adj>$
+^juyubʼ/juyubʼ<adj>$
 ^./.<sent>$
 
 # sent_id = utexas:72
-# text = Maj urajil le q’abarel.
+# text = Maj urajil le qʼabarel.
 # text[spa] = El borracho no tiene dinero.
 # labels = tijonik-8
 ^Maj/maj<adv>$
 ^urajil/<px3sg>rajil<n>$
 ^le/le<det>$
-^q’abarel/qʼabarel<n>$
+^qʼabarel/qʼabarel<n>$
 ^./.<sent>$
 
 # sent_id = utexas:73
-# text = Na utz ta le ut’isom le al Mariy.
+# text = Na utz ta le utʼisom le al Mariy.
 # text[spa] = El borracho no tiene dinero.
 # labels = tijonik-8
 ^Na/na<adv>/na<adv><fut>$
@@ -760,11 +760,11 @@
 ^./.<sent>$
 
 # sent_id = utexas:74
-# text = Na q’an ta uwach le qaprut.
+# text = Na qʼan ta uwach le qaprut.
 # text[spa] = Nuestro plátano no está maduro (amarillo).
 # labels = tijonik-8
 ^Na/na<adv>/na<adv><fut>$
-^q’an/qʼan<adv><dir>/qʼän<adj>$
+^qʼan/qʼan<adv><dir>/qʼän<adj>$
 ^ta/ta<mod>$
 ^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
 ^le/le<det>$
@@ -772,19 +772,19 @@
 ^./.<sent>$
 
 # sent_id = utexas:75
-# text = Maj jab’ chanim.
+# text = Maj jabʼ chanim.
 # text[spa] = No hay lluvia ahorita.
 # labels = tijonik-8
 ^Maj/maj<adv>$
-^jab/jäb<n>$’
+^jabʼ/jäb<n>$
 ^chanim/chanim<adv>$
 ^./.<sent>$
 
 # sent_id = utexas:76
-# text = Maj sutz’ iwir.
+# text = Maj sutzʼ iwir.
 # text[spa] = No hubo nubes  ayer.
 # labels = tijonik-8
 ^Maj/maj<adv>$
-^sutz’/sutzʼ<n>$
+^sutzʼ/sutzʼ<n>$
 ^iwir/iwir<adv>$
 ^./.<sent>$
