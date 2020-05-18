@@ -461,6 +461,8 @@ pe%<part%>:pe # ; !
 kʼu%<part%>:kʼu # ; !
 xas%<part%>:xas # ; ! Src/Bible
 xas%<part%>:xaas # ; ! Src/LopezIxcoy1997
+la%<part%>%<frm%>:la # ; !
+alaq%<part%>%<frm%>:alaq # ; !
 
 bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
@@ -3943,6 +3945,7 @@ kʼax:kʼax N-tinamit ; ! "evil, illness"
 wokol:wokol N-tinamit ; ! "construction worker"
 rajil:rajil N-tinamit ; ! "money" Src/UTexas
 prut:prut N-tinamit ; ! "plantain" Src/UTexas
+uxlanbʼal:uxlanbʼal N-tinamit ; ! "park" Src/UTexas
 
 
 alkalteʼ:alkalteʼ N-tinamit ;

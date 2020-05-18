@@ -788,3 +788,108 @@
 ^sutzʼ/sutzʼ<n>$
 ^iwir/iwir<adv>$
 ^./.<sent>$
+
+# sent_id = utexas:77
+# text = Kimbʼe pa le tinamit.
+# text[spa] = Voy al pueblo.
+# labels = tijonik-10
+^Kinbʼe/<impf><s_sg1>bʼe<v><iv>$
+^pa/pa<pr>$
+^le/le<det>$
+^tinamit/tinamit<n>$
+^./.<sent>$
+
+# sent_id = utexas:78
+# text = La katb’e pa le tinamit?
+# text[spa] = Vas al pueblo?
+# labels = tijonik-10
+^La/la<n>/la<qst>$
+^katbʼe/<impf><s_sg2>bʼe<v><iv>$
+^pa/pa<pr>$
+^le/le<det>$
+^tinamit/tinamit<n>$
+^?/?<sent>$
+
+# sent_id = utexas:79
+# text = Je’, kimb’ek
+# text[spa] = Vas al pueblo?
+# labels = tijonik-10
+^Jeʼ/jeʼ<adv>$
+^,/,<cm>$
+^kinbʼek/<impf><s_sg1>bʼe<v><iv>+ik<mark>$
+
+# sent_id = utexas:80
+# text = La kixwarik?
+# text[spa] = ¿Duermen?/¿Van a dormir?
+# labels = tijonik-12
+^la/la<n>/la<part><frm>/la<qst>$
+^kixwarik/<impf><s_pl2>warik<v><iv>+ik<mark>/<impf><s_pl2>war<v><iv>+ik<mark>$
+^?/?<sent>$
+
+# sent_id = utexas:81
+# text = Na kujwar taj.
+# text[spa] = No dormimos./No vamos a dormir.
+# labels = tijonik-12
+^Na/na<adv>/na<adv><fut>$
+^kujwar/<impf><s_pl1>warik<v><iv>/<impf><s_pl1>war<v><iv>$
+^taj/taj<adv>$
+^./.<sent>$
+
+# sent_id = utexas:82
+# text = Na kujwar ta waral.
+# text[spa] = No dormimos aquí.
+# labels = tijonik-12
+^Na/na<adv>/na<adv><fut>$
+^kujwar/<impf><s_pl1>warik<v><iv>/<impf><s_pl1>war<v><iv>$
+^ta/ta<mod>$
+^waral/waral<adv>$
+^./.<sent>$
+
+# sent_id = utexas:83
+# text = Na kawar ta la.
+# text[spa] = Usted no duerme./Usted no va a dormir
+# labels = tijonik-12
+^Na/na<adv>/na<adv><fut>$
+^kawar/<impf><s_sg3>warik<v><iv>/<impf><s_sg3>war<v><iv>$
+^ta/ta<mod>$
+^la/la<n>/la<part><frm>/la<qst>$
+^./.<sent>$
+
+# sent_id = utexas:84
+# text = La katb’in pa le uxlanb’al?
+# text[spa] = ¿Caminás en el parque?
+# labels = tijonik-12
+^La/la<n>/la<part><frm>/la<qst>$
+^katbʼin/<impf><s_sg2>binik<v><iv>$
+^pa/pa<pr>$
+^le/le<det>$
+^uxlanbʼal/uxlanbʼal<n>$
+^?/?<sent>$
+
+# sent_id = utexas:85
+# text = Na kimb’in taj.
+# text[spa] = No camino.
+# labels = tijonik-12
+^Na/na<adv>/na<adv><fut>$
+^kinbʼin/<impf><s_sg1>binik<v><iv>$
+^taj/taj<adv>$
+^./.<sent>$
+
+# sent_id = utexas:86
+# text = La kixpe pa tijob’al?
+# text[spa] = ¿Vienen a la escuela?
+# labels = tijonik-12
+^La/la<n>/la<qst>$
+^kixpe/<impf><s_pl2>pe<v><iv>$
+^pa/pa<pr>$
+^tijobʼal/tijobʼal<n>$
+^?/?<sent>$
+
+# sent_id = utexas:87
+# text = Na kojpe taj.
+# text[spa] = No venimos.
+# labels = tijonik-12
+^Na/na<adv>/na<adv><fut>$
+^kojpe/<impf><s_pl1>pe<v><iv>$
+^taj/taj<adv>$
+^./.<sent>$

@@ -148,7 +148,7 @@
 # labels = tijonik-8
 ^Maj/maj$
 ^jabʼ/jäb$
-^chanim/chanim>$
+^chanim/chanim$
 ^./.$
 
 # sent_id = utexas:76
@@ -158,4 +158,109 @@
 ^Maj/maj$
 ^sutzʼ/sutzʼ$
 ^iwir/iwir$
+^./.$
+
+# sent_id = utexas:77
+# text = Kimbʼe pa le tinamit.
+# text[spa] = Voy al pueblo.
+# labels = tijonik-10
+^Kinbʼe/k>in>bʼe$
+^pa/pa$
+^le/le$
+^tinamit/tinamit$
+^./.$
+
+# sent_id = utexas:78
+# text = La katb’e pa le tinamit?
+# text[spa] = Vas al pueblo?
+# labels = tijonik-10
+^La/la$
+^katbʼe/k>at>bʼe$
+^pa/pa$
+^le/le$
+^tinamit/tinamit$
+^?/?$
+
+# sent_id = utexas:79
+# text = Je’, kimb’ek
+# text[spa] = Vas al pueblo?
+# labels = tijonik-10
+^Jeʼ/jeʼ$
+^,/,$
+^kinbʼek/k>in>bʼe>k$
+
+# sent_id = utexas:80
+# text = La kixwarik?
+# text[spa] = ¿Duermen?/¿Van a dormir?
+# labels = tijonik-12
+^La/la$
+^kixwarik/k>ix>warik$
+^?/?$
+
+# sent_id = utexas:81
+# text = Na kujwar taj.
+# text[spa] = No dormimos./No vamos a dormir.
+# labels = tijonik-12
+^Na/na$
+^kujwar/k>uj>war$
+^taj/taj$
+^./.$
+
+# sent_id = utexas:82
+# text = Na kujwar ta waral.
+# text[spa] = No dormimos aquí.
+# labels = tijonik-12
+^Na/na$
+^kujwar/k>uj>war$
+^ta/ta$
+^waral/waral$
+^./.$
+
+# sent_id = utexas:83
+# text = Na kawar ta la.
+# text[spa] = Usted no duerme./Usted no va a dormir
+# labels = tijonik-12
+^Na/na$
+^kawar/ka>>war$
+^ta/ta$
+^la/la$
+^./.$
+
+# sent_id = utexas:84
+# text = La katb’in pa le uxlanb’al?
+# text[spa] = ¿Caminás en el parque?
+# labels = tijonik-12
+^La/la<qst>$
+^katbʼin/k>at>binik$
+^pa/pa$
+^le/le$
+^uxlanbʼal/uxlanbʼal$
+^?/?<sent>$
+
+# sent_id = utexas:85
+# text = Na kimb’in taj.
+# text[spa] = No camino.
+# labels = tijonik-12
+^Na/na$
+^kinbʼin/k>in>binik$
+^taj/taj$
+^./.$
+
+# sent_id = utexas:86
+# text = La kixpe pa tijob’al?
+# text[spa] = ¿Vienen a la escuela?
+# labels = tijonik-12
+^La/la$
+^kixpe/k>ix>pe$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^?/?$
+
+# sent_id = utexas:87
+# text = Na kojpe taj.
+# text[spa] = No venimos.
+# labels = tijonik-12
+^Na/na$
+^kojpe/k>oj>pe$
+^taj/taj$
 ^./.$
