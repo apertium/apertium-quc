@@ -171,7 +171,7 @@
 ^./.$
 
 # sent_id = utexas:78
-# text = La katb’e pa le tinamit?
+# text = La katbʼe pa le tinamit?
 # text[spa] = Vas al pueblo?
 # labels = tijonik-10
 ^La/la$
@@ -182,7 +182,7 @@
 ^?/?$
 
 # sent_id = utexas:79
-# text = Je’, kimb’ek
+# text = Jeʼ, kimbʼek
 # text[spa] = Vas al pueblo?
 # labels = tijonik-10
 ^Jeʼ/jeʼ$
@@ -227,7 +227,7 @@
 ^./.$
 
 # sent_id = utexas:84
-# text = La katb’in pa le uxlanb’al?
+# text = La katbʼin pa le uxlanbʼal?
 # text[spa] = ¿Caminás en el parque?
 # labels = tijonik-12
 ^La/la<qst>$
@@ -238,7 +238,7 @@
 ^?/?<sent>$
 
 # sent_id = utexas:85
-# text = Na kimb’in taj.
+# text = Na kimbʼin taj.
 # text[spa] = No camino.
 # labels = tijonik-12
 ^Na/na$
@@ -247,7 +247,7 @@
 ^./.$
 
 # sent_id = utexas:86
-# text = La kixpe pa tijob’al?
+# text = La kixpe pa tijobʼal?
 # text[spa] = ¿Vienen a la escuela?
 # labels = tijonik-12
 ^La/la$
@@ -266,7 +266,7 @@
 ^./.$
 
 # sent_id = utexas:88
-# text = Ximb’e ruk’ le ajkun iwir.
+# text = Ximbʼe rukʼ le ajkun iwir.
 # text[spa] = (Yo) fui con el doctor ayer.
 # labels = tijonik-13
 ^Xinbʼe/x>in>bʼe$
@@ -287,16 +287,16 @@
 ^?/?$
 
 # sent_id = utexas:90
-# text = Je’, xintzalijik.
+# text = Jeʼ, xintzalijik.
 # text[spa] = Sí, regresé.
 # labels = tijonik-13
-^Je’/jeʼ$
+^Jeʼ/jeʼ$
 ^,/,<cm>$
 ^xintzalijik/x>in>tzalijik$
 ^./.$
 
 # sent_id = utexas:91
-# text = Kinusik’ij le nunan.
+# text = Kinusikʼij le nunan.
 # text[spa] = Mi mamá me llama.
 # labels = tijonik-15
 ^Kinusikʼij/k>in>u>sikʼij$
@@ -305,15 +305,15 @@
 ^./.$
 
 # sent_id = utexas:92
-# text = Xixqach’ab’ej iwir.
+# text = Xixqachʼabʼej iwir.
 # text[spa] = Nosotros les hablamos a ustedes ayer.
 # labels = tijonik-15
-^Xixqach’ab’ej/x>ix>qa>chʼabʼej$
+^Xixqachʼabʼej/x>ix>qa>chʼabʼej$
 ^iwir/iwir$
 ^./.$
 
 # sent_id = utexas:93
-# text = La xaloq’ jun alej?
+# text = La xaloqʼ jun alej?
 # text[spa] = ¿Compraste una (tu) tortilla?
 # labels = tijonik-15
 ^La/la$
@@ -323,38 +323,38 @@
 ^?/?$
 
 # sent_id = utexas:94
-# text = Je’, xinloq’o.
+# text = Jeʼ, xinloqʼo.
 # text[spa] = Sí, la compré.
 # labels = tijonik-15
-^Je’/jeʼ$
+^Jeʼ/jeʼ$
 ^,/,$
-^xinloq’o/x>>in>loqʼ>o$
+^xinloqʼo/x>>in>loqʼ>o$
 ^./.<sent>$
 
 # sent_id = utexas:95
-# text = La xib’an le ichak?
+# text = La xibʼan le ichak?
 # text[spa] = ¿Hicieron (uds.) su trabajo?
 # labels = tijonik-15
 ^La/la$
-^xib’an/x>>i>bʼan$
+^xibʼan/x>>i>bʼan$
 ^le/le$
 ^ichak/i>chak$
 ^?/?$
 
 # sent_id = utexas:96
-# text = Je’ xqab’ano.
+# text = Jeʼ xqabʼano.
 # text[spa] = Sí, lo hicimos.
 # labels = tijonik-15
-^Je’/jeʼ$
-^xqab’ano/x>>qa>bʼan>o$
+^Jeʼ/jeʼ$
+^xqabʼano/x>>qa>bʼan>o$
 ^./.$
 
 # sent_id = utexas:97
-# text = Na xqab’an taj.
+# text = Na xqabʼan taj.
 # text[spa] = No, no lo hicimos
 # labels = tijonik-15
 ^Na/na<adv>$
-^xqab’an/x>>qa>bʼan$
+^xqabʼan/x>>qa>bʼan$
 ^taj/taj$
 ^./.$
 
@@ -369,10 +369,10 @@
 ^?/?$
 
 # sent_id = utexas:99
-# text = Je’, xatutzukuj.
+# text = Jeʼ, xatutzukuj.
 # text[spa] = Sí, te buscó.
 # labels = tijonik-15
-^Je’/jeʼ$
+^Jeʼ/jeʼ$
 ^,/,$
 ^xatutzukuj/x>at>u>tzukuj$
 ^./.$
@@ -387,56 +387,56 @@
 ^./.$
 
 # sent_id = utexas:101
-# text = Kench’ab’ej le ak’alab’.
+# text = Kenchʼabʼej le akʼalabʼ.
 # text[spa] = No te buscó.
 # labels = tijonik-15
-^Kench’ab’ej/k>e>in>chʼabʼej$
+^Kenchʼabʼej/k>e>in>chʼabʼej$
 ^le/le$
-^ak’alab’/akʼal>abʼ$
+^akʼalabʼ/akʼal>abʼ$
 ^./.<sent>$
 
 # sent_id = utexas:102
-# text = Na xinwil ta le me’s pa ja.
+# text = Na xinwil ta le meʼs pa ja.
 # text[spa] = No vi el gato en la casa.
 # labels = tijonik-15
 ^Na/na<adv>$
 ^xinwil/x>>inw>il$
 ^ta/ta$
 ^le/le$
-^me’s/meʼs$
+^meʼs/meʼs$
 ^pa/pa$
 ^ja/ja$
 ^./.$
 
 # sent_id = utexas:103
-# text = Xatriye’j le a Tun pa le b’e.
+# text = Xatriyeʼj le a Tun pa le bʼe.
 # text[spa] = Antonio te esperó en el camino.
 # labels = tijonik-15
-^Xatriye’j/x>at>r>iyeʼj$
+^Xatriyeʼj/x>at>r>iyeʼj$
 ^le/le$
 ^a/a$
 ^Tun/Tun$
 ^pa/pa$
 ^le/le$
-^b’e/bʼe$
+^bʼe/bʼe$
 ^./.$
 
 # sent_id = utexas:104
-# text = Xinsik’ij la
+# text = Xinsikʼij la
 # text[spa] = Usted me llamó (formal).
 # labels = tijonik-15
-^Xinsik’ij/x>>in>sikʼij$
+^Xinsikʼij/x>>in>sikʼij$
 ^la/la$
 
 # sent_id = utexas:105
-# text = Xinsik’ij alaq
+# text = Xinsikʼij alaq
 # text[spa] = Ustedes me llamaron (formal).
 # labels = tijonik-15
-^Xinsik’ij/x>>in>sikʼij$
+^Xinsikʼij/x>>in>sikʼij$
 ^alaq/alaq$
 
 # sent_id = utexas:106
-# text = Xesik’ij la
+# text = Xesikʼij la
 # text[spa] = Usted (formal) los llamó.
 # labels = tijonik-15
 ^Xesikʼij/*Xesikʼij$
