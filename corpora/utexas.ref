@@ -431,7 +431,7 @@
 # text[spa] =  Nosotros somos bailarines en Viernes Santo.
 # labels = tijonik-6
 ^Oj/oj<n>/oj<prn><pers><p1><pl>$
-^ajxojolob/*ajxojolob$ʼ
+^ajxojolobʼ/ajxojolab<n>$
 ^pa/pa<pr>$
 ^Awas/awas<adj>/awas<n>$
 ^Qʼij/qʼij<n>$
@@ -1070,3 +1070,84 @@
 # labels = tijonik-15
 ^Xesikʼij/*Xesikʼij$
 ^la/la<part><frm>$
+
+# sent_id = utexas:107
+# text = Kinkowinik kimbʼek.
+# text[spa] = Puedo ir.
+# labels = tijonik-16
+^Kinkowinik/<impf><s_sg1>kowinik<v><iv>+ik<mark>$
+^kinbʼek/<impf><s_sg1>bʼe<v><iv>+ik<mark>$
+^./.<sent>$
+
+# sent_id = utexas:108
+# text = Xatkowinik xabʼano.
+# text[spa] = Pudiste hacerlo.
+# labels = tijonik-16
+^Xatkowinik/<perf><s_sg2>kowinik<v><iv>+ik<mark>$
+^xabʼano/<perf><o_sg3><s_sg2>bʼan<v><tv>+o<mark>$
+^./.<sent>$
+
+# sent_id = utexas:109
+# text = Kinkowinik kinkʼam bʼi le pwaq
+# text[spa] = Puedo traer el dinero.
+# labels = tijonik-16
+^Kinkowinik/<impf><s_sg1>kowinik<v><iv>+ik<mark>$
+^kinkʼam/<impf><o_sg3><s_sg1>kʼam<v><tv>$
+^bʼi/bʼi<adv><dir>$
+^le/le<det>$
+^pwaq/pwaq<n>$
+
+# sent_id = utexas:110
+# text = La kakowin alaq kintoʼ alaq?
+# text[spa] = ¿Pueden ustedes (formal) ayudarme?
+# labels = tijonik-16
+^La/la<qst>$
+^kakowin/<impf><s_sg3>kowinik<v><iv>$
+^alaq/alaq<part><frm>$
+^kintoʼ/<impf><s_sg1>toʼik<v><iv>$
+^alaq/alaq<part><frm>$
+^?/?<sent>$
+
+# sent_id = utexas:111
+# text = Kawaj kimbʼe pa tinamit.
+# text[spa] = (Yo) quiero ir al pueblo.
+# labels = tijonik-16
+^Kawaj/<impf><o_sg3><s_sg2>aj<v><tv>$
+^kinbʼe/<impf><s_sg1>bʼe<v><iv>$
+^pa/pa<pr>$
+^tinamit/tinamit<n>$
+^./.<sent>$
+
+# sent_id = utexas:112
+# text = Xawaj xabʼano.
+# text[spa] = (Yo) quiero ir al pueblo.
+# labels = tijonik-16
+^Xawaj/<perf><o_sg3><s_sg2>aj<v><tv>$
+^xabʼano/<perf><o_sg3><s_sg2>bʼan<v><tv>+o<mark>$
+^./.<sent>$
+
+# sent_id = utexas:113
+# text = La kaj la kujtzalij la aninaq?
+# text[spa] = ¿Quiere usted (formal) que (nosotros) regresemos rápido?
+# labels = tijonik-16
+^La/la<qst>$
+^kaj/kaj<n>/<px3pl>Aj<n>/<px3pl>aj<n>/<px3pl>äj<n>$
+^la/la<part><frm>$
+^kujtzalij/<impf><s_pl1>tzalijik<v><iv>$
+^la/la<part><frm>$
+^aninaq/aninaq<adv>$
+^?/?<sent>$
+
+# sent_id = utexas:114
+# text = La kaj la kojbʼeʼ pa le chomal chweʼq?
+# text[spa] = ¿Quiere usted (formal) que (nosotros) vayamos a la reunión mañana?
+# labels = tijonik-16
+^La/la<qst>$
+^kaj/kaj<n>/<px3pl>Aj<n>/<px3pl>aj<n>/<px3pl>äj<n>$
+^la/la<part><frm>$
+^kojbʼeʼ/<impf><s_pl1>bʼeʼ<v><iv>$
+^pa/pa<pr>$
+^le/le<det>$
+^chomal/chomal<n>$
+^chweʼq/chweʼq<adv>$
+^?/?<sent>$

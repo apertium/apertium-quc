@@ -441,3 +441,84 @@
 # labels = tijonik-15
 ^Xesikʼij/*Xesikʼij$
 ^la/la$
+
+# sent_id = utexas:107
+# text = Kinkowinik kimbʼek.
+# text[spa] = Puedo ir.
+# labels = tijonik-16
+^Kinkowinik/k>in>kowin>ik$
+^kinbʼek/k>in>bʼe>k$
+^./.$
+
+# sent_id = utexas:108
+# text = Xatkowinik xabʼano.
+# text[spa] = Pudiste hacerlo.
+# labels = tijonik-16
+^Xatkowinik/x>at>kowin>ik$
+^xabʼano/x>a>bʼan>o$
+^./.>$
+
+# sent_id = utexas:109
+# text = Kinkowinik kinkʼam bʼi le pwaq
+# text[spa] = Puedo traer el dinero.
+# labels = tijonik-16
+^Kinkowinik/k>in>kowinik>ik$
+^kinkʼam/k>>in>kʼam$
+^bʼi/bʼi$
+^le/le$
+^pwaq/pwaq$
+
+# sent_id = utexas:110
+# text = La kakowin alaq kintoʼ alaq?
+# text[spa] = ¿Pueden ustedes (formal) ayudarme?
+# labels = tijonik-16
+^La/la$
+^kakowin/ka>>kowinik$
+^alaq/alaq$
+^kintoʼ/k>in>toʼik$
+^alaq/alaq$
+^?/?$
+
+# sent_id = utexas:111
+# text = Kawaj kimbʼe pa tinamit.
+# text[spa] = (Yo) quiero ir al pueblo.
+# labels = tijonik-16
+^Kawaj/ka>w>aj$
+^kinbʼe/k>im>bʼe$
+^pa/pa$
+^tinamit/tinamit$
+^./.$
+
+# sent_id = utexas:112
+# text = Xawaj xabʼano.
+# text[spa] = (Yo) quiero ir al pueblo.
+# labels = tijonik-16
+^Xawaj/x>aw>aj$
+^xabʼano/x>a>bʼan>o$
+^./.$
+
+# sent_id = utexas:113
+# text = La kaj la kujtzalij la aninaq?
+# text[spa] = ¿Quiere usted (formal) que (nosotros) regresemos rápido?
+# labels = tijonik-16
+^La/la$
+^kaj/k>>aj$
+^la/la$
+^kujtzalij/k>uj>tzalijik$
+^la/la$
+^aninaq/aninaq$
+^?/?$
+
+# sent_id = utexas:114
+# text = La kaj la kojbʼeʼ pa le chomal chweʼq?
+# text[spa] = ¿Quiere usted (formal) que (nosotros) vayamos a la reunión mañana?
+# labels = tijonik-16
+^La/la$
+^kaj/k>>aj$
+^la/la$
+^kojbʼeʼ/k>oj>bʼeʼ$
+^pa/pa$
+^le/le$ 
+^chomal/chomal$
+^chweʼq/chweʼq$
+^?/?$
