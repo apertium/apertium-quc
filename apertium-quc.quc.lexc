@@ -703,6 +703,7 @@ ajchak:ajchak N-ixoq ;             ! "trabajador; worker (traditional peasant)"
 tataʼ:tataʼ N-ixoq ;               ! "a gentleman"
 iyom:iyom N-iyom ;                 ! "partera; midwife"
 alitom:alitom N-iyom ;             ! ""
+altom:altom N-iyom ;               ! "muchacha"
 teem:teem N-ixoq ;                 ! "silla; chair"
 wuuj:wuuj N-ixoq ;                 ! "papel; paper"
 wuuj:wuj N-ixoq ;                  ! "libro; book"
@@ -712,6 +713,7 @@ siiʼ:siiʼ N-ixoq ;                 ! "leña; firewood"
 siiʼ:siʼ N-ixoq ;                  ! "firewood"
 alit:alit N-alit ;                 ! "señorita; young woman"
 alab:alab N-alit ;                 ! "muchacho; man"
+
 tzij:tzij N-alit ;                 ! "palabra, cuento; word, story"
 saqalajtzij:saqalajtzij N-alit ;   ! "verdad; truth" ! Src/Biblia
 qʼatojtzij:qʼatojtzij N-alit ;     ! "; " ! Src/Biblia

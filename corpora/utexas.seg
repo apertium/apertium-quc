@@ -160,6 +160,46 @@
 ^iwir/iwir$
 ^./.$
 
+# sent_id = utexas:76.1
+# text = Oj ajtijab’
+# text[spa] = Somos maestros
+# labels = tijonik-9
+^Oj/oj$
+^ajtijab’/ajtij>abʼ$
+
+# sent_id = utexas:76.2
+# text = A’re e tijoxelab’
+# text[spa] = Ellos(as) son estudiantes
+# labels = tijonik-9
+^A’re/aʼre$
+^e/e$
+^tijoxelab’/tijoxel>abʼ$
+
+# sent_id = utexas:76.3
+# text = Ix ixoqibʼ
+# text[spa] = Ustedes son mujeres
+# labels = tijonik-9
+^Ix/ix$
+^ixoqib’/ixoq>ibʼ$
+
+# sent_id = utexas:76.4
+# text = Rax taq le kotz’i’j
+# text[spa] = Las flores son verdes
+# labels = tijonik-9
+^Rax/rax$
+^taq/taq$
+^le/le$
+^kotzʼiʼj/kotzʼiʼj$
+
+# sent_id = utexas:76.5
+# text = E nima’q le altomab’
+# text[spa] = “Las muchachas son grandes
+# labels = tijonik-9
+^E/e<pl>$
+^nima’q/nim>aʼq$
+^le/le$
+^altomabʼ/altom>abʼ$
+
 # sent_id = utexas:77
 # text = Kimbʼe pa le tinamit.
 # text[spa] = Voy al pueblo.
@@ -518,7 +558,7 @@
 ^la/la$
 ^kojbʼeʼ/k>oj>bʼeʼ$
 ^pa/pa$
-^le/le$ 
+^le/le$
 ^chomal/chomal$
 ^chweʼq/chweʼq$
 ^?/?$
