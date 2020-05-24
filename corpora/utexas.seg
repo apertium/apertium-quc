@@ -195,7 +195,7 @@
 # text = E nima’q le altomab’
 # text[spa] = “Las muchachas son grandes
 # labels = tijonik-9
-^E/e<pl>$
+^E/e$
 ^nima’q/nim>aʼq$
 ^le/le$
 ^altomabʼ/altom>abʼ$
@@ -270,12 +270,12 @@
 # text = La katbʼin pa le uxlanbʼal?
 # text[spa] = ¿Caminás en el parque?
 # labels = tijonik-12
-^La/la<qst>$
+^La/la$
 ^katbʼin/k>at>binik$
 ^pa/pa$
 ^le/le$
 ^uxlanbʼal/uxlanbʼal$
-^?/?<sent>$
+^?/?$
 
 # sent_id = utexas:85
 # text = Na kimbʼin taj.
@@ -500,7 +500,7 @@
 ^Jeʼ/jeʼ$
 ^,/,$
 ^xinloqʼo/x>>in>loqʼ>o$
-^./.<sent>$
+^./.$
 
 # sent_id = utexas:95
 # text = La xibʼan le ichak?
@@ -524,7 +524,7 @@
 # text = Na xqabʼan taj.
 # text[spa] = No, no lo hicimos
 # labels = tijonik-15
-^Na/na<adv>$
+^Na/na$
 ^xqabʼan/x>>qa>bʼan$
 ^taj/taj$
 ^./.$
@@ -564,13 +564,13 @@
 ^Kenchʼabʼej/k>e>in>chʼabʼej$
 ^le/le$
 ^akʼalabʼ/akʼal>abʼ$
-^./.<sent>$
+^./.$
 
 # sent_id = utexas:102
 # text = Na xinwil ta le meʼs pa ja.
 # text[spa] = No vi el gato en la casa.
 # labels = tijonik-15
-^Na/na<adv>$
+^Na/na$
 ^xinwil/x>>inw>il$
 ^ta/ta$
 ^le/le$
