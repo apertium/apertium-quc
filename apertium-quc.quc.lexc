@@ -830,6 +830,7 @@ abäj:abäj N-tinamit ; ! "stone, rock, testicle"
 !abäj tew:abäj tew N-tinamit ; ! "frost"
 abanel:abanel N-tinamit ; ! "operator"
 abix:abix N-tinamit ; ! "corn plant"
+abix:abʼix N-tinamit ; ! "corn plant" ! Src/UTexas
 abixbal:abixbal N-tinamit ; ! "plow"
 !-achʼ:-achʼ N-tinamit ; ! "kind"
 !-achʼ chʼaben:-achʼ chʼaben N-tinamit ; ! "confidant"
@@ -3038,6 +3039,7 @@ riʼjobik:riʼjobik N-tinamit ; ! "old age"
 riʼjobinaqil:riʼjobinaqil N-tinamit ; ! "old age"
 Ribnal:ribnal N-tinamit ; ! "Rabinal"
 rikiʼl:rikiʼl N-tinamit ; ! "dish of food accompanying tortillas"
+rikiʼl:rikil N-tinamit ; ! "dish of food accompanying tortillas" !Src/UTexas
 rininem:rininem N-tinamit ; ! "buzzing"
 ripibal:ripibal N-tinamit ; ! "cross"
 ripinel:ripinel N-tinamit ; ! "crucifier"
@@ -3948,6 +3950,7 @@ wokol:wokol N-tinamit ; ! "construction worker"
 rajil:rajil N-tinamit ; ! "money" Src/UTexas
 prut:prut N-tinamit ; ! "plantain" Src/UTexas
 uxlanbʼal:uxlanbʼal N-tinamit ; ! "park" Src/UTexas
+chʼutitat:chʼutitat N-tinamit ; ! "uncle" Src/UTexas
 
 
 alkalteʼ:alkalteʼ N-tinamit ;
@@ -5090,6 +5093,7 @@ weneʼ:wene Ad-aninaq ;             ! "tal vez; perhaps" ! Src/Wiki
 je:je Ad-aninaq ;                  ! "sí; yes"
 jeʼ:jeʼ Ad-aninaq ;                ! "sí; yes" ! Src/LopezIxcoy1997
 jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
+jampaʼ:jampa Ad-jampaʼ ;            ! "cuándo; when"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 aretaq:aretaq Ad-aninaq ;          ! "when, while"
 maj:maj Ad-aninaq ;                ! "none, nothing"
@@ -5100,7 +5104,7 @@ waral:waral Ad-aninaq ;            ! "here"
 jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
 taj:taj Ad-aninaq ;                ! "indicator of negativity or doubtfulness"
 naj:naj Ad-aninaq ;                ! "from afar, for a long time"
-are:are Ad-aninaq ;                ! "when, while"
+aare Ad-aninaq ;                ! "when, while"
 ne:ne Ad-aninaq ;                  ! "marker of doubt"
 apawijeʼ:apawijeʼ Ad-aninaq ;      ! "wherever"
 
@@ -5384,6 +5388,7 @@ chaqänik:chaqän V-IV ; ! "to crawl on hands and knees (baby, people)"
 chaqänik:chaqän V-IV ; ! "to walk on all fours"
 chaqiʼjarik:chaqiʼjar V-IV ; ! "wither"
 chaqiʼjik:chaqiʼj V-IV ; ! "to dry"
+chaqiʼjik:chaqij V-IV ; ! "to dry" ! Src/UTexas
 charanik:charan V-IV ; ! "to be rough"
 !charchatej ubik:charchatej ub V-IV ; ! "to drag away (child who doesnʼt want to go)"
 cheʼchetik:cheʼchet V-IV ; ! "to become paralyzed"

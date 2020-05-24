@@ -331,9 +331,140 @@
 # text[spa] = Sí, regresé.
 # labels = tijonik-13
 ^Jeʼ/jeʼ$
-^,/,<cm>$
+^,/,$
 ^xintzalijik/x>in>tzalijik$
 ^./.$
+
+# sent_id = utexas:90.1
+# text = Jachin ruk’ katb’e wi?
+# text[spa] = Con quién vas a ir?
+# labels = tijonik-14
+^Jachin/jachin$
+^ruk’/r>ukʼ$
+^katb’e/k>at>bʼe$
+^wi/wi$
+^?/?$
+
+# sent_id = utexas:90.2
+# text = Jachin che kinya wi le wuj?
+# text[spa] = ¿A quién le doy el libro?
+# labels = tijonik-14
+^Jachin/jachin$
+^che/chi>re$
+^kinya/k>>in>ya$
+^wi/wi$
+^le/le$
+^wuj/wuj$
+^?/?$
+
+# sent_id = utexas:90.3
+# text = Jas ub’i’ le atinamit?
+# text[spa] = ¿Cuál es el nombre de tu pueblo?
+# labels = tijonik-14
+^Jas/jas$
+^ub’i’/u>bʼiʼ$
+^le/le$
+^atinamit/a>tinamit$
+^?/?$
+
+# sent_id = utexas:90.5
+# text = Jas uwach le rikil kakitij le aj Nawalja’?
+# text[spa] = ¿Qué tipo de platillos comen los nahualatecos?
+# labels = tijonik-14
+^Jas/jas$
+^uwach/u>wach$
+^le/le$
+^rikil/rikiʼl$
+^kakitij/kakitij$ ! FIXME
+^le/le$
+^aj/aj$
+^Nawalja’/Nawaljaʼ$
+^?/?$
+
+# sent_id = utexas:90.6
+# text = Kakitij le kinaq’, le ichaj, le uwa’l ik ruk’  lej.
+# text[spa] = Comen frijoles, hierbas, y caldo con tortillas.
+# labels = tijonik-14 ! FIXME
+^Kakitij/Kakitij$
+^le/le$
+^kinaq’/kinäqʼ$
+^,/,$
+^le/le$
+^ichaj/ichaj$
+^,/,$
+^le/le$
+^uwa’l/u>waʼl$
+^ik/ik$
+^ruk’/r>ukʼ$
+^lej/lej$
+^./.$
+
+# sent_id = utexas:90.7
+# text = Jas ub’anom le nuch’utitat?
+# text[spa] = ¿Cómo le va a mi tío?
+# labels = tijonik-14
+^Jas/jas$
+^ub’anom/*ub’anom$
+^le/le$
+^nuch’utitat/nu>ch’utitat$
+^?/?<sent>$
+
+# sent_id = utexas:90.8
+# text = Jachike   ik’ le unimaq’ij le tinamit Nawalja’?
+# text[spa] = ¿En qué mes es la feria del pueblo de Nahualá?
+# labels = tijonik-14
+^Jachike/jachike$
+^ik’/ikʼ$
+^le/le$
+^unimaq’ij/u>nimaqʼij$
+^le/le$
+^tinamit/tinamit$
+^Nawalja’/Nawaljaʼ$
+^?/?$
+
+# sent_id = utexas:90.9
+# text = Jas che xechaqij le ab’ix?
+# text[spa] = Por qué se secaron las milpas?
+# labels = tijonik-14
+^Jas/jas$
+^che/chi>re$
+^xechaqij/x>e>chaqiʼjik$
+^le/le$
+^abʼix/abix$
+^?/?$
+
+# sent_id = utexas:90.10
+# text = Jas chemna kixpe chwe’q?
+# text[spa] = ¿Por qué no vienen mañana?
+# labels = tijonik-14
+^Jas/jas$
+^chemna/che>mna$ ! FIXME
+^kixpe/k>ix>pe$
+^chwe’q/chweʼq$
+^?/?$
+
+# sent_id = utexas:90.11
+# text = Jampa kojb’e pa le tyox?
+# text[spa] = ¿Cuándo vamos a la iglesia?
+# labels = tijonik-14
+^Jampa/jampaʼ$
+^kojb’e/k>oj>bʼe$
+^pa/pa$
+^le/le$
+^tyox/tyox$
+^?/?$
+
+# sent_id = utexas:90.12
+# text = E janipa le awalk’wal e k’olik?
+# text[spa] = ¿Cuántos hijos(as) tienes?
+# labels = tijonik-14
+^E/e$
+^janipa/janipa$
+^le/le$
+^awalkʼwal/awalkʼwal$
+^e/e$
+^kʼolik/kʼol>ik$
+^?/?$
 
 # sent_id = utexas:91
 # text = Kinusikʼij le nunan.
