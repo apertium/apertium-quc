@@ -1324,3 +1324,171 @@
 ^chomal/chomal<n>$
 ^chweʼq/chweʼq<adv>$
 ^?/?<sent>$
+
+# sent_id = utexas:115
+# text = K’o jun xa’r pa ja.
+# text[spa] = Hay un vaso en la casa.
+# labels = tijonik-17
+^K’o/kʼo<part>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^xa’r/xaʼr<n>$
+^pa/pa<pr>$
+^ja/ja<n>$
+^./.<sent>$
+
+# sent_id = utexas:116
+# text = Xekos le ixoqib’ pa le b’e.
+# text[spa] = Las mujeres se cansaron en el camino.
+# labels = tijonik-17
+^Xekos/<perf><s_pl3>kosik<v><iv>$
+^le/le<det>$
+^ixoqib’/ixoq<n><pl>$
+^pa/pa<pr>$
+^le/le<det>$
+^b’e/bʼe<n>$
+^./.<sent>$
+
+# sent_id = utexas:117
+# text = Kape le a Wel pa Nawalja’.
+# text[spa] =  Manuel viene de Nahualá./Manuel viene a Nahualá.
+# labels = tijonik-17
+^Kape/kape<n>/<impf><s_sg3>pe<v><iv>$
+^le/le<det>$
+^a/a<adj>$
+^Wel/Wel<np><ant><m>$
+^pa/pa<pr>$
+^Nawalja’/Nawaljaʼ<np><top>$
+^./.<sent>$
+
+# sent_id = utexas:118
+# text = Kintzalij pa le nutinamit.
+# text[spa] =  Regreso a mi pueblo.
+# labels = tijonik-17
+^Kintzalij/<impf><o_sg3><s_sg1>tzalij<v><tv>/<impf><s_sg1>tzalijik<v><iv>$
+^pa/pa<pr>$
+^le/le<det>$
+^nutinamit/<px1sg>tinamit<n>$
+^./.<sent>$
+
+# sent_id = utexas:119
+# text = Kul le al We’l pa Austin chaq’ab’ kamik.
+# text[spa] =  Manuela llega (aquí) a  Austin hoy en la noche.
+# labels = tijonik-17
+^Kul/<impf><s_sg3>ulik<v><iv>/<impf><s_sg3>ul<v><iv>/<px3pl>ul<n>$
+^le/le<det>$
+^al/al<adj>$
+^We’l/Weʼl<np><ant><f>$
+^pa/pa<pr>$
+^Austin/*Austin$
+^chaq’ab’/chaqʼabʼ<adv>$
+^kamik/kamik<adv>$
+^./.<sent>$
+
+# sent_id = utexas:120
+# text = Pa le jun wokaj ub’i’ Chi Masat kape wi le achi.
+# text[spa] =  El hombre viene de un caserío que se llama Chi Masat
+# labels = tijonik-17
+^Pa/pa<pr>$
+^le/le<det>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^wokaj/wokaj<n>$
+^ub’i’/<px3sg>bʼiʼ<n>$
+^Chi/chi<pr>$
+^Masat/masat<n>$
+^kape/kape<n>/<impf><s_sg3>pe<v><iv>$
+^wi/wi<part>$
+^le/le<det>$
+^achi/achi<n>$
+^./.<sent>$
+
+# sent_id = utexas:121
+# text = E k’i taq le che’ tikil chi le b’e.
+# text[spa] =  Hay muchos árboles plantados al borde del camino.
+# labels = tijonik-17
+^E/e<pl>$
+^k’i/kʼi<adj>$
+^taq/taq<pl>$
+^le/le<det>$
+^che’/cheʼ<adj>/cheʼ<n>$
+^tikil/*tikil$
+^chi/chi<pr>$
+^le/le<det>$
+^b’e/bʼe<n>$
+^./.<sent>$
+
+# sent_id = utexas:123
+# text = Le ro’ch le a Te’k k’o chwach le uk’ay le nunan.
+# text[spa] =  La casa de diego está frente a la venta de mi madre.
+# labels = tijonik-17
+^Le/le<det>$
+^ro’ch/<px3sg>oʼch<n>$
+^le/le<det>$
+^a/a<adj>$
+^Te’k/Teʼk<np><ant><m>$
+^k’o/kʼo<part>$
+^chwach/chi<pr>+<px3sg>wach<n><rel>$
+^le/le<det>$
+^uk’ay/<px3sg>kʼay<n>$
+^le/le<det>$
+^nunan/<px1sg>nan²<n>/<px1sg>nan¹<n>$
+^./.<sent>$
+
+# sent_id = utexas:123
+# text = Xuk’ut le K’iche’ ch’ab’al le al Nela chqawach.
+# text[spa] =  Manuela nos enseñó el idioma k’iche’
+# labels = tijonik-17
+^Xuk’ut/<perf><o_sg3><s_sg3>kʼut<v><tv>$
+^le/le<det>$
+^K’iche’/Kʼicheʼ<adj>/kʼicheʼ<n>$
+^ch’ab’al/chʼabʼal<n>$
+^le/le<det>$
+^al/al<adj>$
+^Nela/*Nela$
+^chqawach/chi<pr>+<px1pl>wach<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:124
+# text = K’o chwa ro’ch le pare.
+# text[spa] =  (Él/ella) está en la casa del sacerdote.
+# labels = tijonik-17
+^K’o/kʼo<part>$
+^chwa/*chwa$
+^ro’ch/<px3sg>oʼch<n>$
+^le/le<det>$
+^pare/pare<n>$
+^./.<sent>$
+
+# sent_id = utexas:125
+# text = Xaya jun awuj chwech.
+# text[spa] =   Me diste un libro tuyo.
+# labels = tijonik-17
+^Xaya/<perf><o_sg3><s_sg2>ya<v><tv>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^awuj/<px2sg>wuj<n>/<px2sg>wuuj<n>$
+^chwech/chi<pr>+<px1sg>ech<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:126
+# text = Chuxe le qachomal kaqatij wi jun qameq’in.
+# text[spa] =   Antes de la (nuestra)reunión nos tomamos una bebida caliente (café, atol).
+# labels = tijonik-17
+^Chuxe/chuxeʼ<pr>$
+^le/le<det>$
+^qachomal/<px1pl>chomal<n>$
+^kaqatij/<impf><o_sg3><s_pl1>tij<v><tv>$
+^wi/wi<part>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^qameq’in/qameqʼin<n>$
+^./.<sent>$
+
+# sent_id = utexas:127
+# text = Xeqil le chikop puwi le ja.
+# text[spa] =   Vimos a los animales encima de la casa.
+# labels = tijonik-17
+^Xeqil/<perf><o_pl3><s_pl1>il<v><tv>/<perf><o_sg3><abl><s_pl1>il<v><tv>$
+^le/le<det>$
+^chikop/chikop<n>$
+^puwi/pa<pr>+<px3sg>wiʼ<n><rel>$
+^le/le<det>$
+^ja/ja<n>$
+^./.<sent>$

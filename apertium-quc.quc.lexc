@@ -525,12 +525,14 @@ ikim:ikim Pr ;                     ! "down below"
 aj:aj Pr ;                         ! "of"
 kʼa:kʼa Pr ;                       ! "hasta"
 chuxeʼ:chuxeʼ Pr ;                 ! "debajo de"
+chuxeʼ:chuxe Pr ;                  ! "debajo de" ! Src/UTexas
 uxeʼ:uxeʼ Pr ;                     ! "abajo de"
 xeʼ:xeʼ Pr ;                       ! "debajo de"
 panikʼaj:panikʼaj Pr ;             ! "en medio de"
 panikʼaj:panikʼyaj Pr ;            ! "en medio de"
 kʼateʼ:kʼateʼ Pr ;                 ! "hasta"
 kʼateʼ:kʼate Pr ;                  ! "hasta"  ! Src/Cuentos
+chuwiʼ:chuwiʼ Pr ;                 ! "encima, sobre"
 
 ! nu w
 ! a aw
@@ -554,6 +556,7 @@ chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chi%>k%>ech  # ;  ! "" ! Src/Cuentos
 
 ! Estos parecen contracciones también, chi + POSS + wach "face"
 chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:ch%>nu%>wach # ; ! ""
+chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:chi%>nu%>wach # ; ! "" ! Src/UTexas
 chi%<pr%>%+%<px2sg%>wach%<n%>%<rel%>:ch%>a%>wach # ; ! ""
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>u%>wach # ; ! ""
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>wach # ; ! "" ! Src/UDHR
@@ -1913,6 +1916,7 @@ kʼatom:kʼatom N-tinamit ; ! "burned"
 kʼatonel:kʼatonel N-tinamit ; ! "burner"
 kʼawex:kʼawex N-tinamit ; ! "anona (fruit)"
 kʼawex:kʼawex N-tinamit ; ! "fast"
+kʼay:kʼay N-tinamit ; ! "sale"
 kʼel:kʼel N-tinamit ; ! "green parrot"
 kʼexbal:kʼexbal N-tinamit ; ! "change (money)"
 kʼexel:kʼexel N-tinamit ; ! "replacement"
@@ -3951,6 +3955,7 @@ rajil:rajil N-tinamit ; ! "money" Src/UTexas
 prut:prut N-tinamit ; ! "plantain" Src/UTexas
 uxlanbʼal:uxlanbʼal N-tinamit ; ! "park" Src/UTexas
 chʼutitat:chʼutitat N-tinamit ; ! "uncle" Src/UTexas
+qameqʼin:qameqʼin N-tinamit ; ! "hot drink" ! Src/UTexas
 
 
 alkalteʼ:alkalteʼ N-tinamit ;

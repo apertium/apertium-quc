@@ -13,7 +13,7 @@
 # text = Che we qʼij kamik kʼo jun nutzijonem chirij le nutinamit.
 # text[spa] =  El día de hoy daré una plática sobre mi pueblo.
 # labels = tijonik-7
-^Che/chi>re$
+^Che/ch>e$
 ^we/we$
 ^qʼij/qʼij$
 ^kamik/kamik$
@@ -271,7 +271,7 @@
 # text[spa] = ¿Caminás en el parque?
 # labels = tijonik-12
 ^La/la$
-^katbʼin/k>at>binik$
+^katbʼin/k>at>bin$
 ^pa/pa$
 ^le/le$
 ^uxlanbʼal/uxlanbʼal$
@@ -282,7 +282,7 @@
 # text[spa] = No camino.
 # labels = tijonik-12
 ^Na/na$
-^kinbʼin/k>in>binik$
+^kinbʼin/k>in>bin$
 ^taj/taj$
 ^./.$
 
@@ -321,7 +321,7 @@
 # text[spa] = ¿Regresó (ud) ayer?
 # labels = tijonik-13
 ^La/la$
-^xtzalij/x>>tzalijik$
+^xtzalij/x>>tzalij$
 ^la/la$
 ^iwir/iwir$
 ^?/?$
@@ -332,7 +332,7 @@
 # labels = tijonik-13
 ^Jeʼ/jeʼ$
 ^,/,$
-^xintzalijik/x>in>tzalijik$
+^xintzalijik/x>in>tzalij$
 ^./.$
 
 # sent_id = utexas:90.1
@@ -350,7 +350,7 @@
 # text[spa] = ¿A quién le doy el libro?
 # labels = tijonik-14
 ^Jachin/jachin$
-^che/chi>re$
+^che/ch>e$
 ^kinya/k>>in>ya$
 ^wi/wi$
 ^le/le$
@@ -427,10 +427,10 @@
 # text[spa] = Por qué se secaron las milpas?
 # labels = tijonik-14
 ^Jas/jas$
-^che/chi>re$
-^xechaqij/x>e>chaqiʼjik$
+^che/ch>e$
+^xechaqij/x>e>chaqiʼj$
 ^le/le$
-^abʼix/abix$
+^abʼix/abʼix$
 ^?/?$
 
 # sent_id = utexas:90.10
@@ -633,7 +633,7 @@
 # text = Kinkowinik kinkʼam bʼi le pwaq
 # text[spa] = Puedo traer el dinero.
 # labels = tijonik-16
-^Kinkowinik/k>in>kowinik>ik$
+^Kinkowinik/k>in>kowin>ik$
 ^kinkʼam/k>>in>kʼam$
 ^bʼi/bʼi$
 ^le/le$
@@ -644,9 +644,9 @@
 # text[spa] = ¿Pueden ustedes (formal) ayudarme?
 # labels = tijonik-16
 ^La/la$
-^kakowin/ka>>kowinik$
+^kakowin/ka>>kowin$
 ^alaq/alaq$
-^kintoʼ/k>in>toʼik$
+^kintoʼ/k>in>toʼ$
 ^alaq/alaq$
 ^?/?$
 
@@ -675,7 +675,7 @@
 ^La/la$
 ^kaj/k>>aj$
 ^la/la$
-^kujtzalij/k>uj>tzalijik$
+^kujtzalij/k>uj>tzalij$
 ^la/la$
 ^aninaq/aninaq$
 ^?/?$
@@ -693,3 +693,171 @@
 ^chomal/chomal$
 ^chweʼq/chweʼq$
 ^?/?$
+
+# sent_id = utexas:115
+# text = K’o jun xa’r pa ja.
+# text[spa] = Hay un vaso en la casa.
+# labels = tijonik-17
+^K’o/kʼo$
+^jun/jun$
+^xa’r/xaʼr$
+^pa/pa$
+^ja/ja$
+^./.$
+
+# sent_id = utexas:116
+# text = Xekos le ixoqib’ pa le b’e.
+# text[spa] = Las mujeres se cansaron en el camino.
+# labels = tijonik-17
+^Xekos/x>e>kos$
+^le/le$
+^ixoqib’/ixoq>ibʼ$
+^pa/pa$
+^le/le$
+^b’e/bʼe$
+^./.$
+
+# sent_id = utexas:117
+# text = Kape le a Wel pa Nawalja’.
+# text[spa] =  Manuel viene de Nahualá./Manuel viene a Nahualá.
+# labels = tijonik-17
+^Kape/ka>>pe$
+^le/le$
+^a/a$
+^Wel/Wel$
+^pa/pa$
+^Nawalja’/Nawaljaʼ$
+^./.$
+
+# sent_id = utexas:118
+# text = Kintzalij pa le nutinamit.
+# text[spa] =  Regreso a mi pueblo.
+# labels = tijonik-17
+^Kintzalij/k>in>tzalij$
+^pa/pa$
+^le/le$
+^nutinamit/nu>tinamit$
+^./.$
+
+# sent_id = utexas:119
+# text = Kul le al We’l pa Austin chaq’ab’ kamik.
+# text[spa] =  Manuela llega (aquí) a  Austin hoy en la noche.
+# labels = tijonik-17
+^Kul/k>>ul$
+^le/le$
+^al/al$
+^We’l/Weʼl$
+^pa/pa$
+^Austin/*Austin$
+^chaq’ab’/chaqʼabʼ$
+^kamik/kamik$
+^./.$
+
+# sent_id = utexas:120
+# text = Pa le jun wokaj ub’i’ Chi Masat kape wi le achi.
+# text[spa] =  El hombre viene de un caserío que se llama Chi Masat
+# labels = tijonik-17
+^Pa/pa$
+^le/le$
+^jun/jun$
+^wokaj/wokaj$
+^ub’i’/u>bʼiʼ$
+^Chi/chi$
+^Masat/masat$
+^kape/ka>>pe$
+^wi/wi$
+^le/le$
+^achi/achi$
+^./.$
+
+# sent_id = utexas:121
+# text = E k’i taq le che’ tikil chi le b’e.
+# text[spa] =  Hay muchos árboles plantados al borde del camino.
+# labels = tijonik-17
+^E/e$
+^k’i/kʼi$
+^taq/taq$
+^le/le$
+^che’/cheʼ$
+^tikil/tik>il$
+^chi/chi$
+^le/le$
+^b’e/bʼe$
+^./.$
+
+# sent_id = utexas:123
+# text = Le ro’ch le a Te’k k’o chwach le uk’ay le nunan.
+# text[spa] =  La casa de diego está frente a la venta de mi madre.
+# labels = tijonik-17
+^Le/le$
+^ro’ch/r>oʼch$
+^le/le$
+^a/a$
+^Te’k/Teʼk$
+^k’o/kʼo$
+^chwach/ch>>wach$
+^le/le$
+^uk’ay/u>kʼay$
+^le/le$
+^nunan/nu>nan$
+^./.$
+
+# sent_id = utexas:123
+# text = Xuk’ut le K’iche’ ch’ab’al le al Nela chqawach.
+# text[spa] =  Manuela nos enseñó el idioma k’iche’
+# labels = tijonik-17
+^Xuk’ut/xu>>kʼut$
+^le/le$
+^K’iche’/Kʼicheʼ$
+^ch’ab’al/chʼabʼal$
+^le/le$
+^al/al$
+^Nela/Nela$
+^chqawach/ch>qa>wach$
+^./.$
+
+# sent_id = utexas:124
+# text = K’o chwa ro’ch le pare.
+# text[spa] =  (Él/ella) está en la casa del sacerdote.
+# labels = tijonik-17
+^K’o/kʼo$
+^chwa/ch>wa$
+^ro’ch/r>oʼch$
+^le/le$
+^pare/pare$
+^./.$
+
+# sent_id = utexas:125
+# text = Xaya jun awuj chwech.
+# text[spa] =   Me diste un libro tuyo.
+# labels = tijonik-17
+^Xaya/x>>a>ya$
+^jun/jun$
+^awuj/a>wuj$
+^chwech/ch>>wech$
+^./.$
+
+# sent_id = utexas:126
+# text = Chuxe le qachomal kaqatij wi jun qameq’in.
+# text[spa] =   Antes de la (nuestra)reunión nos tomamos una bebida caliente (café, atol).
+# labels = tijonik-17
+^Chuxe/chuxeʼ$
+^le/le$
+^qachomal/qa>chomal$
+^kaqatij/ka>>qa>tij$
+^wi/wi$
+^jun/jun$
+^qameq’in/qameqʼin$
+^./.$
+
+# sent_id = utexas:127
+# text = Xeqil le chikop puwi le ja.
+# text[spa] =   Vimos a los animales encima de la casa.
+# labels = tijonik-17
+^Xeqil/xe>>q>il$
+^le/le$
+^chikop/chikop$
+^puwi/pu>>wiʼ$
+^le/le$
+^ja/ja$
+^./.$
