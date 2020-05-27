@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-quc
+
+Name: apertium-quc
+Description: Finite-state morphological transducer and constraint grammar for Kʼicheʼ 
+Version: @VERSION@
+
