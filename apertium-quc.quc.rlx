@@ -1,0 +1,10 @@
+DELIMITERS = "<.>" "<!>" "<;>" "<?>" ;
+
+LIST A = adj ;
+LIST N = n ;
+
+LIST Poss = px1sg px2sg px3sg px1pl px2pl px3pl ;
+
+SECTION
+
+SELECT A IF (0C A OR N) (NOT 0 Poss) (1C N) ;
