@@ -1,4 +1,4 @@
-all: quc.gen.hfst quc.mor.hfst quc.seg.hfst quc.mor.hfstol quc.seg.hfstol quc.gen.hfstol
+all: quc.gen.hfst quc.mor.hfst quc.seg.hfst quc.mor.hfstol quc.seg.hfstol quc.gen.hfstol quc.automorf.att.gz
 
 quc.mor.hfstol: quc.mor.hfst 
 	hfst-fst2fst -w $< -o $@
@@ -36,6 +36,14 @@ quc.spellrelax.hfst: apertium-quc.quc.spellrelax
 
 quc.rlx.bin: apertium-quc.quc.rlx
 	cg-comp $< $@
+
+quc.automorf.att.gz: quc.mor.hfst
+	hfst-fst2txt quc.mor.hfst | gzip -9 > $@
+
+quc.autogen.att.gz: quc.gen.hfst
+	hfst-fst2txt quc.gen.hfst | gzip -9 > $@
+
+quc.autogen.bin: quc.autogen.att.gz
 
 modes/quc-morph.mode: modes.xml
 	apertium-gen-modes modes.xml

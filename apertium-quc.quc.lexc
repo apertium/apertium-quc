@@ -24,6 +24,16 @@ Multichar_Symbols
 %<f%>                ! Femenino
 %<part%>             ! Particle
 %<mod%>              ! Modal
+%<v%>
+
+%<iv%>
+%<tv%>
+
+%<perf%>
+%<impf%>
+
+%<o_sg3%>
+%<s_sg3%>
 
 %<px1sg%>            ! First person singular possessive
 %<px2sg%>            ! Second person singular possessive
@@ -1253,7 +1263,7 @@ busunel:busunel N-tinamit ; ! "ghost"
 chʼaʼk:chʼaʼk N-tinamit ; ! "abscess"
 chʼab:chʼab N-tinamit ; ! "arrow"
 chʼababal:chʼababal N-tinamit ; ! "gift given to obtain the favor of a person"
-chʼabal:chʼabal N-tinamit ; ! "voice" ! Src/Dico
+chʼabʼal:chʼabal N-tinamit ; ! "voice" ! Src/Dico
 chʼabʼal:chʼabʼal N-tinamit ; ! "voice" ! Src/UTexas
 chʼabalil:chʼabalil N-tinamit ; ! "grammatical conjugation"
 chʼabanel:chʼabanel N-tinamit ; ! "visitor (to sick person or jailed person)"
