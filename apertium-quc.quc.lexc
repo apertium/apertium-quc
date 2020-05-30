@@ -787,7 +787,7 @@ saqalajtzij:saqalajtzij N-alit ;   ! "verdad; truth" ! Src/Biblia
 qʼatojtzij:qʼatojtzij N-alit ;     ! "; " ! Src/Biblia
 qʼaxeltzij:qʼaxeltzij N-alit ;     ! "mediador; " ! Src/Biblia
 qʼataltzij:qʼataltzij N-alit ;     ! "; " ! Src/Biblia
-qʼatbʼaltzij:qʼatbʼaltzij N-alit ; ! "law, courthouse, judge, government, verdict"
+qʼatbʼaltzij:qʼatbʼaltzij N-alit ; ! "gobernador; alcalde; law, courthouse, judge, government, verdict"
 winaq:winaq N-ixoq ;               ! "persona; person, people"
 chak:chak N-chak ;                 ! "trabajo; work"
 imul:imul N-imul ;                 ! "conejo; rabbit"
@@ -4201,6 +4201,7 @@ judiʼo:judiʼo N-ajjudiʼo ; ! "judio"
 denariʼo:denariʼo N-ajjudiʼo ; ! ""
 fariseʼo:fariseʼo N-ajjudiʼo ; ! ""
 sinagoga:sinagoga N-ajjudiʼo ; ! ""
+sinagoga:sinogoga N-ajjudiʼo ; ! "" ! Use/Spell
 hebʼreʼo:hebʼreʼo N-ajjudiʼo ; ! ""
 ajgriʼego:ajgriʼego N-ajjudiʼo ; ! ""
 griʼego:griʼego N-ajjudiʼo ; ! ""
@@ -5143,6 +5144,8 @@ qʼequʼm:qʼequʼm A-saq ; ! "oscuro; dark"
 ! TODO: MWE "qʼaxal utzij"
 qʼaxal:qʼaxal A-saq ; ! "profeta"
 qʼaxel:qʼaxel A-saq ; ! ""
+
+qʼatbʼal:qʼatbʼal A-saq ; ! ""
 
 LEXICON Adverbs
 
