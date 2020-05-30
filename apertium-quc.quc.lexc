@@ -500,6 +500,7 @@ wi%<part%>:wi # ;
 si%<emph%>:si # ;
 man%<neg%>:man # ;
 ma%<neg%>:ma # ;
+na%<neg%>:na # ;                 
 ta%<mod%>:ta # ;
 kʼo%<part%>%+ik%<mark%>:kʼol%>%{i%}k # ;
 kʼo%<part%>:kʼo # ;

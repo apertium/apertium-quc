@@ -43,6 +43,7 @@ Vx:0 <=>          _ [ %>: ]+ [ ArchiVow: | :Vow ] ;
 !  k{a}>>{r}>bʼij
 !  k0>>u>bʼij
 
+
 "i rule"
 %{i%}:0 <=> i ʼ [ %>: ]+ _ ;
 
@@ -51,6 +52,7 @@ Vx:0 <=>          _ [ %>: ]+ [ ArchiVow: | :Vow ] ;
 
 "Fusion"
 i:0 <=> k %{a%}: %>: e %>: _ n ; 
+        .#. k %>: %>: _ %{w%}: ;       ! kk'am
 
 ! k>e>in>chʼabʼej
 ! k>e>0n>chʼabʼej
@@ -81,6 +83,8 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 
 ! k{a}>>k{i}>il
 ! k0>>k0>il
+
+
 
 "Glottal insertion in plural"
 %{ʼ%}:ʼ <=> _ %>: :Vow ;
