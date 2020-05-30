@@ -528,6 +528,16 @@ jix%<ij%>:jix # ;
 
 ! jeʼ nakʼut = así es
 
+! "indicator of feminine youth"
+al%<clf%>%<f%>:al # ; ! "baby girl or young woman"
+al%<clf%>%<f%>:ali # ; ! "baby girl or young woman"
+
+ala%<clf%>%<m%>:ala # ; ! "baby boy or young man"
+ala%<clf%>%<m%>:a # ; ! "baby boy or young man"
+
+tat%<clf%>%<m%>:tat # ; ! "old/respected man"
+nan%<clf%>%<f%>:nan # ; ! "old/respected woman"
+
 LEXICON Direccionales
 
 uloq%<adv%>%<dir%>:uloq # ;              ! "toward speaker, here, toward here"
@@ -623,6 +633,9 @@ chi%<pr%>%+iwe%<prn%>%<pers%>%<p2%>%<pl%>:ch%>iwe # ; ! ""
 !chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
 chi%<pr%>%+ke%<prn%>%<pers%>%<p3%>%<pl%>:ch%>ke # ; ! ""
 
+! FIXME: Comprueba
+chi%<pr%>%+%<px3sg%>xeʼ%<n%>%<rel%>:ch%>u%>xeʼ # ; ! ""
+
 ! TODO: Comprueba
 chi%<pr%>%+%<px1sg%>pam%<n%>%<rel%>:ch%>nu%>pam # ; ! ""
 chi%<pr%>%+%<px2sg%>pam%<n%>%<rel%>:ch%>a%>pam # ; ! ""
@@ -666,6 +679,7 @@ wiʼ:wiʼ Rel ;                      ! "con"
 pam:pam Rel ;                      ! "adentro" ! TODO: Check
 naqaj:naqaj Rel ;                  ! "cerca" ! TODO: Check
 re:re Rel ;                        ! "" ! Src/LopezIxcoy1997
+xeʼ:xeʼ Rel ;                      ! "abajo"
 
 LEXICON Determiners
 
@@ -973,6 +987,7 @@ ajmox:ajmox N-tinamit ; ! "not clever"
 ajortzaʼm:ajortzaʼm N-tinamit ; ! "sandal"
 ajpajuyub:ajpajuyub N-tinamit ; ! "peasant"
 ajpatan:ajpatan N-tinamit ; ! "member of a cofradía"
+ajpatanel:ajpatanel N-tinamit ; ! "servidor; servant"
 ajpätzkar:ajpätzkar N-tinamit ; ! "dancer who strikes with chicotes"
 ajpom:ajpom N-tinamit ; ! "witch who burns copal"
 ajpop:ajpop N-tinamit ; ! "dignitary"
@@ -4083,8 +4098,8 @@ ixoqilom:ixoqil N-ixoqilom ; ! "mujer; wife"
 wokaj:wokaj N-tinamit ; ! "grupo; group"
 tyox:tyox N-tinamit ; ! "imagen"
 
-Uxlabʼxel:uxlabʼxel N-tinamit ; ! "espíritu"
-Uxlabʼaxel:uxlabʼaxel N-tinamit ; ! "espíritu"
+uxlabʼxel:uxlabʼxel N-tinamit ; ! "espíritu"
+uxlabʼaxel:uxlabʼaxel N-tinamit ; ! "espíritu"
 
 tzaltmal:tzaltmal N-tinamit ; ! "lado; side"
 kaxlanwa:kaxlanwa N-tinamit ; ! "pan; bread"
@@ -4452,7 +4467,6 @@ achixam:achixam A-saq ; ! "jealous"
 ajan:ajan A-saq ; ! "carved (wood, stone)"
 akʼal:akʼal A-saq ; ! "young"
 al:al A-saq ; ! "heavy"
-al:al A-saq ; ! "indicator of feminine youth"
 alanel:alanel A-saq ; ! "fertile (animals"
 alaxinaq:alaxinaq A-saq ; ! "born"
 amaʼ:amaʼ A-saq ; ! "male"
@@ -6390,6 +6404,7 @@ eʼtamaj:eʼtamaj V-TV ;              ! "aprender; learn"  ! Src/UTexas
 ! TODO: Check this seems to take possessive prefixes
 !etaʼm:etaʼm V-TV-PERF ;             ! "saber; know"
 
+jiʼonsaj:jiʼonsaj V-TV ;            ! "ungir; anoint"
 achiʼlaj:achiʼlaj V-TV ;            ! "to accompany"
 achikʼaj:achikʼaj V-TV ;            ! "to dream"
 achixaj:achixaj V-TV ;              ! "to be jealous"
