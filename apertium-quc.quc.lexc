@@ -11,6 +11,7 @@ Multichar_Symbols
 %<num%>              ! Numerals
 %<aux%>              ! Auxiliar
 %<prn%>              ! Pronouns
+%<clf%>              ! Clasificador
 %<mark%>             ! Marker
 %<barb%>             ! Barbarism
 %<qst%>              ! Question marker
@@ -529,8 +530,8 @@ jix%<ij%>:jix # ;
 ! jeʼ nakʼut = así es
 
 ! "indicator of feminine youth"
-al%<clf%>%<f%>:al # ; ! "baby girl or young woman"
-al%<clf%>%<f%>:ali # ; ! "baby girl or young woman"
+ali%<clf%>%<f%>:al # ; ! "baby girl or young woman"
+ali%<clf%>%<f%>:ali # ; ! "baby girl or young woman"
 
 ala%<clf%>%<m%>:ala # ; ! "baby boy or young man"
 ala%<clf%>%<m%>:a # ; ! "baby boy or young man"
