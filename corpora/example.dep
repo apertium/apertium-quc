@@ -25,7 +25,7 @@
 	"kʼamanik" v iv impf s_sg3 @x #2->1
 "<chawe>"
 	"chi" pr @case #3->4
-		"awe" prn pers p2 sg @obl #4->2
+		"ech" n rel px2sg @obl #4->2
 "<le>"
 	"le" det @x #5->6
 "<utijik>"
@@ -36,3 +36,4 @@
 	"lej" n @obj #8->6
 "<.>"
 	"." text @punct #9->1
+

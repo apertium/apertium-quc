@@ -67,6 +67,11 @@ def get_segmentations(sent):
 		counter += 1
 	return segmentations
 
+def merge_segmentations(segs, n):
+	if n == 2:
+		return [segs[0], ''.join(segs[1:])]
+	return segs
+
 def get_comments(sent):
 	comments = []
 	for line in sent.strip().split('\n'):
@@ -181,6 +186,7 @@ for depseg in sents_depseg:
 	tokens = get_tokens(parse)
 	segmentations = get_segmentations(sents_depseg[depseg][1])
 
+
 #	print(tokens)
 
 	if len(tokens) != len(segmentations):
@@ -193,11 +199,14 @@ for depseg in sents_depseg:
 		token = tokens[j]
 		if len(token[1]) > 1: # This is a multi-token word
 			# {2: ('chawe', [(3, '_', 'chi', '_', '_', '_', 4, '_', '_', '_'), (4, '_', 'awe', '_', '_', '_', 2, '_', '_', '_')])}
+			segs = segmentations[j][1]
+			if len(tokens[1]) != len(segmentations[j][1]):
+				segs = merge_segmentations(segmentations[j][1], len(token[1]))
 			print('%d-%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
 			for (k, word) in enumerate(token[1]):
 				(analysis, misc) = apply_rules(rules, word)
 				#       1        2                       3        4            5    6            7        8        9    10
-				line = (word[0], segmentations[j][1][k], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
+				line = (word[0], segs[k], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
 				print(format_conllu_line(line))
 		else:
 			# {0: ('Rajawaxik', [(1, '_', 'rajawaxik', '_', '_', '_', 0, '_', '_', '_')])}

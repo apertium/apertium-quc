@@ -46,3 +46,27 @@
 "<.>"
 	"." sent @punct #4->1
 
+# sent_id = utexas:123
+# text = Xuk’ut le K’iche’ ch’ab’al le al Nela chqawach.
+# text[spa] =  Manuela nos enseñó el idioma k’iche’
+# labels = tijonik-17
+"<Xukʼut>"
+	"kʼut" v tv perf o_sg3 s_sg3 @root #1->0
+"<le>"
+	"le" det @det #2->4
+"<Kʼicheʼ>"
+	"kʼicheʼ" adj @amod #3->4
+"<chʼabʼal>"
+	"chʼabʼal" n @obj #4->1
+"<le>"
+	"le" det @det #5->7
+"<al>"
+	"ali" clf f @det #6->7
+"<Nela>"
+	"Nela" np ant f @nsubj #7->9
+"<chqawach>"
+	"chi" pr @case #8->9
+		"wach" n rel px1pl @obl #9->1
+"<.>"
+	"." sent @punct #10->1
+

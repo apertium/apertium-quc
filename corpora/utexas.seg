@@ -806,7 +806,7 @@
 # text = Xuk’ut le K’iche’ ch’ab’al le al Nela chqawach.
 # text[spa] =  Manuela nos enseñó el idioma k’iche’
 # labels = tijonik-17
-^Xuk’ut/xu>>kʼut$
+^Xuk’ut/x>>u>kʼut$
 ^le/le$
 ^K’iche’/Kʼicheʼ$
 ^ch’ab’al/chʼabʼal$
@@ -834,7 +834,7 @@
 ^Xaya/x>>a>ya$
 ^jun/jun$
 ^awuj/a>wuj$
-^chwech/ch>>wech$
+^chwech/ch>w>ech$
 ^./.$
 
 # sent_id = utexas:126
@@ -857,7 +857,7 @@
 ^Xeqil/xe>>q>il$
 ^le/le$
 ^chikop/chikop$
-^puwi/pu>>wiʼ$
+^puwi/p>u>wiʼ$
 ^le/le$
 ^ja/ja$
 ^./.$
