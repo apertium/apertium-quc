@@ -1,0 +1,27 @@
+# sent_id = 1 
+# text = Ri nim taq chuchqajawibʼ, xoqujeʼ kkaj kkikamisaj ri Lasaro.
+# text[spa] = Pero los principales sacerdotes acordaron dar muerte también a Lázaro.
+# labels = Juán:12:10
+"<Ri>"
+	"ri" det @det #1->4
+"<nim>"
+	"nim" adj @amod #2->4
+"<taq>"
+	"taq" pl @det #3->4
+"<chuchqajawibʼ>"
+	"chuchqajaw" n pl @dislocated #4->7
+"<,>"
+	"," cm @punct #5->4
+"<xoqujeʼ>"
+	"xuqujʼe" adv @advmod #6->7
+"<kkaj>"
+	"aj" v tv impf o_sg3 s_pl3 @root #7->0
+"<kkikamisaj>"
+	"kämisaj" v tv impf o_sg3 s_pl3 @xcomp #8->7
+"<ri>"
+	"ri" det @det #9->10
+"<Lasaro>"
+	"Lasaro" np ant m @obj #10->7
+"<.>"
+	"." sent @punct #11->7
+
