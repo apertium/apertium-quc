@@ -585,10 +585,10 @@ chuwach:chuwach Pr ;               ! "facing, before, ahead of" ! TODO: Check
 ikim:ikim Pr ;                     ! "down below"
 aj:aj Pr ;                         ! "of"
 kʼa:kʼa Pr ;                       ! "hasta"
-chuxeʼ:chuxeʼ Pr ;                 ! "debajo de"
-chuxeʼ:chuxe Pr ;                  ! "debajo de" ! Src/UTexas
-uxeʼ:uxeʼ Pr ;                     ! "abajo de"
-xeʼ:xeʼ Pr ;                       ! "debajo de"
+!chuxeʼ:chuxeʼ Pr ;                 ! "debajo de"
+!chuxeʼ:chuxe Pr ;                  ! "debajo de" ! Src/UTexas
+!uxeʼ:uxeʼ Pr ;                     ! "abajo de"
+!xeʼ:xeʼ Pr ;                       ! "debajo de"
 panikʼaj:panikʼaj Pr ;             ! "en medio de"
 panikʼaj:panikʼyaj Pr ;            ! "en medio de"
 kʼateʼ:kʼateʼ Pr ;                 ! "hasta"
