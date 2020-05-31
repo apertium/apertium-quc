@@ -500,7 +500,7 @@ wi%<part%>:wi # ;
 si%<emph%>:si # ;
 man%<neg%>:man # ;
 ma%<neg%>:ma # ;
-na%<neg%>:na # ;                 
+na%<neg%>:na # ;
 ta%<mod%>:ta # ;
 kʼo%<part%>%+ik%<mark%>:kʼol%>%{i%}k # ;
 kʼo%<part%>:kʼo # ;
@@ -691,14 +691,14 @@ chi%<pr%>%+%<px3pl%>naqaj%<n%>%<rel%>:ch%>ki%>naqaj # ; ! ""
 
 ! -TZALAJ pa+E+ tzalaj, chi+E+tzalaj
 ! al lado
-     
+
 pa%<pr%>%+%<px1sg%>tzalaj%<n%>%<rel%>:pa%>nu%>tzalaj # ; ! ""
 pa%<pr%>%+%<px2sg%>tzalaj%<n%>%<rel%>:pa%>a%>tzalaj # ; ! ""
 pa%<pr%>%+%<px3sg%>tzalaj%<n%>%<rel%>:p%>u%>tzalaj # ; ! ""
 pa%<pr%>%+%<px1pl%>tzalaj%<n%>%<rel%>:pa%>qa%>tzalaj # ; ! ""
 pa%<pr%>%+%<px2pl%>tzalaj%<n%>%<rel%>:p%>i%>tzalaj # ; ! ""
 pa%<pr%>%+%<px3pl%>tzalaj%<n%>%<rel%>:pa%>ki%>tzalaj # ; ! ""
- 
+
 chi%<pr%>%+%<px1sg%>tzalaj%<n%>%<rel%>:chi%>nu%>tzalaj # ; ! ""
 chi%<pr%>%+%<px2sg%>tzalaj%<n%>%<rel%>:ch%>a%>tzalaj # ; ! ""
 chi%<pr%>%+%<px3sg%>tzalaj%<n%>%<rel%>:ch%>u%>tzalaj # ; ! ""
@@ -4071,6 +4071,8 @@ prut:prut N-tinamit ; ! "plantain" Src/UTexas
 uxlanbʼal:uxlanbʼal N-tinamit ; ! "park" Src/UTexas
 chʼutitat:chʼutitat N-tinamit ; ! "uncle" Src/UTexas
 qameqʼin:qameqʼin N-tinamit ; ! "hot drink" ! Src/UTexas
+tz’ib’ab’al:tz’ib’ab’al N-tinamit ; ! "pencil" ! Src/UTexas
+chʼawebʼal:chʼawebʼal N-tinamit ; ! "telephone" ! Src/UTexas
 
 
 alkalteʼ:alkalteʼ N-tinamit ;
@@ -4119,6 +4121,7 @@ ukʼaʼ:ukʼaʼ N-chiʼ ; ! "horn, testicle"
 uxlab:uxlab N-chiʼ ; ! "breath"
 wäch:wäch N-chiʼ ; ! "condition"
 wareʼ:wareʼ N-chiʼ ; ! "tooth"
+ware:ware N-chiʼ ; ! "tooth" ! Src/UTexas
 wiʼ:wiʼ N-chiʼ ; ! "top"
 xaq:xaq N-chiʼ ; ! "leaf"
 xikin:xikin N-chiʼ ; ! "ear"
@@ -4287,6 +4290,7 @@ nimaqʼij:nimaqʼij N-tinamit ; ! "fiesta; party"
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Chirijquiac:Chirijquiac NP-Top ;
+Nahuala:Nahuala NP-Top ;
 
 Tzʼunil:Tzʼunil NP-Top ; ! "" ! Src/Cuentos
 Chuatroj:Chuatroj NP-Top ;
