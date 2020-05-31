@@ -602,43 +602,79 @@ chuwiʼ:chuwiʼ Pr ;                 ! "encima, sobre"
 ! i iw
 ! ki k
 
-! Contracciones:
+! -ECH chi + E + ech
+!  a, para
 chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>w%>ech # ;  ! ""
 chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>ech # ;  ! ""
-!chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:chi%>wach # ;  ! ""
 chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>ech  # ;  ! ""
 chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>r%>ech  # ;  ! "" ! Src/Biblia
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>q%>ech # ;  ! ""
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:chi%>q%>ech # ;  ! ""
 chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>w%>ech # ;  ! ""
-!chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:chi%>wach # ;  ! ""
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>k%>ech  # ;  ! ""
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chi%>k%>ech  # ;  ! "" ! Src/Cuentos
 
-! Estos parecen contracciones también, chi + POSS + wach "face"
+chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>w%>e # ;  ! "" ! Src/UTexas
+chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>e # ;  ! "" ! Src/UTexas
+chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>e  # ;  ! "" ! Src/UTexas
+chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>q%>e # ;  ! "" ! Src/UTexas
+chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>w%>e # ;  ! "" ! Src/UTexas
+chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>k%>e  # ;  ! "" ! Src/UTexas
+
+! -WACH Chi + E + wach
+!  en frente de, ante
 chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:ch%>nu%>wach # ; ! ""
 chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:chi%>nu%>wach # ; ! "" ! Src/UTexas
 chi%<pr%>%+%<px2sg%>wach%<n%>%<rel%>:ch%>a%>wach # ; ! ""
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>u%>wach # ; ! ""
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>wach # ; ! "" ! Src/UDHR
+chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>u%>wa # ; ! "" ! Src/UTexas
+chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>o # ; ! "" ! Src/UTexas
 chi%<pr%>%+%<px1pl%>wach%<n%>%<rel%>:ch%>qa%>wach # ; ! ""
 chi%<pr%>%+%<px2pl%>wach%<n%>%<rel%>:ch%>i%>wach # ; ! ""
 chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:ch%>ki%>wach # ; ! ""
 chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:chi%>ki%>wach # ; ! "" ! Src/Cuentos
 
-chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:ch%>we # ; ! ""
-chi%<pr%>%+awe%<prn%>%<pers%>%<p2%>%<sg%>:ch%>awe # ; ! ""
-!chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
-chi%<pr%>%+re%<prn%>%<pers%>%<p3%>%<sg%>:ch%>e # ; ! ""
-chi%<pr%>%+qe%<prn%>%<pers%>%<p1%>%<pl%>:ch%>qe # ; ! ""
-chi%<pr%>%+iwe%<prn%>%<pers%>%<p2%>%<pl%>:ch%>iwe # ; ! ""
-!chi%<pr%>%+we%<prn%>%<pers%>%<p1%>%<sg%>:chwe # ; ! ""
-chi%<pr%>%+ke%<prn%>%<pers%>%<p3%>%<pl%>:ch%>ke # ; ! ""
-
-! FIXME: Comprueba
+! -XE’ chi +E+ –xe
+!  (de)bajo, al pie de
 chi%<pr%>%+%<px3sg%>xeʼ%<n%>%<rel%>:ch%>u%>xeʼ # ; ! ""
+chi%<pr%>%+%<px3sg%>xeʼ%<n%>%<rel%>:ch%>u%>xe # ; ! ""
 
-! TODO: Comprueba
+! -WI’ chi + E + wi’
+!  encima, sobre
+pa%<pr%>%+%<px1sg%>wiʼ%<n%>%<rel%>:pa%>nu%>wiʼ # ; ! ""
+pa%<pr%>%+%<px2sg%>wiʼ%<n%>%<rel%>:p%>a%>wiʼ # ; ! ""
+pa%<pr%>%+%<px3sg%>wiʼ%<n%>%<rel%>:p%>u%>wiʼ # ; ! ""
+pa%<pr%>%+%<px3sg%>wiʼ%<n%>%<rel%>:p%>u%>wi # ; ! "" ! Src/Cuentos
+pa%<pr%>%+%<px1pl%>wiʼ%<n%>%<rel%>:pa%>qa%>wiʼ # ; ! ""
+pa%<pr%>%+%<px2pl%>wiʼ%<n%>%<rel%>:p%>i%>wiʼ # ; ! ""
+pa%<pr%>%+%<px3pl%>wiʼ%<n%>%<rel%>:pa%>ki%>wiʼ # ; ! ""
+
+! –IJ chi + E + ij
+!  atrás, sobre, después
+chi%<pr%>%+%<px1sg%>ij%<n%>%<rel%>:ch%>w%>ij # ; ! ""
+chi%<pr%>%+%<px2sg%>ij%<n%>%<rel%>:chi%>a%>ij # ; ! ""
+chi%<pr%>%+%<px3sg%>ij%<n%>%<rel%>:chi%>r%>ij # ; ! ""
+chi%<pr%>%+%<px3sg%>ij%<n%>%<rel%>:ch%>r%>ij # ; ! ""
+chi%<pr%>%+%<px1pl%>ij%<n%>%<rel%>:chi%>q%>ij # ; ! ""
+chi%<pr%>%+%<px2pl%>ij%<n%>%<rel%>:chi%>i%>ij # ; ! ""
+chi%<pr%>%+%<px3pl%>ij%<n%>%<rel%>:chi%>ki%>ij # ; ! ""
+
+! -XO’L chi + E + xo’l
+!  entre
+
+chi%<pr%>%+%<px1sg%>xoʼl%<n%>%<rel%>:ch%>nu%>xoʼl # ; ! ""
+chi%<pr%>%+%<px2sg%>xoʼl%<n%>%<rel%>:ch%>a%>xoʼl # ; ! ""
+chi%<pr%>%+%<px3sg%>xoʼl%<n%>%<rel%>:ch%>u%>xoʼl # ; ! ""
+chi%<pr%>%+%<px1pl%>xoʼl%<n%>%<rel%>:ch%>qa%>xoʼl # ; ! ""
+chi%<pr%>%+%<px2pl%>xoʼl%<n%>%<rel%>:ch%>i%>xoʼl # ; ! ""
+chi%<pr%>%+%<px3pl%>xoʼl%<n%>%<rel%>:ch%>ki%>xoʼl # ; ! ""  ! Src/Biblia
+chi%<pr%>%+%<px3pl%>xoʼl%<n%>%<rel%>:ch%>kiʼ%>xoʼl # ; ! ""  ! Src/Biblia ! Use/Spell
+chi%<pr%>%+%<px3pl%>xoʼl%<n%>%<rel%>:chi%>ki%>xoʼl # ; ! "" ! Src/UTexas
+
+! -PAM chi+ E+ pam
+!  adentro
+
 chi%<pr%>%+%<px1sg%>pam%<n%>%<rel%>:ch%>nu%>pam # ; ! ""
 chi%<pr%>%+%<px2sg%>pam%<n%>%<rel%>:ch%>a%>pam # ; ! ""
 chi%<pr%>%+%<px3sg%>pam%<n%>%<rel%>:ch%>u%>pam # ; ! ""
@@ -653,15 +689,28 @@ chi%<pr%>%+%<px1pl%>naqaj%<n%>%<rel%>:ch%>qa%>naqaj # ; ! ""
 chi%<pr%>%+%<px2pl%>naqaj%<n%>%<rel%>:ch%>i%>naqaj # ; ! ""
 chi%<pr%>%+%<px3pl%>naqaj%<n%>%<rel%>:ch%>ki%>naqaj # ; ! ""
 
+! -TZALAJ pa+E+ tzalaj, chi+E+tzalaj
+! al lado
+     
+pa%<pr%>%+%<px1sg%>tzalaj%<n%>%<rel%>:pa%>nu%>tzalaj # ; ! ""
+pa%<pr%>%+%<px2sg%>tzalaj%<n%>%<rel%>:pa%>a%>tzalaj # ; ! ""
+pa%<pr%>%+%<px3sg%>tzalaj%<n%>%<rel%>:p%>u%>tzalaj # ; ! ""
+pa%<pr%>%+%<px1pl%>tzalaj%<n%>%<rel%>:pa%>qa%>tzalaj # ; ! ""
+pa%<pr%>%+%<px2pl%>tzalaj%<n%>%<rel%>:p%>i%>tzalaj # ; ! ""
+pa%<pr%>%+%<px3pl%>tzalaj%<n%>%<rel%>:pa%>ki%>tzalaj # ; ! ""
+ 
+chi%<pr%>%+%<px1sg%>tzalaj%<n%>%<rel%>:chi%>nu%>tzalaj # ; ! ""
+chi%<pr%>%+%<px2sg%>tzalaj%<n%>%<rel%>:ch%>a%>tzalaj # ; ! ""
+chi%<pr%>%+%<px3sg%>tzalaj%<n%>%<rel%>:ch%>u%>tzalaj # ; ! ""
+chi%<pr%>%+%<px1pl%>tzalaj%<n%>%<rel%>:chi%>qa%>tzalaj # ; ! ""
+chi%<pr%>%+%<px2pl%>tzalaj%<n%>%<rel%>:ch%>i%>tzalaj # ; ! ""
+chi%<pr%>%+%<px3pl%>tzalaj%<n%>%<rel%>:chi%>ki%>tzalaj # ; ! ""
 
-pa%<pr%>%+%<px1sg%>wiʼ%<n%>%<rel%>:pa%>nu%>wiʼ # ; ! ""
-pa%<pr%>%+%<px2sg%>wiʼ%<n%>%<rel%>:p%>a%>wiʼ # ; ! ""
-pa%<pr%>%+%<px3sg%>wiʼ%<n%>%<rel%>:p%>u%>wiʼ # ; ! ""
-pa%<pr%>%+%<px3sg%>wiʼ%<n%>%<rel%>:p%>u%>wi # ; ! "" ! Src/Cuentos
-pa%<pr%>%+%<px1pl%>wiʼ%<n%>%<rel%>:pa%>qa%>wiʼ # ; ! ""
-pa%<pr%>%+%<px2pl%>wiʼ%<n%>%<rel%>:p%>i%>wiʼ # ; ! ""
-pa%<pr%>%+%<px3pl%>wiʼ%<n%>%<rel%>:pa%>ki%>wiʼ # ; ! ""
+! -MOX pa+E+ mox
+! a la izquierda de
 
+! -WIKIQ’AB’
+!  pa+ E+ewikiq’ab’
 ! FIXME: Check
 chi%<pr%>%+uwachulew%<n%>:ch%>uwachulew # ; ! "en mundo" ! Src/Biblia
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>%+ulew%<n%>:ch%>uwach%>ulew # ; ! "en su mundo" ! Src/Biblia
