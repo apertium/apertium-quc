@@ -15,6 +15,9 @@ LIST Poss = px1sg px2sg px3sg px1pl px2pl px3pl ;
 LIST Impf = impf ; 
 LIST Perf = perf ;
 
+LIST Pro = pro ;
+LIST Pers = pers ;
+
 LIST @det = @det ;
 
 SET NOMINAL = N | Prop ;
@@ -28,6 +31,8 @@ SELECT A IF (0C A OR N) (NOT 0 Poss) (1C N) ;
 SELECT Clf IF (1C Prop) ;
 
 SELECT Neg IF (0 Na) (1 FIN) ;
+
+SELECT Pro IF (-1 Pers) ;
 
 SECTION
 
