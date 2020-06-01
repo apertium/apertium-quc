@@ -315,7 +315,6 @@ in%<prn%>%<pers%>%<p1%>%<sg%>:in # ;
 at%<prn%>%<pers%>%<p2%>%<sg%>:at # ;
 lal%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>:lal # ;
 areʼ%<prn%>%<pers%>%<p3%>%<sg%>:areʼ # ;
-arech%<prn%>%<pers%>%<p3%>%<sg%>:arech # ;
 ! FIXME: Comprueba las reglas para -oj/-uj
 oj%<prn%>%<pers%>%<p1%>%<pl%>:oj # ;
 uj%<prn%>%<pers%>%<p1%>%<pl%>:uj # ;
