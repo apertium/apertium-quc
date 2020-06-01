@@ -466,7 +466,6 @@ LEXICON Pron-waʼ
 LEXICON CS
 %<cnjsub%>: # ;
 
-
 LEXICON CC
 %<cnjcoo%>: # ;
 
@@ -7330,6 +7329,9 @@ tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
 we:we CS ;                          ! "si; if"
 pune:pune CS ;                      ! "aunque; although"
 kʼut:kʼut CS ;                      ! "pero"
+arech:arech CS ;                    ! "para que"
+arechaʼ:arechaʼ CS ;                    ! "para que"
+arechiʼ:arechiʼ CS ;                    ! "cuando"
 
 LEXICON Punctuation
 
