@@ -4,11 +4,14 @@ LIST A = adj ;
 LIST N = n ;
 LIST Clf = clf ;
 LIST Prop = np ;
+LIST Num = num ;
+LIST Pr = pr ;
 LIST Det = det ;
 
 LIST Na = "na" ;
 
 LIST Neg = neg ;
+LIST Rel = rel ; 
 
 LIST Poss = px1sg px2sg px3sg px1pl px2pl px3pl ;
 
@@ -28,7 +31,7 @@ SET FIN = Impf | Perf ;
 
 SECTION
 
-SELECT A IF (0C A OR N) (NOT 0 Poss) (1C N) ;
+SELECT A IF (0C A OR N) (NOT 0 Poss) (1C N - Rel) ;
 
 SELECT Clf IF (1C Prop) ;
 
@@ -37,6 +40,8 @@ SELECT Neg IF (0 Na) (1 FIN) ;
 SELECT Pro IF (-1 Pers) ;
 
 REMOVE Pers IF (0 In) (-1* In LINK -1 In + Pers) ;
+
+REMOVE A IF (0 A OR N) (-1 Num) (1 Pr OR Rel) ; 
 
 SECTION
 
