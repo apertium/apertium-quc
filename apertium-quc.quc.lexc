@@ -4336,6 +4336,7 @@ Israʼel:Israʼel NP-Top ;
 Nawaljaʼ:Nawaljaʼ NP-Top ;
 Galileʼa:Galileʼa NP-Top ;
 Judeʼa:Judeʼa NP-Top ;
+Italiʼa:Italiʼa NP-Top ;
 Masedoniʼa:Masedoniʼa NP-Top ;
 Samariʼa:Samariʼa NP-Top ;
 
@@ -5418,6 +5419,7 @@ pe:pe V-IV ;                      ! "venir; come"
 kʼojiʼk:kʼojiʼ V-IV ;            ! "inhabitar; inhabit"
 bʼisonik:bʼison V-IV ;             ! FIXME: check ! Src/Cuentos
 
+towik:tow V-IV ; ! "oír; hear" ! FIXME: check ! Src/Biblia
 abäjirik:abäjir V-IV ; ! "to harden"
 abanik:aban V-IV ; ! "to invent"
 abixik:abix V-IV ; ! "to plow"
