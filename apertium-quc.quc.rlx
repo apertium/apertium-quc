@@ -20,6 +20,8 @@ LIST Pers = pers ;
 
 LIST @det = @det ;
 
+LIST In = "in" ; 
+
 SET NOMINAL = N | Prop ;
 
 SET FIN = Impf | Perf ;
@@ -33,6 +35,8 @@ SELECT Clf IF (1C Prop) ;
 SELECT Neg IF (0 Na) (1 FIN) ;
 
 SELECT Pro IF (-1 Pers) ;
+
+REMOVE Pers IF (0 In) (-1* In LINK -1 In + Pers) ;
 
 SECTION
 
