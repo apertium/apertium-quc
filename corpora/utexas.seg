@@ -1016,3 +1016,64 @@
 ^pa/pa$
 ^ja/ja$
 ^./.$
+
+# sent_id = utexas:141
+# text = Le wo’ch k’o chunaqaj le nimatijob’al.
+# text[spa] =  Mi casa esta cerca de la universidad.
+# labels = tijonik-22
+^Le/le$
+^woʼch/w>oʼch$
+^kʼo/kʼo>$
+^chunaqaj/chu>>naqaj$
+^le/le$
+^nimatijobʼal/nimatijobʼal$
+^./.$
+
+# sent_id = utexas:142
+# text = Naqaj kint’uyi’ wi chawe.
+# text[spa] =  Estoy sentado cerca de ti.
+# labels = tijonik-22
+^Naqaj/naqaj$
+^kintʼuyiʼ/kintʼuyiʼ$
+^wi/wi$
+^chawe/cha>w>e$
+^./.$
+
+# sent_id = utexas:143
+# text = Naj k’o wi le wo’ch chuwach le tijob’al.
+# text[spa] =  Mi casa está más lejos que la iglesia (visto desde un tercer punto).
+# labels = tijonik-22
+^Naj/naj$
+^k’o/kʼo$
+^wi/wi>$
+^le/le$
+^wo’ch/w>oʼch$
+^chuwach/chu>>wach$
+^le/le$
+^tijob’al/tijobʼal$
+^./.$
+
+# sent_id = utexas:144
+# text = Naj k’o wi le wo’ch chuwach le tijob’al.
+# text[spa] =  Mi casa está más lejos que la iglesia (visto desde un tercer punto).
+# labels = tijonik-22
+^Naj/naj$
+^k’o/kʼo$
+^wi/wi$
+^le/le$
+^wo’ch/w>oʼch$
+^chuwach/chu>>wach$
+^le/le$
+^tijob’al/tijobʼal$
+^./.$
+
+# sent_id = utexas:145
+# text = Chi’ kewar wi le ak’alab’.
+# text[spa] =  Los niños duermen aquí
+# labels = tijonik-22
+^Chi’/chiʼ$
+^kewar/ke>>war$
+^wi/wi$
+^le/le$
+^ak’alab’/akʼal>abʼ$
+^./.$

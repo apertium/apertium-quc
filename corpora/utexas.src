@@ -1683,3 +1683,28 @@
 ^le/le<det>$
 ^tijob’al/tijobʼal<n>$
 ^./.<sent>$
+
+# sent_id = utexas:144
+# text = Naj k’o wi le wo’ch chuwach le tijob’al.
+# text[spa] =  Mi casa está más lejos que la iglesia (visto desde un tercer punto).
+# labels = tijonik-22
+^Naj/naj<adj>/naj<adv>$
+^k’o/kʼo<part>$
+^wi/wi<part>$
+^le/le<det>$
+^wo’ch/<px1sg>oʼch<n>$
+^chuwach/chi<pr>+<px3sg>wach<n><rel>/chuwach<pr>$
+^le/le<det>$
+^tijob’al/tijobʼal<n>$
+^./.<sent>$
+
+# sent_id = utexas:145
+# text = Chi’ kewar wi le ak’alab’.
+# text[spa] =  Los niños duermen aquí
+# labels = tijonik-22
+^Chi’/chiʼ<n>$
+^kewar/<impf><s_pl3>warik<v><iv>/<impf><s_pl3>war<v><iv>$
+^wi/wi<part>$
+^le/le<det>$
+^ak’alab’/akʼal<n><pl>$
+^./.<sent>$
