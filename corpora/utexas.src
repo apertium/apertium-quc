@@ -1708,3 +1708,81 @@
 ^le/le<det>$
 ^ak’alab’/akʼal<n><pl>$
 ^./.<sent>$
+
+# sent_id = utexas:146
+# text = Kaqariq qib’ chwe’q.
+# text[spa] =  Nos encontramos/juntamos mañana.
+# labels = tijonik-24
+^Kaqariq/<impf><o_sg3><s_pl1>riqʼ<v><tv>/<impf><o_sg3><s_pl1>riq<v><tv>$
+^qib’/<px1pl>ibʼ<n><rel>$
+^chwe’q/chweʼq<adv>$
+^./.<sent>$
+
+# sent_id = utexas:147
+# text = Qaqil chi (na) qib’
+# text[spa] =  Nos vemos
+# labels = tijonik-24
+^Qaqil/<px1pl>aqil<n>$
+^chi/chi<pr>$
+^na/na<adv>/na<adv><fut>/na<neg>$
+^qib’/<px1pl>ibʼ<n><rel>$
+
+# sent_id = utexas:148
+# text = Xinloq’ jun ilb’al wib’.
+# text[spa] =  Me compré un mi espejo.
+# labels = tijonik-24
+^Xinloqʼ/<perf><o_sg3><s_sg1>loqʼ<v><tv>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^ilbʼal/*ilbʼal$
+^wibʼ/<px1sg>ibʼ<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:149
+# text = Jas le uk’exb’em rib’ le jun ruk’ le jun chik?
+# text[spa] =  ¿Cuál es la diferencia entre este y el otro?
+# labels = tijonik-24
+^Jas/jas<prn><itg>$
+^le/le<det>$
+^ukʼexbʼem/*ukʼexbʼem$
+^ribʼ/<px3sg>ibʼ<n><rel>$
+^le/le<det>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^le/le<det>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^chik/chik<part>$
+^?/?<sent>$
+
+# sent_id = utexas:150
+# text = K’o jun qariqoj qib’ chwe’q.
+# text[spa] =  Tenemos una reunión mañana.
+# labels = tijonik-24
+^K’o/kʼo<part>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^qariqoj/*qariqoj$
+^qib’/<px1pl>ibʼ<n><rel>$
+^chwe’q/chweʼq<adv>$
+^./.<sent>$
+
+# sent_id = utexas:151
+# text = Ke’tz’an le ak’alab’ chech owan ib’
+# text[spa] =  Los niños juegan escondido.
+# labels = tijonik-24
+^Keʼtzʼan/*Keʼtzʼan$
+^le/le<det>$
+^akʼalabʼ/akʼal<n><pl>$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^owan/*owan$
+^ibʼ/*ibʼ$
+
+# sent_id = utexas:152
+# text = Are le nuchak jun tzuqb’al wib’.
+# text[spa] =  Mi trabajo es lo que me mantiene.
+# labels = tijonik-24
+^Are/<px2sg>re<n><rel>$
+^le/le<det>$
+^nuchak/<px1sg>chak<n>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^tzuqbʼal/*tzuqbʼal$
+^wibʼ/<px1sg>ibʼ<n><rel>$
+^./.<sent>$
