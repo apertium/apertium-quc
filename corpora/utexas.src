@@ -1647,3 +1647,39 @@
 ^pa/pa<pr>$
 ^ja/ja<n>$
 ^./.<sent>$
+
+# sent_id = utexas:141
+# text = Le wo’ch k’o chunaqaj le nimatijob’al.
+# text[spa] =  Mi casa esta cerca de la universidad.
+# labels = tijonik-22
+^Le/le<det>$
+^woʼch/<px1sg>oʼch<n>$
+^kʼo/kʼo<part>$
+^chunaqaj/chi<pr>+<px3sg>naqaj<n><rel>$
+^le/le<det>$
+^nimatijobʼal/*nimatijobʼal$
+^./.<sent>$
+
+# sent_id = utexas:142
+# text = Naqaj kint’uyi’ wi chawe.
+# text[spa] =  Estoy sentado cerca de ti.
+# labels = tijonik-22
+^Naqaj/naqaj<adj>$
+^kintʼuyiʼ/*kintʼuyiʼ$
+^wi/wi<part>$
+^chawe/chi<pr>+<px2sg>ech<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:143
+# text = Naj k’o wi le wo’ch chuwach le tijob’al.
+# text[spa] =  Mi casa está más lejos que la iglesia (visto desde un tercer punto).
+# labels = tijonik-22
+^Naj/naj<adj>/naj<adv>$
+^k’o/kʼo<part>$
+^wi/wi<part>$
+^le/le<det>$
+^wo’ch/<px1sg>oʼch<n>$
+^chuwach/chi<pr>+<px3sg>wach<n><rel>/chuwach<pr>$
+^le/le<det>$
+^tijob’al/tijobʼal<n>$
+^./.<sent>$
