@@ -4297,6 +4297,7 @@ Sidon:Sidon NP-Top ;
 Kafarnaʼum:Kafarnaʼum NP-Top ;
 Asiʼa:Asiʼa NP-Top ;
 Jerusalem:jerusalem NP-Top ; ! TODO: Lowercase because of 'Ujerusalem'
+Silisiʼa:Silisiʼa NP-Top ;
 Israʼel:Israʼel NP-Top ;
 Nawaljaʼ:Nawaljaʼ NP-Top ;
 Galileʼa:Galileʼa NP-Top ;
