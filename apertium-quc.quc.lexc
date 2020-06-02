@@ -826,18 +826,20 @@ LEXICON Nouns
 
 ixoq:ixoq N-ixoq ;                 ! "mujer; woman"
 anjel:anjel N-ixoq ;               ! ""
+ajmak:ajmak N-ixoq;                ! "pecador; sinner"
 ajchak:ajchak N-ixoq ;             ! "trabajador; worker (traditional peasant)"
 tataʼ:tataʼ N-ixoq ;               ! "a gentleman"
 iyom:iyom N-iyom ;                 ! "partera; midwife"
 alitom:alitom N-iyom ;             ! ""
 altom:altom N-iyom ;               ! "muchacha"
 teem:teem N-ixoq ;                 ! "silla; chair"
-wuuj:wuuj N-ixoq ;                 ! "papel; paper"
-wuuj:wuj N-ixoq ;                  ! "libro; book"
+wuj:wuuj N-ixoq ;                 ! "papel; paper"
+wuj:wuj N-ixoq ;                  ! "libro; book"
 ajaw:ajaw N-ixoq ;                 ! "; owner"
+ajaw:ajaw N-iyom ;                 ! "; owner" ! Use/Spell ! Src/Biblia
 chuchqajaw:chuchqajaw N-ixoq ;     ! "sacerdote;"
-siiʼ:siiʼ N-ixoq ;                 ! "leña; firewood"
-siiʼ:siʼ N-ixoq ;                  ! "firewood"
+siʼ:siiʼ N-ixoq ;                 ! "leña; firewood"
+siʼ:siʼ N-ixoq ;                  ! "firewood"
 alit:alit N-alit ;                 ! "señorita; young woman"
 alab:alab N-alit ;                 ! "muchacho; man"
 
@@ -993,6 +995,7 @@ ajawab:ajawab N-tinamit ; ! "community elders (permanent office) who choose auxi
 ajawam:ajawam N-tinamit ; ! "freewill"
 Ajawaxel:ajawaxel N-tinamit ; ! "Lord (title for Christian God)"
 Ajawaxel:ajawxel N-tinamit ; ! "Lord (title for Christian God)"
+Ajawaxel:ajawawxel N-tinamit ; ! Src/Biblia ! Use/Spell
 ajawinel:ajawinel N-tinamit ; ! "king"
 ajbe:ajbe N-tinamit ; ! "traveller"
 ajbeʼil:ajbeʼil N-tinamit ; ! "foreigner"
@@ -1040,7 +1043,6 @@ ajkoj:ajkoj N-tinamit ; ! "dancer who represents lion in mythic dances"
 ajkotzʼiʼj:ajkotzʼiʼj N-tinamit ; ! "witch who places flowers and candles at shrines"
 ajkun:ajkun N-tinamit ; ! "witch who heals"
 Ajmak:ajmak N-tinamit ; ! "day in the sacred calendar"
-ajmak:ajmak N-tinamit ; ! "one who is guilty"
 ajmes:ajmes N-tinamit ; ! "espiritista, one who consults spirits, good witch"
 ajmiqʼinaʼ:ajmiqʼinaʼ N-tinamit ; ! "native of Totonicapán"
 ajmox:ajmox N-tinamit ; ! "not clever"
@@ -4318,6 +4320,17 @@ ajkristiʼano:ajkristiʼano N-ajjudiʼo ; ! ""
 ajgriʼega:ajgriʼega N-ajjudiʼo ; ! ""
 ajetiʼopiʼa:ajetiʼopiʼa N-ajjudiʼo ; ! ""
 ajfilipo:ajfilipo N-ajjudiʼo ; ! ""
+ajkapadosiʼa:ajkapadosiʼa N-ajjudiʼo ; ! ""
+
+ajalejandrino:ajalejandrino N-ajjudiʼo ; ! ""
+ajromano:ajromano  N-ajjudiʼo ; ! ""
+ajisraʼel:ajisraʼel  N-ajjudiʼo ; ! ""
+ajmasedoniʼo:ajmasedoniʼo N-ajjudiʼo ; ! ""
+ajgalileʼo:ajgalileʼo N-ajjudiʼo ; ! ""
+ajjujdiʼo:ajjujdiʼo N-ajjudiʼo ; ! ""
+ajdamasko:ajdamasko N-ajjudiʼo ; ! ""
+ajjudey:ajjudey N-ixoq ;
+ajnasaret:ajnasaret N-ajjudiʼo ; ! ""
 
 
 LEXICON Propios
@@ -4396,7 +4409,8 @@ Wel:Wel NP-Ant-M ;
 Pabʼlo:Pabʼlo NP-Ant-M ;
 Isaʼak:Isaʼak NP-Ant-M ;
 Moʼises:Moʼises  NP-Ant-M ;
-Abʼraham:Abʼraham NP-Ant-M ;
+Abʼraham:Abʼraham NP-Ant-M ; 
+Abʼraham:Abʼrahamʼ NP-Ant-M ; ! Src/Biblia ! Use/Spell
 David:David NP-Ant-M ;
 Santiʼago:Santiʼago NP-Ant-M ;
 Pedro:Pedro NP-Ant-M ;
@@ -4511,6 +4525,50 @@ Xwan:Xwan NP-Ant-M ; ! "Juan"
 Xwaʼn:Xwaʼn NP-Ant-F ; ! "Juana"
 Weʼl:Weʼl NP-Ant-F ; ! "Manuela"
 Tuʼr:Tuʼr NP-Ant-M ; ! "Venturo"
+
+Simeʼon:Simeʼon NP-Ant-M ; 
+Markos:Markos NP-Ant-M ; 
+Nasaret:Nasaret NP-Top ; 
+Estebʼan:Estebʼan NP-Ant-M ; 
+Bʼeʼelzebʼul:Bʼeʼelzebʼul NP-Ant-M ; 
+Bʼelem:Bʼelem NP-Top ; 
+Natanaʼel:Natanaʼel NP-Ant-M ; 
+Laʼodiseʼa:Laʼodiseʼa NP-Top ; 
+Jeriko:Jeriko NP-Top ; 
+Hades:Hades NP-Top ; 
+Nikodemo:Nikodemo NP-Ant-M ; 
+Kreta:Kreta NP-Top ; 
+Jason:Jason NP-Ant-M ; 
+Filipo:Filipo NP-Ant-M ; 
+Faraʼon:Faraʼon NP-Ant-M ; 
+Chipre:Chipre NP-Top ; 
+Bʼetsaʼida:Bʼetsaʼida NP-Top ; 
+Aʼaron:Aʼaron NP-Ant-M ; 
+Atenas:Atenas NP-Top ; 
+Artemis:Artemis NP-Ant-M ; 
+Alejandro:Alejandro NP-Ant-M ; 
+Mateʼo:Mateʼo NP-Ant-M ; 
+Lot:Lot NP-Ant-M ; 
+Jesuskristo:Jesuskristo NP-Ant-M ; 
+Gomorra:Gomorra NP-Top ; 
+Galasiʼa:Galasiʼa NP-Top ; 
+Fenisiʼa:Fenisiʼa NP-Top ; 
+Bʼiʼaj:Bʼiʼaj NP-Ant-M ; 
+Tibʼeriʼades:Tibʼeriʼades NP-Ant-M ; 
+Tarso:Tarso NP-Top ; 
+Silbʼano:Silbʼano NP-Ant-M ; 
+Lukas:Lukas NP-Ant-M ; 
+Klaʼudiʼo:Klaʼudiʼo NP-Ant-M ; 
+Jeremiʼas:Jeremiʼas NP-Ant-M ; 
+Golgota:Golgota NP-Top ; 
+Demetriʼo:Demetriʼo NP-Ant-M ; 
+Salome:Salome NP-Ant-F ; 
+Robʼoʼam:Robʼoʼam NP-Ant-M ; 
+Paʼulo:Paʼulo NP-Ant-M ; 
+Ninive:Ninive NP-Top ; 
+Mattatiʼas:Mattatiʼas NP-Ant-M ; 
+Magdalena:Magdalena NP-Ant-F ; 
+Arabʼiʼa:Arabʼiʼa NP-Top ; 
 
 
 LEXICON Adjectives

@@ -21,6 +21,8 @@ LIST Perf = perf ;
 LIST Pro = pro ;
 LIST Pers = pers ;
 
+LIST Dem = dem ;
+
 LIST @det = @det ;
 
 LIST In = "in" ; 
@@ -46,3 +48,5 @@ REMOVE A IF (0 A OR N) (-1 Num) (1 Pr OR Rel) ;
 SECTION
 
 MAP @det TARGET Det IF (1C Clf LINK 1 NOMINAL) ;
+
+MAP @det TARGET Dem IF (-1C N LINK -1 Det) ;
