@@ -644,6 +644,7 @@ chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:chi%>nu%>wach # ; ! "" ! Src/UTexas
 chi%<pr%>%+%<px2sg%>wach%<n%>%<rel%>:ch%>a%>wach # ; ! ""
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>u%>wach # ; ! ""
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>wach # ; ! "" ! Src/UDHR
+chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>wa # ; ! "" ! Src/UDHR
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>u%>wa # ; ! "" ! Src/UTexas
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>o # ; ! "" ! Src/UTexas
 chi%<pr%>%+%<px1pl%>wach%<n%>%<rel%>:ch%>qa%>wach # ; ! ""
@@ -954,6 +955,7 @@ juyub:juyub N-tinamit ;            ! "hill, mountain"
 tikoʼn:tikoʼn N-tinamit ;          ! "cultivated plot, creation"
 kunabʼal:kunabʼal N-tinamit ;      ! "medicine, insecticide"
 kunabʼalil:kunabʼalil N-tinamit ;      ! "medicine, insecticide"
+tojbʼalil:tojbʼalil N-tinamit ;      ! "pago; "
 kunabʼal:kunabal N-tinamit ;        ! "medicine"
 chuch:chuch N-chuch ;              ! "mother"
 noʼj:noʼj N-tinamit ;              ! "idea"
