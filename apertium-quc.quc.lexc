@@ -635,6 +635,8 @@ chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>q%>e # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>w%>e # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>k%>e  # ;  ! "" ! Src/UTexas
 
+chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>aq%>e # ;  ! "" ! Src/Wiki
+
 ! -WACH Chi + E + wach
 !  en frente de, ante
 chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:ch%>nu%>wach # ; ! ""
@@ -951,7 +953,8 @@ jaʼ:jaʼ N-tinamit ;                ! "water"
 juyub:juyub N-tinamit ;            ! "hill, mountain"
 tikoʼn:tikoʼn N-tinamit ;          ! "cultivated plot, creation"
 kunabʼal:kunabʼal N-tinamit ;      ! "medicine, insecticide"
-kunabal:kunabal N-tinamit ;        ! "medicine"
+kunabʼalil:kunabʼalil N-tinamit ;      ! "medicine, insecticide"
+kunabʼal:kunabal N-tinamit ;        ! "medicine"
 chuch:chuch N-chuch ;              ! "mother"
 noʼj:noʼj N-tinamit ;              ! "idea"
 ikʼ:ikʼ N-tinamit ;                ! "moon, month of 20 days"
@@ -5090,6 +5093,8 @@ sin:sin A-saq ; ! "little"
 sipam:sipam A-saq ; ! "free"
 sipojinaq:sipojinaq A-saq ; ! "swollen"
 sirilik:sirilik A-saq ; ! "alone"
+rilik:rilik A-saq ; ! "alone"
+yaʼom:yaʼom A-saq ; ! "dado"
 sirisik:sirisik A-saq ; ! "plain"
 soʼr:soʼr A-saq ; ! "deaf"
 sokotajinaq:sokotajinaq A-saq ; ! "wounded"
