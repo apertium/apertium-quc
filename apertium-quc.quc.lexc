@@ -748,7 +748,7 @@ umal:umal Rel ;                    ! "por"
 wach:wach Rel ;                    ! "frente"
 wiʼ:wiʼ Rel ;                      ! "con"
 xeʼ:xeʼ Rel ;                      ! "abajo"
-xoʼl:xoʼl Rel ; 
+xoʼl:xoʼl Rel ;
 mox:mox Rel ;
 wikiqʼab:wikiqʼab Rel ;
 tzalaj:tzalaj Rel ;
@@ -1290,6 +1290,7 @@ banol:banol N-tinamit ; ! "doer"
 banowik:banowik N-tinamit ; ! "the act of doing"
 bantajibal:bantajibal N-tinamit ; ! "creation"
 bantajik:bantajik N-tinamit ; ! "meaning"
+bʼantajik:bʼantajik N-tinamit ; ! "importance" ! Src/UTexas
 baq:baq N-tinamit ; ! "bone"
 !baq chikop:baq chikop N-tinamit ; ! "gusano alambre (worm that eats planted corn seed)"
 baqʼ:baqʼ N-tinamit ; ! "seed"
@@ -4398,7 +4399,7 @@ Mariy:Mariy NP-Ant-F ;
 Perez:Perez NP-Cog ;
 
 Migueʼl:Migueʼl NP-Ant-M ;
-Adam:Adam NP-Ant-M ; 
+Adam:Adam NP-Ant-M ;
 Bʼartolome:Bʼartolome NP-Ant-M ;
 Vicente:Vicente NP-Ant-M ;
 Felix:Felix NP-Ant-M ;
@@ -4423,7 +4424,7 @@ Wel:Wel NP-Ant-M ;
 Pabʼlo:Pabʼlo NP-Ant-M ;
 Isaʼak:Isaʼak NP-Ant-M ;
 Moʼises:Moʼises  NP-Ant-M ;
-Abʼraham:Abʼraham NP-Ant-M ; 
+Abʼraham:Abʼraham NP-Ant-M ;
 Abʼraham:Abʼrahamʼ NP-Ant-M ; ! Src/Biblia ! Use/Spell
 David:David NP-Ant-M ;
 Santiʼago:Santiʼago NP-Ant-M ;
@@ -4540,49 +4541,49 @@ Xwaʼn:Xwaʼn NP-Ant-F ; ! "Juana"
 Weʼl:Weʼl NP-Ant-F ; ! "Manuela"
 Tuʼr:Tuʼr NP-Ant-M ; ! "Venturo"
 
-Simeʼon:Simeʼon NP-Ant-M ; 
-Markos:Markos NP-Ant-M ; 
-Nasaret:Nasaret NP-Top ; 
-Estebʼan:Estebʼan NP-Ant-M ; 
-Bʼeʼelzebʼul:Bʼeʼelzebʼul NP-Ant-M ; 
-Bʼelem:Bʼelem NP-Top ; 
-Natanaʼel:Natanaʼel NP-Ant-M ; 
-Laʼodiseʼa:Laʼodiseʼa NP-Top ; 
-Jeriko:Jeriko NP-Top ; 
-Hades:Hades NP-Top ; 
-Nikodemo:Nikodemo NP-Ant-M ; 
-Kreta:Kreta NP-Top ; 
-Jason:Jason NP-Ant-M ; 
-Filipo:Filipo NP-Ant-M ; 
-Faraʼon:Faraʼon NP-Ant-M ; 
-Chipre:Chipre NP-Top ; 
-Bʼetsaʼida:Bʼetsaʼida NP-Top ; 
-Aʼaron:Aʼaron NP-Ant-M ; 
-Atenas:Atenas NP-Top ; 
-Artemis:Artemis NP-Ant-M ; 
-Alejandro:Alejandro NP-Ant-M ; 
-Mateʼo:Mateʼo NP-Ant-M ; 
-Lot:Lot NP-Ant-M ; 
-Jesuskristo:Jesuskristo NP-Ant-M ; 
-Gomorra:Gomorra NP-Top ; 
-Galasiʼa:Galasiʼa NP-Top ; 
-Fenisiʼa:Fenisiʼa NP-Top ; 
-Bʼiʼaj:Bʼiʼaj NP-Ant-M ; 
-Tibʼeriʼades:Tibʼeriʼades NP-Ant-M ; 
-Tarso:Tarso NP-Top ; 
-Silbʼano:Silbʼano NP-Ant-M ; 
-Lukas:Lukas NP-Ant-M ; 
-Klaʼudiʼo:Klaʼudiʼo NP-Ant-M ; 
-Jeremiʼas:Jeremiʼas NP-Ant-M ; 
-Golgota:Golgota NP-Top ; 
-Demetriʼo:Demetriʼo NP-Ant-M ; 
-Salome:Salome NP-Ant-F ; 
-Robʼoʼam:Robʼoʼam NP-Ant-M ; 
-Paʼulo:Paʼulo NP-Ant-M ; 
-Ninive:Ninive NP-Top ; 
-Mattatiʼas:Mattatiʼas NP-Ant-M ; 
-Magdalena:Magdalena NP-Ant-F ; 
-Arabʼiʼa:Arabʼiʼa NP-Top ; 
+Simeʼon:Simeʼon NP-Ant-M ;
+Markos:Markos NP-Ant-M ;
+Nasaret:Nasaret NP-Top ;
+Estebʼan:Estebʼan NP-Ant-M ;
+Bʼeʼelzebʼul:Bʼeʼelzebʼul NP-Ant-M ;
+Bʼelem:Bʼelem NP-Top ;
+Natanaʼel:Natanaʼel NP-Ant-M ;
+Laʼodiseʼa:Laʼodiseʼa NP-Top ;
+Jeriko:Jeriko NP-Top ;
+Hades:Hades NP-Top ;
+Nikodemo:Nikodemo NP-Ant-M ;
+Kreta:Kreta NP-Top ;
+Jason:Jason NP-Ant-M ;
+Filipo:Filipo NP-Ant-M ;
+Faraʼon:Faraʼon NP-Ant-M ;
+Chipre:Chipre NP-Top ;
+Bʼetsaʼida:Bʼetsaʼida NP-Top ;
+Aʼaron:Aʼaron NP-Ant-M ;
+Atenas:Atenas NP-Top ;
+Artemis:Artemis NP-Ant-M ;
+Alejandro:Alejandro NP-Ant-M ;
+Mateʼo:Mateʼo NP-Ant-M ;
+Lot:Lot NP-Ant-M ;
+Jesuskristo:Jesuskristo NP-Ant-M ;
+Gomorra:Gomorra NP-Top ;
+Galasiʼa:Galasiʼa NP-Top ;
+Fenisiʼa:Fenisiʼa NP-Top ;
+Bʼiʼaj:Bʼiʼaj NP-Ant-M ;
+Tibʼeriʼades:Tibʼeriʼades NP-Ant-M ;
+Tarso:Tarso NP-Top ;
+Silbʼano:Silbʼano NP-Ant-M ;
+Lukas:Lukas NP-Ant-M ;
+Klaʼudiʼo:Klaʼudiʼo NP-Ant-M ;
+Jeremiʼas:Jeremiʼas NP-Ant-M ;
+Golgota:Golgota NP-Top ;
+Demetriʼo:Demetriʼo NP-Ant-M ;
+Salome:Salome NP-Ant-F ;
+Robʼoʼam:Robʼoʼam NP-Ant-M ;
+Paʼulo:Paʼulo NP-Ant-M ;
+Ninive:Ninive NP-Top ;
+Mattatiʼas:Mattatiʼas NP-Ant-M ;
+Magdalena:Magdalena NP-Ant-F ;
+Arabʼiʼa:Arabʼiʼa NP-Top ;
 
 
 LEXICON Adjectives
@@ -5322,9 +5323,9 @@ xuquje:xuquje Ad-aninaq ;                ! FIXME: Comprueba categoría
 xuq:xuq Ad-aninaq ;                    ! FIXME: Comprueba categoría
 xuqe:xuqe Ad-aninaq ;                  ! FIXME: Comprueba categoría
 
-! Nota bene: Chi is also a conjunction introducing object complement 
-! clauses of transitive verbs (I see that you did this). It is also 
-! part of complex prepositions (see below). Be careful not to confuse the 
+! Nota bene: Chi is also a conjunction introducing object complement
+! clauses of transitive verbs (I see that you did this). It is also
+! part of complex prepositions (see below). Be careful not to confuse the
 ! preposition chi with the adverb chi(k) “again; already” or the locative demonstrative chi’ “here”.
 chiʼ:chiʼ Ad-aninaq ;              ! "aquí; here"
 chi:chi Ad-aninaq ;                ! "otra vez, ya; again"
@@ -7474,7 +7475,7 @@ kʼut:kʼut CS ;                      ! "pero"
 arech:arech CS ;                    ! "para que"
 arechaʼ:arechaʼ CS ;                    ! "para que"
 arechiʼ:arechiʼ CS ;                    ! "cuando"
-! Chi is also a conjunction introducing object complement clauses of transitive verbs (I see that you did this). 
+! Chi is also a conjunction introducing object complement clauses of transitive verbs (I see that you did this).
 chi:chi CS ;                       ! COMPL
 
 LEXICON Punctuation

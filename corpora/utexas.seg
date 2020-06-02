@@ -1155,3 +1155,76 @@
 ^tzuqbʼal/tzuqbʼal$
 ^wibʼ/w>ibʼ$
 ^./.$
+
+# sent_id = utexas:154
+# text = Le e k’a’na taq tz’i’
+# text[spa] =  los perros bravos
+# labels = tijonik-28
+^Le/le$
+^e/e$
+^k’a’na/k’a’n>a$
+^taq/taq$
+^tz’i’/tzʼiʼ$
+
+# sent_id = utexas:155
+# text = K’ak’ le nupo’t.
+# text[spa] =  Mi huipil es nuevo.
+# labels = tijonik-28
+^K’ak’/kʼakʼ$
+^le/le$
+^nupo’t/nu>poʼt$
+^./.$
+
+# sent_id = utexas:156
+# text = Wa’ we q’ij, nim ub’antajik
+# text[spa] =  Este es un día importante.
+# labels = tijonik-28
+^Wa’/waʼ$
+^we/we$
+^q’ij/qʼij$
+^,/,$
+^nim/nim$
+^ubʼantajik/u>bʼantajik$
+
+# sent_id = utexas:157
+# text = le itzela winaq
+# text[spa] =  mala persona
+# labels = tijonik-28
+^le/le$
+^itzela/*itzel>a$
+^winaq/winaq$
+
+# sent_id = utexas:158
+# text = Le e q’eqa taq me’s
+# text[spa] =  los gatos negros
+# labels = tijonik-28
+^Le/le$
+^e/e$
+^q’eqa/q’eq>a$
+^taq/taq$
+^me’s/meʼs$
+
+# sent_id = utexas:159
+# text = Kematz’ib’
+# text[spa] =  computadora
+# labels = tijonik-28
+^Kematzʼibʼ/Kem>a>tzʼibʼ$
+
+# sent_id = utexas:159
+# text = Xinloq’ le nuk’ak’apo’t
+# text[spa] =  Me compré un (mi)huipil nuevo.
+# labels = tijonik-28
+^Xinloqʼ/x>>in>loqʼ$
+^le/le$
+^nukʼakʼapoʼt/nu>kʼakʼ>a>poʼt$
+
+# sent_id = utexas:160
+# text = E nitz’a’q le taq imul.
+# text[spa] =  Los conejos son pequeños.
+# labels = tijonik-28
+^E/e<pl>$
+^nitzʼaʼq/nitzʼ>aʼq$
+^le/le$
+^taq/taq$
+^imul/imul$
+^./.$
