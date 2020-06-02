@@ -506,7 +506,6 @@ taq%<pl%>:taq # ;
 e%<pl%>:e # ;
 jetaq%<pl%>:jetaq # ;
 la%<qst%>:la # ;
-wi%<part%>:wi # ;
 si%<emph%>:si # ;
 man%<neg%>:man # ;
 ma%<neg%>:ma # ;
@@ -582,6 +581,8 @@ kan%<adv%>%<dir%>:kan OQ ;
 apan%<adv%>%<dir%>:apan OQ ;
 qʼan%<adv%>%<dir%>:qʼan OQ ;
 qaj%<adv%>%<dir%>:qaj OQ ;
+
+wi%<adv%>%<dir%>:wi # ;
 
 ka%<adv%>%<dir%>%+oq%<mark%>:koq # ;
 ka%<adv%>%<dir%>:ka # ;
@@ -727,20 +728,25 @@ chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>%+ulew%<n%>:ch%>uwach%>ulew # ; ! "en su mun
 
 LEXICON Relationals
 
-ukʼ:ukʼ Rel ;                      ! "con"
+!ach:ach Rel ;                      ! ""
 ech:ech Rel ;                      ! "de"
-umal:umal Rel ;                    ! "por"
-ibʼ:ibʼ Rel ;                      ! ""
 ibʼ:ib Rel ;                       ! "" ! Src/diccionario
-ach:ach Rel ;                      ! ""
+ibʼ:ibʼ Rel ;                      ! ""
+naqaj:naqaj Rel ;                  ! "cerca" ! TODO: Check
 onojel:onojel Rel ;                ! "todos"
+pam:pam Rel ;                      ! "adentro" ! TODO: Check
+re:re Rel ;                        ! "" ! Src/LopezIxcoy1997
 tukel:tukel Rel ;                  ! "solo"
+ukʼ:ukʼ Rel ;                      ! "con"
+umal:umal Rel ;                    ! "por"
 wach:wach Rel ;                    ! "frente"
 wiʼ:wiʼ Rel ;                      ! "con"
-pam:pam Rel ;                      ! "adentro" ! TODO: Check
-naqaj:naqaj Rel ;                  ! "cerca" ! TODO: Check
-re:re Rel ;                        ! "" ! Src/LopezIxcoy1997
 xeʼ:xeʼ Rel ;                      ! "abajo"
+xoʼl:xoʼl Rel ; 
+mox:mox Rel ;
+wikiqʼab:wikiqʼab Rel ;
+tzalaj:tzalaj Rel ;
+
 
 LEXICON Determiners
 
