@@ -4333,6 +4333,7 @@ Asiʼa:Asiʼa NP-Top ;
 Jerusalem:jerusalem NP-Top ; ! TODO: Lowercase because of 'Ujerusalem'
 Silisiʼa:Silisiʼa NP-Top ;
 Israʼel:Israʼel NP-Top ;
+Siriʼa:Siriʼa NP-Top ;
 Nawaljaʼ:Nawaljaʼ NP-Top ;
 Galileʼa:Galileʼa NP-Top ;
 Judeʼa:Judeʼa NP-Top ;
@@ -4379,7 +4380,7 @@ Samson:Samson NP-Ant-M ;
 Saʼul:Saʼul NP-Ant-M ;
 Tito:Tito NP-Ant-M ;
 Levi:Levi NP-Ant-M ;
-Festo:Festo NP-Ant-M ;
+Festo:Festo NP-Top ;
 Félix:Félix NP-Ant-M ;
 Jose:Jose NP-Ant-M ;
 Atrix:Atrix NP-Ant-M ;
@@ -5378,6 +5379,7 @@ jacha:jacha Ad-aninaq ; ! "asi, so"
 
 
 
+kʼatekʼut:kʼatekʼut Ad-aninaq ; ! FIXME: comprobar
 kʼatekʼuriʼ:kʼatekʼuriʼ Ad-aninaq ; ! "and then it happened"
 jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Bible
 xaqbʼiʼ:xaqbʼiʼ Ad-aninaq ; ! "inmediatamente"
@@ -6543,6 +6545,8 @@ bochiʼj:bochiʼj V-TV ; ! "to plead, court"
 bototej:bototej V-TV ; ! "to curl"
 botzʼoj:botzʼoj V-TV ; ! "to roll up something"
 buqʼulij:buqʼulij V-TV ; ! "to skin (animal)"
+chʼaʼ:chʼaʼ V-TV ; !  "quejar; complain"
+chʼaʼ:chʼa V-TV ; !  "quejar; complain" ! Src/Biblia
 chʼachʼaj:chʼachʼaj V-TV ; ! "to judge"
 chʼajomaj:chʼajomaj V-TV ; ! "to wash something"
 chʼakatij:chʼakatij V-TV ; ! "to place something as a pillow"
