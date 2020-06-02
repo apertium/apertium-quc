@@ -4371,6 +4371,7 @@ Mariy:Mariy NP-Ant-F ;
 Perez:Perez NP-Cog ;
 
 Migueʼl:Migueʼl NP-Ant-M ;
+Adam:Adam NP-Ant-M ; 
 Bʼartolome:Bʼartolome NP-Ant-M ;
 Vicente:Vicente NP-Ant-M ;
 Felix:Felix NP-Ant-M ;
@@ -4531,7 +4532,6 @@ jalajoj:jalajoj A-saq ;            ! "diferente; different, distinct"
 kaxlan:kaxlan A-saq ;              ! "extranjero; foreign"
 yab:yab A-saq ;                    ! "enfermo; sick"
 yawabʼ:yawabʼ A-saq ;              ! "enfermo; sick"
-nim:nim A-saq ;                    ! "grande; large, abundant"
 kʼin:kʼin A-saq ;                  ! "diminutivo; diminutive (used with animals)"
 cho:cho A-saq ;                    ! "profundo; deep"
 itzel:itzel A-saq ;                ! "malo; bad, evil"
@@ -5217,6 +5217,7 @@ tyoxlaj:tyoxlaj A-saq ; ! "santísimo"
 
 kosnaq:kosnaq A-saq ; ! "tired" ! Src/utexas
 
+nim:nim A-saq ;                    ! "grande; large, abundant"
 nim:nim A-nim ;              ! "large (plural)"
 chom:chom A-nim ;              ! ""
 pim:pim A-nim ;              ! ""
