@@ -645,12 +645,12 @@ chi%<pr%>%+%<px2pl%>wach%<n%>%<rel%>:ch%>i%>wach # ; ! ""
 chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:ch%>ki%>wach # ; ! ""
 chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:chi%>ki%>wach # ; ! "" ! Src/Cuentos
 
-! -XE’ chi +E+ –xe
+! -XEʼ chi +E+ –xe
 !  (de)bajo, al pie de
 chi%<pr%>%+%<px3sg%>xeʼ%<n%>%<rel%>:ch%>u%>xeʼ # ; ! ""
 chi%<pr%>%+%<px3sg%>xeʼ%<n%>%<rel%>:ch%>u%>xe # ; ! ""
 
-! -WI’ chi + E + wi’
+! -WIʼ chi + E + wiʼ
 !  encima, sobre
 pa%<pr%>%+%<px1sg%>wiʼ%<n%>%<rel%>:pa%>nu%>wiʼ # ; ! ""
 pa%<pr%>%+%<px2sg%>wiʼ%<n%>%<rel%>:p%>a%>wiʼ # ; ! ""
@@ -670,7 +670,7 @@ chi%<pr%>%+%<px1pl%>ij%<n%>%<rel%>:chi%>q%>ij # ; ! ""
 chi%<pr%>%+%<px2pl%>ij%<n%>%<rel%>:chi%>i%>ij # ; ! ""
 chi%<pr%>%+%<px3pl%>ij%<n%>%<rel%>:chi%>ki%>ij # ; ! ""
 
-! -XO’L chi + E + xo’l
+! -XOʼL chi + E + xoʼl
 !  entre
 
 chi%<pr%>%+%<px1sg%>xoʼl%<n%>%<rel%>:ch%>nu%>xoʼl # ; ! ""
@@ -719,8 +719,8 @@ chi%<pr%>%+%<px3pl%>tzalaj%<n%>%<rel%>:chi%>ki%>tzalaj # ; ! ""
 ! -MOX pa+E+ mox
 ! a la izquierda de
 
-! -WIKIQ’AB’
-!  pa+ E+ewikiq’ab’
+! -WIKIQʼABʼ
+!  pa+ E+ewikiqʼabʼ
 ! FIXME: Check
 chi%<pr%>%+uwachulew%<n%>:ch%>uwachulew # ; ! "en mundo" ! Src/Biblia
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>%+ulew%<n%>:ch%>uwach%>ulew # ; ! "en su mundo" ! Src/Biblia
@@ -4081,7 +4081,7 @@ prut:prut N-tinamit ; ! "plantain" Src/UTexas
 uxlanbʼal:uxlanbʼal N-tinamit ; ! "park" Src/UTexas
 chʼutitat:chʼutitat N-tinamit ; ! "uncle" Src/UTexas
 qameqʼin:qameqʼin N-tinamit ; ! "hot drink" ! Src/UTexas
-tz’ib’ab’al:tz’ib’ab’al N-tinamit ; ! "pencil" ! Src/UTexas
+tzʼibʼabʼal:tzʼibʼabʼal N-tinamit ; ! "pencil" ! Src/UTexas
 chʼawebʼal:chʼawebʼal N-tinamit ; ! "telephone" ! Src/UTexas
 nimatijobʼal:nimatijobʼal N-tinamit ; ! "university" ! Src/UTexas
 
@@ -4371,6 +4371,7 @@ Mariy:Mariy NP-Ant-F ;
 Perez:Perez NP-Cog ;
 
 Migueʼl:Migueʼl NP-Ant-M ;
+Bʼartolome:Bʼartolome NP-Ant-M ;
 Vicente:Vicente NP-Ant-M ;
 Felix:Felix NP-Ant-M ;
 Drusila:Drusila NP-Ant-F ;
@@ -4399,7 +4400,7 @@ David:David NP-Ant-M ;
 Santiʼago:Santiʼago NP-Ant-M ;
 Pedro:Pedro NP-Ant-M ;
 Judas:Judas NP-Ant-M ;
-Herodiʼas:Herodiʼas NP-Ant-M ;
+Herodiʼas:Herodiʼas NP-Ant-F ;
 Pilato:Pilato NP-Ant-M ;
 Herodes:Herodes NP-Ant-M ;
 Timoteʼo:Timoteʼo NP-Ant-M ;
