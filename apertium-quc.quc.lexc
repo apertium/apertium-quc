@@ -5316,10 +5316,15 @@ chik:chik Ad-aninaq ;                ! "otra vez, ya; again"
 
 xaq:xaq Ad-aninaq ;                ! sólo
 
+!apan:apan Ad-aninaq ;              ! "cerca"
+!apanöq:apanöq Ad-aninaq ;              ! "cerca, fuera"
+
 aninaq:aninaq Ad-aninaq ;          ! "rápidamente; quickly"
 utz:utz Ad-aninaq ;                ! "bien; well"
-ojeer:ojeer Ad-aninaq ;            ! "hace tiempo; long time"
-iwiir:iwiir Ad-aninaq ;            ! "ayer; yesterday"
+ojer:ojeer Ad-aninaq ;            ! "hace tiempo; long time"
+ojer:ojer Ad-aninaq ;            ! "hace tiempo; long time"
+iwir:iwiir Ad-aninaq ;            ! "ayer; yesterday"
+iwir:iwir Ad-aninaq ;            ! "ayer; yesterday"
 chweʼq:chweʼq Ad-aninaq ;          ! "mañana; tomorrow"
 kamiik:kamiik Ad-aninaq ;          ! "hoy; today"
 kamik:kamik Ad-aninaq ;            ! "hoy; today" ! Src/UTexas
@@ -5368,7 +5373,6 @@ chueʼq:chueʼq  Ad-aninaq ; ! "tomorrow"
 chweʼq:chweʼq  Ad-aninaq ; ! "tomorrow"
 ikʼil:ikʼil  Ad-aninaq ; ! "monthly"
 iqim:iqim  Ad-aninaq ; ! "below"
-iwir:iwir  Ad-aninaq ; ! "yesterday"
 janipa:janipa  Ad-aninaq ; ! "however many"
 je:je  Ad-aninaq ; ! "like"
 jelaʼ:jelaʼ  Ad-aninaq ; ! "over there; like that"
@@ -7152,6 +7156,7 @@ bij:bʼij V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
 !bij:bʼiʼ V-TV ;                     ! "decir; say" ! Src/Ixcoy1997
 bʼan:ban V-TV-O ;                    ! "hacer; do" ! Src/Dico
 bʼan:bʼan V-TV-O ;                   ! "hacer; do" ! Src/Biblia
+bʼan:bʼan V-TV-Aʼ ;                   ! "hacer; do" ! Src/Biblia
 kʼam:kʼam V-TV-Aʼ ;                    ! "recibir; receive"
 chiʼj:chiʼj V-TV ;                  ! "ofrecer; offer"
 il:il V-TV-O ;                      ! "ver; see"
@@ -7163,6 +7168,7 @@ loqʼ:loqʼ V-TV-O ;                  ! "comprar; buy"
 chʼobʼ:chʼobʼ V-TV-O ;              ! "saber, comprender; know, understand"
 
 bil:bil V-TV-O ; ! "to anoint (with medicine, oil)"
+bil:bʼil V-TV-O ; ! "to anoint (with medicine, oil)" ! Src/Biblia
 biqʼ:biqʼ V-TV-O ; ! "to swallow whole"
 biq:biq V-TV-O ; ! "to shell"
 bitʼ:bitʼ V-TV-O ; ! "to tear (paper, cloth)"
