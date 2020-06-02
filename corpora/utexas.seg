@@ -959,7 +959,7 @@
 # text[spa] =  Hablo con mi mamá por teléfono.
 # labels = tijonik-20
 ^Kinchʼaw/k>in>chʼaw$
-^rukʼ/r>uk'$
+^rukʼ/r>ukʼ$
 ^le/le$
 ^nunan/nu>nan$
 ^pa/pa$
@@ -1018,7 +1018,7 @@
 ^./.$
 
 # sent_id = utexas:141
-# text = Le wo’ch k’o chunaqaj le nimatijob’al.
+# text = Le woʼch kʼo chunaqaj le nimatijobʼal.
 # text[spa] =  Mi casa esta cerca de la universidad.
 # labels = tijonik-22
 ^Le/le$
@@ -1030,7 +1030,7 @@
 ^./.$
 
 # sent_id = utexas:142
-# text = Naqaj kint’uyi’ wi chawe.
+# text = Naqaj kintʼuyiʼ wi chawe.
 # text[spa] =  Estoy sentado cerca de ti.
 # labels = tijonik-22
 ^Naqaj/naqaj$
@@ -1040,64 +1040,64 @@
 ^./.$
 
 # sent_id = utexas:143
-# text = Naj k’o wi le wo’ch chuwach le tijob’al.
+# text = Naj kʼo wi le woʼch chuwach le tijobʼal.
 # text[spa] =  Mi casa está más lejos que la iglesia (visto desde un tercer punto).
 # labels = tijonik-22
 ^Naj/naj$
-^k’o/kʼo$
+^kʼo/kʼo$
 ^wi/wi>$
 ^le/le$
-^wo’ch/w>oʼch$
+^woʼch/w>oʼch$
 ^chuwach/chu>>wach$
 ^le/le$
-^tijob’al/tijobʼal$
+^tijobʼal/tijobʼal$
 ^./.$
 
 # sent_id = utexas:144
-# text = Naj k’o wi le wo’ch chuwach le tijob’al.
+# text = Naj kʼo wi le woʼch chuwach le tijobʼal.
 # text[spa] =  Mi casa está más lejos que la iglesia (visto desde un tercer punto).
 # labels = tijonik-22
 ^Naj/naj$
-^k’o/kʼo$
+^kʼo/kʼo$
 ^wi/wi$
 ^le/le$
-^wo’ch/w>oʼch$
+^woʼch/w>oʼch$
 ^chuwach/chu>>wach$
 ^le/le$
-^tijob’al/tijobʼal$
+^tijobʼal/tijobʼal$
 ^./.$
 
 # sent_id = utexas:145
-# text = Chi’ kewar wi le ak’alab’.
+# text = Chiʼ kewar wi le akʼalabʼ.
 # text[spa] =  Los niños duermen aquí
 # labels = tijonik-22
-^Chi’/chiʼ$
+^Chiʼ/chiʼ$
 ^kewar/ke>>war$
 ^wi/wi$
 ^le/le$
-^ak’alab’/akʼal>abʼ$
+^akʼalabʼ/akʼal>abʼ$
 ^./.$
 
 # sent_id = utexas:146
-# text = Kaqariq qib’ chwe’q.
+# text = Kaqariq qibʼ chweʼq.
 # text[spa] =  Nos encontramos/juntamos mañana.
 # labels = tijonik-24
 ^Kaqariq/ka>>qa>riq$
-^qib’/q>ibʼ$
-^chwe’q/chweʼq$
+^qibʼ/q>ibʼ$
+^chweʼq/chweʼq$
 ^./.$
 
 # sent_id = utexas:147
-# text = Qaqil chi (na) qib’
+# text = Qaqil chi (na) qibʼ
 # text[spa] =  Nos vemos
 # labels = tijonik-24
 ^Qaqil/q>aqil$
 ^chi/chi$
 ^na/na$
-^qib’/q>ibʼ$
+^qibʼ/q>ibʼ$
 
 # sent_id = utexas:148
-# text = Xinloq’ jun ilb’al wib’.
+# text = Xinloqʼ jun ilbʼal wibʼ.
 # text[spa] =  Me compré un mi espejo.
 # labels = tijonik-24
 ^Xinloqʼ/x>>in>loqʼ$
@@ -1107,7 +1107,7 @@
 ^./.$
 
 # sent_id = utexas:149
-# text = Jas le uk’exb’em rib’ le jun ruk’ le jun chik?
+# text = Jas le ukʼexbʼem ribʼ le jun rukʼ le jun chik?
 # text[spa] =  ¿Cuál es la diferencia entre este y el otro?
 # labels = tijonik-24
 ^Jas/jas$
@@ -1123,18 +1123,18 @@
 ^?/?$
 
 # sent_id = utexas:150
-# text = K’o jun qariqoj qib’ chwe’q.
+# text = Kʼo jun qariqoj qibʼ chweʼq.
 # text[spa] =  Tenemos una reunión mañana.
 # labels = tijonik-24
-^K’o/kʼo$
+^Kʼo/kʼo$
 ^jun/jun$
 ^qariqoj/qa>riqoj$
-^qib’/q>ibʼ$
-^chwe’q/chweʼq$
+^qibʼ/q>ibʼ$
+^chweʼq/chweʼq$
 ^./.$
 
 # sent_id = utexas:151
-# text = Ke’tz’an le ak’alab’ chech owan ib’
+# text = Keʼtzʼan le akʼalabʼ chech owan ibʼ
 # text[spa] =  Los niños juegan escondido.
 # labels = tijonik-24
 ^Keʼtzʼan/K>>eʼtzʼan$
@@ -1145,7 +1145,7 @@
 ^ibʼ/>ibʼ$
 
 # sent_id = utexas:152
-# text = Are le nuchak jun tzuqb’al wib’.
+# text = Are le nuchak jun tzuqbʼal wibʼ.
 # text[spa] =  Mi trabajo es lo que me mantiene.
 # labels = tijonik-24
 ^Are/are$
@@ -1157,31 +1157,31 @@
 ^./.$
 
 # sent_id = utexas:154
-# text = Le e k’a’na taq tz’i’
+# text = Le e kʼaʼna taq tzʼiʼ
 # text[spa] =  los perros bravos
 # labels = tijonik-28
 ^Le/le$
 ^e/e$
-^k’a’na/k’a’n>a$
+^kʼaʼna/kʼaʼn>a$
 ^taq/taq$
-^tz’i’/tzʼiʼ$
+^tzʼiʼ/tzʼiʼ$
 
 # sent_id = utexas:155
-# text = K’ak’ le nupo’t.
+# text = Kʼakʼ le nupoʼt.
 # text[spa] =  Mi huipil es nuevo.
 # labels = tijonik-28
-^K’ak’/kʼakʼ$
+^Kʼakʼ/kʼakʼ$
 ^le/le$
-^nupo’t/nu>poʼt$
+^nupoʼt/nu>poʼt$
 ^./.$
 
 # sent_id = utexas:156
-# text = Wa’ we q’ij, nim ub’antajik
+# text = Waʼ we qʼij, nim ubʼantajik
 # text[spa] =  Este es un día importante.
 # labels = tijonik-28
-^Wa’/waʼ$
+^Waʼ/waʼ$
 ^we/we$
-^q’ij/qʼij$
+^qʼij/qʼij$
 ^,/,$
 ^nim/nim$
 ^ubʼantajik/u>bʼantajik$
@@ -1195,36 +1195,134 @@
 ^winaq/winaq$
 
 # sent_id = utexas:158
-# text = Le e q’eqa taq me’s
+# text = Le e qʼeqa taq meʼs
 # text[spa] =  los gatos negros
 # labels = tijonik-28
 ^Le/le$
 ^e/e$
-^q’eqa/q’eq>a$
+^qʼeqa/qʼeq>a$
 ^taq/taq$
-^me’s/meʼs$
+^meʼs/meʼs$
 
 # sent_id = utexas:159
-# text = Kematz’ib’
+# text = Kematzʼibʼ
 # text[spa] =  computadora
 # labels = tijonik-28
 ^Kematzʼibʼ/Kem>a>tzʼibʼ$
 
 # sent_id = utexas:159
-# text = Xinloq’ le nuk’ak’apo’t
+# text = Xinloqʼ le nukʼakʼapoʼt
 # text[spa] =  Me compré un (mi)huipil nuevo.
 # labels = tijonik-28
 ^Xinloqʼ/x>>in>loqʼ$
 ^le/le$
 ^nukʼakʼapoʼt/nu>kʼakʼ>a>poʼt$
 
-# sent_id = utexas:160
-# text = E nitz’a’q le taq imul.
-# text[spa] =  Los conejos son pequeños.
-# labels = tijonik-28
-^E/e<pl>$
-^nitzʼaʼq/nitzʼ>aʼq$
+# sent_id = utexas:161
+# text = Upimal le lej
+# text[spa] =   el grosor de la tortilla
+# labels = tijonik-29
+^Upimal/U>pim>al$
 ^le/le$
-^taq/taq$
-^imul/imul$
+^lej/lej$
+
+# sent_id = utexas:162
+# text = Ukiʼil le taraʼs
+# text[spa] =    la dulzura del durazno
+# labels = tijonik-29
+^Ukiʼil/U>kiʼ>il$
+^le/le$
+^taraʼs/taraʼs$
+
+# sent_id = utexas:162
+# text = Sibʼalaj nichʼ le nuchʼichʼ.
+# text[spa] = Mi carro es muy pequeño
+# labels = tijonik-29
+^Sibʼalaj/sibʼalaj$
+^nichʼ/nichʼ$
+^le/le$
+^nuchʼichʼ/nu>chʼichʼ$
+^./.$
+
+# sent_id = utexas:163
+# text = Sibʼalaj kaq le apalaj
+# text[spa] = Tu cara está muy roja.
+# labels = tijonik-29
+^Sibʼalaj/sibʼalaj$
+^kaq/kaq$
+^le/le$
+^apalaj/a>palaj$
+
+# sent_id = utexas:164
+# text = Jun nimalaj tzʼiʼ
+# text[spa] = un perro muy grande
+# labels = tijonik-29
+^Jun/jun$
+^nimalaj/nimalaj$
+^tzʼiʼ/tzʼiʼ$
+
+# sent_id = utexas:165
+# text = Are nim le atzʼiʼ chuwach le nutzʼiʼ.
+# text[spa] = Tu perro es más grande que mi perro.
+# labels = tijonik-29
+^Are/a>re$
+^nim/nim$
+^le/le$
+^atzʼiʼ/a>tzʼiʼ$
+^chuwach/ch>u>wach$
+^le/le$
+^nutzʼiʼ/nu>tzʼiʼ$
+^./.$
+
+# sent_id = utexas:166
+# text = Are sibʼalaj kaq le apoʼt chuwach le nupoʼt
+# text[spa] = Tu huipil es más rojo que mi huipil.
+# labels = tijonik-29
+^Are/a>re$
+^sibʼalaj/sibʼalaj$
+^kaq/kaq$
+^le/le$
+^apoʼt/a>poʼt$
+^chuwach/ch>u>wach$
+^le/le$
+^nupoʼt/nu>poʼt$
+
+# sent_id = utexas:168
+# text = Sibʼalaj aninaq kachʼaw le areʼ chinuwach in
+# text[spa] = Él habla más rápido que yo.
+# labels = tijonik-29
+^Sibʼalaj/sibʼalaj$
+^aninaq/aninaq$
+^kachʼaw/ka>>chʼaw$
+^le/le$
+^areʼ/areʼ$
+^chinuwach/chi>nu>wach$
+^in/in$
+
+# sent_id = utexas:169
+# text = Are na nim ta le atzʼiʼ chuwach le nutzʼiʼ.
+# text[spa] = Tu perro no es más grande que mi perro.
+# labels = tijonik-29
+^Are/a>re$
+^na/na$
+^nim/nim$
+^ta/ta$
+^le/le$
+^atzʼiʼ/a>tzʼiʼ$
+^chuwach/ch>u>wach$
+^le/le$
+^nutzʼiʼ/nu>tzʼiʼ$
+^./.$
+
+# sent_id = utexas:170
+# text = Are na aninaq ta kachʼaw chinuwach in.
+# text[spa] = El no habla más rápido que yo.
+# labels = tijonik-29
+^Are/a>re$
+^na/na$
+^aninaq/aninaq$
+^ta/ta$
+^kachʼaw/ka>>chʼaw$
+^chinuwach/chi>nu>wach$
+^in/in$
 ^./.$
