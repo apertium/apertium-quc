@@ -27,6 +27,10 @@ LIST @det = @det ;
 
 LIST In = "in" ; 
 
+LIST Chi = "chi" ;
+
+LIST Jun = "jun" ;
+
 SET NOMINAL = N | Prop ;
 
 SET FIN = Impf | Perf ;
@@ -49,6 +53,9 @@ SELECT N IF (-1 Det) (0 N OR A) (1 Dem) ;
     ## Ruk’ taq we tzij ri’, xkik’am ri kiqasna’ pa ri ub’i ri Ajawxel Jesus;
 
 #SELECT Foc IF (1 Det LINK 1 N) 
+
+SELECT A IF (0 Chi) (-1 Jun) (1 N) ;
+    ## jun chi Ajawxel, jun chi qakojonik, jun chi qaqasnaʼ
 
 SECTION
 

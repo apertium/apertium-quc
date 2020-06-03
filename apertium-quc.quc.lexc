@@ -4429,6 +4429,7 @@ Roma:Roma NP-Top ;
 Mesopotamiʼa:Mesopotamiʼa NP-Top ;
 
 Sara:Sara NP-Ant-F ;
+Xper:Xper NP-Ant-F ;
 Nela:Nela NP-Ant-F ;
 Skaʼ:Skaʼ NP-Ant-F ;
 Rebʼeka:Rebʼeka NP-Ant-F ;
@@ -5355,6 +5356,7 @@ qʼaxel:qʼaxel A-saq ; ! ""
 qʼatbʼal:qʼatbʼal A-saq ; ! ""
 
 nikʼaj:nikʼaj A-saq ;          ! "otro"
+chi:chi A-saq ;                ! "solo"
 
 LEXICON Adverbs
 
@@ -7406,6 +7408,7 @@ petik:petik V-TV ;                  ! "come"
 okisax:okisax V-TV ;                ! "be put in"
 
 naʼtisaj:naʼtisaj V-TV ;            ! "recordar; remember"
+naʼtisaj:natisaj V-TV ;            ! "recordar; remember" ! Src/Biblia ! Use/Spell
 junamataj:junamataj V-TV ;            ! "comparar"
 junamataj:junamtaj V-TV ;            ! "comparar"
 junamatisaj:junamtisaj V-TV ;        ! "comparar"
