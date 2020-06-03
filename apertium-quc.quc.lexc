@@ -25,6 +25,7 @@ Multichar_Symbols
 %<f%>                ! Femenino
 %<part%>             ! Particle
 %<mod%>              ! Modal
+%<foc%>              ! Focus 
 %<v%>
 %<cnjsub%>                         !
 %<ij%>                         !
@@ -523,6 +524,7 @@ xas%<part%>:xas # ; ! Src/Bible
 xas%<part%>:xaas # ; ! Src/LopezIxcoy1997
 la%<part%>%<frm%>:la # ; !
 alaq%<part%>%<frm%>:alaq # ; !
+are%<foc%>:are # ;
 
 bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
@@ -5356,6 +5358,7 @@ tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 aretaq:aretaq Ad-aninaq ;          ! "when, while"
 aretaq:aretäq Ad-aninaq ;          ! "when, while"
 are:are Ad-aninaq ;                ! "when, while"
+are:aare Ad-aninaq ;                ! "when, while"
 maj:maj Ad-aninaq ;                ! "none, nothing"
 xuqujʼe:xuqujʼe Ad-aninaq ;        ! "also"
 xuqujʼe:xoqujeʼ Ad-aninaq ;        ! "also"
@@ -5364,7 +5367,6 @@ waral:waral Ad-aninaq ;            ! "here"
 jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
 taj:taj Ad-aninaq ;                ! "indicator of negativity or doubtfulness"
 naj:naj Ad-aninaq ;                ! "from afar, for a long time"
-aare Ad-aninaq ;                ! "when, while"
 ne:ne Ad-aninaq ;                  ! "marker of doubt"
 apawijeʼ:apawijeʼ Ad-aninaq ;      ! "wherever"
 
@@ -7472,7 +7474,8 @@ tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
 
 we:we CS ;                          ! "si; if"
 pune:pune CS ;                      ! "aunque; although"
-kʼut:kʼut CS ;                      ! "pero"
+kʼut:kʼut CC ;                      ! "pero"
+kʼut:kʼu CC ;                      ! "pero"
 arech:arech CS ;                    ! "para que"
 arechaʼ:arechaʼ CS ;                    ! "para que"
 arechiʼ:arechiʼ CS ;                    ! "cuando"

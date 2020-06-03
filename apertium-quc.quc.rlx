@@ -45,6 +45,9 @@ REMOVE Pers IF (0 In) (-1* In LINK -1 In + Pers) ;
 
 REMOVE A IF (0 A OR N) (-1 Num) (1 Pr OR Rel) ; 
 
+SELECT N IF (-1 Det) (0 N OR A) (1 Dem) ;
+    ## Ruk’ taq we tzij ri’, xkik’am ri kiqasna’ pa ri ub’i ri Ajawxel Jesus;
+
 SECTION
 
 MAP @det TARGET Det IF (1C Clf LINK 1 NOMINAL) ;

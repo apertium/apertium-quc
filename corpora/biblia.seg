@@ -14,3 +14,22 @@
 ^Lasaro/Lasaro$
 ^./.$
 
+# sent_id = 2
+# text = K’atek’ut, xinb’e pa ri Siri’a e pa ri Silisi’a;
+# text[spa] = Más tarde fui a las regiones de Siria y Cilicia.
+# labels = 
+
+# sent_id = 3 
+# text = Kb’e pa ri Siri’a e pa ri Silisi’a, jawije’ kuya wi ri kichuq’ab’ ri Komon Tyox.
+# text[spa] =
+# labels =
+
+# sent_id = 4
+# text = Ruk’ taq we tzij ri’, xkik’am ri kiqasna’ pa ri ub’i ri Ajawxel Jesus;
+# text[spa] = 
+# labels =
+
+# sent_id = 5
+# text = ¡Kk’oji’ b’a’ ri usipanik ri ajawxel Jesus Kristo ruk’ ri awuxlab’al!
+# text[spa] = 
+# labels = 
