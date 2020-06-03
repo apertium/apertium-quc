@@ -758,6 +758,9 @@ chi%<pr%>%+%<px3pl%>tzalaj%<n%>%<rel%>:chi%>ki%>tzalaj # ; ! ""
 chi%<pr%>%+uwachulew%<n%>:ch%>uwachulew # ; ! "en mundo" ! Src/Biblia
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>%+ulew%<n%>:ch%>uwach%>ulew # ; ! "en su mundo" ! Src/Biblia
 
+
+chi%<pr%>%+%<px3sg%>chiʼ%<n%>:chuchiʼ # ; ! "a su orilla"
+
 !
 ! ch-jujunal: to each one; one by one
 chi%<pr%>%+%<px3sg%>jujunal%<n%>%<rel%>:chi%>%>jujunal # ; ! "" ! Src/Biblia 
@@ -921,6 +924,7 @@ muqunel:muqunel N-iyom ;           ! "quienes entierran; who bury, evil witch"
 tinamit:tinamit N-tinamit ;        ! "pueblo; village"
 tinamit:tinimit N-tinamit ;        ! "pueblo; village" ! Src/Biblia
 siwantinimit:siwantinimit N-tinamit ; ! "habitantes; " ! Src/Biblia
+siwantinimit:siwantinamit N-tinamit ; ! "habitantes; " ! Src/Biblia
 tijobʼal:tijobʼal N-tinamit ;      ! "escuela; school"
 tijobʼal:tijobal N-tinamit ; ! "classroom"
 tijonik:tijonik N-tinamit ;        ! "unidad; unit"
@@ -4165,7 +4169,8 @@ jeʼ:jeʼ N-chiʼ ; ! "tail"
 jolom:jolom N-chiʼ ; ! "head"
 jumuqʼ:jumuqʼ N-chiʼ ; ! "fistful"
 kʼas:kʼas N-chiʼ ; ! "debt"
-kʼuʼx:kʼuʼx N-chiʼ ; ! "soul"
+kʼuʼx²:kʼuʼx N-chiʼ ; ! "soul"
+kʼuʼx¹:kʼuʼx N-tinamit ; ! "soul"
 kinäqʼ:kinäqʼ N-chiʼ ; ! "kidney"
 palaj:palaj N-chiʼ ; ! "face"
 pam:pam N-chiʼ ; ! "stomach"
@@ -4386,6 +4391,15 @@ ajnasaret:ajnasaret N-ajjudiʼo ; ! ""
 ajtikonel:ajtikonel N-tinamit ; ! "sembrador"
 chomabʼal:chomabʼal N-tinamit ; ! "actitud, pensamiento"
 sabʼado:sabʼado N-tinamit ; ! "sábado"
+bʼaqil:bʼaqil N-tinamit ; ! "cuerpo"
+
+loqʼoqʼebʼal:loqʼoqʼebʼal N-tinamit ; 
+bʼaqilal:bʼaqilal N-tinamit ; 
+tabʼal:tabʼal N-tinamit ; 
+rayibʼal:rayibʼal N-tinamit ; 
+amajaʼ:amajaʼ N-tinamit ; 
+kiʼkotemal:kiʼkotemal N-tinamit ; 
+kyaqiqʼ:kyaqiqʼ N-tinamit ; 
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -6482,6 +6496,7 @@ waqʼawatik:waqʼawat V-IV ; ! "bark (dog)"
 waqʼinik:waqʼin V-IV ; ! "to break with pressure, shatter (something fragile like glass)"
 waqaqik:waqaq V-IV ; ! "to fight, viciously"
 waqlajik:waqlaj V-IV ; ! "to fall apart"
+waʼlajik:waʼlaj V-IV ; ! "incorporarse"
 warik:war V-IV ; ! "to sleep"
 wayanik:wayan V-IV ; ! "cry (dog)"
 wayayik:wayay V-IV ; ! "to cry (dog)"
