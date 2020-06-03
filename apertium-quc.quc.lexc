@@ -4352,6 +4352,7 @@ ajdamasko:ajdamasko N-ajjudiʼo ; ! ""
 ajjudey:ajjudey N-ixoq ;
 ajnasaret:ajnasaret N-ajjudiʼo ; ! ""
 
+ajtikonel:ajtikonel N-tinamit ; ! "sembrador"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -4359,6 +4360,7 @@ Chirijquiac:Chirijquiac NP-Top ;
 Nahuala:Nahuala NP-Top ;
 
 Tzʼunil:Tzʼunil NP-Top ; ! "" ! Src/Cuentos
+Joppe:Joppe NP-Top ; 
 Chuatroj:Chuatroj NP-Top ;
 Sidon:Sidon NP-Top ;
 Kafarnaʼum:Kafarnaʼum NP-Top ;
@@ -5319,6 +5321,8 @@ qʼaxal:qʼaxal A-saq ; ! "profeta"
 qʼaxel:qʼaxel A-saq ; ! ""
 
 qʼatbʼal:qʼatbʼal A-saq ; ! ""
+
+nikʼaj:nikʼaj A-saq ;          ! "otro"
 
 LEXICON Adverbs
 
@@ -7363,7 +7367,7 @@ riq:riq V-TV ;                      ! "find"
 jach:jach V-TV ;                    ! "divide"
 tzaq:tzaq V-TV ;                    ! "drop something"
 toqij:toqij V-TV ;                  ! "take away by force"
-tik:tik V-TV ;                      ! "plant"
+tik:tik V-TV ;                      ! "sembrar; plant"
 sach:sach V-TV ;                    ! "lose"
 petik:petik V-TV ;                  ! "come"
 okisax:okisax V-TV ;                ! "be put in"
