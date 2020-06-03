@@ -464,6 +464,7 @@ LEXICON V-TV-Aʼ
 
 %<v%>%<tv%>:   # ;
 %<v%>%<tv%>%+aʼ%<mark%>:%>aʼ   # ;
+%<v%>%<tv%>%+aʼ%<mark%>:%>a   # ; ! Use/Spell
 
 
 
@@ -736,6 +737,14 @@ chi%<pr%>%+%<px3pl%>tzalaj%<n%>%<rel%>:chi%>ki%>tzalaj # ; ! ""
 chi%<pr%>%+uwachulew%<n%>:ch%>uwachulew # ; ! "en mundo" ! Src/Biblia
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>%+ulew%<n%>:ch%>uwach%>ulew # ; ! "en su mundo" ! Src/Biblia
 
+!
+! ch-jujunal: to each one; one by one
+chi%<pr%>%+%<px3sg%>jujunal%<n%>%<rel%>:chi%>%>jujunal # ; ! "" ! Src/Biblia 
+chi%<pr%>%+%<px3sg%>jujunal%<n%>%<rel%>:ch%>%>jujunal # ; ! "" ! Src/Biblia 
+chi%<pr%>%+%<px1pl%>jujunal%<n%>%<rel%>:ch%>qa%>jujunal # ; ! ""
+chi%<pr%>%+%<px3pl%>jujunal%<n%>%<rel%>:ch%>ki%>jujunal # ; ! ""
+chi%<pr%>%+%<px3pl%>jujunal%<n%>%<rel%>:chi%>ki%>jujunal # ; ! "" ! Src/Biblia ! Use/Spell
+
 LEXICON Relationals
 
 !ach:ach Rel ;                      ! ""
@@ -756,6 +765,7 @@ xoʼl:xoʼl Rel ;
 mox:mox Rel ;
 wikiqʼab:wikiqʼab Rel ;
 tzalaj:tzalaj Rel ;
+jujunal:jujunal Rel ;              ! 
 
 
 LEXICON Determiners
@@ -7192,6 +7202,7 @@ il:il V-TV-O ;                      ! "ver; see"
 ta:ta V-TV-O ;                      ! "entender; understand"
 taʼ:taʼ V-TV-O ;                    ! "preguntar; ask"
 ya:ya V-TV-O ;                      ! "dar; give" ! Src/Biblia
+ya:yaʼ V-TV-Aʼ ;                      ! "dar; give" ! Src/Biblia
 yaʼ:yaʼ V-TV-O ;                    ! "dar; give" ! Src/Dico
 loqʼ:loqʼ V-TV-O ;                  ! "comprar; buy"
 chʼobʼ:chʼobʼ V-TV-O ;              ! "saber, comprender; know, understand"
@@ -7483,6 +7494,7 @@ tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
 we:we CS ;                          ! "si; if"
 pune:pune CS ;                      ! "aunque; although"
 kʼut:kʼut CC ;                      ! "pero"
+tekʼut:tekʼut CC ;                      ! "pero"
 kʼut:kʼu CC ;                      ! "pero"
 arech:arech CS ;                    ! "para que"
 arechaʼ:arechaʼ CS ;                    ! "para que"
