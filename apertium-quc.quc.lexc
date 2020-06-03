@@ -554,6 +554,26 @@ ala%<clf%>%<m%>:a # ; ! "baby boy or young man"
 tat%<clf%>%<m%>:tat # ; ! "old/respected man"
 nan%<clf%>%<f%>:nan # ; ! "old/respected woman"
 
+LEXICON Conjunctions
+xaneʼ:xaneʼ   CC ;                  ! "pero; but"
+xane:xane   CC ;                    ! "pero; but"
+tzare:tzare   CC ;                  ! "pero; but"
+on:on CC ;                          ! "o; or"
+kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Bible
+tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
+
+we:we CS ;                          ! "si; if"
+pune:pune CS ;                      ! "aunque; although"
+kʼut:kʼut CC ;                      ! "pero"
+tekʼut:tekʼut CC ;                      ! "pero"
+kʼut:kʼu CC ;                      ! "pero"
+arech:arech CS ;                    ! "para que"
+arechaʼ:arechaʼ CS ;                    ! "para que"
+arechiʼ:arechiʼ CS ;                    ! "cuando"
+! Chi is also a conjunction introducing object complement clauses of transitive verbs (I see that you did this).
+chi:chi CS ;                       ! COMPL
+
+
 LEXICON Direccionales
 
 uloq%<adv%>%<dir%>:uloq # ;              ! "toward speaker, here, toward here"
@@ -7386,6 +7406,10 @@ petik:petik V-TV ;                  ! "come"
 okisax:okisax V-TV ;                ! "be put in"
 
 naʼtisaj:naʼtisaj V-TV ;            ! "recordar; remember"
+junamataj:junamataj V-TV ;            ! "comparar"
+junamataj:junamtaj V-TV ;            ! "comparar"
+junamatisaj:junamtisaj V-TV ;        ! "comparar"
+junamatisaj:junamatisaj V-TV ;        ! "comparar" 
 
 LEXICON Irregulares
 ! Irregular
@@ -7484,25 +7508,6 @@ chupador:chupador N-estado ; ! ""
 
 !europeo:europeo N-estado ; ! ""
 !terapéutico:terapéutic N- ; ! ""
-
-LEXICON Conjunctions
-xaneʼ:xaneʼ   CC ;                  ! "pero; but"
-xane:xane   CC ;                    ! "pero; but"
-tzare:tzare   CC ;                  ! "pero; but"
-on:on CC ;                          ! "o; or"
-kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Bible
-tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
-
-we:we CS ;                          ! "si; if"
-pune:pune CS ;                      ! "aunque; although"
-kʼut:kʼut CC ;                      ! "pero"
-tekʼut:tekʼut CC ;                      ! "pero"
-kʼut:kʼu CC ;                      ! "pero"
-arech:arech CS ;                    ! "para que"
-arechaʼ:arechaʼ CS ;                    ! "para que"
-arechiʼ:arechiʼ CS ;                    ! "cuando"
-! Chi is also a conjunction introducing object complement clauses of transitive verbs (I see that you did this).
-chi:chi CS ;                       ! COMPL
 
 LEXICON Punctuation
 
