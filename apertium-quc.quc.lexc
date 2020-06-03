@@ -5331,7 +5331,7 @@ xuqe:xuqe Ad-aninaq ;                  ! FIXME: Comprueba categoría
 ! Nota bene: Chi is also a conjunction introducing object complement
 ! clauses of transitive verbs (I see that you did this). It is also
 ! part of complex prepositions (see below). Be careful not to confuse the
-! preposition chi with the adverb chi(k) “again; already” or the locative demonstrative chi’ “here”.
+! preposition chi with the adverb chi(k) “again; already” or the locative demonstrative chiʼ “here”.
 chiʼ:chiʼ Ad-aninaq ;              ! "aquí; here"
 chi:chi Ad-aninaq ;                ! "otra vez, ya; again"
 chik:chik Ad-aninaq ;                ! "otra vez, ya; again"
@@ -7367,6 +7367,8 @@ tik:tik V-TV ;                      ! "plant"
 sach:sach V-TV ;                    ! "lose"
 petik:petik V-TV ;                  ! "come"
 okisax:okisax V-TV ;                ! "be put in"
+
+naʼtisaj:naʼtisaj V-TV ;            ! "recordar; remember"
 
 LEXICON Irregulares
 ! Irregular
