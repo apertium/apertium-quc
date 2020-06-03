@@ -16,15 +16,15 @@
 	"!" sent @punct #6->1
 
 # sent_id = utexas:64
-# text = K’ax le kib’e le winaq.
+# text = Kʼax le kibʼe le winaq.
 # text[spa] =  El camino de la gente es difícil.
 # labels = tijonik-7
 # notes = (le) PX-noun1 (le) noun2 = (el) noun1 de (el) noun2
-"<K’ax>"
+"<Kʼax>"
 	"kʼax" adj @root #1->0
 "<le>"
 	"le" det @det #2->3
-"<kib’e>"
+"<kibʼe>"
 	"bʼe" n px3pl @nsubj #3->1
 "<le>"
 	"le" det @det #4->5
@@ -34,21 +34,21 @@
 	"." sent @punct #6->1
 
 # sent_id = utexas:66
-# text = K’ak’ le po’t.
+# text = Kʼakʼ le poʼt.
 # text[spa] =  El huipil es nuevo.
 # labels = tijonik-7
-"<K’ak’>"
+"<Kʼakʼ>"
 	"kʼakʼ" adj @root #1->0
 "<le>"
 	"le" det @det #2->3
-"<po’t>"
+"<poʼt>"
 	"poʼt" n @nsubj #3->1
 "<.>"
 	"." sent @punct #4->1
 
 # sent_id = utexas:123
-# text = Xuk’ut le K’iche’ ch’ab’al le al Nela chqawach.
-# text[spa] =  Manuela nos enseñó el idioma k’iche’
+# text = Xukʼut le Kʼicheʼ chʼabʼal le al Nela chqawach.
+# text[spa] =  Manuela nos enseñó el idioma kʼicheʼ
 # labels = tijonik-17
 "<Xukʼut>"
 	"kʼut" v tv perf o_sg3 s_sg3 @root #1->0
