@@ -31,6 +31,8 @@ LIST Chi = "chi" ;
 
 LIST Jun = "jun" ;
 
+LIST We = "we" ; 
+
 SET NOMINAL = N | Prop ;
 
 SET FIN = Impf | Perf ;
@@ -56,6 +58,10 @@ SELECT N IF (-1 Det) (0 N OR A) (1 Dem) ;
 
 SELECT A IF (0 Chi) (-1 Jun) (1 N) ;
     ## jun chi Ajawxel, jun chi qakojonik, jun chi qaqasnaʼ
+
+SELECT Det IF (0 We) (1 N) ;
+    ## Ruk’ taq we tzij ri’, xkik’am ri kiqasna’ pa ri ub’i ri Ajawxel Jesus;
+
 
 SECTION
 
