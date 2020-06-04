@@ -1980,3 +1980,26 @@
 ^chinuwach/chi<pr>+<px1sg>wach<n><rel>$
 ^in/in<prn><pers><p1><sg>$
 ^./.<sent>$
+
+# sent_id = utexas:171
+# text = Xukunaj le yawabʼ le aj qʼij
+# text[spa] = El sacerdote maya curó al enfermo.
+# labels = tijonik-30
+^Xukunaj/*Xukunaj$
+^le/le<det>$
+^yawabʼ/yawabʼ<adj>/yawabʼ<n>$
+^le/le<det>$
+^aj/Aj<n>/aj<n>/aj<pr>/äj<n>$
+^qʼij/qʼij<n>$
+
+# sent_id = utexas:172
+# text = Xkunax le yawabʼ (rumal le aj qʼij)
+# text[spa] = El enfermo fue curado (por el sacerdote)
+# labels = tijonik-30
+^Xkunax/<perf><s_sg3>kunaxik<v><iv>$
+^le/le<det>$
+^yawabʼ/yawabʼ<adj>/yawabʼ<n>$
+^rumal/<px3sg>umal<n><rel>$
+^le/le<det>$
+^aj/Aj<n>/aj<n>/aj<pr>/äj<n>$
+^qʼij/qʼij<n>$

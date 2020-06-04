@@ -1326,3 +1326,26 @@
 ^chinuwach/chi>nu>wach$
 ^in/in$
 ^./.$
+
+sent_id = utexas:171
+# text = Xukunaj le yawabʼ le aj qʼij
+# text[spa] = El sacerdote maya curó al enfermo.
+# labels = tijonik-30
+^Xukunaj/x>u>>kunaj$
+^le/le$
+^yawabʼ/yawabʼ$
+^le/le$
+^aj/aj$
+^qʼij/qʼij$
+
+# sent_id = utexas:172
+# text = Xkunax le yawabʼ (rumal le aj qʼij)
+# text[spa] = El enfermo fue curado (por el sacerdote)
+# labels = tijonik-30
+^Xkunax/x>>kunax$
+^le/le$
+^yawabʼ/yawabʼ$
+^rumal/r>umal$
+^le/le$
+^aj/aj$
+^qʼij/qʼij$

@@ -25,7 +25,7 @@ Multichar_Symbols
 %<f%>                ! Femenino
 %<part%>             ! Particle
 %<mod%>              ! Modal
-%<foc%>              ! Focus 
+%<foc%>              ! Focus
 %<v%>
 %<cnjsub%>                         !
 %<ij%>                         !
@@ -527,7 +527,7 @@ la%<part%>%<frm%>:la # ; !
 alaq%<part%>%<frm%>:alaq # ; !
 are%<foc%>:are # ;
 
-nakʼut%<adv%>:nakʼut # ; ! "pues" 
+nakʼut%<adv%>:nakʼut # ; ! "pues"
 
 bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
 bʼaʼ%<ij%>:baʼ # ; ! "pues"
@@ -763,8 +763,8 @@ chi%<pr%>%+%<px3sg%>chiʼ%<n%>:chuchiʼ # ; ! "a su orilla"
 
 !
 ! ch-jujunal: to each one; one by one
-chi%<pr%>%+%<px3sg%>jujunal%<n%>%<rel%>:chi%>%>jujunal # ; ! "" ! Src/Biblia 
-chi%<pr%>%+%<px3sg%>jujunal%<n%>%<rel%>:ch%>%>jujunal # ; ! "" ! Src/Biblia 
+chi%<pr%>%+%<px3sg%>jujunal%<n%>%<rel%>:chi%>%>jujunal # ; ! "" ! Src/Biblia
+chi%<pr%>%+%<px3sg%>jujunal%<n%>%<rel%>:ch%>%>jujunal # ; ! "" ! Src/Biblia
 chi%<pr%>%+%<px1pl%>jujunal%<n%>%<rel%>:ch%>qa%>jujunal # ; ! ""
 chi%<pr%>%+%<px3pl%>jujunal%<n%>%<rel%>:ch%>ki%>jujunal # ; ! ""
 chi%<pr%>%+%<px3pl%>jujunal%<n%>%<rel%>:chi%>ki%>jujunal # ; ! "" ! Src/Biblia ! Use/Spell
@@ -789,7 +789,7 @@ xoʼl:xoʼl Rel ;
 mox:mox Rel ;
 wikiqʼab:wikiqʼab Rel ;
 tzalaj:tzalaj Rel ;
-jujunal:jujunal Rel ;              ! 
+jujunal:jujunal Rel ;              !
 
 
 LEXICON Determiners
@@ -4393,13 +4393,13 @@ chomabʼal:chomabʼal N-tinamit ; ! "actitud, pensamiento"
 sabʼado:sabʼado N-tinamit ; ! "sábado"
 bʼaqil:bʼaqil N-tinamit ; ! "cuerpo"
 
-loqʼoqʼebʼal:loqʼoqʼebʼal N-tinamit ; 
-bʼaqilal:bʼaqilal N-tinamit ; 
-tabʼal:tabʼal N-tinamit ; 
-rayibʼal:rayibʼal N-tinamit ; 
-amajaʼ:amajaʼ N-tinamit ; 
-kiʼkotemal:kiʼkotemal N-tinamit ; 
-kyaqiqʼ:kyaqiqʼ N-tinamit ; 
+loqʼoqʼebʼal:loqʼoqʼebʼal N-tinamit ;
+bʼaqilal:bʼaqilal N-tinamit ;
+tabʼal:tabʼal N-tinamit ;
+rayibʼal:rayibʼal N-tinamit ;
+amajaʼ:amajaʼ N-tinamit ;
+kiʼkotemal:kiʼkotemal N-tinamit ;
+kyaqiqʼ:kyaqiqʼ N-tinamit ;
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -4407,7 +4407,7 @@ Chirijquiac:Chirijquiac NP-Top ;
 Nahuala:Nahuala NP-Top ;
 
 Tzʼunil:Tzʼunil NP-Top ; ! "" ! Src/Cuentos
-Joppe:Joppe NP-Top ; 
+Joppe:Joppe NP-Top ;
 Chuatroj:Chuatroj NP-Top ;
 Sidon:Sidon NP-Top ;
 Kafarnaʼum:Kafarnaʼum NP-Top ;
@@ -7225,6 +7225,7 @@ majij:majij V-TV ;                  ! "take away"
 tzijoj:tzijoj V-TV ;                ! "tell, relate"
 sutij:sutij V-TV ;                  ! "spin, rotate"
 qasaj:qasaj V-TV ;                  ! "demolish"
+kunaj:kunak V-TV ;                  ! "cure" ! Src/UTexas
 
 pax:pax V-TV ;                      ! "romper; break"
 pis:pis V-TV ;                      ! "envolver, vendar; wrap, bandage"
@@ -7428,7 +7429,7 @@ naʼtisaj:natisaj V-TV ;            ! "recordar; remember" ! Src/Biblia ! Use/Sp
 junamataj:junamataj V-TV ;            ! "comparar"
 junamataj:junamtaj V-TV ;            ! "comparar"
 junamatisaj:junamtisaj V-TV ;        ! "comparar"
-junamatisaj:junamatisaj V-TV ;        ! "comparar" 
+junamatisaj:junamatisaj V-TV ;        ! "comparar"
 
 LEXICON Irregulares
 ! Irregular
