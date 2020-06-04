@@ -6,6 +6,8 @@ LIST Clf = clf ;
 LIST Prop = np ;
 LIST Num = num ;
 LIST Pr = pr ;
+LIST Adv = adv ;
+LIST V = v ; 
 LIST Det = det ;
 
 LIST Na = "na" ;
@@ -23,19 +25,24 @@ LIST Pers = pers ;
 
 LIST Dem = dem ;
 
+LIST Dir = dir ;
+
 LIST @det = @det ;
+LIST @obl:pron = @obl:pron ;
 
 LIST In = "in" ; 
-
 LIST Chi = "chi" ;
-
 LIST Jun = "jun" ;
-
 LIST We = "we" ; 
+LIST Kan = "<kan>" ;
+
+LIST Days = "Aj" "Ajmak" "Aqʼabal" "Batzʼ" "Imox" "Iqʼ" "Ix" "Junajpu" "Kame" "Kan" "Kaweq" "Kej" "Kʼat" "Noʼj" "Qʼanil" "Tijax" "Toj" "Tzʼikin" "Tzʼiʼ"  ;
 
 SET NOMINAL = N | Prop ;
 
 SET FIN = Impf | Perf ;
+
+SET NP-INTERNAL = Det | N | A | Adv | Num ;
 
 SECTION
 
@@ -62,9 +69,14 @@ SELECT A IF (0 Chi) (-1 Jun) (1 N) ;
 SELECT Det IF (0 We) (1 N) ;
     ## Ruk’ taq we tzij ri’, xkik’am ri kiqasna’ pa ri ub’i ri Ajawxel Jesus;
 
+REMOVE Days ;
+
+SELECT Dir IF (-1 V) ;
 
 SECTION
 
 MAP @det TARGET Det IF (1C Clf LINK 1 NOMINAL) ;
 
 MAP @det TARGET Dem IF (-1C N LINK -1 Det) ;
+
+# MAP @obl:pron TARGET Rel IF (NOT 1 NP-INTERNAL) ;
