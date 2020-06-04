@@ -153,9 +153,24 @@ LEXICON IK
 
 LEXICON Procliticos
 
-e%<pl%>%+:e%{ʼ%}%> Poss ;
-e%<pl%>%+:e%{ʼ%}%> Adjectives ;  ! etyoxlaj
-e%<pl%>%+:e%{ʼ%}%> Cardinals ;  ! ewuqubʼ
+in%<prn%>%<pro%>%<p1%>%<sg%>%+:in%> Subst ;
+at%<prn%>%<pro%>%<p2%>%<sg%>%+:at%> Subst ;
+lal%<prn%>%<pro%>%<p2%>%<frm%>%<sg%>%+:lal%> Subst ;
+areʼ%<prn%>%<pro%>%<p3%>%<sg%>%+:areʼ%> Subst ;
+! fixme%+: comprueba las reglas para -oj/-uj
+oj%<prn%>%<pro%>%<p1%>%<pl%>%+:oj%> Subst ;
+uj%<prn%>%<pro%>%<p1%>%<pl%>%+:uj%> Subst ;
+ix%<prn%>%<pro%>%<p2%>%<pl%>%+:ix%> Subst ;
+e%<prn%>%<pro%>%<p3%>%<pl%>%+:e%{ʼ%}%> Subst ;
+
+!e%<pl%>%+:e%{ʼ%}%> Subst ;
+
+LEXICON Subst
+
+Poss ;
+Adjectives ; ! etyoxlaj
+Cardinals ; ! ewuqubʼ
+
 
 LEXICON Poss
 @P.Poss.None@         Nouns ;
@@ -318,7 +333,7 @@ in%<prn%>%<pro%>%<p1%>%<sg%>:in # ;
 at%<prn%>%<pro%>%<p2%>%<sg%>:at # ;
 lal%<prn%>%<pro%>%<p2%>%<frm%>%<sg%>:lal # ;
 areʼ%<prn%>%<pro%>%<p3%>%<sg%>:areʼ # ;
-! FIXME: Comprueba las reglas para -oj/-uj
+! fixme: comprueba las reglas para -oj/-uj
 oj%<prn%>%<pro%>%<p1%>%<pl%>:oj # ;
 uj%<prn%>%<pro%>%<p1%>%<pl%>:uj # ;
 ix%<prn%>%<pro%>%<p2%>%<pl%>:ix # ;
