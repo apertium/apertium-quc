@@ -383,15 +383,15 @@ B-TV ;
 
 LEXICON B-IV
 
-!%<s_sg1%>:%>i%{m%} IV;
-%<s_sg1%>:%>in IV;
-%<s_sg2%>:%>at IV;
-! %<s_sg2%>:%> IV;
-%<s_sg3%>:%> IV;
-%<s_pl1%>:%>%{o%}j IV;
-%<s_pl2%>:%>ix IV;
-! %<s_pl2%>:%> IV;
-%<s_pl3%>:%>e IV;
+!%<s_sg1%>:%>i%{m%} MOV-IV;
+%<s_sg1%>:%>in MOV-IV;
+%<s_sg2%>:%>at MOV-IV;
+! %<s_sg2%>:%> MOV-IV;
+%<s_sg3%>:%> MOV-IV;
+%<s_pl1%>:%>%{o%}j MOV-IV;
+%<s_pl2%>:%>ix MOV-IV;
+! %<s_pl2%>:%> MOV-IV;
+%<s_pl3%>:%>e MOV-IV;
 
 LEXICON A-TV
 
@@ -406,24 +406,33 @@ LEXICON A-TV
 
 LEXICON B-TV
 
-!%<o_sg1%>:%>i%{m%}     MOV;
-%<o_sg1%>:%>in     MOV;
-%<o_sg2%>:%>at         MOV;
-! %<o_sg2%>:%> MOV;
-%<o_sg3%>:%>           MOV;
-%<o_pl1%>:%>%{o%}j     MOV;
-%<o_pl2%>:%>ix         MOV;
-! %<o_pl2%>:%> MOV;
-%<o_pl3%>:%>e          MOV;
+!%<o_sg1%>:%>i%{m%}     MOV-TV;
+%<o_sg1%>:%>in     MOV-TV;
+%<o_sg2%>:%>at         MOV-TV;
+! %<o_sg2%>:%> MOV-TV;
+%<o_sg3%>:%>           MOV-TV;
+%<o_pl1%>:%>%{o%}j     MOV-TV;
+%<o_pl2%>:%>ix         MOV-TV;
+! %<o_pl2%>:%> MOV-TV;
+%<o_pl3%>:%>e          MOV-TV;
 
-LEXICON MOV
+LEXICON MOV-TV
 ! lat - movement towards
 ! e - movement away
 
 %<lat%>:%>ul                   A-TV ;
-%<abl%>:%>e                    A-TV ;
+%<abl%>:%>e%{ʼ%}                    A-TV ;
 %<abl%>:%>bʼe                  A-TV ;
                                A-TV ;
+
+LEXICON MOV-IV
+! lat - movement towards
+! e - movement away
+
+%<lat%>:%>ul                   IV ;
+%<abl%>:%>e%{ʼ%}                    IV ;
+%<abl%>:%>bʼe                  IV ;
+                               IV ;
 
 !LEXICON NONFIN
 !
@@ -525,6 +534,8 @@ jetaq%<pl%>:jetaq # ;
 la%<qst%>:la # ;
 si%<emph%>:si # ;
 man%<neg%>:man # ;
+taj%<neg%>:taj # ;
+taj:taj  Ad-aninaq ; ! "indicator of negativity or doubtfulness"
 ma%<neg%>:ma # ;
 na%<neg%>:na # ;
 ta%<mod%>:ta # ;
@@ -4488,6 +4499,7 @@ rokibʼal:rokibʼal N-tinamit ; ! "su entrada"
 kʼastajibʼal:kʼastajibʼal N-tinamit ; ! "resurrección"
 
 taqoʼnel:taqoʼnel N-iyom ; ! "apóstol"
+chʼabʼ:chʼabʼ N-tinamit ; ! ""
 
 
 Aj:aj N-tinamit ; ! "day of sacred calendar"
@@ -5540,7 +5552,6 @@ xuqujʼe:xoqujeʼ Ad-aninaq ;        ! "also"
 chanim:chanim Ad-aninaq ;          ! "right now, rapidly"
 waral:waral Ad-aninaq ;            ! "here"
 jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
-taj:taj Ad-aninaq ;                ! "indicator of negativity or doubtfulness"
 naj:naj Ad-aninaq ;                ! "from afar, for a long time"
 ne:ne Ad-aninaq ;                  ! "marker of doubt"
 apawijeʼ:apawijeʼ Ad-aninaq ;      ! "wherever"
@@ -5598,8 +5609,10 @@ kokojil:kokojil  Ad-aninaq ; ! "slowly"
 lo:lo  Ad-aninaq ; ! "perhaps; indicator of doubt"
 maj:maj  Ad-aninaq ; ! "none; nothing"
 majaʼ:majaʼ  Ad-aninaq ; ! "not yet"
-majoq:majoq  Ad-aninaq ; ! "before"
-man...taj:man...taj  Ad-aninaq ; ! "negative indicator"
+majoʼq:majoʼq Ad-aninaq ; ! "antes"
+majoʼq:majoq  Ad-aninaq ; ! "antes; before"
+kʼamajoʼq:kʼamajoʼq Ad-aninaq ; ! "antes"
+!man...taj:man...taj  Ad-aninaq ; ! "negative indicator"
 mataʼm:mataʼm  Ad-aninaq ; ! "late"
 mawi:mawi  Ad-aninaq ; ! "neither; nor"
 mer:mer  Ad-aninaq ; ! "recently; today"
@@ -5626,7 +5639,6 @@ säqiʼn:säqiʼn  Ad-aninaq ; ! "nearly; almost; to half-do something"
 sibalaj:sibalaj  Ad-aninaq ; ! "very"
 suʼbatajinaq:suʼbatajinaq  Ad-aninaq ; ! "wrapped up; work completed"
 sukʼum:sukʼum  Ad-aninaq ; ! "straight; directly [Toto]"
-taj:taj  Ad-aninaq ; ! "indicator of negativity or doubtfulness"
 tzalanik:tzalanik  Ad-aninaq ; ! "sideways"
 tzalatzik:tzalatzik  Ad-aninaq ; ! "slightly sideways"
 tzij:tzij  Ad-aninaq ; ! "truly"
