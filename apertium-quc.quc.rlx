@@ -35,6 +35,7 @@ LIST Chi = "chi" ;
 LIST Jun = "jun" ;
 LIST We = "we" ; 
 LIST Kan = "<kan>" ;
+LIST Tzij = "tzij" ;
 
 LIST Days = "Aj" "Ajmak" "Aqʼabal" "Batzʼ" "Imox" "Iqʼ" "Ix" "Junajpu" "Kame" "Kan" "Kaweq" "Kej" "Kʼat" "Noʼj" "Qʼanil" "Tijax" "Toj" "Tzʼikin" "Tzʼiʼ"  ;
 
@@ -68,6 +69,9 @@ SELECT A IF (0 Chi) (-1 Jun) (1 N) ;
 
 SELECT Det IF (0 We) (1 N) ;
     ## Ruk’ taq we tzij ri’, xkik’am ri kiqasna’ pa ri ub’i ri Ajawxel Jesus;
+
+SELECT N IF (-1 Det) (0 Tzij) (NOT 1 N) ;
+    ## Ri areʼ kʼo ekijebʼ qʼapoj umiʼal che kkibʼij ri tzij jeʼ jas ri eqʼaxal utzij ri Dyos.
 
 REMOVE Days ;
 
