@@ -22,7 +22,7 @@ quc.twol.hfst: apertium-quc.quc.twol
 
 quc.lexc.hfst: apertium-quc.quc.lexc
 	# <impf><o_pl1><s_pl3>tʼis<v><tv>+o<mark>:k>{o}j>k{i}>tʼis>o
-	hfst-lexc --Werror $< -o $@
+	hfst-lexc -A --Werror $< -o $@
 
 quc.mor.twol.hfst: apertium-quc.quc.mor.twol
 	hfst-twolc apertium-quc.quc.mor.twol -o quc.mor.twol.hfst

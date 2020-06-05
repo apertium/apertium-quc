@@ -1,5 +1,7 @@
 DELIMITERS = "<.>" "<!>" "<;>" "<?>" ;
 
+SUBREADINGS = LTR ;
+
 LIST A = adj ;
 LIST N = n ;
 LIST Clf = clf ;
@@ -22,6 +24,9 @@ LIST Perf = perf ;
 
 LIST Pro = pro ;
 LIST Pers = pers ;
+
+LIST Pl = pl ; 
+LIST Taq = "taq" ;
 
 LIST Dem = dem ;
 
@@ -72,6 +77,10 @@ SELECT Det IF (0 We) (1 N) ;
 
 SELECT N IF (-1 Det) (0 Tzij) (NOT 1 N) ;
     ## Ri areʼ kʼo ekijebʼ qʼapoj umiʼal che kkibʼij ri tzij jeʼ jas ri eqʼaxal utzij ri Dyos.
+
+SELECT N IF (-1 Taq) (0 N OR A) (NOT 1 N) ;
+
+REMOVE A IF (0 Tzij) (NOT 1 N - Rel) ;
 
 REMOVE Days ;
 

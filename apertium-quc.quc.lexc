@@ -421,7 +421,8 @@ LEXICON MOV-TV
 ! e - movement away
 
 %<lat%>:%>ul                   A-TV ;
-%<abl%>:%>e%{ʼ%}                    A-TV ;
+!%<abl%>:%>e%{ʼ%}               A-TV ;
+%<abl%>:%>eʼ                   A-TV ;
 %<abl%>:%>bʼe                  A-TV ;
                                A-TV ;
 
@@ -430,7 +431,8 @@ LEXICON MOV-IV
 ! e - movement away
 
 %<lat%>:%>ul                   IV ;
-%<abl%>:%>e%{ʼ%}                    IV ;
+!%<abl%>:%>e%{ʼ%}               IV ;
+%<abl%>:%>eʼ                   IV ;
 %<abl%>:%>bʼe                  IV ;
                                IV ;
 
@@ -470,6 +472,8 @@ LEXICON V-TV
 %<v%>%<tv%>:   IK ;
 !%<v%>%<tv%>:   NONFIN ;
 
+!%<v%>%<tv%>%<anti%>:%>ow   # ;
+
 LEXICON V-TV-PERF
 
 %<v%>%<tv%>%<perf%>:   # ;
@@ -478,18 +482,24 @@ LEXICON V-TV-O
 
 %<v%>%<tv%>:   # ;
 %<v%>%<tv%>%+o%<mark%>:%>o     # ;
-
+!%<v%>%<tv%>%<anti%>:%>ow   # ;
+!%<v%>%<tv%>%<anti%>:%>on   # ;
+!
 LEXICON V-TV-U
 
 %<v%>%<tv%>:   # ;
 %<v%>%<tv%>%+u%<mark%>:%>u     # ;
-
+!%<v%>%<tv%>%<anti%>:%>uw   # ;
+!%<v%>%<tv%>%<anti%>:%>un   # ;
+!
 LEXICON V-TV-Aʼ
 
 %<v%>%<tv%>:   # ;
 %<v%>%<tv%>%+aʼ%<mark%>:%>aʼ   # ;
 %<v%>%<tv%>%+aʼ%<mark%>:%>a   # ; ! Use/Spell
-
+!%<v%>%<tv%>%<anti%>:%>ow   # ;
+!%<v%>%<tv%>%<anti%>:%>on   # ;
+!
 
 
 LEXICON Pron-jasuch
@@ -547,7 +557,7 @@ katajin%<aux%>:katajin # ;
 chik%<part%>:chik # ; ! "ya no/otra vez/ya esta" ! Src/Lopez Ixcoy 1997
 pe%<part%>:pe # ; !
 kʼu%<part%>:kʼu # ; !
-xas%<part%>:xas # ; ! Src/Bible
+xas%<part%>:xas # ; ! Src/Biblia
 xas%<part%>:xaas # ; ! Src/LopezIxcoy1997
 la%<part%>%<frm%>:la # ; !
 alaq%<part%>%<frm%>:alaq # ; !
@@ -585,11 +595,11 @@ xaneʼ:xaneʼ   CC ;                  ! "pero; but"
 xane:xane   CC ;                    ! "pero; but"
 tzare:tzare   CC ;                  ! "pero; but"
 on:on CC ;                          ! "o; or"
-kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Bible
+kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Biblia
 tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
 
 we:we CS ;                          ! "si; if"
-weta:weta CS ;                      ! "si" ! Src/Bible
+weta:weta CS ;                      ! "si" ! Src/Biblia
 pune:pune CS ;                      ! "aunque; although"
 kʼut:kʼut CC ;                      ! "pero"
 tekʼut:tekʼut CC ;                      ! "pero"
@@ -898,6 +908,8 @@ ujulaj:ujulaj Num-Ord ; !  "eleventh"
 ujulajuj:ujulajuj Num-Ord ; !  "eleventh"
 ujuwinaq:ujuwinaq Num-Ord ; !  "twentieth"
 
+joropaʼ:joropaʼ Num ;            ! "cuánto"
+joropaʼ:joropa Num ;            ! "cuánto" 
 
 LEXICON Nouns
 
@@ -4400,6 +4412,7 @@ ajbʼetsaʼida:ajbʼetsaʼida N-ajjudiʼo ; ! ""
 junabal:junabal N-tinamit ; ! "shrine visited on "one days" of sacred calendar"
 
 ajtikonel:ajtikonel N-tinamit ; ! "sembrador"
+ajtikonel:ajtikonnel N-tinamit ; ! "sembrador" ! Use/Spell ! Src/Biblia
 chomabʼal:chomabʼal N-tinamit ; ! "actitud, pensamiento"
 sabʼado:sabʼado N-tinamit ; ! "sábado"
 bʼaqil:bʼaqil N-tinamit ; ! "cuerpo"
@@ -4500,6 +4513,7 @@ kʼastajibʼal:kʼastajibʼal N-tinamit ; ! "resurrección"
 
 taqoʼnel:taqoʼnel N-iyom ; ! "apóstol"
 chʼabʼ:chʼabʼ N-tinamit ; ! ""
+rabʼ:rabʼ N-tinamit ; ! "raíz"
 
 
 Aj:aj N-tinamit ; ! "day of sacred calendar"
@@ -4526,6 +4540,8 @@ LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Chirijquiac:Chirijquiac NP-Top ;
 Nahuala:Nahuala NP-Top ;
+
+Iximulew:Iximulew NP-Top ; ! ""
 
 Tzʼunil:Tzʼunil NP-Top ; ! "" ! Src/Cuentos
 Joppe:Joppe NP-Top ;
@@ -4576,6 +4592,7 @@ Perez:Perez NP-Cog ;
 
 Migueʼl:Migueʼl NP-Ant-M ;
 Adam:Adam NP-Ant-M ;
+Bʼeliʼar:Bʼeliʼar NP-Ant-M ; 
 Bʼenjamin:Bʼenjamin NP-Ant-M ;
 Bʼartolome:Bʼartolome NP-Ant-M ;
 Vicente:Vicente NP-Ant-M ;
@@ -4795,7 +4812,6 @@ yawabʼ:yawabʼ A-saq ;              ! "enfermo; sick"
 kʼin:kʼin A-saq ;                  ! "diminutivo; diminutive (used with animals)"
 cho:cho A-saq ;                    ! "profundo; deep"
 itzel:itzel A-saq ;                ! "malo; bad, evil"
-sibʼalaj:sibʼalaj A-saq ;          ! "very"
 jik:jik A-saq ;                    ! "faithful, just"
 junam:junam A-saq ;                ! "equal, identical, together"
 kaq:kaq A-saq ;                    ! "rojo; red"
@@ -5473,7 +5489,7 @@ yutʼulik:yutʼulik A-saq ; ! "bound"
 yutʼum:yutʼum A-saq ; ! "bound up"
 yutuʼt:yutuʼt A-saq ; ! "dried (fruit)"
 yuxulik:yuxulik A-saq ; ! "head bowed (from humility, shame)"
-utzalaj:utzalaj A-saq ; ! "good" ! Src/Bible
+utzalaj:utzalaj A-saq ; ! "good" ! Src/Biblia
 
 tyoxlaj:tyoxlaj A-saq ; ! "santísimo"
 
@@ -5504,6 +5520,7 @@ qʼatbʼal:qʼatbʼal A-saq ; ! ""
 
 nikʼaj:nikʼaj A-saq ;          ! "otro"
 chi:chi A-saq ;                ! "solo"
+ojer:ojer A-saq ;            ! "antiguo"
 
 LEXICON Adverbs
 
@@ -5522,6 +5539,7 @@ chi:chi Ad-aninaq ;                ! "otra vez, ya; again"
 chik:chik Ad-aninaq ;                ! "otra vez, ya; again"
 
 xaq:xaq Ad-aninaq ;                ! sólo
+sibʼalaj:sibʼalaj Ad-aninaq ;          ! "very"
 
 !apan:apan Ad-aninaq ;              ! "cerca"
 !apanöq:apanöq Ad-aninaq ;              ! "cerca, fuera"
@@ -5625,7 +5643,6 @@ najtir:najtir  Ad-aninaq ; ! "in the past; before; anciently"
 ne:ne  Ad-aninaq ; ! "marker of doubt"
 nimaqʼab:nimaqʼab  Ad-aninaq ; ! "early in the morning"
 ojbir:ojbir  Ad-aninaq ; ! "five days ago"
-ojer:ojer  Ad-aninaq ; ! "in past times"
 oxbir:oxbir  Ad-aninaq ; ! "three years ago"
 oxij:oxij  Ad-aninaq ; ! "in three days"
 oxjir:oxjir  Ad-aninaq ; ! "three days ago"
@@ -5644,7 +5661,7 @@ tzalatzik:tzalatzik  Ad-aninaq ; ! "slightly sideways"
 tzij:tzij  Ad-aninaq ; ! "truly"
 tzpa:tzpa  Ad-aninaq ; ! "since"
 ubik:ubik  Ad-aninaq ; ! "away from speaker"
-ubik:ubʼik  Ad-aninaq ; ! "away from speaker" ! Src/Bible
+ubik:ubʼik  Ad-aninaq ; ! "away from speaker" ! Src/Biblia
 wachanim:wachanim  Ad-aninaq ; ! "now"
 wakamik:wakamik  Ad-aninaq ; ! "right now; now; this day"
 waral:waral  Ad-aninaq ; ! "here"
@@ -5663,9 +5680,9 @@ jacha:jacha Ad-aninaq ; ! "asi, so"
 
 
 kʼatekʼut:kʼatekʼut Ad-aninaq ; ! FIXME: comprobar
-kʼatekʼut:kʼatekut Ad-aninaq ; ! FIXME: comprobar ! Use/Spell ! Src/Bible
+kʼatekʼut:kʼatekut Ad-aninaq ; ! FIXME: comprobar ! Use/Spell ! Src/Biblia
 kʼatekʼuriʼ:kʼatekʼuriʼ Ad-aninaq ; ! "and then it happened"
-jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Bible
+jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Biblia
 xaqbʼiʼ:xaqbʼiʼ Ad-aninaq ; ! "inmediatamente"
 
 chaqʼabʼ:chaqʼabʼ Ad-aninaq ; ! "de noche"
@@ -5764,7 +5781,7 @@ biririk:birir V-IV ; ! "to vibrate"
 birnajik:birnaj V-IV ; ! "to pulse (vessel of wrist or neck)"
 bititik:bitit V-IV ; ! "to be well-dressed"
 bixik:bix V-IV ; ! "to be said"
-bixik:bʼix V-IV ; ! "to be said" ! Src/Bible
+bixik:bʼix V-IV ; ! "to be said" ! Src/Biblia
 bixonik:bixon V-IV ; ! "coo (dove)"
 bixonik:bixon V-IV ; ! "to sing"
 bixtajik:bixtaj V-IV ; ! "to be spoken to"
@@ -7097,7 +7114,6 @@ qʼabaj:qʼabaj V-TV ; ! "to blame for something"
 qʼabej:qʼabej V-TV ; ! "to blame someone"
 qʼaj:qʼaj V-TV ; ! "to break (bone)"
 qʼalajisaj:qʼalajisaj V-TV ; ! "to declare"
-qʼaluj:qʼaluj V-TV ; ! "to hold in arms"
 qʼaqʼaj:qʼaqʼaj V-TV ; ! "to heat"
 qʼatej:qʼatej V-TV ; ! "to follow someone"
 qʼatej:qʼatej V-TV ; ! "to stop something"
@@ -7562,6 +7578,13 @@ junamataj:junamataj V-TV ;            ! "comparar"
 junamataj:junamtaj V-TV ;            ! "comparar"
 junamatisaj:junamtisaj V-TV ;        ! "comparar"
 junamatisaj:junamatisaj V-TV ;        ! "comparar"
+
+xuliʼ:xuliʼ V-TV ; ! "bajar"
+
+
+
+
+!qʼaluj:qʼalu V-TV-j ; ! "to hold in arms"
 
 LEXICON Irregulares
 ! Irregular
