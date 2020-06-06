@@ -10,6 +10,9 @@ Alphabet
   %{m%}:m %{m%}:n
   %{o%}:o %{o%}:u
   %{ʼ%}:ʼ %{ʼ%}:0
+  %{V%}:o %{V%}:e %{V%}:a %{V%}:i
+  %{U%}:o %{U%}:u %{U%}:a
+  %{O%}:o %{O%}:u 
 
   %>:%>
   
@@ -88,3 +91,18 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 
 "Glottal insertion in plural"
 %{ʼ%}:ʼ <=> _ %>: :Vow ;
+
+! this suffix is -u on root transitives when the root
+!vowel is u and -o when the root vowel is not u
+"Status marking {O}"
+%{O%}:u <=> u [ ? - Vow ]* %> _  ;
+
+! On root transitives, this suffix has the form -V’ at the end of the 
+! intonational phrase (-u’ and -o’ in harmony with a preceding u or o 
+! and -a’ in the other cases) and -V in other positions.
+"Status marking {U}"
+%{U%}:Vx <=> Vy [ ? - Vow ]* %>: _ ;
+         where Vx in ( u  o )
+               Vy in ( u  o ) 
+         matched ;
+
