@@ -37,3 +37,75 @@
 "<.>"
 	"." text @punct #9->1
 
+# sent_id = 3
+# text = Xuloqʼ ri wuj ri ali.
+# text[spa] = La chica compró el libro.
+# labels = canpixabaj-59a
+"<Xuloqʼ>"
+	"loqʼ" v tv perf o_sg3 s_sg3 @root #1->0
+"<ri>"
+	"ri" det @det #2->3
+"<wuj>"
+	"wuj" n @obj #3->1
+"<ri>"
+	"ri" det @det #4->5
+"<ali>"
+	"ali" n @nsubj #5->1
+"<.>"
+	"." @punct #6->1
+
+# sent_id = 4
+# text = Xuloqʼ ri wuj rumal ri ali.
+# text[spa] = El libro fue comprado por la chica.
+# labels = canpixabaj-59b
+"<Xuloqʼ>"
+	"loqʼ" v tv pass perf s_sg3 @root
+"<ri>"
+	"ri" det @det
+"<wuj>"
+	"wuj" n @nsubj
+"<rumal>"
+	"umal" n rel px3sg @case
+"<ri>"
+	"ri" det @det
+"<ali>"
+	"ali" n @obl:agent
+"<.>"
+	"." @punct
+
+# sent_id = 5
+# text = 
+# text[spa] = 
+# labels = 
+"<Xuqʼaluj>"
+	"qʼaluj" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<neʼ>"
+	"neʼ" n
+"<ri>"
+	"ri" det
+"<ixoq>"
+	"ixoq" n
+"<.>"
+	"." sent
+
+# sent_id = 6
+# text = 
+# text[spa] = 
+# labels = 
+"<Ri>"
+	"ri" det
+"<neʼ>"
+	"neʼ" n
+"<xqʼalux>"
+	"qʼaluj" v tv pass perf s_sg3
+"<rumal>"
+	"umal" n rel px3sg
+"<ri>"
+	"ri" det
+"<ixoq>"
+	"ixoq" n
+"<.>"
+	"." sent
+

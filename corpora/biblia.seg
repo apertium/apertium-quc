@@ -38,3 +38,8 @@
 # text = Ri ajtikonel kutik ri Tzij.
 # text[spa] = 
 # labels = 
+
+# sent_id = 7 
+# text = We kʼo jun ktuqaʼrik, ¿la man xoqujeʼ taj kintuqaʼr ri in? We kʼo jun ktzaqik ¿la man kinporoj ta wibʼ ri in?
+# text[spa] = ¿Cuando alguien se siente débil, no comparto yo su debilidad? ¿Y cuando a alguien se le hace tropezar, no ardo yo de indignación?
+# labels = 
