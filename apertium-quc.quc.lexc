@@ -856,6 +856,7 @@ chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>%+ulew%<n%>:ch%>uwach%>ulew # ; ! "en su mun
 
 chi%<pr%>%+%<px3sg%>chiʼ%<n%>:chuchiʼ # ; ! "a su orilla"
 pa%<pr%>+%<px3sg%>qʼabʼ%<n%>:puqʼabʼ # ; ! "en su mano"
+chi%<pr%>+%<px1sg%>ikyaqʼabʼ%<n%>:chwikyaqʼabʼ # ; ! "en mi derecha"
 
 !
 ! ch-jujunal: to each one; one by one
@@ -939,6 +940,7 @@ bʼelejebʼ:bʼelejebʼ Num ;          ! "nueve; nine"
 lajuj:lajuj Num ;                  ! "diez; ten"
 julajuj:julajuj Num ;              ! "once; eleven"
 kablajuj:kablajuj Num ;            ! "doce; twelve"
+kablajuj:kabʼlajuj Num ;            ! "doce; twelve"
 oxlajuj:oxlajuj Num ;              ! "trece; thirteen"
 kajlajuj:kajlajuj Num ;            ! "catorce; fourteen"
 oʼlajuj:oʼlajuj Num ;              ! "quince; fifteen"
@@ -3654,6 +3656,7 @@ toqʼ:toqʼ N-tinamit ; ! "hemorrhage"
 !toqʼ xikin:toqʼ xikin N-tinamit ; ! "earache"
 toqʼil:toqʼil N-tinamit ; ! "collector (taxes)"
 toqʼinel:toqʼinel N-tinamit ; ! "collector of fees, taxes"
+ajtoqʼinel:ajtoqʼinel N-iyom ; ! ""
 !toqʼinel alcabal:toqʼinel alcabal N-tinamit ; ! "tax collector"
 toqʼlijik:toqʼlijik N-tinamit ; ! "stitch"
 toqʼonel:toqʼonel N-tinamit ; ! "an animal which tends to gore or butt"
@@ -4594,6 +4597,8 @@ rabʼ:rabʼ N-tinamit ; ! "raíz"
 eʼjersita:eʼjersita N-tinamit ; ! ""
 ajantiʼokiʼa:ajantiʼokiʼa N-tinamit ; ! ""
 
+ikyaqʼabʼ:ikyaqʼabʼ N-tinamit ; ! "derecha"
+ajpataninel:ajpataninel N-iyom ; ! "siervo, esclavo"
 
 Aj:aj N-tinamit ; ! "day of sacred calendar"
 Ajmak:ajmak N-tinamit ; ! "day in the sacred calendar"
