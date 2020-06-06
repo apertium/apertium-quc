@@ -29,7 +29,7 @@ quc.mor.twol.hfst: apertium-quc.quc.mor.twol
 
 quc.seg.hfst: quc.mor.hfst quc.gen.hfst
 	# kojkitʼiso:k>oj>ki>tʼis>o
-	hfst-compose -1 quc.mor.hfst -2 quc.gen.hfst -o quc.seg.hfst 
+	hfst-compose -F -1 quc.mor.hfst -2 quc.gen.hfst -o quc.seg.hfst 
 
 quc.spellrelax.hfst: apertium-quc.quc.spellrelax 
 	hfst-regexp2fst -S -o $@ < $<

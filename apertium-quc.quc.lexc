@@ -433,7 +433,7 @@ LEXICON SS-OQ-A
 LEXICON SS-IK-Ø
 
 %+ik%<mark%>:%>%{i%}k         # ;
-                              # ; ! ---
+@R.SS@:@R.SS@                 # ; ! ---
 
 LEXICON SS-Vʼ-V 
 ! On root transitives, this suffix has the form -V’ at the end of the 
@@ -446,7 +446,7 @@ LEXICON SS-OU-Ø
 ! this suffix is -u on root transitives when the root
 ! vowel is u and -o when the root vowel is not u.
 %+u%<mark%>:%>%{O%}           # ; 
-                              # ; ! ---
+@R.SS@:@R.SS@                 # ; ! ---
 
 LEXICON SS-TV-R
 
@@ -468,6 +468,7 @@ LEXICON TAM1
 @U.SS.Dep@%<imp%>:@U.SS.Dep@ch           B ;
 @U.SS.Dep@%<imp%>%<mov%>:@U.SS.Dep@j     B ;
 @U.SS.Ind@%<imp%>%<neg%>:@U.SS.Ind@m     B ;
+@D.SS@:@D.SS@                            A-TV ; 
 
 LEXICON B 
 
@@ -551,14 +552,13 @@ LEXICON IV-NONFIN
 
 @D.SS@%<inf%>:@D.SS@%>ik                    # ;
 @D.SS@%<inf%>:@D.SS@%>%{V%}m                # ;
-@R.SS@:@R.SS@                                SS-IV ;
 
 LEXICON TV-R-VAL
 
 %<pass%>:                       TV-PASS-NONFIN  ;
-%<pass%>%<stat%>:%>%{o%}taj     TV-PASS-NONFIN  ;
-%<anti%>:%>%{o%}n               TV-ANTI-NONFIN  ;
-@R.SS@%<anti%>%<agfoc%>:@R.SS@%>%{o%}w      SS-IV  ;
+%<pass%>%<stat%>:%>%{U%}taj     TV-PASS-NONFIN  ;
+%<anti%>:%>%{U%}n               TV-ANTI-NONFIN  ;
+@R.SS@%<anti%>%<agfoc%>:@R.SS@%>%{O%}w      SS-IV  ;
 
 LEXICON TV-D-VAL
 %<pass%>:%>x                    TV-PASS-NONFIN  ;
@@ -575,14 +575,17 @@ LEXICON V-TV-R
 LEXICON V-TV-D
 
 @U.VAL.1@%<v%>%<tv%>:@U.VAL.1@  TV-D-VAL ;
-@U.VAL.2@:@U.VAL.2@%>j                            TV-D-NONFIN ;
+@U.VAL.2@%<v%>%<tv%>:@U.VAL.2@%>j                            TV-D-NONFIN ;
 @U.VAL.2@@R.SS@%<v%>%<tv%>:@U.VAL.2@@R.SS@%>j     #   ;
 
 LEXICON V-IV 
 
-%<v%>%<iv%>:                    IV-NONFIN ;
+@D.SS@%<v%>%<iv%>:@D.SS@        IV-NONFIN ;
+@R.SS@%<v%>%<iv%>:@R.SS@        SS-IV ;
 @R.SS@%<v%>%<iv%>:@R.SS@        # ;
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                        L  E  X  I  C  O  N                                !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Miscellaneous
@@ -4438,6 +4441,22 @@ ajtarso:ajtarso N-ajjudiʼo; ! "
 ajtesalonika:ajtesalonika N-ajjudiʼo; ! ""
 ajalejandriʼa:ajalejandriʼa N-ajjudiʼo ; ! ""
 ajfariseʼo:ajfariseʼo N-ajjudiʼo ; ! ""
+ajelenista:ajelenista N-ajjudiʼo ; ! ""
+ajelenita:ajelenita N-ajjudiʼo ; ! ""
+ajdekapolis:ajdekapolis N-ajjudiʼo ; ! ""
+ajfrigiʼa:ajfrigiʼa N-ajjudiʼo ; ! ""
+ajhelenista:ajhelenista N-ajjudiʼo ; ! ""
+ajjudeyiʼo:ajjudeyiʼo N-ajjudiʼo ; ! ""
+ajjudeʼa:ajjudeʼa N-ajjudiʼo ; ! ""
+ajkaldeʼo:ajkaldeʼo N-ajjudiʼo ; ! ""
+ajkristo:ajkristo N-ajjudiʼo ; ! ""
+ajlevita:ajlevita N-ajjudiʼo ; ! ""
+ajlaʼodiseʼa:ajlaʼodiseʼa N-ajjudiʼo ; ! ""
+ajponto:ajponto N-ajjudiʼo ; ! ""
+ajsanedrin:ajsanedrin N-ajjudiʼo ; ! ""
+ajsidon:ajsidon N-ajjudiʼo ; ! ""
+ajsirenense:ajsirenense N-ajjudiʼo ; ! ""
+ajsiʼarkas:ajsiʼarkas N-ajjudiʼo ; ! ""
 ajegipto:ajegipto N-ajjudiʼo ; ! ""
 ajhebʼreʼo:ajhebʼreʼo N-ajjudiʼo ; ! ""
 ajgalileʼa:ajgalileʼa N-ajjudiʼo ; ! ""
@@ -4572,6 +4591,8 @@ kʼastajibʼal:kʼastajibʼal N-tinamit ; ! "resurrección"
 taqoʼnel:taqoʼnel N-iyom ; ! "apóstol"
 chʼabʼ:chʼabʼ N-tinamit ; ! ""
 rabʼ:rabʼ N-tinamit ; ! "raíz"
+eʼjersita:eʼjersita N-tinamit ; ! ""
+ajantiʼokiʼa:ajantiʼokiʼa N-tinamit ; ! ""
 
 
 Aj:aj N-tinamit ; ! "day of sacred calendar"
@@ -4604,6 +4625,9 @@ Nahuala:Nahuala NP-Top ;
 EE%.UU%.:EE%.UU%. NP-Top ;
 
 Iximulew:Iximulew NP-Top ; ! ""
+Hiʼerapolis:Hiʼerapolis NP-Top ; ! ""
+Adriʼatiko:Adriʼatiko NP-Top ; ! ""
+Dalmasiʼa:Dalmasiʼa NP-Top ; ! ""
 
 Tzʼunil:Tzʼunil NP-Top ; ! "" ! Src/Cuentos
 Joppe:Joppe NP-Top ;
@@ -4654,17 +4678,23 @@ Mariy:Mariy NP-Ant-F ;
 Perez:Perez NP-Cog ;
 
 Migueʼl:Migueʼl NP-Ant-M ;
+Bʼalam:Bʼalam NP-Ant-M ;
 Adam:Adam NP-Ant-M ;
 Bʼeliʼar:Bʼeliʼar NP-Ant-M ; 
 Bʼenjamin:Bʼenjamin NP-Ant-M ;
 Bʼartolome:Bʼartolome NP-Ant-M ;
+Daniʼel:Daniʼel NP-Ant-M ;
 Vicente:Vicente NP-Ant-M ;
 Felix:Felix NP-Ant-M ;
 Drusila:Drusila NP-Ant-F ;
 Ajpu:Ajpu NP-Ant-M ;
 Rubʼen:Rubʼen NP-Ant-M ;
 Samson:Samson NP-Ant-M ;
+Gedeʼon:Gedeʼon NP-Ant-M ; ! ""
+Bʼarak:Bʼarak NP-Ant-M ; ! ""
+Jefte:Jefte NP-Ant-M ; ! ""
 Saʼul:Saʼul NP-Ant-M ;
+Tibʼeriʼo:Tibʼeriʼo NP-Ant-M ;
 Tito:Tito NP-Ant-M ;
 Levi:Levi NP-Ant-M ;
 Festo:Festo NP-Top ;
@@ -4726,6 +4756,7 @@ Agripa:Agripa NP-Ant-M ;
 Jonas:Jonas NP-Ant-M ;
 Apolo:Apolo NP-Ant-M ;
 Bʼarrabʼas:Bʼarrabʼas NP-Ant-M ;
+Bʼarrabʼas:Bʼarrabas NP-Ant-M ;
 Sesar:Sesar NP-Ant-M ;
 
 Iskariʼote:Iskariʼote NP-Ant-M ;
@@ -4758,6 +4789,8 @@ USAID:USAID NP-Al ;
 Akaya:Akaya NP-Top ;
 Olivo:Olivo NP-Top ;
 Bʼetaniʼa:Bʼetaniʼa NP-Top ;
+Bʼetesda:Bʼetesda NP-Top ;
+Bʼelen:Bʼelen NP-Top ;
 
 Chuwila:Chuwila NP-Top ; ! "Chichicastenango"
 Armita:Armita NP-Top ; ! "Guatemala City"
@@ -4920,6 +4953,56 @@ Gayo:Gayo NP-Ant-M ; ! "Gayo<np><ant>"
 Esaʼu:Esaʼu NP-Ant-M ; ! "Esaú"
 Bʼoʼos:Bʼoʼos NP-Ant-M ; ! "Booz"
 Ponsiʼo:Ponsiʼo NP-Ant-M ; ! "Poncio"
+
+Heli:Heli NP-Ant-M ; ! ""
+Mattat:Mattat NP-Ant-M ; ! ""
+Melki:Melki NP-Ant-M ; ! ""
+Janaʼi:Janaʼi NP-Ant-M ; ! ""
+Amos:Amos NP-Ant-M ; ! ""
+Naʼum:Naʼum NP-Ant-M ; ! ""
+Esli:Esli NP-Ant-M ; ! ""
+Nangay:Nangay NP-Ant-M ; ! ""
+Maʼaz:Maʼaz NP-Ant-M ; ! ""
+Semeʼin:Semeʼin NP-Ant-M ; ! ""
+Josek:Josek NP-Ant-M ; ! ""
+Joda:Joda NP-Ant-M ; ! ""
+Joʼanan:Joʼanan NP-Ant-M ; ! ""
+Resa:Resa NP-Ant-M ; ! ""
+Neri:Neri NP-Ant-M ; ! ""
+Melki:Melki NP-Ant-M ; ! ""
+Abʼdi:Abʼdi NP-Ant-M ; ! ""
+Kosam:Kosam NP-Ant-M ; ! ""
+Elmadan:Elmadan NP-Ant-M ; ! ""
+Er:Er NP-Ant-M ; ! ""
+Eliʼeser:Eliʼeser NP-Ant-M ; ! ""
+Jorim:Jorim NP-Ant-M ; ! ""
+Mattat:Mattat NP-Ant-M ; ! ""
+Jonam:Jonam NP-Ant-M ; ! ""
+Meleʼa:Meleʼa NP-Ant-M ; ! ""
+Menna:Menna NP-Ant-M ; ! ""
+Mattata:Mattata NP-Ant-M ; ! ""
+Natan:Natan NP-Ant-M ; ! ""
+Sala:Sala NP-Ant-M ; ! ""
+Admin:Admin NP-Ant-M ; ! ""
+Arni:Arni NP-Ant-M ; ! ""
+Fares:Fares NP-Ant-M ; ! ""
+Tara:Tara NP-Ant-M ; ! ""
+Najor:Najor NP-Ant-M ; ! ""
+Serug:Serug NP-Ant-M ; ! ""
+Ragaʼu:Ragaʼu NP-Ant-M ; ! ""
+Falek:Falek NP-Ant-M ; ! ""
+Ebʼer:Ebʼer NP-Ant-M ; ! ""
+Sala:Sala NP-Ant-M ; ! ""
+Kaʼinam:Kaʼinam NP-Ant-M ; ! ""
+Arfaxad:Arfaxad NP-Ant-M ; ! ""
+Sem:Sem NP-Ant-M ; ! ""
+Lamek:Lamek NP-Ant-M ; ! ""
+Matusalem:Matusalem NP-Ant-M ; ! ""
+Jaret:Jaret NP-Ant-M ; ! ""
+Maleleʼel:Maleleʼel NP-Ant-M ; ! ""
+Kaʼinam:Kaʼinam NP-Ant-M ; ! ""
+Enos:Enos NP-Ant-M ; ! ""
+Set:Set NP-Ant-M ; ! ""
 
 
 LEXICON Adjectives
@@ -5934,7 +6017,8 @@ choqönaj:choqöna                   V-TV-D ; ! "tickle someone"
 chorej:chore                       V-TV-D ; ! "drag (see chararej)"
 choy:choy                          V-TV-R ; ! "cut something with machete (vines, grass"
 chunaj:chuna                       V-TV-D ; ! "whitewash with lime"
-chup:chup                          V-TV-R ; ! "turn off"
+chup:chup                          V-TV-R ; ! "extinguir"
+chup:chup                          V-IV   ; ! "put out a flame"
 chäqʼajisaj:chäqʼajisa             V-TV-D ; ! "cook"
 chʼabʼej:chʼabʼe                   V-TV-D ; ! "hablar; speak"
 chʼachʼaj:chʼachʼa                 V-TV-D ; ! "judge"
@@ -6742,7 +6826,6 @@ chuban:chuban                      V-IV   ; ! "spit"
 chuin:chuin                        V-IV   ; ! "haggle for price"
 chukuchub:chukuchub                V-IV   ; ! "faint"
 chulun:chulun                      V-IV   ; ! "urinate"
-chup:chup                          V-IV   ; ! "put out a flame"
 chuplin:chuplin                    V-IV   ; ! "shine"
 chuqʼchut:chuqʼchut                V-IV   ; ! "slosh"
 chuqʼkaʼn:chuqʼkaʼn                V-IV   ; ! "boil"
@@ -7621,6 +7704,15 @@ yuxkut:yuxkut                      V-IV   ; ! "spy"
 yuxkʼat:yuxkʼat                    V-IV   ; ! "nod (with sleep)"
 yuxy:yuxy                          V-IV   ; ! "silence (a baby)"
 
+!LEXICON V-POS
+!
+!iʼ%<v%>%<iv%>:%>iʼ                 V-IV   ; 
+!ibʼaʼ%<v%>%<tv%>:%>ibʼaʼ           V-TV-R   ; 
+!
+!LEXICON POS 
+!
+!chup:chup V-POS ;
+!tzal:tzal V-POS ;
  
 LEXICON V-TV-PERF
  

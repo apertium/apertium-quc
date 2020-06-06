@@ -78,34 +78,34 @@
 # text[spa] = 
 # labels = 
 "<Xuqʼaluj>"
-	"qʼaluj" v tv perf o_sg3 s_sg3
+	"qʼaluj" v tv perf o_sg3 s_sg3 @root
 "<ri>"
-	"ri" det
+	"ri" det @det
 "<neʼ>"
-	"neʼ" n
+	"neʼ" n @obj
 "<ri>"
-	"ri" det
+	"ri" det @det
 "<ixoq>"
-	"ixoq" n
+	"ixoq" n @nsubj
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = 6
 # text = 
 # text[spa] = 
 # labels = 
 "<Ri>"
-	"ri" det
+	"ri" det @det #1->2
 "<neʼ>"
-	"neʼ" n
+	"neʼ" n @nsubj #2->3
 "<xqʼalux>"
-	"qʼaluj" v tv pass perf s_sg3
+	"qʼaluj" v tv pass perf s_sg3 @root #3->0
 "<rumal>"
 	"umal" n rel px3sg
 "<ri>"
-	"ri" det
+	"ri" det @det #5->6
 "<ixoq>"
-	"ixoq" n
+	"ixoq" n 
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 

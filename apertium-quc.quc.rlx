@@ -26,6 +26,12 @@ LIST Perf = perf ;
 LIST Pro = pro ;
 LIST Pers = pers ;
 
+LIST Anti = anti ;
+LIST Pass = pass ;
+
+LIST IV = iv ;
+LIST TV = tv ;
+
 LIST Pl = pl ; 
 LIST Taq = "taq" ;
 
@@ -97,6 +103,10 @@ REMOVE Pro IF (NEGATE 1* V) ;
 SECTION 
 
 REMOVE Rel ;
+
+REMOVE Anti IF (0 IV) ;
+
+REMOVE Pass IF (0 IV) ;
 
 SECTION
 
