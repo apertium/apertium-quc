@@ -5,7 +5,7 @@
     <pipeline>
       <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
       <program name="hfst-proc -w">
-        <file name="quc.mor.hfstol"/>
+        <file name="quc.automorf.hfst"/>
       </program>
     </pipeline>
   </mode>
@@ -14,7 +14,7 @@
     <pipeline>
       <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
       <program name="hfst-proc">
-        <file name="quc.seg.hfstol"/>
+        <file name="quc.autoseg.hfst"/>
       </program>
     </pipeline>
   </mode>
@@ -23,7 +23,7 @@
     <pipeline>
       <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
       <program name="hfst-proc -w">
-        <file name="quc.mor.hfstol"/>
+        <file name="quc.automorf.hfst"/>
       </program>
       <program name="cg-conv -a -l"/>
       <program name="vislcg3 --trace --grammar">
@@ -36,7 +36,7 @@
     <pipeline>
       <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
       <program name="hfst-proc -w">
-        <file name="quc.mor.hfstol"/>
+        <file name="quc.automorf.hfst"/>
       </program>
       <program name="cg-proc -1 -n">
         <file name="quc.rlx.bin"/>
