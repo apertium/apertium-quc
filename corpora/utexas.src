@@ -2003,3 +2003,66 @@
 ^le/le<det>$
 ^aj/Aj<n>/aj<n>/aj<pr>/äj<n>$
 ^qʼij/qʼij<n>$
+
+# sent_id = utexas:173
+# text = Xkikunaj le ali ri ixoqibʼ.
+# text[spa] = Las mujeres curaron a la niña
+# labels = tijonik-31
+^Xkikunaj/*Xkikunaj$
+^le/le<det>$
+^ali/ali<clf><f>/ali<n>$
+^ri/ri<det>$
+^ixoqibʼ/ixoq<n><pl>$
+^./.<sent>$
+
+# sent_id = utexas:174
+# text = Xkunataj le ali (kumal ri ixoqibʼ).
+# text[spa] = La niña fue curada (por las mujeres).
+# labels = tijonik-31
+^Xkunataj/*Xkunataj$
+^le/le<det>$
+^ali/ali<clf><f>/ali<n>$
+^(/(<lpar>$
+^kumal/<px3pl>umal<n><rel>$
+^ri/ri<det>$
+^ixoqibʼ/ixoq<n><pl>$
+^)/)<rpar>$
+^./.<sent>$
+
+# sent_id = utexas:175
+# text = Le ali xkunatajik.
+# text[spa] = La niña se curó.
+# labels = tijonik-31
+^Le/le<det>$
+^ali/ali<clf><f>/ali<n>$
+^xkunatajik/*xkunatajik$
+^./.<sent>$
+
+# sent_id = utexas:176
+# text = La xkunataj le ali awumal?
+# text[spa] = Fue curada por ti la niña?
+# labels = tijonik-31
+^La/la<n>/la<part><frm>/la<qst>$
+^xkunataj/*xkunataj$
+^le/le<det>$
+^ali/ali<clf><f>/ali<n>$
+^awumal/<px2sg>umal<n><rel>$
+^?/?<sent>$
+
+# sent_id = utexas:178
+# text = Na kabʼantaj ta wumal
+# text[spa] = No puedo hacerlo.
+# labels = tijonik-31
+^Na/na<adv>/na<adv><fut>/na<neg>$
+^kabʼantaj/*kabʼantaj$
+^ta/ta<mod>$
+^wumal/<px1sg>umal<n><rel>$
+
+# sent_id = utexas:179
+# text = Na kabʼantaj ta wumal
+# text[spa] = No puedo hacerlo.
+# labels = tijonik-32
+^Na/na<adv>/na<adv><fut>/na<neg>$
+^kabʼantaj/*kabʼantaj$
+^ta/ta<mod>$
+^wumal/<px1sg>umal<n><rel>$

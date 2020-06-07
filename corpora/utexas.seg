@@ -1349,3 +1349,57 @@ sent_id = utexas:171
 ^le/le$
 ^aj/aj$
 ^qʼij/qʼij$
+
+# sent_id = utexas:173
+# text = Xkikunaj le ali ri ixoqibʼ.
+# text[spa] = Las mujeres curaron a la niña
+# labels = tijonik-31
+^Xkikunaj/xk>>i>kunaj$
+^le/le$
+^ali/ali$
+^ri/ri$
+^ixoqibʼ/ixoq>ibʼ$
+^./.$
+
+# sent_id = utexas:174
+# text = Xkunataj le ali (kumal ri ixoqibʼ).
+# text[spa] = La niña fue curada (por las mujeres).
+# labels = tijonik-31
+^Xkunataj/x>>kuna>taj$
+^le/le$
+^ali/ali$
+^(/($
+^kumal/k>umal$
+^ri/ri$
+^ixoqibʼ/ixoq>ibʼ$
+^)/)$
+^./.$
+
+# sent_id = utexas:175
+# text = Le ali xkunatajik.
+# text[spa] = La niña se curó.
+# labels = tijonik-31
+^Le/le$
+^ali/ali$
+^xkunatajik/x>>kuna>taj>ik$
+^./.$
+
+# sent_id = utexas:176
+# text = La xkunataj le ali awumal?
+# text[spa] = Fue curada por ti la niña?
+# labels = tijonik-31
+^La/la$
+^xkunataj/x>>kuna>taj$
+^le/le$
+^ali/ali$
+^awumal/aw>umal$
+^?/?$
+
+# sent_id = utexas:178
+# text = Na kabʼantaj ta wumal
+# text[spa] = No puedo hacerlo.
+# labels = tijonik-31
+^Na/na$
+^kabʼantaj/ka>>bʼan>taj$
+^ta/ta$
+^wumal/w>umal$
