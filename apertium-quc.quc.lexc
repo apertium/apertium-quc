@@ -104,16 +104,18 @@ Multichar_Symbols
 @D.Poss@
 @D.SS@
 @P.SS.Dep@
-@D.VPref@
+@P.Pref.ON@
 @P.Poss.None@
-@P.VPref.None@
+@R.Pref.ON@
 @R.Poss.None@
-@R.VPref.None@
 @U.SS.Dep@
 @U.SS.Ind@
 @U.VAL.1@
 @U.VAL.2@
 @R.SS@
+@P.AGR.A@
+@P.AGR.B@
+@D.AGR.B@
 
 
 %{n%}                ! n / 0
@@ -461,14 +463,21 @@ LEXICON SS-IV
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON TAM1 
+LEXICON TAM1
+
+@P.Pref.ON@:@P.Pref.ON@                  TAM2 ;
+@P.AGR.A@:@P.AGR.A@                      A-TV ; 
+@P.AGR.B@:@P.AGR.B@                      B-IV ; 
+                                         TV ;
+                                         IV ;
+
+LEXICON TAM2
 
 @U.SS.Ind@%<impf%>:@U.SS.Ind@k           B ;
 @U.SS.Ind@%<perf%>:@U.SS.Ind@x           B ;
 @U.SS.Dep@%<imp%>:@U.SS.Dep@ch           B ;
 @U.SS.Dep@%<imp%>%<mov%>:@U.SS.Dep@j     B ;
 @U.SS.Ind@%<imp%>%<neg%>:@U.SS.Ind@m     B ;
-@D.SS@:@D.SS@                            A-TV ; 
 
 LEXICON B 
 
@@ -531,40 +540,48 @@ LEXICON A-TV
 
 LEXICON TV-R-NONFIN
 
-@D.SS@%<inf%>:@D.SS@%>ik                    # ;
+@D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
 
 LEXICON TV-D-NONFIN
 
-@D.SS@%<inf%>:@D.SS@%>ik                    # ;
+@D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
 
 LEXICON TV-PASS-NONFIN
 
-@D.SS@%<inf%>:@D.SS@%>ik                    # ;
-@R.SS@:@R.SS@                                SS-IV ;
+@D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
 
 LEXICON TV-ANTI-NONFIN
 
-@D.SS@%<inf%>:@D.SS@%>ik                    # ;
-@D.SS@%<inf%>:@D.SS@%>em                    # ;
-@R.SS@:@R.SS@                                SS-IV ;
+@D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
+@D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>em                    # ;
 
 LEXICON IV-NONFIN
 
-@D.SS@%<inf%>:@D.SS@%>ik                    # ;
-@D.SS@%<inf%>:@D.SS@%>%{V%}m                # ;
+@D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
+@D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>%{V%}m                # ;
+@D.SS@%<pp%>:@D.SS@%>inaq                                     # ;
 
 LEXICON TV-R-VAL
 
-%<pass%>:                       TV-PASS-NONFIN  ;
-%<pass%>%<stat%>:%>%{U%}taj     TV-PASS-NONFIN  ;
-%<anti%>:%>%{U%}n               TV-ANTI-NONFIN  ;
-@R.SS@%<anti%>%<agfoc%>:@R.SS@%>%{O%}w      SS-IV  ;
+@D.SS@%<pass%>:@D.SS@                                      TV-PASS-NONFIN  ;
+@R.Pref.ON@%<pass%>:@R.Pref.ON@                            SS-IV ;
+%<pass%>%<stat%>:%>%{U%}taj                                TV-PASS-NONFIN  ;
+@R.Pref.ON@%<pass%>%<stat%>:@R.Pref.ON@%>%{U%}taj          SS-IV ;
+%<pass%>%<stat%>:%>taj                                     TV-PASS-NONFIN  ; ! b'antaj (not b'anataj?)
+@R.Pref.ON@%<pass%>%<stat%>:@R.Pref.ON@%>taj               SS-IV ;           ! b'antaj (not b'anataj?)
+@D.SS@%<anti%>:@D.SS@%>%{U%}n                              TV-ANTI-NONFIN  ;
+@R.Pref.ON@%<anti%>:@R.Pref.ON@%>%{U%}n                    SS-IV ;
+@R.Pref.ON@%<anti%>%<agfoc%>:@R.Pref.ON@%>%{O%}w           SS-IV  ;
 
 LEXICON TV-D-VAL
-%<pass%>:%>x                    TV-PASS-NONFIN  ;
-%<pass%>%<stat%>:%>taj          TV-PASS-NONFIN  ;
-%<anti%>:%>n                    TV-ANTI-NONFIN  ;
-@R.SS@%<anti%>%<agfoc%>:@R.SS@%>n           SS-IV  ;
+
+@D.SS@%<pass%>:@D.SS@%>x                                   TV-PASS-NONFIN  ;
+@R.Pref.ON@%<pass%>:@R.Pref.ON@%>x                         SS-IV ;
+%<pass%>%<stat%>:%>taj                                     TV-PASS-NONFIN  ; 
+@R.Pref.ON@%<pass%>%<stat%>:@R.Pref.ON@%>taj               SS-IV ;          
+@D.SS@%<anti%>:@D.SS@%>n                                   TV-ANTI-NONFIN  ;
+@R.Pref.ON@%<anti%>:@R.Pref.ON@%>n                         SS-IV ;
+@R.Pref.ON@%<anti%>%<agfoc%>:@R.Pref.ON@%>n                SS-IV  ;
 
 LEXICON V-TV-R
 
@@ -581,8 +598,8 @@ LEXICON V-TV-D
 LEXICON V-IV 
 
 @D.SS@%<v%>%<iv%>:@D.SS@        IV-NONFIN ;
-@R.SS@%<v%>%<iv%>:@R.SS@        SS-IV ;
-@R.SS@%<v%>%<iv%>:@R.SS@        # ;
+@R.Pref.ON@%<v%>%<iv%>:@R.Pref.ON@        SS-IV ;
+@R.Pref.ON@%<v%>%<iv%>:@R.Pref.ON@        # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!                        L  E  X  I  C  O  N                                !!
@@ -1149,8 +1166,9 @@ ajawab:ajawab N-tinamit ; ! "community elders (permanent office) who choose auxi
 ajawam:ajawam N-tinamit ; ! "freewill"
 Ajawaxel:ajawaxel N-tinamit ; ! "Lord (title for Christian God)"
 Ajawaxel:ajawxel N-tinamit ; ! "Lord (title for Christian God)"
+Ajawaxel:ajawxelʼ N-tinamit ; ! "Lord (title for Christian God)" ! Use/Spell
 Ajawaxel:ajawawxel N-tinamit ; ! Src/Biblia ! Use/Spell
-ajawinel:ajawinel N-tinamit ; ! "king"
+ajawinel:ajawinel N-iyom ; ! "king"
 ajbe:ajbe N-tinamit ; ! "traveller"
 ajbeʼil:ajbeʼil N-tinamit ; ! "foreigner"
 ajbinel:ajbinel N-tinamit ; ! "traveller"
@@ -1181,7 +1199,6 @@ ajilbalil:ajilbalil N-tinamit ; ! "date"
 ajit:ajit N-tinamit ; ! "indigestion"
 ajitaʼ:ajitaʼ N-tinamit ; ! "indigestion"
 ajitz:ajitz N-tinamit ; ! "bad witch"
-Ajitz:ajitz N-tinamit ; ! "planet Mercury"
 ajjub:ajjub N-tinamit ; ! "bow hunter"
 ajkʼay:ajkʼay N-tinamit ; ! "seller"
 !ajkʼicheʼ winaq:ajkʼicheʼ winaq N-tinamit ; ! "Quiché people"
@@ -1203,7 +1220,7 @@ ajmox:ajmox N-tinamit ; ! "not clever"
 ajortzaʼm:ajortzaʼm N-tinamit ; ! "sandal"
 ajpajuyub:ajpajuyub N-tinamit ; ! "peasant"
 ajpatan:ajpatan N-tinamit ; ! "member of a cofradía"
-ajpatanel:ajpatanel N-tinamit ; ! "servidor; servant"
+ajpatanel:ajpatanel N-iyom ; ! "servidor; servant"
 ajpätzkar:ajpätzkar N-tinamit ; ! "dancer who strikes with chicotes"
 ajpom:ajpom N-tinamit ; ! "witch who burns copal"
 ajpop:ajpop N-tinamit ; ! "dignitary"
@@ -1242,7 +1259,7 @@ ajxojolab:ajxojolab N-tinamit ; ! "dancers"
 ajxojolab:ajxojolobʼ N-tinamit ; ! "dancers" ! Src/UTexas:6
 ajxul:ajxul N-tinamit ; ! "flautist"
 ajyitz:ajyitz N-tinamit ; ! "cow udder"
-ajyuqʼ:ajyuqʼ N-tinamit ; ! "shepherd"
+ajyuqʼ:ajyuqʼ N-iyom ; ! "shepherd"
 !ajyuqʼ chij:ajyuqʼ chij N-tinamit ; ! "shepherd"
 ak:ak N-tinamit ; ! "firecracker"
 ak:ak N-tinamit ; ! "reed"
@@ -1307,7 +1324,6 @@ alxik:alxik N-tinamit ; ! "small idol used by diviners"
 äm:äm N-tinamit ; ! "spider"
 !-äm kiej:-äm kiej N-tinamit ; ! "poisonous spider"
 !Ama Achi:Ama Achi N-tinamit ; ! "Orion constellation"
-!Ama Qʼuqʼ:Ama Qʼuqʼ N-tinamit ; ! "planet Venus"
 !amaʼ akʼ:amaʼ akʼ N-tinamit ; ! "rooster"
 !amaʼ chij:amaʼ chij N-tinamit ; ! "ram"
 !amaʼ ekʼ:amaʼ ekʼ N-tinamit ; ! "rooster"
@@ -1774,6 +1790,7 @@ chomal:chomal N-tinamit ; ! "plan"
 chomam:chomam N-tinamit ; ! "intention"
 !chomaq ixkolob:chomaq ixkolob N-tinamit ; ! "large intestine"
 choqʼ:choqʼ N-tinamit ; ! "quartz crystal"
+choqʼabʼ:choqʼabʼ N-tinamit ; ! "fuerza"
 choqön:choqön N-tinamit ; ! "tickle"
 !chrij wi:chrij wi N-tinamit ; ! "nape of the neck"
 chu:chu N-tinamit ; ! "stench"
@@ -1891,7 +1908,7 @@ imuchʼ:imuchʼ N-tinamit ; ! "darkness"
 inkineʼy:inkineʼy N-tinamit ; ! "banana"
 inup:inup N-tinamit ; ! "ceiba"
 iox:iox N-tinamit ; ! "twin"
-iq:iq N-tinamit ; ! "idol"
+iq:iq N-iyom ; ! "idol"
 iqʼ:iqʼ N-tinamit ; ! "wind"
 iqa:iqa N-tinamit ; ! "sling shot"
 is:is N-tinamit ; ! "sweet potato (patata--Solanum tuberosum)"
@@ -2468,7 +2485,7 @@ köj:köj N-tinamit ; ! "mountain lion"
 kojbal:kojbal N-tinamit ; ! "use"
 kojik:kojik N-tinamit ; ! "use"
 kojobal:kojobal N-tinamit ; ! "patch"
-kojonel:kojonel N-tinamit ; ! "believer"
+kojonel:kojonel N-iyom ; ! "believer"
 kojonik:kojonik N-tinamit ; ! "belief"
 kokʼ:kokʼ N-tinamit ; ! "powder"
 koka:koka N-tinamit ; ! "coconut"
@@ -2595,6 +2612,10 @@ majanel:majanel N-tinamit ; ! "kidnapper"
 majun:majun N-tinamit ; ! "none"
 makow:makow N-tinamit ; ! "picking"
 makunel:makunel N-tinamit ; ! "guilty person"
+ajmakunel:ajmakunel N-iyom ; ! "guilty person"
+ajmakunel:ajmakunnel N-iyom ; ! "guilty person" ! Use/Spell ! Src/Biblia
+ajmakunanel:ajmakunanel N-iyom ; ! ""
+ajmakuninel:ajmakuninel N-iyom ; ! ""
 makuy:makuy N-tinamit ; ! "yerba mora"
 mal:mal N-tinamit ; ! "coarsely ground cornmeal"
 maleʼt:maleʼt N-tinamit ; ! "suitcase"
@@ -2941,7 +2962,6 @@ patal:patal N-tinamit ; ! "sedan chair"
 patän:patän N-tinamit ; ! "tumpline"
 patanijik:patanijik N-tinamit ; ! "the being useful"
 !patanil ke:patanil ke N-tinamit ; ! "police"
-pataninel:pataninel N-tinamit ; ! "servant"
 patäx:patäx N-tinamit ; ! "duck"
 pätet:pätet N-tinamit ; ! "capstan used to twist thread"
 patzʼan:patzʼan N-tinamit ; ! "dry corn stalk"
@@ -3172,7 +3192,8 @@ qʼin:qʼin N-tinamit ; ! "spinning wheel"
 qʼinobal:qʼinobal N-tinamit ; ! "constellation of Orion"
 qʼinobal:qʼinobal N-tinamit ; ! "distaff (for holding wool in spinning)"
 !qʼinol batzʼ:qʼinol batzʼ N-tinamit ; ! "person who spins thread"
-qʼinom:qʼinom N-tinamit ; ! "jocote (fruit--type of plum)"
+qʼinom¹:qʼinom N-iyom ; ! "rico"
+qʼinom²:qʼinom N-tinamit ; ! "jocote (fruit--type of plum)"
 qʼinomal:qʼinomal N-tinamit ; ! "riches"
 qʼipinel:qʼipinel N-tinamit ; ! "earwig insect"
 qʼipip:qʼipip N-tinamit ; ! "heartburn"
@@ -4169,6 +4190,7 @@ yab:yab N-tinamit ; ! "sickness"
 !yabal tzij:yabal tzij N-tinamit ; ! "promise"
 yabil:yabil N-tinamit ; ! "illness"
 yabil:yabʼil N-tinamit ; ! "illness"
+yabʼilal:yabʼilal N-tinamit ; ! "enfermedad"
 !-yabil ixoq:-yabil ixoq N-tinamit ; ! "menstruation"
 !yabil re ikʼ:yabil re ikʼ N-tinamit ; ! "menstrual period"
 yabwäch:yabwäch N-tinamit ; ! "sickness of the eye"
@@ -4348,6 +4370,7 @@ cholaj:cholaj N-tinamit ; ! "line" Src/UTexas:6 TODO: Check
 !chʼoj<ob>:chʼoj<ob>N-tinamit ; ! "malva plant (medicinal plant, used in bathwater)"
 !chʼoka<r>:chʼoka<r>N-tinamit ; ! "cripple"
 !chʼuʼj<arik>:chʼuʼj<arik>N-tinamit ; ! "rabies"
+chʼuʼj:chʼuʼj N-iyom ; ! "loco"
 !chaqʼ<axel>:chaqʼ<axel>N-tinamit ; ! "younger brother or sister of same sex"
 !chul<uj>:chul<uj>N-tinamit ; ! "urine"
 !iʼmam<axel>:iʼmam<axel>N-tinamit ; ! "grandson"
@@ -4391,6 +4414,7 @@ jukubʼ:jukubʼ N-tinamit ; ! "barco; boat"
 ajbʼanal:ajbʼanal N-tinamit ; ! ""
 kʼuwaʼ:kʼuwaʼ N-tinamit ; ! ""
 etaʼmabʼal:etaʼmabʼal N-tinamit ; ! "sabiduría"
+tzʼibʼanel:tzʼibʼanel N-iyom ; ! "escritor"
 ajtzʼibʼanel:ajtzʼibʼanel N-iyom ; ! "escritor"
 ajtzʼibʼ:ajtzʼibʼ N-iyom ; ! "escritor"
 kaminaq:kaminaq N-ixoq ; ! "muerto, cadáver"
@@ -4509,6 +4533,8 @@ bʼaqʼ:bʼaqʼ N-tinamit ; ! "pepita"
 bʼixik:bʼixik N-tinamit ; ! "anuncio"
 chuqʼabʼalil:chuqʼabʼalil N-tinamit ; ! "fuerza"
 chʼimiʼyal:chʼimiʼyal N-tinamit ; ! "bastón"
+chʼimiʼy:chʼimiʼy N-tinamit ; ! "bastón"
+ajchʼimiʼy:ajchʼimiʼy N-iyom ; ! ""
 junamtajil:junamtajil N-tinamit ; ! "parecido"
 kiʼil:kiʼil N-tinamit ; ! "dulzura"
 kmeʼlal:kmeʼlal N-tinamit ; ! "bondad"
@@ -4599,6 +4625,9 @@ ajantiʼokiʼa:ajantiʼokiʼa N-tinamit ; ! ""
 
 ikyaqʼabʼ:ikyaqʼabʼ N-tinamit ; ! "derecha"
 ajpataninel:ajpataninel N-iyom ; ! "siervo, esclavo"
+pataninel:pataninel N-iyom ; ! "servant"
+patanijel:patanijel N-iyom ; ! ""
+ajpatanijel:ajpatanijel N-iyom ; ! ""
 
 Aj:aj N-tinamit ; ! "day of sacred calendar"
 Ajmak:ajmak N-tinamit ; ! "day in the sacred calendar"
@@ -4633,6 +4662,9 @@ Iximulew:Iximulew NP-Top ; ! ""
 Hiʼerapolis:Hiʼerapolis NP-Top ; ! ""
 Adriʼatiko:Adriʼatiko NP-Top ; ! ""
 Dalmasiʼa:Dalmasiʼa NP-Top ; ! ""
+
+!Ama Qʼuqʼ:Ama Qʼuqʼ N-tinamit ; ! "planet Venus"
+Ajitz:Ajitz NP-Top ; ! "planet Mercury"
 
 Tzʼunil:Tzʼunil NP-Top ; ! "" ! Src/Cuentos
 Joppe:Joppe NP-Top ;
@@ -4683,6 +4715,7 @@ Mariy:Mariy NP-Ant-F ;
 Perez:Perez NP-Cog ;
 
 Migueʼl:Migueʼl NP-Ant-M ;
+Efraʼim:Efraʼim NP-Ant-M ;
 Bʼalam:Bʼalam NP-Ant-M ;
 Adam:Adam NP-Ant-M ;
 Bʼeliʼar:Bʼeliʼar NP-Ant-M ; 
@@ -5019,6 +5052,7 @@ tzij:tzij A-saq ;                  ! "verdadero; true"
 kʼax:kʼax A-saq ;                  ! "difícil; difficult"
 rajawaxik:rajawaxik A-saq ;        ! "importante; important, necessary"
 rajawaxik:rajawixik A-saq ;        ! "important" ! Src/xelaorganica
+rajawaxik:rajawxik A-saq ;        ! "important" ! Src/Wiki
 sib:sib A-saq ;                    ! "humado; smokey-colored"
 alaj:alaj A-saq ;                  ! "pequeño; small, little"
 chʼutiʼn:chʼutiʼn A-saq ;          ! "pequeño; "
@@ -5901,7 +5935,10 @@ jacha:jacha Ad-aninaq ; ! "asi, so"
 
 kʼatekʼut:kʼatekʼut Ad-aninaq ; ! FIXME: comprobar
 kʼatekʼut:kʼatekut Ad-aninaq ; ! FIXME: comprobar ! Use/Spell ! Src/Biblia
+kʼatekʼut:kʼateʼkut Ad-aninaq ; ! FIXME: comprobar ! Use/Spell ! Src/Biblia
 kʼatekʼuriʼ:kʼatekʼuriʼ Ad-aninaq ; ! "and then it happened"
+kʼatekʼuriʼ:kʼatekuriʼ Ad-aninaq ; ! "and then it happened" ! Use/Spell
+
 jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Biblia
 xaqbʼiʼ:xaqbʼiʼ Ad-aninaq ; ! "inmediatamente"
 
@@ -7171,7 +7208,6 @@ nukʼ:nukʼ                          V-IV   ; ! "kindle (fire)"
 num:num                            V-IV   ; ! "be hungry"
 ok:ok                              V-IV   ; ! "enter"
 okʼow:okʼow                        V-IV   ; ! "pass by"
-opan:opan                          V-IV   ; ! "arrive"
 opan:opan                          V-IV   ; ! "llegar (allá); to arrive (there)"
 oqan:oqan                          V-IV   ; ! "be contagious (illness)"
 oqʼ:oq                             V-IV   ; ! "weep"
@@ -7785,6 +7821,7 @@ Congo:Congo NP-Top-Barb ; ! ""
 Cuenca:Cuenca NP-Top-Barb ; ! ""
 Escocia:Escocia NP-Top-Barb ; ! ""
 Europa:Europa NP-Top-Barb ; ! ""
+España:España NP-Top-Barb ; ! ""
 Grecia:Grecia NP-Top-Barb ; ! ""
 Guatemala:Guatemala NP-Top-Barb ; ! ""
 Guinea:Guinea NP-Top-Barb ; ! ""
@@ -7842,6 +7879,7 @@ influenza:influenza N-estado ; ! ""
 vitamina:vitamina N-estado ; ! ""
 histamina:histamina N-estado ; ! ""
 siglo:siglo N-estado ; ! ""
+viña:viña N-estado ; ! ""
 
 millón:mill N-reacción ; ! ""
 reacción:reacci N-reacción ; ! ""
