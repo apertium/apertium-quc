@@ -21,13 +21,13 @@ TARGETS_COMMON =			\
 
 ###############################################################################
 
-quc.mor.hfstol: quc.mor.hfst 
+quc.automorf.hfst: quc.mor.hfst 
 	hfst-fst2fst -w $< -o $@
 
-quc.gen.hfstol: quc.gen.hfst
+quc.autogen.hfst: quc.gen.hfst
 	hfst-fst2fst -w $< -o $@
 
-quc.seg.hfstol: quc.seg.hfst 
+quc.autoseg.hfst: quc.seg.hfst 
 	hfst-fst2fst -w $< -o $@
 
 quc.mor.hfst: quc.gen.hfst quc.mor.twol.hfst quc.spellrelax.hfst
@@ -57,16 +57,69 @@ quc.spellrelax.hfst: apertium-quc.quc.spellrelax
 quc.rlx.bin: apertium-quc.quc.rlx
 	cg-comp $< $@
 
-quc.automorf.att.gz: quc.mor.hfst
-	hfst-fst2txt quc.mor.hfst | gzip -9 > $@
+$(LANG1).autogen.att.gz: $(LANG1).gen.hfst
+	hfst-fst2txt $< | gzip -9 -c > $@
 
-quc.autogen.att.gz: quc.gen.hfst
-	hfst-fst2txt quc.gen.hfst | gzip -9 > $@
+$(LANG1).automorf.att.gz: $(LANG1).mor.hfst
+	hfst-fst2txt $< | gzip -9 -c > $@
 
-quc.autogen.bin: quc.autogen.att.gz
+$(LANG1).autoseg.att.gz: $(LANG1).seg.hfst
+	hfst-fst2txt $< | gzip -9 -c > $@
 
-modes/quc-morph.mode: modes.xml
-	apertium-gen-modes modes.xml
+$(LANG1).autogen.bin: $(LANG1).autogen.att.gz .deps/.d
+	zcat < $< > .deps/$(LANG1).autogen.att
+	lt-comp lr .deps/$(LANG1).autogen.att $@
+
+$(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
+	zcat < $< > .deps/$(LANG1).automorf.att
+	lt-comp lr .deps/$(LANG1).automorf.att $@
+
+$(LANG1).autoseg.bin: $(LANG1).autoseg.att.gz .deps/.d
+	zcat < $< > .deps/$(LANG1).autoseg.att
+	lt-comp lr .deps/$(LANG1).autoseg.att $@
+
+#modes/quc-morph.mode: modes.xml
+#	apertium-gen-modes modes.xml
+
+###############################################################################
+## Distribution
+###############################################################################
+
+EXTRA_DIST=$(BASENAME).$(LANG1).lexc		\
+		$(BASENAME).$(LANG1).twol	\
+		$(BASENAME).$(LANG1).spellrelax \
+		$(BASENAME).$(LANG1).rlx	
+		modes.xml
+
+###############################################################################
+## Installation stuff
+###############################################################################
+#
+#   apertium_quc_dir: This is where the compiled binaries go
+#   apertium_quc_srcdir: This is where the source files go
+
+apertium_qucdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_quc_srcdir=$(prefix)/share/apertium/$(BASENAME)/
+
+EXTRA_TARGETS=
+
+if HAVE_HFSTOSPELL
+EXTRA_TARGETS += $(LANG1).zhfst
+endif # HAVE_HFSTOSPELL
+
+apertium_quc_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) 
+
+pkgconfigdir = $(prefix)/share/pkgconfig
+pkgconfig_DATA = $(BASENAME).pc
+
+noinst_DATA=modes/$(LANG1)-morph.mode
+
+install-data-local:
+	test -d $(DESTDIR)$(apertium_quc_srcdir) || mkdir -p $(DESTDIR)$(apertium_quc_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_quc_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_quc_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_quc_srcdir)
+
 
 ###############################################################################
 ## Cleanup
