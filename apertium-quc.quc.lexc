@@ -345,11 +345,6 @@ LEXICON Ad-aninaq
 
 %<adv%>: # ;
 
-
-LEXICON Ad-jawi
-
-%<adv%>%<itg%>: # ;
-
 LEXICON Ad-jampaʼ
 
 %<adv%>%<itg%>: # ;
@@ -557,10 +552,12 @@ LEXICON A-TV
 LEXICON TV-R-NONFIN
 
 @D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
+@D.SS@%<pp%>:@D.SS@%>%{O%}m                                   # ;
 
 LEXICON TV-D-NONFIN
 
 @D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
+@D.SS@%<pp%>:@D.SS@%>%{O%}m                                   # ;
 
 LEXICON TV-PASS-NONFIN
 
@@ -5830,6 +5827,18 @@ saqalaj:saqalaj  A-saq ; ! ""
 
 LEXICON Adverbs
 
+chiwchiʼ:chiwchiʼ Ad-jampaʼ ; ! ""
+jampaʼ:jampa Ad-jampaʼ ;            ! "cuándo; when"
+jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
+jawi:jawi Ad-jampaʼ ; ! "¿dónde?"
+jawi:jawiʼ Ad-jampaʼ ; ! "¿dónde?"
+jawichiʼ:jawichiʼ Ad-jampaʼ ; ! "¿dónde?"
+jawije:jawije Ad-jampaʼ ; ! "¿dónde?"
+jawijeʼ:jawijeʼ Ad-jampaʼ ; ! "¿dónde?"
+pachiwchiʼ:pachiwchiʼ Ad-jampaʼ ; ! ""
+suche:suche Ad-jampaʼ ;            ! "por qué; why"
+
+
 xuqujeʼ:xuqujeʼ Ad-aninaq ;            ! "también; also"                                       ! FIXME: Comprueba categoría
 xuqeʼ:xuqeʼ Ad-aninaq ;                ! FIXME: Comprueba categoría
 xuquje:xuquje Ad-aninaq ;                ! FIXME: Comprueba categoría
@@ -5863,8 +5872,6 @@ weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
 weneʼ:wene Ad-aninaq ;             ! "tal vez; perhaps" ! Src/Wiki
 je:je Ad-aninaq ;                  ! "sí; yes"
 jeʼ:jeʼ Ad-aninaq ;                ! "sí; yes" ! Src/LopezIxcoy1997
-jampaʼ:jampaʼ Ad-jampaʼ ;          ! "cuándo; when"
-jampaʼ:jampa Ad-jampaʼ ;            ! "cuándo; when"
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 aretaq:aretaq Ad-aninaq ;          ! "when, while"
 aretaq:aretäq Ad-aninaq ;          ! "when, while"
@@ -5996,14 +6003,6 @@ xaqbʼiʼ:xaqbʼiʼ Ad-aninaq ; ! "inmediatamente"
 
 chaqʼabʼ:chaqʼabʼ Ad-aninaq ; ! "de noche"
 chipaqʼij:chipaqʼij Ad-aninaq ; ! "de día"
-
-jawichiʼ:jawichiʼ Ad-jawi ; ! "¿dónde?"
-jawi:jawi Ad-jawi ; ! "¿dónde?"
-jawi:jawiʼ Ad-jawi ; ! "¿dónde?"
-jawije:jawije Ad-jawi ; ! "¿dónde?"
-jawijeʼ:jawijeʼ Ad-jawi ; ! "¿dónde?"
-chiwchiʼ:chiwchiʼ Ad-jawi ; ! ""
-pachiwchiʼ:pachiwchiʼ Ad-jawi ; ! ""
 
 jubʼiqʼ:jubʼiqʼ Ad-aninaq ; ! "un poco"
 sqeʼn:sqeʼn Ad-aninaq ; ! "un poco"
@@ -6311,8 +6310,7 @@ kʼiäq:kʼiäq                        V-TV-R ; ! "shoot at"
 kʼojoj:kʼojo                       V-TV-D ; ! "patch"
 kʼojolaj:kʼojola                   V-TV-D ; ! "engender"
 kʼok:kʼok                          V-TV-R ; ! "detach something hard (boards from a house)"
-kʼol:kʼol                          V-TV-R ; ! "keep"
-kʼol:kʼol                          V-TV-R ; ! "roll up (sleeves)"
+kʼol:kʼol                          V-TV-R ; ! "keep, roll up (sleeves)"
 kʼolisaj:kʼolisa                   V-TV-D ; ! "keep"
 kʼolochij:kʼolochi                 V-TV-D ; ! "roll up"
 kʼopij:kʼopi                       V-TV-D ; ! "put bar on door or window"
@@ -6802,6 +6800,8 @@ yuqʼej:yuqʼe                       V-TV-D ; ! "lead"
 yuqʼuj:yuqʼu                       V-TV-D ; ! "tend (sheep)"
 yuxij:yuxi                         V-TV-D ; ! "spy on"
 yuxilej:yuxile                     V-TV-D ; ! "watch or guard out of curiosity"
+
+naʼ:naʼ V-TV-R ; ! "sentir"
 
 LEXICON IVʼ
 
