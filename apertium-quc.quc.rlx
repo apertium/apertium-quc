@@ -102,7 +102,7 @@ REMOVE Pro IF (NEGATE 1* V) ;
 
 SECTION 
 
-REMOVE Rel ;
+REMOVE Rel IF (0 Ri) ;
 
 REMOVE Anti IF (0 IV) ;
 
