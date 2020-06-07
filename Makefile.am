@@ -78,9 +78,6 @@ $(LANG1).autoseg.bin: $(LANG1).autoseg.att.gz .deps/.d
 	zcat < $< > .deps/$(LANG1).autoseg.att
 	lt-comp lr .deps/$(LANG1).autoseg.att $@
 
-#modes/quc-morph.mode: modes.xml
-#	apertium-gen-modes modes.xml
-
 ###############################################################################
 ## Distribution
 ###############################################################################
@@ -88,7 +85,7 @@ $(LANG1).autoseg.bin: $(LANG1).autoseg.att.gz .deps/.d
 EXTRA_DIST=$(BASENAME).$(LANG1).lexc		\
 		$(BASENAME).$(LANG1).twol	\
 		$(BASENAME).$(LANG1).spellrelax \
-		$(BASENAME).$(LANG1).rlx	
+		$(BASENAME).$(LANG1).rlx	\
 		modes.xml
 
 ###############################################################################
@@ -114,8 +111,7 @@ pkgconfig_DATA = $(BASENAME).pc
 
 noinst_DATA=modes/$(LANG1)-morph.mode
 
-install-data-local:
-	test -d $(DESTDIR)$(apertium_quc_srcdir) || mkdir -p $(DESTDIR)$(apertium_quc_srcdir)
+install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_quc_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_quc_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_quc_srcdir)
@@ -130,4 +126,3 @@ clean-local:
 	-rm -rf .deps modes
 
 ###############################################################################
-
