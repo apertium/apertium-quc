@@ -317,11 +317,14 @@ LEXICON N-virus
 LEXICON A-saq
 
 %<adj%>: # ;
+%<adj%>%<sup%>:%>alaj # ;
 
 LEXICON A-jeʼl
 ! <ik>
 
 %<adj%>: # ;
+%<adj%>%<attr%>:%>ik # ;
+%<adj%>%<sup%>:%>ikalaq # ;
 
 LEXICON A-nim
 
@@ -477,6 +480,7 @@ LEXICON TAM1
 LEXICON TAM2
 
 @U.SS.Ind@%<impf%>:@U.SS.Ind@k           B ;
+@U.SS.Ind@%<impf%>:@U.SS.Ind@k%{a%}      B ; ! Src/UTexas ! FIXME
 @U.SS.Ind@%<perf%>:@U.SS.Ind@x           B ;
 @U.SS.Dep@%<imp%>:@U.SS.Dep@ch           B ;
 @U.SS.Dep@%<imp%>%<mov%>:@U.SS.Dep@j     B ;

@@ -66,7 +66,7 @@ m	t	^Ikonyo/*Ikonyo$
 		^kmayowik/*kmayowik$
 		^ejas/*ejas$
 		^kixuriqaʼ/*kixuriqaʼ$
-		^kʼaslikalaj/*kʼaslikalaj$
+h	j	^kʼaslikalaj/*kʼaslikalaj$		
 		^kinmaltyoxij/*kinmaltyoxij$
 		^kukubʼ/*kukubʼ$
 		^itʼiqom/*itʼiqom$
