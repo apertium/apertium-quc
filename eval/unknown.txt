@@ -69,23 +69,24 @@ B			^kmayowik/*kmayowik$
 B			^Kpaqiʼ/*Kpaqiʼ$
 B			^kraʼlkʼuwaʼlaj/*kraʼlkʼuwaʼlaj$
 B	p	_	^Ksachitaj/*Ksachitaj$				^ksachitaj/<impf><s_sg3>sach<v><tv><pass><stat>$ -{V}taj not -{U}taj
-B			^kukubʼ/*kukubʼ$
+B	m	n	^kukubʼ/*kukubʼ$			jukubʼ, kukubʼ = barco
+
 B			^kukʼuleʼlaj/*kukʼuleʼlaj$
 B			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
 B			^qatuʼqaril/*qatuʼqaril$
-B			^ukaʼybʼal/*ukaʼybʼal$
+B	v	n	^ukaʼybʼal/*ukaʼybʼal$			kaʼyibal (n) looks; appearance; mirror; portrait; view; sight
 B			^ukʼaxkʼolim/*ukʼaxkʼolim$
-B			^ukʼiybʼalil/*ukʼiybʼalil$
+B	v	n	^ukʼiybʼalil/*ukʼiybʼalil$		ukʼiyibʼal joron = fuente de agua [= fuente?] kʼiyik = grow
 B			^usuʼtal/*usuʼtal$
 B			^utzalejixik/*utzalejixik$
-BU			^tzel/*tzel$
+BU	t	_	^tzel/*tzel$				Ri eʼi- tzel
 B	m	v	^weyeʼm/*weyeʼm$			"irregular" form, like eta'm ... "wait".
-B			^xchubʼlinik/*xchubʼlinik$
-B			^xetzijoj/*xetzijoj$
-B			^xkipaqchiʼj/*xkipaqchiʼj$
-B			^xukʼaslemaj/*xukʼaslemaj$
+B	m	v	^xchubʼlinik/*xchubʼlinik$		<perf><s_sg3>chubʼlin<v><iv>+ik<mark> / kechubʼlin(ik) = brillan
+B	p	v	^xetzijoj/*xetzijoj$			<perf><o_pl3><s_sg3>tzijoj<v><tv> = x>e>u>tzijo>j
+B	v	v	^xkipaqchiʼj/*xkipaqchiʼj$		xinkipaqchiʼj = me despreciaron / <perf><o_sg3><s_pl3>paqchiʼj<v><tv>
+B	m	v	^xukʼaslemaj/*xukʼaslemaj$		xukʼaslemaj = él vivió; él experimentó en su vida // <perf><o_sg3><s_sg3>kʼaslemaj<v><tv>
 B			^xunabʼisaj/*xunabʼisaj$
-B			^xwaxik/*xwaxik$
+B	s	v	^xwaxik/*xwaxik$			xawaxik	<perf><s_sg3>awaj<v><tv><pass>+ik<mark>	"fue escondido"
 B			^xyokowik/*xyokowik$
 B	m	n	^yitzʼbʼal/*yitzʼbʼal$			yitzʼ<o> (tv1) to squeeze; to press; to wring out (wet clothes);
 C	h	v	^Kakitzijoj/*Kakitzijoj$		^Kkitzijoj/<impf><o_sg3><s_pl3>tzijoj<v><tv>$^./.<sent>$
