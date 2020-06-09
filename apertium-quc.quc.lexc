@@ -1046,6 +1046,7 @@ saqalajtzij:saqalajtzij N-alit ;   ! "verdad; truth" ! Src/Biblia
 qʼatojtzij:qʼatojtzij N-alit ;     ! "; " ! Src/Biblia
 qʼaxeltzij:qʼaxeltzij N-alit ;     ! "mediador; " ! Src/Biblia
 qʼataltzij:qʼataltzij N-alit ;     ! "; " ! Src/Biblia
+qʼatbʼaltzij:qatbʼaltzij N-alit ; ! "gobernador; alcalde; law, courthouse, judge, government, verdict"
 qʼatbʼaltzij:qʼatbʼaltzij N-alit ; ! "gobernador; alcalde; law, courthouse, judge, government, verdict"
 winaq:winaq N-ixoq ;               ! "persona; person, people"
 chak:chak N-chak ;                 ! "trabajo; work"
@@ -6092,6 +6093,7 @@ ajawij:ajawi                       V-TV-D ; ! "rule over"
 ajilaj:ajila                       V-TV-D ; ! "count"
 alaj:ala                           V-TV-D ; ! "give birth to a child"
 alkʼualaj:alkʼuala                 V-TV-D ; ! "engender children (man)"
+alkʼuwaʼlaj:alkʼuwaʼla             V-TV-D ; ! "engendrar"
 alobisaj:alobisa                   V-TV-D ; ! "make something heavier"
 aluchij:aluchi                     V-TV-D ; ! "watch out for someone"
 anabej:anabe                       V-TV-D ; ! "hurry someone or something"
@@ -7497,7 +7499,6 @@ qʼut:qʼut                          V-IV   ; ! "mash (chile, tomatoes)"
 qʼuyuy:qʼuyuy                      V-IV   ; ! "vibrate (voice when singing)"
 qʼänar:qʼänar                      V-IV   ; ! "scorch (cloth from iron)"
 racak:racak                        V-IV   ; ! "clamber up (cat up a tree)"
-ralkʼuwaʼlaj:ralkʼuwaʼlaj          V-IV ; ! ""
 rapap:rapap                        V-IV   ; ! "fly"
 raparat:raparat                    V-IV   ; ! "fly like a butterfly"
 rapin:rapin                        V-IV   ; ! "fly"
