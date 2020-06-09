@@ -86,23 +86,23 @@ U	s	n	^takaniq/*takaniq$			^taqank/taqanik<n>
 B	m	n	^ukʼaxkʼolim/*ukʼaxkʼolim$		kukʼaxkʼolij = lo sufre; suffering/trials ?
 B	m	v	^kraʼlkʼuwaʼlaj/*kraʼlkʼuwaʼlaj$	kralkʼuwaʼlaj = lo engendra
 B	m	v	^kintzaqapij/*kintzaqapij$		kutzaqapij; kutoʼtajisaj = él lo libera // tzoqopij (v) to liberate; to set free
+B	m	v	^kkichʼikimej/*kkichʼikimej$		chʼikimanik = empujones; empujar // atropellar
+B	m	v	^kkikʼaxkʼolij/*kkikʼaxkʼolij$		kukʼaxkʼolij = lo sufre
+B	m	v	^kmayowik/*kmayowik$			mayowik; mayoj = aflicción; preocupación; kemayow(ik) = ellos están maravillados
+B	v	v	^kinuterneʼbʼej/*kinuterneʼbʼej$	kkiternebʼej; kkiterembʼej, kkiterneʼj = le siguen
+C	m	v	^xmekʼmobʼ/*xmekʼmobʼ$			mejmobik (v) to warp; hacerse panda (?)
+B	m	v	^kukʼuleʼlaj/*kukʼuleʼlaj$		kukʼuleʼlaj = lo contradice
 B			^chaqiʼjilaj/*chaqiʼjilaj$		derived from 'chaqiʼj' (dry)?
 B			^ejas/*ejas$
 B			^kalik/*kalik$
 B			^kaqit/*kaqit$
 B			^keripabʼaxik/*keripabʼaxik$
 B			^kinto/*kinto$
-B			^kinuterneʼbʼej/*kinuterneʼbʼej$
-B			^kkichʼikimej/*kkichʼikimej$
 B			^kkijubʼaʼ/*kkijubʼaʼ$
-B			^kkikʼaxkʼolij/*kkikʼaxkʼolij$
-B			^kmayowik/*kmayowik$
-B			^kukʼuleʼlaj/*kukʼuleʼlaj$
 B			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
 B			^xunabʼisaj/*xunabʼisaj$
 B			^xyokowik/*xyokowik$
 BC			^nuwaʼ/*nuwaʼ$
 C			^sutaq/*sutaq$
-C			^xmekʼmobʼ/*xmekʼmobʼ$			mejmobik (v) to warp; hacerse panda (?)
 L			^qʼas/*qʼas$				qas? = true
 U			^riʼjalil/*riʼjalil$
