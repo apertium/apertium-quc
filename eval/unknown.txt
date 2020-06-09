@@ -102,7 +102,7 @@ B	m	j	^chaqiʼjilaj/*chaqiʼjilaj$		derived from 'chaqiʼj' (dry)? "dry" Rumal r
 B	m	v	^kuyuqabʼaʼ/*kuyuqabʼaʼ$		???
 B	m	v	^kaqit/*kaqit$				???
 L	m	j	^qʼas/*qʼas$				qas? = true // Qʼas saq laj upetik xuqujeʼ rajawaxik rech uyaʼik ubʼixik chi ri ktaʼik. // Identificación clara y precisa de la información que se solicita.
+U	m	n	^riʼjalil/*riʼjalil$			???
 B			^kalik/*kalik$
 BC			^nuwaʼ/*nuwaʼ$
 C			^sutaq/*sutaq$
-U			^riʼjalil/*riʼjalil$
