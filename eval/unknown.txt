@@ -73,12 +73,12 @@ B	m	n	^kukubʼ/*kukubʼ$			jukubʼ, kukubʼ = barco
 
 B			^kukʼuleʼlaj/*kukʼuleʼlaj$
 B			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
-B			^qatuʼqaril/*qatuʼqaril$
+B	s	n	^qatuʼqaril/*qatuʼqaril$		utuqaʼril = su debilidad, tuqar<il> (n) debility; weakness
 B	v	n	^ukaʼybʼal/*ukaʼybʼal$			kaʼyibal (n) looks; appearance; mirror; portrait; view; sight
 B			^ukʼaxkʼolim/*ukʼaxkʼolim$
 B	v	n	^ukʼiybʼalil/*ukʼiybʼalil$		ukʼiyibʼal joron = fuente de agua [= fuente?] kʼiyik = grow
-B			^usuʼtal/*usuʼtal$
-B			^utzalejixik/*utzalejixik$
+B	m	n	^usuʼtal/*usuʼtal$			suʼt (n) cloth; scarf; rag;
+B	v	v	^utzalejixik/*utzalejixik$		<s_sg3>tzalej<v><tv><pass><inf>	u>tzale>x>ik (?)
 BU	t	_	^tzel/*tzel$				Ri eʼi- tzel
 B	m	v	^weyeʼm/*weyeʼm$			"irregular" form, like eta'm ... "wait".
 B	m	v	^xchubʼlinik/*xchubʼlinik$		<perf><s_sg3>chubʼlin<v><iv>+ik<mark> / kechubʼlin(ik) = brillan
