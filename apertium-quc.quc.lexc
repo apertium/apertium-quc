@@ -584,8 +584,8 @@ LEXICON TV-R-VAL
 
 @D.SS@%<pass%>:@D.SS@                                      TV-PASS-NONFIN  ;
 @R.Pref.ON@%<pass%>:@R.Pref.ON@                            SS-IV ;
-%<pass%>%<stat%>:%>%{U%}taj                                TV-PASS-NONFIN  ;
-@R.Pref.ON@%<pass%>%<stat%>:@R.Pref.ON@%>%{U%}taj          SS-IV ;
+%<pass%>%<stat%>:%>%{V%}taj                                TV-PASS-NONFIN  ; ! riqitaj
+@R.Pref.ON@%<pass%>%<stat%>:@R.Pref.ON@%>%{V%}taj          SS-IV ;
 %<pass%>%<stat%>:%>taj                                     TV-PASS-NONFIN  ; ! b'antaj (not b'anataj?)
 @R.Pref.ON@%<pass%>%<stat%>:@R.Pref.ON@%>taj               SS-IV ;           ! b'antaj (not b'anataj?)
 @D.SS@%<anti%>:@D.SS@%>%{U%}n                              TV-ANTI-NONFIN  ;
@@ -6556,9 +6556,7 @@ rayij:rayi                         V-TV-D ; ! "desire"
 richʼij:richʼi                     V-TV-D ; ! "tear (cloth)"
 rininej:rinine                     V-TV-D ; ! "rev (engine)"
 rip:rip                            V-TV-R ; ! "crucify"
-riq:riq                            V-TV-R ; ! ";find"
-riq:riq                            V-TV-R ; ! "find"
-riqʼ:riq                           V-TV-R ; ! "lick"
+riq:riq                            V-TV-R ; ! "encontrar; find"
 riqʼ:riqʼ                          V-TV-R ; ! "lick"
 ritakiej:ritakie                   V-TV-D ; ! "tear (clothing from fall)"
 riʼjobisaj:riʼjobisa               V-TV-D ; ! "make something old (hard work, etc.)"

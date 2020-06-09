@@ -29,7 +29,7 @@ C	m	v	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o
 C	m	m	^Juʼl/*Juʼl$
 C	t	_	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark>
 C	v	_	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark>
-B			^apetbʼal/*apetbʼal$
+B	v	n	^apetbʼal/*apetbʼal$			petibal (n) arrival; coming(?) 
 B			^chaqiʼjilaj/*chaqiʼjilaj$
 B			^chiniwilʼa/*chiniwilʼa$
 B			^chixkʼasal/*chixkʼasal$
@@ -43,7 +43,7 @@ B			^iwachajil/*iwachajil$
 B			^ixtakʼal/*ixtakʼal$
 B	s	n	^jastasq/*jastasq$				jastaq (n) things; goods
 B			^kalik/*kalik$
-B			^kanum/*kanum$
+B	h	v	^kanum/*kanum$					^kanum/<impf><s_sg3>num<v><iv>$
 B			^kaqit/*kaqit$
 B			^katijowik/*katijowik$
 B			^kchaʼ/*kchaʼ$
@@ -64,11 +64,11 @@ B			^kkichʼikimej/*kkichʼikimej$
 B			^kkijubʼaʼ/*kkijubʼaʼ$
 B			^kkikʼamij/*kkikʼamij$
 B			^kkikʼaxkʼolij/*kkikʼaxkʼolij$
-B			^kkʼaʼy/*kkʼaʼy$
+B	s	v	^kkʼaʼy/*kkʼaʼy$				kaʼy? "kaʼy che (v) to look at" ^kkaʼy/<impf><s_sg3>kaʼy<v><iv>$	Pero Jesús se dio la vuelta, miró a sus discípulos, y reprendió a Pedro. // Kʼatekʼut, ri Jesus kuchʼikmej apanoq, kkʼaʼy chkech ri eʼutijoxelabʼ e kubʼij chrech ri Luʼ:
 B			^kmayowik/*kmayowik$
 B			^Kpaqiʼ/*Kpaqiʼ$
 B			^kraʼlkʼuwaʼlaj/*kraʼlkʼuwaʼlaj$
-B			^Ksachitaj/*Ksachitaj$
+B	p	_	^Ksachitaj/*Ksachitaj$				^ksachitaj/<impf><s_sg3>sach<v><tv><pass><stat>$ -{V}taj not -{U}taj
 B			^kukubʼ/*kukubʼ$
 B			^kukʼuleʼlaj/*kukʼuleʼlaj$
 B			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
@@ -87,7 +87,7 @@ B			^xukʼaslemaj/*xukʼaslemaj$
 B			^xunabʼisaj/*xunabʼisaj$
 B			^xwaxik/*xwaxik$
 B			^xyokowik/*xyokowik$
-B			^yitzʼbʼal/*yitzʼbʼal$
+B	m	n	^yitzʼbʼal/*yitzʼbʼal$			yitzʼ<o> (tv1) to squeeze; to press; to wring out (wet clothes);
 C	h	v	^Kakitzijoj/*Kakitzijoj$		^Kkitzijoj/<impf><o_sg3><s_pl3>tzijoj<v><tv>$^./.<sent>$
 C	h	v	^karil/*karil$				^karil/<impf><o_sg3><s_sg3>il<v><tv>$
 C			^sutaq/*sutaq$
