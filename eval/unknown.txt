@@ -45,9 +45,9 @@ B	s	n	^jastasq/*jastasq$				jastaq (n) things; goods
 B			^kalik/*kalik$
 B	h	v	^kanum/*kanum$					^kanum/<impf><s_sg3>num<v><iv>$
 B			^kaqit/*kaqit$
-B			^katijowik/*katijowik$
-B			^kchaʼ/*kchaʼ$
-B			^kechupchatik/*kechupchatik$
+B	m	v	^katijowik/*katijowik$			<impf><s_sg3>tijow<v><iv>+ik<mark> - be edible
+B	m	v	^kchaʼ/*kchaʼ$				chaʼ (v-irregular) to say; chaʼ (v) to choose;
+B	m	v	^kechupchatik/*kechupchatik$		kchupchatik = resplandece; brilla; 
 B			^kekipitzʼobʼej/*kekipitzʼobʼej$
 B			^kekiriqa/*kekiriqa$
 B			^keripabʼaxik/*keripabʼaxik$
