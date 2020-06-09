@@ -48,25 +48,25 @@ B			^kaqit/*kaqit$
 B	m	v	^katijowik/*katijowik$			<impf><s_sg3>tijow<v><iv>+ik<mark> - be edible
 B	m	v	^kchaʼ/*kchaʼ$				chaʼ (v-irregular) to say; chaʼ (v) to choose;
 B	m	v	^kechupchatik/*kechupchatik$		kchupchatik = resplandece; brilla; 
-B			^kekipitzʼobʼej/*kekipitzʼobʼej$
-B			^kekiriqa/*kekiriqa$
+B	m	v	^kekipitzʼobʼej/*kekipitzʼobʼej$	V-TV; pitzʼobʼej
+B	s	v	^kekiriqa/*kekiriqa$			kekiriqaʼ
 B			^keripabʼaxik/*keripabʼaxik$
 B			^keʼesataj/*keʼesataj$
 B			^kinmaltyoxij/*kinmaltyoxij$
 B			^kinto/*kinto$
 B			^kintzaqapij/*kintzaqapij$
 B			^kinuterneʼbʼej/*kinuterneʼbʼej$
-B			^kixkikʼyaq/*kixkikʼyaq$
-B			^Kixkikʼyaq/*Kixkikʼyaq$
-B			^kixkiriqaʼ/*kixkiriqaʼ$
-B			^kixuriqaʼ/*kixuriqaʼ$
+B	m	v	^kixkikʼyaq/*kixkikʼyaq$		kkikʼyaqo; kkikʼaqo = ellos lo tiran // kʼyaq = tirar
+B	m	v	^Kixkikʼyaq/*Kixkikʼyaq$
+B	m	v	^kixkiriqaʼ/*kixkiriqaʼ$		kuxik; kuriqaʼ na; kok na = llega a serlo
+B	m	v	^kixuriqaʼ/*kixuriqaʼ$
 B			^kkichʼikimej/*kkichʼikimej$
 B			^kkijubʼaʼ/*kkijubʼaʼ$
 B			^kkikʼamij/*kkikʼamij$
 B			^kkikʼaxkʼolij/*kkikʼaxkʼolij$
 B	s	v	^kkʼaʼy/*kkʼaʼy$				kaʼy? "kaʼy che (v) to look at" ^kkaʼy/<impf><s_sg3>kaʼy<v><iv>$	Pero Jesús se dio la vuelta, miró a sus discípulos, y reprendió a Pedro. // Kʼatekʼut, ri Jesus kuchʼikmej apanoq, kkʼaʼy chkech ri eʼutijoxelabʼ e kubʼij chrech ri Luʼ:
 B			^kmayowik/*kmayowik$
-B			^Kpaqiʼ/*Kpaqiʼ$
+B	m	v	^Kpaqiʼ/*Kpaqiʼ$			paqiʼk (v) to raise (prices, etc.);
 B			^kraʼlkʼuwaʼlaj/*kraʼlkʼuwaʼlaj$
 B	p	_	^Ksachitaj/*Ksachitaj$				^ksachitaj/<impf><s_sg3>sach<v><tv><pass><stat>$ -{V}taj not -{U}taj
 B	m	n	^kukubʼ/*kukubʼ$			jukubʼ, kukubʼ = barco
