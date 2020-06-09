@@ -39,8 +39,8 @@ BC			^nuwaʼ/*nuwaʼ$
 B	m	n	^echbʼanel/*echbʼanel$			echbʼanel = heredero
 B			^ejas/*ejas$
 B	m	n	^itʼiqom/*itʼiqom$			"sello" cf. tʼiqbʼal = sello ... t'iqom (adj = sealed)
-B			^iwachajil/*iwachajil$
-B			^ixtakʼal/*ixtakʼal$
+B	m	n	^iwachajil/*iwachajil$			wachaj = rostro;  <px2pl>wachajil<n> ... -il for non-poss?
+B	m	j	^ixtakʼal/*ixtakʼal$			related to "standing", takʼal // takʼalik (adj) standing; stopped; parked (car)
 B	s	n	^jastasq/*jastasq$				jastaq (n) things; goods
 B			^kalik/*kalik$
 B	h	v	^kanum/*kanum$					^kanum/<impf><s_sg3>num<v><iv>$
