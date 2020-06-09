@@ -5122,7 +5122,9 @@ Kuʼ:Kuʼ NP-Ant-M ; ! ""
 Umam:Umam NP-Cog ; ! ""
 Umán:Umán NP-Cog ; ! ""
 
-Chikabʼraqan:Chikabʼraqan NP-Top ; ! 
+Chikabʼraqan:Chikabʼraqan NP-Top ; !  ""
+Xechpup:Xechpup NP-Top ; ! ""
+Xeʼwenabʼaj:Xeʼwenabʼaj NP-Top ; ! ""
 
 LEXICON Adjectives
 saq:saq A-saq ;                    ! "blanco; white"

@@ -101,7 +101,7 @@ B			^chaqiʼjilaj/*chaqiʼjilaj$		derived from 'chaqiʼj' (dry)?
 B			^kalik/*kalik$
 B			^kaqit/*kaqit$
 B			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
-B			^xyokowik/*xyokowik$
+B	m	v	^xyokowik/*xyokowik$			??? establish?
 BC			^nuwaʼ/*nuwaʼ$
 C			^sutaq/*sutaq$
 L			^qʼas/*qʼas$				qas? = true
