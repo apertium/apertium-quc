@@ -1,104 +1,106 @@
-# p = phonology # h = morphotactics # m = missing stem # v = variant spelling # t = tokenisation # s = spelling error?
-p	_	^kita/*kita$					"<impf><o_sg3><s_pl2>ta<v><tv> / k>>i{w}>ta
-h	n	^echʼokoʼibʼ/*echʼokoʼibʼ$			chʼokoʼ:chʼokoʼ N-tinamit ; ! "cripple"
-m	n	^ajtiʼatira/*ajtiʼatira$
-m	n	^ixajgalata/*ixajgalata$
-v	_	^RAJILIBʼAL/*RAJILIBʼAL$			ajilabal (n) date (calendar); number
-m	m	^Juʼl/*Juʼl$
-m	t	^Didyme/*Didyme$
-m	n	^krisolita/*krisolita$				crisólito
-t	_	^kitzʼ/*kitzʼ$					kitzʼ- ibʼam	//	tzʼibʼam chrij = es escrito sobre él
-m	n	^Elamitas/*Elamitas$
-m	f	^Sintike/*Sintike$
-m	j	^yatal/*yatal$					¿Suche kkibʼano ri man yatal taj kbʼanik pa ri qʼij sabʼado?/¿por qué hacen ellos lo que está prohibido hacer en sábado?
-m	n	^Uraqik/*Uraqik$				raq -chiʼ (tv1) to shout; to yell	/ Ley "revelación"	
-m	v	^Uraqik/*Uraqik$				raq -chiʼ (tv1) to shout; to yell	/ Ley "revelación"	
-m	o	^Pentekostes/*Pentekostes$
-m	v	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark> "lo siente"
-t	_	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark>
-v	_	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark>
-m	t	^Apoloniʼa/*Apoloniʼa$
-m	n	^Ajbʼetaniʼa/*Ajbʼetaniʼa$
-m	m	^Mateʼy/*Mateʼy$
-v	c	^knebʼaʼ/*knebʼaʼ$
-m	m	^Asor/*Asor$
-m	t	^Ikonyo/*Ikonyo$
-		^ixtakʼal/*ixtakʼal$
-		^kekipitzʼobʼej/*kekipitzʼobʼej$
-		^xetzijoj/*xetzijoj$
-		^sutaq/*sutaq$
-		^kanum/*kanum$
-		^Kixkikʼyaq/*Kixkikʼyaq$
-		^qʼatbaʼl/*qʼatbaʼl$
-		^kixkikʼyaq/*kixkikʼyaq$
-		^katʼuyiʼ/*katʼuyiʼ$
-		^yitzʼbʼal/*yitzʼbʼal$
-		^kkijubʼaʼ/*kkijubʼaʼ$
-		^Kpaqiʼ/*Kpaqiʼ$
-		^nuwaʼ/*nuwaʼ$
-		^Kakitzijoj/*Kakitzijoj$
-		^kchaʼ/*kchaʼ$
-		^riʼjalil/*riʼjalil$
-		^kakibʼij/*kakibʼij$
-		^xyokowik/*xyokowik$
-		^ukʼiybʼalil/*ukʼiybʼalil$
-		^kachakuxik/*kachakuxik$
-		^kkʼaʼy/*kkʼaʼy$
-		^cholbʼlil/*cholbʼlil$
-		^kkikʼamij/*kkikʼamij$
-		^xmekʼmobʼ/*xmekʼmobʼ$
-		^kkikʼaxkʼolij/*kkikʼaxkʼolij$
-		^chkojiʼ/*chkojiʼ$
-		^kumajabʼej/*kumajabʼej$
-		^utzalejixik/*utzalejixik$
-		^xkipaqchiʼj/*xkipaqchiʼj$
-		^kalik/*kalik$
-		^xwaxik/*xwaxik$
-		^kinto/*kinto$
-		^qatuʼqaril/*qatuʼqaril$
-		^keʼesataj/*keʼesataj$
-		^xchubʼlinik/*xchubʼlinik$
-		^tzel/*tzel$
-		^xukʼaslemaj/*xukʼaslemaj$
-		^jastasq/*jastasq$
-		^usuʼtal/*usuʼtal$
-		^xela/*xela$
-		^kmayowik/*kmayowik$
-		^ejas/*ejas$
-		^kixuriqaʼ/*kixuriqaʼ$
-h	j	^kʼaslikalaj/*kʼaslikalaj$		
-		^kinmaltyoxij/*kinmaltyoxij$
-		^kukubʼ/*kukubʼ$
-		^itʼiqom/*itʼiqom$
-		^kkichʼikimej/*kkichʼikimej$
-		^ukʼaxkʼolim/*ukʼaxkʼolim$
-		^kuyuqabʼaʼ/*kuyuqabʼaʼ$
-		^kekiriqa/*kekiriqa$
-		^keripabʼaxik/*keripabʼaxik$
-		^echbʼanel/*echbʼanel$
-		^takaniq/*takaniq$
-		^iwachajil/*iwachajil$
-		^chiniwilʼa/*chiniwilʼa$
-		^uqʼabʼilal/*uqʼabʼilal$
-		^xunabʼisaj/*xunabʼisaj$
-		^kinuterneʼbʼej/*kinuterneʼbʼej$
-		^kechupchatik/*kechupchatik$
-		^qʼas/*qʼas$
-		^kraʼlkʼuwaʼlaj/*kraʼlkʼuwaʼlaj$
-		^kixkiriqaʼ/*kixkiriqaʼ$
-		^Ksachitaj/*Ksachitaj$
-		^chaqiʼjilaj/*chaqiʼjilaj$
-		^kintzaqapij/*kintzaqapij$
-		^tikatil/*tikatil$
-		^kaqit/*kaqit$
-		^chixkʼasal/*chixkʼasal$
-		^kaqasataj/*kaqasataj$
-		^ktzuktzatik/*ktzuktzatik$
-		^kaqʼatik/*kaqʼatik$
-		^weyeʼm/*weyeʼm$
-		^katijowik/*katijowik$
-		^kakʼulax/*kakʼulax$
-		^apetbʼal/*apetbʼal$
-		^kukʼuleʼlaj/*kukʼuleʼlaj$
-		^ukaʼybʼal/*ukaʼybʼal$
-		^karil/*karil$
+	# p = phonology # h = morphotactics # m = missing stem # v = variant spelling # t = tokenisation # s = spelling error?
+B	p	_	^kita/*kita$					"<impf><o_sg3><s_pl2>ta<v><tv> / k>>i{w}>ta
+B	h	n	^echʼokoʼibʼ/*echʼokoʼibʼ$			chʼokoʼ:chʼokoʼ N-tinamit ; ! "cripple"
+B	m	n	^ajtiʼatira/*ajtiʼatira$
+B	m	n	^ixajgalata/*ixajgalata$
+L	v	_	^RAJILIBʼAL/*RAJILIBʼAL$			ajilabal (n) date (calendar); number
+C	m	m	^Juʼl/*Juʼl$
+B	m	t	^Didyme/*Didyme$
+B	m	n	^krisolita/*krisolita$				crisólito
+B	t	_	^kitzʼ/*kitzʼ$					kitzʼ- ibʼam	//	tzʼibʼam chrij = es escrito sobre él
+B	m	n	^Elamitas/*Elamitas$
+B	m	f	^Sintike/*Sintike$
+B	m	j	^yatal/*yatal$					¿Suche kkibʼano ri man yatal taj kbʼanik pa ri qʼij sabʼado?/¿por qué hacen ellos lo que está prohibido hacer en sábado?
+L	m	n	^Uraqik/*Uraqik$				raq -chiʼ (tv1) to shout; to yell	/ Ley "revelación"	
+L	m	v	^Uraqik/*Uraqik$				raq -chiʼ (tv1) to shout; to yell	/ Ley "revelación"	
+B	m	o	^Pentekostes/*Pentekostes$
+C	m	v	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark> "lo siente"
+C	t	_	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark>
+C	v	_	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark>
+B	m	t	^Apoloniʼa/*Apoloniʼa$
+B	m	n	^Ajbʼetaniʼa/*Ajbʼetaniʼa$
+B	m	m	^Mateʼy/*Mateʼy$
+B	v	c	^knebʼaʼ/*knebʼaʼ$
+B	m	m	^Asor/*Asor$
+B	m	t	^Ikonyo/*Ikonyo$
+			^ixtakʼal/*ixtakʼal$
+			^kekipitzʼobʼej/*kekipitzʼobʼej$
+			^xetzijoj/*xetzijoj$
+			^sutaq/*sutaq$
+			^kanum/*kanum$
+			^Kixkikʼyaq/*Kixkikʼyaq$
+			^qʼatbaʼl/*qʼatbaʼl$
+			^kixkikʼyaq/*kixkikʼyaq$
+			^katʼuyiʼ/*katʼuyiʼ$
+			^yitzʼbʼal/*yitzʼbʼal$
+			^kkijubʼaʼ/*kkijubʼaʼ$
+			^Kpaqiʼ/*Kpaqiʼ$
+			^nuwaʼ/*nuwaʼ$
+			^Kakitzijoj/*Kakitzijoj$
+			^kchaʼ/*kchaʼ$
+			^riʼjalil/*riʼjalil$
+			^kakibʼij/*kakibʼij$
+			^xyokowik/*xyokowik$
+			^ukʼiybʼalil/*ukʼiybʼalil$
+			^kachakuxik/*kachakuxik$
+			^kkʼaʼy/*kkʼaʼy$
+			^cholbʼlil/*cholbʼlil$
+			^kkikʼamij/*kkikʼamij$
+			^xmekʼmobʼ/*xmekʼmobʼ$
+			^kkikʼaxkʼolij/*kkikʼaxkʼolij$
+			^chkojiʼ/*chkojiʼ$
+			^kumajabʼej/*kumajabʼej$
+			^utzalejixik/*utzalejixik$
+			^xkipaqchiʼj/*xkipaqchiʼj$
+			^kalik/*kalik$
+			^xwaxik/*xwaxik$
+			^kinto/*kinto$
+			^qatuʼqaril/*qatuʼqaril$
+			^keʼesataj/*keʼesataj$
+			^xchubʼlinik/*xchubʼlinik$
+			^tzel/*tzel$
+			^xukʼaslemaj/*xukʼaslemaj$
+			^jastasq/*jastasq$
+			^usuʼtal/*usuʼtal$
+B	s	n	^xela/*xela$				xelaʼ (n-esp) silk (seda) / telas de seda y escarlata - rech xela, e rech eskarlata
+			^kmayowik/*kmayowik$
+			^ejas/*ejas$
+			^kixuriqaʼ/*kixuriqaʼ$
+	h	j	^kʼaslikalaj/*kʼaslikalaj$		
+			^kinmaltyoxij/*kinmaltyoxij$
+			^kukubʼ/*kukubʼ$
+			^itʼiqom/*itʼiqom$
+			^kkichʼikimej/*kkichʼikimej$
+			^ukʼaxkʼolim/*ukʼaxkʼolim$
+			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
+			^kekiriqa/*kekiriqa$
+			^keripabʼaxik/*keripabʼaxik$
+			^echbʼanel/*echbʼanel$
+			^takaniq/*takaniq$
+			^iwachajil/*iwachajil$
+			^chiniwilʼa/*chiniwilʼa$
+			^uqʼabʼilal/*uqʼabʼilal$
+			^xunabʼisaj/*xunabʼisaj$
+			^kinuterneʼbʼej/*kinuterneʼbʼej$
+			^kechupchatik/*kechupchatik$
+			^qʼas/*qʼas$
+			^kraʼlkʼuwaʼlaj/*kraʼlkʼuwaʼlaj$
+			^kixkiriqaʼ/*kixkiriqaʼ$
+			^Ksachitaj/*Ksachitaj$
+			^chaqiʼjilaj/*chaqiʼjilaj$
+			^kintzaqapij/*kintzaqapij$
+			^tikatil/*tikatil$
+			^kaqit/*kaqit$
+			^chixkʼasal/*chixkʼasal$
+			^kaqasataj/*kaqasataj$
+B	m	v	^ktzuktzatik/*ktzuktzatik$			tzukutzutik (v) to walk looking for something // kʼatekʼuriʼ, ktzuktzatik chrech jas ujachik kubʼano arech man kiltaj ta kumal ri winaq. ||| y comenzó a buscar una oportunidad para entregarles a Jesús cuando no hubiera gente.
+B	s	v	^ktzuktzatik/*ktzuktzatik$			
+
+			^kaqʼatik/*kaqʼatik$
+			^weyeʼm/*weyeʼm$
+			^katijowik/*katijowik$
+			^kakʼulax/*kakʼulax$
+			^apetbʼal/*apetbʼal$
+			^kukʼuleʼlaj/*kukʼuleʼlaj$
+			^ukaʼybʼal/*ukaʼybʼal$
+			^karil/*karil$

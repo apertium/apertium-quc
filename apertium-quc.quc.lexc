@@ -795,6 +795,7 @@ chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>e  # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>q%>e # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>w%>e # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>k%>e  # ;  ! "" ! Src/UTexas
+chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chi%>k%>e  # ;  ! "" ! Src/Cuentos
 
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>aq%>e # ;  ! "" ! Src/Wiki
 
@@ -4752,10 +4753,12 @@ Prissilla:Prissilla NP-Ant-F ;
 Mariy:Mariy NP-Ant-F ;
 
 Perez:Perez NP-Cog ;
+Batz:Batz NP-Cog ;
 
 Migueʼl:Migueʼl NP-Ant-M ;
 Emmanueʼl:Emmanueʼl NP-Ant-M ;
 Tadeʼo:Tadeʼo NP-Ant-M ;
+Tiʼx:Tiʼx NP-Ant-M ; 
 Ajkananeʼo:Ajkananeʼo NP-Ant-M ;
 Efraʼim:Efraʼim NP-Ant-M ;
 Fortunato:Fortunato NP-Ant-M ; ! ""
@@ -4885,6 +4888,7 @@ Bʼelen:Bʼelen NP-Top ;
 Chuwila:Chuwila NP-Top ; ! "Chichicastenango"
 Armita:Armita NP-Top ; ! "Guatemala City"
 Ermita:Ermita NP-Top ; ! "Guatemala City"
+Ermiʼt:Ermiʼt NP-Top ; ! "Guatemala City"
 Maʼa:Maʼa NP-Top ; ! "Zacualpa"
 Mamaj:Mamaj NP-Top ; ! "San Pedro Jocopilas"
 Max:Max NP-Top ; ! "Chichicastenango"
@@ -5093,6 +5097,18 @@ Maleleʼel:Maleleʼel NP-Ant-M ; ! ""
 Kaʼinam:Kaʼinam NP-Ant-M ; ! ""
 Enos:Enos NP-Ant-M ; ! ""
 Set:Set NP-Ant-M ; ! ""
+
+Justo:Justo NP-Ant-M ; ! ""
+Ana:Ana NP-Ant-F ; ! ""
+Las:Las NP-Ant-M ; ! ""
+Trix:Trix NP-Ant-M ; ! ""
+Tekum:Tekum NP-Ant-M ; ! ""
+Tekun:Tekun NP-Ant-M ; ! ""
+Tecun:Tecun NP-Ant-M ; ! ""
+Tecún:Tecún NP-Ant-M ; ! ""
+
+Umam:Umam NP-Cog ; ! ""
+Umán:Umán NP-Cog ; ! ""
 
 
 LEXICON Adjectives
@@ -5851,6 +5867,9 @@ xuquje:xuquje Ad-aninaq ;                ! FIXME: Comprueba categoría
 xuq:xuq Ad-aninaq ;                    ! FIXME: Comprueba categoría
 xuqe:xuqe Ad-aninaq ;                  ! FIXME: Comprueba categoría
 
+xa:xa Ad-aninaq ;  ! "sólo"
+xaq:xaq Ad-aninaq ;                ! sólo
+
 ! Nota bene: Chi is also a conjunction introducing object complement
 ! clauses of transitive verbs (I see that you did this). It is also
 ! part of complex prepositions (see below). Be careful not to confuse the
@@ -5859,7 +5878,6 @@ chiʼ:chiʼ Ad-aninaq ;              ! "aquí; here"
 chi:chi Ad-aninaq ;                ! "otra vez, ya; again"
 chik:chik Ad-aninaq ;                ! "otra vez, ya; again"
 
-xaq:xaq Ad-aninaq ;                ! sólo
 sibʼalaj:sibʼalaj Ad-aninaq ;          ! "very"
 
 !apan:apan Ad-aninaq ;              ! "cerca"
@@ -6003,6 +6021,7 @@ kʼatekʼut:kʼatekut Ad-aninaq ; ! FIXME: comprobar ! Use/Spell ! Src/Biblia
 kʼatekʼut:kʼateʼkut Ad-aninaq ; ! FIXME: comprobar ! Use/Spell ! Src/Biblia
 kʼatekʼuriʼ:kʼatekʼuriʼ Ad-aninaq ; ! "and then it happened"
 kʼatekʼuriʼ:kʼatekuriʼ Ad-aninaq ; ! "and then it happened" ! Use/Spell
+kʼatekʼu:kʼatekʼu Ad-aninaq ;
 
 jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Biblia
 xaqbʼiʼ:xaqbʼiʼ Ad-aninaq ; ! "inmediatamente"
