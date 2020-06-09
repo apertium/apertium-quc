@@ -902,11 +902,14 @@ chi%<pr%>%+%<px3pl%>jujunal%<n%>%<rel%>:chi%>ki%>jujunal # ; ! "" ! Src/Biblia !
 ! Contracciones // FIXME: Check
 chi%<pr%>%+uwachulew%<n%>:ch%>uwachulew # ; ! "en mundo" ! Src/Biblia
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>%+ulew%<n%>:ch%>uwach%>ulew # ; ! "en su mundo" ! Src/Biblia
-chi%<pr%>%+%<px3sg%>chiʼ%<n%>:chuchiʼ # ; ! "a su orilla"
-pa%<pr%>+%<px3sg%>qʼabʼ%<n%>:puqʼabʼ # ; ! "en su mano"
-chi%<pr%>+%<px1sg%>ikyaqʼabʼ%<n%>:chwikyaqʼabʼ # ; ! "en mi derecha"
-chi%<pr%>+%<px3sg%>kʼisbʼal%<n%>:chukʼisbʼal # ; !"a su final"
-chi%<pr%>+%<px3sg%>xkut%<n%>:chuxkut # ; ! "a su lado"
+chi%<pr%>%+%<px3sg%>chiʼ%<n%>:ch%>u%>chiʼ # ; ! "a su orilla"
+pa%<pr%>+%<px3sg%>qʼabʼ%<n%>:p%>u%>qʼabʼ # ; ! "en su mano"
+chi%<pr%>+%<px1sg%>ikyaqʼabʼ%<n%>:ch%>w%>ikyaqʼabʼ # ; ! "en mi derecha"
+chi%<pr%>+%<px3sg%>kʼisbʼal%<n%>:ch%>u%>kʼisbʼal # ; !"a su final"
+chi%<pr%>+%<px3sg%>xkut%<n%>:ch%>u%>xkut # ; ! "a su lado"
+
+! en punta de
+chi%<pr%>%+%<px3sg%>tzaʼm%<n%>%<rel%>:ch%>u%>tzaʼm # ; ! Src/Biblia
 
 LEXICON Relationals
 
@@ -1076,6 +1079,7 @@ qʼat:qʼat N-tinamit ;              ! "herd, cattle"
 Dyos:dyos N-tinamit ;              ! "Dios; God"
 uwachulew:uwachulew N-tinamit ;    ! "mundo; world"
 taqanik:taqanik N-tinamit ;        ! "commandment, authority, command"
+taqanik:takaniq N-tinamit ;        ! "commandment, authority, command" ! Use/Spell ! Src/UDHR
 junab:junab N-tinamit ;            ! "year"
 junab:junabʼ N-tinamit ;           ! "year"
 tzaqatil:tzaqatil N-tinamit ;      ! "piece"

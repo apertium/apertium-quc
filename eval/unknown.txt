@@ -1,4 +1,6 @@
+# B = bible, L = decreto ley, C = cuentos, U = udhr
 # p = phonology # h = morphotactics # m = missing stem # v = variant spelling # t = tokenisation # s = spelling error?
+# n = noun, t = toponym, f = feminine name, j = adjective, o = other proper, v = verb, m = masculine name, 
 B	p	_	^kita/*kita$					"<impf><o_sg3><s_pl2>ta<v><tv> / k>>i{w}>ta
 B	h	n	^echʼokoʼibʼ/*echʼokoʼibʼ$			chʼokoʼ:chʼokoʼ N-tinamit ; ! "cripple"
 B	m	n	^ajtiʼatira/*ajtiʼatira$
@@ -77,7 +79,7 @@ B			^ukʼiybʼalil/*ukʼiybʼalil$
 B			^usuʼtal/*usuʼtal$
 B			^utzalejixik/*utzalejixik$
 BU			^tzel/*tzel$
-B			^weyeʼm/*weyeʼm$
+B	m	v	^weyeʼm/*weyeʼm$			"irregular" form, like eta'm ... "wait".
 B			^xchubʼlinik/*xchubʼlinik$
 B			^xetzijoj/*xetzijoj$
 B			^xkipaqchiʼj/*xkipaqchiʼj$
@@ -86,20 +88,21 @@ B			^xunabʼisaj/*xunabʼisaj$
 B			^xwaxik/*xwaxik$
 B			^xyokowik/*xyokowik$
 B			^yitzʼbʼal/*yitzʼbʼal$
-C			^Kakitzijoj/*Kakitzijoj$
-C			^karil/*karil$
+C	h	v	^Kakitzijoj/*Kakitzijoj$		^Kkitzijoj/<impf><o_sg3><s_pl3>tzijoj<v><tv>$^./.<sent>$
+C	h	v	^karil/*karil$				^karil/<impf><o_sg3><s_sg3>il<v><tv>$
 C			^sutaq/*sutaq$
-CU			^kakibʼij/*kakibʼij$
-C			^xmekʼmobʼ/*xmekʼmobʼ$
-L			^cholbʼlil/*cholbʼlil$
-L			^kaqʼatik/*kaqʼatik$
-L			^qʼas/*qʼas$
-L			^qʼatbaʼl/*qʼatbaʼl$
+CU	h	v	^kakibʼij/*kakibʼij$			kkibʼij(?) 
+C			^xmekʼmobʼ/*xmekʼmobʼ$			mejmobik (v) to warp; hacerse panda (?)
+L	m	n	^cholbʼlil/*cholbʼlil$			= cholbʼalil = contenido ? estadística ?
+L	s	n	^cholbʼlil/*cholbʼlil$			= cholbʼalil = contenido ? estadística ? < chol (v) to line up; to put in order +b'al
+L	h	v	^kaqʼatik/*kaqʼatik$
+L			^qʼas/*qʼas$				qas? = true
+L	s	n	^qʼatbaʼl/*qʼatbaʼl$			= qʼatbal (n) obstacle placed to prevent passage (wall, stones)
 L			^tikatil/*tikatil$
 L			^uqʼabʼilal/*uqʼabʼilal$
-U			^kachakuxik/*kachakuxik$
-U			^kakʼulax/*kakʼulax$
-U			^kaqasataj/*kaqasataj$
+U	h	v	^kachakuxik/*kachakuxik$		^kachakuxik/<impf><s_sg3>chakuj<v><tv><pass>+ik<mark>$
+U	h	v	^kakʼulax/*kakʼulax$			^kakʼulax/<impf><s_sg3>kʼulaj<v><tv><pass>$
+U	h	v	^kaqasataj/*kaqasataj$			^kaqasataj/<impf><s_sg3>qasaj<v><tv><pass><stat>$
 U			^kumajabʼej/*kumajabʼej$
 U			^riʼjalil/*riʼjalil$
-U			^takaniq/*takaniq$
+U	s	n	^takaniq/*takaniq$			^taqanik/taqanik<n>
