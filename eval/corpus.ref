@@ -47,13 +47,13 @@
 ^kkijubʼaʼ/*kkijubʼaʼ$
 ^Juʼl/Juʼl<np><ant><m>$
 ^knumik/<impf><s_sg3>num<v><iv>+ik<mark>$
-^Kpaqiʼ/<impf><o_sg3><s_pl2>paqiʼ<v><iv>/<impf><s_sg3>paqiʼ<v><iv>$
+^Kpaqiʼ/<impf><s_sg3>paqiʼ<v><iv>$
 ^nuwaʼ/<px1sg>wa<n>$
 ^Kakitzijoj/<impf><o_sg3><s_pl3>tzijoj<v><tv>$
 ^Didyme/Didyme<np><top>$
 ^utiʼj/<px3sg>tiʼj<n>$
 ^kchaʼ/<impf><o_sg3><s_pl2>chaʼ<v><tv>/<impf><s_sg3>chaʼ<v><iv>/<impf><s_sg3>chaʼ<v><tv><pass>$
-^riʼjalil/*riʼjalil$
+^riʼjalil/riʼjalil<n>$
 ^kakibʼij/<impf><o_sg3><s_pl3>bij<v><tv>$
 ^kumatz/kumatz<n>/kumätz<n>$
 ^xyokowik/*xyokowik$
@@ -65,8 +65,8 @@
 ^kkʼaʼy/<impf><s_sg3>kʼaʼy<v><iv>$
 ^Katkiqajbʼej/<impf><o_sg2><s_pl3>qajbej<v><tv>$
 ^cholbʼlil/cholbʼalil<n>$
-^kkikʼamij/*kkikʼamij$
-^xmekʼmobʼ/*xmekʼmobʼ$
+^kkikʼamij/<impf><o_sg3><s_pl3>kʼamij<v><tv>$
+^xmekʼmobʼ/<perf><s_sg3>mekʼmobʼ<v><iv>$
 ^Ajnasaret/ajnasaret<n>$
 ^numak/<px1sg>mak<n>$
 ^Xqaqʼojomaj/<perf><o_sg3><s_pl1>qʼojomaj<v><tv>$
@@ -94,7 +94,7 @@
 ^Elamitas/elamita<n><pl>$
 ^kel/<impf><s_sg3>el<v><iv>$
 ^kalik/*kalik$
-^xwaxik/*xwaxik$
+^xwaxik/xawaj<v><tv><pass><inf>/<perf><s_sg3>awaj<v><tv><pass>+ik<mark>$
 ^sukʼubʼam/sukʼub<v><iv><inf>$
 ^kinto/*kinto$
 ^qatuʼqaril/<px1pl>tuqaʼril<n>$
