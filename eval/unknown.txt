@@ -99,10 +99,10 @@ B	m	v	^keripabʼaxik/*keripabʼaxik$		???
 B	m	v	^kkijubʼaʼ/*kkijubʼaʼ$			ri juwinaq kijebʼ enimaʼq taq winaq, kexukiʼk kkijubʼaʼ  // los veinticuatro ancianos se postraban ante él y adoraban al que vive por los siglos de los siglos.
 B	m	v	^xyokowik/*xyokowik$			??? establish?
 B	m	j	^chaqiʼjilaj/*chaqiʼjilaj$		derived from 'chaqiʼj' (dry)? "dry" Rumal ri kikojonik xeqʼax pa ri Kyaq polow jeʼ jas chaqiʼjilaj ulew // Por la fe el pueblo cruzó el Mar Rojo como por tierra seca
+B	m	v	^kuyuqabʼaʼ/*kuyuqabʼaʼ$		???
+B	m	v	^kaqit/*kaqit$				???
+L	m	j	^qʼas/*qʼas$				qas? = true // Qʼas saq laj upetik xuqujeʼ rajawaxik rech uyaʼik ubʼixik chi ri ktaʼik. // Identificación clara y precisa de la información que se solicita.
 B			^kalik/*kalik$
-B			^kaqit/*kaqit$
-B			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
 BC			^nuwaʼ/*nuwaʼ$
 C			^sutaq/*sutaq$
-L			^qʼas/*qʼas$				qas? = true
 U			^riʼjalil/*riʼjalil$
