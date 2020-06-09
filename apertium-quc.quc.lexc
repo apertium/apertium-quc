@@ -1668,7 +1668,7 @@ chʼob:chʼob N-tinamit ; ! "group"
 chʼobonel:chʼobonel N-tinamit ; ! "oracle"
 chʼok:chʼok N-tinamit ; ! "grackle"
 chʼok:chʼok N-tinamit ; ! "hook (to hang clothes, meat)"
-chʼokoʼ:chʼokoʼ N-tinamit ; ! "cripple"
+chʼokoʼ:chʼokoʼ N-ixoq ; ! "cripple"
 !chʼokojib (n-plural) cripples:chʼokojib (n-plural) cripples N-tinamit ; ! ""
 !Chʼol Qʼij:Chʼol Qʼij N-tinamit ; ! "Tzolkin"
 !chʼolom sikil:chʼolom sikil N-tinamit ; ! "giblets"
@@ -3193,7 +3193,8 @@ qʼatal:qʼatal N-tinamit ; ! "judge" Src/UTexas:6
 qʼatanel:qʼatanel N-tinamit ; ! "one who is just passing through"
 qʼatatal:qʼatatal N-tinamit ; ! "a little"
 !qʼatatal qʼij:qʼatatal qʼij N-tinamit ; ! "a few days"
-qʼatbal:qʼatbal N-tinamit ; ! "obstacle placed to prevent passage (wall, stones)"
+qʼatbaʼl:qʼatbal N-tinamit ; ! "obstacle placed to prevent passage (wall, stones)" ! Use/Spell
+qʼatbaʼl:qʼatbaʼl N-tinamit ; ! "obstacle placed to prevent passage (wall, stones)"
 !qʼatbal jaʼ:qʼatbal jaʼ N-tinamit ; ! "dam"
 !qʼatbal -numik:qʼatbal -numik N-tinamit ; ! "refreshment"
 !qʼatel winaq:qʼatel winaq N-tinamit ; ! "highway robber"
@@ -4700,14 +4701,28 @@ Toj:toj N-tinamit ; ! "day in the sacred calendar"
 Tzʼikin:tzʼikin N-tinamit ; ! "day in the sacred calendar"
 Tzʼiʼ:tzʼiʼ N-tinamit ; ! "day in the sacred calendar"
 
+krisolita:krisolita N-tinamit ; 
+ajtiʼatira:ajtiʼatira N-tinamit ;
+ajgalata:ajgalata N-tinamit ;
+yitzʼbʼal:yitzʼbʼal N-tinamit ;
+kʼiybʼalil:kʼiybʼalil N-tinamit ;
+cholbʼalil:cholbʼlil N-tinamit ; ! Use/Spell
+cholbʼalil:cholbʼalil N-tinamit ;
+tuqaʼril:tuʼqaril N-tinamit ; ! Use/Spell
+tuqaʼril:tuqaʼril N-tinamit  ;
+
+
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
+Didyme:Didyme NP-Top ;
 Totonicapán:Totonicapan NP-Top ;
 Totonicapán:Totonicapan NP-Top ; ! Use/Spell
 Chwitzʼaq:Chwitzʼaq NP-Top ;
 Chirijquiac:Chirijquiac NP-Top ;
 Nahuala:Nahuala NP-Top ;
 EE%.UU%.:EE%.UU%. NP-Top ;
+
+Juʼl:Juʼl NP-Ant-M ;
 
 Iximulew:Iximulew NP-Top ; ! ""
 Alejandriʼa:Alejandriʼa NP-Top ; ! ""
