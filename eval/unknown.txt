@@ -105,4 +105,4 @@ L	m	j	^qʼas/*qʼas$				qas? = true // Qʼas saq laj upetik xuqujeʼ rajawaxik r
 U	m	n	^riʼjalil/*riʼjalil$			???
 B	s	v	^kalik/*kalik$				likʼ //  kʼatekʼut, aretaq chiʼ at riʼj winaq chik kalik na riʼ // pero cuando seas viejo extenderás las manos
 BC	s	n	^nuwaʼ/*nuwaʼ$				mi comida
-C			^sutaq/*sutaq$
+C	m	n	^sutaq/*sutaq$				???
