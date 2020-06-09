@@ -51,7 +51,7 @@ B	m	v	^kechupchatik/*kechupchatik$		kchupchatik = resplandece; brilla;
 B	m	v	^kekipitzʼobʼej/*kekipitzʼobʼej$	V-TV; pitzʼobʼej
 B	s	v	^kekiriqa/*kekiriqa$			kekiriqaʼ
 B			^keripabʼaxik/*keripabʼaxik$
-B			^keʼesataj/*keʼesataj$
+B	m	v	^keʼesataj/*keʼesataj$			??? something to do with "make leave" // Aretaq chiʼ keʼesataj ubʼi ri winaq,//Pero cuando se les hizo salir
 B	v	v	^kinmaltyoxij/*kinmaltyoxij$		kinmaltyoxij
 B			^kinto/*kinto$
 B			^kintzaqapij/*kintzaqapij$		kutzaqapij; kutoʼtajisaj = él lo libera // tzoqopij (v) to liberate; to set free
