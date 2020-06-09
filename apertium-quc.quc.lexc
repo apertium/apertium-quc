@@ -6394,7 +6394,8 @@ mak:mak                            V-TV-R ; ! "harvest or pick something with fi
 makuj:maku                         V-TV-D ; ! "sin against"
 malalej:malale                     V-TV-D ; ! "pet softly"
 malij:mali                         V-TV-D ; ! "lose (home"
-maltioxij:maltioxi                 V-TV-D ; ! "thank for something (xumaltioxij ri toqʼob ri xban che)"
+maltyoxij:maltioxi                 V-TV-D ; ! "thank for something (xumaltioxij ri toqʼob ri xban che)"
+maltyoxij:maltyoxi                 V-TV-D ; ! "thank for something (xumaltioxij ri toqʼob ri xban che)" ! Src/Biblia
 manxorisaj:manxorisa               V-TV-D ; ! "tame"
 matatej:matate                     V-TV-D ; ! "hold tightly (hand so donʼt get lost)"
 matzʼatzʼej:matzʼatzʼe             V-TV-D ; ! "hug hard"

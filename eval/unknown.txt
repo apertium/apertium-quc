@@ -52,9 +52,9 @@ B	m	v	^kekipitzʼobʼej/*kekipitzʼobʼej$	V-TV; pitzʼobʼej
 B	s	v	^kekiriqa/*kekiriqa$			kekiriqaʼ
 B			^keripabʼaxik/*keripabʼaxik$
 B			^keʼesataj/*keʼesataj$
-B			^kinmaltyoxij/*kinmaltyoxij$
+B	v	v	^kinmaltyoxij/*kinmaltyoxij$		kinmaltyoxij
 B			^kinto/*kinto$
-B			^kintzaqapij/*kintzaqapij$
+B			^kintzaqapij/*kintzaqapij$		kutzaqapij; kutoʼtajisaj = él lo libera // tzoqopij (v) to liberate; to set free
 B			^kinuterneʼbʼej/*kinuterneʼbʼej$
 B	m	v	^kixkikʼyaq/*kixkikʼyaq$		kkikʼyaqo; kkikʼaqo = ellos lo tiran // kʼyaq = tirar
 B	m	v	^Kixkikʼyaq/*Kixkikʼyaq$
@@ -62,7 +62,7 @@ B	m	v	^kixkiriqaʼ/*kixkiriqaʼ$		kuxik; kuriqaʼ na; kok na = llega a serlo
 B	m	v	^kixuriqaʼ/*kixuriqaʼ$
 B			^kkichʼikimej/*kkichʼikimej$
 B			^kkijubʼaʼ/*kkijubʼaʼ$
-B			^kkikʼamij/*kkikʼamij$
+B	m	v	^kkikʼamij/*kkikʼamij$			kinikʼamij; kinikʼamej = me ponen trampa
 B			^kkikʼaxkʼolij/*kkikʼaxkʼolij$
 B	s	v	^kkʼaʼy/*kkʼaʼy$				kaʼy? "kaʼy che (v) to look at" ^kkaʼy/<impf><s_sg3>kaʼy<v><iv>$	Pero Jesús se dio la vuelta, miró a sus discípulos, y reprendió a Pedro. // Kʼatekʼut, ri Jesus kuchʼikmej apanoq, kkʼaʼy chkech ri eʼutijoxelabʼ e kubʼij chrech ri Luʼ:
 B			^kmayowik/*kmayowik$
@@ -99,11 +99,11 @@ L	s	n	^cholbʼlil/*cholbʼlil$			= cholbʼalil = contenido ? estadística ? < ch
 L	h	v	^kaqʼatik/*kaqʼatik$
 L			^qʼas/*qʼas$				qas? = true
 L	s	n	^qʼatbaʼl/*qʼatbaʼl$			= qʼatbal (n) obstacle placed to prevent passage (wall, stones)
-L			^tikatil/*tikatil$
-L			^uqʼabʼilal/*uqʼabʼilal$
+L	m	n	^tikatil/*tikatil$			???
+L	m	n	^uqʼabʼilal/*uqʼabʼilal$		???
 U	h	v	^kachakuxik/*kachakuxik$		^kachakuxik/<impf><s_sg3>chakuj<v><tv><pass>+ik<mark>$
 U	h	v	^kakʼulax/*kakʼulax$			^kakʼulax/<impf><s_sg3>kʼulaj<v><tv><pass>$
 U	h	v	^kaqasataj/*kaqasataj$			^kaqasataj/<impf><s_sg3>qasaj<v><tv><pass><stat>$
-U			^kumajabʼej/*kumajabʼej$
+U	m	v	^kumajabʼej/*kumajabʼej$		??? also bible: "Kʼatekʼut ri Jesus kumajbʼej ubʼi ukʼutik ri tzij e kubʼij"
 U			^riʼjalil/*riʼjalil$
-U	s	n	^takaniq/*takaniq$			^taqanik/taqanik<n>
+U	s	n	^takaniq/*takaniq$			^taqank/taqanik<n>
