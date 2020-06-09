@@ -30,52 +30,33 @@ C	m	m	^Juʼl/*Juʼl$
 C	t	_	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark>
 C	v	_	^naʼoʼ/*naʼoʼ$					tokenisation error for 'kunaʼo // kunaʼo/<impf><o_sg3><s_sg3>naʼ<v><tv>+u<mark>
 B	v	n	^apetbʼal/*apetbʼal$			petibal (n) arrival; coming(?) 
-B			^chaqiʼjilaj/*chaqiʼjilaj$		derived from 'chaqiʼj' (dry)?
 B	s	v	^chiniwilʼa/*chiniwilʼa$		chiniwila? <imp><o_sg1><s_pl2>il<v><tv>+uʼ<mark><fin>
 B	m	v	^chixkʼasal/*chixkʼasal$		chixkʼasalbʼaʼ;  = velad, kʼasal = velar / vigilar
 B	m	v	^chkojiʼ/*chkojiʼ$			"chkojiʼ ta bʼaʼ ichoqʼabʼ" = "cobrar ánimo" (?)
 BC	m	v	^katʼuyiʼ/*katʼuyiʼ$			tʼuyiʼ // tʼuyiʼk (v) to seat oneʼs self; to sit [Toto]
-BC			^nuwaʼ/*nuwaʼ$
 B	m	n	^echbʼanel/*echbʼanel$			echbʼanel = heredero
-B			^ejas/*ejas$
 B	m	n	^itʼiqom/*itʼiqom$			"sello" cf. tʼiqbʼal = sello ... t'iqom (adj = sealed)
 B	m	n	^iwachajil/*iwachajil$			wachaj = rostro;  <px2pl>wachajil<n> ... -il for non-poss?
 B	m	j	^ixtakʼal/*ixtakʼal$			related to "standing", takʼal // takʼalik (adj) standing; stopped; parked (car)
 B	s	n	^jastasq/*jastasq$				jastaq (n) things; goods
-B			^kalik/*kalik$
 B	h	v	^kanum/*kanum$					^kanum/<impf><s_sg3>num<v><iv>$
-B			^kaqit/*kaqit$
 B	m	v	^katijowik/*katijowik$			<impf><s_sg3>tijow<v><iv>+ik<mark> - be edible
 B	m	v	^kchaʼ/*kchaʼ$				chaʼ (v-irregular) to say; chaʼ (v) to choose;
 B	m	v	^kechupchatik/*kechupchatik$		kchupchatik = resplandece; brilla; 
 B	m	v	^kekipitzʼobʼej/*kekipitzʼobʼej$	V-TV; pitzʼobʼej
 B	s	v	^kekiriqa/*kekiriqa$			kekiriqaʼ
-B			^keripabʼaxik/*keripabʼaxik$
 B	m	v	^keʼesataj/*keʼesataj$			??? something to do with "make leave" // Aretaq chiʼ keʼesataj ubʼi ri winaq,//Pero cuando se les hizo salir
 B	v	v	^kinmaltyoxij/*kinmaltyoxij$		kinmaltyoxij
-B			^kinto/*kinto$
-B			^kintzaqapij/*kintzaqapij$		kutzaqapij; kutoʼtajisaj = él lo libera // tzoqopij (v) to liberate; to set free
-B			^kinuterneʼbʼej/*kinuterneʼbʼej$
-B	m	v	^kixkikʼyaq/*kixkikʼyaq$		kkikʼyaqo; kkikʼaqo = ellos lo tiran // kʼyaq = tirar
 B	m	v	^Kixkikʼyaq/*Kixkikʼyaq$
 B	m	v	^kixkiriqaʼ/*kixkiriqaʼ$		kuxik; kuriqaʼ na; kok na = llega a serlo
 B	m	v	^kixuriqaʼ/*kixuriqaʼ$
-B			^kkichʼikimej/*kkichʼikimej$
-B			^kkijubʼaʼ/*kkijubʼaʼ$
 B	m	v	^kkikʼamij/*kkikʼamij$			kinikʼamij; kinikʼamej = me ponen trampa
-B			^kkikʼaxkʼolij/*kkikʼaxkʼolij$
 B	s	v	^kkʼaʼy/*kkʼaʼy$				kaʼy? "kaʼy che (v) to look at" ^kkaʼy/<impf><s_sg3>kaʼy<v><iv>$	Pero Jesús se dio la vuelta, miró a sus discípulos, y reprendió a Pedro. // Kʼatekʼut, ri Jesus kuchʼikmej apanoq, kkʼaʼy chkech ri eʼutijoxelabʼ e kubʼij chrech ri Luʼ:
-B			^kmayowik/*kmayowik$
 B	m	v	^Kpaqiʼ/*Kpaqiʼ$			paqiʼk (v) to raise (prices, etc.);
-B			^kraʼlkʼuwaʼlaj/*kraʼlkʼuwaʼlaj$
 B	p	_	^Ksachitaj/*Ksachitaj$				^ksachitaj/<impf><s_sg3>sach<v><tv><pass><stat>$ -{V}taj not -{U}taj
 B	m	n	^kukubʼ/*kukubʼ$			jukubʼ, kukubʼ = barco
-
-B			^kukʼuleʼlaj/*kukʼuleʼlaj$
-B			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
 B	s	n	^qatuʼqaril/*qatuʼqaril$		utuqaʼril = su debilidad, tuqar<il> (n) debility; weakness
 B	v	n	^ukaʼybʼal/*ukaʼybʼal$			kaʼyibal (n) looks; appearance; mirror; portrait; view; sight
-B			^ukʼaxkʼolim/*ukʼaxkʼolim$
 B	v	n	^ukʼiybʼalil/*ukʼiybʼalil$		ukʼiyibʼal joron = fuente de agua [= fuente?] kʼiyik = grow
 B	m	n	^usuʼtal/*usuʼtal$			suʼt (n) cloth; scarf; rag;
 B	v	v	^utzalejixik/*utzalejixik$		<s_sg3>tzalej<v><tv><pass><inf>	u>tzale>x>ik (?)
@@ -85,25 +66,43 @@ B	m	v	^xchubʼlinik/*xchubʼlinik$		<perf><s_sg3>chubʼlin<v><iv>+ik<mark> / kec
 B	p	v	^xetzijoj/*xetzijoj$			<perf><o_pl3><s_sg3>tzijoj<v><tv> = x>e>u>tzijo>j
 B	v	v	^xkipaqchiʼj/*xkipaqchiʼj$		xinkipaqchiʼj = me despreciaron / <perf><o_sg3><s_pl3>paqchiʼj<v><tv>
 B	m	v	^xukʼaslemaj/*xukʼaslemaj$		xukʼaslemaj = él vivió; él experimentó en su vida // <perf><o_sg3><s_sg3>kʼaslemaj<v><tv>
-B			^xunabʼisaj/*xunabʼisaj$
 B	s	v	^xwaxik/*xwaxik$			xawaxik	<perf><s_sg3>awaj<v><tv><pass>+ik<mark>	"fue escondido"
-B			^xyokowik/*xyokowik$
 B	m	n	^yitzʼbʼal/*yitzʼbʼal$			yitzʼ<o> (tv1) to squeeze; to press; to wring out (wet clothes);
 C	h	v	^Kakitzijoj/*Kakitzijoj$		^Kkitzijoj/<impf><o_sg3><s_pl3>tzijoj<v><tv>$^./.<sent>$
 C	h	v	^karil/*karil$				^karil/<impf><o_sg3><s_sg3>il<v><tv>$
-C			^sutaq/*sutaq$
 CU	h	v	^kakibʼij/*kakibʼij$			kkibʼij(?) 
-C			^xmekʼmobʼ/*xmekʼmobʼ$			mejmobik (v) to warp; hacerse panda (?)
 L	m	n	^cholbʼlil/*cholbʼlil$			= cholbʼalil = contenido ? estadística ?
 L	s	n	^cholbʼlil/*cholbʼlil$			= cholbʼalil = contenido ? estadística ? < chol (v) to line up; to put in order +b'al
 L	h	v	^kaqʼatik/*kaqʼatik$
-L			^qʼas/*qʼas$				qas? = true
 L	s	n	^qʼatbaʼl/*qʼatbaʼl$			= qʼatbal (n) obstacle placed to prevent passage (wall, stones)
 L	m	n	^tikatil/*tikatil$			???
 L	m	n	^uqʼabʼilal/*uqʼabʼilal$		???
 U	h	v	^kachakuxik/*kachakuxik$		^kachakuxik/<impf><s_sg3>chakuj<v><tv><pass>+ik<mark>$
 U	h	v	^kakʼulax/*kakʼulax$			^kakʼulax/<impf><s_sg3>kʼulaj<v><tv><pass>$
+B	m	v	^kixkikʼyaq/*kixkikʼyaq$		kkikʼyaqo; kkikʼaqo = ellos lo tiran // kʼyaq = tirar
 U	h	v	^kaqasataj/*kaqasataj$			^kaqasataj/<impf><s_sg3>qasaj<v><tv><pass><stat>$
 U	m	v	^kumajabʼej/*kumajabʼej$		??? also bible: "Kʼatekʼut ri Jesus kumajbʼej ubʼi ukʼutik ri tzij e kubʼij"
-U			^riʼjalil/*riʼjalil$
 U	s	n	^takaniq/*takaniq$			^taqank/taqanik<n>
+B	m	n	^ukʼaxkʼolim/*ukʼaxkʼolim$		kukʼaxkʼolij = lo sufre; suffering/trials ?
+B	m	v	^kraʼlkʼuwaʼlaj/*kraʼlkʼuwaʼlaj$	kralkʼuwaʼlaj = lo engendra
+B	m	v	^kintzaqapij/*kintzaqapij$		kutzaqapij; kutoʼtajisaj = él lo libera // tzoqopij (v) to liberate; to set free
+B			^chaqiʼjilaj/*chaqiʼjilaj$		derived from 'chaqiʼj' (dry)?
+B			^ejas/*ejas$
+B			^kalik/*kalik$
+B			^kaqit/*kaqit$
+B			^keripabʼaxik/*keripabʼaxik$
+B			^kinto/*kinto$
+B			^kinuterneʼbʼej/*kinuterneʼbʼej$
+B			^kkichʼikimej/*kkichʼikimej$
+B			^kkijubʼaʼ/*kkijubʼaʼ$
+B			^kkikʼaxkʼolij/*kkikʼaxkʼolij$
+B			^kmayowik/*kmayowik$
+B			^kukʼuleʼlaj/*kukʼuleʼlaj$
+B			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
+B			^xunabʼisaj/*xunabʼisaj$
+B			^xyokowik/*xyokowik$
+BC			^nuwaʼ/*nuwaʼ$
+C			^sutaq/*sutaq$
+C			^xmekʼmobʼ/*xmekʼmobʼ$			mejmobik (v) to warp; hacerse panda (?)
+L			^qʼas/*qʼas$				qas? = true
+U			^riʼjalil/*riʼjalil$
