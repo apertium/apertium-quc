@@ -5863,6 +5863,9 @@ ojer:ojer A-saq ;            ! "antiguo"
 ! TODO: MWE ""
 saqalaj:saqalaj  A-saq ; ! ""
 
+kyaq:kyaq A-saq ; ! "rojo"
+chaqiʼjilaj:chaqiʼjilaj A-saq ; ! "seco"
+
 LEXICON Adverbs
 
 chiwchiʼ:chiwchiʼ Ad-jampaʼ ; ! ""
