@@ -73,7 +73,7 @@ C	h	v	^karil/*karil$				^karil/<impf><o_sg3><s_sg3>il<v><tv>$
 CU	h	v	^kakibʼij/*kakibʼij$			kkibʼij(?) 
 L	m	n	^cholbʼlil/*cholbʼlil$			= cholbʼalil = contenido ? estadística ?
 L	s	n	^cholbʼlil/*cholbʼlil$			= cholbʼalil = contenido ? estadística ? < chol (v) to line up; to put in order +b'al
-L	h	v	^kaqʼatik/*kaqʼatik$
+L	h	v	^kaqʼatik/*kaqʼatik$			???
 L	s	n	^qʼatbaʼl/*qʼatbaʼl$			= qʼatbal (n) obstacle placed to prevent passage (wall, stones)
 L	m	n	^tikatil/*tikatil$			???
 L	m	n	^uqʼabʼilal/*uqʼabʼilal$		???
@@ -92,15 +92,15 @@ B	m	v	^kmayowik/*kmayowik$			mayowik; mayoj = aflicción; preocupación; kemayow
 B	v	v	^kinuterneʼbʼej/*kinuterneʼbʼej$	kkiternebʼej; kkiterembʼej, kkiterneʼj = le siguen
 C	m	v	^xmekʼmobʼ/*xmekʼmobʼ$			mejmobik (v) to warp; hacerse panda (?)
 B	m	v	^kukʼuleʼlaj/*kukʼuleʼlaj$		kukʼuleʼlaj = lo contradice
+B	s	v	^kinto/*kinto$				kintoʼ = // toʼ (v) to help;
+B	m	_	^ejas/*ejas$				jeʼ ejas = como (?) ... 'ejas' or 'e jas'
+B	m	v	^xunabʼisaj/*xunabʼisaj$		???
+B	m	v	^keripabʼaxik/*keripabʼaxik$		???
+B	m	v	^kkijubʼaʼ/*kkijubʼaʼ$			ri juwinaq kijebʼ enimaʼq taq winaq, kexukiʼk kkijubʼaʼ  // los veinticuatro ancianos se postraban ante él y adoraban al que vive por los siglos de los siglos.
 B			^chaqiʼjilaj/*chaqiʼjilaj$		derived from 'chaqiʼj' (dry)?
-B			^ejas/*ejas$
 B			^kalik/*kalik$
 B			^kaqit/*kaqit$
-B			^keripabʼaxik/*keripabʼaxik$
-B			^kinto/*kinto$
-B			^kkijubʼaʼ/*kkijubʼaʼ$
 B			^kuyuqabʼaʼ/*kuyuqabʼaʼ$
-B			^xunabʼisaj/*xunabʼisaj$
 B			^xyokowik/*xyokowik$
 BC			^nuwaʼ/*nuwaʼ$
 C			^sutaq/*sutaq$
