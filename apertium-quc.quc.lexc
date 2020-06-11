@@ -277,7 +277,7 @@ LEXICON N-ajjudiʼo
 %<n%>: # ;
 %<n%>%<pl%>:%>s # ;
 
-LEXICON N-dyos
+LEXICON N-pantalon
 
 %<n%>: # ;
 %<n%>%<pl%>:%>es # ;
@@ -4476,7 +4476,8 @@ ajawibʼal:ajawibal N-tinamit ; ! "kingdom" ! Src/Dico
 ajawibʼal:ajawibʼal N-tinamit ; ! "reino" ! Src/Biblia
 ajawarem:ajawarem N-tinamit ; ! "reino"
 
-dyos²:dyos N-dyos ; ! ""
+pantalon:pantalon N-pantalon ; ! ""
+dyos²:dyos N-pantalon ; ! ""
 ajjudiʼo:ajjudiʼo N-ajjudiʼo ; ! "judio"
 judiʼo:judiʼo N-ajjudiʼo ; ! "judio"
 denariʼo:denariʼo N-ajjudiʼo ; ! ""

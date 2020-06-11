@@ -63,7 +63,7 @@
 ^taj/taj<neg><fin>$
 ^jas/jas<prn><itg>$
 ^karaj/<impf><o_sg3><s_sg3>aj<v><tv>$
-^kubʼij/<impf><o_sg3><s_sg3>bij<v><tv>$
+^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
 ^…/…<sent>$
 
 # sent_id = utexas:7
@@ -153,7 +153,7 @@
 # labels = tijonik-2
 ^Jas/jas<prn><itg>$
 ^karaj/<impf><o_sg3><s_sg3>aj<v><tv>$
-^kubʼij/<impf><o_sg3><s_sg3>bij<v><tv>$
+^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
 ^…/…<sent>$
 ^?/?<sent>$
 
@@ -175,7 +175,7 @@
 ^La/la<qst>$
 ^utz/utz<adj>$
 ^we/we<cnjsub>$
-^kinbʼij/<impf><o_sg3><s_sg1>bij<v><tv>$
+^kinbʼij/<impf><o_sg3><s_sg1>bʼij<v><tv>$
 ^…/…<sent>$
 ^?/?<sent>$
 
@@ -313,7 +313,7 @@
 # text[spa] =  El niño tiene sandalias.
 # labels = tijonik-5
 ^Kʼo/kʼo<part>$
-^uxajab/<px3sg>xajäb<n>$
+^uxajabʼ/<px3sg>xajäbʼ<n>$
 ^ri/ri<det>$
 ^akʼal/akʼal<n>$
 
@@ -332,7 +332,7 @@
 # text[spa] =  Ustedes tienen una milpa en la montaña.
 # labels = tijonik-5
 ^Kʼo/kʼo<part>$
-^iwab/<px2pl>ab<n>$
+^iwabʼ/<px2pl>abʼ<n>$
 ^ix/ix<prn><pers><p2><pl>$
 ^pa/pa<pr>$
 ^juyubʼ/juyubʼ<adj>$
@@ -431,7 +431,7 @@
 # text[spa] =  Nosotros somos bailarines en Viernes Santo.
 # labels = tijonik-6
 ^Oj/oj<prn><pers><p1><pl>$
-^ajxojolobʼ/ajxojolab<n>$
+^ajxojolobʼ/ajxojolabʼ<n>$
 ^pa/pa<pr>$
 ^Awas/awas<adj>$
 ^Qʼij/qʼij<n>$
@@ -748,7 +748,7 @@
 ^Maj/maj<adv>$
 ^urajil/<px3sg>rajil<n>$
 ^le/le<det>$
-^qʼabarel/qʼabarel<n>$
+^qʼabʼarel/qʼabʼarel<n>$
 ^./.<sent>$
 
 # sent_id = utexas:73
@@ -782,7 +782,7 @@
 # text[spa] = No hay lluvia ahorita.
 # labels = tijonik-8
 ^Maj/maj<adv>$
-^jabʼ/jäb<n>$
+^jabʼ/jäbʼ<n>$
 ^chanim/chanim<adv>$
 ^./.<sent>$
 
@@ -912,7 +912,7 @@
 # text[spa] = ¿Caminás en el parque?
 # labels = tijonik-12
 ^La/la<qst>$
-^katbʼin/<impf><s_sg2>bin<v><iv>$
+^katbʼin/<impf><s_sg2>bʼin<v><iv>$
 ^pa/pa<pr>$
 ^le/le<det>$
 ^uxlanbʼal/uxlanbʼal<n>$
@@ -923,7 +923,7 @@
 # text[spa] = No camino.
 # labels = tijonik-12
 ^Na/na<adv>$
-^kinbʼin/<impf><s_sg1>bin<v><iv>$
+^kinbʼin/<impf><s_sg1>bʼin<v><iv>$
 ^taj/taj<neg><fin>$
 ^./.<sent>$
 
@@ -1071,7 +1071,7 @@
 ^che/chi<pr>+re<prn><pers><p3><sg>$
 ^xechaqij/<perf><s_pl3>chaqiʼj<v><iv>$
 ^le/le<det>$
-^abʼix/abix<n>$
+^abʼix/abʼix<n>$
 ^?/?<sent>$
 
 # sent_id = utexas:90.10
@@ -1582,7 +1582,7 @@
 # text[spa] =  ¿Qué me está diciendo?/¿Qué me dice? (él)
 # labels = tijonik-20
 ^Jas/jas<prn><itg>$
-^kubʼij/<impf><o_sg3><s_sg3>bij<v><tv>$
+^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
 ^chwe/chi<pr>+<px1sg>ech<n><rel>$
 ^?/?<sent>$
 
@@ -2137,7 +2137,7 @@
 # text = Kinbison che le wal.
 # text[spa] = Extraño a mi hijo./ Estoy triste por mi hijo.
 # labels = tijonik-32
-^Kinbison/*Kinbison$
+^Kinbʼison/*Kinbʼison$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
 ^le/le<det>$
 ^wal/<px1sg>al<n>$
