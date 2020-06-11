@@ -4722,6 +4722,8 @@ elamita:elamita N-ajjudiʼo ;
 !r-ajilabal qʼij:    r-ajilabal qʼij N-tinamit ; ! "date (fecha)"
 
 sutaq:sutaq N-tinamit ;
+uwaʼl:uwaʼl N-tinamit ; ! "jugo"
+lochʼ:lochʼ N-tinamit ; ! "recién nacido"
 
 
 LEXICON Propios
@@ -4745,7 +4747,7 @@ Dalmasiʼa:Dalmasiʼa NP-Top ; ! ""
 !Ama Qʼuqʼ:Ama Qʼuqʼ N-tinamit ; ! "planet Venus"
 Ajitz:Ajitz NP-Top ; ! "planet Mercury"
 
-Tzʼunil:Tzʼunil NP-Top ; ! "" ! Src/Cuentos
+Tzʼunil:Tzʼunil NP-Ant-M ; ! "" ! Src/Cuentos
 Joppe:Joppe NP-Top ;
 Chuatroj:Chuatroj NP-Top ;
 Sidon:Sidon NP-Top ;
@@ -7222,6 +7224,7 @@ kʼiy:kʼiy                          V-IV   ; ! "grow (corn plants)"
 kʼiyar:kʼiyar                      V-IV   ; ! "grow in number"
 kʼiäqan:kʼiäqan                    V-IV   ; ! "hunt"
 kʼiʼy:kʼiʼy                        V-IV   ; ! "grow"
+kʼojiʼk:kʼoji                      V-IV   ; ! "inhabitar; inhabit" ! Use/Spell
 kʼojiʼk:kʼojiʼ                     V-IV   ; ! "inhabitar; inhabit"
 kʼojnaj:kʼojnaj                    V-IV   ; ! "sound of something hard on hard surface (ax on hard wood)"
 kʼokʼin:kʼokʼin                    V-IV   ; ! "smell good (food, flower, perfume)"

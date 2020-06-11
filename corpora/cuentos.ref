@@ -8,7 +8,7 @@
 ^are/are<adv>/<px2sg>re<n><rel>/are<foc>$
 ^chiʼ/chiʼ<adv>$
 ^kil/<impf><s_sg3>il<v><tv><pass>$
-^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
+^uwach/<px3sg>wach<n><rel>$
 ^jun/jun<num>$
 ^lochʼ/lochʼ<n>$
 ^./.<sent>$
@@ -18,7 +18,7 @@
 # text[spa] =
 # labels = 
 ^Are/are<adv>/<px2sg>re<n><rel>$
-^kel/<impf><s_sg3>elik<v><iv>/<impf><s_sg3>el<v><iv>$
+^kel/<impf><s_sg3>el<v><iv>$
 ^wajxaqibʼ/wajxaqibʼ<num>$
 ^uqʼij/<px3sg>qʼij<n>$
 ^ri/ri<det>$
@@ -30,7 +30,7 @@
 # text[spa] =
 # labels = 
 ^Kakoj/<impf><o_sg3><s_sg2>koj<v><tv>$
-^kyaq/*kyaq$
+^kyaq/kyaq<adj>$
 ^usok/<px3sg>sok<n>$
 ^ri/ri<det>$
 ^unan/<px3sg>nan²<n>/<px3sg>nan¹<n>$
@@ -58,7 +58,7 @@
 # labels = 
 ^E/e<pl>$
 ^kebʼ/kebʼ<num>$
-^kekʼam/*kekʼam$
+^kekʼam/<impf><s_sg3>kʼam<v><tv><pass>$
 ^bʼik/bʼi<adv><dir>+ik<mark>$
 ^pa/pa<pr>$
 ^tuj/tuj<n>$
@@ -70,8 +70,8 @@
 # labels = 
 ^Tekʼuriʼ/tekʼuriʼ<cnjcoo>$
 ^kabʼan/<impf><o_sg3><s_sg2>bʼan<v><tv>$
-^jun/jun<adj>/jun<n>/jun<num>$
-^komon/komon<adj>/komon<n>$
+^jun/jun<num>$
+^komon/komon<adj>$
 ^waʼim/waʼim<n>$
 ^pa/pa<pr>$
 ^kachoch/<px3pl>achoch<n>$
@@ -81,7 +81,7 @@
 # text = Ktij ri uwaʼl ik rumal ri kinimaqʼij.
 # text[spa] =
 # labels = 
-^Ktij/<impf><s_sg3>tijik<v><iv>$
+^Ktij/<impf><s_sg3>tij<v><iv>$
 ^ri/ri<det>$
 ^uwaʼl/<px3sg>waʼl<n>$
 ^ik/ik<n>$
@@ -94,13 +94,13 @@
 # text = We man je kabʼan chike, kabʼison le rajaw tuj.
 # text[spa] =
 # labels = 
-^We/we<cnjsub>/we<det>$
-^man/man<neg>/<imp><neg><s_sg3>anik<v><iv>$
+^We/we<cnjsub>$
+^man/man<neg>$
 ^je/je<adv>$
 ^kabʼan/<impf><o_sg3><s_sg2>bʼan<v><tv>$
 ^chike/chi<pr>+<px3pl>ech<n><rel>$
 ^,/,<cm>$
-^kabʼison/<impf><s_sg3>bʼisonik<v><iv>$
+^kabʼison/<impf><s_sg3>bʼison<v><iv>$
 ^le/le<det>$
 ^rajaw/<px3sg>ajaw<n>$
 ^tuj/tuj<n>$
