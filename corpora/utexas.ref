@@ -2069,7 +2069,6 @@
 ^kabʼantaj/<impf><s_sg3>bʼan<v><tv><pass><stat>$
 ^ta/taj<neg>$
 ^wumal/<px1sg>umal<n><rel>$
-<<<<<<< HEAD
 
 # sent_id = utexas:179
 # text = Na kabʼantaj ta wumal
@@ -2344,6 +2343,4 @@ la/la<part><frm>$
 ^Aʼre/aʼre<prn><pers><p3><pl>$
 ^xetoʼw/*xetoʼw$
 ^alaq/alaq<part><frm>$
-=======
->>>>>>> 276cec5d9156e95f85a341dfe7466353adc6518a
 ^./.<sent>$
