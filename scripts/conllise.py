@@ -186,7 +186,6 @@ for depseg in sents_depseg:
 	tokens = get_tokens(parse)
 	segmentations = get_segmentations(sents_depseg[depseg][1])
 
-
 #	print(tokens)
 
 	if len(tokens) != len(segmentations):

@@ -1,4 +1,4 @@
-# sent_id = 1 
+# sent_id = 1
 # text = Ri nim taq chuchqajawibʼ, xoqujeʼ kkaj kkikamisaj ri Lasaro.
 # text[spa] = Pero los principales sacerdotes acordaron dar muerte también a Lázaro.
 # labels = Juan:12:10
@@ -15,31 +15,127 @@
 ^./.$
 
 # sent_id = 2
-# text = K’atek’ut, xinb’e pa ri Siri’a e pa ri Silisi’a;
+# text = Kʼatekʼut, xinbʼe pa ri Siriʼa e pa ri Silisiʼa;
 # text[spa] = Más tarde fui a las regiones de Siria y Cilicia.
-# labels = 
+# labels = Gal:9:1
+^Kʼatekʼut/kʼateʼkut$
+^,/,$
+^xinbʼe/x>in>bʼe$
+^pa/pa$
+^ri/ri$
+^Siriʼa/Siriʼa$
+^e/e$
+^pa/pa$
+^ri/ri$
+^Silisiʼa/Silisiʼa$
+^;/;$
 
-# sent_id = 3 
-# text = Kb’e pa ri Siri’a e pa ri Silisi’a, jawije’ kuya wi ri kichuq’ab’ ri Komon Tyox.
-# text[spa] =
-# labels =
+# sent_id = 3
+# text = Kbʼe pa ri Siriʼa e pa ri Silisiʼa, jawijeʼ kuya wi ri kichuqʼabʼ ri Komon Tyox.
+# text[spa] = Y viajó por Siria y Cilicia, consolidando a las iglesias.
+# labels = Hechos:5:1
+^Kbʼe/k>>bʼe$
+^pa/pa$
+^ri/ri$
+^Siriʼa/Siriʼa$
+^e/e$
+^pa/pa$
+^ri/ri$
+^Silisiʼa/Silisiʼa$
+^,/,$
+^jawijeʼ/jawijeʼ$
+^kuya/k>>u>ya$
+^wi/wi$
+^ri/ri$
+^kichuqʼabʼ/ki>chuqʼabʼ$
+^ri/ri$
+^Komon/Komon$
+^Tyox/Tyox$
+^./.$
 
 # sent_id = 4
-# text = Ruk’ taq we tzij ri’, xkik’am ri kiqasna’ pa ri ub’i ri Ajawxel Jesus;
-# text[spa] = 
-# labels =
+# text = Rukʼ taq we tzij riʼ, xkikʼam ri kiqasnaʼ pa ri ubʼi ri Ajawxel Jesus;
+# text[spa] = Al oír esto, fueron bautizados en el nombre del Señor Jesús.
+# labels = Hechos:5:19
+^Rukʼ/R>ukʼ$
+^taq/taq$
+^we/we$
+^tzij/tzij$
+^riʼ/riʼ$
+^,/,$
+^xkikʼam/x>>ki>kʼam$
+^ri/ri$
+^kiqasnaʼ/ki>qasnaʼ$
+^pa/pa$
+^ri/ri$
+^ubʼi/u>bʼi$
+^ri/ri$
+^Ajawxel/Ajawxel$
+^Jesus/Jesus$
+^;/;$
 
 # sent_id = 5
-# text = ¡Kk’oji’ b’a’ ri usipanik ri ajawxel Jesus Kristo ruk’ ri awuxlab’al!
-# text[spa] = 
-# labels = 
+# text = ¡Kkʼojiʼ bʼaʼ ri usipanik ri ajawxel Jesus Kristo rukʼ ri awuxlabʼal!
+# text[spa] = Que la gracia del Señor Jesucristo sea con su espíritu.
+# labels = 18_PHM_1
+^Kkʼojiʼ/K>>kʼojiʼ$
+^bʼaʼ/bʼaʼ$
+^ri/ri$
+^usipanik/u>sipanik$
+^ri/ri$
+^ajawxel/ajawxel$
+^Jesus/Jesus$
+^Kristo/Kristo$
+^rukʼ/r>ukʼ$
+^ri/ri$
+^awuxlabʼal/aw>uxlabʼal$
+^!/!$
 
-# sent_id = 6 
+# sent_id = 6
 # text = Ri ajtikonel kutik ri Tzij.
-# text[spa] = 
-# labels = 
+# text[spa] = El sembrador siembra la palabra.
+# labels = 2_MRK_4
+^Ri/Ri$
+^ajtikonel/ajtikonel$
+^kutik/k>>u>tik$
+^ri/ri$
+^Tzij/Tzij$
+^./.$
 
-# sent_id = 7 
-# text = We kʼo jun ktuqaʼrik, ¿la man xoqujeʼ taj kintuqaʼr ri in? We kʼo jun ktzaqik ¿la man kinporoj ta wibʼ ri in?
-# text[spa] = ¿Cuando alguien se siente débil, no comparto yo su debilidad? ¿Y cuando a alguien se le hace tropezar, no ardo yo de indignación?
-# labels = 
+# sent_id = 7
+# text = We kʼo jun ktuqaʼrik, ¿la man xoqujeʼ taj kintuqaʼr ri in?
+# text[spa] = ¿Cuando alguien se siente débil, no comparto yo su debilidad?
+# labels = 8_2CO_11
+^We/We$
+^kʼo/kʼo$
+^jun/jun$
+^ktuqaʼrik/k>>tuqaʼr>ik$
+^,/,$
+^¿/¿$
+^la/la$
+^man/man$
+^xoqujeʼ/xoqujeʼ$
+^taj/taj$
+^kintuqaʼr/k>in>tuqaʼr$
+^ri/ri$
+^in/in$
+^?/?$
+
+# sent_id = 8
+# text = We kʼo jun ktzaqik ¿la man kinporoj ta wibʼ ri in?
+# text[spa] = ¿Y cuando a alguien se le hace tropezar, no ardo yo de indignación?
+# labels = 8_2CO_11
+^We/We$
+^kʼo/kʼo$
+^jun/jun$
+^ktzaqik/k>>tzaq>ik$
+^¿/¿$
+^la/la$
+^man/man/m>>an$
+^kinporoj/k>in>poroj$
+^ta/ta$
+^wibʼ/w>ibʼ$
+^ri/ri$
+^in/in$
+^?/?$
+

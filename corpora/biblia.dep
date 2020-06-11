@@ -1,4 +1,4 @@
-# sent_id = 1 
+# sent_id = 1
 # text = Ri nim taq chuchqajawibʼ, xoqujeʼ kkaj kkikamisaj ri Lasaro.
 # text[spa] = Pero los principales sacerdotes acordaron dar muerte también a Lázaro.
 # labels = Juan:12:10
@@ -24,4 +24,224 @@
 	"Lasaro" np ant m @obj #10->7
 "<.>"
 	"." sent @punct #11->7
+
+# sent_id = 2
+# text = Kʼatekʼut, xinbʼe pa ri Siriʼa e pa ri Silisiʼa;
+# text[spa] = Más tarde fui a las regiones de Siria y Cilicia.
+# labels = Gal:9:1
+"<Kʼatekʼut>"
+	"kʼatekʼut" adv @advmod #1->3
+"<,>"
+	"," cm @punct #2->3
+"<xinbʼe>"
+	"bʼe" v iv perf s_sg1 @root #3->0
+"<pa>"
+	"pa" pr @case #4->6
+"<ri>"
+	"ri" det @det #5->6
+"<Siriʼa>"
+	"Siriʼa" np top @obl #6->3
+"<e>"
+	"e" cnjcoo @cc #7->10
+"<pa>"
+	"pa" pr @case #8->10
+"<ri>"
+	"ri" det @det #9->10
+"<Silisiʼa>"
+	"Silisiʼa" np top @conj #10->6
+"<;>"
+	";" sent @punct #11->3
+
+# sent_id = 3
+# text = Kbʼe pa ri Siriʼa e pa ri Silisiʼa, jawijeʼ kuya wi ri kichuqʼabʼ ri Komon Tyox.
+# text[spa] = Y viajó por Siria y Cilicia, consolidando a las iglesias.
+# labels = Hechos:5:1 relcl
+"<Kbʼe>"
+	"bʼe" v iv impf s_sg3 @root
+"<pa>"
+	"pa" pr @case
+"<ri>"
+	"ri" det @det
+"<Siriʼa>"
+	"Siriʼa" np top @obl
+"<e>"
+	"e" cnjcoo @cc
+"<pa>"
+	"pa" pr @case
+"<ri>"
+	"ri" det @det
+"<Silisiʼa>"
+	"Silisiʼa" np top @conj
+"<,>"
+	"," cm
+"<jawijeʼ>"
+	"jawijeʼ" adv itg
+"<kuya>"
+	"ya" v tv impf o_sg3 s_sg3
+"<wi>"
+	"wi" adv dir @advmod
+"<ri>"
+	"ri" det @det
+"<kichuqʼabʼ>"
+	"chuqʼabʼ" n px3pl @obj
+"<ri>"
+	"ri" det @det
+"<Komon>"
+	"komon" n @compound
+"<Tyox>"
+	"tyox" n @nmod
+"<.>"
+
+# sent_id = 4
+# text = Rukʼ taq we tzij riʼ, xkikʼam ri kiqasnaʼ pa ri ubʼi ri Ajawxel Jesus;
+# text[spa] = Al oír esto, fueron bautizados en el nombre del Señor Jesús.
+# labels = Hechos:5:19
+"<Rukʼ>"
+	"ukʼ" n rel px3sg
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<we>"
+	"we" det @det
+"<tzij>"
+	"tzij" n
+"<riʼ>"
+	"riʼ" prn dem
+"<,>"
+	"," cm @punct
+"<xkikʼam>"
+	"kʼam" v tv perf o_sg3 s_pl3 @root
+"<ri>"
+	"ri" det @det
+"<kiqasnaʼ>"
+	"qasnaʼ" n px3pl
+"<pa>"
+	"pa" pr @case
+"<ri>"
+	"ri" det @det
+"<ubʼi>"
+	"bʼi" n px3sg @obl
+"<ri>"
+	"ri" det @det
+"<Ajawxel>"
+	"Ajawaxel" n @nmod
+"<Jesus>"
+	"Jesus" np ant m @appos
+"<;>"
+	";" sent @punct
+
+# sent_id = 5
+# text = ¡Kkʼojiʼ bʼaʼ ri usipanik ri ajawxel Jesus Kristo rukʼ ri awuxlabʼal!
+# text[spa] = Que la gracia del Señor Jesucristo sea con su espíritu.
+# labels = 18_PHM_1
+"<¡>"
+	"¡" sent @punct
+"<Kkʼojiʼ>"
+	"kʼojiʼk" v iv impf s_sg3 @root
+"<bʼaʼ>"
+	"bʼaʼ" ij
+"<ri>"
+	"ri" det @det
+"<usipanik>"
+	"sipanik" n px3sg
+"<ri>"
+	"ri" det @det
+"<ajawxel>"
+	"Ajawaxel" n
+"<Jesus>"
+	"Jesus" np ant m @flat:name
+"<Kristo>"
+	"Kristo" np ant m @appos
+"<rukʼ>"
+	"ukʼ" n rel px3sg
+"<ri>"
+	"ri" det @det
+"<awuxlabʼal>"
+	"uxlabʼal" n px2sg
+"<!>"
+	"!" sent @punct
+
+# sent_id = 6
+# text = Ri ajtikonel kutik ri Tzij.
+# text[spa] = El sembrador siembra la palabra.
+# labels = 2_MRK_4
+"<Ri>"
+	"ri" det @det #1->2
+"<ajtikonel>"
+	"ajtikonel" n @nsubj #2->3
+"<kutik>"
+	"tik" v tv impf o_sg3 s_sg3 @root #3->0
+"<ri>"
+	"ri" det @det #4->5
+"<Tzij>"
+	"tzij" n @obj #5->3
+"<.>"
+	"." sent @punct #6->3
+
+# sent_id = 7
+# text = We kʼo jun ktuqaʼrik, ¿la man xoqujeʼ taj kintuqaʼr ri in?
+# text[spa] = ¿Cuando alguien se siente débil, no comparto yo su debilidad?
+# labels = 8_2CO_11
+"<We>"
+	"we" cnjsub @mark
+"<kʼo>"
+	"kʼo" part
+"<jun>"
+	"jun" num @nsubj
+"<ktuqaʼrik>"
+	"tuqaʼr" v iv impf s_sg3 @advcl
+		"ik" mark
+"<,>"
+	"," cm @punct
+"<¿>"
+	"¿" lquest @punct
+"<la>"
+	"la" qst @discourse
+"<man>"
+	"man" neg @advmod:neg
+"<xoqujeʼ>"
+	"xuqujʼe" adv @advmod
+"<taj>"
+	"taj" neg fin @advmod:neg
+"<kintuqaʼr>"
+	"tuqaʼr" v iv impf s_sg1 @root
+"<ri>"
+	"ri" det @det
+"<in>"
+	"in" prn pers p1 sg @nsubj
+"<?>"
+	"?" sent @punct
+
+# sent_id = 8
+# text = We kʼo jun ktzaqik ¿la man kinporoj ta wibʼ ri in?
+# text[spa] = ¿Y cuando a alguien se le hace tropezar, no ardo yo de indignación?
+# labels = 8_2CO_11
+"<We>"
+	"we" cnjsub
+"<kʼo>"
+	"kʼo" part
+"<jun>"
+	"jun" num
+"<ktzaqik>"
+	"tzaq" v iv impf s_sg3
+		"ik" mark
+"<¿>"
+	"¿" lquest
+"<la>"
+	"la" qst
+"<man>"
+	"man" neg
+"<kinporoj>"
+	"poroj" v tv impf o_sg3 s_sg1
+	"poroj" v iv impf s_sg1
+"<ta>"
+	"taj" neg
+"<wibʼ>"
+	"ibʼ" n rel px1sg
+"<ri>"
+	"ri" det
+"<in>"
+	"in" prn pers p1 sg
+"<?>"
+	"?" sent
 
