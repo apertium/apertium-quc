@@ -638,7 +638,7 @@
 # text = Sibʼalaj nim le tinamit.
 # text[spa] =  El pueblo es muy grande.
 # labels = tijonik-7
-^Sibʼalaj/sibʼalaj<adj>$
+^Sibʼalaj/sibʼalaj<adv>$
 ^nim/nim<adj>$
 ^le/le<det>$
 ^tinamit/tinamit<n>$
@@ -1516,7 +1516,7 @@
 # text = Sibʼalaj utz kinwil le atzʼyaq rech Nahuala.
 # text[spa] = Me gusta mucho la ropa de Nahualá.
 # labels = tijonik-20
-^Sibʼalaj/sibʼalaj<adj>$
+^Sibʼalaj/sibʼalaj<adv>$
 ^utz/utz<adv>$
 ^kinwil/<impf><o_sg3><s_sg1>il<v><tv>$
 ^le/le<det>$
@@ -1878,7 +1878,7 @@
 # text = Sibʼalaj nichʼ le nuchʼichʼ.
 # text[spa] = Mi carro es muy pequeño
 # labels = tijonik-29
-^Sibʼalaj/sibʼalaj<adj>$
+^Sibʼalaj/sibʼalaj<adv>$
 ^nichʼ/nichʼ<adj>$
 ^le/le<det>$
 ^nuchʼichʼ/<px1sg>chʼichʼ<n>$
@@ -1888,7 +1888,7 @@
 # text = Sibʼalaj kaq le apalaj
 # text[spa] = Tu cara está muy roja.
 # labels = tijonik-29
-^Sibʼalaj/sibʼalaj<adj>$
+^Sibʼalaj/sibʼalaj<adv>$
 ^kaq/kaq<adj>$
 ^le/le<det>$
 ^apalaj/<px2sg>palaj<n>$
@@ -1919,7 +1919,7 @@
 # text[spa] = Tu huipil es más rojo que mi huipil.
 # labels = tijonik-29
 ^Are/<px2sg>re<n><rel>$
-^sibʼalaj/sibʼalaj<adj>$
+^sibʼalaj/sibʼalaj<adv>$
 ^kaq/kaq<adj>$
 ^le/le<det>$
 ^apoʼt/<px2sg>poʼt<n>$
@@ -1931,7 +1931,7 @@
 # text = Sibʼalaj aninaq kachʼaw le areʼ chinuwach in
 # text[spa] = Él habla más rápido que yo.
 # labels = tijonik-29
-^Sibʼalaj/sibʼalaj<adj>$
+^Sibʼalaj/sibʼalaj<adv>$
 ^aninaq/aninaq<adv>$
 ^kachʼaw/<impf><s_sg3>chʼawik<v><iv>$
 ^le/le<det>$
@@ -1971,7 +1971,7 @@
 # text = Xukunaj le yawabʼ le aj qʼij
 # text[spa] = El sacerdote maya curó al enfermo.
 # labels = tijonik-30
-^Xukunaj/*Xukunaj$
+^Xukunaj/<perf><o_sg3><s_sg3>kunaj<v><tv>$
 ^le/le<det>$
 ^yawabʼ/yawabʼ<n>$
 ^le/le<det>$
@@ -1982,7 +1982,7 @@
 # text = Xkunax le yawabʼ (rumal le aj qʼij)
 # text[spa] = El enfermo fue curado (por el sacerdote)
 # labels = tijonik-30
-^Xkunax/<perf><s_sg3>kunaxik<v><iv>$
+^Xkunax/<perf><s_sg3>kunaj<v><tv><pass>$
 ^le/le<det>$
 ^yawabʼ/yawabʼ<n>$
 ^rumal/<px3sg>umal<n><rel>$
@@ -1994,7 +1994,7 @@
 # text = Xkikunaj le ali ri ixoqibʼ.
 # text[spa] = Las mujeres curaron a la niña
 # labels = tijonik-31
-^Xkikunaj/*Xkikunaj$
+^Xkikunaj/<perf><o_sg3><s_pl3>kunaj<v><tv>$
 ^le/le<det>$
 ^ali/ali<clf><f>$
 ^ri/ri<det>$
@@ -2005,7 +2005,7 @@
 # text = Xkunataj le ali (kumal ri ixoqibʼ).
 # text[spa] = La niña fue curada (por las mujeres).
 # labels = tijonik-31
-^Xkunataj/*Xkunataj$
+^Xkunataj/<perf><s_sg3>kunaj<v><tv><pass><stat>$
 ^le/le<det>$
 ^ali/ali<clf><f>$
 ^(/(<lpar>$
@@ -2021,7 +2021,7 @@
 # labels = tijonik-31
 ^Le/le<det>$
 ^ali/ali<clf><f>$
-^xkunatajik/*xkunatajik$
+^xkunatajik/<perf><s_sg3>kunaj<v><tv><pass><stat>+ik<mark>$
 ^./.<sent>$
 
 # sent_id = utexas:176
@@ -2029,7 +2029,7 @@
 # text[spa] = Fue curada por ti la niña?
 # labels = tijonik-31
 ^La/la<qst>$
-^xkunataj/*xkunataj$
+^xkunataj/<perf><s_sg3>kunaj<v><tv><pass><stat>$
 ^le/le<det>$
 ^ali/ali<clf><f>$
 ^awumal/<px2sg>umal<n><rel>$
@@ -2040,6 +2040,6 @@
 # text[spa] = No puedo hacerlo.
 # labels = tijonik-31
 ^Na/na<neg>$
-^kabʼantaj/*kabʼantaj$
+^kabʼantaj/<impf><s_sg3>bʼan<v><tv><pass><stat>$
 ^ta/ta<mod>$
 ^wumal/<px1sg>umal<n><rel>$
