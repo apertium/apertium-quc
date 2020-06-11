@@ -1077,6 +1077,7 @@ ajkunanel:ajkunanel N-iyom ;       ! "curandero; medicine man" ! Src/Cuentos
 muqunel:muqunel N-iyom ;           ! "quienes entierran; who bury, evil witch"
 tinamit:tinamit N-tinamit ;        ! "pueblo; village"
 tinamit:tinimit N-tinamit ;        ! "pueblo; village" ! Src/Biblia
+tinamit:timinit N-tinamit ;        ! "pueblo; village" ! Use/Spell ! Src/Cuentos
 siwantinimit:siwantinimit N-tinamit ; ! "habitantes; " ! Src/Biblia
 siwantinimit:siwantinamit N-tinamit ; ! "habitantes; " ! Src/Biblia
 tijobʼal:tijobʼal N-tinamit ;      ! "escuela; school"
@@ -4737,6 +4738,14 @@ Nahuala:Nahuala NP-Top ;
 EE%.UU%.:EE%.UU%. NP-Top ;
 
 Juʼl:Juʼl NP-Ant-M ;
+
+Chwikabʼyok:Chwikabʼyok NP-Top ;
+Chwikabʼyok:Chwikabyok NP-Top ; 
+Qʼantel:Qʼantel NP-Top ;
+Xoʼl:Xoʼl NP-Top ;
+Trix:Trix NP-Top ;
+Lemoʼ:Lemoʼ NP-Top ;
+Chipi:Chipi NP-Top ;
 
 Iximulew:Iximulew NP-Top ; ! ""
 Alejandriʼa:Alejandriʼa NP-Top ; ! ""
