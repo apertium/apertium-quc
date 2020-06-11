@@ -317,14 +317,14 @@ LEXICON N-virus
 LEXICON A-saq
 
 %<adj%>: # ;
-%<adj%>%<sup%>:%>alaj # ;
+%<adj%>%<ints%>:%>alaj # ;
 
 LEXICON A-jeʼl
 ! <ik>
 
 %<adj%>: # ;
 %<adj%>%<attr%>:%>ik # ;
-%<adj%>%<sup%>:%>ikalaq # ;
+%<adj%>%<ints%>:%>ikalaq # ;
 
 LEXICON A-nim
 
@@ -3575,7 +3575,8 @@ tʼum:tum N-tinamit ; ! "one armed" ! Src/Biblia
 tʼuraʼs:tʼuraʼs N-tinamit ; ! "peach"
 tʼurubʼal:tʼurubal N-tinamit ; ! "large pot to store water"
 tʼux:tʼux N-tinamit ; ! "bud, shoot"
-tʼuy:tʼuy N-tinamit ; ! "pot for soup"
+tʼuʼy:tʼuy N-tinamit ; ! "pot for soup" ! Src/Dico
+tʼuʼy:tʼuʼy N-tinamit ; ! "pot for soup" ! Src/UTexas
 tʼuyubʼal:tʼuyubal N-tinamit ; ! "seat"
 Tʼuyul:tʼuyul N-tinamit ; ! "North Star"
 tʼuyulibʼal:tʼuyulibal N-tinamit ; ! "seat"
@@ -7110,16 +7111,16 @@ jiqʼiqʼ:jiqʼiqʼ                    V-IV   ; ! "be shocked with grief or fear
 jiqʼjat:jiqʼjat                    V-IV   ; ! "wear glasses"
 jiqʼjit:jiqʼjit                    V-IV   ; ! "have desires to eat something"
 jisis:jisis                        V-IV   ; ! "hiss (snake, cat)"
-jisjobʼ:jisjob                      V-IV   ; ! "tear (fabric on a nail)"
+jisjobʼ:jisjobʼ                    V-IV   ; ! "tear (fabric on a nail)"
 jixix:jixix                        V-IV   ; ! "scream when fighting (cat)"
-jobʼjobʼ:jobjob                      V-IV   ; ! "crumble, sink (earth in earthquake)"
+jobʼjobʼ:jobjobʼ                   V-IV   ; ! "crumble, sink (earth in earthquake)"
 jochʼoj:jochʼoj                    V-IV   ; ! "cohabit"
 jokʼokʼ:jokʼokʼ                    V-IV   ; ! "be hoarse"
 jomom:jomom                        V-IV   ; ! "sound of rushing water or wind"
 jopin:jopin                        V-IV   ; ! "separate wheat from chaff in wind"
 joqʼoqʼ:joqʼoqʼ                    V-IV   ; ! "snore"
-jorobʼ:jorob                        V-IV   ; ! "become cold"
-jorojobʼ:jorojob                    V-IV   ; ! "calm"
+jorobʼ:jorobʼ                      V-IV   ; ! "become cold"
+jorojobʼ:jorojobʼ                  V-IV   ; ! "calm"
 joror:joror                        V-IV   ; ! "be refreshing"
 josjot:josjot                      V-IV   ; ! "quack (duck)"
 jostaj:jostaj                      V-IV   ; ! "be scraped"
