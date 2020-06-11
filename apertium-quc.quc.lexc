@@ -663,6 +663,7 @@ bʼaʼ%<ij%>:bʼa # ; ! "pues"
 alo%<ij%>:alo # ;
 mmm%<ij%>:mmm # ;
 aaa%<ij%>:aaa # ;
+ay%<ij%>:ay # ;
 
 amen%<ij%>:amen # ;
 
@@ -688,6 +689,7 @@ tzare:tzare   CC ;                  ! "pero; but"
 on:on CC ;                          ! "o; or"
 kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Biblia
 tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
+tekʼuriʼ:tekʼuri CC ;              ! "y; and" ! Use/Spell
 
 we:we CS ;                          ! "si; if"
 weta:weta CS ;                      ! "si" ! Src/Biblia
@@ -6164,6 +6166,7 @@ bʼan:bʼan                          V-TV-R ; ! "hacer; do"
 bʼan:bʼan                          V-TV-R ; ! "hacer; do"
 bʼisoj:bʼiso                       V-TV-D ; ! "extrañar; miss (someone)"
 chaʼ:chaʼ                          V-TV-R ; ! "elegir; choose" ! FIXME: check ! Src/Biblia
+chaʼ:cha                          V-TV-R ; ! "elegir; choose" ! FIXME: check ! Src/Biblia ! Use/Spell
 chajij:chaji                       V-TV-D ; ! "cuidar; look after"
 chajij:chaji                       V-TV-D ; ! "take care of"
 chakuj:chaku                       V-TV-D ; ! "work something"
@@ -6628,6 +6631,7 @@ richʼij:richʼi                     V-TV-D ; ! "tear (cloth)"
 rininej:rinine                     V-TV-D ; ! "rev (engine)"
 rip:rip                            V-TV-R ; ! "crucify"
 riq:riq                            V-TV-R ; ! "encontrar; find"
+riqaʼ:riqa                        V-TV-R ; ! "llegar a ser; " ! FIXME: Check ! Use/Spell
 riqaʼ:riqaʼ                        V-TV-R ; ! "llegar a ser; " ! FIXME: Check
 paqiʼ:paqiʼ                        V-IV   ; ! "subir; raise"
 riqʼ:riqʼ                          V-TV-R ; ! "lick"
@@ -6986,6 +6990,7 @@ bʼätzʼin:bätzʼin                    V-IV   ; ! "spin (thread)"
 bʼe:bʼe                            V-IV   ; ! "ir; to go"
 bʼison:bʼison                      V-IV   ; ! "FIXME: check"
 chaʼ:chaʼ                          V-IV   ; ! "decir; say" ! FIXME: check ! Src/Biblia
+chaʼ:cha                          V-IV   ; ! "decir; say" ! FIXME: check ! Src/Biblia ! Use/Spell
 chajin:chajin                      V-IV   ; ! "guard"
 chajir:chajir                      V-IV   ; ! "burn to the ground to ashes (house"
 chakun:chakun                      V-IV   ; ! "work"
