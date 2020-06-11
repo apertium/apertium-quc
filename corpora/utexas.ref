@@ -2043,3 +2043,278 @@
 ^kabʼantaj/*kabʼantaj$
 ^ta/ta<mod>$
 ^wumal/<px1sg>umal<n><rel>$
+
+# sent_id = utexas:179
+# text = Na kabʼantaj ta wumal
+# text[spa] = No puedo hacerlo.
+# labels = tijonik-32
+^Na/na<neg>$
+^kabʼantaj/*kabʼantaj$
+^ta/ta<mod>$
+^wumal/<px1sg>umal<n><rel>$
+
+# sent_id = utexas:179.1
+# text = Kakitik ixim ri achijab’.
+# text[spa] = Los hombres siembran maíz.
+# labels = tijonik-32
+^Kakitik/*Kakitik$
+^ixim/ixim<n>$
+^ri/ri<det>$
+^achijab’/achij<n><pl>$
+^./.<sent>$
+
+# sent_id = utexas:179.2
+# text = Ketikon ri achijab’.
+# text[spa] = Los hombres siembran.
+# labels = tijonik-32
+^Ketikon/<impf><s_pl3>tikonik<v><iv>$
+^ri/ri<det>$
+^achijab’/achij<n><pl>$
+^./.<sent>$
+
+# sent_id = utexas:179.3
+# text = Ketikonik
+# text[spa] = Ellos siembran.
+# labels = tijonik-32
+^Ketikonik/<impf><s_pl3>tikonik<v><iv>+ik<mark>$
+
+# sent_id = utexas:179.4
+# text = Kinuloq’oj le nutat.
+# text[spa] = Mi papá me quiere.
+# labels = tijonik-32
+^Kinuloq’oj/<impf><o_sg1><s_sg3>loqʼoj<v><tv>$
+^le/le<det>$
+^nutat/<px1sg>tat<n>$
+^./.<sent>$
+
+# sent_id = utexas:179.5
+# text = Kaloq’on le nutat chwe.
+# text[spa] = Mi papa me quiere.
+# labels = tijonik-32
+^Kaloq’on/*Kaloq’on$
+^le/le<det>$
+^nutat/<px1sg>tat<n>$
+^chwe/chi<pr>+<px1sg>ech<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:179.6
+# text = Kinb’isoj uwach le wal.
+# text[spa] = Extraño a mi hijo./ Estoy triste por mi hijo.
+# labels = tijonik-32
+^Kinb’isoj/<impf><o_sg3><s_sg1>bʼisoj<v><tv>$
+^uwach/<px3sg>wach<n><rel>$
+^le/le<det>$
+^wal/<px1sg>al<n>$
+^./.<sent>$
+
+# sent_id = utexas:179.7
+# text = Kinbison che le wal.
+# text[spa] = Extraño a mi hijo./ Estoy triste por mi hijo.
+# labels = tijonik-32
+^Kinbison/*Kinbison$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^le/le<det>$
+^wal/<px1sg>al<n>$
+^./.<sent>$
+
+# sent_id = utexas:179.8
+# text = Kinq’ojomaj le q’ojom.
+# text[spa] = Toco la marimba (activo).
+# labels = tijonik-32
+^Kinq’ojomaj/<impf><o_sg3><s_sg1>qʼojomaj<v><tv>$
+^le/le<det>$
+^q’ojom/qʼojom<n>$
+^./.<sent>$
+
+# sent_id = utexas:179.9
+# text = Kinq’ojomanik.
+# text[spa] = Toco (música) (antipassive).
+# labels = tijonik-32
+^Kinq’ojomanik/*Kinq’ojomanik$
+^./.<sent>$
+
+# sent_id = utexas:179.10
+# text = Kut’is ri pantalon.
+# text[spa] = El(la) cose el pantalón.
+# labels = tijonik-32
+^Kut’is/<impf><o_sg3><s_sg3>tʼis<v><tv>$
+^ri/ri<det>$
+^pantalon/*pantalon$
+^./.<sent>$
+
+# sent_id = utexas:179.11
+# text = Kat’iso’manik.
+# text[spa] = El(la) cose.
+# labels = tijonik-32
+^Katʼisoʼmanik/*Katʼisoʼmanik$
+^./.<sent>$
+
+# sent_id = utexas:179.12
+# text = Kintzukuj la.
+# text[spa] = Lo busco (a usted) (formal) o Usted (formal) me busca
+# labels = tijonik-32
+^Kintzukuj/<impf><o_sg3><s_sg1>tzukuj<v><tv>$
+^la/la<part><frm>$
+^./.<sent>$
+
+# sent_id = utexas:179.13
+# text = Kintzukun che la.
+# text[spa] = Lo busco (a usted) (antipasivo).
+# labels = tijonik-32
+^Kintzukun/*Kintzukun$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^la/la<part><frm>$
+^./.<sent>$
+
+# sent_id = utexas:179.14
+# text = Katzukun la chwe.
+# text[spa] = Usted me busca (antipasivo).
+# labels = tijonik-32
+^Katzukun/*Katzukun$
+^la/la<part><frm>$
+^chwe/chi<pr>+<px1sg>ech<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:179.15
+# text = Kintob’an chech la.
+# text[spa] = Lo ayudo (a usted) (antipasivo).
+# labels = tijonik-32
+^Kintobʼan/*Kintobʼan$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^la/la<part><frm>$
+^./.<sent>$
+
+# sent_id = utexas:179.16
+# text = Xinkunaj alaq.
+# text[spa] = Los curé (a ustedes) o Ustedes me curaron (activo).
+# labels = tijonik-32
+^Xinkunaj/Xinkunaj$
+^alaq/alaq<part><frm>$
+^./.<sent>$
+
+# sent_id = utexas:179.17
+# text = Xinkunan chech alaq.
+# text[spa] = Yo los curé (a ustedes) (antipasivo).
+# labels = tijonik-32
+^Xinkunan/<perf><s_sg1>kunanik<v><iv>$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^alaq/alaq<part><frm>$
+^./.<sent>$
+
+# sent_id = utexas:179.19
+# text = Xkunan alaq chwe.
+# text[spa] = Ustedes me curaron (antipasivo).
+# labels = tijonik-32
+^Xkunan/<perf><s_sg3>kunanik<v><iv>$
+^alaq/alaq<part><frm>$
+^chwe/chi<pr>+<px1sg>ech<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:180
+# text = In xatinch’ayo.
+# text[spa] = Fui yo el que te pegó.
+# labels = tijonik-33
+^In/in<prn><pro><p1><sg>$
+^xatinch’ayo/<perf><o_sg2><s_sg1>chʼay<v><tv>+o<mark>$
+^./.<sent>$
+
+# sent_id = utexas:181
+# text = In xinch’ayow le achi.
+# text[spa] = Fui yo el que le pegó al hombre.
+# labels = tijonik-33
+^In/in<prn><pro><p1><sg>$
+^xinch’ayow/*xinch’ayow$
+^le/le<det>$
+^achi/achi<n>$
+^./.<sent>$
+
+# sent_id = utexas:182
+# text = Are ri achi xinch’ayowik.
+# text[spa] = Fue el hombre que me pegó.
+# labels = tijonik-33
+^Are/are<foc>$
+^ri/ri<det>$
+^achi/achi<n>$
+^xinch’ayowik/*xinch’ayowik$
+^./.<sent>$
+
+# sent_id = utexas:183
+# text = Kinuloq’oj le nutat.
+# text[spa] = Mi papá me quiere (activo).
+# labels = tijonik-33
+^Kinuloq’oj/<impf><o_sg1><s_sg3>loqʼoj<v><tv>$
+^le/le<det>$
+^nutat/<px1sg>tat<n>$
+^./.<sent>$
+
+# sent_id = utexas:184
+# text = Le nutat kaloq’on chwe.
+# text[spa] = Mi papá me quiere (absolutive antipassive/API).
+# labels = tijonik-33
+^Le/le<det>$
+^nutat/<px1sg>tat<n>$
+^kaloq’on/*kaloq’on$
+^chwe/chi<pr>+<px1sg>ech<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:185
+# text = Are le nutat kinloq’onik.
+# text[spa] = Es mi papá el que me quiere (antipasivo de enfoque).
+# labels = tijonik-33
+^Are/are<foc>$
+^le/le<det>$
+^nutat/<px1sg>tat<n>$
+^kinloq’onik/*kinloq’onik$
+^./.<sent>$
+
+# sent_id = utexas:186
+# text = Xinaxib’ij pa b’e.
+# text[spa] = Me asustaste en el camino (activo).
+# labels = tijonik-33
+^Xinaxibʼij/*Xinaxibʼij$
+^pa/pa<pr>$
+^bʼe/bʼe<n>$
+^./.<sent>$
+
+# sent_id = utexas:187
+# text = At xinxib’in pa b’e.
+# text[spa] = Fuiste vos el que me asustó en el camino.
+# labels = tijonik-33
+^At/at<prn><pers><p2><sg>$
+^xinxibʼin/*xinxibʼin$
+^pa/pa<pr>$
+^bʼe/bʼe<n>$
+^./.<sent>$
+
+# sent_id = utexas:188
+# text = Xinto’ la.
+# text[spa] = Usted me ayudó. Yo lo ayudé (a usted) (activo).
+# labels = tijonik-33
+^Xinto’/<perf><s_sg1>toʼik<v><iv>$
+^la/la<part><frm>$
+^./.<sent>$
+
+# sent_id = utexas:189
+# text = Lal xinto’wik.
+# text[spa] = Usted me ayudó. Yo lo ayudé (a usted) (activo).
+# labels = tijonik-33
+^Lal/lal<prn><pers><p2><frm><sg>$
+^xintoʼwik/*xintoʼwik$
+^./.<sent>$
+
+# sent_id = utexas:190
+# text = In xinto’w la
+# text[spa] = Usted me ayudó. Yo lo ayudé (a usted) (activo).
+# labels = tijonik-33
+^In/in<prn><pers><p1><sg>$
+^xintoʼw/*xintoʼw$ ^
+la/la<part><frm>$
+
+# sent_id = utexas:191
+# text = A’re xeto’w alaq.
+# text[spa] = Ellos fueron los que les ayudaron (a ustedes).
+# labels = tijonik-33
+^Aʼre/aʼre<prn><pers><p3><pl>$
+^xetoʼw/*xetoʼw$
+^alaq/alaq<part><frm>$
+^./.<sent>$
