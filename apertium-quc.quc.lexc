@@ -915,8 +915,6 @@ LEXICON Relationals
 
 !ach:ach Rel ;                      ! ""
 ech:ech Rel ;                      ! "de"
-ibʼ:ib Rel ;                       ! "" ! Src/diccionario
-ibʼ:ibʼ Rel ;                      ! ""
 naqaj:naqaj Rel ;                  ! "cerca" ! TODO: Check
 onojel:onojel Rel ;                ! "todos"
 pam:pam Rel ;                      ! "adentro" ! TODO: Check
@@ -933,6 +931,10 @@ wikiqʼabʼ:wikiqʼab Rel ;
 tzalaj:tzalaj Rel ;
 jujunal:jujunal Rel ;              !
 
+! The reflexive marker –ib’  occurs also in nouns. 
+! It does not take possessive markers if it is not possessed.
+ibʼ:ibʼ Rel ;                      ! ""
+ibʼ%<n%>%<rel%>:ibʼ # ;            ! ""
 
 LEXICON Determiners
 
