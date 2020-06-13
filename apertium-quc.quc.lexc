@@ -4737,6 +4737,8 @@ sutaq:sutaq N-tinamit ;
 uwaʼl:uwaʼl N-tinamit ; ! "jugo"
 lochʼ:lochʼ N-tinamit ; ! "recién nacido"
 eqeleʼn:eqeleʼn N-tinamit ; ! "cargo grande"
+! -kʼul ja
+kʼul:kʼul  N-tinamit ; ! "vecino"
 
 
 LEXICON Propios
@@ -7330,6 +7332,7 @@ memet:memet                        V-IV   ; ! "bleat (goat, sheep)"
 mes:mes                            V-IV   ; ! "sweep"
 meson:meson                        V-IV   ; ! "sweep"
 mewaʼ:mewaʼ                        V-IV   ; ! "fast ritually"
+mewaj:mewaj                        V-IV ; ! "ayunar"
 michʼmit:michʼmit                  V-IV   ; ! "eat plants (rabbit or other animal)"
 michʼon:michʼon                    V-IV   ; ! "weed (wheat field)"
 miqʼ:miqʼ                          V-IV   ; ! "heat"

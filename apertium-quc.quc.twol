@@ -96,11 +96,15 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 !vowel is u and -o when the root vowel is not u
 "Status marking {O}"
 %{O%}:u <=> u [ ? - Vow ]* %> _  ;
-        except 
-              ʼ %>: _ w ; 
 
-"Status marking {O} after glottal"
-%{O%}:0 <=> ʼ %>: _ w ;
+!        except 
+!              ʼ %>: _ w ; 
+!
+!"Status marking {O} after glottal"
+!%{O%}:0 <=> ʼ %>: _ w ;
+
+! ^xetoʼw/<perf><s_pl3>toʼ<v><tv><anti><agfoc>$
+
 
 ! On root transitives, this suffix has the form -V’ at the end of the 
 ! intonational phrase (-u’ and -o’ in harmony with a preceding u or o 
