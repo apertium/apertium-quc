@@ -2093,7 +2093,7 @@
 # text = Ketikon ri achijabʼ.
 # text[spa] = Los hombres siembran.
 # labels = tijonik-32
-^Ketikon/<impf><s_pl3>tikonik<v><iv>$
+^Ketikon/<impf><s_pl3>tikon<v><iv>$
 ^ri/ri<det>$
 ^achijabʼ/achij<n><pl>$
 ^./.<sent>$
@@ -2102,7 +2102,7 @@
 # text = Ketikonik
 # text[spa] = Ellos siembran.
 # labels = tijonik-32
-^Ketikonik/<impf><s_pl3>tikonik<v><iv>+ik<mark>$
+^Ketikonik/<impf><s_pl3>tikon<v><iv>+ik<mark>$
 
 # sent_id = utexas:179.4
 # text = Kinuloqʼoj le nutat.
@@ -2222,7 +2222,7 @@
 # text = Xinkunan chech alaq.
 # text[spa] = Yo los curé (a ustedes) (antipasivo).
 # labels = tijonik-32
-^Xinkunan/<perf><s_sg1>kunanik<v><iv>$
+^Xinkunan/<perf><s_sg1>kunan<v><iv>$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
 ^alaq/alaq<part><frm>$
 ^./.<sent>$
@@ -2231,7 +2231,7 @@
 # text = Xkunan alaq chwe.
 # text[spa] = Ustedes me curaron (antipasivo).
 # labels = tijonik-32
-^Xkunan/<perf><s_sg3>kunanik<v><iv>$
+^Xkunan/<perf><s_sg3>kunan<v><iv>$
 ^alaq/alaq<part><frm>$
 ^chwe/chi<pr>+<px1sg>ech<n><rel>$
 ^./.<sent>$
@@ -2316,24 +2316,24 @@
 # text = Xintoʼ la.
 # text[spa] = Usted me ayudó. Yo lo ayudé (a usted) (activo).
 # labels = tijonik-33
-^Xintoʼ/<perf><s_sg1>toʼik<v><iv>$
+^Xintoʼ/<perf><s_sg1>toʼ<v><iv>$
 ^la/la<part><frm>$
 ^./.<sent>$
 
 # sent_id = utexas:189
 # text = Lal xintoʼwik.
-# text[spa] = Usted me ayudó. Yo lo ayudé (a usted) (activo).
+# text[spa] = Usted me ayudó. (activo).
 # labels = tijonik-33
 ^Lal/lal<prn><pers><p2><frm><sg>$
-^xintoʼwik/*xintoʼwik$
+^xintoʼwik/<perf><s_sg1>toʼ<v><tv><anti><agfoc>+ik<mark>$
 ^./.<sent>$
 
 # sent_id = utexas:190
 # text = In xintoʼw la.
-# text[spa] = Usted me ayudó. Yo lo ayudé (a usted) (activo).
+# text[spa] = Yo lo ayudé (a usted) (activo).
 # labels = tijonik-33
 ^In/in<prn><pers><p1><sg>$
-^xintoʼw/*xintoʼw$ 
+^xintoʼw/<perf><s_sg1>toʼ<v><tv><anti><agfoc>$ 
 ^la/la<part><frm>$
 ^./.<sent>$
 
@@ -2342,6 +2342,6 @@
 # text[spa] = Ellos fueron los que les ayudaron (a ustedes).
 # labels = tijonik-33
 ^Aʼre/aʼre<prn><pers><p3><pl>$
-^xetoʼw/*xetoʼw$
+^xetoʼw/<perf><s_pl3>toʼ<v><tv><anti><agfoc>$
 ^alaq/alaq<part><frm>$
 ^./.<sent>$

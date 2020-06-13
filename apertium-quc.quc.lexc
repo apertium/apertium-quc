@@ -815,6 +815,7 @@ chi%<pr%>%+%<px1pl%>wach%<n%>%<rel%>:ch%>qa%>wach # ; ! ""
 chi%<pr%>%+%<px2pl%>wach%<n%>%<rel%>:ch%>i%>wach # ; ! ""
 chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:ch%>ki%>wach # ; ! ""
 chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:chi%>ki%>wach # ; ! "" ! Src/Cuentos
+chi%<pr%>%+%<px3pl%>wach%<n%>%<rel%>:chi%>k%>wach # ; ! "" ! Src/Biblia
 
 ! -XEʼ chi +E+ –xe
 !  (de)bajo, al pie de
@@ -1018,6 +1019,7 @@ uwuq:uwuq Num-Ord ; !  "seventh"
 uwajxaq:uwajxaq Num-Ord ; !  "eighth"
 ubʼelej:ubʼelej Num-Ord ; !  "ninth"
 ulaj:ulaj Num-Ord ; !  "tenth"
+ulajuj:ulajuj Num-Ord ; !  "tenth"
 ujulaj:ujulaj Num-Ord ; !  "eleventh"
 ujulajuj:ujulajuj Num-Ord ; !  "eleventh"
 ujuwinaq:ujuwinaq Num-Ord ; !  "twentieth"
@@ -1075,6 +1077,7 @@ kamisanel:kamisanel N-iyom ;       ! "homicida; homicide"
 etanel:etanel N-iyom ;             ! "medidor; measurer"
 etzʼanel:etzʼanel N-iyom ;         ! "jugador; player"
 pixabʼanel:pixabʼanel N-iyom ;     ! "consejero; adviser"
+tobʼanel:tobʼanel N-iyom ;         ! "ayudante"
 ajchʼoʼj:ajchʼoʼj N-iyom ;         ! "peleador; fighter"
 kunanel:kunanel N-iyom ;           ! "curandero; medicine man"
 ajkunanel:ajkunanel N-iyom ;       ! "curandero; medicine man" ! Src/Cuentos
@@ -1926,7 +1929,8 @@ ikʼil:ikʼil N-tinamit ; ! "month"
 !ikʼow pomaj y xaʼwem:    ikʼow pomaj y xaʼwem N-tinamit ; ! "cholera"
 ikʼowem:ikʼowem N-tinamit ; ! "passing"
 ikaj:ikaj N-tinamit ; ! "axe (also stone axe) [Momos]"
-ikan:ikan N-tinamit ; ! "gallina ciega (animalito eats rotten tree stumps)"
+ikan¹:ikan N-tinamit ; ! "tío; uncle"
+ikan²:ikan N-tinamit ; ! "gallina ciega (animalito eats rotten tree stumps)"
 ikaqʼ:ikaqʼ N-tinamit ; ! "slingshot"
 ikiäj:ikiäj N-tinamit ; ! "axe [Toto]"
 ikiajik:ikiajik N-tinamit ; ! "sacrifice"
@@ -2379,6 +2383,7 @@ kajbʼal:kajbal N-tinamit ; ! "sundial"
 !kajbal cheʼ:kajbal cheʼ N-tinamit ; ! "wooden cross"
 kajbʼalach:kajbalach N-tinamit ; ! "astrology"
 kajbʼalachil:kajbalachil N-tinamit ; ! "divination by stars"
+utzwachil:utzwachil N-tinamit ; ! "buena salud"
 kajichal:kajichal N-tinamit ; ! "group of four persons"
 !-kajil qʼojom:-kajil qʼojom N-tinamit ; ! "marimba weights"
 kajlajuj:kajlajuj N-tinamit ; ! "fourteen"
@@ -4731,6 +4736,7 @@ elamita:elamita N-ajjudiʼo ;
 sutaq:sutaq N-tinamit ;
 uwaʼl:uwaʼl N-tinamit ; ! "jugo"
 lochʼ:lochʼ N-tinamit ; ! "recién nacido"
+eqeleʼn:eqeleʼn N-tinamit ; ! "cargo grande"
 
 
 LEXICON Propios
@@ -5215,7 +5221,6 @@ laʼj:laj A-saq ;                   ! "small"
 riqom:riqom A-saq ;                ! "found"
 petinaq:petinaq A-saq ;            ! "arrived, come"
 nimalaj:nimalaj A-saq ;            ! "great"
-a:a A-saq ; ! "masculine youth indicator (a Xuan = the young Juan)"
 aʼtam:aʼtam A-saq ; ! "early"
 achʼiʼy:achʼiʼy A-saq ; ! "elastic"
 achixam:achixam A-saq ; ! "jealous"
@@ -5913,6 +5918,8 @@ saqalaj:saqalaj  A-saq ; ! ""
 kyaq:kyaq A-saq ; ! "rojo"
 chaqiʼjilaj:chaqiʼjilaj A-saq ; ! "seco"
 
+utukel:utukel A-saq ; ! "solitario"
+
 LEXICON Adverbs
 
 chiwchiʼ:chiwchiʼ Ad-jampaʼ ; ! ""
@@ -5926,6 +5933,8 @@ jawijeʼ:jawijeʼ Ad-jampaʼ ; ! "¿dónde?"
 pachiwchiʼ:pachiwchiʼ Ad-jampaʼ ; ! ""
 suche:suche Ad-jampaʼ ;            ! "por qué; why"
 
+teʼ:te Ad-aninaq ;
+teʼ:teʼ Ad-aninaq ;
 
 xuqujeʼ:xuqujeʼ Ad-aninaq ;            ! "también; also"                                       ! FIXME: Comprueba categoría
 xuqeʼ:xuqeʼ Ad-aninaq ;                ! FIXME: Comprueba categoría
@@ -5935,6 +5944,7 @@ xuqe:xuqe Ad-aninaq ;                  ! FIXME: Comprueba categoría
 
 xa:xa Ad-aninaq ;  ! "sólo"
 xaq:xaq Ad-aninaq ;                ! sólo
+
 
 ! Nota bene: Chi is also a conjunction introducing object complement
 ! clauses of transitive verbs (I see that you did this). It is also
@@ -6740,6 +6750,7 @@ tor:tor                            V-TV-R ; ! "open"
 tow:tow                            V-TV-R ; ! "hit (with a stick)"
 towij:towi                         V-TV-D ; ! "shake out (dust from rug)"
 toʼ:toʼ                            V-TV-R ; ! "ayudar; help"
+tobʼan:tobʼan                      V-IV   ; ! "ayudar; help"
 toʼtaj:toʼta                       V-TV-D ; ! "get out of (rain)"
 toʼtajisaj:toʼtajisa               V-TV-D ; ! "rescue"
 trombʼej:trombe                     V-TV-D ; ! "persecute"
@@ -7953,6 +7964,8 @@ LEXICON Irregulares
 V-etaʼm ;                           ! "saber; know"
 
 
+! What is going on with this one?
+%<impf%>%<o_sg3%>%<s_sg1%>aj%<v%>%<tv%>:k%>w%>aj # ;
 
 !ban-banik:ban-ban V-IV ; ! "repair"
 !bij:bʼi V-TV ;                     ! "decir; say" ! Src/Ixcoy1997

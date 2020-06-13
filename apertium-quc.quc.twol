@@ -54,13 +54,6 @@ Vx:0 <=>          _ [ %>: ]+ [ ArchiVow: | :Vow ] ;
 !  x>>kʼojiʼ>{i}k
 !  x>>kʼojiʼ>0k
 
-"Fusion"
-i:0 <=> k %{a%}: %>: e %>: _ n ; 
-        .#. k %>: %>: _ %{w%}: ;       ! kk'am
-
-! k>e>in>chʼabʼej
-! k>e>0n>chʼabʼej
-
 "n rule"
 %{n%}:0 <=> _ u: %>: Vow ;
 
@@ -79,8 +72,8 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 ! k{a}>i{m}bʼe>k
 ! k00imbʼe0k
 
-"kki rule"
-%{a%}:0 <=> k _ [ %>: ]+ k %{i%}: ;
+!"kki rule"
+!%{a%}:0 <=> k _ [ %>: ]+ k %{i%}: ;
 
 ! k{a}>>k{i}>kʼayij
 ! k0>>ki>kʼayij
@@ -88,6 +81,12 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 ! k{a}>>k{i}>il
 ! k0>>k0>il
 
+!"Fusion"
+!i:0 <=> k %{a%}: %>: e %>: _ n ; 
+!        .#. k %>: %>: _ %{w%}: ;       ! kk'am
+
+! k>e>in>chʼabʼej
+! k>e>0n>chʼabʼej
 
 
 "Glottal insertion in plural"
@@ -97,6 +96,11 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 !vowel is u and -o when the root vowel is not u
 "Status marking {O}"
 %{O%}:u <=> u [ ? - Vow ]* %> _  ;
+        except 
+              ʼ %>: _ w ; 
+
+"Status marking {O} after glottal"
+%{O%}:0 <=> ʼ %>: _ w ;
 
 ! On root transitives, this suffix has the form -V’ at the end of the 
 ! intonational phrase (-u’ and -o’ in harmony with a preceding u or o 
