@@ -101,7 +101,7 @@ u:w <=> %{n%}:0 _ %>: Vow ;
 !              ʼ %>: _ w ; 
 !
 !"Status marking {O} after glottal"
-!%{O%}:0 <=> ʼ %>: _ w ;
+!%{O%}:0 <=> \b ʼ %>: _ w ;
 
 ! ^xetoʼw/<perf><s_pl3>toʼ<v><tv><anti><agfoc>$
 

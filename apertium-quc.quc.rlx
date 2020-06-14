@@ -12,6 +12,7 @@ LIST Adv = adv ;
 LIST V = v ; 
 LIST Det = det ;
 LIST Pron = prn ;
+LIST Aux = aux ;
 
 LIST Na = "na" ;
 
@@ -51,6 +52,7 @@ LIST Ri = "ri" ;
 LIST We = "we" ; 
 LIST Kan = "<kan>" ;
 LIST Tzij = "tzij" ;
+LIST Sibʼalaj = "sibʼalaj" ;
 
 LIST Days = "Aj" "Ajmak" "Aqʼabal" "Batzʼ" "Imox" "Iqʼ" "Ix" "Junajpu" "Kame" "Kan" "Kaweq" "Kej" "Kʼat" "Noʼj" "Qʼanil" "Tijax" "Toj" "Tzʼikin" "Tzʼiʼ"  ;
 
@@ -98,11 +100,15 @@ REMOVE Days ;
 
 SELECT Dir IF (-1 V) ;
 
-SELECT Rel IF (0 Ri) (1C FIN) ;
+SELECT Rel IF (0 Ri) (1C FIN OR Aux LINK 1 FIN) ;
 
 REMOVE Pro IF (NEGATE 1* V) ;
 
 REMOVE Inf IF (0 N OR Inf) (-1 A OR Det) ;
+
+SELECT Aux IF (1C V) ;
+
+SELECT Adv IF (0 Sibʼalaj) (1C A) ;
 
 SECTION 
 

@@ -563,7 +563,7 @@ LEXICON TV-R-NONFIN
 LEXICON TV-D-NONFIN
 
 @D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
-@D.SS@%<pp%>:@D.SS@%>%{O%}m                                   # ;
+@D.SS@%<pp%>:@D.SS@%>m                                        # ;
 
 LEXICON TV-PASS-NONFIN
 
@@ -691,6 +691,8 @@ kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Biblia
 tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
 tekʼuriʼ:tekʼuri CC ;              ! "y; and" ! Use/Spell
 
+e:e CC ;  ! Src/Biblia
+
 we:we CS ;                          ! "si; if"
 weta:weta CS ;                      ! "si" ! Src/Biblia
 pune:pune CS ;                      ! "aunque; although"
@@ -801,6 +803,7 @@ chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chi%>k%>e  # ;  ! "" ! Src/Cuentos
 
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>aq%>e # ;  ! "" ! Src/Wiki
 
+
 ! -WACH Chi + E + wach
 !  en frente de, ante
 chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:ch%>nu%>wach # ; ! ""
@@ -908,6 +911,7 @@ chi%<pr%>%+%<px3pl%>jujunal%<n%>%<rel%>:chi%>ki%>jujunal # ; ! "" ! Src/Biblia !
 chi%<pr%>%+uwachulew%<n%>:ch%>uwachulew # ; ! "en mundo" ! Src/Biblia
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>%+ulew%<n%>:ch%>uwach%>ulew # ; ! "en su mundo" ! Src/Biblia
 chi%<pr%>%+%<px3sg%>chiʼ%<n%>:ch%>u%>chiʼ # ; ! "a su orilla"
+chi%<pr%>%+%<px3sg%>chiʼ%<n%>:ch%>u%>chi # ; ! "a su orilla" ! Src/Cuentos
 pa%<pr%>+%<px3sg%>qʼabʼ%<n%>:p%>u%>qʼabʼ # ; ! "en su mano"
 chi%<pr%>+%<px1sg%>ikyaqʼabʼ%<n%>:ch%>w%>ikyaqʼabʼ # ; ! "en mi derecha"
 chi%<pr%>+%<px3sg%>kʼisbʼal%<n%>:ch%>u%>kʼisbʼal # ; !"a su final"
@@ -916,6 +920,8 @@ chi%<pr%>+%<px3sg%>xkut%<n%>:ch%>u%>xkut # ; ! "a su lado"
 ! en punta de
 chi%<pr%>%+%<px3sg%>tzaʼm%<n%>%<rel%>:ch%>u%>tzaʼm # ; ! Src/Biblia
 
+@D.Poss@%<px3sg%>ech%<n%>%<rel%>:@D.Poss@r%>e  # ;  ! "" ! Src/Cuentos
+
 LEXICON Relationals
 
 !ach:ach Rel ;                      ! ""
@@ -923,7 +929,7 @@ ech:ech Rel ;                      ! "de"
 naqaj:naqaj Rel ;                  ! "cerca" ! TODO: Check
 onojel:onojel Rel ;                ! "todos"
 pam:pam Rel ;                      ! "adentro" ! TODO: Check
-re:re Rel ;                        ! "" ! Src/LopezIxcoy1997
+!re:re Rel ;                        ! "" ! Src/LopezIxcoy1997
 tukel:tukel Rel ;                  ! "solo"
 ukʼ:ukʼ Rel ;                      ! "con"
 umal:umal Rel ;                    ! "por"
@@ -940,6 +946,7 @@ jujunal:jujunal Rel ;              !
 ! It does not take possessive markers if it is not possessed.
 ibʼ:ibʼ Rel ;                      ! ""
 ibʼ%<n%>%<rel%>:ibʼ # ;            ! ""
+
 
 LEXICON Determiners
 
@@ -4522,6 +4529,8 @@ qʼequʼmal:qʼequʼmal N-tinamit ; ! "oscuridad; darkness"
 
 yawabʼ:yawabʼ N-ixoq ; ! "enfermo; "
 alkʼuwaʼl:alkʼuwaʼl N-tinamit ; ! "hijo, hija; "
+alkʼuwaʼlaxel:alkʼuwaʼlaxel N-iyom ; ! "hijo, hija; " ! Src/Biblia
+alkʼuwaʼlaxel:alkʼuwaʼlxel N-iyom ; ! "hijo, hija; " ! Src/Biblia
 ripibʼal:ripibʼal N-tinamit ; ! ""
 kʼwaʼ:kʼwaʼ N-tinamit ; ! "pozo"
 kʼuwaʼ:kʼuwaʼ N-tinamit ; ! "pozo"
@@ -6203,7 +6212,7 @@ chikonisaj:chikonisa               V-TV-D ; ! "blanch"
 chilbʼej:chilbe                     V-TV-D ; ! "charge with responsibility for something"
 chinowisaj:chinowisa               V-TV-D ; ! "play (a musical instrument)"
 chiy:chiy                          V-TV-R ; ! "work on stone (grind on a grinding stone)"
-chiʼj:chiʼ                         V-TV-D ; ! "ofrecer; offer"
+chiʼj:chiʼj                         V-TV-R ; ! "ofrecer; offer"
 chkij:chki                         V-TV-D ; ! "sprinkle, to splash"
 chobʼ:chob                          V-TV-R ; ! "drink voraciously (animal only)"
 chobʼresaj:chobresa                 V-TV-D ; ! "fertilize"
@@ -6367,7 +6376,7 @@ kyäqreʼj:kyäqreʼ                   V-TV-D ; ! "envy someone"
 kyäqwachij:kyäqwachi               V-TV-D ; ! "envy someone"
 kiʼrisaj:kiʼrisa                   V-TV-D ; ! "sweeten something"
 kochʼ:kochʼ                        V-TV-R ; ! "have patience with someone"
-koj:ko                             V-TV-D ; ! "place"
+koj:koj                             V-TV-R ; ! "place"
 kojiʼ:kojiʼ                        V-TV-R ; ! "cobrar" ! FIXME:Check ! Src/Biblia
 kokʼisaj:kokʼisa                   V-TV-D ; ! "last grinding of corn"
 kokʼisaj:kokʼisa                   V-TV-D ; ! "second grinding of corn"
@@ -6725,7 +6734,7 @@ terembʼej:terembe                   V-TV-D ; ! "follow someone"
 terneʼbʼej:terneʼbʼe               V-TV-D ; ! "follow someone" ! Src/Biblia
 terenej:terene                     V-TV-D ; ! "follow"
 tewichij:tewichi                   V-TV-D ; ! "bless"
-tij:ti                             V-TV-D ; ! "eat something"
+tij:tij                             V-TV-R ; ! "eat something"
 tijoj:tijo                         V-TV-D ; ! "teach"
 tik:tik                            V-TV-R ; ! "sembrar; plant"
 tikij:tiki                         V-TV-D ; ! "stir up (people to act)"
@@ -6735,7 +6744,7 @@ tiloj:tilo                         V-TV-D ; ! "trample"
 tioxij:tioxi                       V-TV-D ; ! "thank"
 tiʼ:tiʼ                            V-TV-R ; ! "bite"
 tobʼlej:toble                       V-TV-D ; ! "gulp something down (water when thirsty)"
-toj:to                             V-TV-D ; ! "pay something"
+toj:toj                             V-TV-R ; ! "pay something"
 tojij:toji                         V-TV-D ; ! "pour out (grain, liquid)"
 tojojej:tojoje                     V-TV-D ; ! "give abundantly (blessings"
 tokʼopij:tokʼopi                   V-TV-D ; ! "bar (door or window)"
@@ -7411,6 +7420,7 @@ pakan:pakan                        V-IV   ; ! "disperse impediments, to clear (c
 pakpat:pakpat                      V-IV   ; ! "dawn (dispersing darkness)"
 papobʼ:papob                        V-IV   ; ! "break open (something made of clay like water jug)"
 paqchin:paqchin                    V-IV   ; ! "butt (ram)"
+paqʼ:paqʼ                          V-IV ; ! "partir"
 paqʼin:paqʼin                      V-IV   ; ! "break open (mountain, skin)"
 paqʼnaj:paqʼnaj                    V-IV   ; ! "sound of splitting wood"
 pasin:pasin                        V-IV   ; ! "put on faja"
