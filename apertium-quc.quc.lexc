@@ -443,9 +443,9 @@ LEXICON SS-IK-Ø
 @R.SS@:@R.SS@                 # ; ! ---
 
 LEXICON SS-Vʼ-V
-! On root transitives, this suffix has the form -V’ at the end of the
-! intonational phrase (-u’ and -o’ in harmony with a preceding u or o
-! and -a’ in the other cases) and -V in other positions.
+! On root transitives, this suffix has the form -Vʼ at the end of the
+! intonational phrase (-uʼ and -oʼ in harmony with a preceding u or o
+! and -aʼ in the other cases) and -V in other positions.
 %+uʼ%<mark%>:%>%{U%}ʼ         # ;
 %+uʼ%<mark%>%<fin%>:%>%{U%}   # ;
 
@@ -586,8 +586,8 @@ LEXICON TV-R-VAL
 @R.Pref.ON@%<pass%>:@R.Pref.ON@                            SS-IV ;
 %<pass%>%<stat%>:%>%{V%}taj                                TV-PASS-NONFIN  ; ! riqitaj
 @R.Pref.ON@%<pass%>%<stat%>:@R.Pref.ON@%>%{V%}taj          SS-IV ;
-%<pass%>%<stat%>:%>taj                                     TV-PASS-NONFIN  ; ! b'antaj (not b'anataj?)
-@R.Pref.ON@%<pass%>%<stat%>:@R.Pref.ON@%>taj               SS-IV ;           ! b'antaj (not b'anataj?)
+%<pass%>%<stat%>:%>taj                                     TV-PASS-NONFIN  ; ! bʼantaj (not bʼanataj?)
+@R.Pref.ON@%<pass%>%<stat%>:@R.Pref.ON@%>taj               SS-IV ;           ! bʼantaj (not bʼanataj?)
 @D.SS@%<anti%>:@D.SS@%>%{U%}n                              TV-ANTI-NONFIN  ;
 @R.Pref.ON@%<anti%>:@R.Pref.ON@%>%{U%}n                    SS-IV ;
 @R.Pref.ON@%<anti%>%<agfoc%>:@R.Pref.ON@%>%{O%}w           SS-IV  ;
@@ -706,9 +706,12 @@ arechiʼ:arechiʼ CS ;                    ! "cuando"
 ! Chi is also a conjunction introducing object complement clauses of transitive verbs (I see that you did this).
 chi:chi CS ;                       ! introduces finite complement clauses
 rech:rech CS ;                       !     b.  reech   introduces finite purpose clauses
-taq:taq CS ;                       !     e.   taq/are taq, chi ri’/chri’/ introduces temporal clauses
-chriʼ:chriʼ CS ;                       !     e.   taq/are taq, chi ri’/chri’/ introduces temporal clauses
-chiʼ:chiʼ CS ;                       !     e.   taq/are taq, chi ri’/chri’/ introduces temporal clauses
+taq:taq CS ;                       !     e.   taq/are taq, chi riʼ/chriʼ/ introduces temporal clauses
+chriʼ:chriʼ CS ;                       !     e.   taq/are taq, chi riʼ/chriʼ/ introduces temporal clauses
+chiʼ:chiʼ CS ;                       !     e.   taq/are taq, chi riʼ/chriʼ/ introduces temporal clauses
+
+pinemna:pinemna CS ; ! "aunque" ;
+pine:pine CS ; ! "aunque" ;
 
 
 LEXICON Direccionales
@@ -810,6 +813,7 @@ chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:ch%>nu%>wach # ; ! ""
 chi%<pr%>%+%<px1sg%>wach%<n%>%<rel%>:chi%>nu%>wach # ; ! "" ! Src/UTexas
 chi%<pr%>%+%<px2sg%>wach%<n%>%<rel%>:ch%>a%>wach # ; ! ""
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>u%>wach # ; ! ""
+chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:chi%>u%>wach # ; ! "" ! Src/ALMGD
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>wach # ; ! "" ! Src/UDHR
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>wa # ; ! "" ! Src/UDHR
 chi%<pr%>%+%<px3sg%>wach%<n%>%<rel%>:ch%>u%>wa # ; ! "" ! Src/UTexas
@@ -942,7 +946,7 @@ wikiqʼabʼ:wikiqʼab Rel ;
 tzalaj:tzalaj Rel ;
 jujunal:jujunal Rel ;              !
 
-! The reflexive marker –ib’  occurs also in nouns. 
+! The reflexive marker –ibʼ  occurs also in nouns. 
 ! It does not take possessive markers if it is not possessed.
 ibʼ:ibʼ Rel ;                      ! ""
 ibʼ%<n%>%<rel%>:ibʼ # ;            ! ""
@@ -979,7 +983,7 @@ weriʼ:weriʼ Pron-waʼ ;               ! "esto"
 
 ki%<prn%>:ki # ;
 
-ri%<prn%>%<rel%>:ri # ;               ! "" ! ri ixoq ri xpe Chwitz’aq xulik
+ri%<prn%>%<rel%>:ri # ;               ! "" ! ri ixoq ri xpe Chwitzʼaq xulik
 
 LEXICON Cardinals
 
@@ -1135,7 +1139,7 @@ amaqʼ:amaqʼ N-tinamit ;            ! "país; country"
 amaqʼ:amaq N-tinamit ;             ! "país; country"
 mul:mul N-tinamit ;                ! "time, furrow, anthill, mound"
 jumul:jumul N-tinamit ;            ! "one time, once, noise"
-nan¹:nan N-nan ;                    ! "lady, ma'am, mother"
+nan¹:nan N-nan ;                    ! "lady, maʼam, mother"
 nan²:nan N-tinamit ;                ! "lady" ! Src/Cuentos
 ali:ali N-tinamit ;                ! "young girl"
 juperaj:juperaj N-tinamit ;        ! "one side"
@@ -2614,7 +2618,7 @@ labʼal:labal N-tinamit ; ! "war"
 lajabʼ:lajab N-tinamit ; ! "trap"
 !lajuj:    lajuj N-tinamit ; ! "ten"
 !lajujkʼal:    lajujkʼal N-tinamit ; ! "200"
-lantaʼr:lantaʼr N-tinamit ; ! "man's skirt"
+lantaʼr:lantaʼr N-tinamit ; ! "manʼs skirt"
 laq:laq N-tinamit ; ! "plate"
 !laqʼalik chʼichʼ:    laqʼalik chʼichʼ N-tinamit ; ! "tin tray or plate"
 latzʼ:latzʼ N-tinamit ; ! "corner (inside house)"
@@ -4750,6 +4754,7 @@ eqeleʼn:eqeleʼn N-tinamit ; ! "cargo grande"
 ! -kʼul ja
 kʼul:kʼul  N-tinamit ; ! "vecino"
 karwaʼn:karwaʼn N-tinamit ; ! "garbanzo"
+cho:cho N-tinamit ; ! "laguna"
 
 
 LEXICON Propios
@@ -4787,7 +4792,7 @@ Chuatroj:Chuatroj NP-Top ;
 Sidon:Sidon NP-Top ;
 Kafarnaʼum:Kafarnaʼum NP-Top ;
 Asiʼa:Asiʼa NP-Top ;
-Jerusalem:jerusalem NP-Top ; ! TODO: Lowercase because of 'Ujerusalem'
+Jerusalem:jerusalem NP-Top ; ! TODO: Lowercase because of ʼUjerusalemʼ
 Silisiʼa:Silisiʼa NP-Top ;
 Israʼel:Israʼel NP-Top ;
 Siriʼa:Siriʼa NP-Top ;
@@ -4830,6 +4835,23 @@ Mariy:Mariy NP-Ant-F ;
 
 Perez:Perez NP-Cog ;
 Batz:Batz NP-Cog ;
+
+Ajpop:Ajpop NP-Cog ; ! ""
+Ajtzʼalam:Ajtzʼalam NP-Cog ; ! ""
+Ajuʼ:Ajuʼ NP-Cog ; ! ""
+Chan:Chan NP-Cog ; ! ""
+Chun:Chun NP-Cog ; ! ""
+Chuta:Chuta NP-Cog ; ! ""
+Ixchobʼ:Ixchobʼ NP-Cog ; ! ""
+Pum:Pum NP-Cog ; ! ""
+Suʼy:Suʼy NP-Cog ; ! ""
+Tax:Tax NP-Cog ; ! ""
+Tzʼaläm:Tzʼaläm NP-Cog ; ! ""
+Tzʼul:Tzʼul NP-Cog ; ! ""
+Yak:Yak NP-Cog ; ! ""
+Yaxon:Yaxon NP-Cog ; ! ""
+Yay:Yay NP-Cog ; ! ""
+
 
 Migueʼl:Migueʼl NP-Ant-M ;
 Emmanueʼl:Emmanueʼl NP-Ant-M ;

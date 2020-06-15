@@ -63,7 +63,7 @@
 "<al>"
 	"ali" clf f @det #6->7
 "<Nela>"
-	"Nela" np ant f @nsubj #7->9
+	"Nela" np ant f @nsubj #7->1
 "<chqawach>"
 	"chi" pr @case #8->9
 		"wach" n rel px1pl @obl #9->1
