@@ -5196,6 +5196,7 @@ saq:saq A-saq ;                    ! "blanco; white"
 qʼeq:qʼeq A-saq ;                  ! "negro; black"
 tzij:tzij A-saq ;                  ! "verdadero; true"
 
+mayabʼ:mayabʼ A-saq ;              ! "maya"
 
 kʼax:kʼax A-saq ;                  ! "difícil; difficult"
 rajawaxik:rajawaxik A-saq ;        ! "importante; important, necessary"
@@ -5956,6 +5957,7 @@ xuq:xuq Ad-aninaq ;                    ! FIXME: Comprueba categoría
 xuqe:xuqe Ad-aninaq ;                  ! FIXME: Comprueba categoría
 
 xa:xa Ad-aninaq ;  ! "sólo"
+xu:xu Ad-aninaq ;  ! "únicamente, sólo"
 xaq:xaq Ad-aninaq ;                ! sólo
 
 
