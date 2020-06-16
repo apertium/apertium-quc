@@ -3015,69 +3015,69 @@ la/la<n>/la<part><frm>/la<qst>$
 ^ali/ali<clf><f>/ali<n>$
 
 # sent_id = utexas:261
-# text = We chatchakunik, k’o awa.
+# text = We chatchakunik, kʼo awa.
 # text[spa] = Si vas a trabajar, tienes comida.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
 ^chatchakunik/*chatchakunik$
 ^,/,<cm>$
-^k’o/kʼo<part>$
+^kʼo/kʼo<part>$
 ^awa/<px2sg>wa<n>$
 ^./.<sent>$
 
 # sent_id = utexas:262
-# text = We chatchakunik, k’o awa.
+# text = We chatchakunik, kʼo awa.
 # text[spa] = Si vas a trabajar, tienes comida.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
 ^chatchakunik/*chatchakunik$
 ^,/,<cm>$
-^k’o/kʼo<part>$
+^kʼo/kʼo<part>$
 ^awa/<px2sg>wa<n>$
 ^./.<sent>$
 
 # sent_id = utexas:263
-# text = We chab’ij, na katinch’ab’ej ta chik.
+# text = We chabʼij, na katinchʼabʼej ta chik.
 # text[spa] = Si vas a decir, ya no te voy a hablar.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
-^chab’ij/<imp><o_sg3><s_sg2>bʼij<v><tv>$
+^chabʼij/<imp><o_sg3><s_sg2>bʼij<v><tv>$
 ^,/,<cm>$ ^na/na<adv>/na<adv><fut>/na<neg>$
-^katinch’ab’ej/<impf><o_sg2><s_sg1>chʼabʼej<v><tv>$
+^katinchʼabʼej/<impf><o_sg2><s_sg1>chʼabʼej<v><tv>$
 ^ta/taj<neg>$
 ^chik/chik<adv>/chik<part>$
 ^./.<sent>$
 
 # sent_id = utexas:264
-# text = We chojb’e pa le nimaq’ij, keqil le ajxojolob’.
+# text = We chojbʼe pa le nimaqʼij, keqil le ajxojolobʼ.
 # text[spa] = Si vamos a la feria, veremos a los bailadores.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
-^chojb’e/<imp><s_pl1>bʼe<v><iv>$
+^chojbʼe/<imp><s_pl1>bʼe<v><iv>$
 ^pa/pa<pr>$
 ^le/le<det>$
-^nimaq’ij/nimaqʼij<n>$
+^nimaqʼij/nimaqʼij<n>$
 ^,/,<cm>$
 ^keqil/<impf><o_pl3><s_pl1>il<v><tv>$
 ^le/le<det>$
-^ajxojolob’/ajxojolabʼ<n>$
+^ajxojolobʼ/ajxojolabʼ<n>$
 ^./.<sent>$
 
 # sent_id = utexas:265
-# text = Wemna chpe le jab’ kakam le ab’ix.
+# text = Wemna chpe le jabʼ kakam le abʼix.
 # text[spa] = Si vamos a la feria, veremos a los bailadores.
 # labels = tijonik-42
 ^Wemna/*Wemna$
 ^chpe/<imp><s_sg3>pe<v><iv>$
 ^le/le<det>$
-^jab’/jäbʼ<n>$
+^jabʼ/jäbʼ<n>$
 ^kakam/<impf><s_sg3>käm<v><iv>$
 ^le/le<det>$
-^ab’ix/abʼix<n>/<px2sg>bʼix<n>$
+^abʼix/abʼix<n>/<px2sg>bʼix<n>$
 ^./.<sent>$
 
 # sent_id = utexas:265
-# text = Wemna chaloq’ axiyal, na kinb’e ta awuk’.
+# text = Wemna chaloqʼ axiyal, na kinbʼe ta awukʼ.
 # text[spa] = Si no te compras un abrigo, no iré contigo.
 # labels = tijonik-42
 ^Wemna/*Wemna$
@@ -3087,11 +3087,11 @@ la/la<n>/la<part><frm>/la<qst>$
 ^na/na<adv>/na<adv><fut>/na<neg>$
 ^kinbʼe/<impf><s_sg1>bʼe<v><iv>$
 ^ta/taj<neg>$
-^awuk’/<px2sg>ukʼ<n>/<px2sg>ukʼ<n><rel>$
+^awukʼ/<px2sg>ukʼ<n>/<px2sg>ukʼ<n><rel>$
 ^./.<sent>$
 
 # sent_id = utexas:266
-# text = Pine ta ne maj nurajil, kimb’e wi.
+# text = Pine ta ne maj nurajil, kimbʼe wi.
 # text[spa] = Aunque no tenga dinero, iré (de todas formas)
 # labels = tijonik-42
 ^Pine/*Pine$
@@ -3105,7 +3105,7 @@ la/la<n>/la<part><frm>/la<qst>$
 ^./.<sent>$
 
 # sent_id = utexas:267
-# text = Pine ta ne kinitzapij pa che’ kintor wib’.
+# text = Pine ta ne kinitzapij pa cheʼ kintor wibʼ.
 # text[spa] = Aunque me encierren en la carcel, saldré (lit: me abriré).
 # labels = tijonik-42
 ^Pine/*Pine$
@@ -3113,20 +3113,20 @@ la/la<n>/la<part><frm>/la<qst>$
 ^ne/ne<adv>$
 ^kinitzapij/*kinitzapij$
 ^pa/pa<pr>$
-^che’/cheʼ<adj>/cheʼ<n>$
+^cheʼ/cheʼ<adj>/cheʼ<n>$
 ^kintor/<impf><o_sg3><s_sg1>tor<v><tv>/<impf><s_sg1>tor<v><tv><pass>$
-^wib’/<px1sg>ibʼ<n><rel>$
+^wibʼ/<px1sg>ibʼ<n><rel>$
 ^./.<sent>$
 
 # sent_id = utexas:268
-# text = Are ta xraj le tz’i’ xok pa le jul, par na xkowin taj rumal sib’alaj nim.
+# text = Are ta xraj le tzʼiʼ xok pa le jul, par na xkowin taj rumal sibʼalaj nim.
 # text[spa] = Quiso entrar el perro en el hoyo, pero no pudo porque es muy grande.
 # labels = tijonik-42
 ^Are/are<adv>/are<foc>/<px2sg>re<n><rel>$
 ^ta/taj<neg>$
 ^xraj/<perf><o_sg3><s_sg3>aj<v><tv>$
 ^le/le<det>$
-^tz’i’/Tzʼiʼ<n>/tzʼiʼ<adj>/tzʼiʼ<n>$
+^tzʼiʼ/Tzʼiʼ<n>/tzʼiʼ<adj>/tzʼiʼ<n>$
 ^xok/<perf><s_sg3>ok<v><iv>$
 ^pa/pa<pr>$
 ^le/le<det>$
@@ -3137,18 +3137,18 @@ la/la<n>/la<part><frm>/la<qst>$
 ^xkowin/<perf><s_sg3>kowij<v><tv><anti>/<perf><s_sg3>kowij<v><tv><anti><agfoc>/<perf><s_sg3>kowin<v><iv>$
 ^taj/taj<neg><fin>$
 ^rumal/<px3sg>umal<n><rel>$
-^sib’alaj/sibʼalaj<adj>/sibʼalaj<adv>/sibʼ<adj><ints>$
+^sibʼalaj/sibʼalaj<adj>/sibʼalaj<adv>/sibʼ<adj><ints>$
 ^nim/nim<adj>$
 ^./.<sent>$
 
 # sent_id = utexas:269
-# text = Are ta xiwaj xixb’ixanik par na utz ta le iqul.
+# text = Are ta xiwaj xixbʼixanik par na utz ta le iqul.
 # text[spa] = Ustedes quisieron cantar pero sus voces no son buenas.
 # labels = tijonik-42
 ^Are/are<adv>/are<foc>/<px2sg>re<n><rel>$
 ^ta/taj<neg>$
 ^xiwaj/<perf><o_sg3><s_pl2>aj<v><tv>$
-^xixb’ixanik/<perf><s_pl2>bʼixaj<v><tv><anti>+ik<mark>/<perf><s_pl2>bʼixaj<v><tv><anti><agfoc>+ik<mark>$ ^par/par<n>$
+^xixbʼixanik/<perf><s_pl2>bʼixaj<v><tv><anti>+ik<mark>/<perf><s_pl2>bʼixaj<v><tv><anti><agfoc>+ik<mark>$ ^par/par<n>$
 ^na/na<adv>/na<adv><fut>/na<neg>$
 ^utz/utz<adj>/utz<adv>$
 ^ta/taj<neg>$
@@ -3157,11 +3157,11 @@ la/la<n>/la<part><frm>/la<qst>$
 ^./.<sent>$
 
 # sent_id = utexas:270
-# text = Pinemna kab’e le watz, kimb’e wi in pa ka’yib’al.
+# text = Pinemna kabʼe le watz, kimbʼe wi in pa kaʼyibʼal.
 # text[spa] = Aunque no vaya mi hermano, yo iré (de todas maneras) al mercado.
 # labels = tijonik-42
 ^Pinemna/*Pinemna$
-^kab’e/<impf><s_sg3>bʼe<v><iv>$
+^kabʼe/<impf><s_sg3>bʼe<v><iv>$
 ^le/le<det>$
 ^watz/*watz$
 ^,/,<cm>$
@@ -3169,93 +3169,93 @@ la/la<n>/la<part><frm>/la<qst>$
 ^wi/wi<adv><dir>$
 ^in/in<prn><pers><p1><sg>/in<prn><pro><p1><sg>$
 ^pa/pa<pr>$
-^ka’yib’al/kaʼyibʼal<n>$
+^kaʼyibʼal/kaʼyibʼal<n>$
 ^./.<sent>$
 
 # sent_id = utexas:271
-# text = Kinya wa’ we ch’ich’ pinemna utz.
+# text = Kinya waʼ we chʼichʼ pinemna utz.
 # text[spa] = Voy a dar este machete, aunque no sea bueno.
 # labels = tijonik-42
 ^Kinya/<impf><o_sg3><s_sg1>ya<v><tv>/<impf><s_sg1>ya<v><tv><pass>$
-^wa’/waʼ<det>/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^waʼ/waʼ<det>/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
 ^we/we<cnjsub>/we<det>$
-^ch’ich’/chʼichʼ<n>$
+^chʼichʼ/chʼichʼ<n>$
 ^pinemna/*pinemna$
 ^utz/utz<adj>/utz<adv>$
 ^./.<sent>$
 
 # sent_id = utexas:272
-# text = Kinya wa’ we ch’ich’ pinemna utz.
+# text = Kinya waʼ we chʼichʼ pinemna utz.
 # text[spa] = Voy a dar este machete, aunque no sea bueno.
 # labels = tijonik-42
 ^Kinya/<impf><o_sg3><s_sg1>ya<v><tv>/<impf><s_sg1>ya<v><tv><pass>$
-^wa’/waʼ<det>/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^waʼ/waʼ<det>/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
 ^we/we<cnjsub>/we<det>$
-^ch’ich’/chʼichʼ<n>$
+^chʼichʼ/chʼichʼ<n>$
 ^pinemna/*pinemna$
 ^utz/utz<adj>/utz<adv>$
 ^./.<sent>$
 
 # sent_id = utexas:273
-# text = We ta xatb’e wuk’ pa le tinamit, xaloq’ ta la’ le ujastaq le ak’ajol
+# text = We ta xatbʼe wukʼ pa le tinamit, xaloqʼ ta laʼ le ujastaq le akʼajol
 # text[spa] = Si hubieras ido conmigo al pueblo, hubieras comprado la ropa de tu hijo.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
 ^ta/taj<neg>$
-^xatb’e/<perf><s_sg2>bʼe<v><iv>$
-^wuk’/<px1sg>ukʼ<n>/<px1sg>ukʼ<n><rel>$
+^xatbʼe/<perf><s_sg2>bʼe<v><iv>$
+^wukʼ/<px1sg>ukʼ<n>/<px1sg>ukʼ<n><rel>$
 ^pa/pa<pr>$
 ^le/le<det>$
 ^tinamit/tinamit<n>$
 ^,/,<cm>$
-^xaloq’/<perf><o_sg3><s_sg2>loqʼ<v><tv>$
+^xaloqʼ/<perf><o_sg3><s_sg2>loqʼ<v><tv>$
 ^ta/taj<neg>$
-^la’/laʼ<prn><dem>$
+^laʼ/laʼ<prn><dem>$
 ^le/le<det>$
 ^ujastaq/<px3sg>jastaq<n>$
 ^le/le<det>$
-^ak’ajol/<px2sg>kʼojolaxel<n>$
+^akʼajol/<px2sg>kʼojolaxel<n>$
 
 # sent_id = utexas:274
-# text = We ta xatb’e wuk’ pa le tinamit, xaloq’ ta wa’ we jastaq
+# text = We ta xatbʼe wukʼ pa le tinamit, xaloqʼ ta waʼ we jastaq
 # text[spa] = Si hubieras ido conmigo al pueblo, hubieras comprado la ropa de tu hijo.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
 ^ta/taj<neg>$
-^xatb’e/<perf><s_sg2>bʼe<v><iv>$
-^wuk’/<px1sg>ukʼ<n>/<px1sg>ukʼ<n><rel>$
+^xatbʼe/<perf><s_sg2>bʼe<v><iv>$
+^wukʼ/<px1sg>ukʼ<n>/<px1sg>ukʼ<n><rel>$
 ^pa/pa<pr>$ ^le/le<det>$
 ^tinamit/tinamit<n>$
 ^,/,<cm>$
-^xaloq’/<perf><o_sg3><s_sg2>loqʼ<v><tv>$
+^xaloqʼ/<perf><o_sg3><s_sg2>loqʼ<v><tv>$
 ^ta/taj<neg>$
-^wa’/waʼ<det>/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^waʼ/waʼ<det>/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
 ^we/we<cnjsub>/we<det>$
 ^jastaq/jastaq<n>$
 
 # sent_id = utexas:275
-# text = We ta ma ta xatb’e pa le tinamit ma ta xaloq’ la’ le ujastaq le ak’ajol.
+# text = We ta ma ta xatbʼe pa le tinamit ma ta xaloqʼ laʼ le ujastaq le akʼajol.
 # text[spa] = Si hubieras ido conmigo al pueblo, hubieras comprado la ropa de tu hijo.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
 ^ta/taj<neg>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
-^xatb’e/<perf><s_sg2>bʼe<v><iv>$
+^xatbʼe/<perf><s_sg2>bʼe<v><iv>$
 ^pa/pa<pr>$
 ^le/le<det>$
 ^tinamit/tinamit<n>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
-^xaloq’/<perf><o_sg3><s_sg2>loqʼ<v><tv>$
-^la’/laʼ<prn><dem>$
+^xaloqʼ/<perf><o_sg3><s_sg2>loqʼ<v><tv>$
+^laʼ/laʼ<prn><dem>$
 ^le/le<det>$
 ^ujastaq/<px3sg>jastaq<n>$
-^le/le<det>$ ^ak’ajol/<px2sg>kʼojolaxel<n>$
+^le/le<det>$ ^akʼajol/<px2sg>kʼojolaxel<n>$
 ^./.<sent>$
 
 # sent_id = utexas:276
-# text = We ta ma ta xinawilo ma ta kinya b’e la’ chawech.
+# text = We ta ma ta xinawilo ma ta kinya bʼe laʼ chawech.
 # text[spa] = Si no me hubieras visto, no te hubiera dado permiso.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
@@ -3266,13 +3266,13 @@ ta/taj<neg>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
 ^kinya/<impf><o_sg3><s_sg1>ya<v><tv>/<impf><s_sg1>ya<v><tv><pass>$
-^b’e/bʼe<n>$
-^la’/laʼ<prn><dem>$
+^bʼe/bʼe<n>$
+^laʼ/laʼ<prn><dem>$
 ^chawech/chi<pr>+<px2sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = utexas:277
-# text = We ta xakunaj le atat ma ta xkam la’.
+# text = We ta xakunaj le atat ma ta xkam laʼ.
 # text[spa] = Si hubieras curado a tu papá, no se hubiera muerto.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
@@ -3283,11 +3283,11 @@ ta/taj<neg>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
 ^xkam/<perf><s_sg3>käm<v><iv>$
-^la’/laʼ<prn><dem>$
+^laʼ/laʼ<prn><dem>$
 ^./.<sent>$
 
 # sent_id = utexas:278
-# text = We ta xakunaj le atat ma ta xkam la’.
+# text = We ta xakunaj le atat ma ta xkam laʼ.
 # text[spa] = Si me hubieras hecho caso, no estarías así.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
@@ -3295,32 +3295,32 @@ ta/taj<neg>$
 ^xanimaj/<perf><o_sg3><s_sg2>nimaj<v><tv>/<perf><s_sg3>animaj<v><iv>$
 ^jas/jas<prn><itg>$
 ^le/le<det>$
-^xinb’ij/<perf><o_sg3><s_sg1>bʼij<v><tv>$
+^xinbʼij/<perf><o_sg3><s_sg1>bʼij<v><tv>$
 ^chawech/chi<pr>+<px2sg>ech<n><rel>$
 ^,/,<cm>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
 ^je/je<adv>$
-^la’/laʼ<prn><dem>$
-^la’/laʼ<prn><dem>$
-^xab’ano/<perf><o_sg3><s_sg2>bʼan<v><tv>+u<mark>$
+^laʼ/laʼ<prn><dem>$
+^laʼ/laʼ<prn><dem>$
+^xabʼano/<perf><o_sg3><s_sg2>bʼan<v><tv>+u<mark>$
 ^./.<sent>$
 
 # sent_id = utexas:279
-# text = We ta ma ta aq’ab’ kab’ek, maj ta utem la’ kuriq pa le nimach’ich’.
+# text = We ta ma ta aqʼabʼ kabʼek, maj ta utem laʼ kuriq pa le nimachʼichʼ.
 # text[spa] =Si no se fuera temprano, no encontraría silla en el bus.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
 ^ta/taj<neg>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
-^aq’ab’/<px2sg>qʼabʼ<n>$
-^kab’ek/<impf><s_sg3>bʼe<v><iv>+ik<mark>$
+^aqʼabʼ/<px2sg>qʼabʼ<n>$
+^kabʼek/<impf><s_sg3>bʼe<v><iv>+ik<mark>$
 ^,/,<cm>$
 ^maj/maj<adv>$
 ^ta/taj<neg>$
 ^utem/<px3sg>tem<n>$
-^la’/laʼ<prn><dem>$
+^laʼ/laʼ<prn><dem>$
 ^kuriq/<impf><o_sg3><s_sg3>riq<v><tv>$
 ^pa/pa<pr>$
 ^le/le<det>$
@@ -3328,43 +3328,277 @@ ta/taj<neg>$
 ^./.<sent>$
 
 # sent_id = utexas:280
-# text = We ta kape le jab’ kamik.
+# text = We ta kape le jabʼ kamik.
 # text[spa] = Si hoy viniera la lluvia.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
 ^ta/taj<neg>$
 ^kape/kape<n>/<impf><s_sg3>pe<v><iv>$
 ^le/le<det>$
-^jab’/jäbʼ<n>$
+^jabʼ/jäbʼ<n>$
 ^kamik/kamik<adv>/käm<v><iv><inf>$
 ^./.<sent>$
 
 # sent_id = utexas:281
-# text = We ta je la’ kab’an pa le tinamit.
+# text = We ta je laʼ kabʼan pa le tinamit.
 # text[spa] = Si así se hiciera en el pueblo.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
 ^ta/taj<neg>$
 ^je/je<adv>$
-^la’/laʼ<prn><dem>$
-^kab’an/<impf><o_sg3><s_sg2>bʼan<v><tv>/<impf><s_sg3>abʼan<v><iv>/<impf><s_sg3>bʼaj<v><tv><anti>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>/<impf><s_sg3>bʼan<v><tv><pass>$
+^laʼ/laʼ<prn><dem>$
+^kabʼan/<impf><o_sg3><s_sg2>bʼan<v><tv>/<impf><s_sg3>abʼan<v><iv>/<impf><s_sg3>bʼaj<v><tv><anti>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>/<impf><s_sg3>bʼan<v><tv><pass>$
 ^pa/pa<pr>$
 ^le/le<det>$
 ^tinamit/tinamit<n>$
 ^./.<sent>$
 
 # sent_id = utexas:282
-# text = We ta ne in xinb’anowik, are le a Te’k xb’anowik
+# text = We ta ne in xinbʼanowik, are le a Teʼk xbʼanowik
 # text[spa] = Si yo no fui quien lo hizo, fue el Diego quien lo hizo.
 # labels = tijonik-42
 ^We/we<cnjsub>/we<det>$
 ^ta/taj<neg>$
 ^ne/ne<adv>$
 ^in/in<prn><pers><p1><sg>/in<prn><pro><p1><sg>$
-^xinb’anowik/<perf><s_sg1>bʼanow<v><iv>+ik<mark>/<perf><s_sg1>bʼan<v><tv><anti><agfoc>+ik<mark>$
+^xinbʼanowik/<perf><s_sg1>bʼanow<v><iv>+ik<mark>/<perf><s_sg1>bʼan<v><tv><anti><agfoc>+ik<mark>$
 ^,/,<cm>$
 ^are/are<adv>/are<foc>/<px2sg>re<n><rel>$
 ^le/le<det>$
 ^a/ala<clf><m>/a<adj>$
-^Te’k/Teʼk<np><ant><m>$
-^xb’anowik/<perf><s_sg3>bʼanow<v><iv>+ik<mark>/<perf><s_sg3>bʼan<v><tv><anti><agfoc>+ik<mark>$
+^Teʼk/Teʼk<np><ant><m>$
+^xbʼanowik/<perf><s_sg3>bʼanow<v><iv>+ik<mark>/<perf><s_sg3>bʼan<v><tv><anti><agfoc>+ik<mark>$
+
+# sent_id = utexas:283
+# text = We ta ne aʼre xetijow le rikil, are le komon xetijowik.
+# text[spa] = Si no fueron ellos quienes comieron la comida, fueron los de la comunidad.
+# labels = tijonik-42
+^We/we<cnjsub>/we<det>$
+^ta/taj<neg>$
+^ne/ne<adv>$
+^aʼre/aʼre<prn><pers><p3><pl>$
+^xetijow/<perf><s_pl3>tijow<v><iv>$
+^le/le<det>$
+^rikil/rikiʼl<n>$
+^,/,<cm>$
+^are/are<adv>/are<foc>/<px2sg>re<n><rel>$
+^le/le<det>$
+^komon/komon<adj>/komon<n>$
+^xetijowik/<perf><s_pl3>tijow<v><iv>+ik<mark>$
+^./.<sent>$
+
+# sent_id = utexas:284
+# text = Ma ta xabʼinsaj le chʼichʼ. Xaq xew xayojo.
+# text[spa] = No hubieras manejado el carro. Solo lo descompusiste.
+# labels = tijonik-42
+^Ma/ma<neg>$
+^ta/taj<neg>$
+^xabʼinsaj/*xabʼinsaj$
+^le/le<det>$
+^chʼichʼ/chʼichʼ<n>$
+^./.<sent>$
+^Xaq/xaq<adj>/xaq<adv>/xaq<n>/xäq<n>$
+^xew/*xew$
+^xayojo/*xayojo$
+^./.<sent>$
+
+# sent_id = utexas:285
+# text = Ma ta xinyaj le ali. Numak xyawajik.
+# text[spa] = No hubiera regañado a la muchacha. Por mi culpa se enfermó.
+# labels = tijonik-42
+^Ma/ma<neg>$
+^ta/taj<neg>$
+^xinyaj/<perf><o_sg3><s_sg1>yaj<v><tv>/<perf><s_sg1>yaj<v><iv>$
+^le/le<det>$
+^ali/ali<clf><f>/ali<n>$
+^./.<sent>$
+^Numak/<px1sg>mak<n>$
+^xyawajik/<perf><s_sg3>yawaj<v><iv>+ik<mark>$
+^./.<sent>$
+
+# sent_id = utexas:286
+# text = Ma ta kʼo jun kakanaj kanoq, qonojel kojbʼek.
+# text[spa] = No hubiera regañado a la muchacha. Por mi culpa se enfermó.
+# labels = tijonik-42
+^Ma/ma<neg>$
+^ta/taj<neg>$
+^kʼo/kʼo<part>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^kakanaj/<impf><s_sg3>kanaj<v><iv>$
+^kanoq/kan<adv><dir>+oq<mark>$
+^,/,<cm>$
+^qonojel/<px1pl>onojel<n>/<px1pl>onojel<n><rel>$
+^kojbʼek/<impf><s_pl1>bʼe<v><iv>+ik<mark>$
+^./.<sent>$
+
+# sent_id = utexas:287
+# text = Ma ta kabʼe le nuxbʼal pa le tinamit.
+# text[spa] = Que no vaya mi hermano (de mujer) al pueblo.
+# labels = tijonik-42
+^Ma/ma<neg>$
+^ta/taj<neg>$
+^kabʼe/<impf><s_sg3>bʼe<v><iv>$
+^le/le<det>$
+^nuxbʼal/*nuxbʼal$
+^pa/pa<pr>$
+^le/le<det>$
+^tinamit/tinamit<n>$
+^./.<sent>$
+
+# sent_id = utexas:289
+# text = Are ta bʼa ri qaqajaw kixtewechiʼnik.
+# text[spa] = Que nuestro señor los bendiga.
+# labels = tijonik-42
+^Are/are<adv>/are<foc>/<px2sg>re<n><rel>$
+^ta/taj<neg>$
+^bʼa/bʼaʼ<ij>/bʼa<n>$
+^ri/ri<det>/ri<prn><rel>$
+^qaqajaw/<px1pl>Qajaw<n>/<px1pl>qajaw<n>$
+^kixtewechiʼnik/*kixtewechiʼnik$
+^./.<sent>$
+
+# sent_id = utexas:290
+# text = Chpe ta bʼa le loqʼalaj jabʼ.
+# text[spa] = Que venga la bendita lluvia.
+# labels = tijonik-42
+^Chpe/<imp><s_sg3>pe<v><iv>$
+^ta/taj<neg>$
+^bʼa/bʼaʼ<ij>/bʼa<n>$
+^le/le<det>$
+^loqʼalaj/loqʼalaj<adj>/loqʼ<adj><ints>$
+^jabʼ/jäbʼ<n>$
+^./.<sent>$
+
+# sent_id = utexas:291
+# text = Chqil ta bʼa qibʼ chweʼq.
+# text[spa] = Que nos veamos mañana.
+# labels = tijonik-42
+^Chqil/*Chqil$
+^ta/taj<neg>$
+^bʼa/bʼaʼ<ij>/bʼa<n>$
+qibʼ/<px1pl>ibʼ<n><rel>$
+^chweʼq/chweʼq<adv>$
+^./.<sent>$
+
+# sent_id = utexas:291
+# text = Oj ta bʼa chojchʼakanik.
+# text[spa] = Que ganemos.
+# labels = tijonik-42
+^Oj/oj<n>/oj<prn><pers><p1><pl>/oj<prn><pro><p1><pl>$
+^ta/taj<neg>$ ^bʼa/bʼaʼ<ij>/bʼa<n>$
+^chojchʼakanik/*chojchʼakanik$
+^./.<sent>$
+
+# sent_id = utexas:292
+# text = Chinkʼasiʼ ta bʼa na chixoʼl.
+# text[spa] = Que (yo) viva todavía entre ustedes.
+# labels = tijonik-42
+^Chinkʼasiʼ/*Chinkʼasiʼ$
+^ta/taj<neg>$
+^bʼa/bʼaʼ<ij>/bʼa<n>$
+^na/na<adv>/na<adv><fut>/na<neg>$
+^chixoʼl/chi<pr>+<px2pl>xoʼl<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:293
+# text = Ma ta bʼa chiriq kʼax pa le bʼe.
+# text[spa] = Que no encuentren dificultades en el camino.
+# labels = tijonik-42
+^Ma/ma<neg>$
+^ta/taj<neg>$
+^bʼa/bʼaʼ<ij>/bʼa<n>$
+^chiriq/*chiriq$
+^kʼax/kʼax<adj>/kʼax<n>$
+^pa/pa<pr>$
+^le/le<det>$
+^bʼe/bʼe<n>$
+^./.<sent>$
+
+# sent_id = utexas:294
+# text = Are ta bʼa le qaqajaw chattoʼwik.
+# text[spa] = Que nuestro señor te ayude.
+# labels = tijonik-42
+^Are/are<adv>/are<foc>/<px2sg>re<n><rel>$
+^ta/taj<neg>$
+^bʼa/bʼaʼ<ij>/bʼa<n>$
+^le/le<det>$
+^qaqajaw/<px1pl>Qajaw<n>/<px1pl>qajaw<n>$
+^chattoʼwik/*chattoʼwik$
+^./.<sent>$
+
+# sent_id = utexas:295
+# text = Ri tat nan ojer na xkaj taj cher ri ali xkojiʼ ta ne pa ri tijobʼal.
+# text[spa] = Nuestros padres y madres antiguamente no quisieron que la muchacha estuviera en la escuela.
+# labels = tijonik-42
+^Ri/ri<det>/ri<prn><rel>$
+^tat/tat<clf><m>/tat<n>$
+^nan/nan<clf><f>/nan²<n>$
+^ojer/ojer<adj>/ojer<adv>$
+^na/na<adv>/na<adv><fut>/na<neg>$
+^xkaj/<perf><o_sg3><s_pl3>aj<v><tv>$
+^taj/taj<neg><fin>$
+^cher/*cher$
+^ri/ri<det>/ri<prn><rel>$
+^ali/ali<clf><f>/ali<n>$
+^xkojiʼ/<perf><s_sg3>kojiʼ<v><tv><pass>$
+^ta/taj<neg>$
+^ne/ne<adv>$
+^pa/pa<pr>$
+^ri/ri<det>/ri<prn><rel>$
+^tijobʼal/tijobʼal<n>$
+^./.<sent>$
+
+# sent_id = utexas:296
+# text = Xaq ta ne kimbʼe iwukʼ.
+# text[spa] = Que fuera yo con ustedes.
+# labels = tijonik-42
+^Xaq/xaq<adj>/xaq<adv>/xaq<n>/xäq<n>$
+^ta/taj<neg>$
+^ne/ne<adv>$
+^kimbʼe/*kimbʼe$
+^iwukʼ/<px2pl>ukʼ<n>/<px2pl>ukʼ<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:297
+# text = Ma ta ne xwaj le kʼuhjnem rukʼ le a Teʼk.
+# text[spa] = No hubiera aceptado el casamiento con Diego
+# labels = tijonik-42
+^Ma/ma<neg>$
+^ta/taj<neg>$
+^ne/ne<adv>$
+^xwaj/*xwaj$
+^le/le<det>$
+^kʼuhjnem/*kʼuhjnem$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^le/le<det>$
+^a/ala<clf><m>/a<adj>$
+^Teʼk/Teʼk<np><ant><m>$
+^./.<sent>$
+
+# sent_id = utexas:298
+# text = Rajawaxik ta ne laʼ katchakun wukʼ.
+# text[spa] = Deberías de trabajar conmigo.
+# labels = tijonik-42
+^Rajawaxik/rajawaxik<adj>$
+^ta/taj<neg>$
+^ne/ne<adv>$
+^laʼ/laʼ<prn><dem>$
+^katchakun/<impf><s_sg2>chakuj<v><tv><anti>/<impf><s_sg2>chakuj<v><tv><anti><agfoc>/<impf><s_sg2>chakun<v><iv>$
+^wukʼ/<px1sg>ukʼ<n>/<px1sg>ukʼ<n><rel>$
+^./.<sent>$
+
+# sent_id = utexas:299
+# text = We ne xatkowin ta laʼ xatbʼe rukʼ le al Talin.
+# text[spa] = Tal vez hubieras podido ir con Catarina.
+# labels = tijonik-42
+^We/we<cnjsub>/we<det>$
+^ne/ne<adv>$
+^xatkowin/<perf><s_sg2>kowij<v><tv><anti>/<perf><s_sg2>kowij<v><tv><anti><agfoc>/<perf><s_sg2>kowin<v><iv>$
+^ta/taj<neg>$ 
+^laʼ/laʼ<prn><dem>$
+^xatbʼe/<perf><s_sg2>bʼe<v><iv>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^le/le<det>$
+^al/ali<clf><f>/al<adj>$
+^Talin/*Talin$
+^./.<sent>$
