@@ -1590,7 +1590,7 @@
 # sent_id = utexas:135
 # text = Xopan le wuj awukʼ rumal wech in.
 # text[spa] = El libro vino contigo por causa mía.
-# labels = tijonik-20 incomplete
+# labels = tijonik-20 complete
 ^Xopan/<perf><s_sg3>opan<v><iv>$
 ^le/le<det>$
 ^wuj/wuj<n>$
@@ -1760,7 +1760,7 @@
 # sent_id = utexas:148
 # text = Xinloqʼ jun ilbʼal wibʼ.
 # text[spa] = Me compré un mi espejo.
-# labels = tijonik-24 incomplete
+# labels = tijonik-24 complete
 ^Xinloqʼ/<perf><o_sg3><s_sg1>loqʼ<v><tv>$
 ^jun/jun<num>$
 ^ilbʼal/ilbʼal<n>$
@@ -1809,7 +1809,7 @@
 # sent_id = utexas:152
 # text = Are le nuchak jun tzuqbʼal wibʼ.
 # text[spa] = Mi trabajo es lo que me mantiene.
-# labels = tijonik-24 incomplete check-pronoun
+# labels = tijonik-24 complete check-pronoun
 ^Are/are<foc>$
 ^le/le<det>$
 ^nuchak/<px1sg>chak<n>$
@@ -1889,7 +1889,7 @@
 # sent_id = utexas:160
 # text = E nitzʼaʼq le taq imul.
 # text[spa] = Los conejos son pequeños.
-# labels = tijonik-28 incomplete check-plur
+# labels = tijonik-28 complete check-plur
 ^E/e<pl>$
 ^nitzʼaʼq/nitzʼ<adj><pl>$
 ^le/le<det>$
@@ -2711,7 +2711,7 @@
 # labels = tijonik-35 incomplete
 ^Je/je<adv>$
 ^riʼ/riʼ<prn><dem>$
-^kachakun/<impf><s_sg3>chakuj<v><tv><anti>/<impf><s_sg3>chakuj<v><tv><anti><agfoc>$
+^kachakun/<impf><s_sg3>chakuj<v><tv><anti>$
 ^ri/ri<det>$
 ^achi/achi<n>$
 ^./.<sent>$
@@ -2958,8 +2958,8 @@
 # sent_id = utexas:245
 # text = Xinxuliʼ qajoq.
 # text[spa] = Bajé.
-# labels = tijonik-36 incomplete
-^Xinxuliʼ/<perf><o_sg3><s_sg1>xuliʼ<v><tv>/<perf><s_sg1>xuliʼ<v><tv><pass>$
+# labels = tijonik-36 complete
+^Xinxuliʼ/<perf><s_sg1>xuliʼ<v><tv><pass>$
 ^qajoq/qaj<adv><dir>+oq<mark>$
 ^./.<sent>$
 
@@ -3045,7 +3045,7 @@
 # sent_id = utexas:253
 # text = In loqʼomanel re ixim.
 # text[spa] = Soy el que compra el maiz.
-# labels = tijonik-41 incomplete
+# labels = tijonik-41 complete
 ^In/in<prn><pers><p1><sg>$
 ^loqʼomanel/loqʼomanel<n>$
 ^re/<px3sg>ech<n><rel>$
@@ -3055,7 +3055,7 @@
 # sent_id = utexas:255
 # text = In chajinel kech le akʼalabʼ.
 # text[spa] = Yo soy el que cuida a los niños
-# labels = tijonik-41 incomplete
+# labels = tijonik-41 complete
 ^In/in<prn><pers><p1><sg>$
 ^chajinel/chajinel<n>$
 ^kech/<px3pl>ech<n><rel>$
@@ -3104,7 +3104,7 @@
 # sent_id = utexas:260
 # text = Xumajij oqʼej le nan.
 # text[spa] = La muchachá empezó a llorar por su madre
-# labels = tijonik-41 incomplete
+# labels = tijonik-41 complete
 ^Xumajij/<perf><o_sg3><s_sg3>majij<v><tv>$
 ^roqʼexik/<s_sg3>oqʼej<v><tv><pass><inf>$
 ^uwach/<px3sg>wach<n><rel>$
