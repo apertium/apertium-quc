@@ -18,7 +18,8 @@ LIST CS = cnjsub ;
 LIST Na = "na" ;
 
 LIST Neg = neg ;
-LIST Rel = rel ; 
+LIST Rel = (prn rel) ; 
+LIST Relat = rel ; 
 
 LIST Poss = px1sg px2sg px3sg px1pl px2pl px3pl ;
 
@@ -65,7 +66,7 @@ SET NP-INTERNAL = Det | N | A | Adv | Num ;
 
 SECTION
 
-SELECT A IF (0C A OR N) (NOT 0 Poss) (1C N - Rel) ;
+SELECT A IF (0C A OR N) (NOT 0 Poss) (1C N - Relat) ;
 
 SELECT Clf IF (1C Prop) ;
 
@@ -75,7 +76,7 @@ SELECT Pro IF (-1 Pers) ;
 
 REMOVE Pers IF (0 In) (-1* In LINK -1 In + Pers) ;
 
-REMOVE A IF (0 A OR N) (-1 Num) (1 Pr OR Rel) ; 
+REMOVE A IF (0 A OR N) (-1 Num) (1 Pr OR Relat) ; 
 
 SELECT N IF (-1 Det) (0 N OR A) (1 Dem) ;
     ## Ruk’ taq we tzij ri’, xkik’am ri kiqasna’ pa ri ub’i ri Ajawxel Jesus;
@@ -95,13 +96,13 @@ SELECT N IF (-1 Det) (0 Tzij) (NOT 1 N) ;
 
 SELECT N IF (-1 Taq) (0 N OR A) (NOT 1 N) ;
 
-REMOVE A IF (0 Tzij) (NOT 1 N - Rel) ;
+REMOVE A IF (0 Tzij) (NOT 1 N - Relat) ;
 
 REMOVE Days ;
 
 SELECT Dir IF (-1 V) ;
 
-SELECT Rel IF (0 Ri) (1C FIN OR Aux LINK 1 FIN) ;
+SELECT Rel IF (0 Rel) (1C FIN OR Aux LINK 1 FIN) ;
 
 REMOVE Pro IF (NEGATE 1* V) ;
 
@@ -121,7 +122,7 @@ REMOVE CS IF (0 Chi) (NEGATE 1* V) ;
 
 SECTION 
 
-REMOVE Rel IF (0 Ri) ;
+REMOVE Rel IF (0 Rel) ;
 
 REMOVE Anti IF (0 IV) ;
 
@@ -135,4 +136,4 @@ MAP @det TARGET Det IF (1C Clf LINK 1 NOMINAL) ;
 
 MAP @det TARGET Dem IF (-1C N LINK -1 Det) ;
 
-MAP @acl TARGET V IF (-1C Ri + Rel) ;
+MAP @acl TARGET V IF (-1C Rel) ;

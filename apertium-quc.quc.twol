@@ -8,7 +8,6 @@ Alphabet
   %{r%}:r %{r%}:u
   %{a%}:a %{a%}:0
   %{i%}:i %{i%}:0
-  %{m%}:m %{m%}:n
   %{o%}:o %{o%}:u
   %{ʼ%}:ʼ %{ʼ%}:0
   %{V%}:e %{V%}:a %{V%}:i %{V%}:o
@@ -28,7 +27,7 @@ ArchiVow = %{o%} ;
 Rules
 
 "Remove beginning and end of token boundaries"
-%>:0 <=> _ .#. ;
+%>:0 <=>     _ .#. ;
          .#. _ ; 
 
 "third person possessive"

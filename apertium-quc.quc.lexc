@@ -61,6 +61,7 @@ Multichar_Symbols
 %<ord%>                         !
 %<rel%>                         !
 
+%<ints%>
 %<emph%>                         !
 
 %<agfoc%>                         !
@@ -125,7 +126,6 @@ Multichar_Symbols
 %{r%}                ! r / 0
 %{a%}                ! a / 0
 %{i%}                ! i / 0
-%{m%}                ! n / m
 %{o%}                ! o / u
 %{ʼ%}                ! ʼ / 0
 %{U%}                ! o / u / a
@@ -199,6 +199,7 @@ LEXICON Poss
 %<px1sg%>:%{n%}u%>    Sust ; ! nu w
 %<px2sg%>:a%{w%}%>    Sust ; ! a aw
 %<px3sg%>:%{r%}%>     Sust ;  ! u r
+!%<px3sg%>%<frm%>:     Sust ;  ! ø
 %<px1pl%>:q%{a%}%>    Sust ; ! qa q
 %<px2pl%>:i%{w%}%>    Sust ; ! i iw
 
@@ -317,6 +318,7 @@ LEXICON N-virus
 LEXICON A-saq
 
 %<adj%>: # ;
+%<adj%>%<attr%>:%>a # ;
 %<adj%>%<ints%>:%>alaj # ;
 
 LEXICON A-jeʼl
@@ -329,22 +331,21 @@ LEXICON A-jeʼl
 LEXICON A-nim
 
 %<adj%>: # ;
-%<adj%>%<pl%>:%>aq # ;
+%<adj%>%<attr%>:%>a # ;
+%<adj%>%<attr%>%<pl%>:%>aq # ;
 %<adj%>%<pl%>:%>aʼq # ;
 
 LEXICON A-chʼutin
 
-%<adj%>:%>in # ;
-%<adj%>%<pl%>:%>iq # ;
+%<adj%>:%>n # ;
+%<adj%>%<attr%>:%>na # ;
+%<adj%>%<attr%>%<pl%>:%>q # ;
+%<adj%>%<pl%>:%>ʼq # ;
 
 LEXICON A-antiviral
 
 %<adj%>%<barb%>: # ;
 %<adj%>%<barb%>%<pl%>:%>es # ;
-
-LEXICON A-yaʼtal
-! yaʼtal(ik)
-%<adj%>: # ;
 
 LEXICON Ad-aninaq
 
@@ -368,6 +369,7 @@ in%<prn%>%<pro%>%<p1%>%<sg%>:in # ;
 at%<prn%>%<pro%>%<p2%>%<sg%>:at # ;
 lal%<prn%>%<pro%>%<p2%>%<frm%>%<sg%>:lal # ;
 areʼ%<prn%>%<pro%>%<p3%>%<sg%>:areʼ # ;
+areʼ%<prn%>%<pro%>%<p3%>%<sg%>:are # ; ! Src/UTexas
 ! fixme: comprueba las reglas para -oj/-uj
 oj%<prn%>%<pro%>%<p1%>%<pl%>:oj # ;
 uj%<prn%>%<pro%>%<p1%>%<pl%>:uj # ;
@@ -378,6 +380,7 @@ in%<prn%>%<pers%>%<p1%>%<sg%>:in # ;
 at%<prn%>%<pers%>%<p2%>%<sg%>:at # ;
 lal%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>:lal # ;
 areʼ%<prn%>%<pers%>%<p3%>%<sg%>:areʼ # ;
+areʼ%<prn%>%<pers%>%<p3%>%<sg%>:are # ; ! Src/UTexas
 ! FIXME: Comprueba las reglas para -oj/-uj
 oj%<prn%>%<pers%>%<p1%>%<pl%>:oj # ;
 uj%<prn%>%<pers%>%<p1%>%<pl%>:uj # ;
@@ -639,6 +642,8 @@ jetaq%<pl%>:jetaq # ;
 la%<qst%>:la # ;
 si%<emph%>:si # ;
 
+maj%<part%>%<neg%>:maj  # ; ! "none; nothing"
+
 kʼo%<part%>%+ik%<mark%>:kʼol%>%{i%}k # ;
 kʼo%<part%>:kʼo # ;
 e%<pl%>+kʼo%<part%>:ekʼo # ;
@@ -656,14 +661,16 @@ are%<foc%>:are # ;
 
 nakʼut%<adv%>:nakʼut # ; ! "pues"
 
-bʼaʼ%<ij%>:bʼaʼ # ; ! "pues"
-bʼaʼ%<ij%>:baʼ # ; ! "pues"
-bʼaʼ%<ij%>:bʼa # ; ! "pues"
+bʼaʼ%<mod%>:bʼaʼ # ; ! "pues"
+bʼaʼ%<mod%>:baʼ # ; ! "pues"
+bʼaʼ%<mod%>:bʼa # ; ! "pues"
 
 alo%<ij%>:alo # ;
 mmm%<ij%>:mmm # ;
 aaa%<ij%>:aaa # ;
 ay%<ij%>:ay # ;
+je%<ij%>:je # ;                  ! "sí; yes"
+jeʼ%<ij%>:jeʼ # ;                ! "sí; yes" ! Src/LopezIxcoy1997
 
 amen%<ij%>:amen # ;
 
@@ -691,6 +698,8 @@ kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Biblia
 tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
 tekʼuriʼ:tekʼuri CC ;              ! "y; and" ! Use/Spell
 
+chiʼl:chiʼl CC ;                    ! "y"  ! E kʼo achijabʼ chiʼl ixoqibʼ e bʼanäl taqanïk.
+
 e:e CC ;  ! Src/Biblia
 
 we:we CS ;                          ! "si; if"
@@ -710,37 +719,45 @@ taq:taq CS ;                       !     e.   taq/are taq, chi riʼ/chriʼ/ intr
 chriʼ:chriʼ CS ;                       !     e.   taq/are taq, chi riʼ/chriʼ/ introduces temporal clauses
 chiʼ:chiʼ CS ;                       !     e.   taq/are taq, chi riʼ/chriʼ/ introduces temporal clauses
 
-pinemna:pinemna CS ; ! "aunque" ;
 pine:pine CS ; ! "aunque" ;
 
+pine%<cnjsub%>%+man%<neg%>:pine%>mna # ; ! "aunque no" ;
+pine%<cnjsub%>%+man%<neg%>:pine%>man # ; ! "aunque no" ;
+
+we%<cnjsub%>%+man%<neg%>:we%>mna # ; ! "si no" ;
+we%<cnjsub%>%+man%<neg%>:we%>man # ; ! "si no" ;
+
+par:par CC ; ! "pero"
 
 LEXICON Direccionales
 
 uloq%<adv%>%<dir%>:uloq # ;              ! "toward speaker, here, toward here"
+uloq%<adv%>%<dir%>:loq # ;              ! "toward speaker, here, toward here"
+la%<adv%>%<dir%>:la # ;              ! "toward speaker, here, toward here"
 na%<adv%>%<fut%>:na # ;                  ! "marker of future or certainty"
 
 na%<adv%>%<fut%>%+uloq%<adv%>%<dir%>:nuʼ%>loq # ; ! Na + (u)loq > nuʼloq
 na%<adv%>%<fut%>%+la%<adv%>%<dir%>:nuʼ%>la # ; ! Na + la > nuʼla
-! la + loq > luʼloq
-! la + la > luʼla
-! wi + loq > wuʼloq
-!  wi + la > wuʼla
-! chi + loq > chuʼloq
-!  chi+la> chuʼla
-! Na…taj + loq > Na… tuʼloq
-!  Na…taj + la > Na…tuʼla
 
-!la + bʼik > luʼbʼik
-! la + bʼi > luʼbʼi
-!wi + bʼik > wuʼbʼik
-!wi + bʼi > wuʼbʼi
-!chi + bʼik > chuʼbʼik
-! chi + bʼi > chuʼbʼi
-!na…taj + bʼik > na…tuʼbʼik
-! na…taj + bʼi > na…tuʼbʼi
+la%<part%>%<frm%>%+uloq%<adv%>%<dir%>:luʼ%>loq # ; ! la + loq > luʼloq
+la%<part%>%<frm%>%+la%<adv%>%<dir%>:luʼ%>la # ; ! la + la > luʼla
+
+! Check wi = "Trace" ?
+wi%<adv%>%<dir%>%+uloq%<adv%>%<dir%>:wuʼ%>loq # ; ! wi + loq > wuʼloq
+wi%<adv%>%<dir%>%+la%<adv%>%<dir%>:wuʼ%>la # ; !  wi + la > wuʼla
+
+chi%<adv%>%+uloq%<adv%>%<dir%>:chuʼ%>loq # ; ! chi + loq > chuʼloq
+chi%<adv%>%+la%<adv%>%<dir%>:chuʼ%>la # ; !  chi + la > chuʼla
+
+taj%<neg%>%+uloq%<adv%>%<dir%>:tuʼ%>loq # ; ! Na…taj + loq > Na… tuʼloq
+taj%<neg%>%+la%<adv%>%<dir%>:tuʼ%>la # ; !  Na…taj + la > Na…tuʼla
 
 bʼi%<adv%>%<dir%>:bʼi IK ;
 na%<adv%>%<fut%>%+bʼi%<adv%>%<dir%>:nuʼ%>bʼi IK ;
+la%<part%>%<frm%>%+bʼi%<adv%>%<dir%>:luʼ%>bʼi IK ; !la + bʼik > luʼbʼik ! la + bʼi > luʼbʼi
+wi%<adv%>%<dir%>%+bʼi%<adv%>%<dir%>:wuʼ%>bʼi IK ; !wi + bʼik > wuʼbʼik !wi + bʼi > wuʼbʼi
+chi%<adv%>%+bʼi%<adv%>%<dir%>:chuʼ%>bʼi IK ; !chi + bʼik > chuʼbʼik ! chi + bʼi > chuʼbʼi
+taj%<neg%>%+bʼi%<adv%>%<dir%>:tuʼ%>bʼi IK ; !na…taj + bʼik > na…tuʼbʼik ! na…taj + bʼi > na…tuʼbʼi
 
 kan%<adv%>%<dir%>:kan OQ ;
 apan%<adv%>%<dir%>:apan OQ ;
@@ -926,10 +943,16 @@ chi%<pr%>%+%<px3sg%>tzaʼm%<n%>%<rel%>:ch%>u%>tzaʼm # ; ! Src/Biblia
 
 @D.Poss@%<px3sg%>ech%<n%>%<rel%>:@D.Poss@r%>e  # ;  ! "" ! Src/Cuentos
 
+pa%<pr%>+ri%<det%>:pa%>ri # ;  ! Use/Spell ! Src/Cuentos
+
+chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>%+man%<neg%>:ch%>e%>mna # ; ! Src/UTexas
+chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>%+man%<neg%>:ch%>e%>man # ; ! Src/ALMG
+
 LEXICON Relationals
 
 !ach:ach Rel ;                      ! ""
 ech:ech Rel ;                      ! "de"
+ech:e Rel ;                      ! "de" ! Src/ALMG ! Ri nutat xutaʼ chi awe jun ujalom.
 naqaj:naqaj Rel ;                  ! "cerca" ! TODO: Check
 onojel:onojel Rel ;                ! "todos"
 pam:pam Rel ;                      ! "adentro" ! TODO: Check
@@ -939,11 +962,13 @@ ukʼ:ukʼ Rel ;                      ! "con"
 umal:umal Rel ;                    ! "por"
 wach:wach Rel ;                    ! "frente"
 wiʼ:wiʼ Rel ;                      ! "con"
+wiʼ:wi Rel ;                      ! "con"
 xeʼ:xeʼ Rel ;                      ! "abajo"
 xoʼl:xoʼl Rel ;
 mox:mox Rel ;
 wikiqʼabʼ:wikiqʼab Rel ;
 tzalaj:tzalaj Rel ;
+tzalaj:tzal Rel ;  ! "al lado" ! Src/ALMG ! Src/Biblia
 jujunal:jujunal Rel ;              !
 
 ! The reflexive marker –ibʼ  occurs also in nouns. 
@@ -983,7 +1008,10 @@ weriʼ:weriʼ Pron-waʼ ;               ! "esto"
 
 ki%<prn%>:ki # ;
 
+!  These ri/le/we articles also serve as relative pronouns
 ri%<prn%>%<rel%>:ri # ;               ! "" ! ri ixoq ri xpe Chwitzʼaq xulik
+we%<prn%>%<rel%>:we # ;               ! "" 
+le%<prn%>%<rel%>:le # ;               ! "" 
 
 LEXICON Cardinals
 
@@ -1044,6 +1072,7 @@ ixoq:ixoq N-ixoq ;                 ! "mujer; woman"
 anjel:anjel N-ixoq ;               ! ""
 ajmak:ajmak N-ixoq;                ! "pecador; sinner"
 ajchak:ajchak N-ixoq ;             ! "trabajador; worker (traditional peasant)"
+ajchakunel:ajchakunel N-iyom ;     ! "trabajador"
 tataʼ:tataʼ N-ixoq ;               ! "a gentleman"
 iyom:iyom N-iyom ;                 ! "partera; midwife"
 
@@ -1166,7 +1195,7 @@ tzijobʼem:tzijobʼem N-tinamit ;    ! "comentario"
 nikʼaj:nikʼaj N-tinamit ;          ! "half"
 neʼ:neʼ N-iyom ;                   ! "newborn baby"
 jaʼ:jaʼ N-tinamit ;                ! "water"
-juyubʼ:juyub N-tinamit ;            ! "hill, mountain"
+juyubʼ:juyubʼ N-tinamit ;            ! "hill, mountain"
 tikoʼn:tikoʼn N-tinamit ;          ! "cultivated plot, creation"
 kunabʼal:kunabʼal N-tinamit ;      ! "medicine, insecticide"
 kunabʼalil:kunabʼalil N-tinamit ;      ! "medicine, insecticide"
@@ -1181,10 +1210,9 @@ siwan:siwan N-tinamit ;            ! "canyon, gully"
 kape:kape N-tinamit ;              ! "coffee"
 toqʼobʼ:toqʼobʼ N-tinamit ;        ! "favor, mercy"
 makaj:makaj N-tinamit ;            ! "sin, fault, mistake"
-abʼaj:abʼaj N-tinamit ;            ! "stone, rock, testicle"
+abʼäj:abʼäj N-tinamit ; ! "piedra; stone, rock, testicle"
 abʼ:ab N-tinamit ; ! "hammock"
 abʼaʼq:abaʼq N-tinamit ; ! "soot"
-abʼäj:abäj N-tinamit ; ! "stone, rock, testicle"
 !abäj tew:abäj tew N-tinamit ; ! "frost"
 abʼanel:abanel N-tinamit ; ! "operator"
 abʼix:abix N-tinamit ; ! "corn plant"
@@ -1393,6 +1421,8 @@ amolo:amolo N-tinamit ; ! "fly"
 amprimaʼ:amprimaʼ N-tinamit ; ! "membrillo fruit"
 amuʼs:amuʼs N-tinamit ; ! "non-Indian"
 anabʼabʼal:anababal N-tinamit ; ! "step-sister of a male"
+!anäb<ixel>:anäb<ixel>N-tinamit ; ! "sister of a male"
+anäbʼ:anäbʼ N-tinamit ;
 anim:anim N-tinamit ; ! "hurry"
 animaʼ:animaʼ N-tinamit ; ! "heart (from Spanish)"
 animaʼ:anima N-tinamit ; ! "heart (from Spanish)" ! Src/UDHR
@@ -1405,7 +1435,7 @@ apasäch:apasäch N-tinamit ; ! "whatever things"
 aq:aq N-tinamit ; ! "pig"
 !aqʼ re qʼaqʼ:aqʼ re qʼaqʼ N-tinamit ; ! "tongue of fire"
 aqʼaʼl:aqʼaʼl N-tinamit ; ! "live coal"
-aqʼäbʼ:aqʼäb N-tinamit ; ! "night"
+aqʼäbʼ:aqʼäbʼ N-tinamit ; ! "night"
 aqʼäbʼil:aqʼäbil N-tinamit ; ! "mornings"
 aqʼanibʼal:aqʼanibal N-tinamit ; ! "ladder"
 aqʼbʼal:aqʼbal N-tinamit ; ! "myth"
@@ -1482,7 +1512,6 @@ bʼaläm:baläm N-tinamit ; ! "jaguar"
 bʼalixik:balixik N-tinamit ; ! "act of being stuffed"
 bʼalonel:balonel N-tinamit ; ! "twister"
 bʼaltisaj:baltisaj N-tinamit ; ! "circumference"
-bʼaluk:baluk N-tinamit ; ! "brother-in-law of a male"
 bʼanal:banal N-tinamit ; ! "maker"
 !banal boʼj:banal boʼj N-tinamit ; ! "pot maker"
 !banal etzelal:banal etzelal N-tinamit ; ! "evil doer"
@@ -1629,6 +1658,7 @@ chʼamiʼy:chʼamiʼy N-tinamit ; ! "staff"
 !-chʼamiy ajaw:-chʼamiy ajaw N-tinamit ; ! "laurel tree"
 chʼanal:chʼanal N-tinamit ; ! "beggar"
 chʼanax:chʼanax N-tinamit ; ! "chicken without feathers"
+chʼaʼn:chʼaʼn N-tinamit ; ! "pollito"
 chʼanil:chʼanil N-tinamit ; ! "nakedness"
 chʼapap:chʼapap N-tinamit ; ! "wedge"
 chʼäq:chʼäq N-tinamit ; ! "gangrene"
@@ -1877,7 +1907,6 @@ chuwil:chuwil N-tinamit ; ! "stench"
 !-ech wi:-ech wi N-tinamit ; ! "destiny"
 echaʼ:echaʼ N-tinamit ; ! "pasture"
 echaʼbʼal:echaʼbal N-tinamit ; ! "stable, crib"
-echam:echam N-tinamit ; ! "brother-in-law of a female"
 echbʼal:echbal N-tinamit ; ! "inheritance"
 ejinamik:ejinamik N-tinamit ; ! "thunder"
 ekʼ:ekʼ N-tinamit ; ! "Bromelia plant (tree parasite) used on arches"
@@ -2123,12 +2152,12 @@ jokʼokʼik:jokʼokʼik N-tinamit ; ! "hoarseness"
 !jom cheʼ:jom cheʼ N-tinamit ; ! "arbol rumoroso"
 jopibʼal:jopibal N-tinamit ; ! "pitchfork"
 jopinik:jopinik N-tinamit ; ! "winnowing"
-jorobʼisabʼal:jorobisabal N-tinamit ; ! "refreshing drink or medicine"
+jorobʼisabʼal:jorobʼisabʼal N-tinamit ; ! "refreshing drink or medicine"
 jorön:jorön N-tinamit ; ! "cold"
 !jorona jaʼ:jorona jaʼ N-tinamit ; ! "cold water"
 jororik:jororik N-tinamit ; ! "freshness, coolness, something refreshing"
 jos:jos N-tinamit ; ! "hoe"
-josbʼal:josbal N-tinamit ; ! "shaver"
+josbʼal:josbʼal N-tinamit ; ! "shaver"
 !josbal cheʼ:josbal cheʼ N-tinamit ; ! "carpenterʼs wood plane"
 josoʼnel:josoʼnel N-tinamit ; ! "liar"
 josoʼnik:josoʼnik N-tinamit ; ! "lie"
@@ -2136,18 +2165,19 @@ josoʼnik:josoʼnik N-tinamit ; ! "lie"
 josqʼil:josqʼil N-tinamit ; ! "cleanliness"
 josqʼinik:josqʼinik N-tinamit ; ! "a thorough cleaning"
 joxkʼim:joxkʼim N-tinamit ; ! "the preparation of the fields for planting by digging"
-joxobʼal:joxobal N-tinamit ; ! "scratch mark (on skin without blood)"
+joxobʼal:joxobʼal N-tinamit ; ! "scratch mark (on skin without blood)"
 !joyan cheʼ:joyan cheʼ N-tinamit ; ! "tree with sagging branches"
-juʼbʼal:juʼbal N-tinamit ; ! "lock"
-jubʼaʼ:jubaʼ N-tinamit ; ! "mouthful"
+juʼbʼal:juʼbʼal N-tinamit ; ! "lock"
+jubʼaʼ:jubʼaʼ N-tinamit ; ! "mouthful"
 !jubatzʼaj kotzʼiʼj:jubatzʼaj kotzʼiʼj N-tinamit ; ! "bouquet of flowers"
-jubʼiqʼ:jubiqʼ N-tinamit ; ! "a little (liquids or measured things like sugar)"
-jubʼotaj:jubotaj N-tinamit ; ! "a portion of corn dough"
-juchʼabʼ:juchʼab N-tinamit ; ! "a piece"
+jubʼiqʼ:jubʼiqʼ N-tinamit ; ! "a little (liquids or measured things like sugar)"
+jubʼeqʼ:jubʼeqʼ N-tinamit ; ! "a little (liquids or measured things like sugar)"
+jubʼotaj:jubʼotaj N-tinamit ; ! "a portion of corn dough"
+juchʼabʼ:juchʼabʼ N-tinamit ; ! "a piece"
 juchʼaj:juchʼaj N-tinamit ; ! "washing stone"
 !juchʼibal qʼaqʼ:juchʼibal qʼaqʼ N-tinamit ; ! "match"
 juchʼin:juchʼin N-tinamit ; ! "a moment, a bit"
-juchʼobʼ:juchʼob N-tinamit ; ! "team"
+juchʼobʼ:juchʼobʼ N-tinamit ; ! "team"
 juchʼunel:juchʼunel N-tinamit ; ! "person who scrapes"
 juchʼut:juchʼut N-tinamit ; ! "a drop"
 jujekʼo:jujekʼo N-tinamit ; ! "gulp"
@@ -2207,8 +2237,8 @@ juwinaq:juwinaq N-tinamit ; ! "twenty"
 !juwinaq jun:juwinaq jun N-tinamit ; ! "twenty-one"
 juxil:juxil N-tinamit ; ! "something"
 juxjut:juxjut N-tinamit ; ! "worm"
-juyubʼal:juyubal N-tinamit ; ! "territory"
-Juyubʼal:juyubal N-tinamit ; ! "title of Dios Mundo as guardian of mountains"
+juyubʼal:juyubʼal N-tinamit ; ! "territory"
+Juyubʼal:juyubʼal N-tinamit ; ! "title of Dios Mundo as guardian of mountains"
 !juyubal aq:juyubal aq N-tinamit ; ! "wild boar"
 !juyubal kab:juyubal kab N-tinamit ; ! "honey"
 juyukibʼal:juyukibal N-tinamit ; ! "cart"
@@ -2549,7 +2579,7 @@ kojonik:kojonik N-tinamit ; ! "belief"
 kokʼ:kokʼ N-tinamit ; ! "powder"
 koka:koka N-tinamit ; ! "coconut"
 koka:koko N-tinamit ; ! "coconut"
-kolobʼ:kolob N-tinamit ; ! "rope"
+kolöbʼ:kolöbʼ N-tinamit ; ! "lazo; rope"
 !kolom be:kolom be N-tinamit ; ! "lost trail"
 kolomal:kolomal N-tinamit ; ! "salvation"
 !kolominaj be:kolominaj be N-tinamit ; ! "very straight road (Momostenango)"
@@ -3675,6 +3705,7 @@ tewal:tewal N-tinamit ; ! "coldness"
 tewichibʼal:tewichibal N-tinamit ; ! "blessing"
 tewichinel:tewichinel N-tinamit ; ! "priest"
 tiʼj:tiʼj N-tinamit ; ! "meat"
+tiʼjolal:tiʼjolal N-tinamit ; ! "carne; meat" ! Src/ALMG
 tiʼjal:tiʼjal N-tinamit ; ! "flesh"
 !tiʼobal täp:tiʼobal täp N-tinamit ; ! "claw (crab)"
 !tiʼobal üs:tiʼobal üs N-tinamit ; ! "mosquito bite"
@@ -4086,9 +4117,9 @@ xaʼr:xaʼr N-tinamit ; ! "jar"
 xaʼt:xaʼt N-tinamit ; ! "fork (branch of tree)"
 !-xaʼtil cheʼ:-xaʼtil cheʼ N-tinamit ; ! "fork of tree"
 xaʼwem:xaʼwem N-tinamit ; ! "nausea, vomiting"
-xabʼ:xab N-tinamit ; ! "vomit"
+xabʼ:xabʼ N-tinamit ; ! "vomit"
 xäbʼon:xäbon N-tinamit ; ! "soap"
-xajäbʼ:xajäb N-tinamit ; ! "shoe"
+xajäbʼ:xajäbʼ N-tinamit ; ! "shoe"
 !-xajab kiej:-xajab kiej N-tinamit ; ! "horseshoe"
 xajoj:xajoj N-tinamit ; ! "dance"
 xakanul:xakanul N-tinamit ; ! "volcano"
@@ -4096,19 +4127,19 @@ xakima:xakima N-tinamit ; ! "strap connected to bit of horse"
 xalmaʼ:xalmaʼ N-tinamit ; ! "harness (of horse)"
 xalqʼatinik:xalqʼatinik N-tinamit ; ! "transgression"
 xam:xam N-tinamit ; ! "crane fly"
-xamabʼil:xamabil N-tinamit ; ! "body"
+xamabʼil:xamabʼil N-tinamit ; ! "body"
 xämkur:xämkur N-tinamit ; ! "split, crack in skin below toe"
 xan:xan N-tinamit ; ! "adobe brick"
 xanakat:xanakat N-tinamit ; ! "onion (wild)"
 xäq:xäq N-tinamit ; ! "boulder"
 xaq:xaq N-tinamit ; ! "soot"
-xäqʼabʼ:xäqʼab N-tinamit ; ! "headdress used in Sacapulas"
-xaqʼabʼal:xaqʼabal N-tinamit ; ! "trampling"
+xäqʼabʼ:xäqʼabʼ N-tinamit ; ! "headdress used in Sacapulas"
+xaqʼabʼal:xaqʼabʼal N-tinamit ; ! "trampling"
 !xaqʼabal chiʼaj:xaqʼabal chiʼaj N-tinamit ; ! "lie"
 !xaqʼan qʼij:xaqʼan qʼij N-tinamit ; ! "winter solstice (sun ascends)"
 xaqʼeʼchaj:xaqʼeʼchaj N-tinamit ; ! "caterpillar that infests pines"
 xaqʼol:xaqʼol N-tinamit ; ! "mud (see also xoqʼol)"
-xaqibʼal:xaqibal N-tinamit ; ! "smudge"
+xaqibʼal:xaqibʼal N-tinamit ; ! "smudge"
 xar:xar N-tinamit ; ! "blue bird (urraca)"
 xarakʼ:xarakʼ N-tinamit ; ! "crumbs (of bread)"
 xaroʼ:xaroʼ N-tinamit ; ! "jar"
@@ -4117,14 +4148,14 @@ xaruʼ:xaruʼ N-tinamit ; ! "pitcher for boiling water"
 xax:xax N-tinamit ; ! "thin (paper, cloth"
 !xax kolob:xax kolob N-tinamit ; ! "cord"
 xaxol:xaxol N-tinamit ; ! "temple (temporal area of face)"
-xbʼaq:xbaq N-tinamit ; ! "petate (palm mat)"
+xbʼaq:xbʼaq N-tinamit ; ! "petate (palm mat)"
 xchunajaʼ:xchunajaʼ N-tinamit ; ! "atole of corn, zapote seed, cuchun root (drunk by new ajqʼij)"
 xeʼal:xeʼal N-tinamit ; ! "lineage"
 xeʼl:xeʼl N-tinamit ; ! "origin"
 xeʼr:xeʼr N-tinamit ; ! "piece of a broken object"
 xeel:xeel N-tinamit ; ! "person in charge of a dance performance"
 xeka:xeka N-tinamit ; ! "sweet bread made of coarse flour without egg yolks or shortening"
-xekelibʼal:xekelibal N-tinamit ; ! "hook (to hang clothes)"
+xekelibʼal:xekelibʼal N-tinamit ; ! "hook (to hang clothes)"
 !xekelibal re -wiʼ:xekelibal re -wiʼ N-tinamit ; ! "lock of hair"
 xelaʼ:xelaʼ N-tinamit ; ! "silk"
 xemana:xemana N-tinamit ; ! "week"
@@ -4141,15 +4172,14 @@ xetʼ:xetʼ N-tinamit ; ! "small piece"
 !xex pa -chiʼ:xex pa -chiʼ N-tinamit ; ! "smell of bad breath"
 xexal:xexal N-tinamit ; ! "smell of body odor"
 xiʼl:xiʼl N-tinamit ; ! "cricket"
-xibʼ:xib N-tinamit ; ! "congestion (animal)"
-xibʼalbʼa:xibalba N-tinamit ; ! "underworld"
-xibʼibʼal:xibibal N-tinamit ; ! "something which is frightening"
-xibʼilbʼa:xibilba N-tinamit ; ! "underworld"
+xibʼ:xibʼ N-tinamit ; ! "congestion (animal)"
+xibʼalbʼa:xibʼalbʼa N-tinamit ; ! "underworld"
+xibʼibʼal:xibʼibʼal N-tinamit ; ! "something which is frightening"
+xibʼilbʼa:xibʼilbʼa N-tinamit ; ! "underworld"
 !xibin ib:xibin ib N-tinamit ; ! "fright"
-xibʼinel:xibinel N-tinamit ; ! "ghost"
-xibʼinem:xibinem N-tinamit ; ! "horror"
-xibʼribʼ:xibrib N-tinamit ; ! "dread"
-xibʼrikil:xibrikil N-tinamit ; ! "fear"
+xibʼinel:xibʼinel N-tinamit ; ! "ghost"
+xibʼinem:xibʼinem N-tinamit ; ! "horror"
+xibʼribʼ:xibʼribʼ N-tinamit ; ! "dread"
 xibʼrikil:xibʼrikil N-tinamit ; ! "fear"
 xik:xik N-tinamit ; ! "sparrow-hawk"
 xikʼ:xikʼ N-tinamit ; ! "wing"
@@ -4402,8 +4432,8 @@ uxlabʼaxel:uxlabʼaxel N-tinamit ; ! "espíritu"
 
 tzaltmal:tzaltmal N-tinamit ; ! "lado; side"
 kaxlanwa:kaxlanwa N-tinamit ; ! "pan; bread"
-wachaj:wachaj N-tinamit ; ! "rostro; face"
-wachajil:wachajil N-tinamit ; ! "rostro; face"  ! FIXME: Check ! Src/Biblia
+!wachaj:wachaj N-tinamit ; ! "rostro; face"
+!wachajil:wachajil N-tinamit ; ! "rostro; face"  ! FIXME: Check ! Src/Biblia
 suʼ:suʼ N-tinamit ; ! "flauta; flute"
 suʼt:suʼt N-tinamit ; ! "pañuelo; serviette"
 polow:polow N-tinamit ; ! "mar; sea"
@@ -4434,7 +4464,6 @@ cholaj:cholaj N-tinamit ; ! "line" Src/UTexas:6 TODO: Check
 !alibätz<ixel>:alibätz<ixel>N-tinamit ; ! "daughter-in-law of female"
 !alibaxik:alibaxik N-tinamit ; ! "work new bride does for her parents-in-law"
 !alkʼual<axel>:alkʼual<axel>N-tinamit ; ! "child"
-!anäb<ixel>:anäb<ixel>N-tinamit ; ! "sister of a male"
 !be<al>:be<al>N-tinamit ; ! "road"
 !botol<ik>:botol<ik>N-tinamit ; ! "roll of something"
 !chʼap<ap>:chʼap<ap>N-tinamit ; ! "wedge (placed in tool handle to affix metal portion--like hoe)"
@@ -4478,8 +4507,12 @@ chʼuʼj:chʼuʼj N-iyom ; ! "loco"
 !uxlab<al>:uxlab<al>N-tinamit ; ! "scent"
 !wuqübixir <kan><oq>:wuqübixir <kan><oq>N-tinamit ; ! "a week ago"
 !xeʼ<al>:xeʼ<al>N-tinamit ; ! "root (fruit tree)"
-!xibal<axel>:xibal<axel>N-tinamit ; ! "brother of a female"
 !yoʼx<ib>:yoʼx<ib>N-tinamit ; ! "twin<s>"
+
+echam:echam N-tinamit ; ! "brother-in-law of a female"
+bʼaluk:baluk N-tinamit ; ! "brother-in-law of a male"
+xibʼal:xibʼal N-nan ; ! "brother of a female"
+xibʼal:xbʼal N-nan ; ! "brother of a female" ! Src/UTexas
 
 jukubʼ:jukubʼ N-tinamit ; ! "barco; boat"
 kukubʼ:kukubʼ N-tinamit ; ! "barco; boat"
@@ -4535,6 +4568,7 @@ yawabʼ:yawabʼ N-ixoq ; ! "enfermo; "
 alkʼuwaʼl:alkʼuwaʼl N-tinamit ; ! "hijo, hija; "
 alkʼuwaʼlaxel:alkʼuwaʼlaxel N-iyom ; ! "hijo, hija; " ! Src/Biblia
 alkʼuwaʼlaxel:alkʼuwaʼlxel N-iyom ; ! "hijo, hija; " ! Src/Biblia
+awalkʼwal:awalkʼwal N-iyom ; ! ""
 ripibʼal:ripibʼal N-tinamit ; ! ""
 kʼwaʼ:kʼwaʼ N-tinamit ; ! "pozo"
 kʼuwaʼ:kʼuwaʼ N-tinamit ; ! "pozo"
@@ -4755,11 +4789,36 @@ eqeleʼn:eqeleʼn N-tinamit ; ! "cargo grande"
 kʼul:kʼul  N-tinamit ; ! "vecino"
 karwaʼn:karwaʼn N-tinamit ; ! "garbanzo"
 cho:cho N-tinamit ; ! "laguna"
+kaxa:kaxa N-tinamit ; ! "cofre"
+itzelal:itzelal N-tinamit ; ! "maldad"
+asyar:asyar N-tinamit ; ! "chicote"
+achajil:achajil N-tinamit ; ! "marido"
+achajilal:achajilal N-tinamit ; ! ""
 
+tzʼut:tzʼut N-tinamit ; ! "saltillo"
+owan:owan N-tinamit ; ! "escondido (juego)"
+
+kʼuhjnem:kʼuhjnem N-tinamit ; ! ""
+axiyal:axiyal N-tinamit ; ! ""
+atz:atz N-tinamit ; ! ""
+nimachʼichʼ:nimachʼichʼ N-tinamit ; ! "autobús"
+eleqʼal:eleqʼal N-tinamit ; ! ""
+elaqʼanel:elaqʼanel N-tinamit ; ! ""
+chʼichʼ:chichʼ  N-tinamit ; ! "coche" ! Use/Spell
+pʼot:pʼot N-tinamit ; ! ""
+ajchʼajal:ajchʼajal N-tinamit ; ! ""
+kʼakʼapoʼt:kʼakʼapoʼt N-tinamit ; ! ""
+kematzʼibʼ:kematzʼibʼ N-tinamit ; ! ""
+tzuqbʼal:tzuqbʼal N-tinamit ; ! ""
+riqoj:riqoj N-tinamit ; ! ""
+kʼexbʼem:kʼexbʼem N-tinamit ; ! ""
+abʼ:abʼ N-tinamit ; ! ""
+chiʼaj:chiʼaj N-tinamit ; ! "" ! FIXME: Check
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Didyme:Didyme NP-Top ;
+Austin:Austin NP-Top ;
 Totonicapán:Totonicapan NP-Top ;
 Totonicapán:Totonicapan NP-Top ; ! Use/Spell
 Chwitzʼaq:Chwitzʼaq NP-Top ;
@@ -4768,6 +4827,7 @@ Nahuala:Nahuala NP-Top ;
 EE%.UU%.:EE%.UU%. NP-Top ;
 
 Juʼl:Juʼl NP-Ant-M ;
+Peʼl:Peʼl NP-Ant-M ; 
 
 Chwikabʼyok:Chwikabʼyok NP-Top ;
 Chwikabʼyok:Chwikabyok NP-Top ; 
@@ -4823,7 +4883,46 @@ Sinaʼi:Sinaʼi NP-Top ;
 Roma:Roma NP-Top ;
 Mesopotamiʼa:Mesopotamiʼa NP-Top ;
 
+Sakʼjaʼ:Sakʼjaʼ NP-Top ;
+Xeljuʼ:Xeljuʼ NP-Top ;
+Xoʼy:Xoʼy NP-Top ;
+Bʼokoʼ:Bʼokoʼ NP-Top ; ! "Chimaltenango"
+Xeʼlajuj:Xeʼlajuj NP-Top ;
+Kayalaʼ:Kayalaʼ NP-Top ;
+Qʼumaʼrkaj:Qʼumaʼrkaj NP-Top ;
+Nabʼajul:Nabʼajul NP-Top ;
+Atitlán:Atitlán NP-Top ;
+Utatlán:Utatlán NP-Top ;
+
+Ixtzamnaʼ:Ixtzamnaʼ NP-Ant-M ;
+
 Sara:Sara NP-Ant-F ;
+Leʼn:Leʼn NP-Ant-F ;
+Naʼ:Naʼ NP-Ant-F ;
+Tax:Tax NP-Ant-F ;
+Keʼl:Keʼl NP-Ant-F ;
+Xpeʼr:Xpeʼr NP-Ant-F ;
+Niʼl:Niʼl NP-Ant-F ;
+Weʼt:Weʼt NP-Ant-F ;
+Miʼl:Miʼl NP-Ant-F ;
+Loʼl:Loʼl NP-Ant-F ;
+Ixchel:Ixchel NP-Ant-F ;
+
+Triʼx:Triʼx NP-Ant-M ;
+Xiroʼm:Xiroʼm NP-Ant-M ;
+
+
+Klaʼw:Klaʼw NP-Ant-M ;
+Muʼn:Muʼn NP-Ant-M ;
+Luteʼr:Luteʼr NP-Ant-M ;
+Xiroʼm:Xiroʼm NP-Ant-M ;
+Saʼn:Saʼn NP-Ant-M ;
+
+Talin:Talin NP-Ant-F ;
+Waʼn:Waʼn NP-Ant-F ;
+Pal:Pal NP-Ant-M ;
+Wich:Wich NP-Ant-F ;
+Waʼn:Waʼn NP-Ant-F ;
 Eva:Eva NP-Ant-F ;
 Jesabʼel:Jesabʼel NP-Ant-F ;
 Xper:Xper NP-Ant-F ;
@@ -5213,6 +5312,74 @@ Chikabʼraqan:Chikabʼraqan NP-Top ; !  ""
 Xechpup:Xechpup NP-Top ; ! ""
 Xeʼwenabʼaj:Xeʼwenabʼaj NP-Top ; ! ""
 
+Tiro:Tiro NP-Top ; 
+Pretoriʼo:Pretoriʼo NP-Ant-M ; 
+Omega:Omega NP-Al ; 
+Alfa:Alfa NP-Al ; 
+Troada:Troada NP-Top ; 
+Tiʼatira:Tiʼatira NP-Top ; 
+Teʼofilo:Teʼofilo NP-Ant-M ; 
+Tertulo:Tertulo NP-Ant-M ; 
+Sostenes:Sostenes NP-Ant-M ; 
+Sikem:Sikem NP-Top ; 
+Seʼus:Seʼus NP-Ant-M ; 
+Selotes:Selotes NP-Al ; 
+Seleʼusiʼa:Seleʼusiʼa NP-Top ; 
+Salmon:Salmon NP-Ant-M ; 
+Sadok:Sadok NP-Ant-M ; 
+Rufo:Rufo NP-Ant-M ; 
+Pubʼliʼo:Pubʼliʼo NP-Ant-M ; 
+Prissila:Prissila NP-Ant-F ; 
+Pisidiʼa:Pisidiʼa NP-Top ; 
+Perge:Perge NP-Top ; 
+Pergamo:Pergamo NP-Top ; 
+Paraʼiso:Paraʼiso NP-Top ; 
+Pafos:Pafos NP-Top ; 
+Osiʼas:Osiʼas NP-Ant-M ; 
+Onesiforo:Onesiforo NP-Ant-M ; 
+Nasoreʼo:Nasoreʼo NP-Top ; 
+Nasareʼo:Nasareʼo NP-Top ; 
+Misiʼa:Misiʼa NP-Top ; 
+Mesiʼas:Mesiʼas NP-Al ; 
+Mattan:Mattan NP-Ant-M ; 
+Matiʼas:Matiʼas NP-Ant-M ; 
+Lusiʼo:Lusiʼo NP-Ant-M ; 
+Lidiʼa:Lidiʼa NP-Ant-F ; 
+Krispo:Krispo NP-Ant-M ; 
+Kleʼofas:Kleʼofas NP-Ant-M ; 
+Juliʼo:Juliʼo NP-Ant-M ; 
+Joʼatam:Joʼatam NP-Ant-M ; 
+Josuʼe:Josuʼe NP-Ant-M ; 
+Josiʼas:Josiʼas NP-Ant-M ; 
+Josafat:Josafat NP-Ant-M ; 
+Joram:Joram NP-Ant-M ; 
+Jesse:Jesse NP-Ant-M ; 
+Jekoniʼas:Jekoniʼas NP-Ant-M ; 
+Jaʼiro:Jaʼiro NP-Ant-M ; 
+Jaran:Jaran NP-Top ; 
+Ikonyo:Ikonyo NP-Top ; 
+Himeneʼo:Himeneʼo NP-Ant-M ; 
+Hermes:Hermes NP-Ant-M ; 
+Gabʼriʼel:Gabʼriʼel NP-Ant-M ; 
+Filadelfiʼa:Filadelfiʼa NP-Top ; 
+Esmirna:Esmirna NP-Top ; 
+Esekiʼas:Esekiʼas NP-Ant-M ; 
+Eliʼud:Eliʼud NP-Ant-M ; 
+Eli:Eli NP-Ant-M ; 
+Eleʼasar:Eleʼasar NP-Ant-M ; 
+Dorkas:Dorkas NP-Ant-F ; 
+Bʼereʼa:Bʼereʼa NP-Top ; 
+Bʼarsabʼas:Bʼarsabʼas NP-Ant-M ; 
+Aʼeropago:Aʼeropago NP-Top ; 
+Asor:Asor NP-Ant-M ; 
+Aser:Aser NP-Al ; 
+Asaf:Asaf NP-Ant-M ; 
+Arkipo:Arkipo NP-Ant-M ; 
+Aram:Aram NP-Ant-M ; 
+Amon:Amon NP-Ant-M ; 
+Xwan:Wxan NP-Ant-M ;  ! Use/Spell ! Src/Biblia
+
+
 LEXICON Adjectives
 saq:saq A-saq ;                    ! "blanco; white"
 qʼeq:qʼeq A-saq ;                  ! "negro; black"
@@ -5224,6 +5391,7 @@ kʼax:kʼax A-saq ;                  ! "difícil; difficult"
 rajawaxik:rajawaxik A-saq ;        ! "importante; important, necessary"
 rajawaxik:rajawixik A-saq ;        ! "important" ! Src/xelaorganica
 rajawaxik:rajawxik A-saq ;        ! "important" ! Src/Wiki
+rajawaxik:rajwaxik A-saq ;        ! "important" ! Src/ALMG
 sibʼ:sib A-saq ;                    ! "humado; smokey-colored"
 alaj:alaj A-saq ;                  ! "pequeño; small, little"
 chʼutiʼn:chʼutiʼn A-saq ;          ! "pequeño; "
@@ -5417,7 +5585,7 @@ junalik:junalik A-saq ; ! "never-ending"
 juponaj:juponaj A-saq ; ! "fat (animal)"
 jupulik:jupulik A-saq ; ! "lying face down (person (drunk, unconscious), thing)"
 jusanaj:jusanaj A-saq ; ! "fat, big (person)"
-juyubʼal:juyubal A-saq ; ! "wild"
+juyubʼal:juyubʼal A-saq ; ! "wild"
 kʼa:kʼa A-saq ; ! "bitter"
 kʼaʼn:kʼaʼn A-saq ; ! "angry"
 kʼabʼakʼik:kʼabakʼik A-saq ; ! "gaping (mouth)"
@@ -5574,7 +5742,6 @@ nikinik:nikinik A-saq ; ! "woolly"
 nimabʼal:nimabal A-saq ; ! "infinite"
 nimatajinaq:nimatajinaq A-saq ; ! "serious"
 nin:nin A-saq ; ! "rancid smelling"
-nitzʼ:nitzʼ A-saq ; ! "small [Totonicapán]"
 nojik:nojik A-saq ; ! "full"
 nojim:nojim A-saq ; ! "slow"
 nojinaq:nojinaq A-saq ; ! "filled"
@@ -5612,7 +5779,6 @@ peranik:peranik A-saq ; ! "laying flat (board on ground)"
 pichilik:pichilik A-saq ; ! "sticking up from beneath something (stubble from ground)"
 !pilin<ik>:pilin<ik>A-saq ; ! "slippery"
 pilom:pilom A-saq ; ! "cut up"
-pim:pim A-saq ; ! "thick (something flat like board)"
 pirom:pirom A-saq ; ! "divided"
 pisom:pisom A-saq ; ! "wrapped"
 pistalik:pistalik A-saq ; ! "wrapped"
@@ -5924,11 +6090,12 @@ kosnaq:kosnaq A-saq ; ! "tired" ! Src/utexas
 nim:nim A-saq ;                    ! "grande; large, abundant"
 nim:nim A-nim ;              ! "large (plural)"
 chom:chom A-nim ;              ! ""
-pim:pim A-nim ;              ! ""
+nitzʼ:nitzʼ A-nim ; ! "small [Totonicapán]"
+pim:pim A-nim ; ! "thick (something flat like board)"
 chʼutin:chʼuti A-chʼutin ;              ! ""
 
 ! TODO: Qué quiere decir <ik> ?
-yaʼtal:yaʼtal A-yaʼtal ; ! "lícito"
+yaʼtal:yaʼtal A-jeʼl ; ! "lícito"
 yaʼtalik:yaʼtalik A-saq ;          ! "given, permitted"
 !yaʼtal<ik>:yaʼtal<ik>A-saq ; ! "given"
 
@@ -5981,6 +6148,7 @@ xuqe:xuqe Ad-aninaq ;                  ! FIXME: Comprueba categoría
 xa:xa Ad-aninaq ;  ! "sólo"
 xu:xu Ad-aninaq ;  ! "únicamente, sólo"
 xaq:xaq Ad-aninaq ;                ! sólo
+xew:xew Ad-aninaq ;                ! sólo (xaq xew)
 
 
 ! Nota bene: Chi is also a conjunction introducing object complement
@@ -5996,7 +6164,7 @@ sibʼalaj:sibʼalaj Ad-aninaq ;          ! "very"
 !apan:apan Ad-aninaq ;              ! "cerca"
 !apanöq:apanöq Ad-aninaq ;              ! "cerca, fuera"
 
-aninaq:aninaq Ad-aninaq ;          ! "rápidamente; quickly"
+aninäq:aninäq  Ad-aninaq ; ! "rápidamente; hurriedly, immediately, on time, rapidly, quick"
 utz:utz Ad-aninaq ;                ! "bien; well"
 ojer:ojeer Ad-aninaq ;            ! "hace tiempo; long time"
 ojer:ojer Ad-aninaq ;            ! "hace tiempo; long time"
@@ -6007,14 +6175,11 @@ kamiik:kamiik Ad-aninaq ;          ! "hoy; today"
 kamik:kamik Ad-aninaq ;            ! "hoy; today" ! Src/UTexas
 weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
 weneʼ:wene Ad-aninaq ;             ! "tal vez; perhaps" ! Src/Wiki
-je:je Ad-aninaq ;                  ! "sí; yes"
-jeʼ:jeʼ Ad-aninaq ;                ! "sí; yes" ! Src/LopezIxcoy1997
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 aretaq:aretaq Ad-aninaq ;          ! "when, while"
 aretaq:aretäq Ad-aninaq ;          ! "when, while"
 are:are Ad-aninaq ;                ! "when, while"
 are:aare Ad-aninaq ;                ! "when, while"
-maj:maj Ad-aninaq ;                ! "none, nothing"
 xuqujʼe:xuqujʼe Ad-aninaq ;        ! "also"
 xuqujʼe:xoqujeʼ Ad-aninaq ;        ! "also"
 chanim:chanim Ad-aninaq ;          ! "right now, rapidly"
@@ -6028,7 +6193,6 @@ abʼir:abir  Ad-aninaq ; ! "last year"
 ajchilaʼ:ajchilaʼ  Ad-aninaq ; ! "from there; from way over there"
 ajsik:ajsik  Ad-aninaq ; ! "above"
 amaqʼel:amaqʼel  Ad-aninaq ; ! "always; forever; frequently; often"
-aninäq:aninäq  Ad-aninaq ; ! "hurriedly; immediately; on time; rapidly; quick"
 aninaqil:aninaqil  Ad-aninaq ; ! "instantly; immediately"
 apawichi:apawichi  Ad-aninaq ; ! "wherever"
 apawije:apawije  Ad-aninaq ; ! "wherever"
@@ -6075,7 +6239,6 @@ kiebʼchal:kiebchal  Ad-aninaq ; ! "both"
 kojej:kojej  Ad-aninaq ; ! "in four days"
 kokojil:kokojil  Ad-aninaq ; ! "slowly"
 lo:lo  Ad-aninaq ; ! "perhaps; indicator of doubt"
-maj:maj  Ad-aninaq ; ! "none; nothing"
 majaʼ:majaʼ  Ad-aninaq ; ! "not yet"
 majoʼq:majoʼq Ad-aninaq ; ! "antes"
 majoʼq:majoq  Ad-aninaq ; ! "antes; before"
@@ -6143,6 +6306,7 @@ chaqʼabʼ:chaqʼabʼ Ad-aninaq ; ! "de noche"
 chipaqʼij:chipaqʼij Ad-aninaq ; ! "de día"
 
 jubʼiqʼ:jubʼiqʼ Ad-aninaq ; ! "un poco"
+jubʼeqʼ:jubʼeqʼ Ad-aninaq ; ! "un poco"
 sqeʼn:sqeʼn Ad-aninaq ; ! "un poco"
 juxitʼ:juxitʼ Ad-aninaq ; ! "un poco"
 junkʼet:junkʼet Ad-aninaq ; ! "un poco"
@@ -6160,7 +6324,7 @@ LEXICON TVʼ
 achikʼaj:achikʼa                   V-TV-D ; ! "dream"
 achixaj:achixa                     V-TV-D ; ! "be jealous"
 achiʼlaj:achiʼla                   V-TV-D ; ! "accompany"
-aj:a                               V-TV-D ; ! "want"
+aj:aj                              V-TV-R ; ! "want" ! FIXME: NO Antipassive I
 ajaj:aja                           V-TV-D ; ! "work wood (cut, carve)"
 ajawij:ajawi                       V-TV-D ; ! "rule over"
 ajilaj:ajila                       V-TV-D ; ! "count"
@@ -6197,6 +6361,7 @@ bʼil:bʼil                           V-TV-R ; ! "anoint (with medicine, oil)"
 bʼilbʼaj:bilba                       V-TV-D ; ! "rub with feet"
 bʼilbʼayij:bilbayi                   V-TV-D ; ! "rub"
 bʼinisaj:binisa                     V-TV-D ; ! "drive (car)"
+bʼinisaj:bʼinsa                      V-TV-D ; ! "conducir, manejar; drive"
 bʼiq:biq                            V-TV-R ; ! "shell"
 bʼiqʼ:biqʼ                          V-TV-R ; ! "swallow whole"
 bʼitʼ:bitʼ                          V-TV-R ; ! "tear (paper, cloth)"
@@ -6285,18 +6450,15 @@ chʼoʼjij:chʼoʼji                   V-TV-D ; ! "fight over something"
 chʼucubʼaj:chʼucuba                 V-TV-D ; ! "squat"
 chʼuq:chʼuq                        V-TV-R ; ! "cover"
 chʼutinirisaj:chʼutinirisa         V-TV-D ; ! "reduce"
-chʼäk:chʼäk                        V-TV-R ; ! "conquer"
+chʼäk:chʼäk                        V-TV-R ; ! "ganar; win, conquer"
 echbʼej:echbe                       V-TV-D ; ! "inherit"
 elaqʼaj:elaqʼa                     V-TV-D ; ! "robar; steal"
-elaqʼaj:elaqʼa                     V-TV-D ; ! "steal something"
 elej:ele                           V-TV-D ; ! "stop eating"
 elesaj:elesa                       V-TV-D ; ! "remove"
 eqaj:eqa                           V-TV-D ; ! "cargar (en la espalda); carry (on ones back)"
-eqaj:eqa                           V-TV-D ; ! "carry on back"
 eqlej:eqle                         V-TV-D ; ! "take blame for accident"
 erej:ere                           V-TV-D ; ! "haul"
 esaj:esa                           V-TV-D ; ! "sacar, quitar; throw away, take out"
-esaj:esa                           V-TV-D ; ! "take out"
 etaj:eta                           V-TV-D ; ! "measure something"
 etaʼmaj:etaʼma                     V-TV-D ; ! "aprender; learn"
 etzelaj:etzela                     V-TV-D ; ! "hate"
@@ -6448,11 +6610,12 @@ kʼey:kʼey                          V-TV-R ; ! "do something with reluctance (w
 kʼiaqatij:kʼiaqati                 V-TV-D ; ! "scratch (an itch)"
 kʼijij:kʼiji                       V-TV-D ; ! "mend, repair"
 kʼilij:kʼili                       V-TV-D ; ! "fry (meat)"
-kʼis:kʼis                          V-TV-R ; ! "finish something"
+kʼis:kʼis                          V-TV-R ; ! "terminar; finish something" ! FIXME: No antipassive I
 kʼiskʼobʼisaj:kʼiskʼobisa           V-TV-D ; ! "smoke something (food)"
 kʼistaj:kʼista                     V-TV-D ; ! "come to an end"
-kʼixoj:kʼixo                       V-TV-D ; ! "prick (cactus spine"
+kʼixoj:kʼixo                       V-TV-D ; ! "prick (cactus spine)"
 kʼiyisaj:kʼiyisa                   V-TV-D ; ! "plant"
+kʼiyisaj:kʼiysa                   V-TV-D ; ! "plant" ! Src/Dico
 kʼiäq:kʼiäq                        V-TV-R ; ! "shoot at"
 kʼojoj:kʼojo                       V-TV-D ; ! "patch"
 kʼojolaj:kʼojola                   V-TV-D ; ! "engender"
@@ -6760,6 +6923,8 @@ terembʼej:terembe                   V-TV-D ; ! "follow someone"
 terneʼbʼej:terneʼbʼe               V-TV-D ; ! "follow someone" ! Src/Biblia
 terenej:terene                     V-TV-D ; ! "follow"
 tewichij:tewichi                   V-TV-D ; ! "bless"
+tewchiʼj:tewchiʼ                   V-TV-D ; ! "bendecir; bless"
+tewechiʼj:tewechiʼ                   V-TV-D ; ! "bendecir; bless"
 tij:tij                             V-TV-R ; ! "eat something"
 tijoj:tijo                         V-TV-D ; ! "teach"
 tik:tik                            V-TV-R ; ! "sembrar; plant"
@@ -6856,6 +7021,7 @@ tzʼuʼ:tzʼuʼ                        V-TV-R ; ! "chupar; suck"
 tʼarij:tʼari                       V-TV-D ; ! "poke with fingers (hard)"
 tʼin:tʼin                          V-TV-R ; ! "dip in thick liquid"
 tʼis:tʼis                          V-TV-R ; ! "mend"
+tʼisoʼmaj:tʼisoʼma                 V-TV-D ; ! ""
 tʼok:tʼok                          V-TV-R ; ! "hit with elbow"
 tʼoqopij:tʼoqopi                   V-TV-D ; ! "break (thread"
 tʼorij:tʼori                       V-TV-D ; ! "steal"
@@ -6933,18 +7099,17 @@ xutʼij:xutʼi                       V-TV-D ; ! "fan embers"
 xutʼuj:xutʼu                       V-TV-D ; ! "blow (on fire to make it burn hotter)"
 xuʼyaj:xuʼya                       V-TV-D ; ! "be stingy"
 xuʼyaj:xuʼya                       V-TV-D ; ! "give stingily"
-ya:ya                              V-TV-R ; ! "dar; give"
-ya:yaʼ                             V-TV-R ; ! "dar; give"
+yaʼ:ya                              V-TV-R ; ! "dar; give" ! FIXME: No antipassive I
+yaʼ:yaʼ                             V-TV-R ; ! "dar; give" ! FIXME: No antipassive I
 yaj:ya                             V-TV-D ; ! "scold"
 yak:yak                            V-TV-R ; ! "arise"
 yaqʼoj:yaqʼo                       V-TV-D ; ! "thresh"
 yat:yat                            V-TV-R ; ! "gather together and tie up (wheat, etc.)"
-yaʼ:yaʼ                            V-TV-R ; ! "dar; give"
 yikopisaj:yikopisa                 V-TV-D ; ! "shake"
 yikoʼmisaj:yikoʼmisa               V-TV-D ; ! "shake something (tree so fruit will fall)"
 yitzʼ:yitzʼ                        V-TV-R ; ! "squeeze"
 yoch:yoch                          V-TV-R ; ! "take in hem of something"
-yoj:yo                             V-TV-D ; ! "destroy, to wreck"
+yoj:yoj                             V-TV-R ; ! "destroy, to wreck"
 yojij:yoji                         V-TV-D ; ! "destroy"
 yojtajisaj:yojtajisa               V-TV-D ; ! "abuse (power)"
 yoqʼ:yoqʼ                          V-TV-R ; ! "criticize"
@@ -7040,6 +7205,7 @@ bʼuyuqar:buyuqar                    V-IV   ; ! "wither (flower, plant)"
 bʼätzʼin:bätzʼin                    V-IV   ; ! "purr (cat)"
 bʼätzʼin:bätzʼin                    V-IV   ; ! "spin (thread)"
 bʼe:bʼe                            V-IV   ; ! "ir; to go"
+bʼe:bʼeʼ                            V-IV   ; ! "ir; to go" ! Use/Spell ! Src/UTexas
 bʼison:bʼison                      V-IV   ; ! "FIXME: check"
 chaʼ:chaʼ                          V-IV   ; ! "decir; say" ! FIXME: check ! Src/Biblia
 chaʼ:cha                          V-IV   ; ! "decir; say" ! FIXME: check ! Src/Biblia ! Use/Spell
@@ -7271,6 +7437,7 @@ kʼamara:kʼamara                    V-IV   ; ! "accept"
 kʼamow:kʼamow                      V-IV   ; ! "receive"
 kʼaqat:kʼaqat                      V-IV   ; ! "itch"
 kʼarar:kʼarar                      V-IV   ; ! "sound of grains scattering on surface (wheat on table)"
+kʼasiʼ:kʼasiʼ                      V-IV   ; ! "vivir; live"
 kʼastaj:kʼastaj                    V-IV   ; ! "awaken"
 kʼat:kʼat                          V-IV   ; ! "burn"
 kʼatzitz:kʼatzitz                  V-IV   ; ! "creaking of a tree"
@@ -7285,7 +7452,7 @@ kʼextaj:kʼextaj                    V-IV   ; ! "become changed, transformed"
 kʼiaq:kʼiaq                        V-IV   ; ! "shoot"
 kʼiaqat:kʼiaqat                    V-IV   ; ! "bite (insect)"
 kʼiar:kʼiar                        V-IV   ; ! "increase in number"
-kʼis:kʼis                          V-IV   ; ! "end"
+kʼis:kʼis                          V-IV   ; ! "terminar; end" 
 kʼiskʼobʼ:kʼiskʼob                  V-IV   ; ! "smoke (a pan on the fire)"
 kʼix:kʼix                          V-IV   ; ! "be embarassed"
 kʼiy:kʼiy                          V-IV   ; ! "grow (corn plants)"
@@ -7939,6 +8106,7 @@ yobʼyobʼ:yobyob                      V-IV   ; ! "deflate"
 yojin:yojin                        V-IV   ; ! "fall apart"
 yojkar:yojkar                      V-IV   ; ! "be in disagreement"
 yojoj:yojoj                        V-IV   ; ! "roar (water, rain)"
+!yojoj:yojo                        V-TV-D   ; ! "descomponer"
 yojoyat:yojoyat                    V-IV   ; ! "rattle (of corn in a bag, metal, wood when carried)"
 yojtaj:yojtaj                      V-IV   ; ! "fall apart"
 yonolikin:yonolikin                V-IV   ; ! "remain"
@@ -8108,6 +8276,8 @@ vitamina:vitamina N-estado ; ! ""
 histamina:histamina N-estado ; ! ""
 siglo:siglo N-estado ; ! ""
 viña:viña N-estado ; ! ""
+vino:vino N-estado ;
+vela:vela N-estado ;
 
 millón:mill N-reacción ; ! ""
 reacción:reacci N-reacción ; ! ""
