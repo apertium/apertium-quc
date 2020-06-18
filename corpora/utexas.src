@@ -1431,7 +1431,7 @@
 ^bʼe/bʼe<n>$
 ^./.<sent>$
 
-# sent_id = utexas:123
+# sent_id = utexas:123.1
 # text = Le roʼch le a Teʼk kʼo chwach le ukʼay le nunan.
 # text[spa] = La casa de Diego está frente a la venta de mi madre.
 # labels = tijonik-17 complete
@@ -1448,7 +1448,7 @@
 ^nunan/<px1sg>nan²<n>/<px1sg>nan¹<n>$
 ^./.<sent>$
 
-# sent_id = utexas:123
+# sent_id = utexas:123.2
 # text = Xukʼut le Kʼicheʼ chʼabʼal le al Nela chqawach.
 # text[spa] = Manuela nos enseñó el idioma kʼicheʼ
 # labels = tijonik-17 complete
@@ -1870,14 +1870,14 @@
 ^meʼs/meʼs<n>$
 ^./.<sent>$
 
-# sent_id = utexas:159
+# sent_id = utexas:159.1
 # text = Kematzʼibʼ.
 # text[spa] = Computadora.
 # labels = tijonik-28 complete
 ^Kematzʼibʼ/kematzʼibʼ<n>$
 ^./.<sent>$
 
-# sent_id = utexas:159
+# sent_id = utexas:159.2
 # text = Xinloqʼ le nukʼakʼapoʼt.
 # text[spa] = Me compré un (mi) huipil nuevo.
 # labels = tijonik-28 complete
@@ -1906,7 +1906,7 @@
 ^lej/lej<n>$
 ^./.<sent>$
 
-# sent_id = utexas:162
+# sent_id = utexas:162.1
 # text = Ukiʼil le taraʼs.
 # text[spa] = La dulzura del durazno.
 # labels = tijonik-29 complete
@@ -1915,7 +1915,7 @@
 ^taraʼs/taraʼs<n>$
 ^./.<sent>$
 
-# sent_id = utexas:162
+# sent_id = utexas:162.2
 # text = Sibʼalaj nichʼ le nuchʼichʼ.
 # text[spa] = Mi carro es muy pequeño
 # labels = tijonik-29 complete
@@ -2361,7 +2361,7 @@
 ^la/la<adv><dir>/la<n>/la<part><frm>/la<qst>$
 ^./.<sent>$
 
-# sent_id = utexas:191
+# sent_id = utexas:191.1
 # text = Aʼre xetoʼw alaq.
 # text[spa] = Ellos fueron los que les ayudaron (a ustedes).
 # labels = tijonik-33 complete
@@ -2370,7 +2370,7 @@
 ^alaq/alaq<part><frm>/alaq<prn><pers><p2><frm><pl>/<px2sg>laq<n>$
 ^./.<sent>$
 
-# sent_id = utexas:191
+# sent_id = utexas:191.2
 # text = Aʼre xetoʼw alaq.
 # text[spa] = Ellos fueron los que les ayudaron (a ustedes).
 # labels = tijonik-33 incomplete
@@ -3164,7 +3164,7 @@
 ^ajxojolobʼ/ajxojolabʼ<n>$
 ^./.<sent>$
 
-# sent_id = utexas:265
+# sent_id = utexas:265.1
 # text = Wemna chpe le jabʼ kakam le abʼix.
 # text[spa] =  Si no viene la lluvia se muere la milpa.
 # labels = tijonik-42 complete
@@ -3177,7 +3177,7 @@
 ^abʼix/abʼix<n>/<px2sg>bʼix<n>$
 ^./.<sent>$
 
-# sent_id = utexas:265
+# sent_id = utexas:265.2
 # text = Wemna chaloqʼ axiyal, na kimbʼe ta awukʼ.
 # text[spa] = Si no te compras un abrigo, no iré contigo.
 # labels = tijonik-42 complete
@@ -3575,7 +3575,7 @@
 ^jabʼ/jäbʼ<n>$
 ^./.<sent>$
 
-# sent_id = utexas:291
+# sent_id = utexas:291.1
 # text = Chqil ta bʼa qibʼ chweʼq.
 # text[spa] = Que nos veamos mañana.
 # labels = tijonik-42 complete
@@ -3586,7 +3586,7 @@
 ^chweʼq/chweʼq<adv>$
 ^./.<sent>$
 
-# sent_id = utexas:291
+# sent_id = utexas:291.2
 # text = Oj ta bʼa chojchʼakanik.
 # text[spa] = Que ganemos.
 # labels = tijonik-42 complete

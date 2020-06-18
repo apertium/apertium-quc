@@ -157,6 +157,9 @@ for i in range(0, len(sents_dep)):
 	sent_id_match = re.match('# sent_id = .*', sents_dep[i])
 	if not sent_id_match:
 		continue
+	if sents_dep[i].count('->') != len(re.findall('\n\t', sents_dep[i])):
+		print('WARNING: Unannotated sentence,', sent_id_match[0], file=sys.stderr)
+		continue
 	sent_id = sent_id_match[0]
 	if sent_id not in sents_depseg:
 		sents_depseg[sent_id] = {}
