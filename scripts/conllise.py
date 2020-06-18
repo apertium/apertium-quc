@@ -19,7 +19,7 @@ def get_lemma_cg(line):
 	end = line.rfind('"')
 	return line[beg:end]
 
-def get_deps_cg(line): 
+def get_deps_cg(line):
 	return [int(i) for i in line.split('#')[1].split('->')]
 
 def get_func_cg(line):
@@ -62,8 +62,11 @@ def get_segmentations(sent):
 		if line == '': continue
 		if line[0] != '^':
 			continue
-		(surface, segmentation) = line[1:-1].split('/')
-		segmentations[counter] = (surface, segmentation.split('>')) 
+		if line.count('/') == 1:
+			(surface, segmentation) = line[1:-1].split('/')
+			segmentations[counter] = (surface, segmentation.split('>'))
+		else:
+			segmentations[counter] = (surface, surface)
 		counter += 1
 	return segmentations
 
