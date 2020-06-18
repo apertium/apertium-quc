@@ -43,7 +43,7 @@ _	_	px2pl	_	_	_	Number[psed]=Plur|Person[psed]=2	_
 _	_	px2sg	_	_	_	Number[psed]=Sing|Person[psed]=2	_
 _	_	px3pl	_	_	_	Number[psed]=Plur|Person[psed]=3	_
 _	_	px3sg	_	_	_	Number[psed]=Sing|Person[psed]=3	_
-_	_	rel	_	_	_	NounType=Rel	_
+_	_	rel	_	_	_	NounType=Relat	_
 _	_	s_pl1	_	_	_	Number[subj]=Plur|Person[subj]=1	_
 _	_	s_pl2	_	_	_	Number[subj]=Plur|Person[subj]=2	_
 _	_	s_pl3	_	_	_	Number[subj]=Plur|Person[subj]=3	_
@@ -53,6 +53,7 @@ _	_	s_sg3	_	_	_	Number[subj]=Sing|Person[subj]=3	_
 _	_	top	_	_	_	_	_
 _	_	tv	_	_	_	Valency=2	_
 _	_	al	_	_	_	_	_
+_	prn	rel	_	_	PRON	PronType=Rel	_
 _	qst	_	_	_	AUX	_	_
 _	v	_	_	_	VERB	_	_
 _	pr	_	_	_	ADP	_	_

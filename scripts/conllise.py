@@ -67,9 +67,11 @@ def get_segmentations(sent):
 		counter += 1
 	return segmentations
 
-def merge_segmentations(segs, n):
-	if n == 2:
+def merge_segmentations(segs, n, direction='L'):
+	if n == 2 and direction == 'L':
 		return [segs[0], ''.join(segs[1:])]
+	elif n == 2 and direction == 'R':
+		return [''.join(segs[0:-1]), segs[-1]]
 	return segs
 
 def get_comments(sent):
@@ -158,7 +160,7 @@ for i in range(0, len(sents_dep)):
 	if not sent_id_match:
 		continue
 	if sents_dep[i].count('->') != len(re.findall('\n\t', sents_dep[i])):
-		print('WARNING: Unannotated sentence,', sent_id_match[0], file=sys.stderr)
+		print(sent_id_match[0], '| WARNING: Sentence annotation incomplete', file=sys.stderr)
 		continue
 	sent_id = sent_id_match[0]
 	if sent_id not in sents_depseg:
@@ -174,6 +176,10 @@ for i in range(0, len(sents_seg)):
 		sents_depseg[sent_id] = {}
 	sents_depseg[sent_id][1] = sents_seg[i]
 
+mono_morphemes = ['pr', 'mark|fin', 'mark']
+
+converted_sents = 0
+converted_tokens = 0
 
 for depseg in sents_depseg:
 	#print('-->', depseg, file=sys.stderr)
@@ -203,7 +209,12 @@ for depseg in sents_depseg:
 			# {2: ('chawe', [(3, '_', 'chi', '_', '_', '_', 4, '_', '_', '_'), (4, '_', 'awe', '_', '_', '_', 2, '_', '_', '_')])}
 			segs = segmentations[j][1]
 			if len(tokens[1]) != len(segmentations[j][1]):
-				segs = merge_segmentations(segmentations[j][1], len(token[1]))
+				#print('!!!',segs,file=sys.stderr )
+				# This is hacky :(
+				if token[1][1][4] in mono_morphemes:
+					segs = merge_segmentations(segmentations[j][1], len(token[1]), direction='R')
+				else:
+					segs = merge_segmentations(segmentations[j][1], len(token[1]))
 			print('%d-%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (token[1][0][0], token[1][-1][0], token[0]))
 			for (k, word) in enumerate(token[1]):
 				(analysis, misc) = apply_rules(rules, word)
@@ -218,6 +229,9 @@ for depseg in sents_depseg:
 			line = (word[0], token[0], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
 			print(format_conllu_line(line))
 	print()
+	converted_sents += 1
+	converted_tokens += len(tokens)
 
 ###############################################################################
 
+print('Converted:',converted_sents,'sentences,',converted_tokens,'tokens.',file=sys.stderr)
