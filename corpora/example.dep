@@ -1,4 +1,4 @@
-# sent_id = 1
+# sent_id = example:1
 # text = Kinya jun rutzil iwach nutijoxelab’!
 # text[spa] =  Les doy un cordial saludo, mis estudiantes!
 # labels = tijonik-7
@@ -15,7 +15,7 @@
 "<!>"
 	"!" text @punct #6->1
 
-# sent_id = 2
+# sent_id = example:2
 # text = Rajawaxik kak’aman chawe le utijik le lej.
 # text[spa] =  Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41
@@ -37,7 +37,7 @@
 "<.>"
 	"." text @punct #9->1
 
-# sent_id = 3
+# sent_id = example:3
 # text = Xuloqʼ ri wuj ri ali.
 # text[spa] = La chica compró el libro.
 # labels = canpixabaj-59a
@@ -54,7 +54,7 @@
 "<.>"
 	"." @punct #6->1
 
-# sent_id = 4
+# sent_id = example:4
 # text = Xuloqʼ ri wuj rumal ri ali.
 # text[spa] = El libro fue comprado por la chica.
 # labels = canpixabaj-59b
@@ -72,40 +72,4 @@
 	"ali" n @obl:agent
 "<.>"
 	"." @punct
-
-# sent_id = 5
-# text = 
-# text[spa] = 
-# labels = 
-"<Xuqʼaluj>"
-	"qʼaluj" v tv perf o_sg3 s_sg3 @root
-"<ri>"
-	"ri" det @det
-"<neʼ>"
-	"neʼ" n @obj
-"<ri>"
-	"ri" det @det
-"<ixoq>"
-	"ixoq" n @nsubj
-"<.>"
-	"." sent @punct
-
-# sent_id = 6
-# text = 
-# text[spa] = 
-# labels = 
-"<Ri>"
-	"ri" det @det #1->2
-"<neʼ>"
-	"neʼ" n @nsubj #2->3
-"<xqʼalux>"
-	"qʼaluj" v tv pass perf s_sg3 @root #3->0
-"<rumal>"
-	"umal" n rel px3sg
-"<ri>"
-	"ri" det @det #5->6
-"<ixoq>"
-	"ixoq" n 
-"<.>"
-	"." sent @punct #7->3
 

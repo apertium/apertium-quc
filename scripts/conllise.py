@@ -92,7 +92,8 @@ def load_rules(f):
 			print(line, '||', row, file=sys.stderr)
 			continue
 		score = sum([i for (i, j) in enumerate(reversed(row[:4])) if j is not '_'])
-		rule = (score, set([i for i in row[:4] if i is not '_']), row[4:])
+		morf = [i for i in row[2].split('|') if i is not '_']
+		rule = (score, set([i for i in row[:2] if i is not '_'] + morf + [i for i in row[3:4] if i is not '_']), row[4:])
 #		print('RULE:',rule)
 		rules.append(rule)
 	rules.sort()
@@ -153,6 +154,7 @@ rules = load_rules(tag_rules)
 
 sents_depseg = {}
 
+#print(rules, file=sys.stderr)
 
 # Loop through each of the sentences
 for i in range(0, len(sents_dep)):

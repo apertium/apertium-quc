@@ -1,4 +1,4 @@
-# sent_id = 1
+# sent_id = biblia:1
 # text = Ri nim taq chuchqajawibʼ, xoqujeʼ kkaj kkikamisaj ri Lasaro.
 # text[spa] = Pero los principales sacerdotes acordaron dar muerte también a Lázaro.
 # labels = Juan:12:10
@@ -25,7 +25,7 @@
 "<.>"
 	"." sent @punct #11->7
 
-# sent_id = 2
+# sent_id = biblia:2
 # text = Kʼatekʼut, xinbʼe pa ri Siriʼa e pa ri Silisiʼa;
 # text[spa] = Más tarde fui a las regiones de Siria y Cilicia.
 # labels = Gal:9:1
@@ -52,7 +52,7 @@
 "<;>"
 	";" sent @punct #11->3
 
-# sent_id = 3
+# sent_id = biblia:3
 # text = Kbʼe pa ri Siriʼa e pa ri Silisiʼa, jawijeʼ kuya wi ri kichuqʼabʼ ri Komon Tyox.
 # text[spa] = Y viajó por Siria y Cilicia, consolidando a las iglesias.
 # labels = Hechos:5:1 relcl
@@ -92,7 +92,7 @@
 	"tyox" n @nmod
 "<.>"
 
-# sent_id = 4
+# sent_id = biblia:4
 # text = Rukʼ taq we tzij riʼ, xkikʼam ri kiqasnaʼ pa ri ubʼi ri Ajawxel Jesus;
 # text[spa] = Al oír esto, fueron bautizados en el nombre del Señor Jesús.
 # labels = Hechos:5:19
@@ -130,7 +130,7 @@
 "<;>"
 	";" sent @punct
 
-# sent_id = 5
+# sent_id = biblia:5
 # text = ¡Kkʼojiʼ bʼaʼ ri usipanik ri ajawxel Jesus Kristo rukʼ ri awuxlabʼal!
 # text[spa] = Que la gracia del Señor Jesucristo sea con su espíritu.
 # labels = 18_PHM_1
@@ -161,7 +161,7 @@
 "<!>"
 	"!" sent @punct
 
-# sent_id = 6
+# sent_id = biblia:6
 # text = Ri ajtikonel kutik ri Tzij.
 # text[spa] = El sembrador siembra la palabra.
 # labels = 2_MRK_4
@@ -178,7 +178,7 @@
 "<.>"
 	"." sent @punct #6->3
 
-# sent_id = 7
+# sent_id = biblia:7
 # text = We kʼo jun ktuqaʼrik, ¿la man xoqujeʼ taj kintuqaʼr ri in?
 # text[spa] = ¿Cuando alguien se siente débil, no comparto yo su debilidad?
 # labels = 8_2CO_11
@@ -212,7 +212,7 @@
 "<?>"
 	"?" sent @punct
 
-# sent_id = 8
+# sent_id = biblia:8
 # text = We kʼo jun ktzaqik ¿la man kinporoj ta wibʼ ri in?
 # text[spa] = ¿Y cuando a alguien se le hace tropezar, no ardo yo de indignación?
 # labels = 8_2CO_11

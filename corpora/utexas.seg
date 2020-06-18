@@ -2265,7 +2265,7 @@
 # text[spa] = Fui yo el que te pegó.
 # labels = tijonik-33 complete
 ^In/in$
-^xatinchʼayo/x>at>in>chʼay#o$
+^xatinchʼayo/x>at>in>chʼay>o$
 ^./.$
 
 # sent_id = utexas:181
@@ -2420,7 +2420,7 @@
 ^we/we$
 ^achi/achi$
 ^we/we$
-^xinkunanik/x>in>kunan>ik$
+^xinkunanik/x>in>kuna>n>ik$
 ^./.$
 
 # sent_id = utexas:196

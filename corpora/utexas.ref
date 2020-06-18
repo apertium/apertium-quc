@@ -2125,7 +2125,7 @@
 # text = Ketikonik
 # text[spa] = Ellos siembran.
 # labels = tijonik-32 complete
-^Ketikonik/<impf><s_pl3>tikoj<v><tv><anti>+ik<mark>
+^Ketikonik/<impf><s_pl3>tikoj<v><tv><anti>+ik<mark>$
 ^./.<sent>$
 
 # sent_id = utexas:179.4
@@ -2420,7 +2420,7 @@
 ^we/we<det>$
 ^achi/achi<n>$
 ^we/we<prn><rel>$
-^xinkunanik/<perf><s_sg1>kunanik<v><iv>+ik<mark>$
+^xinkunanik/<perf><s_sg1>kunaj<v><tv><anti><agfoc>+ik<mark>$
 ^./.<sent>$
 
 # sent_id = utexas:196
@@ -2444,7 +2444,7 @@
 ^le/le<det>$
 ^achi/achi<n>$
 ^le/le<prn><rel>$
-^xinkunan/<perf><s_sg1>kunaj<v><tv><anti>$
+^xinkunan/<perf><s_sg1>kunaj<v><tv><anti><agfoc>$
 ^iwir/iwir<adv>$
 ^?/?<sent>$
 

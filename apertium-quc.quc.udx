@@ -50,6 +50,12 @@ _	_	s_pl3	_	_	_	Number[subj]=Plur|Person[subj]=3	_
 _	_	s_sg1	_	_	_	Number[subj]=Sing|Person[subj]=1	_
 _	_	s_sg2	_	_	_	Number[subj]=Sing|Person[subj]=2	_
 _	_	s_sg3	_	_	_	Number[subj]=Sing|Person[subj]=3	_
+_	_	anti|agfoc|s_pl1	_	_	_	Number[obj]=Plur|Person[obj]=1|Voice=AgFoc	_
+_	_	anti|agfoc|s_pl2	_	_	_	Number[obj]=Plur|Person[obj]=2|Voice=AgFoc	_
+_	_	anti|agfoc|s_pl3	_	_	_	Number[obj]=Plur|Person[obj]=3|Voice=AgFoc	_
+_	_	anti|agfoc|s_sg1	_	_	_	Number[obj]=Sing|Person[obj]=1|Voice=AgFoc	_
+_	_	anti|agfoc|s_sg2	_	_	_	Number[obj]=Sing|Person[obj]=2|Voice=AgFoc	_
+_	_	anti|agfoc|s_sg3	_	_	_	Number[obj]=Sing|Person[obj]=3|Voice=AgFoc	_
 _	_	top	_	_	_	_	_
 _	_	tv	_	_	_	Valency=2	_
 _	_	al	_	_	_	_	_
@@ -69,7 +75,7 @@ _	aux	_	_	_	AUX	_	_
 _	barb	_	_	_	X	Foreign=Yes	_
 _	cnjcoo	_	_	_	CCONJ	_	_
 _	cnjsub	_	_	_	SCONJ	_	_
-_	ij	_	_	_	INTERJ	_	_
+_	ij	_	_	_	INTJ	_	_
 _	det	_	_	_	DET	_	_
 _	part	_	_	_	PART	_	_
 _	mark	_	_	_	PART	_	_
