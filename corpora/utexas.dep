@@ -110,23 +110,23 @@
 # sent_id = utexas:7
 # text = Xinsachik.
 # text[eng] = I made a mistake.
-# text[eng] = Me equivoqué
-# labels = tijonik-2 incomplete
+# text[spa] = Me equivoqué
+# labels = tijonik-2 complete
 "<Xinsachik>"
-	"sach" v iv perf s_sg1
-		"ik" mark
+	"sach" v iv perf s_sg1 @root #1->0
+		"ik" mark @dep #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = utexas:8
 # text = Xinsachik.
 # text[eng] = I got lost.
 # labels = tijonik-2 incomplete
 "<Xinsachik>"
-	"sach" v iv perf s_sg1
-		"ik" mark
+	"sach" v iv perf s_sg1 @root #1->0
+		"ik" mark @dep #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = utexas:9
 # text = Xinsach che le uwokik le tzij.
@@ -190,16 +190,17 @@
 
 # sent_id = utexas:13
 # text = Na wetaʼm taj.
-# text[eng] = I donʼt know
-# labels = tijonik-2 incomplete
+# text[eng] = I donʼt know.
+# text[spa] = No lo sé.
+# labels = tijonik-2 complete
 "<Na>"
-	"na" neg
+	"na" neg @aux:neg #1->2
 "<wetaʼm>"
-	"etaʼm" v tv perf o_sg3 s_sg1
+	"etaʼm" v tv perf o_sg3 s_sg1 @root #2->0
 "<taj>"
-	"taj" neg fin
+	"taj" neg fin @aux:neg #3->2
 "<.>"
-	"." sent
+	"." sent @punct #4->2
 
 # sent_id = utexas:14
 # text = Jas ubʼixik …?
@@ -316,94 +317,94 @@
 # text = Kimbʼe pa le tinamit.
 # text[eng] = I go to the town.
 # text[spa] = Voy al pueblo.
-# labels = tijonik-10 incomplete
+# labels = tijonik-10 complete
 "<Kimbʼe>"
-	"bʼe" v iv impf s_sg1
+	"bʼe" v iv impf s_sg1 @root #1->0
 "<pa>"
-	"pa" pr
+	"pa" pr @case #2->4
 "<le>"
-	"le" det
+	"le" det @det #3->4
 "<tinamit>"
-	"tinamit" n
+	"tinamit" n @obl #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = utexas:22
 # text = La katbʼe pa le tinamit?
 # text[eng] = Are you going to town?
 # text[spa] = Vas al pueblo?
-# labels = tijonik-10 incomplete
+# labels = tijonik-10 complete
 "<La>"
-	"la" qst
+	"la" qst @discourse #1->2
 "<katbʼe>"
-	"bʼe" v iv impf s_sg2
+	"bʼe" v iv impf s_sg2 @root #2->0
 "<pa>"
-	"pa" pr
+	"pa" pr @case #3->5
 "<le>"
-	"le" det
+	"le" det @det #4->5
 "<tinamit>"
-	"tinamit" n
+	"tinamit" n @obl #5->2
 "<?>"
-	"?" sent
+	"?" sent @punct #6->2
 
 # sent_id = utexas:24
 # text = Xbʼe qʼij!
 # text[spa] = ¡Buenas tardes!
-# labels = tijonik-3 incomplete
+# labels = tijonik-3 complete
 "<Xbʼe>"
-	"bʼe" v iv perf s_sg3
+	"bʼe" v iv perf s_sg3 @root #1->0
 "<qʼij>"
-	"qʼij" n
+	"qʼij" n @nsubj #2->1
 "<!>"
-	"!" sent
+	"!" sent @punct #3->1
 
 # sent_id = utexas:25
 # text = Xok aqʼabʼ!
 # text[spa] = ¡Buenas noches!
-# labels = tijonik-3 incomplete
+# labels = tijonik-3 complete
 "<Xok>"
-	"ok" v iv perf s_sg3
+	"ok" v iv perf s_sg3 @root #1->0
 "<aqʼabʼ>"
-	"aqʼäbʼ" n
+	"aqʼäbʼ" n @nsubj #2->1
 "<!>"
-	"!" sent
+	"!" sent @punct #3->1
 
 # sent_id = utexas:26
 # text = Xbʼe qʼij nan!
 # text[spa] = ¡Buenas tardes señora!
-# labels = tijonik-3 incomplete
+# labels = tijonik-3 complete
 "<Xbʼe>"
-	"bʼe" v iv perf s_sg3
+	"bʼe" v iv perf s_sg3 @root #1->0
 "<qʼij>"
-	"qʼij" n
+	"qʼij" n @nsubj #2->1
 "<nan>"
-	"nan²" n
+	"nan²" n @vocative #3->1
 "<!>"
-	"!" sent
+	"!" sent @punct #4->1
 
 # sent_id = utexas:27
 # text = Xok aqʼabʼ ali!
 # text[spa] = ¡Buenas noches, muchacha!
-# labels = tijonik-3 incomplete
+# labels = tijonik-3 complete
 "<Xok>"
-	"ok" v iv perf s_sg3
+	"ok" v iv perf s_sg3 @root #1->0
 "<aqʼabʼ>"
-	"aqʼäbʼ" n
+	"aqʼäbʼ" n @nsubj #2->1
 "<ali>"
-	"ali" n
+	"ali" n @vocative #3->1
 "<!>"
-	"!" sent
+	"!" sent @punct #4->1
 
 # sent_id = utexas:28
 # text = Rutzil wachaj.
 # text[spa] = Saludos.
-# labels = tijonik-3 incomplete
+# labels = tijonik-3 complete
 "<Rutzil>"
-	"utzil" n px3sg
+	"utzil" n px3sg @root #1->0 
 "<wachaj>"
-	"wäch" n
+	"wäch" n @nmod:poss #2->1
 "<.>"
-	"." sent
+	"." sent @punct #3->1
 
 # sent_id = utexas:29
 # text = Are waʼ nuwuj
