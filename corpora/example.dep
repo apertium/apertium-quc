@@ -18,18 +18,18 @@
 # sent_id = example:2
 # text = Rajawaxik kak’aman chawe le utijik le lej.
 # text[spa] =  Es necesario que te acostumbres a comer tortillas.
-# labels = tijonik-41
+# labels = tijonik-41 complete check-nonfinite
 "<Rajawaxik>"
 	"rajawaxik" adj @root #1->0
 "<kakʼaman>"
-	"kʼamanik" v iv impf s_sg3 @x #2->1
+	"kʼaman" v iv impf s_sg3 @csubj #2->1
 "<chawe>"
 	"chi" pr @case #3->4
 		"ech" n rel px2sg @obl #4->2
 "<le>"
-	"le" det @x #5->6
+	"le" prn rel @mark #5->6
 "<utijik>"
-	"tij" v tv act px3sg @x #6->2
+	"tij" v tv inf s_sg3 @csubj #6->2
 "<le>"
 	"le" det @det #7->8
 "<lej>"
