@@ -65,6 +65,9 @@ print('P:',P)
 print('R:',R)
 print('F:',F)
 
+if sys.argv[3] == 'token':
+	sys.exit(-1)
+
 for m in missing:
 	print(m)
 

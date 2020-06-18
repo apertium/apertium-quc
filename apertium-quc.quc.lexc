@@ -4,88 +4,90 @@ Multichar_Symbols
 
 %<n%>                ! Sustantivo; Noun
 %<adj%>              ! Adjetivo; Adjective
-%<pl%>               ! Plural
 %<prn%>              ! Pronombre; Pronoun
-%<adv%>              ! Adverb
-%<pr%>               ! Preposition
-%<num%>              ! Numerals
-%<aux%>              ! Auxiliar
-%<prn%>              ! Pronouns
-%<clf%>              ! Clasificador
-%<mark%>             ! Marker
-%<barb%>             ! Barbarism
+%<adv%>              ! Adverbio; Adverb
+%<pr%>               ! Preposición; Preposition
+%<num%>              ! Numerales; Numeral
+%<aux%>              ! Auxiliar; Auxiliary
+%<prn%>              ! Pronombre; Pronoun
+%<clf%>              ! Clasificador; Classifier
+%<mark%>             ! Marcador; Marker
+%<barb%>             ! Barbarismo; Barbarism
 %<qst%>              ! Question marker
 %<dem%>              ! Demonstrative
 %<det%>              ! Determiners
 %<cnjcoo%>           ! Coordinating conjunction
 %<np%>               ! Nombre Propio
-%<top%>              ! Toponimo
+%<top%>              ! Topónimo
 %<ant%>              ! Anthroponym
 %<m%>                ! Masculino
 %<f%>                ! Femenino
 %<part%>             ! Particle
 %<mod%>              ! Modal
 %<foc%>              ! Focus
-%<v%>
-%<cnjsub%>                         !
-%<ij%>                         !
+%<v%>                ! Verbo
+%<cnjsub%>           ! Conjunción subordinada
+%<ij%>               ! Interyección
 
-%<pro%>            ! Proclítico
+%<attr%>             ! Atributivo
 
-%<iv%>
-%<tv%>
+%<pro%>              ! Proclítico
 
-%<perf%>
-%<impf%>
-%<fut%>                         !
-%<imp%>                         !
+%<iv%>               ! Intransitivo
+%<tv%>               ! Transitivo
 
-%<p1%>                         !
-%<p2%>                         !
-%<p3%>                         !
-%<frm%>                         !
+%<perf%>             ! Perfectivo (completivo)
+%<impf%>             ! Imperfectivo
+%<fut%>              ! Futuro
+%<imp%>              ! Imperativo
 
-%<pp%>              ! Perfect participle
+%<p1%>               ! Primera persona
+%<p2%>               ! Segunda persona
+%<p3%>               ! Tercera persona
+%<frm%>              ! Formal
 
-%<sg%>                         !
+%<pp%>               ! Participio perfectivo
 
-%<abl%>                         !
-%<lat%>                         !
+%<sg%>               ! Singular
+%<pl%>               ! Plural;
 
-%<pers%>                         !
-%<al%>                         !
-%<cog%>                         !
-%<dir%>                         !
-%<itg%>                         !
-%<neg%>                         !
-%<ord%>                         !
-%<rel%>                         !
+%<abl%>              ! Ablativo
+%<lat%>              ! Lativo
 
-%<ints%>
-%<emph%>                         !
+%<pers%>             ! Personal
+%<al%>               ! Otros
+%<cog%>              ! Cognomen
+%<dir%>              ! Direccional
+%<itg%>              ! Interrogativo
+%<neg%>              ! Negativo
+%<ord%>              ! Ordinal
+%<rel%>              ! Relacional, relativo
 
-%<agfoc%>                         !
-%<anti%>                         !
-%<fin%>                         !
-%<inf%>                         !
-%<mov%>                         !
-%<pass%>                         !
-%<stat%>                         !
+%<ints%>             ! Intensificador
+%<emph%>             ! Emfático
+
+%<agfoc%>            ! Antipasivo II
+%<anti%>             ! Antipasivo
+%<fin%>              ! Final de frase
+%<inf%>              ! Infinitivo
+%<mov%>              ! Movimiento
+%<pass%>             ! Pasivo
+%<stat%>             ! Pasivo estativo
 
 
-%<o_sg1%>                         !
-%<o_sg2%>                         !
-%<o_sg3%>
-%<o_pl1%>                         !
-%<o_pl2%>                         !
-%<o_pl3%>                         !
+%<o_sg1%>            !
+%<o_sg2%>            !
+%<o_sg3%>            !
+%<o_pl1%>            !
+%<o_pl2%>            !
+%<o_pl3%>            !
 
-%<s_sg1%>                         !
-%<s_sg2%>                         !
-%<s_sg3%>
-%<s_pl1%>                         !
-%<s_pl2%>                         !
-%<s_pl3%>                         !
+%<s_sg1%>            !
+%<s_sg2%>            !
+%<s_sg3%>            !
+%<s_pl1%>            !
+%<s_pl2%>            !
+%<s_pl3%>            !
 
 %<px1sg%>            ! First person singular possessive
 %<px2sg%>            ! Second person singular possessive
@@ -94,31 +96,31 @@ Multichar_Symbols
 %<px2pl%>            ! First person singular possessive
 %<px3pl%>            ! First person singular possessive
 
-%<cm%>
-%<guio%>
-%<lpar%>
-%<lquest%>
-%<lquot%>
-%<rpar%>
-%<rquot%>
-%<percent%>                         !
-%<sent%>
+%<cm%>               ! Coma
+%<guio%>             ! Guión
+%<lpar%>             !
+%<lquest%>           !
+%<lquot%>            !
+%<rpar%>             !
+%<rquot%>            !
+%<percent%>          ! Porcentaje
+%<sent%>             !
 
-@D.Poss@
-@D.SS@
-@P.SS.Dep@
-@P.Pref.ON@
-@P.Poss.None@
-@R.Pref.ON@
-@R.Poss.None@
-@U.SS.Dep@
-@U.SS.Ind@
-@U.VAL.1@
-@U.VAL.2@
-@R.SS@
-@P.AGR.A@
-@P.AGR.B@
-@D.AGR.B@
+@D.AGR.B@            !
+@P.AGR.A@            !
+@P.AGR.B@            !
+@P.Pref.ON@          !
+@R.Pref.ON@          !
+@D.Poss@             !
+@P.Poss.None@        !
+@R.Poss.None@        !
+@D.SS@               !
+@P.SS.Dep@           !
+@R.SS@               !
+@U.SS.Dep@           !
+@U.SS.Ind@           !
+@U.VAL.1@            !
+@U.VAL.2@            !
 
 
 %{n%}                ! n / 0
@@ -971,7 +973,7 @@ tzalaj:tzalaj Rel ;
 tzalaj:tzal Rel ;  ! "al lado" ! Src/ALMG ! Src/Biblia
 jujunal:jujunal Rel ;              !
 
-! The reflexive marker –ibʼ  occurs also in nouns. 
+! The reflexive marker –ibʼ  occurs also in nouns.
 ! It does not take possessive markers if it is not possessed.
 ibʼ:ibʼ Rel ;                      ! ""
 ibʼ%<n%>%<rel%>:ibʼ # ;            ! ""
@@ -1010,8 +1012,8 @@ ki%<prn%>:ki # ;
 
 !  These ri/le/we articles also serve as relative pronouns
 ri%<prn%>%<rel%>:ri # ;               ! "" ! ri ixoq ri xpe Chwitzʼaq xulik
-we%<prn%>%<rel%>:we # ;               ! "" 
-le%<prn%>%<rel%>:le # ;               ! "" 
+we%<prn%>%<rel%>:we # ;               ! ""
+le%<prn%>%<rel%>:le # ;               ! ""
 
 LEXICON Cardinals
 
@@ -4827,10 +4829,10 @@ Nahuala:Nahuala NP-Top ;
 EE%.UU%.:EE%.UU%. NP-Top ;
 
 Juʼl:Juʼl NP-Ant-M ;
-Peʼl:Peʼl NP-Ant-M ; 
+Peʼl:Peʼl NP-Ant-M ;
 
 Chwikabʼyok:Chwikabʼyok NP-Top ;
-Chwikabʼyok:Chwikabyok NP-Top ; 
+Chwikabʼyok:Chwikabyok NP-Top ;
 Qʼantel:Qʼantel NP-Top ;
 Xoʼl:Xoʼl NP-Top ;
 Trix:Trix NP-Top ;
@@ -5312,71 +5314,71 @@ Chikabʼraqan:Chikabʼraqan NP-Top ; !  ""
 Xechpup:Xechpup NP-Top ; ! ""
 Xeʼwenabʼaj:Xeʼwenabʼaj NP-Top ; ! ""
 
-Tiro:Tiro NP-Top ; 
-Pretoriʼo:Pretoriʼo NP-Ant-M ; 
-Omega:Omega NP-Al ; 
-Alfa:Alfa NP-Al ; 
-Troada:Troada NP-Top ; 
-Tiʼatira:Tiʼatira NP-Top ; 
-Teʼofilo:Teʼofilo NP-Ant-M ; 
-Tertulo:Tertulo NP-Ant-M ; 
-Sostenes:Sostenes NP-Ant-M ; 
-Sikem:Sikem NP-Top ; 
-Seʼus:Seʼus NP-Ant-M ; 
-Selotes:Selotes NP-Al ; 
-Seleʼusiʼa:Seleʼusiʼa NP-Top ; 
-Salmon:Salmon NP-Ant-M ; 
-Sadok:Sadok NP-Ant-M ; 
-Rufo:Rufo NP-Ant-M ; 
-Pubʼliʼo:Pubʼliʼo NP-Ant-M ; 
-Prissila:Prissila NP-Ant-F ; 
-Pisidiʼa:Pisidiʼa NP-Top ; 
-Perge:Perge NP-Top ; 
-Pergamo:Pergamo NP-Top ; 
-Paraʼiso:Paraʼiso NP-Top ; 
-Pafos:Pafos NP-Top ; 
-Osiʼas:Osiʼas NP-Ant-M ; 
-Onesiforo:Onesiforo NP-Ant-M ; 
-Nasoreʼo:Nasoreʼo NP-Top ; 
-Nasareʼo:Nasareʼo NP-Top ; 
-Misiʼa:Misiʼa NP-Top ; 
-Mesiʼas:Mesiʼas NP-Al ; 
-Mattan:Mattan NP-Ant-M ; 
-Matiʼas:Matiʼas NP-Ant-M ; 
-Lusiʼo:Lusiʼo NP-Ant-M ; 
-Lidiʼa:Lidiʼa NP-Ant-F ; 
-Krispo:Krispo NP-Ant-M ; 
-Kleʼofas:Kleʼofas NP-Ant-M ; 
-Juliʼo:Juliʼo NP-Ant-M ; 
-Joʼatam:Joʼatam NP-Ant-M ; 
-Josuʼe:Josuʼe NP-Ant-M ; 
-Josiʼas:Josiʼas NP-Ant-M ; 
-Josafat:Josafat NP-Ant-M ; 
-Joram:Joram NP-Ant-M ; 
-Jesse:Jesse NP-Ant-M ; 
-Jekoniʼas:Jekoniʼas NP-Ant-M ; 
-Jaʼiro:Jaʼiro NP-Ant-M ; 
-Jaran:Jaran NP-Top ; 
-Ikonyo:Ikonyo NP-Top ; 
-Himeneʼo:Himeneʼo NP-Ant-M ; 
-Hermes:Hermes NP-Ant-M ; 
-Gabʼriʼel:Gabʼriʼel NP-Ant-M ; 
-Filadelfiʼa:Filadelfiʼa NP-Top ; 
-Esmirna:Esmirna NP-Top ; 
-Esekiʼas:Esekiʼas NP-Ant-M ; 
-Eliʼud:Eliʼud NP-Ant-M ; 
-Eli:Eli NP-Ant-M ; 
-Eleʼasar:Eleʼasar NP-Ant-M ; 
-Dorkas:Dorkas NP-Ant-F ; 
-Bʼereʼa:Bʼereʼa NP-Top ; 
-Bʼarsabʼas:Bʼarsabʼas NP-Ant-M ; 
-Aʼeropago:Aʼeropago NP-Top ; 
-Asor:Asor NP-Ant-M ; 
-Aser:Aser NP-Al ; 
-Asaf:Asaf NP-Ant-M ; 
-Arkipo:Arkipo NP-Ant-M ; 
-Aram:Aram NP-Ant-M ; 
-Amon:Amon NP-Ant-M ; 
+Tiro:Tiro NP-Top ;
+Pretoriʼo:Pretoriʼo NP-Ant-M ;
+Omega:Omega NP-Al ;
+Alfa:Alfa NP-Al ;
+Troada:Troada NP-Top ;
+Tiʼatira:Tiʼatira NP-Top ;
+Teʼofilo:Teʼofilo NP-Ant-M ;
+Tertulo:Tertulo NP-Ant-M ;
+Sostenes:Sostenes NP-Ant-M ;
+Sikem:Sikem NP-Top ;
+Seʼus:Seʼus NP-Ant-M ;
+Selotes:Selotes NP-Al ;
+Seleʼusiʼa:Seleʼusiʼa NP-Top ;
+Salmon:Salmon NP-Ant-M ;
+Sadok:Sadok NP-Ant-M ;
+Rufo:Rufo NP-Ant-M ;
+Pubʼliʼo:Pubʼliʼo NP-Ant-M ;
+Prissila:Prissila NP-Ant-F ;
+Pisidiʼa:Pisidiʼa NP-Top ;
+Perge:Perge NP-Top ;
+Pergamo:Pergamo NP-Top ;
+Paraʼiso:Paraʼiso NP-Top ;
+Pafos:Pafos NP-Top ;
+Osiʼas:Osiʼas NP-Ant-M ;
+Onesiforo:Onesiforo NP-Ant-M ;
+Nasoreʼo:Nasoreʼo NP-Top ;
+Nasareʼo:Nasareʼo NP-Top ;
+Misiʼa:Misiʼa NP-Top ;
+Mesiʼas:Mesiʼas NP-Al ;
+Mattan:Mattan NP-Ant-M ;
+Matiʼas:Matiʼas NP-Ant-M ;
+Lusiʼo:Lusiʼo NP-Ant-M ;
+Lidiʼa:Lidiʼa NP-Ant-F ;
+Krispo:Krispo NP-Ant-M ;
+Kleʼofas:Kleʼofas NP-Ant-M ;
+Juliʼo:Juliʼo NP-Ant-M ;
+Joʼatam:Joʼatam NP-Ant-M ;
+Josuʼe:Josuʼe NP-Ant-M ;
+Josiʼas:Josiʼas NP-Ant-M ;
+Josafat:Josafat NP-Ant-M ;
+Joram:Joram NP-Ant-M ;
+Jesse:Jesse NP-Ant-M ;
+Jekoniʼas:Jekoniʼas NP-Ant-M ;
+Jaʼiro:Jaʼiro NP-Ant-M ;
+Jaran:Jaran NP-Top ;
+Ikonyo:Ikonyo NP-Top ;
+Himeneʼo:Himeneʼo NP-Ant-M ;
+Hermes:Hermes NP-Ant-M ;
+Gabʼriʼel:Gabʼriʼel NP-Ant-M ;
+Filadelfiʼa:Filadelfiʼa NP-Top ;
+Esmirna:Esmirna NP-Top ;
+Esekiʼas:Esekiʼas NP-Ant-M ;
+Eliʼud:Eliʼud NP-Ant-M ;
+Eli:Eli NP-Ant-M ;
+Eleʼasar:Eleʼasar NP-Ant-M ;
+Dorkas:Dorkas NP-Ant-F ;
+Bʼereʼa:Bʼereʼa NP-Top ;
+Bʼarsabʼas:Bʼarsabʼas NP-Ant-M ;
+Aʼeropago:Aʼeropago NP-Top ;
+Asor:Asor NP-Ant-M ;
+Aser:Aser NP-Al ;
+Asaf:Asaf NP-Ant-M ;
+Arkipo:Arkipo NP-Ant-M ;
+Aram:Aram NP-Ant-M ;
+Amon:Amon NP-Ant-M ;
 Xwan:Wxan NP-Ant-M ;  ! Use/Spell ! Src/Biblia
 
 
@@ -7452,7 +7454,7 @@ kʼextaj:kʼextaj                    V-IV   ; ! "become changed, transformed"
 kʼiaq:kʼiaq                        V-IV   ; ! "shoot"
 kʼiaqat:kʼiaqat                    V-IV   ; ! "bite (insect)"
 kʼiar:kʼiar                        V-IV   ; ! "increase in number"
-kʼis:kʼis                          V-IV   ; ! "terminar; end" 
+kʼis:kʼis                          V-IV   ; ! "terminar; end"
 kʼiskʼobʼ:kʼiskʼob                  V-IV   ; ! "smoke (a pan on the fire)"
 kʼix:kʼix                          V-IV   ; ! "be embarassed"
 kʼiy:kʼiy                          V-IV   ; ! "grow (corn plants)"
