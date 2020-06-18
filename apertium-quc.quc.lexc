@@ -584,6 +584,7 @@ LEXICON IV-NONFIN
 @D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
 @D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>%{V%}m                # ;
 @D.SS@%<pp%>:@D.SS@%>inaq                                     # ;
+@D.SS@%<pp%>:@D.SS@%>naq                                     # ; ! Use/Spell ! Src/UDHR
 
 LEXICON TV-R-VAL
 
@@ -811,7 +812,7 @@ chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>ech  # ;  ! ""
 chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>r%>ech  # ;  ! "" ! Src/Biblia
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>q%>ech # ;  ! ""
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:chi%>q%>ech # ;  ! ""
-chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>w%>ech # ;  ! ""
+chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:ch%>iw%>ech # ;  ! ""
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>k%>ech  # ;  ! ""
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chi%>k%>ech  # ;  ! "" ! Src/Cuentos
 
@@ -819,7 +820,7 @@ chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>w%>e # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>e # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>:ch%>e  # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>q%>e # ;  ! "" ! Src/UTexas
-chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:chi%>w%>e # ;  ! "" ! Src/UTexas
+chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:ch%>iw%>e # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:ch%>k%>e  # ;  ! "" ! Src/UTexas
 chi%<pr%>%+%<px3pl%>ech%<n%>%<rel%>:chi%>k%>e  # ;  ! "" ! Src/Cuentos
 
@@ -1085,12 +1086,12 @@ alabʼ:alab N-alit ;                 ! "muchacho; man"
 
 altom:altom N-iyom ;               ! "muchacha"
 teem:teem N-ixoq ;                 ! "silla; chair"
-wuj:wuuj N-ixoq ;                 ! "papel; paper"
+wuj:wuuj N-ixoq ;                 ! "papel; paper" ! Use/Long
 wuj:wuj N-ixoq ;                  ! "libro; book"
 ajaw:ajaw N-ixoq ;                 ! "; owner"
 ajaw:ajaw N-iyom ;                 ! "; owner" ! Use/Spell ! Src/Biblia
 chuchqajaw:chuchqajaw N-ixoq ;     ! "sacerdote;"
-siʼ:siiʼ N-ixoq ;                 ! "leña; firewood"
+siʼ:siiʼ N-ixoq ;                 ! "leña; firewood" ! Use/Long
 siʼ:siʼ N-ixoq ;                  ! "firewood"
 
 tzij:tzij N-alit ;                 ! "palabra, cuento; word, story"
@@ -1099,7 +1100,8 @@ qʼatojtzij:qʼatojtzij N-alit ;     ! "; " ! Src/Biblia
 qʼaxeltzij:qʼaxeltzij N-alit ;     ! "mediador; " ! Src/Biblia
 qʼataltzij:qʼataltzij N-alit ;     ! "; " ! Src/Biblia
 qʼatbʼaltzij:qatbʼaltzij N-alit ; ! "gobernador; alcalde; law, courthouse, judge, government, verdict"
-qʼatbʼaltzij:qʼatbʼaltzij N-alit ; ! "gobernador; alcalde; law, courthouse, judge, government, verdict"
+qʼatbʼaltzij:qʼatbʼaltzij N-alit ; ! "gobernador; alcalde; law, courthouse, judge, government, verdict" ! Use/Spell
+qʼatbʼaltzij:qʼatabʼaltzij N-alit ; ! "gobernador; alcalde; law, courthouse, judge, government, verdict" ! Src/UDHR ! Use/Spell
 winaq:winaq N-ixoq ;               ! "persona; person, people"
 chak:chak N-chak ;                 ! "trabajo; work"
 imul:imul N-imul ;                 ! "conejo; rabbit"
@@ -6141,11 +6143,13 @@ suche:suche Ad-jampaʼ ;            ! "por qué; why"
 teʼ:te Ad-aninaq ;
 teʼ:teʼ Ad-aninaq ;
 
-xuqujeʼ:xuqujeʼ Ad-aninaq ;            ! "también; also"                                       ! FIXME: Comprueba categoría
-xuqeʼ:xuqeʼ Ad-aninaq ;                ! FIXME: Comprueba categoría
-xuquje:xuquje Ad-aninaq ;                ! FIXME: Comprueba categoría
 xuq:xuq Ad-aninaq ;                    ! FIXME: Comprueba categoría
 xuqe:xuqe Ad-aninaq ;                  ! FIXME: Comprueba categoría
+xuqeʼ:xuqeʼ Ad-aninaq ;                ! FIXME: Comprueba categoría
+xuquje:xuquje Ad-aninaq ;                ! FIXME: Comprueba categoría
+xuqujeʼ:xuqujeʼ Ad-aninaq ;            ! "también; also"                                       ! FIXME: Comprueba categoría
+xuqujʼe:xoqujeʼ Ad-aninaq ;        ! "also"
+xuqujʼe:xuqujʼe Ad-aninaq ;        ! "also"
 
 xa:xa Ad-aninaq ;  ! "sólo"
 xu:xu Ad-aninaq ;  ! "únicamente, sólo"
@@ -6170,10 +6174,10 @@ aninäq:aninäq  Ad-aninaq ; ! "rápidamente; hurriedly, immediately, on time, r
 utz:utz Ad-aninaq ;                ! "bien; well"
 ojer:ojeer Ad-aninaq ;            ! "hace tiempo; long time"
 ojer:ojer Ad-aninaq ;            ! "hace tiempo; long time"
-iwir:iwiir Ad-aninaq ;            ! "ayer; yesterday"
+iwir:iwiir Ad-aninaq ;            ! "ayer; yesterday" ! Use/Long
 iwir:iwir Ad-aninaq ;            ! "ayer; yesterday"
 chweʼq:chweʼq Ad-aninaq ;          ! "mañana; tomorrow"
-kamiik:kamiik Ad-aninaq ;          ! "hoy; today"
+kamiik:kamiik Ad-aninaq ;          ! "hoy; today" ! Use/Long
 kamik:kamik Ad-aninaq ;            ! "hoy; today" ! Src/UTexas
 weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
 weneʼ:wene Ad-aninaq ;             ! "tal vez; perhaps" ! Src/Wiki
@@ -6181,9 +6185,7 @@ tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
 aretaq:aretaq Ad-aninaq ;          ! "when, while"
 aretaq:aretäq Ad-aninaq ;          ! "when, while"
 are:are Ad-aninaq ;                ! "when, while"
-are:aare Ad-aninaq ;                ! "when, while"
-xuqujʼe:xuqujʼe Ad-aninaq ;        ! "also"
-xuqujʼe:xoqujeʼ Ad-aninaq ;        ! "also"
+are:aare Ad-aninaq ;                ! "when, while" ! Use/Long
 chanim:chanim Ad-aninaq ;          ! "right now, rapidly"
 waral:waral Ad-aninaq ;            ! "here"
 jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
@@ -7797,6 +7799,7 @@ siksit:siksit                      V-IV   ; ! "tremble (hand, body)"
 sikʼ:sikʼ                          V-IV   ; ! "pick up"
 sikʼin:sikʼin                      V-IV   ; ! "moan"
 sikʼix:sikʼix                      V-IV   ; ! "be called"
+!sikʼital:sikʼital                  V-IV   ; ! "invitar"
 sikʼow:sikʼow                      V-IV   ; ! "lay eggs (hen)"
 silan:silan                        V-IV   ; ! "calm"
 silil:silil                        V-IV   ; ! "get goose bumps"

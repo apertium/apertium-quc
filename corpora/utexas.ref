@@ -240,7 +240,7 @@
 # text[spa] = ¡Buenas noches!
 # labels = tijonik-3 complete
 ^Xok/<perf><s_sg3>ok<v><iv>$
-^aqʼabʼ/<px2sg>qʼabʼ<n>$
+^aqʼabʼ/aqʼäbʼ<n>$
 ^!/!<sent>$
 
 # sent_id = utexas:26
@@ -3408,7 +3408,7 @@
 ^ta/taj<neg>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
-^aqʼabʼ/<px2sg>qʼabʼ<n>$
+^aqʼabʼ/aqʼabʼ<adv>$
 ^kabʼek/<impf><s_sg3>bʼe<v><iv>+ik<mark>$
 ^,/,<cm>$
 ^maj/maj<part><neg>$
