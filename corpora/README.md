@@ -70,8 +70,8 @@ sentences.
 3. Location: “she is in the bathroom”
    - k'o Subj Pred
 4. Possession: “the book is hers”
-   - k'o Subj.Poss (Pred)
+   - k'o/maj Subj.Poss (Pred)
 5. Benefaction: “the book is for her”
-   - 
+   - ...
 6. Existence: “there is food (in the kitchen)”
-   - k'o Subj (Pred)
+   - k'o/maj Subj (Pred)
