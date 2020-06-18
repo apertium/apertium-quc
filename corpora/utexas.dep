@@ -52,19 +52,19 @@
 # sent_id = utexas:4
 # text = La kʼo na kikʼoxomaj taj?
 # text[eng] = Is there something you all donʼt understand?
-# labels = tijonik-2 incomplete
+# labels = tijonik-2 complete
 "<La>"
-	"la" qst @discourse
+	"la" qst @discourse #1->2
 "<kʼo>"
-	"kʼo" part
+	"kʼo" part @root #2->0
 "<na>"
-	"na" neg @aux:neg
+	"na" neg @aux:neg #3->4
 "<kikʼoxomaj>"
-	"kʼoxomaj" v tv impf o_sg3 s_pl2 
+	"kʼoxomaj" v tv impf o_sg3 s_pl2 @csubj #4->2
 "<taj>"
-	"taj" neg fin @aux:neg
+	"taj" neg fin @aux:neg #5->4
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #6->2
 
 # sent_id = utexas:5
 # text = La kʼo tzij na kikʼoxomaj taj?
@@ -752,19 +752,19 @@
 # text[spa] = (Yo) estoy en la última fila
 # labels = tijonik-6 incomplete
 "<In>"
-	"in" prn pro p1 sg @aux 
+	"in" prn pro p1 sg @aux #1->2
 "<kʼo>"
-	"kʼo" part @root
+	"kʼo" part @root #2->0
 "<pa>"
-	"pa" pr @case
+	"pa" pr @case #3->5
 "<le>"
-	"le" det @det
+	"le" det @det #4->5
 "<ukʼisbʼal>"
-	"kʼisbʼal" n px3sg @obl
+	"kʼisbʼal" n px3sg @obl #5->2
 "<cholaj>"
-	"cholaj" n @nmod:poss
+	"cholaj" n @nmod:poss #6->5
 "<.>"
-	"." sent @punct
+	"." sent @punct #7->2
 
 # sent_id = utexas:50
 # text = E kʼo kebʼ ukʼajol le tat Xwan
