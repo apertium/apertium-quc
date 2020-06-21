@@ -16,13 +16,15 @@ TARGETS_COMMON =			\
 	$(LANG1).autoseg.bin		\
 	$(LANG1).rlx.bin
 
+TARGETS_INTERMEDIATE = $(LANG1).mor.hfst $(LANG1).seg.hfst $(LANG1).gen.hfst
+
 # This include defines goals for install-modes, .deps/.d and .mode files:
 @ap_include@
 
 ###############################################################################
 
-quc.automorf.hfst: quc.mor.hfst 
-	hfst-fst2fst -w $< -o $@
+quc.automorf.hfst: quc.mor.hfst quc.spellrelax.hfst
+	hfst-invert $< |  hfst-compose -F -1 - -2 quc.spellrelax.hfst  | hfst-invert | hfst-fst2fst -w -o $@
 
 quc.autogen.hfst: quc.gen.hfst
 	hfst-fst2fst -w $< -o $@
@@ -30,8 +32,8 @@ quc.autogen.hfst: quc.gen.hfst
 quc.autoseg.hfst: quc.seg.hfst 
 	hfst-fst2fst -w $< -o $@
 
-quc.mor.hfst: quc.gen.hfst quc.mor.twol.hfst quc.spellrelax.hfst
-	hfst-compose-intersect -1 quc.gen.hfst -2 quc.mor.twol.hfst | hfst-compose -F -1 - -2 quc.spellrelax.hfst | hfst-invert -o $@
+quc.mor.hfst: quc.gen.hfst quc.mor.twol.hfst
+	hfst-compose-intersect -1 quc.gen.hfst -2 quc.mor.twol.hfst | hfst-invert -o $@
 
 # <impf><o_pl1><s_pl3>tʼis<v><tv>+o<mark>:k>oj>ki>tʼis>o
 quc.gen.hfst: quc.lexc.hfst quc.twol.hfst
@@ -121,7 +123,7 @@ install-data-local: install-modes
 ## Cleanup
 ###############################################################################
 
-CLEANFILES = $(TARGETS_COMMON)
+CLEANFILES = $(TARGETS_COMMON) $(TARGETS_INTERMEDIATE)
 clean-local:
 	-rm -rf .deps modes
 
