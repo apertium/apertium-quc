@@ -115,7 +115,7 @@ SELECT Adv IF (0 Sibʼalaj) (1C A) ;
 REMOVE Pr IF (-1C Ri) ;
     ## Xujkʼojiʼ chi uchiʼ ri cho.
 
-REMOVE A IF (-1C Ri) (NOT 1 N) ;
+REMOVE A IF (-1C Ri) (NOT 1 N OR Pl LINK 1 N) ;
     ## Xujkʼojiʼ chi uchiʼ ri cho.
 
 REMOVE CS IF (0 Chi) (NEGATE 1* V) ;

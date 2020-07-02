@@ -1122,7 +1122,8 @@ etanel:etanel N-iyom ;             ! "medidor; measurer"
 etzʼanel:etzʼanel N-iyom ;         ! "jugador; player"
 pixabʼanel:pixabʼanel N-iyom ;     ! "consejero; adviser"
 tobʼanel:tobʼanel N-iyom ;         ! "ayudante"
-ajchʼoʼj:ajchʼoʼj N-iyom ;         ! "peleador; fighter"
+ajchʼoʼj:ajchʼoʼj N-iyom ;         ! "peleador, soldado; fighter"
+ajchʼoʼj:ajchʼoj N-iyom ;         ! "soldado" ! Src/Biblia
 kunanel:kunanel N-iyom ;           ! "curandero; medicine man"
 ajkunanel:ajkunanel N-iyom ;       ! "curandero; medicine man" ! Src/Cuentos
 muqunel:muqunel N-iyom ;           ! "quienes entierran; who bury, evil witch"

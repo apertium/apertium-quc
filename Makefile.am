@@ -10,6 +10,7 @@ TARGETS_COMMON =			\
 	$(LANG1).automorf.bin		\
 	$(LANG1).automorf.att.gz	\
 	$(LANG1).autogen.hfst		\
+	$(LANG1).autophon.hfst		\
 	$(LANG1).autogen.bin		\
 	$(LANG1).autogen.att.gz		\
 	$(LANG1).autoseg.hfst		\
@@ -52,6 +53,13 @@ quc.mor.twol.hfst: apertium-quc.quc.mor.twol
 # kojkitʼiso:k>oj>ki>tʼis>o
 quc.seg.hfst: quc.mor.hfst quc.gen.hfst
 	hfst-compose -F -1 quc.mor.hfst -2 quc.gen.hfst -o quc.seg.hfst 
+
+quc.phon.hfst: apertium-quc.quc.phon
+	hfst-regexp2fst -S apertium-quc.quc.phon | hfst-repeat -o quc.phon.hfst
+
+quc.autophon.hfst: quc.mor.hfst quc.phon.hfst
+	hfst-fst2fst -w quc.phon.hfst -o quc.autophon.hfst
+#	hfst-project -p upper quc.mor.hfst | hfst-compose -1 - -2 quc.phon.hfst | hfst-fst2fst -w -o quc.autophon.hfst
 
 quc.spellrelax.hfst: apertium-quc.quc.spellrelax 
 	hfst-regexp2fst -S -o $@ < $<
