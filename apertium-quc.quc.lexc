@@ -4021,6 +4021,7 @@ uwosaq:uwosaq N-tinamit ; ! "mountain without people"
 uwotziʼ:uwotziʼ N-tinamit ; ! "plant used as soap"
 ux:ux N-tinamit ; ! "breeze"
 uxlabʼal:uxlabal N-tinamit ; ! "spirit"
+uxlabʼal:uxlabʼ N-tinamit ; ! "spirit"
 !uxlanabal qʼij:uxlanabal qʼij N-tinamit ; ! "Day of Rest"
 uxlanem:uxlanem N-tinamit ; ! "rest"
 !uxlanibal kʼuxaj:uxlanibal kʼuxaj N-tinamit ; ! "peace of the soul"
@@ -4835,6 +4836,8 @@ EE%.UU%.:EE%.UU%. NP-Top ;
 
 Juʼl:Juʼl NP-Ant-M ;
 Peʼl:Peʼl NP-Ant-M ;
+
+Paʼtz:Paʼtz NP-Ant-M ;
 
 Chwikabʼyok:Chwikabʼyok NP-Top ;
 Chwikabʼyok:Chwikabyok NP-Top ;
@@ -5821,7 +5824,8 @@ qʼakoj:qʼakoj A-saq ; ! "pale brown"
 qʼalaj:qʼalaj A-saq ; ! "clear"
 qʼalajisam:qʼalajisam A-saq ; ! "declared"
 qʼalum:qʼalum A-saq ; ! "embraced"
-qʼän:qʼän A-saq ; ! "yellow"
+qʼän:qʼän A-saq ; ! "amarillo; yellow"
+qʼän:qʼan A-saq ; ! "amarillo; yellow" ! Src/Cuentos
 qʼänarik:qʼänarik A-saq ; ! "scorched (cloth from iron)"
 qʼänkoj:qʼänkoj A-saq ; ! "light yellow"
 qʼänpuʼr:qʼänpuʼr A-saq ; ! "yellowish or tan from dirt (shirt, wall)"
@@ -5830,6 +5834,7 @@ qʼatejinaq:qʼatejinaq A-saq ; ! "obstructed"
 qʼatom:qʼatom A-saq ; ! "cut (hay, wheat)"
 qʼayinaq:qʼayinaq A-saq ; ! "spoiled"
 qʼeʼlik:qʼeʼlik A-saq ; ! "fallen over (tree in road)"
+qʼeqqʼoj:qʼeqqʼoj A-saq ; ! "prieto"
 qʼin:qʼin A-saq ; ! "near death (person)"
 qʼinom:qʼinom A-saq ; ! "rich"
 qʼiptajinaq:qʼiptajinaq A-saq ; ! "broken in two (something hard like stick)"
