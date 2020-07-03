@@ -5834,7 +5834,8 @@ qʼatejinaq:qʼatejinaq A-saq ; ! "obstructed"
 qʼatom:qʼatom A-saq ; ! "cut (hay, wheat)"
 qʼayinaq:qʼayinaq A-saq ; ! "spoiled"
 qʼeʼlik:qʼeʼlik A-saq ; ! "fallen over (tree in road)"
-qʼeqqʼoj:qʼeqqʼoj A-saq ; ! "prieto"
+qʼeqqʼoj:qʼeqqʼoj A-saq ; ! "prieto" ! Src/ALMG
+qʼeqqʼoj:qʼeqoj A-saq ; ! "prieto" ! Src/Cuentos
 qʼin:qʼin A-saq ; ! "near death (person)"
 qʼinom:qʼinom A-saq ; ! "rich"
 qʼiptajinaq:qʼiptajinaq A-saq ; ! "broken in two (something hard like stick)"
