@@ -578,6 +578,8 @@ LEXICON TV-ANTI-NONFIN
 
 @D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>ik                    # ;
 @D.AGR.B@@D.SS@%<inf%>:@D.AGR.B@@D.SS@%>em                    # ;
+@D.SS@%<pp%>:@D.SS@%>inaq                                     # ;
+@D.SS@%<pp%>:@D.SS@%>naq                                     # ; ! Use/Spell ! Src/UDHR
 
 LEXICON IV-NONFIN
 
@@ -6441,7 +6443,7 @@ chʼaʼ:chʼaʼ                        V-TV-R ; ! "quejar; complain"
 chʼekenej:chʼekene                 V-TV-D ; ! "reward"
 chʼemij:chʼemi                     V-TV-D ; ! "break (pot)"
 chʼetetej:chʼetete                 V-TV-D ; ! "pour out something"
-chʼij:chʼi                         V-TV-D ; ! "endure"
+chʼij:chʼij                        V-TV-R ; ! "endure"
 chʼik:chʼik                        V-TV-R ; ! "poke with a needle"
 chʼikimij:chʼikimi                 V-TV-D ; ! "push"
 chʼikimej:chʼikime                 V-TV-D ; ! "atropellar"
@@ -8146,6 +8148,7 @@ yux:yux                            V-IV   ; ! "become crestfallen"
 yuxkut:yuxkut                      V-IV   ; ! "spy"
 yuxkʼat:yuxkʼat                    V-IV   ; ! "nod (with sleep)"
 yuxy:yuxy                          V-IV   ; ! "silence (a baby)"
+woʼq:woʼq                          V-IV   ; ! "comer; eat"
 
 !LEXICON V-POS
 !

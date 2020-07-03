@@ -102,7 +102,9 @@ REMOVE Days ;
 
 SELECT Dir IF (-1 V) ;
 
-SELECT Rel IF (0 Rel) (1C FIN OR Aux LINK 1 FIN) ;
+SELECT Rel IF (0 Rel) (1C FIN) ;
+
+SELECT Rel IF (1C Aux LINK 1 FIN) ;
 
 REMOVE Pro IF (NEGATE 1* V) ;
 
@@ -119,6 +121,9 @@ REMOVE A IF (-1C Ri) (NOT 1 N OR Pl LINK 1 N) ;
     ## Xujkʼojiʼ chi uchiʼ ri cho.
 
 REMOVE CS IF (0 Chi) (NEGATE 1* V) ;
+
+SELECT N IF (-1 Det) (0C A OR N) (NOT 1 N OR Pl) ;
+    ## Ri at, chachʼijaʼ bʼaʼ ri kʼax jeriʼ jas ronojel winaq che rajchʼoj ri Kristo Jesus.
 
 SECTION 
 
