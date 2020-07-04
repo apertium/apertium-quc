@@ -9,6 +9,7 @@ LIST Prop = np ;
 LIST Num = num ;
 LIST Pr = pr ;
 LIST Adv = adv ;
+LIST Qst = qst ;
 LIST V = v ; 
 LIST Det = det ;
 LIST Pron = prn ;
@@ -47,14 +48,30 @@ LIST Dir = dir ;
 LIST @det = @det ;
 LIST @acl = @acl ;
 
+LIST Ajpu = "Ajpu" ;
 LIST In = "in" ; 
 LIST Chi = "chi" ;
 LIST Jun = "jun" ;
+LIST La = "la" ;
 LIST Ri = "ri" ;
 LIST We = "we" ; 
 LIST Kan = "<kan>" ;
 LIST Tzij = "tzij" ;
 LIST Sibʼalaj = "sibʼalaj" ;
+
+LIST Sg1S = s_sg1 ;
+LIST Sg2S = s_sg2 ;
+LIST Sg3S = s_sg3 ;
+LIST Pl1S = s_pl1 ;
+LIST Pl2S = s_pl2 ;
+LIST Pl3S = s_pl3 ;
+
+LIST Sg1O = o_sg1 ;
+LIST Sg2O = o_sg2 ;
+LIST Sg3O = o_sg3 ;
+LIST Pl1O = o_pl1 ;
+LIST Pl2O = o_pl2 ;
+LIST Pl3O = o_pl3 ;
 
 LIST Days = "Aj" "Ajmak" "Aqʼabal" "Batzʼ" "Imox" "Iqʼ" "Ix" "Junajpu" "Kame" "Kan" "Kaweq" "Kej" "Kʼat" "Noʼj" "Qʼanil" "Tijax" "Toj" "Tzʼikin" "Tzʼiʼ"  ;
 
@@ -63,6 +80,10 @@ SET NOMINAL = N | Prop ;
 SET FIN = Impf | Perf ;
 
 SET NP-INTERNAL = Det | N | A | Adv | Num ;
+
+SET AGR-S = Sg1S | Sg2S | Sg3S | Pl1S | Pl2S | Pl3S ;
+
+SET AGR-O = Sg1O | Sg2O | Sg3O | Pl1O | Pl2O | Pl3O ;
 
 SECTION
 
@@ -125,7 +146,22 @@ REMOVE CS IF (0 Chi) (NEGATE 1* V) ;
 SELECT N IF (-1 Det) (0C A OR N) (NOT 1 N OR Pl) ;
     ## Ri at, chachʼijaʼ bʼaʼ ri kʼax jeriʼ jas ronojel winaq che rajchʼoj ri Kristo Jesus.
 
+REMOVE V IF (0 V OR N) (-1C Det) (1 FIN) ;
+    ## Ri kinan xubʼij chike: 
+
+REMOVE Prop IF (0 Jun) (NOT 1 Ajpu) (NOT 1 Jun LINK 1 Ajpu) ;
+
+REMOVE Clf (NOT 1 NOMINAL) ;
+
 SECTION 
+
+REMOVE $$AGR-S IF (-1C AGR-S - $$AGR-S) ;
+
+SELECT N IF (-1C Det) (0C N OR FIN) ;
+
+SELECT Qst IF (0 La) ;
+
+REMOVE Prop IF (0 Jun) ;
 
 REMOVE Rel IF (0 Rel) ;
 

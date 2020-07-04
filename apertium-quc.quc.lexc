@@ -186,7 +186,7 @@ uj%<prn%>%<pro%>%<p1%>%<pl%>%+:uj%> Subst ;
 ix%<prn%>%<pro%>%<p2%>%<pl%>%+:ix%> Subst ;
 e%<prn%>%<pro%>%<p3%>%<pl%>%+:e%{ʼ%}%> Subst ;
 
-!e%<pl%>%+:e%{ʼ%}%> Subst ;
+e%<pl%>%+:e%{ʼ%}%> Subst ;
 
 LEXICON Subst
 
@@ -1177,6 +1177,8 @@ mul:mul N-tinamit ;                ! "time, furrow, anthill, mound"
 jumul:jumul N-tinamit ;            ! "one time, once, noise"
 nan¹:nan N-nan ;                    ! "lady, maʼam, mother"
 nan²:nan N-tinamit ;                ! "lady" ! Src/Cuentos
+chaqʼ¹:chaqʼ N-nan ;                ! "hermano menor"
+chaqʼ²:chaqʼ N-tinamit ;                ! "hermano menor"
 ali:ali N-tinamit ;                ! "young girl"
 juperaj:juperaj N-tinamit ;        ! "one side"
 sikʼin:sikʼin N-tinamit ;          ! "guest, invited visitor"
@@ -3032,7 +3034,6 @@ pajanik:pajanik N-tinamit ; ! "weight"
 pajbʼal:pajbal N-tinamit ; ! "weight"
 pakʼ:pakʼ N-tinamit ; ! "ladel, dipper"
 paleʼt:paleʼt N-tinamit ; ! "shovel"
-palomäx:palomäx N-tinamit ; ! "pigeon"
 !-pam atzʼiaq:-pam atzʼiaq N-tinamit ; ! "undergarments"
 !-pam -kʼalkʼax:-pam -kʼalkʼax N-tinamit ; ! "armpit"
 !-pam -qʼab:-pam -qʼab N-tinamit ; ! "palm of the hand"
@@ -3449,7 +3450,8 @@ roxox:roxox N-tinamit ; ! "rose"
 rura:rura N-tinamit ; ! "medicinal plant (ruda)"
 saʼy:saʼy N-tinamit ; ! "small fish"
 saʼy:saʼy N-tinamit ; ! "swing"
-sachabʼal:sachabal N-tinamit ; ! "confusion"
+sachabʼal:sachabʼal N-tinamit ; ! "confusion"
+sachabʼal:sachbʼal N-tinamit ; ! "confusion"
 !sachbal ib:sachbal ib N-tinamit ; ! "disorientation"
 !sachbal mak:sachbal mak N-tinamit ; ! "forgiveness"
 !sachibal kʼux:sachibal kʼux N-tinamit ; ! "doubt"
@@ -3502,6 +3504,7 @@ saqkabʼ:saqkab N-tinamit ; ! "piece of gypsum used by weavers to dry fingers (t
 saqkoʼr:saqkoʼr N-tinamit ; ! "partridge"
 saqliʼ:saqliʼ N-tinamit ; ! "boiled water"
 saqmoʼl:saqmoʼl N-tinamit ; ! "egg"
+saqmoʼl:saqmol N-tinamit ; ! "egg" ! Src/Cuentos
 saqpoʼr:saqpoʼr N-tinamit ; ! "blue-eyed person"
 saqpor:saqpor N-tinamit ; ! "white corn for tortillas"
 saqsmaqamoj:saqsmaqamoj N-tinamit ; ! "plasma"
@@ -4823,6 +4826,11 @@ kʼexbʼem:kʼexbʼem N-tinamit ; ! ""
 abʼ:abʼ N-tinamit ; ! ""
 chiʼaj:chiʼaj N-tinamit ; ! "" ! FIXME: Check
 
+plamux:plamux N-tinamit ; ! "paloma"
+palomax:palomax N-tinamit ; ! "paloma"
+palomäx:palomax N-tinamit ; ! "paloma"
+naʼl:naʼl N-tinamit ; ! "esmero"
+
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Didyme:Didyme NP-Top ;
@@ -4909,6 +4917,7 @@ Jonatan:Jonatan NP-Ant-M ;
 
 Sara:Sara NP-Ant-F ;
 Juliʼa:Juliʼa NP-Ant-F ;
+Choʼn:Choʼn NP-Ant-F ; 
 Leʼn:Leʼn NP-Ant-F ;
 Naʼ:Naʼ NP-Ant-F ;
 Tax:Tax NP-Ant-F ;
@@ -4990,6 +4999,7 @@ Vicente:Vicente NP-Ant-M ;
 Felix:Felix NP-Ant-M ;
 Drusila:Drusila NP-Ant-F ;
 Ajpu:Ajpu NP-Ant-M ;
+Jun:Jun NP-Ant-M ;
 Rubʼen:Rubʼen NP-Ant-M ;
 Samson:Samson NP-Ant-M ;
 Gedeʼon:Gedeʼon NP-Ant-M ; ! ""
@@ -8155,6 +8165,8 @@ yuxkut:yuxkut                      V-IV   ; ! "spy"
 yuxkʼat:yuxkʼat                    V-IV   ; ! "nod (with sleep)"
 yuxy:yuxy                          V-IV   ; ! "silence (a baby)"
 woʼq:woʼq                          V-IV   ; ! "comer; eat"
+xeʼj:xeʼj                         V-IV   ; ! "tener miedo; be afraid"
+kotiʼ:kotiʼ                        V-IV   ; ! "echarse; "
 
 !LEXICON V-POS
 !
