@@ -57,6 +57,7 @@ LIST Chi = "chi" ;
 LIST Jun = "jun" ;
 LIST La = "la" ;
 LIST Ri = "ri" ;
+LIST Ij = "ij" ; 
 LIST We = "we" ; 
 LIST Kan = "<kan>" ;
 LIST Tzij = "tzij" ;
@@ -164,6 +165,10 @@ SELECT CS IF (0 Chi) (-1C FIN) (1C* FIN BARRIER (*) - Neg) ;
 
 SECTION 
 
+SELECT Relat IF (0 Ij) ;
+
+SELECT Pr IF (0C Chi) (1 Relat) ;
+
 REMOVE $$AGR-S IF (-1C AGR-S - $$AGR-S) ;
     ## Rajawaxik ri ak’alab’ kikinimaj kitzij le kinan, kitat.
 
@@ -180,6 +185,7 @@ REMOVE Anti IF (0 IV) ;
 REMOVE Pass IF (0 IV) ;
 
 REMOVE Inf IF (0 N) ;
+
 
 SECTION
 

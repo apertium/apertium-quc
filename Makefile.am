@@ -15,6 +15,7 @@ TARGETS_COMMON =			\
 	$(LANG1).autogen.att.gz		\
 	$(LANG1).autoseg.hfst		\
 	$(LANG1).autoseg.bin		\
+	$(LANG1).prob		\
 	$(LANG1).rlx.bin
 
 TARGETS_INTERMEDIATE = $(LANG1).mor.hfst $(LANG1).seg.hfst $(LANG1).gen.hfst
@@ -87,6 +88,9 @@ $(LANG1).automorf.bin: $(LANG1).automorf.att.gz .deps/.d
 $(LANG1).autoseg.bin: $(LANG1).autoseg.att.gz .deps/.d
 	zcat < $< > .deps/$(LANG1).autoseg.att
 	lt-comp lr .deps/$(LANG1).autoseg.att $@
+
+$(LANG1).prob: $(BASENAME).$(LANG1).tagged
+	apertium-tagger -s 0 -u 2 $@ $<
 
 ###############################################################################
 ## Distribution
