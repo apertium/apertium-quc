@@ -1009,6 +1009,7 @@ jasa:jasa Pron-jasuch ;                ! "qué; "     ! Src/UDHR
 waʼ:waʼ Pron-waʼ ;                   ! "este"
 riʼ:riʼ Pron-waʼ ;                   ! "ese"
 laʼ:laʼ Pron-waʼ ;                   ! "este"
+leʼ:leʼ Pron-waʼ ;                   ! "este"
 weriʼ:weriʼ Pron-waʼ ;               ! "esto"
 
 ki%<prn%>:ki # ;
@@ -1148,6 +1149,7 @@ tzaqatil:tzaqatil N-tinamit ;      ! "piece"
 tzaqatil:tzʼaqatil N-tinamit ;     ! "piece"
 tajin:tajin N-tinamit ;            ! "cultivation of land"
 achi:achi N-iyom ;                 ! "man"
+achi:achiʼ N-iyom ;                 ! "man" ! Src/Biblia ! Use/Spell
 achij:achij N-iyom ;               ! "man"
 alanxax:alanxax N-tinamit ;        ! "orange, orange tree"
 ulew:ulew N-tinamit ;              ! "land, soil, earth"
@@ -1608,8 +1610,9 @@ bʼixik:bixik N-tinamit ; ! "saying"
 bʼixikal:bixikal N-tinamit ; ! "report"
 bʼixobʼal:bixobal N-tinamit ; ! "book of songs, hymns"
 bʼixonel:bixonel N-tinamit ; ! "singer"
-bʼoʼj:boʼj N-tinamit ; ! "large clay pot"
-bʼoj:boj N-tinamit ; ! "goider"
+bʼoʼj:bʼoʼj N-tinamit ; ! "olla; large clay pot"
+bʼoʼj:bʼoj N-tinamit ; ! "olla; large clay pot"
+!bʼoj:boj N-tinamit ; ! "goider"
 !Bokeron:Bokeron N-tinamit ; ! "Nebaj"
 bʼokil:bokil N-tinamit ; ! "izote"
 bʼolaj:bolaj N-tinamit ; ! "chunk, piece (of wood, etc.)"
@@ -7152,6 +7155,7 @@ yuxij:yuxi                         V-TV-D ; ! "spy on"
 yuxilej:yuxile                     V-TV-D ; ! "watch or guard out of curiosity"
 
 naʼ:naʼ V-TV-R ; ! "sentir"
+xeʼj:xiʼ                         V-TV-D   ; ! "tener miedo; be afraid" ! Src/CanPixabaj
 
 LEXICON IVʼ
 
@@ -7231,6 +7235,7 @@ bʼätzʼin:bätzʼin                    V-IV   ; ! "purr (cat)"
 bʼätzʼin:bätzʼin                    V-IV   ; ! "spin (thread)"
 bʼe:bʼe                            V-IV   ; ! "ir; to go"
 bʼe:bʼeʼ                            V-IV   ; ! "ir; to go" ! Use/Spell ! Src/UTexas
+bʼe:ʼe                            V-IV   ; ! "ir; to go" ! Use/Spell ! Src/CanPixabaj
 bʼison:bʼison                      V-IV   ; ! "FIXME: check"
 chaʼ:chaʼ                          V-IV   ; ! "decir; say" ! FIXME: check ! Src/Biblia
 chaʼ:cha                          V-IV   ; ! "decir; say" ! FIXME: check ! Src/Biblia ! Use/Spell
@@ -8166,6 +8171,7 @@ yuxkʼat:yuxkʼat                    V-IV   ; ! "nod (with sleep)"
 yuxy:yuxy                          V-IV   ; ! "silence (a baby)"
 woʼq:woʼq                          V-IV   ; ! "comer; eat"
 xeʼj:xeʼj                         V-IV   ; ! "tener miedo; be afraid"
+xeʼj:xiʼj                         V-IV   ; ! "tener miedo; be afraid" ! Src/CanPixabaj
 kotiʼ:kotiʼ                        V-IV   ; ! "echarse; "
 
 !LEXICON V-POS

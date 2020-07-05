@@ -2,6 +2,9 @@ DELIMITERS = "<.>" "<!>" "<;>" "<?>" ;
 
 SUBREADINGS = LTR ;
 
+LIST EOS = <<< ;
+LIST BOS = >>> ; 
+
 LIST A = adj ;
 LIST N = n ;
 LIST Clf = clf ;
@@ -153,9 +156,16 @@ REMOVE Prop IF (0 Jun) (NOT 1 Ajpu) (NOT 1 Jun LINK 1 Ajpu) ;
 
 REMOVE Clf (NOT 1 NOMINAL) ;
 
+SELECT N IF (-1C Pr) (0C A OR N) (1 EOS) ;
+    ## 
+
+SELECT CS IF (0 Chi) (-1C FIN) (1C* FIN BARRIER (*) - Neg) ;
+    ## Xqilo chi na kuk’am ta rajil le asosyasyon.
+
 SECTION 
 
 REMOVE $$AGR-S IF (-1C AGR-S - $$AGR-S) ;
+    ## Rajawaxik ri ak’alab’ kikinimaj kitzij le kinan, kitat.
 
 SELECT N IF (-1C Det) (0C N OR FIN) ;
 

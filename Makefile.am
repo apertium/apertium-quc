@@ -70,7 +70,7 @@ quc.rlx.bin: apertium-quc.quc.rlx
 $(LANG1).autogen.att.gz: $(LANG1).gen.hfst
 	hfst-fst2txt $< | gzip -9 -c > $@
 
-$(LANG1).automorf.att.gz: $(LANG1).mor.hfst
+$(LANG1).automorf.att.gz: $(LANG1).mor.hfst quc.spellrelax.hfst
 	hfst-invert $< |  hfst-compose -F -1 - -2 quc.spellrelax.hfst  | hfst-invert | hfst-fst2txt | gzip -9 -c > $@
 
 $(LANG1).autoseg.att.gz: $(LANG1).seg.hfst
