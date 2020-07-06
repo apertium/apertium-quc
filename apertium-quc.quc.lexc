@@ -209,6 +209,7 @@ LEXICON Poss
 ! kbʼe/<px3pl>bʼe<n>
 %<px3pl%>:k%{i%}%>    Sust ; ! ki k
 %<px3pl%>:k%>         Sust ; ! ki k ! Use/Sub ! Src/Biblia
+%<px3pl%>:kʼ%>        Sust ; ! ki k ! Use/Sub ! Src/Cuentos
 
 ! enuchikop -> e+nuchikop
 
@@ -1114,6 +1115,7 @@ chʼajomanel:chʼajomanel N-iyom ;   ! "lavandero; laundryman"
 nuchʼ:nuchʼ N-iyom ;               ! "bebe; baby"
 ajtij:ajtij N-iyom ;               ! "profesor; professor"
 tijoxel:tijoxel N-iyom ;           ! "alumno; alumnus"
+ajtijoxel:ajtijoxel N-iyom ;       ! "alumno; alumnus"
 kʼayinel:kʼayinel N-iyom ;         ! "vendedor; vender"
 riʼj:riʼj N-iyom ;                 ! "anciano; elderly person"
 chajinel:chajinel N-iyom ;         ! "guardian; guardian"
@@ -1244,6 +1246,7 @@ achalkaʼn:achalkaʼn N-tinamit ; ! "sister-in-law (when persons married to two 
 achel:achel N-tinamit ; ! "matasano (fruit)"
 !achi nim -banik:achi nim -banik N-tinamit ; ! "important man"
 achiʼl:achiʼl N-tinamit ; ! "companion"
+achiʼl:achil N-tinamit ; ! "companion" ! Src/Cuentos
 !achij -baqʼwäch:achij -baqʼwäch N-tinamit ; ! "polygamous husband"
 achikʼ:achikʼ N-tinamit ; ! "dream"
 achoch:achoch N-tinamit ; ! "home"
@@ -3102,6 +3105,7 @@ petem:petem N-tinamit ; ! "arrival"
 petibʼal:petibal N-tinamit ; ! "arrival"
 !petibal wiʼ:petibal wiʼ N-tinamit ; ! "swoon"
 petzʼ:petzʼ N-tinamit ; ! "tortoise"
+kök:kök N-tinamit ; ! "tortoise"
 piʼq:piʼq N-tinamit ; ! "ear of green corn"
 pich:pich N-tinamit ; ! "feet (tiny, as of baby)"
 pichʼ:pichʼ N-tinamit ; ! "agorero bird"
@@ -6690,7 +6694,8 @@ loqʼoj:loqʼo                       V-TV-D ; ! "amar; love"
 loqʼoqʼej:loqʼoqʼe                 V-TV-D ; ! "love"
 lotʼej:lotʼe                       V-TV-D ; ! "carry in palm of hand"
 machʼ:machʼ                        V-TV-R ; ! "chew on something"
-maj:ma                             V-TV-D ; ! "take hold, to take away forcibly"
+!maj:ma                             V-TV-D ; ! "take hold, to take away forcibly"
+maj:maj                             V-TV-R ; ! "take hold, to take away forcibly"
 majij:maji                         V-TV-D ; ! "take away"
 majkolij:majkoli                   V-TV-D ; ! "roll up something laid out (blanket)"
 mak:mak                            V-TV-R ; ! "harvest or pick something with fingers (cotton"
@@ -8193,6 +8198,7 @@ LEXICON V-etaʼm
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 %<o_sg3%>%<s_sg1%>etaʼm:%>w%>etaʼm    V-TV-PERF;     ! in inw
+%<o_sg3%>%<s_sg1%>etaʼm:%>w%>etaʼam    V-TV-PERF;     ! in inw ! Src/CanPixabaj
 %<o_sg3%>%<s_sg2%>etaʼm:%>a%{w%}%>etaʼm     V-TV-PERF;     ! a  aw
 ! %<s_sg2%>:%> V-TV-PERF;
 %<o_sg3%>%<s_sg3%>etaʼm:%>%{r%}%>etaʼm      V-TV-PERF;     ! u  r
