@@ -4851,6 +4851,7 @@ Nahuala:Nahuala NP-Top ;
 EE%.UU%.:EE%.UU%. NP-Top ;
 
 Juʼl:Juʼl NP-Ant-M ;
+Lol:Lol NP-Ant-M ;
 Peʼl:Peʼl NP-Ant-M ;
 
 Paʼtz:Paʼtz NP-Ant-M ;
@@ -5128,6 +5129,7 @@ Xelajuʼ:Xelajuʼ NP-Top ; ! "Quetzaltenango"
 
 Auen:Auen NP-Ant-F ; ! "Elena"
 Maʼt:Maʼt NP-Ant-F ; ! "Magdalena"
+Siʼl:Siʼl NP-Ant-F ; ! ""
 
 Achep:Achep NP-Ant-M ; ! "José"
 Akiel:Akiel NP-Ant-M ; ! "Miguel"
@@ -6708,6 +6710,7 @@ manxorisaj:manxorisa               V-TV-D ; ! "tame"
 matatej:matate                     V-TV-D ; ! "hold tightly (hand so donʼt get lost)"
 matzʼatzʼej:matzʼatzʼe             V-TV-D ; ! "hug hard"
 matzʼej:matzʼe                     V-TV-D ; ! "embrace"
+matzʼej:matze                     V-TV-D ; ! "embrace" ! Use/Spell ! Src/Cuentos
 mayij:mayi                         V-TV-D ; ! "admire someone"
 mej:me                             V-TV-D ; ! "ask humbly for something (Momostenango)"
 mej:me                             V-TV-D ; ! "fold"
@@ -6987,6 +6990,7 @@ tow:tow                            V-TV-R ; ! "hit (with a stick)"
 towij:towi                         V-TV-D ; ! "shake out (dust from rug)"
 toʼ:toʼ                            V-TV-R ; ! "ayudar; help"
 tobʼan:tobʼan                      V-IV   ; ! "ayudar; help"
+toʼ:to                            V-TV-R ; ! "ayudar; help" ! Use/Spell ! Src/Cuentos
 toʼtaj:toʼta                       V-TV-D ; ! "get out of (rain)"
 toʼtajisaj:toʼtajisa               V-TV-D ; ! "rescue"
 trombʼej:trombe                     V-TV-D ; ! "persecute"
@@ -7009,13 +7013,14 @@ turuwisaj:turuwisa                 V-TV-D ; ! "shed (blood)"
 tuwij:tuwi                         V-TV-D ; ! "incite to attack"
 tzaibʼaj:tzaiba                     V-TV-D ; ! "hang up"
 tzaj:tza                           V-TV-D ; ! "dry something"
-tzalij:tzali                       V-TV-D ; ! "return something"
 tzaq:tzaq                          V-TV-R ; ! "drop something"
 tzaqʼ:tzaqʼ                        V-TV-R ; ! "hit someone"
 tzayej:tzaye                       V-TV-D ; ! "carry hanging from hand or on shoulder (bag"
 tzayij:tzayi                       V-TV-D ; ! "salt something"
-tzelej:tzele                       V-TV-D ; ! "give back"
-tzalej:tzale                       V-TV-D ; ! "give back" ! Dial/?
+tzalij:tzali                       V-TV-D ; ! "devolver; return something"
+tzelej:tzele                       V-TV-D ; ! "devolver; give back"
+tzelej:tzili                       V-TV-D ; ! "devolver; give back" ! Dial/?
+tzalej:tzale                       V-TV-D ; ! "devolver; give back" ! Dial/?
 tzer:tzer                          V-TV-R ; ! "tear (paper, cloth)"
 tzeʼj:tzeʼ                         V-TV-D ; ! "laugh at something"
 tzij:tzi                           V-TV-D ; ! "light (candle)"

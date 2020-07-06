@@ -1,6 +1,6 @@
 [
  [ [ k a k i -> k k i | k a k i ] ?* ] .o.
- [ [ k a k i -> k i k i | k a k i ] ?* ] .o.
+ [ [ [ k a k i -> k i k i ] | [ k a k i -> k i k ] | [ k a k i ] ] ?* ] .o.
  [ [ n b -> m b | n b ] ?* ] .o.
  [ ?* [ i -> ï | i ] ?* ] .o.
  [ ?* [ o -> ö | o ] ?* ] .o.
