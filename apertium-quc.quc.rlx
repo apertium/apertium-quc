@@ -58,6 +58,7 @@ LIST Jun = "jun" ;
 LIST La = "la" ;
 LIST Ri = "ri" ;
 LIST Ij = "ij" ; 
+LIST Kok = "<kok>"i ;
 LIST We = "we" ; 
 LIST Kan = "<kan>" ;
 LIST Tzij = "tzij" ;
@@ -160,8 +161,13 @@ REMOVE Clf (NOT 1 NOMINAL) ;
 SELECT N IF (-1C Pr) (0C A OR N) (1 EOS) ;
     ## 
 
-SELECT CS IF (0 Chi) (-1C FIN) (1C* FIN BARRIER (*) - Neg) ;
+SELECT CS IF (-1 FIN) (0 Chi) (1C* FIN BARRIER (*) - Neg) ;
     ## Xqilo chi na kuk’am ta rajil le asosyasyon.
+
+SELECT CS IF (-1 FIN) (0 Taq) (1C* FIN BARRIER (*) - Neg) ;
+
+SELECT CS IF (0 Chi) (1C FIN) ;
+    ## Xkʼotochin a ellos a como contigo.
 
 SECTION 
 
@@ -185,6 +191,8 @@ REMOVE Anti IF (0 IV) ;
 REMOVE Pass IF (0 IV) ;
 
 REMOVE Inf IF (0 N) ;
+
+REMOVE N IF (NOT -1 Det) (0 Kok)  ;
 
 
 SECTION

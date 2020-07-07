@@ -701,6 +701,7 @@ xane:xane   CC ;                    ! "pero; but"
 tzare:tzare   CC ;                  ! "pero; but"
 on:on CC ;                          ! "o; or"
 kʼuriʼ:kʼuriʼ CC ;                  ! "entonces; so" ! Src/Biblia
+kʼuriʼ:kʼuri CC ;                  ! "entonces; so" ! Src/Cuentos
 tekʼuriʼ:tekʼuriʼ CC ;              ! "y; and"
 tekʼuriʼ:tekʼuri CC ;              ! "y; and" ! Use/Spell
 
@@ -725,6 +726,8 @@ taq:taq CS ;                       !     e.   taq/are taq, chi riʼ/chriʼ/ intr
 chriʼ:chriʼ CS ;                       !     e.   taq/are taq, chi riʼ/chriʼ/ introduces temporal clauses
 chiʼ:chiʼ CS ;                       !     e.   taq/are taq, chi riʼ/chriʼ/ introduces temporal clauses
 
+aretaq:aretaq CS ;          ! "when, while"
+aretaq:aretäq CS ;          ! "when, while"
 pine:pine CS ; ! "aunque" ;
 
 pine%<cnjsub%>%+man%<neg%>:pine%>mna # ; ! "aunque no" ;
@@ -798,6 +801,7 @@ panikʼaj:panikʼaj Pr ;             ! "en medio de"
 panikʼaj:panikʼyaj Pr ;            ! "en medio de"
 kʼateʼ:kʼateʼ Pr ;                 ! "hasta"
 kʼateʼ:kʼate Pr ;                  ! "hasta"  ! Src/Cuentos
+kʼateʼ:kateʼ Pr ;                  ! "hasta"  ! Src/Cuentos
 chuwiʼ:chuwiʼ Pr ;                 ! "encima, sobre"
 
 ! nu w
@@ -1132,6 +1136,7 @@ ajchʼoʼj:ajchʼoʼj N-iyom ;         ! "peleador, soldado; fighter"
 ajchʼoʼj:ajchʼoj N-iyom ;         ! "soldado" ! Src/Biblia
 kunanel:kunanel N-iyom ;           ! "curandero; medicine man"
 ajkunanel:ajkunanel N-iyom ;       ! "curandero; medicine man" ! Src/Cuentos
+ajkunanel:ajkununel N-iyom ;       ! "curandero; medicine man" ! Src/Cuentos
 muqunel:muqunel N-iyom ;           ! "quienes entierran; who bury, evil witch"
 tinamit:tinamit N-tinamit ;        ! "pueblo; village"
 tinamit:tinimit N-tinamit ;        ! "pueblo; village" ! Src/Biblia
@@ -1299,7 +1304,7 @@ ajit:ajit N-tinamit ; ! "indigestion"
 ajitaʼ:ajitaʼ N-tinamit ; ! "indigestion"
 ajitz:ajitz N-tinamit ; ! "bad witch"
 ajjubʼ:ajjub N-tinamit ; ! "bow hunter"
-ajkʼay:ajkʼay N-tinamit ; ! "seller"
+ajkʼay:ajkʼay N-ixoq ; ! "seller"
 !ajkʼicheʼ winaq:ajkʼicheʼ winaq N-tinamit ; ! "Quiché people"
 ajkʼix:ajkʼix N-tinamit ; ! "one who embarasses easily"
 ajkʼot:ajkʼot N-tinamit ; ! "dancer who represents eagles in mythic dances"
@@ -2236,7 +2241,7 @@ jupaj:jupaj N-tinamit ; ! "a cup of something"
 jupuq:jupuq N-tinamit ; ! "litter"
 jupur:jupur N-tinamit ; ! "mouthful"
 juqʼat:juqʼat N-tinamit ; ! "group"
-juqubʼ:juqub N-tinamit ; ! "a sip"
+juqubʼ:juqubʼ N-tinamit ; ! "a sip"
 jururibʼal:jururibal N-tinamit ; ! "snake track"
 jut:jut N-tinamit ; ! "dried mucous"
 !jut chʼachʼal:jut chʼachʼal N-tinamit ; ! "string of beads"
@@ -4391,6 +4396,8 @@ jumuqʼ:jumuqʼ N-chiʼ ; ! "fistful"
 kʼas:kʼas N-chiʼ ; ! "debt"
 kʼuʼx²:kʼuʼx N-chiʼ ; ! "soul"
 kʼuʼx¹:kʼuʼx N-tinamit ; ! "soul"
+kʼuʼx²:kʼux N-chiʼ ; ! "soul" ! Src/Cuentos
+kʼuʼx¹:kʼux N-tinamit ; ! "soul" ! Src/Cuentos
 kinäqʼ:kinäqʼ N-chiʼ ; ! "kidney"
 palaj:palaj N-chiʼ ; ! "face"
 pam:pam N-chiʼ ; ! "stomach"
@@ -4838,10 +4845,13 @@ plamux:plamux N-tinamit ; ! "paloma"
 palomax:palomax N-tinamit ; ! "paloma"
 palomäx:palomax N-tinamit ; ! "paloma"
 naʼl:naʼl N-tinamit ; ! "esmero"
+tʼisoʼmanel:tʼisoʼmanel N-iyom ; ! "sastre"
+ajtʼisoʼmanel:ajtʼisoʼmanel N-iyom ; ! "sastre"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Didyme:Didyme NP-Top ;
+Tenaʼ:Tenaʼ NP-Top ;
 Austin:Austin NP-Top ;
 Totonicapán:Totonicapan NP-Top ;
 Totonicapán:Totonicapan NP-Top ; ! Use/Spell
@@ -6213,8 +6223,6 @@ kamik:kamik Ad-aninaq ;            ! "hoy; today" ! Src/UTexas
 weneʼ:weneʼ Ad-aninaq ;            ! "tal vez; perhaps"
 weneʼ:wene Ad-aninaq ;             ! "tal vez; perhaps" ! Src/Wiki
 tzij:tzij Ad-aninaq ;              ! "verdaderamente; truly"
-aretaq:aretaq Ad-aninaq ;          ! "when, while"
-aretaq:aretäq Ad-aninaq ;          ! "when, while"
 are:are Ad-aninaq ;                ! "when, while"
 are:aare Ad-aninaq ;                ! "when, while" ! Use/Long
 chanim:chanim Ad-aninaq ;          ! "right now, rapidly"
@@ -7167,6 +7175,7 @@ yuxilej:yuxile                     V-TV-D ; ! "watch or guard out of curiosity"
 
 naʼ:naʼ V-TV-R ; ! "sentir"
 xeʼj:xiʼ                         V-TV-D   ; ! "tener miedo; be afraid" ! Src/CanPixabaj
+qʼil:qʼil                          V-TV-R   ; ! "prevent"
 
 LEXICON IVʼ
 
@@ -7509,6 +7518,7 @@ kʼorkʼot:kʼorkʼot                  V-IV   ; ! "knock (as on a door)"
 kʼosnäj:kʼosnäj                    V-IV   ; ! "cut with dull machete"
 kʼot:kʼot                          V-IV   ; ! "scrape"
 kʼotkʼobʼ:kʼotkʼob                  V-IV   ; ! "peel away (paint from wall)"
+kʼotochin:kʼotochin                  V-IV   ; ! "imaginar; imagine"
 kʼottaj:kʼottaj                    V-IV   ; ! "detach"
 kʼul:kʼul                          V-IV   ; ! "encounter"
 kʼulan:kʼulan                      V-IV   ; ! "marry"
