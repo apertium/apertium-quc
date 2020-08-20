@@ -151,6 +151,7 @@ Numerals ;
 Pronouns ;
 Punctuation ;
 Barbarisms ;
+Abreviaciones ;
 Conjunctions ;
 Propios ;
 Digits ;
@@ -958,6 +959,10 @@ pa%<pr%>+ri%<det%>:pa%>ri # ;  ! Use/Spell ! Src/Cuentos
 chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>%+man%<neg%>:ch%>e%>mna # ; ! Src/UTexas
 chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>%+man%<neg%>:ch%>e%>man # ; ! Src/ALMG
 
+le%<det%>%+akʼal%<n%>%<pl%>:l%>aʼkʼalabʼ # ; ! Src/CanPixabaj
+ri%<det%>%+%<px3sg%>jolom%<n%>:r%>uʼjolom # ; ! Src/CanPixabaj
+ri%<det%>%+tzʼiʼ%<n%>:r%>tzʼiʼ # ; ! Src/CanPixabaj
+
 LEXICON Relationals
 
 !ach:ach Rel ;                      ! ""
@@ -993,7 +998,7 @@ LEXICON Determiners
 we%<det%>:we # ;                   ! "este; this"
 le%<det%>:le # ;                   ! "el; the"
 ri%<det%>:ri # ;                   ! "el; the"
-waʼ%<det%>:waʼ # ;                 ! "this"
+!waʼ%<det%>:waʼ # ;                 ! "this"
 
 LEXICON Pronouns
 
@@ -1007,6 +1012,7 @@ jachike:jachike Pron-jasuch ;        ! "cuál es; which"
 jachike:jachikeʼ Pron-jasuch ;        ! "cuál es; which" ! Src/Biblia
 jachke:jachke Pron-jasuch ;          ! "cuál es; which"
 janikʼipa:janikʼipa Pron-jasuch ;    ! "cuántos; how many"
+jachinchike:jachinchike Pron-jasuch ; ! "cuál" 
 jas:jas Pron-jasuch ;                ! "qué; "     ! FIXME
 su:su Pron-jasuch ;                ! "qué; "     ! FIXME
 sa:sa Pron-jasuch ;                ! "qué; "     ! FIXME
@@ -1060,6 +1066,7 @@ Cardinals ;
 
 ! https://tzij.coerll.utexas.edu/tijonik-23-lesson-23-jun-tzi-keb-tzi-oxib-tzi-one-tzi-two-tzi-three-tzi-numbers/
 nabʼe:nabʼe Num-Ord ; !  "first"
+nabʼe:nabe Num-Ord ; !  "first" ! Use/Spell
 ukabʼ:ukabʼ Num-Ord ; !  "second"
 urox:urox Num-Ord ; !  "third"
 ukaj:ukaj Num-Ord ; !  "fourth"
@@ -1104,8 +1111,10 @@ siʼ:siiʼ N-ixoq ;                 ! "leña; firewood" ! Use/Long
 siʼ:siʼ N-ixoq ;                  ! "firewood"
 
 tzij:tzij N-alit ;                 ! "palabra, cuento; word, story"
+tzij:tziij N-alit ;                 ! "palabra, cuento; word, story" ! Src/Covid
 saqalajtzij:saqalajtzij N-alit ;   ! "verdad; truth" ! Src/Biblia
 qʼatojtzij:qʼatojtzij N-alit ;     ! "; " ! Src/Biblia
+qʼatojtzij:qʼatojzij N-alit ;     ! "; " ! Src/Biblia ! Use/Spell
 qʼaxeltzij:qʼaxeltzij N-alit ;     ! "mediador; " ! Src/Biblia
 qʼataltzij:qʼataltzij N-alit ;     ! "; " ! Src/Biblia
 qʼatbʼaltzij:qatbʼaltzij N-alit ; ! "gobernador; alcalde; law, courthouse, judge, government, verdict"
@@ -1141,6 +1150,7 @@ muqunel:muqunel N-iyom ;           ! "quienes entierran; who bury, evil witch"
 tinamit:tinamit N-tinamit ;        ! "pueblo; village"
 tinamit:tinimit N-tinamit ;        ! "pueblo; village" ! Src/Biblia
 tinamit:timinit N-tinamit ;        ! "pueblo; village" ! Use/Spell ! Src/Cuentos
+tinamit:tinmit N-tinamit ;        ! "pueblo; village" ! Use/Spell ! Src/Covid
 siwantinimit:siwantinimit N-tinamit ; ! "habitantes; " ! Src/Biblia
 siwantinimit:siwantinamit N-tinamit ; ! "habitantes; " ! Src/Biblia
 tijobʼal:tijobʼal N-tinamit ;      ! "escuela; school"
@@ -1203,11 +1213,9 @@ kuk:kuk N-tinamit ;                ! "squirrel"
 ja:ja N-tinamit ;                  ! "house"
 cheʼ:cheʼ N-tinamit ;              ! "wood, tree, jail, pole"
 tzijobʼelil:tzijobʼelil N-tinamit ; ! "story"
-tzijobʼelil:tzijobelil N-tinamit ;   ! "story"
 kʼaslemal:kʼaslemal N-tinamit ;    ! "life"
 kʼicheʼ:kʼicheʼ N-tinamit ;        ! "Kʼicheʼ"
-tzijobʼal:tzijobʼal N-tinamit ;    ! "information"
-tzijobʼal:tzijobal N-tinamit ;     ! "information"
+tzijobʼäl:tzijobʼäl N-tinamit ;    ! "information"
 wa:wa N-tinamit ;                  ! "comida; food"
 wa:waʼ N-tinamit ;                 ! "comida; food" ! Src/Cuentos ! Src/Biblia ! Use/Spell
 tzijobʼem:tzijobʼem N-tinamit ;    ! "comentario"
@@ -1219,7 +1227,6 @@ tikoʼn:tikoʼn N-tinamit ;          ! "cultivated plot, creation"
 kunabʼal:kunabʼal N-tinamit ;      ! "medicine, insecticide"
 kunabʼalil:kunabʼalil N-tinamit ;      ! "medicine, insecticide"
 tojbʼalil:tojbʼalil N-tinamit ;      ! "pago; "
-kunabʼal:kunabal N-tinamit ;        ! "medicine"
 chuch:chuch N-chuch ;              ! "mother"
 noʼj:noʼj N-tinamit ;              ! "idea"
 ikʼ:ikʼ N-tinamit ;                ! "moon, month of 20 days"
@@ -1711,6 +1718,7 @@ chʼiʼp:chʼiʼp N-tinamit ; ! "youngest child"
 !chʼiʼp kaqʼab:chʼiʼp kaqʼab N-tinamit ; ! "little finger"
 !chʼiʼp -qʼab:chʼiʼp -qʼab N-tinamit ; ! "pinky"
 chʼichʼ:chʼichʼ N-tinamit ; ! "metal"
+chʼichʼ:chʼiichʼ N-tinamit ; ! "metal" ! Use/Covid
 chʼichʼ:chʼichʼ N-tinamit ; ! "something that smells like urine or skunk"
 !chʼichʼ -aqan:chʼichʼ -aqan N-tinamit ; ! "chains"
 !chʼichʼ pa r-aqan kiej:chʼichʼ pa r-aqan kiej N-tinamit ; ! "horseshoe"
@@ -2503,7 +2511,7 @@ kaser:kaser N-tinamit ; ! "polygamous spouse"
 kason:kason N-tinamit ; ! "pants"
 kastilla:kastilla N-tinamit ; ! "Spanish language"
 kätet:kätet N-tinamit ; ! "cicada"
-Katzijobʼal:katzijobal N-tinamit ; ! "Quiché language"
+Katzijobʼal:katzijobʼal N-tinamit ; ! "Quiché language"
 kawinaq:kawinaq N-tinamit ; ! "forty"
 !kaxkut kaj:kaxkut kaj N-tinamit ; ! "south"
 !käxlan kʼum:käxlan kʼum N-tinamit ; ! "membrillo (fruit)"
@@ -2620,6 +2628,7 @@ kot:kot N-tinamit ; ! "eagle"
 kotokik:kotokik N-tinamit ; ! "turn"
 koton:koton N-tinamit ; ! "jacket"
 kotzʼiʼj:kotzʼiʼj N-tinamit ; ! "flower"
+kotzʼiʼj:kʼotzʼiʼj N-tinamit ; ! "flower" ! Src/Cuentos
 kotzʼiʼjal:kotzʼiʼjal N-tinamit ; ! "flower petal"
 kotzʼiʼjbʼal:kotzʼiʼjbal N-tinamit ; ! "flower garden"
 kowil:kowil N-tinamit ; ! "testicles"
@@ -4847,6 +4856,7 @@ palomäx:palomax N-tinamit ; ! "paloma"
 naʼl:naʼl N-tinamit ; ! "esmero"
 tʼisoʼmanel:tʼisoʼmanel N-iyom ; ! "sastre"
 ajtʼisoʼmanel:ajtʼisoʼmanel N-iyom ; ! "sastre"
+choqʼbʼal:choqʼbʼal N-iyom ; ! "aguijón; sting"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
@@ -4861,6 +4871,7 @@ Nahuala:Nahuala NP-Top ;
 EE%.UU%.:EE%.UU%. NP-Top ;
 
 Juʼl:Juʼl NP-Ant-M ;
+Tintin:Tintin NP-Ant-M ; 
 Lol:Lol NP-Ant-M ;
 Peʼl:Peʼl NP-Ant-M ;
 
@@ -5097,10 +5108,13 @@ Juda:Juda NP-Ant-M ;
 Sakariʼas:Sakariʼas NP-Ant-M ;
 
 Consulting:Consulting NP-Al ;
+COVID:COVID NP-Al ;
+COVID-19:COVID-19 NP-Al ;
 DiseasesDB:DiseasesDB NP-Al ;
 HIV:HIV NP-Al ;
 HUAWEI8:HUAWEI8 NP-Al ;
 LLC:LLC NP-Al ;
+OMS:OMS NP-Al ;
 Alvarado:Alvarado NP-Cog ;
 Bretonneau:Bretonneau NP-Cog ;
 Cochrane:Cochrane NP-Cog ;
@@ -5421,6 +5435,26 @@ Aram:Aram NP-Ant-M ;
 Amon:Amon NP-Ant-M ;
 Xwan:Wxan NP-Ant-M ;  ! Use/Spell ! Src/Biblia
 
+Klaʼudiʼa:Klaʼudiʼa NP-Ant-F ;
+Ninfas:Ninfas NP-Ant-F ;
+Rakel:Rakel NP-Ant-F ;
+Aʼugusto:Aʼugusto NP-Ant-M ;
+Diʼonisiʼo:Diʼonisiʼo NP-Ant-M ;
+Eliseʼo:Eliseʼo NP-Ant-M ;
+Filemon:Filemon NP-Ant-M ;
+Klemente:Klemente NP-Ant-M ;
+Narsiso:Narsiso NP-Ant-M ;
+Sergiʼo:Sergiʼo NP-Ant-M ;
+Timon:Timon NP-Ant-M ;
+Uriʼas:Uriʼas NP-Ant-M ;
+Apfiʼa:Apfiʼa NP-Top ; 
+Etiʼopiʼa:Etiʼopiʼa NP-Top ; 
+Gasa:Gasa NP-Top ; 
+Iliriko:Iliriko NP-Top ; 
+Partos:Partos NP-Top ; 
+Patmos:Patmos NP-Top ; 
+Samotrasiʼa:Samotrasiʼa NP-Top ; 
+
 
 LEXICON Adjectives
 saq:saq A-saq ;                    ! "blanco; white"
@@ -5460,8 +5494,8 @@ ukabʼ:ukabʼ A-saq ;                ! "Second"
 wiʼ:wiʼ A-saq ;                    ! "extra"
 juyubʼ:juyubʼ A-saq ;              ! "steep"
 rax:rax A-saq ;                    ! "green"
-nabʼe:nabʼe A-saq ;                ! "first"
-nabʼe:nabʼe A-saq ;                 ! "first"
+!nabʼe:nabʼe A-saq ;                ! "first"
+!nabʼe:nabʼe A-saq ;                 ! "first"
 laj:laj A-saq ;                    ! "small"
 laʼj:laj A-saq ;                   ! "small"
 riqom:riqom A-saq ;                ! "found"
@@ -6197,6 +6231,7 @@ xu:xu Ad-aninaq ;  ! "únicamente, sólo"
 xaq:xaq Ad-aninaq ;                ! sólo
 xew:xew Ad-aninaq ;                ! sólo (xaq xew)
 
+entonses:entonses Ad-aninaq ; ! ""
 
 ! Nota bene: Chi is also a conjunction introducing object complement
 ! clauses of transitive verbs (I see that you did this). It is also
@@ -6303,7 +6338,7 @@ oxbʼir:oxbir  Ad-aninaq ; ! "three years ago"
 oxij:oxij  Ad-aninaq ; ! "in three days"
 oxjir:oxjir  Ad-aninaq ; ! "three days ago"
 oxmul:oxmul  Ad-aninaq ; ! "three times"
-puch:puch  Ad-aninaq ; ! "even though"
+puch:puch  Ad-aninaq ; ! "aunque; even though"
 punemna:punemna  Ad-aninaq ; ! "even though not"
 qʼalaj:qʼalaj  Ad-aninaq ; ! "frankly; clearly"
 qʼoyiʼk:qʼoyiʼk  Ad-aninaq ; ! "laying down"
@@ -6340,6 +6375,7 @@ kʼatekʼut:kʼatekut Ad-aninaq ; ! FIXME: comprobar ! Use/Spell ! Src/Biblia
 kʼatekʼut:kʼateʼkut Ad-aninaq ; ! FIXME: comprobar ! Use/Spell ! Src/Biblia
 kʼatekʼuriʼ:kʼatekʼuriʼ Ad-aninaq ; ! "and then it happened"
 kʼatekʼuriʼ:kʼatekuriʼ Ad-aninaq ; ! "and then it happened" ! Use/Spell
+kʼatekʼuriʼ:katekʼuriʼ Ad-aninaq ; ! "and then it happened" ! Use/Spell ! Src/Biblia
 kʼatekʼu:kʼatekʼu Ad-aninaq ;
 
 jekʼuriʼ:jekʼuriʼ Ad-aninaq ; ! "asi pues" ! Src/Biblia
@@ -7176,6 +7212,7 @@ yuxilej:yuxile                     V-TV-D ; ! "watch or guard out of curiosity"
 naʼ:naʼ V-TV-R ; ! "sentir"
 xeʼj:xiʼ                         V-TV-D   ; ! "tener miedo; be afraid" ! Src/CanPixabaj
 qʼil:qʼil                          V-TV-R   ; ! "prevent"
+min:min                            V-TV-R ; ! "introducir; introduce"
 
 LEXICON IVʼ
 
@@ -8071,7 +8108,7 @@ wayay:wayay                        V-IV   ; ! "cry (dog)"
 wayin:wayin                        V-IV   ; ! "howl"
 waynaj:waynaj                      V-IV   ; ! "bark happily (dog)"
 waʼ:waʼ                            V-IV   ; ! "comer; to eat"
-waʼ:waʼ                            V-IV   ; ! "eat"
+!waʼ:waʼ                            V-IV   ; ! "eat"
 waʼkat:waʼkat                      V-IV   ; ! "take a walk"
 waʼlaj:waʼlaj                      V-IV   ; ! "incorporarse"
 wilij:wilij                        V-IV   ; ! "collapse, fall down (badly built wall)"
@@ -8373,6 +8410,10 @@ patología:patología N-patología ;
 
 !europeo:europeo N-estado ; ! ""
 !terapéutico:terapéutic N- ; ! ""
+
+LEXICON Abreviaciones 
+
+°C%<abbr%>:°C # ; 
 
 LEXICON Punctuation
 

@@ -58,6 +58,8 @@ LIST Jun = "jun" ;
 LIST La = "la" ;
 LIST Ri = "ri" ;
 LIST Ij = "ij" ; 
+LIST Ukʼ = "ukʼ" ;
+LIST Onojel = "onojel" ; 
 LIST Kok = "<kok>"i ;
 LIST We = "we" ; 
 LIST Kan = "<kan>" ;
@@ -128,7 +130,7 @@ REMOVE Days ;
 
 SELECT Dir IF (-1 V) ;
 
-SELECT Rel IF (0 Rel) (1C FIN) ;
+SELECT Rel IF (0 Rel) (NOT 0 CS) (1C FIN) ;
 
 SELECT Rel IF (1C Aux LINK 1 FIN) ;
 
@@ -166,12 +168,18 @@ SELECT CS IF (-1 FIN) (0 Chi) (1C* FIN BARRIER (*) - Neg) ;
 
 SELECT CS IF (-1 FIN) (0 Taq) (1C* FIN BARRIER (*) - Neg) ;
 
+SELECT Pl IF (-2 Det) (0 Taq) (1 N) ;
+
 SELECT CS IF (0 Chi) (1C FIN) ;
     ## Xkʼotochin a ellos a como contigo.
 
 SECTION 
 
 SELECT Relat IF (0 Ij) ;
+
+SELECT Relat IF (0 Onojel) ;
+
+SELECT Relat IF (0 Ukʼ) ;
 
 SELECT Pr IF (0C Chi) (1 Relat) ;
 
@@ -194,6 +202,7 @@ REMOVE Inf IF (0 N) ;
 
 REMOVE N IF (NOT -1 Det) (0 Kok)  ;
 
+SELECT Num IF (0 Jun) ;
 
 SECTION
 

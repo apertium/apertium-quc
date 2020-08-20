@@ -94,9 +94,9 @@ def load_rules(f):
 			print('WARNING: Broken rule', file=sys.stderr)
 			print(line, '||', row, file=sys.stderr)
 			continue
-		score = sum([i for (i, j) in enumerate(reversed(row[:4])) if j is not '_'])
-		morf = [i for i in row[2].split('|') if i is not '_']
-		rule = (score, set([i for i in row[:2] if i is not '_'] + morf + [i for i in row[3:4] if i is not '_']), row[4:])
+		score = sum([i for (i, j) in enumerate(reversed(row[:4])) if j != '_'])
+		morf = [i for i in row[2].split('|') if i != '_']
+		rule = (score, set([i for i in row[:2] if i != '_'] + morf + [i for i in row[3:4] if i != '_']), row[4:])
 #		print('RULE:',rule)
 		rules.append(rule)
 	rules.sort()

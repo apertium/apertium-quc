@@ -35,11 +35,11 @@ quc.autoseg.hfst: quc.seg.hfst
 	hfst-fst2fst -w $< -o $@
 
 quc.mor.hfst: quc.gen.hfst quc.mor.twol.hfst
-	hfst-compose-intersect -1 quc.gen.hfst -2 quc.mor.twol.hfst | hfst-invert -o $@
+	hfst-compose-intersect -1 quc.gen.hfst -2 quc.mor.twol.hfst | hfst-realign | hfst-invert -o $@
 
 # <impf><o_pl1><s_pl3>tʼis<v><tv>+o<mark>:k>oj>ki>tʼis>o
 quc.gen.hfst: quc.lexc.hfst quc.twol.hfst
-	hfst-compose-intersect -1 quc.lexc.hfst -2 quc.twol.hfst -o $@
+	hfst-compose-intersect -1 quc.lexc.hfst -2 quc.twol.hfst | hfst-realign -o $@
 
 quc.twol.hfst: apertium-quc.quc.twol
 	hfst-twolc $< -o $@
