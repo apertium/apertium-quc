@@ -6121,6 +6121,7 @@ xekelik:xekelik A-saq ; ! "hanging"
 xex:xex A-saq ; ! "foul smelling"
 xibʼ:xib A-saq ; ! "bloated (dead animal)"
 xibʼibʼal:xibibal A-saq ; ! "dangerous"
+xibʼibʼal:xibʼabʼal A-saq ; ! "peligroso, dangerous" ! Src/Covid
 xibʼribʼ:xibrib A-saq ; ! "scaredy-cat"
 xil:xil A-saq ; ! "small"
 xilitajinaq:xilitajinaq A-saq ; ! "torn (cloth)"
@@ -8391,6 +8392,8 @@ picornavirus:picornavirus N-virus ; ! ""
 metapneumovirus:metapneumovirus N-virus ; ! ""
 enterovirus:enterovirus N-virus ; ! ""
 coronavirus:coronavirus N-virus ; ! ""
+metanol:metanol N-virus ; ! ""
+etanol:etanol N-virus ; ! ""
 
 chupador:chupador N-estado ; ! ""
 
