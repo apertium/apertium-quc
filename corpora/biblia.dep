@@ -21,7 +21,7 @@
 "<ri>"
 	"ri" det @det #9->10
 "<Lasaro>"
-	"Lasaro" np ant m @obj #10->7
+	"Lasaro" np ant m @obj #10->8
 "<.>"
 	"." sent @punct #11->7
 

@@ -28,6 +28,7 @@ Multichar_Symbols
 %<v%>                ! Verbo
 %<cnjsub%>           ! Conjunción subordinada
 %<ij%>               ! Interyección
+%<sym%>              ! 
 
 %<attr%>             ! Atributivo
 
@@ -152,6 +153,7 @@ Pronouns ;
 Punctuation ;
 Barbarisms ;
 Abreviaciones ;
+Símbolos ;
 Conjunctions ;
 Propios ;
 Digits ;
@@ -8334,6 +8336,7 @@ estreptocócica:estreptocócica N-estado ; ! ""
 epinefrina:epinefrina N-estado ; ! ""
 ébola:ébola N-estado ; ! ""
 interferón:interferón N-estado ; ! ""
+misión:misión N-estado ; ! ""
 
 abuelo:abuelo N-estado ; ! ""
 alergia:alergia N-estado ; ! ""
@@ -8374,6 +8377,8 @@ viña:viña N-estado ; ! ""
 vino:vino N-estado ;
 vela:vela N-estado ;
 
+sistema:sistema N-estado ;
+
 millón:mill N-reacción ; ! ""
 reacción:reacci N-reacción ; ! ""
 donación:donaci N-reacción ; ! ""
@@ -8402,6 +8407,7 @@ pericerebral:pericerebral A-antiviral ;
 hormonal:hormonal A-antiviral ;
 gastrointestinal:gastrointestinal A-antiviral ;
 antibacterial:antibacterial A-antiviral ;
+policial:policial A-antiviral ;
 
 epidemiología:epidemiología N-patología ;
 fisiología:fisiología N-patología ;
@@ -8413,6 +8419,12 @@ patología:patología N-patología ;
 
 !europeo:europeo N-estado ; ! ""
 !terapéutico:terapéutic N- ; ! ""
+
+LEXICON Símbolos
+
+o%<sym%>:o # ;
+►%<sym%>:► # ;
+▼%<sym%>:▼ # ;
 
 LEXICON Abreviaciones 
 
