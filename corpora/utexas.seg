@@ -2979,7 +2979,7 @@
 # text = Xeʼnwila le etzʼanem oxjir.
 # text[spa] = Fui a ver el juego hace tres días.
 # labels = tijonik-37 complete
-^Xeʼnwila/x>>eʼ>nw>il>a$
+^Xeʼnwila/x>eʼ>nw>il>a$
 ^le/le$
 ^etzʼanem/etzʼanem$
 ^oxjir/oxjir$

@@ -5111,6 +5111,8 @@ Sakariʼas:Sakariʼas NP-Ant-M ;
 
 Consulting:Consulting NP-Al ;
 COVID:COVID NP-Al ;
+5G:5G NP-Al ;
+nCOV:nCOV NP-Al ;
 COVID-19:COVID-19 NP-Al ;
 DiseasesDB:DiseasesDB NP-Al ;
 HIV:HIV NP-Al ;
@@ -8414,6 +8416,7 @@ fisiología:fisiología N-patología ;
 fisiopatología:fisiopatología N-patología ;
 patofisiología:patofisiología N-patología ;
 patología:patología N-patología ;
+pimienta:pimienta N-patología ;
 
 
 
