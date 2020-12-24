@@ -1,3 +1,27 @@
+# sent_id = covid:2.0
+# text = Loqʼ katkuntaj che le yabʼil (COVID-19).
+# text[spa] = Es posible recuperarse de la enfermedad por coronavirus (COVID-19).
+# labels = complete check-adj-root
+"<Loqʼ>"
+	"loqʼ" adj @root #1->0
+"<katkuntaj>"
+	"kunaj" v tv pass stat impf s_sg2 @csubj #2->1
+"<che>"
+	"chi" pr @case #3->4
+		"ech" n rel px3sg @nmod:relat #4->6
+"<le>"
+	"le" det @det #5->6
+"<yabʼil>"
+	"yabʼil" n @obl #6->2
+"<(>"
+	"(" lpar @punct #7->8
+"<COVID-19>"
+	"COVID-19" np al @appos #8->6
+"<)>"
+	")" rpar @punct #9->8
+"<.>"
+	"." sent @punct #10->1
+
 # sent_id = covid:4
 # text = We katij tzam man katuchajij ta che le COVID-19 xuqujeʼ xibʼabʼal chawe.
 # text[spa] = Beber alcohol NO lo protegerá del COVID-19 y podría ser peligroso.
@@ -30,6 +54,41 @@
 		"ech" n rel px2sg @obl #15->13
 "<.>"
 	"." sent @punct #16->5
+
+# sent_id = covid:5
+# text = Le yabʼil (COVID-19) loqʼ kqʼaxix pa ri qʼaqʼ xuqujeʼ chʼaqal taq tinmit.
+# text[spa] = El virus COVID-19 PUEDE transmitirse en zonas con climas cálidos y húmedos.
+# labels = complete check-adj-root
+"<Le>"
+	"le" det @det #1->2
+"<yabʼil>"
+	"yabʼil" n @dislocated #2->6
+"<(>"
+	"(" lpar @punct #3->4
+"<COVID-19>"
+	"COVID-19" np al @appos #4->2
+"<)>"
+	")" rpar @punct #5->4
+"<loqʼ>"
+	"loqʼ" adj @root #6->0
+"<kqʼaxix>"
+	"qʼaxej" v tv pass impf s_sg3 @csubj #7->6
+"<pa>"
+	"pa" pr @case #8->10
+"<ri>"
+	"ri" det @det #9->10
+"<qʼaqʼ>"
+	"qʼaqʼ" n @obl #10->7
+"<xuqujeʼ>"
+	"xuqujeʼ" adv @cc #11->14
+"<chʼaqal>"
+	"chʼaqal" adj @amod #12->14
+"<taq>"
+	"taq" pl @dep #13->14
+"<tinmit>"
+	"tinamit" n @conj #14->10
+"<.>"
+	"." sent @punct #15->6
 
 # sent_id = covid:13
 # text = We katij anxux man katutoʼ ta chi uqʼatixik le kʼakʼ yabʼil coronavirus (2019-nCOV).
@@ -71,4 +130,5 @@
 	")" rpar @punct #17->14
 "<.>"
 	"." sent @punct #18->5
+
 

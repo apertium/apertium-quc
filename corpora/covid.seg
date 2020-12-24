@@ -1,3 +1,17 @@
+# sent_id = covid:2.0
+# text = Loqʼ katkuntaj che le yabʼil (COVID-19).
+# text[spa] = Es posible recuperarse de la enfermedad por coronavirus (COVID-19).
+# labels = incomplete
+^Loqʼ/loqʼ$
+^katkuntaj/k>at>kun>taj$
+^che/ch>e$
+^le/le$
+^yabʼil/yabʼil$
+^(/($
+^COVID-19/COVID-19$
+^)/)$
+^./.$
+
 # sent_id = covid:4
 # text = We katij tzam man katuchajij ta che le COVID-19 xuqujeʼ xibʼabʼal chawe.
 # text[spa] = Beber alcohol NO lo protegerá del COVID-19 y podría ser peligroso.
@@ -15,6 +29,26 @@
 ^xibʼabʼal/xibʼibʼal$
 ^chawe/ch>aw>e$
 ^./.$
+
+# sent_id = covid:5
+# text = Le yabʼil (COVID-19) loqʼ kqʼaxix pa ri qʼaqʼ xuqujeʼ chʼaqal taq tinmit.
+# text[spa] = El virus COVID-19 PUEDE transmitirse en zonas con climas cálidos y húmedos.
+# labels = complete
+^Le/le$
+^yabʼil/yabʼil$
+^(/($
+^COVID-19/COVID-19$
+^)/)$
+^loqʼ/loqʼ$
+^kqʼaxix/k>qʼaxi>x$
+^pa/pa$
+^ri/ri$
+^qʼaqʼ/qʼaqʼ$
+^xuqujeʼ/xuqujeʼ$
+^chʼaqal/chʼaqal$
+^taq/taq$
+^tinmit/tinamit$
+^./.$ 
 
 # sent_id = covid:13
 # text = We katij anxux man katutoʼ ta chi uqʼatixik le kʼakʼ yabʼil coronavirus (2019-nCOV).

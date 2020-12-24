@@ -2,19 +2,19 @@
 # text = Tajin kraqpux le xkʼulmatajem pa uwiʼ le yabʼil COVID-19 (esam pa le OMS)
 # text[spa] = Rompiendo mitos relacionados con el coronavirus (extraído de la OMS)
 # labels = incomplete
-^Tajin/tajin<aux>/tajin<n>$
-^kraqpux/*kraqpux$
-^le/le<det>/le<prn><rel>$
-^xkʼulmatajem/*xkʼulmatajem$
+^Tajin/tajin<aux>$
+^kraqpux/<impf><s_sg3>raqapuj<v><tv><pass>$
+^le/le<prn><rel>$
+^xkʼulmatajem/<perf><s_sg3>kʼulmatajem<v><tv><pass><inf>$
 ^pa/pa<pr>$
-^uwiʼ/<px3sg>wiʼ<n>/<px3sg>wiʼ<n><rel>$
-^le/le<det>/le<prn><rel>$
+^uwiʼ/<px3sg>wiʼ<n><rel>$
+^le/le<det>$
 ^yabʼil/yabʼil<n>$
 ^COVID-19/COVID-19<np><al>$
 ^(/(<lpar>$
 ^esam/*esam$
 ^pa/pa<pr>$
-^le/le<det>/le<prn><rel>$
+^le/le<det>$
 ^OMS/OMS<np><al>$
 ^)/)<rpar>$
 
@@ -52,9 +52,9 @@
 # sent_id = covid:2.0
 # text = Loqʼ katkuntaj che le yabʼil (COVID-19).
 # text[spa] = Es posible recuperarse de la enfermedad por coronavirus (COVID-19).
-# labels = incomplete
+# labels = complete
 ^Loqʼ/loqʼ<adj>$
-^katkuntaj/*katkuntaj$
+^katkuntaj/<impf><s_sg2>kunaj<v><tv><pass><stat>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
 ^le/le<det>/le<prn><rel>$
 ^yabʼil/yabʼil<n>$
@@ -67,12 +67,12 @@
 # text = We kariq chi jumul le kʼakʼ yabʼil coronavirus man are ta kubʼij kanaj kan pa ri akʼaslemal.
 # text[spa] = Contraer el nuevo coronavirus NO significa que vaya a conservarlo de por vida.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^kariq/<impf><o_sg3><s_sg2>riq<v><tv>/<impf><s_sg3>riq<v><tv><pass>$
+^We/we<cnjsub>$
+^kariq/<impf><o_sg3><s_sg2>riq<v><tv>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^jumul/jumul<n>$
 ^le/le<det>/le<prn><rel>$
-^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^kʼakʼ/kʼakʼ<adj>$
 ^yabʼil/yabʼil<n>$
 ^coronavirus/coronavirus<n><barb>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
@@ -80,7 +80,7 @@
 ^ta/taj<neg>$
 ^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
 ^kanaj/*kanaj$
-^kan/Kan<n>/kan<adv><dir>/kan<n>/<impf><s_sg3>an<v><iv>$
+^kan/kan<adv><dir>/kan<n>/<impf><s_sg3>an<v><iv>$
 ^pa/pa<pr>$
 ^ri/ri<det>/ri<prn><rel>$
 ^akʼaslemal/<px2sg>kʼaslemal<n>$
@@ -156,20 +156,20 @@
 # sent_id = covid:5
 # text = Le yabʼil (COVID-19) loqʼ kqʼaxix pa ri qʼaqʼ xuqujeʼ chʼaqal taq tinmit.
 # text[spa] = El virus COVID-19 PUEDE transmitirse en zonas con climas cálidos y húmedos.
-# labels = incomplete
-^Le/le<det>/le<prn><rel>$
+# labels = complete
+^Le/le<det>$
 ^yabʼil/yabʼil<n>$
 ^(/(<lpar>$
 ^COVID-19/COVID-19<np><al>$
 ^)/)<rpar>$
 ^loqʼ/loqʼ<adj>$
-^kqʼaxix/*kqʼaxix$
+^kqʼaxix/<impf><s_sg3>qʼaxej<v><tv><pass>$
 ^pa/pa<pr>$
-^ri/ri<det>/ri<prn><rel>$
+^ri/ri<det>$
 ^qʼaqʼ/qʼaqʼ<n>$
 ^xuqujeʼ/xuqujeʼ<adv>$
-^chʼaqal/*chʼaqal$
-^taq/taq<cnjsub>/taq<pl>$
+^chʼaqal/chʼaqal<adj>$
+^taq/taq<pl>$
 ^tinmit/tinamit<n>$
 ^./.<sent>$ 
 
