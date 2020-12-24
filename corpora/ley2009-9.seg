@@ -1,0 +1,19 @@
+# sent_id = ley2009-9:14
+# text = We taqanik ri’ kub’ij chi rajawaxik kya’ uq’ij ri winaq xuquje’ kto’ aninaqil.
+# text[spa] = Los procedimientos que establece esta Ley, deben realizarse con especial atención y prioridad.
+# labels = incomplete
+^We/we$
+^taqanik/taqanik$
+^riʼ/riʼ$
+^kubʼij/k>u>bʼij$
+^chi/chi$
+^rajawaxik/rajawaxik$
+^kyaʼ/k>yaʼ$
+^uqʼij/u>qʼij$
+^ri/ri$
+^winaq/winaq$
+^xuqujeʼ/xuqujeʼ$
+^ktoʼ/k>toʼ$
+^aninaqil/aninaqil$
+^./.$
+

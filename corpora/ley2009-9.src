@@ -1,0 +1,32 @@
+# sent_id = ley2009-9:4
+# text = Are taq wa’ ri uq’ijol we taqanik.
+# text[spa] = Son principios rectores de la presente Ley:
+# labels = incomplete
+^Are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^taq/taq<cnjsub>/taq<pl>$
+^waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^ri/ri<det>/ri<prn><rel>$
+^uqʼijol/*uqʼijol$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^taqanik/taqanik<n>/taqan<v><iv><inf>/taq<v><tv><anti><inf>$
+^./.<sent>$
+
+# sent_id = ley2009-9:14
+# text = We taqanik ri’ kub’ij chi rajawaxik kya’ uq’ij ri winaq xuquje’ kto’ aninaqil.
+# text[spa] = Los procedimientos que establece esta Ley, deben realizarse con especial atención y prioridad.
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^taqanik/taqanik<n>/taqan<v><iv><inf>/taq<v><tv><anti><inf>$
+^riʼ/riʼ<prn><dem>$
+^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^rajawaxik/rajawaxik<adj>$
+^kyaʼ/<impf><s_sg3>yaʼ<v><tv><pass>$
+^uqʼij/<px3sg>qʼij<n>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^ktoʼ/<impf><s_sg3>toʼ<v><iv>/<impf><s_sg3>toʼ<v><tv><pass>$
+^aninaqil/aninaqil<adv>/aninäqil<n>$
+^./.<sent>$
+

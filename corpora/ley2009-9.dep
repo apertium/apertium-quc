@@ -1,0 +1,32 @@
+# sent_id = ley2009-9:14
+# text = We taqanik ri’ kub’ij chi rajawaxik kya’ uq’ij ri winaq xuquje’ kto’ aninaqil.
+# text[spa] = Los procedimientos que establece esta Ley, deben realizarse con especial atención y prioridad.
+# labels = complete check-coord
+"<We>"
+	"we" det @det #1->2
+"<taqanik>"
+	"taqanik" n @nsubj #2->4
+"<riʼ>"
+	"riʼ" prn dem @det #3->2
+"<kubʼij>"
+	"bʼij" v tv impf o_sg3 s_sg3 @root #4->0
+"<chi>"
+	"chi" cnjsub @mark #5->6
+"<rajawaxik>"
+	"rajawaxik" adj @ccomp #6->4
+"<kyaʼ>"
+	"yaʼ" v tv pass impf s_sg3 @csubj #7->6
+"<uqʼij>"
+	"qʼij" n px3sg @dep #8->7
+"<ri>"
+	"ri" det @det #9->10
+"<winaq>"
+	"winaq" n @nmod #10->8
+"<xuqujeʼ>"
+	"xuqujeʼ" adv @cc #11->12
+"<ktoʼ>"
+	"toʼ" v tv pass impf s_sg3 @conj #12->7
+"<aninaqil>"
+	"aninaqil" adv @advmod #13->12
+"<.>"
+	"." sent @punct #14->4
