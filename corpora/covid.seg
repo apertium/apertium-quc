@@ -50,6 +50,24 @@
 ^tinmit/tinamit$
 ^./.$ 
 
+# sent_id = covid:7
+# text = We katatin rukʼ kʼatan jaʼ man kuqʼatej ta le kʼakʼ yabʼil coronavirus.
+# text[spa] = Bañarse con agua caliente NO PREVIENE la infección por el nuevo coronavirus.
+# labels = complete
+^We/we$
+^katatin/k>at>atin$
+^rukʼ/r>ukʼ$
+^kʼatan/kʼatan$
+^jaʼ/jaʼ$
+^man/man$
+^kuqʼatej/k>u>qʼatej$
+^ta/ta$
+^le/le$
+^kʼakʼ/kʼakʼ$
+^yabʼil/yabʼil$
+^coronavirus/coronavirus$
+^./.$
+
 # sent_id = covid:13
 # text = We katij anxux man katutoʼ ta chi uqʼatixik le kʼakʼ yabʼil coronavirus (2019-nCOV).
 # text[spa] = Comer ajo NO ayuda a prevenir el contagio del nuevo coronavirus (2019-nCoV).
