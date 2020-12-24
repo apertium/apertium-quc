@@ -1,0 +1,41 @@
+# sent_id = covid:4
+# text = We katij tzam man katuchajij ta che le COVID-19 xuqujeʼ xibʼabʼal chawe.
+# text[spa] = Beber alcohol NO lo protegerá del COVID-19 y podría ser peligroso.
+# labels = incomplete
+^We/we$
+^katij/ka>tij$
+^tzam/tzam$
+^man/man$
+^katuchajij/k>at>chajij$
+^ta/taj$
+^che/ch>e$
+^le/le$
+^COVID-19/COVID-19$
+^xuqujeʼ/xuqujeʼ$
+^xibʼabʼal/xibʼibʼal$
+^chawe/ch>aw>e$
+^./.$
+
+# sent_id = covid:13
+# text = We katij anxux man katutoʼ ta chi uqʼatixik le kʼakʼ yabʼil coronavirus (2019-nCOV).
+# text[spa] = Comer ajo NO ayuda a prevenir el contagio del nuevo coronavirus (2019-nCoV).
+# labels = incomplete
+^We/we$
+^katij/ka>tij$
+^anxux/anxux$
+^man/man$
+^katutoʼ/k>at>u>toʼ$
+^ta/ta$
+^chi/chi$
+^uqʼatixik/u>qʼati>x>ik$
+^le/le$
+^kʼakʼ/kʼakʼ$
+^yabʼil/yabʼil$
+^coronavirus/coronavirus$
+^(/($
+^2019/2019$
+^-/-$
+^nCOV/nCOV$
+^)/)$
+^./.$
+

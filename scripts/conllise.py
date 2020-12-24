@@ -164,7 +164,7 @@ for i in range(0, len(sents_dep)):
 	sent_id_match = re.match('# sent_id = .*', sents_dep[i])
 	if not sent_id_match:
 		continue
-	if sents_dep[i].count('->') != len(re.findall('\n\t', sents_dep[i])):
+	if len(re.findall('[0-9]->[0-9]', sents_dep[i])) != len(re.findall('\n\t', sents_dep[i])):
 		print(sent_id_match[0], '| WARNING: Sentence annotation incomplete', file=sys.stderr)
 		continue
 	sent_id = sent_id_match[0]

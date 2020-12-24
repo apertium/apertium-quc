@@ -341,16 +341,16 @@
 # text = We katij anxux man katutoʼ ta chi uqʼatixik le kʼakʼ yabʼil coronavirus (2019-nCOV).
 # text[spa] = Comer ajo NO ayuda a prevenir el contagio del nuevo coronavirus (2019-nCoV).
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^katij/<impf><o_sg3><s_sg2>tij<v><tv>/<impf><s_sg3>tij<v><iv>/<impf><s_sg3>tij<v><tv><pass>$
-^anxux/*anxux$
-^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^We/we<cnjsub>$
+^katij/<impf><o_sg3><s_sg2>tij<v><tv>$
+^anxux/axux<n>$
+^man/man<neg>$
 ^katutoʼ/<impf><o_sg2><s_sg3>toʼ<v><tv>$
 ^ta/taj<neg>$
-^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^chi/chi<cnjsub>$
 ^uqʼatixik/<s_sg3>qʼatij<v><tv><pass><inf>$
-^le/le<det>/le<prn><rel>$
-^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^le/le<det>$
+^kʼakʼ/kʼakʼ<adj>$
 ^yabʼil/yabʼil<n>$
 ^coronavirus/coronavirus<n><barb>$
 ^(/(<lpar>$
@@ -531,7 +531,7 @@
 ^kʼax/kʼax<adj>/kʼax<n>$
 ^chike/chi<pr>+<px3pl>ech<n><rel>$
 ^winaq/winaq<n>$
-^ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
+^ronojel/<px3sg>onojel<n><rel>$
 ^kijunabʼ/<px3pl>junabʼ<n>$
 ^./.<sent>$ 
 
@@ -635,18 +635,18 @@
 # text = Le kʼat chʼichʼ 5G rech qʼaxbʼal taq tziij man kiqʼaxij ta le COVID-19.
 # text[spa] = Las redes 5G de telefonía móvil NO propagan el COVID-19.
 # labels = incomplete
-^Le/le<det>/le<prn><rel>$
-^kʼat/Kʼat<n>/kʼat<n>$
+^Le/le<det>$
+^kʼat/kʼat<n>$
 ^chʼichʼ/chʼichʼ<n>$
 ^5G/5G<np><al>$
 ^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
 ^qʼaxbʼal/qʼaxbʼal<n>$
 ^taq/taq<cnjsub>/taq<pl>$
 ^tziij/tzij<n>$
-^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^man/man<neg>$
 ^kiqʼaxij/*kiqʼaxij$
 ^ta/taj<neg>$
-^le/le<det>/le<prn><rel>$
+^le/le<det>$
 ^COVID-19/COVID-19<np><al>$
 ^./.<sent>$ 
 

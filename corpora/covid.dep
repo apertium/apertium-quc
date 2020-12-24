@@ -1,7 +1,7 @@
 # sent_id = covid:4
 # text = We katij tzam man katuchajij ta che le COVID-19 xuqujeʼ xibʼabʼal chawe.
 # text[spa] = Beber alcohol NO lo protegerá del COVID-19 y podría ser peligroso.
-# labels = incomplete
+# labels = complete check-relational
 "<We>"
 	"we" cnjsub @mark #1->2
 "<katij>"
@@ -9,11 +9,11 @@
 "<tzam>"
 	"tzam" n @obj #3->2
 "<man>"
-	"man" neg @advmod #4->5
+	"man" neg @aux:neg #4->5
 "<katuchajij>"
 	"chajij" v tv impf o_sg2 s_sg3 @root #5->0
 "<ta>"
-	"taj" neg @advmod #6->5
+	"taj" neg @aux:neg #6->5
 "<che>"
 	"chi" pr @case #7->8
 		"ech" n rel px3sg @nmod:relat #8->10
@@ -30,4 +30,45 @@
 		"ech" n rel px2sg @obl #15->13
 "<.>"
 	"." sent @punct #16->5
+
+# sent_id = covid:13
+# text = We katij anxux man katutoʼ ta chi uqʼatixik le kʼakʼ yabʼil coronavirus (2019-nCOV).
+# text[spa] = Comer ajo NO ayuda a prevenir el contagio del nuevo coronavirus (2019-nCoV).
+# labels = complete check-subordinate
+"<We>"
+	"we" cnjsub @mark #1->2
+"<katij>"
+	"tij" v tv impf o_sg3 s_sg2 @advcl #2->5
+"<anxux>"
+	"axux" n @obj #3->2
+"<man>"
+	"man" neg @aux:neg #4->5
+"<katutoʼ>"
+	"toʼ" v tv impf o_sg2 s_sg3 @root #5->0
+"<ta>"
+	"taj" neg @aux:neg #6->5
+"<chi>"
+	"chi" cnjsub @mark #7->8
+"<uqʼatixik>"
+	"qʼatij" v tv pass inf s_sg3 @ccomp #8->5
+"<le>"
+	"le" det @det #9->11
+"<kʼakʼ>"
+	"kʼakʼ" adj @amod #10->11
+"<yabʼil>"
+	"yabʼil" n @nsubj #11->8
+"<coronavirus>"
+	"coronavirus" n barb @appos #12->11
+"<(>"
+	"(" lpar @punct #13->14
+"<2019>"
+	"2019" num @appos #14->12
+"<->"
+	"-" guio @flat #15->14
+"<nCOV>"
+	"nCOV" np al @flat #16->14
+"<)>"
+	")" rpar @punct #17->14
+"<.>"
+	"." sent @punct #18->5
 
