@@ -589,16 +589,16 @@
 # labels = incomplete
 ^¿/¿<lquest>$
 ^Kʼo/kʼo<part>$
-^kʼu/kʼut<cnjcoo>/kʼut<part>$
+^kʼu/kʼut<part>$
 ^laʼ/laʼ<prn><dem>$
-^jun/jun<adj>/jun<n>/jun<num>$
+^jun/jun<num>$
 ^kunabʼal/kunabʼal<n>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
 ^kuqʼatej/<impf><o_sg3><s_sg3>qʼatej<v><tv>$
 ^xuqujeʼ/xuqujeʼ<adv>$
 ^kukunaj/<impf><o_sg3><s_sg3>kunaj<v><tv>$
-^le/le<det>/le<prn><rel>$
-^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^le/le<det>$
+^kʼakʼ/kʼakʼ<adj>$
 ^yabʼil/yabʼil<n>$
 ^coronavirus/coronavirus<n><barb>$
 ^?/?<sent>$
@@ -634,7 +634,7 @@
 # sent_id = covid:19
 # text = Le kʼat chʼichʼ 5G rech qʼaxbʼal taq tziij man kiqʼaxij ta le COVID-19.
 # text[spa] = Las redes 5G de telefonía móvil NO propagan el COVID-19.
-# labels = incomplete
+# labels = complete
 ^Le/le<det>$
 ^kʼat/kʼat<n>$
 ^chʼichʼ/chʼichʼ<n>$
@@ -644,7 +644,7 @@
 ^taq/taq<cnjsub>/taq<pl>$
 ^tziij/tzij<n>$
 ^man/man<neg>$
-^kiqʼaxij/*kiqʼaxij$
+^kiqʼaxij/<impf><o_sg3><s_pl3>qʼaxej<v><tv>$
 ^ta/taj<neg>$
 ^le/le<det>$
 ^COVID-19/COVID-19<np><al>$
@@ -724,22 +724,22 @@
 # text = We ktzaq pimienta che le ronojel rikil man kuqʼatej ta, xuqujeʼ man kukunaj ta le yabʼil COVID-19.
 # text[spa] = 
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we<cnjsub>$
 ^ktzaq/<impf><s_sg3>tzaq<v><iv>/<impf><s_sg3>tzaq<v><tv><pass>/<px3pl>tzaq<n>$
 ^pimienta/pimienta<n><barb>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
-^le/le<det>/le<prn><rel>$
-^ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
+^le/le<det>$
+^ronojel/<px3sg>onojel<n><rel>$
 ^rikil/rikiʼl<n>$
-^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^man/man<neg>$
 ^kuqʼatej/<impf><o_sg3><s_sg3>qʼatej<v><tv>$
 ^ta/taj<neg>$
 ^,/,<cm>$
 ^xuqujeʼ/xuqujeʼ<adv>$
-^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^man/man<neg>$
 ^kukunaj/<impf><o_sg3><s_sg3>kunaj<v><tv>$
 ^ta/taj<neg>$
-^le/le<det>/le<prn><rel>$
+^le/le<det>$
 ^yabʼil/yabʼil<n>$
 ^COVID-19/COVID-19<np><al>$
 ^./.<sent>$ 

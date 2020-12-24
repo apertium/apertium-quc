@@ -91,3 +91,23 @@
 ^)/)$
 ^./.$
 
+# sent_id = covid:18.0
+# text = ¿Kʼo kʼu laʼ jun kunabʼal che kuqʼatej xuqujeʼ kukunaj le kʼakʼ yabʼil coronavirus?
+# text[spa] = ¿Hay alguna medicina para prevenir o tratar el nuevo coronavirus?
+# labels = incomplete
+^¿/¿$
+^Kʼo/kʼo$
+^kʼu/kʼu$
+^laʼ/laʼ$
+^jun/jun$
+^kunabʼal/kunabʼal$
+^che/ch>e$
+^kuqʼatej/k>u>qʼatej$
+^xuqujeʼ/xuqujeʼ$
+^kukunaj/k>u>kunaj$
+^le/le$
+^kʼakʼ/kʼakʼ$
+^yabʼil/yabʼil$
+^coronavirus/coronavirus$
+^?/?$
+

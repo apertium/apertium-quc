@@ -162,5 +162,38 @@
 "<.>"
 	"." sent @punct #18->5
 
-
-
+# sent_id = covid:18.0
+# text = ¿Kʼo kʼu laʼ jun kunabʼal che kuqʼatej xuqujeʼ kukunaj le kʼakʼ yabʼil coronavirus?
+# text[spa] = ¿Hay alguna medicina para prevenir o tratar el nuevo coronavirus?
+# labels = incomplete
+"<¿>"
+	"¿" lquest @punct #1->2
+"<Kʼo>"
+	"kʼo" part @root #2->0
+"<kʼu>"
+	"kʼut" part @discourse #3->2
+"<laʼ>"
+	"laʼ" prn dem @ #4->6
+"<jun>"
+	"jun" num @nummod #5->6
+"<kunabʼal>"
+	"kunabʼal" n @nsubj #6->2
+"<che>"
+	"chi" pr @case #7->8
+		"ech" n rel px3sg @dep #8->9
+"<kuqʼatej>"
+	"qʼatej" v tv impf o_sg3 s_sg3 @acl #9->6
+"<xuqujeʼ>"
+	"xuqujeʼ" cnjcoo @cc #10->11
+"<kukunaj>"
+	"kunaj" v tv impf o_sg3 s_sg3 @conj #11->9
+"<le>"
+	"le" det @det #12->14
+"<kʼakʼ>"
+	"kʼakʼ" adj @amod #13->14
+"<yabʼil>"
+	"yabʼil" n @obj #14->11
+"<coronavirus>"
+	"coronavirus" n barb @appos #15->14
+"<?>"
+	"?" sent @punct #16->2
