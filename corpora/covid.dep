@@ -1,0 +1,33 @@
+# sent_id = covid:4
+# text = We katij tzam man katuchajij ta che le COVID-19 xuqujeʼ xibʼabʼal chawe.
+# text[spa] = Beber alcohol NO lo protegerá del COVID-19 y podría ser peligroso.
+# labels = incomplete
+"<We>"
+	"we" cnjsub @mark #1->2
+"<katij>"
+	"tij" v tv impf o_sg3 s_sg2 @advcl #2->5
+"<tzam>"
+	"tzam" n @obj #3->2
+"<man>"
+	"man" neg @advmod #4->5
+"<katuchajij>"
+	"chajij" v tv impf o_sg2 s_sg3 @root #5->0
+"<ta>"
+	"taj" neg @advmod #6->5
+"<che>"
+	"chi" pr @case #7->8
+		"ech" n rel px3sg @nmod:relat #8->10
+"<le>"
+	"le" det @det #9->10
+"<COVID-19>"
+	"COVID-19" np al @obl #10->5
+"<xuqujeʼ>"
+	"xuqujeʼ" adv @advmod #11->13
+"<xibʼabʼal>"
+	"xibʼibʼal" adj @parataxis #13->5
+"<chawe>"
+	"chi" pr @case #14->15
+		"ech" n rel px2sg @obl #15->13
+"<.>"
+	"." sent @punct #16->5
+

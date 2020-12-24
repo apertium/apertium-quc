@@ -1,0 +1,746 @@
+# sent_id = covid:0
+# text = Tajin kraqpux le xkʼulmatajem pa uwiʼ le yabʼil COVID-19 (esam pa le OMS)
+# text[spa] = Rompiendo mitos relacionados con el coronavirus (extraído de la OMS)
+# labels = incomplete
+^Tajin/tajin<aux>/tajin<n>$
+^kraqpux/*kraqpux$
+^le/le<det>/le<prn><rel>$
+^xkʼulmatajem/*xkʼulmatajem$
+^pa/pa<pr>$
+^uwiʼ/<px3sg>wiʼ<n>/<px3sg>wiʼ<n><rel>$
+^le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^COVID-19/COVID-19<np><al>$
+^(/(<lpar>$
+^esam/*esam$
+^pa/pa<pr>$
+^le/le<det>/le<prn><rel>$
+^OMS/OMS<np><al>$
+^)/)<rpar>$
+
+# sent_id = covid:1
+# text = Katkʼojiʼ chi uwach le qʼij xuqujeʼ le qʼaqʼ che kqʼax kichoqʼabʼ pa uwiʼ le 25°C, man kuqʼatej ta le yabʼil (COVID-19).
+# text[spa] = Exponerse al sol o a temperaturas superiores a los 25°C NO previene el coronavirus (COVID-19).
+# labels = incomplete
+^Katkʼojiʼ/<impf><s_sg2>kʼojiʼk<v><iv>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
+^le/le<det>/le<prn><rel>$
+^qʼij/qʼij<n>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^le/le<det>/le<prn><rel>$
+^qʼaqʼ/qʼaqʼ<n>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^kqʼax/<impf><s_sg3>qʼaj<v><tv><pass>/<impf><s_sg3>qʼax<v><iv>/<px3pl>qʼax<n>$
+^kichoqʼabʼ/<px3pl>choqʼabʼ<n>$
+^pa/pa<pr>$
+^uwiʼ/<px3sg>wiʼ<n>/<px3sg>wiʼ<n><rel>$
+^le/le<det>/le<prn><rel>$
+^25/25<num>$
+^°C/°C<abbr>$
+^,/,<cm>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kuqʼatej/<impf><o_sg3><s_sg3>qʼatej<v><tv>$
+^ta/taj<neg>$
+^le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^(/(<lpar>$
+^COVID-19/COVID-19<np><al>$
+^)/)<rpar>$
+^./.<sent>$ 
+
+# sent_id = covid:2.0
+# text = Loqʼ katkuntaj che le yabʼil (COVID-19).
+# text[spa] = Es posible recuperarse de la enfermedad por coronavirus (COVID-19).
+# labels = incomplete
+^Loqʼ/loqʼ<adj>$
+^katkuntaj/*katkuntaj$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^(/(<lpar>$
+^COVID-19/COVID-19<np><al>$
+^)/)<rpar>$
+^./.<sent>$
+
+# sent_id = covid:2.1
+# text = We kariq chi jumul le kʼakʼ yabʼil coronavirus man are ta kubʼij kanaj kan pa ri akʼaslemal.
+# text[spa] = Contraer el nuevo coronavirus NO significa que vaya a conservarlo de por vida.
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^kariq/<impf><o_sg3><s_sg2>riq<v><tv>/<impf><s_sg3>riq<v><tv><pass>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^jumul/jumul<n>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^ta/taj<neg>$
+^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
+^kanaj/*kanaj$
+^kan/Kan<n>/kan<adv><dir>/kan<n>/<impf><s_sg3>an<v><iv>$
+^pa/pa<pr>$
+^ri/ri<det>/ri<prn><rel>$
+^akʼaslemal/<px2sg>kʼaslemal<n>$
+^./.<sent>$ 
+
+# sent_id = covid:3
+# text = Rukʼ bʼa ri che man kattʼujman ta xuqujeʼ man kanaʼ ta kʼaxkʼolil, rumal kaqʼi awuxlabʼ chi uwach le lajuj alaj kʼutubʼ, man kubʼij ta che ri man kʼo ta coronavirus (COVID-19) chawe, xuqujeʼ nikʼaj yabʼil chik che apotzpoʼyin.
+# text[spa] = El hecho de poder contener la respiración durante diez segundos o más sin toser o sentir molestias NO significa que no tenga coronavirus (COVID-19) o cualquier otra enfermedad pulmonar.
+# labels = incomplete
+^Rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^bʼa/bʼaʼ<mod>/bʼa<n>$
+^ri/ri<det>/ri<prn><rel>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kattʼujman/*kattʼujman$
+^ta/taj<neg>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kanaʼ/<impf><o_sg3><s_sg2>naʼ<v><tv>/<impf><s_sg3>naʼ<v><tv><pass>$
+^ta/taj<neg>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^,/,<cm>$
+^rumal/<px3sg>umal<n><rel>$
+^kaqʼi/*kaqʼi$
+^awuxlabʼ/<px2sg>uxlabʼal<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
+^le/le<det>/le<prn><rel>$
+^lajuj/lajuj<num>$
+^alaj/alaj<adj>$
+^kʼutubʼ/*kʼutubʼ$
+^,/,<cm>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
+^ta/taj<neg>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kʼo/kʼo<part>$
+^ta/taj<neg>$
+^coronavirus/coronavirus<n><barb>$
+^(/(<lpar>$
+^COVID-19/COVID-19<np><al>$
+^)/)<rpar>$
+^chawe/chi<pr>+<px2sg>ech<n><rel>$
+^,/,<cm>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^nikʼaj/nikʼaj<adj>/nikʼaj<n>$
+^yabʼil/yabʼil<n>$
+^chik/chik<adv>/chik<part>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^apotzpoʼyin/*apotzpoʼyin$
+^./.<sent>$ 
+
+# sent_id = covid:4
+# text = We katij tzam man katuchajij ta che le COVID-19 xuqujeʼ xibʼabʼal chawe.
+# text[spa] = Beber alcohol NO lo protegerá del COVID-19 y podría ser peligroso.
+# labels = incomplete
+^We/we<cnjsub>$
+^katij/<impf><o_sg3><s_sg2>tij<v><tv>$
+^tzam/tzam<n>$
+^man/man<neg>$
+^katuchajij/<impf><o_sg2><s_sg3>chajij<v><tv>$
+^ta/taj<neg>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^le/le<det>/le<prn><rel>$
+^COVID-19/COVID-19<np><al>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^xibʼabʼal/xibʼibʼal<adj>$
+^chawe/chi<pr>+<px2sg>ech<n><rel>$
+^./.<sent>$
+
+# sent_id = covid:5
+# text = Le yabʼil (COVID-19) loqʼ kqʼaxix pa ri qʼaqʼ xuqujeʼ chʼaqal taq tinmit.
+# text[spa] = El virus COVID-19 PUEDE transmitirse en zonas con climas cálidos y húmedos.
+# labels = incomplete
+^Le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^(/(<lpar>$
+^COVID-19/COVID-19<np><al>$
+^)/)<rpar>$
+^loqʼ/loqʼ<adj>$
+^kqʼaxix/*kqʼaxix$
+^pa/pa<pr>$
+^ri/ri<det>/ri<prn><rel>$
+^qʼaqʼ/qʼaqʼ<n>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^chʼaqal/*chʼaqal$
+^taq/taq<cnjsub>/taq<pl>$
+^tinmit/tinamit<n>$
+^./.<sent>$ 
+
+# sent_id = covid:6
+# text = Loqʼlaj tew xuqujeʼ saqtew man kekuwin ta chi ukamsaxik le kʼakʼ yabʼil coronavirus (2019-nCOV).
+# text[spa] = El frío y la nieve NO PUEDEN matar al nuevo coronavirus (2019-nCoV).
+# labels = incomplete
+^Loqʼlaj/*Loqʼlaj$
+^tew/tew<adj>/tew<n>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^saqtew/*saqtew$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kekuwin/*kekuwin$
+^ta/taj<neg>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^ukamsaxik/<s_sg3>kamsaj<v><tv><pass><inf>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^(/(<lpar>$
+^2019/2019<num>$
+^-/-<guio>$
+^nCOV/nCOV<np><al>$
+^)/)<rpar>$
+^./.<sent>$ 
+
+# sent_id = covid:7
+# text = We katatin rukʼ kʼatan jaʼ man kuqʼatej ta le kʼakʼ yabʼil coronavirus.
+# text[spa] = Bañarse con agua caliente NO PREVIENE la infección por el nuevo coronavirus.
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^katatin/<impf><s_sg2>atin<v><iv>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^kʼatan/kʼatän<adj>/kʼatän<n>$
+^jaʼ/jaʼ<n>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kuqʼatej/<impf><o_sg3><s_sg3>qʼatej<v><tv>$
+^ta/taj<neg>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^./.<sent>$
+
+# sent_id = covid:8
+# text = Le kʼakʼ yabʼil coronavirus man loqʼ ta kqʼaxix pa le kitiʼbʼal le us.
+# text[spa] = El nuevo coronavirus NO PUEDE transmitirse a través de picaduras de mosquitos.
+# labels = incomplete
+^Le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^loqʼ/loqʼ<adj>$
+^ta/taj<neg>$
+^kqʼaxix/*kqʼaxix$
+^pa/pa<pr>$
+^le/le<det>/le<prn><rel>$
+^kitiʼbʼal/*kitiʼbʼal$
+^le/le<det>/le<prn><rel>$
+^us/üs<n>$
+^./.<sent>$ 
+
+# sent_id = covid:9
+# text = Le chʼiichʼ chaqiʼjrsabʼal qʼabʼ man kikamsaj ta le kʼakʼ yabʼil coronavirus (2019-nCOV).
+# text[spa] = Los secadores de manos NO MATAN al nuevo coronavirus (2019-nCoV).
+# labels = incomplete
+^Le/le<det>/le<prn><rel>$
+^chʼiichʼ/chʼichʼ<n>$
+^chaqiʼjrsabʼal/*chaqiʼjrsabʼal$
+^qʼabʼ/*qʼabʼ$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kikamsaj/<impf><o_sg3><s_pl2>kamsaj<v><tv>$
+^ta/taj<neg>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^(/(<lpar>$
+^2019/2019<num>$
+^-/-<guio>$
+^nCOV/nCOV<np><al>$
+^)/)<rpar>$
+^./.<sent>$ 
+
+# sent_id = covid:10
+# text = Man utz ta kakʼaq soknaqil jaʼ rukʼ chʼajchʼojnel jaʼ chawij re kakamsaj le uchikopil le yabʼil che xeʼok pa ri achʼakul.
+# text[spa] = Rociar el cuerpo con alcohol o cloro NO SIRVE para matar los virus que ya han ingresado al organismo.
+# labels = incomplete
+^Man/Man<np><top><barb>/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^utz/utz<adj>/utz<adv>$
+^ta/taj<neg>$
+^kakʼaq/<impf><s_sg3>kʼäq<v><iv>$
+^soknaqil/*soknaqil$
+^jaʼ/jaʼ<n>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^chʼajchʼojnel/*chʼajchʼojnel$
+^jaʼ/jaʼ<n>$
+^chawij/<imp><o_sg3><s_sg2>ij<v><tv>$
+^re/<px3sg>ech<n><rel>$
+^kakamsaj/<impf><o_sg3><s_sg2>kamsaj<v><tv>$
+^le/le<det>/le<prn><rel>$
+^uchikopil/<px3sg>chikopil<n>$
+^le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^xeʼok/<perf><s_sg3><abl>ok<v><iv>$
+^pa/pa<pr>$
+^ri/ri<det>/ri<prn><rel>$
+^achʼakul/*achʼakul$
+^./.<sent>$ 
+
+# sent_id = covid:11
+# text = Le toqʼoj kunabʼal rech uyabʼil potzpoʼy man e utz ta kechajin che le kʼakʼ yabʼil coronavirus (2019-nCOV).
+# text[spa] = Las vacunas contra la neumonía NO SIRVEN para proteger contra el nuevo coronavirus (2019-nCoV).
+# labels = incomplete
+^Le/le<det>/le<prn><rel>$
+^toqʼoj/*toqʼoj$
+^kunabʼal/kunabʼal<n>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^uyabʼil/<px3sg>yabʼil<n>$
+^potzpoʼy/potzpoʼy<n>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
+^utz/utz<adj>/utz<adv>$
+^ta/taj<neg>$
+^kechajin/<impf><s_pl3>chajij<v><tv><anti>/<impf><s_pl3>chajij<v><tv><anti><agfoc>/<impf><s_pl3>chajin<v><iv>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^(/(<lpar>$
+^2019/2019<num>$
+^-/-<guio>$
+^nCOV/nCOV<np><al>$
+^)/)<rpar>$
+^./.<sent>$
+
+# sent_id = covid:12
+# text = Man ilom ta we kawoq atzaʼm chi upam raʼl atzʼam, kuqʼatej le kʼakʼ yabʼil coronavirus (2019-nCOV).
+# text[spa] = No hay pruebas que indiquen que enjuagarse la nariz regularmente con una solución salina prevenga el nuevo coronavirus (2019-nCoV).
+# labels = incomplete
+^Man/Man<np><top><barb>/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^ilom/ilom<adj>/il<v><tv><pp>$
+^ta/taj<neg>$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^kawoq/*kawoq$
+^atzaʼm/<px2sg>tzaʼm<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^upam/<px3sg>pam<n>/<px3sg>pam<n><rel>$
+^raʼl/*raʼl$
+^atzʼam/atzʼam<n>$
+^,/,<cm>$
+^kuqʼatej/<impf><o_sg3><s_sg3>qʼatej<v><tv>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^(/(<lpar>$
+^2019/2019<num>$
+^-/-<guio>$
+^nCOV/nCOV<np><al>$
+^)/)<rpar>$
+^./.<sent>$
+
+# sent_id = covid:13
+# text = We katij anxux man katutoʼ ta chi uqʼatixik le kʼakʼ yabʼil coronavirus (2019-nCOV).
+# text[spa] = Comer ajo NO ayuda a prevenir el contagio del nuevo coronavirus (2019-nCoV).
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^katij/<impf><o_sg3><s_sg2>tij<v><tv>/<impf><s_sg3>tij<v><iv>/<impf><s_sg3>tij<v><tv><pass>$
+^anxux/*anxux$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^katutoʼ/<impf><o_sg2><s_sg3>toʼ<v><tv>$
+^ta/taj<neg>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^uqʼatixik/<s_sg3>qʼatij<v><tv><pass><inf>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^(/(<lpar>$
+^2019/2019<num>$
+^-/-<guio>$
+^nCOV/nCOV<np><al>$
+^)/)<rpar>$
+^./.<sent>$
+
+# sent_id = covid:14
+# text = Man utz ta kakoj le yabʼal katmiqʼonem qʼaqʼ re kachʼaj le achʼakul, rumal le uqʼaqʼil qʼij loqʼ kukʼat le atzʼuʼmal (kʼatonem re tzʼuʼmal).
+# text[spa] = NO se deben utilizar lámparas ultravioletas para esterilizar partes del cuerpo, porque la radiación ultravioleta puede causar eritemas (irritación de la piel).
+# labels = incomplete
+^Man/Man<np><top><barb>/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^utz/utz<adj>/utz<adv>$
+^ta/taj<neg>$
+^kakoj/<impf><o_sg3><s_sg2>koj<v><tv>/<impf><s_sg3>koj<v><tv><pass>$
+^le/le<det>/le<prn><rel>$
+^yabʼal/*yabʼal$
+^katmiqʼonem/*katmiqʼonem$
+^qʼaqʼ/qʼaqʼ<n>$
+^re/<px3sg>ech<n><rel>$
+^kachʼaj/<impf><o_sg3><s_sg2>chʼaj<v><tv>/<impf><s_sg3>chʼaj<v><tv><pass>$
+^le/le<det>/le<prn><rel>$
+^achʼakul/*achʼakul$
+^,/,<cm>$
+^rumal/<px3sg>umal<n><rel>$
+^le/le<det>/le<prn><rel>$
+^uqʼaqʼil/<px3sg>qʼaqʼil<n>$
+^qʼij/qʼij<n>$
+^loqʼ/loqʼ<adj>$
+^kukʼat/*kukʼat$
+^le/le<det>/le<prn><rel>$
+^atzʼuʼmal/*atzʼuʼmal$
+^(/(<lpar>$
+^kʼatonem/*kʼatonem$
+^re/<px3sg>ech<n><rel>$
+^tzʼuʼmal/*tzʼuʼmal$
+^)/)<rpar>$
+^./.<sent>$ 
+
+# sent_id = covid:15.0
+# text = ¿Su kichoqʼabʼ le qʼaxwachaj chʼakul chi utzukuxik le winaq rukʼ le yabʼil coronavirus?
+# text[spa] = ¿Qué tan efectivos son los escáneres térmicos para detectar a las personas con coronavirus?
+# labels = incomplete
+^¿/¿<lquest>$
+^Su/su<prn><itg>$
+^kichoqʼabʼ/<px3pl>choqʼabʼ<n>$
+^le/le<det>/le<prn><rel>$
+^qʼaxwachaj/*qʼaxwachaj$
+^chʼakul/*chʼakul$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^utzukuxik/<px3sg>tzukuxik<n>/<s_sg3>tzukuj<v><tv><pass><inf>$
+^le/le<det>/le<prn><rel>$
+^winaq/winaq<n>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^?/?<sent>$ 
+
+# sent_id = covid:15.1
+# text = Le qʼaxwachaj chʼakul kʼo kichoqʼabʼ chi utzukuxik le winaq che kʼo qʼaqʼ chi kij.
+# text[spa] = Los escáneres térmicos son efectivos detectando a las personas que tienen fiebre.
+# labels = incomplete
+^Le/le<det>/le<prn><rel>$
+^qʼaxwachaj/*qʼaxwachaj$
+^chʼakul/*chʼakul$
+^kʼo/kʼo<part>$
+^kichoqʼabʼ/<px3pl>choqʼabʼ<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^utzukuxik/<px3sg>tzukuxik<n>/<s_sg3>tzukuj<v><tv><pass><inf>$
+^le/le<det>/le<prn><rel>$
+^winaq/winaq<n>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^kʼo/kʼo<part>$
+^qʼaqʼ/qʼaqʼ<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^kij/<px3pl>ij<n>/<px3pl>ij<n><rel>$
+^./.<sent>$
+
+# sent_id = covid:15.2
+# text = Man loqʼ ta keʼil jachin e yabʼ rumal le coronavirus, che man xkikʼut ta le ukʼaxkʼolil are chiʼ xeʼilik. 
+# text[spa] = Sin embargo, no es posible identificar a quienes estén infectados por coronavirus y no hayan presentado síntomas en el momento de ser evaluados. 
+# labels = incomplete
+^Man/Man<np><top><barb>/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^loqʼ/loqʼ<adj>$
+^ta/taj<neg>$
+^keʼil/*keʼil$
+^jachin/jachin<prn><itg>$
+^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
+^yabʼ/yabʼ<adj>$
+^rumal/<px3sg>umal<n><rel>$
+^le/le<det>/le<prn><rel>$
+^coronavirus/coronavirus<n><barb>$
+^,/,<cm>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^xkikʼut/<perf><o_sg3><s_pl3>kʼut<v><tv>$
+^ta/taj<neg>$
+^le/le<det>/le<prn><rel>$
+^ukʼaxkʼolil/<px3sg>kʼaxkʼolil<n>$
+^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^chiʼ/chiʼ<adv>/chiʼ<cnjsub>/chiʼ<n>$
+^xeʼilik/*xeʼilik$
+^./.<sent>$
+
+# sent_id = covid:15.3
+# text = We riʼ are che le e yabʼ winaq kʼateʼ kikʼut le qʼaqʼ chi kij chi uxoʼl le kebʼ xuqujeʼ lajuj qʼij che ri xkiriq le yabʼil.
+# text[spa] = Esto se debe a que las personas infectadas presentan fiebre entre 2 y 10 días después de contraer la enfermedad. 
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^riʼ/riʼ<prn><dem>$
+^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^le/le<det>/le<prn><rel>$
+^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
+^yabʼ/yabʼ<adj>$
+^winaq/winaq<n>$
+^kʼateʼ/kʼateʼ<pr>$
+^kikʼut/<impf><o_sg3><s_pl2>kʼut<v><tv>$
+^le/le<det>/le<prn><rel>$
+^qʼaqʼ/qʼaqʼ<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^kij/<px3pl>ij<n>/<px3pl>ij<n><rel>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^uxoʼl/<px3sg>xoʼl<n><rel>$
+^le/le<det>/le<prn><rel>$
+^kebʼ/kebʼ<num>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^lajuj/lajuj<num>$
+^qʼij/qʼij<n>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^xkiriq/<perf><o_sg3><s_pl3>riq<v><tv>$
+^le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^./.<sent>$
+
+# sent_id = covid:16.0
+# text = ¿Le kʼakʼ yabʼil coronavirus kubʼan kʼax chike le taq riʼj winaq wene le alabʼom xuqujeʼ alitom loqʼ kiriqo?
+# text[spa] = ¿El nuevo coronavirus afecta a los adultos mayores o los jóvenes también son susceptibles de contraerlo?
+# labels = incomplete
+^¿/¿<lquest>$
+^Le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^kubʼan/<impf><o_sg3><s_sg3>bʼan<v><tv>$
+^kʼax/kʼax<adj>/kʼax<n>$
+^chike/chi<pr>+<px3pl>ech<n><rel>$
+^le/le<det>/le<prn><rel>$
+^taq/taq<cnjsub>/taq<pl>$
+^riʼj/riʼj<adj>/riʼj<n>$
+^winaq/winaq<n>$
+^wene/weneʼ<adv>$
+^le/le<det>/le<prn><rel>$
+^alabʼom/alabʼom<n>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^alitom/alitom<n>$
+^loqʼ/loqʼ<adj>$
+^kiriqo/<impf><o_sg3><s_pl2>riq<v><tv>+u<mark>$
+^?/?<sent>$
+
+# sent_id = covid:16.1
+# text = Le yabʼil (2019-nCOV) loqʼ kubʼan kʼax chike winaq ronojel kijunabʼ.
+# text[spa] = El nuevo coronavirus (2019-nCoV) puede afectar a personas de todas las edades.
+# labels = incomplete
+^Le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^(/(<lpar>$
+^2019/2019<num>$
+^-/-<guio>$
+^nCOV/nCOV<np><al>$
+^)/)<rpar>$
+^loqʼ/loqʼ<adj>$
+^kubʼan/<impf><o_sg3><s_sg3>bʼan<v><tv>$
+^kʼax/kʼax<adj>/kʼax<n>$
+^chike/chi<pr>+<px3pl>ech<n><rel>$
+^winaq/winaq<n>$
+^ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
+^kijunabʼ/<px3pl>junabʼ<n>$
+^./.<sent>$ 
+
+# sent_id = covid:17.0
+# text = ¿Le kunabʼal antibiótico e utz chi uqʼatxik xuqujeʼ chi ukunaxik le kʼakʼ yabʼil coronavirus
+# text[spa] = ¿Los antibióticos son efectivos para prevenir y tratar el nuevo coronavirus?
+# labels = incomplete
+^¿/¿<lquest>$
+^Le/le<det>/le<prn><rel>$
+^kunabʼal/kunabʼal<n>$
+^antibiótico/antibiótico<n><barb>$
+^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
+^utz/utz<adj>/utz<adv>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^uqʼatxik/*uqʼatxik$
+^xuqujeʼ/xuqujeʼ<adv>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^ukunaxik/<px3sg>kunaxik<n>/<s_sg3>kunaj<v><tv><pass><inf>/<s_sg3>kunax<v><iv><inf>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^?/?<rquest>$
+
+# sent_id = covid:17.1
+# text = Man jeʼ ta, le kunabʼal antibiótico man e utz ta chi ukamsaxik le kʼakʼ yabʼil (2019-nCOV).
+# text[spa] = No, los antibióticos NO son eficaces contra el nuevo coronavirus (2019-nCoV).
+# labels = incomplete
+^Man/Man<np><top><barb>/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^jeʼ/jeʼ<ij>$
+^ta/taj<neg>$
+^,/,<cm>$
+^le/le<det>/le<prn><rel>$
+^kunabʼal/kunabʼal<n>$
+^antibiótico/antibiótico<n><barb>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
+^utz/utz<adj>/utz<adv>$
+^ta/taj<neg>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^ukamsaxik/<s_sg3>kamsaj<v><tv><pass><inf>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^(/(<lpar>$
+^2019/2019<num>$
+^-/-<guio>$
+^nCOV/nCOV<np><al>$
+^)/)<rpar>$
+^./.<sent>$ 
+
+# sent_id = covid:18.0
+# text = ¿Kʼo kʼu laʼ jun kunabʼal che kuqʼatej xuqujeʼ kukunaj le kʼakʼ yabʼil coronavirus?
+# text[spa] = ¿Hay alguna medicina para prevenir o tratar el nuevo coronavirus?
+# labels = incomplete
+^¿/¿<lquest>$
+^Kʼo/kʼo<part>$
+^kʼu/kʼut<cnjcoo>/kʼut<part>$
+^laʼ/laʼ<prn><dem>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^kunabʼal/kunabʼal<n>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^kuqʼatej/<impf><o_sg3><s_sg3>qʼatej<v><tv>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^kukunaj/<impf><o_sg3><s_sg3>kunaj<v><tv>$
+^le/le<det>/le<prn><rel>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^?/?<sent>$
+
+# sent_id = covid:18.1
+# text = We uchanim riʼ man kʼo ta jun kunabʼal kyaʼ ubʼixik che kuqʼatej xuqujeʼ kukunaj le yabʼil coronavirus (2019-nCOV).
+# text[spa] = Por el momento, no se recomienda ningún medicamento específico para prevenir o tratar la infección por coronavirus (2019-nCoV).
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^uchanim/*uchanim$
+^riʼ/riʼ<prn><dem>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kʼo/kʼo<part>$
+^ta/taj<neg>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^kunabʼal/kunabʼal<n>$
+^kyaʼ/<impf><s_sg3>yaʼ<v><tv><pass>$
+^ubʼixik/<px3sg>bʼixik<n>/<s_sg3>bʼij<v><tv><pass><inf>/<s_sg3>bʼix<v><iv><inf>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^kuqʼatej/<impf><o_sg3><s_sg3>qʼatej<v><tv>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^kukunaj/<impf><o_sg3><s_sg3>kunaj<v><tv>$
+^le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^coronavirus/coronavirus<n><barb>$
+^(/(<lpar>$
+^2019/2019<num>$
+^-/-<guio>$
+^nCOV/nCOV<np><al>$
+^)/)<rpar>$
+^./.<sent>$ 
+
+# sent_id = covid:19
+# text = Le kʼat chʼichʼ 5G rech qʼaxbʼal taq tziij man kiqʼaxij ta le COVID-19.
+# text[spa] = Las redes 5G de telefonía móvil NO propagan el COVID-19.
+# labels = incomplete
+^Le/le<det>/le<prn><rel>$
+^kʼat/Kʼat<n>/kʼat<n>$
+^chʼichʼ/chʼichʼ<n>$
+^5G/5G<np><al>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^qʼaxbʼal/qʼaxbʼal<n>$
+^taq/taq<cnjsub>/taq<pl>$
+^tziij/tzij<n>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kiqʼaxij/*kiqʼaxij$
+^ta/taj<neg>$
+^le/le<det>/le<prn><rel>$
+^COVID-19/COVID-19<np><al>$
+^./.<sent>$ 
+
+# sent_id = covid:20
+# text = We katij le kunabʼal metanol, etanol xuqujeʼ le chʼajchʼojnel jaʼ man kuqʼatej ta, man kukunaj ta le COVID-19 xuqujeʼ sibʼalaj xibʼabʼal.
+# text[spa] = 
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^katij/<impf><o_sg3><s_sg2>tij<v><tv>/<impf><s_sg3>tij<v><iv>/<impf><s_sg3>tij<v><tv><pass>$
+^le/le<det>/le<prn><rel>$
+^kunabʼal/kunabʼal<n>$
+^metanol/metanol<n><barb>$
+^,/,<cm>$
+^etanol/etanol<n><barb>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^le/le<det>/le<prn><rel>$
+^chʼajchʼojnel/*chʼajchʼojnel$
+^jaʼ/jaʼ<n>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kuqʼatej/<impf><o_sg3><s_sg3>qʼatej<v><tv>$
+^ta/taj<neg>$
+^,/,<cm>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kukunaj/<impf><o_sg3><s_sg3>kunaj<v><tv>$
+^ta/taj<neg>$
+^le/le<det>/le<prn><rel>$
+^COVID-19/COVID-19<np><al>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^sibʼalaj/sibʼalaj<adj>/sibʼalaj<adv>/sibʼ<adj><ints>$
+^xibʼabʼal/xibʼibʼal<adj>$
+^./.<sent>$ 
+
+# sent_id = covid:21
+# text = Utzaqik xuqujeʼ unimik le chʼajchʼojnel jaʼ pa ri achʼakul, man katuchajij ta che le COVID-19 xuqujeʼ xibʼabʼal chawe.
+# text[spa] = 
+# labels = incomplete
+^Utzaqik/<s_sg3>tzaq<v><iv><inf>/<s_sg3>tzaq<v><tv><inf>/<s_sg3>tzaq<v><tv><pass><inf>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^unimik/*unimik$
+^le/le<det>/le<prn><rel>$
+^chʼajchʼojnel/*chʼajchʼojnel$
+^jaʼ/jaʼ<n>$
+^pa/pa<pr>$
+^ri/ri<det>/ri<prn><rel>$
+^achʼakul/*achʼakul$
+^,/,<cm>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^katuchajij/<impf><o_sg2><s_sg3>chajij<v><tv>$
+^ta/taj<neg>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^le/le<det>/le<prn><rel>$
+^COVID-19/COVID-19<np><al>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^xibʼabʼal/xibʼibʼal<adj>$
+^chawe/chi<pr>+<px2sg>ech<n><rel>$
+^./.<sent>$ 
+
+# sent_id = covid:22
+# text = Le yabʼil COVID-19 man loqʼ ta kqʼaxix kimal le amlo. 
+# text[spa] = 
+# labels = incomplete
+^Le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^COVID-19/COVID-19<np><al>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^loqʼ/loqʼ<adj>$
+^ta/taj<neg>$
+^kqʼaxix/*kqʼaxix$
+^kimal/<px3pl>mal<n>$
+^le/le<det>/le<prn><rel>$
+^amlo/*amlo$
+^./.<sent>$ 
+
+# sent_id = covid:23
+# text = We ktzaq pimienta che le ronojel rikil man kuqʼatej ta, xuqujeʼ man kukunaj ta le yabʼil COVID-19.
+# text[spa] = 
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^ktzaq/<impf><s_sg3>tzaq<v><iv>/<impf><s_sg3>tzaq<v><tv><pass>/<px3pl>tzaq<n>$
+^pimienta/pimienta<n><barb>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^le/le<det>/le<prn><rel>$
+^ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
+^rikil/rikiʼl<n>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kuqʼatej/<impf><o_sg3><s_sg3>qʼatej<v><tv>$
+^ta/taj<neg>$
+^,/,<cm>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kukunaj/<impf><o_sg3><s_sg3>kunaj<v><tv>$
+^ta/taj<neg>$
+^le/le<det>/le<prn><rel>$
+^yabʼil/yabʼil<n>$
+^COVID-19/COVID-19<np><al>$
+^./.<sent>$ 
+
