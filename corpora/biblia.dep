@@ -183,18 +183,18 @@
 # text[spa] = ¿Cuando alguien se siente débil, no comparto yo su debilidad?
 # labels = 8_2CO_11
 "<We>"
-	"we" cnjsub @mark
+	"we" cnjsub @mark #
 "<kʼo>"
-	"kʼo" part
+	"kʼo" part @advcl #
 "<jun>"
-	"jun" num @nsubj
+	"jun" num @nsubj #
 "<ktuqaʼrik>"
-	"tuqaʼr" v iv impf s_sg3 @advcl
-		"ik" mark
+	"tuqaʼr" v iv impf s_sg3 @csubj #
+		"ik" mark @dep
 "<,>"
-	"," cm @punct
+	"," cm @punct #
 "<¿>"
-	"¿" lquest @punct
+	"¿" lquest @punct #
 "<la>"
 	"la" qst @discourse
 "<man>"
@@ -202,15 +202,15 @@
 "<xoqujeʼ>"
 	"xuqujʼe" adv @advmod
 "<taj>"
-	"taj" neg fin @advmod:neg
+	"taj" neg fin @advmod:neg #10->11
 "<kintuqaʼr>"
-	"tuqaʼr" v iv impf s_sg1 @root
+	"tuqaʼr" v iv impf s_sg1 @root #11->0
 "<ri>"
-	"ri" det @det
+	"ri" det @det #12->13
 "<in>"
-	"in" prn pers p1 sg @nsubj
+	"in" prn pers p1 sg @nsubj #13->11
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #14->11
 
 # sent_id = biblia:8
 # text = We kʼo jun ktzaqik ¿la man kinporoj ta wibʼ ri in?
