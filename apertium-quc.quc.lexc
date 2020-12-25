@@ -712,6 +712,8 @@ chiʼl:chiʼl CC ;                    ! "y"  ! E kʼo achijabʼ chiʼl ixoqibʼ 
 
 e:e CC ;  ! Src/Biblia
 
+xuqujeʼ:xuqujeʼ CC ;                ! "y" ! Src/Ley2009-9 ! 
+
 we:we CS ;                          ! "si; if"
 weta:weta CS ;                      ! "si" ! Src/Biblia
 pune:pune CS ;                      ! "aunque; although"
@@ -4375,6 +4377,7 @@ uxlanbʼal:uxlanbʼal N-tinamit ; ! "park" Src/UTexas
 chʼutitat:chʼutitat N-tinamit ; ! "uncle" Src/UTexas
 qameqʼin:qameqʼin N-tinamit ; ! "hot drink" ! Src/UTexas
 tzʼibʼabʼal:tzʼibʼabʼal N-tinamit ; ! "pencil" ! Src/UTexas
+woktzʼibʼabʼal:woktzʼibʼabʼal N-tinamit ; ! "secretaria" ! Src/Ley2009-9
 chʼawebʼal:chʼawebʼal N-tinamit ; ! "telephone" ! Src/UTexas
 nimatijobʼal:nimatijobʼal N-tinamit ; ! "university" ! Src/UTexas
 taraʼs:taraʼs N-tinamit ; ! "peach" ! Src/UTexas
@@ -4860,6 +4863,8 @@ naʼl:naʼl N-tinamit ; ! "esmero"
 tʼisoʼmanel:tʼisoʼmanel N-iyom ; ! "sastre"
 ajtʼisoʼmanel:ajtʼisoʼmanel N-iyom ; ! "sastre"
 choqʼbʼal:choqʼbʼal N-iyom ; ! "aguijón; sting"
+
+cholchak:cholchak N-tinamit ; ! "mismo"
 
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;

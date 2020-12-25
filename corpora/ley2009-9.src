@@ -30,3 +30,28 @@
 ^aninaqil/aninaqil<adv>/aninäqil<n>$
 ^./.<sent>$
 
+# sent_id = ley2009-9:38
+# text = We Woktz’ib’ab’al k’o pa uq’ab’ kuchajij xuquje’ kupatanij we taqanik ri’, rachi’l ri chomanem xuquje’ ri ucholchak.
+# text[spa] = La Secretaría es la responsable de velar y dar cumplimiento a esta Ley y a políticas y planes relacionados con la misma.
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^Woktzʼibʼabʼal/woktzʼibʼabʼal<n>$
+^kʼo/kʼo<part>$
+^pa/pa<pr>$
+^uqʼabʼ/<px3sg>qʼabʼ<n>$
+^kuchajij/<impf><o_sg3><s_sg3>chajij<v><tv>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^kupatanij/<impf><o_sg3><s_sg3>patanij<v><tv>$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^taqanik/taqanik<n>/taqan<v><iv><inf>/taq<v><tv><anti><inf>$
+^riʼ/riʼ<prn><dem>$
+^,/,<cm>$
+^rachiʼl/<px3sg>achiʼl<n>$
+^ri/ri<det>/ri<prn><rel>$
+^chomanem/chomaj<v><tv><anti><inf>/choman<v><iv><inf>$
+^xuqujeʼ/xuqujeʼ<adv>$
+^ri/ri<det>/ri<prn><rel>$
+^ucholchak/<px3sg>cholchak<n>$
+^./.<sent>$ 
+
+

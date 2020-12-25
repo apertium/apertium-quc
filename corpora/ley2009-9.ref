@@ -30,3 +30,28 @@
 ^aninaqil/aninaqil<adv>$
 ^./.<sent>$
 
+# sent_id = ley2009-9:38
+# text = We Woktz’ib’ab’al k’o pa uq’ab’ kuchajij xuquje’ kupatanij we taqanik ri’, rachi’l ri chomanem xuquje’ ri ucholchak.
+# text[spa] = La Secretaría es la responsable de velar y dar cumplimiento a esta Ley y a políticas y planes relacionados con la misma.
+# text[spa'] = La Secretaría tiene en dominio cuidar también servir el orden este, compañero de pensar también en el mismo
+# labels = incomplete
+^We/we<det>$
+^Woktzʼibʼabʼal/woktzʼibʼabʼal<n>$
+^kʼo/kʼo<part>$
+^pa/pa<pr>$
+^uqʼabʼ/<px3sg>qʼabʼ<n>$
+^kuchajij/<impf><o_sg3><s_sg3>chajij<v><tv>$
+^xuqujeʼ/xuqujeʼ<cnjcoo>$
+^kupatanij/<impf><o_sg3><s_sg3>patanij<v><tv>$
+^we/we<det>$
+^taqanik/taqanik<n>$
+^riʼ/riʼ<prn><dem>$
+^,/,<cm>$
+^rachiʼl/<px3sg>achiʼl<n>$
+^ri/ri<det>/ri<prn><rel>$
+^chomanem/choman<v><iv><inf>$
+^xuqujeʼ/xuqujeʼ<advmod>$
+^ri/ri<det>$
+^ucholchak/<px3sg>cholchak<n>$
+^./.<sent>$
+
