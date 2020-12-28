@@ -245,3 +245,70 @@
 "<?>"
 	"?" sent
 
+# sent_id = biblia:10
+# text = Chinatisaj ri rixoqil ri Lot.
+# text[spa] = ­Acuérdense de la esposa de Lot!
+# labels = incomplete
+"<Chinatisaj>"
+	"naʼtisaj" v tv imp o_sg3 s_pl2 @root #1->0
+"<ri>"
+	"ri" det @det #2->3
+"<rixoqil>"
+	"ixoqilom" n px3sg @obj #3->1
+"<ri>"
+	"ri" det @det #4->5
+"<Lot>"
+	"Lot" np ant m @nmod:psor #5->3
+"<.>"
+	"." sent @punct #6->1
+
+# sent_id = biblia:14
+# text = Ri in, xintaq bʼi ri Tikiko pa ri Efeso.
+# text[spa] = A Tíquico lo mandé a Éfeso.
+# labels = complete check-dislocated
+"<Ri>"
+	"ri" det @det #1->2
+"<in>"
+	"in" prn pers p1 sg @dislocated #2->4
+"<,>"
+	"," cm @punct #3->4
+"<xintaq>"
+	"taq" v tv perf o_sg3 s_sg1 @root #4->0
+"<bʼi>"
+	"bʼi" adv dir @advmod #5->4
+"<ri>"
+	"ri" det @det #6->7
+"<Tikiko>"
+	"Tikiko" np ant m @obj #7->4
+"<pa>"
+	"pa" pr @case #8->10
+"<ri>"
+	"ri" det @det #9->10
+"<Efeso>"
+	"Efeso" np top @obl #10->4
+"<.>"
+	"." sent @punct #11->4
+
+# sent_id = biblia:20
+# text = Kʼisbʼal kanoq, xoqujeʼ kkam ri ixoq.
+# text[spa] = Por último, murió también la mujer.
+# labels = complete check-adverbial
+"<Kʼisbʼal>"
+	"kʼisbʼal" n @obl #1->6
+"<kanoq>"
+	"kan" adv dir @advmod #2->6
+		"oq" mark @dep #3->2
+"<,>"
+	"," cm @punct #4->6
+"<xoqujeʼ>"
+	"xuqujʼe" adv @advmod #5->4
+"<kkam>"
+	"käm" v iv impf s_sg3 @root #6->0
+"<ri>"
+	"ri" det @det #7->8
+"<ixoq>"
+	"ixoq" n @nsubj #8->6
+"<.>"
+	"." sent @punct #9->6
+
+

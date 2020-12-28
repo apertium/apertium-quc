@@ -30,3 +30,41 @@
 	"aninaqil" adv @advmod #13->12
 "<.>"
 	"." sent @punct #14->4
+
+# sent_id = ley2009-9:199
+# text = We xkam ri winaq, ri pwaq rech tojbʼal makaj kyaʼ chi kech ri ralaxik.
+# text[spa] = La indemnización corresponderá a los herederos, si la víctima hubiere fallecido.
+# labels = complete check-relat
+"<We>"
+	"we" cnjsub @mark #1->2
+"<xkam>"
+	"käm" v iv perf s_sg3 @advcl #2->11
+"<ri>"
+	"ri" det @det #3->4
+"<winaq>"
+	"winaq" n @nsubj #4->2
+"<,>"
+	"," cm @punct #5->2
+"<ri>"
+	"ri" det @det #6->7
+"<pwaq>"
+	"pwaq" n @nsubj #7->11
+"<rech>"
+	"ech" n rel px3sg @obl #8->11
+"<tojbʼal>"
+	"tojbʼal" n @nmod #9->8
+"<makaj>"
+	"makaj" n @compound #10->9
+"<kyaʼ>"
+	"yaʼ" v tv pass impf s_sg3 @root #11->0
+"<chi>"
+	"chi" pr @case #12->13
+"<kech>"
+	"ech" n rel px3pl @obl #13->11
+"<ri>"
+	"ri" det @det #14->15
+"<ralaxik>"
+	"alaxik" n px3sg @nmod #15->13
+"<.>"
+	"." sent @punct #15->11
+

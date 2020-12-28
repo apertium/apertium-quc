@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="quc-morph" install="yes">
+<!--  <mode name="quc-morph" install="yes">
     <pipeline>
       <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w">
+        <file name="quc.automorf.hfst"/>
+      </program>
+    </pipeline>
+  </mode>-->
+
+  <mode name="quc-morph" install="yes">
+    <pipeline>
       <program name="hfst-proc -w">
         <file name="quc.automorf.hfst"/>
       </program>

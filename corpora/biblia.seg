@@ -139,3 +139,44 @@
 ^in/in$
 ^?/?$
 
+# sent_id = biblia:10
+# text = Chinatisaj ri rixoqil ri Lot.
+# text[spa] = ­Acuérdense de la esposa de Lot!
+# labels = incomplete
+^Chinatisaj/chi>naʼtisaj$
+^ri/ri$
+^rixoqil/r>ixoqil$
+^ri/ri$
+^Lot/Lot$
+^./.$
+
+# sent_id = biblia:14
+# text = Ri in, xintaq bʼi ri Tikiko pa ri Efeso.
+# text[spa] = A Tíquico lo mandé a Éfeso.
+# labels = complete
+^Ri/ri$
+^in/in$
+^,/,$
+^xintaq/x>in>taq$
+^bʼi/bʼi$
+^ri/ri$
+^Tikiko/Tikiko$
+^pa/pa$
+^ri/ri$
+^Efeso/Efeso$
+^./.$
+
+# sent_id = biblia:20
+# text = Kʼisbʼal kanoq, xoqujeʼ kkam ri ixoq.
+# text[spa] = Por último, murió también la mujer.
+# labels = complete
+^Kʼisbʼal/kʼisbʼal$
+^kanoq/kan>oq$
+^,/,$
+^xoqujeʼ/xuqujʼe$
+^kkam/k>käm$
+^ri/ri$
+^ixoq/ixoq$
+^./.$
+
+

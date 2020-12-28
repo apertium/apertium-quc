@@ -55,3 +55,52 @@
 ^ucholchak/<px3sg>cholchak<n>$
 ^./.<sent>$
 
+# sent_id = ley2009-9:112
+# text = Ri tojbʼal makaj chi rij ri winaq ajmak, jalan chi uwach ri nikʼaj tojbʼal mak rech nikʼaj taq makaj chik.
+# text[spa] = La pena se impondrá sin perjuicio de las penas que puedan corresponder por la comisión de otros delitos.”
+# text[spa'] = El precio pecado a atrás de la persona pecadora, ? en frente de otro precio pecado 
+# labels = incomplete
+^Ri/ri<det>$
+^tojbʼal/tojbʼal<n>$
+^makaj/makaj<n>$
+^chi/chi<pr>$
+^rij/<px3sg>ij<n><rel>$
+^ri/ri<det>$
+^winaq/winaq<n>$
+^ajmak/ajmak<n>$
+^,/,<cm>$
+^jalan/*jalan$
+^chi/chi<pr>$
+^uwach/<px3sg>wach<n><rel>$
+^ri/ri<det>$
+^nikʼaj/nikʼaj<adj>$
+^tojbʼal/tojbʼal<n>$
+^mak/mak<n>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^nikʼaj/nikʼaj<adj>$
+^taq/taq<pl>$
+^makaj/makaj<n>$
+^chik/chik<adv>$
+^./.<sent>$
+
+# sent_id = ley2009-9:199
+# text = We xkam ri winaq, ri pwaq rech tojbʼal makaj kyaʼ chi kech ri ralaxik.
+# text[spa] = La indemnización corresponderá a los herederos, si la víctima hubiere fallecido.
+# labels = incomplete
+^We/we<cnjsub>$
+^xkam/<perf><s_sg3>käm<v><iv>$
+^ri/ri<det>$
+^winaq/winaq<n>$
+^,/,<cm>$
+^ri/ri<det>$
+^pwaq/pwaq<n>$
+^rech/<px3sg>ech<n><rel>$
+^tojbʼal/tojbʼal<n>$
+^makaj/makaj<n>/mak<n>$
+^kyaʼ/<impf><s_sg3>yaʼ<v><tv><pass>$
+^chi/chi<pr>$
+^kech/<px3pl>ech<n><rel>$
+^ri/ri<det>$
+^ralaxik/<px3sg>alaxik<n>$
+^./.<sent>$
+

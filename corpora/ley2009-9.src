@@ -54,4 +54,51 @@
 ^ucholchak/<px3sg>cholchak<n>$
 ^./.<sent>$ 
 
+# sent_id = ley2009-9:112
+# text = Ri tojbʼal makaj chi rij ri winaq ajmak, jalan chi uwach ri nikʼaj tojbʼal mak rech nikʼaj taq makaj chik.
+# text[spa] = La pena se impondrá sin perjuicio de las penas que puedan corresponder por la comisión de otros delitos.”
+# labels = incomplete
+^Ri/ri<det>/ri<prn><rel>$
+^tojbʼal/tojbʼal<n>$
+^makaj/makaj<n>/mak<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^rij/<px3sg>ij<n>/<px3sg>ij<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^ajmak/Ajmak<n>/ajmak<n>$
+^,/,<cm>$
+^jalan/<imp><mov><s_sg3>alan<v><iv>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
+^ri/ri<det>/ri<prn><rel>$
+^nikʼaj/nikʼaj<adj>/nikʼaj<n>$
+^tojbʼal/tojbʼal<n>$
+^mak/mak<n>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^nikʼaj/nikʼaj<adj>/nikʼaj<n>$
+^taq/taq<cnjsub>/taq<pl>$
+^makaj/makaj<n>/mak<n>$
+^chik/chik<adv>/chik<part>$
+^./.<sent>$
+
+# sent_id = ley2009-9:199
+# text = We xkam ri winaq, ri pwaq rech tojbʼal makaj kyaʼ chi kech ri ralaxik.
+# text[spa] = La indemnización corresponderá a los herederos, si la víctima hubiere fallecido.
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^xkam/<perf><s_sg3>käm<v><iv>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^,/,<cm>$
+^ri/ri<det>/ri<prn><rel>$
+^pwaq/pwaq<n>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^tojbʼal/tojbʼal<n>$
+^makaj/makaj<n>/mak<n>$
+^kyaʼ/<impf><s_sg3>yaʼ<v><tv><pass>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^kech/<px3pl>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^ralaxik/<px3sg>alaxik<n>/<s_sg3>alaj<v><tv><pass><inf>/<s_sg3>alax<v><iv><inf>$
+^./.<sent>$
 

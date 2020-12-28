@@ -42,3 +42,23 @@
 ^ucholchak/u>cholchak$
 ^./.$
 
+# sent_id = ley2009-9:199
+# text = We xkam ri winaq, ri pwaq rech tojbʼal makaj kyaʼ chi kech ri ralaxik.
+# text[spa] = La indemnización corresponderá a los herederos, si la víctima hubiere fallecido.
+# labels = incomplete
+^We/we$
+^xkam/x>kam$
+^ri/ri$
+^winaq/winaq$
+^,/,$
+^ri/ri$
+^pwaq/pwaq$
+^rech/r>ech$
+^tojbʼal/tojbʼal$
+^makaj/makaj
+^kyaʼ/k>yaʼ$
+^chi/chi$
+^kech/k>ech$
+^ri/ri$
+^ralaxik/r>alaxik$
+^./.$

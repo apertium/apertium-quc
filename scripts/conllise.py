@@ -30,6 +30,9 @@ def get_func_cg(line):
 def get_tags_cg(line):
 	tags = []
 	for i in line.strip().split(' '):
+		if not i:
+			print('ERROR:', line, '|||', i, file=sys.stderr)
+			return ''
 		if i[0] not in ['@', '"', '#']:
 			tags.append(i)
 	return '|'.join(tags)
@@ -65,8 +68,12 @@ def get_segmentations(sent):
 		if line.count('/') == 1:
 			(surface, segmentation) = line[1:-1].split('/')
 			segmentations[counter] = (surface, segmentation.split('>'))
-		else:
-			segmentations[counter] = (surface, surface)
+		elif line.count('/') > 1:
+			print('WARNING: Multiple segmentations:\n  ', line, file=sys.stderr)
+			return {}
+		elif line.count('/') == 0:
+			print('WARNING: No segmentations:\n  ', line, file=sys.stderr)
+			return {}
 		counter += 1
 	return segmentations
 
