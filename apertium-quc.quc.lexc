@@ -967,6 +967,7 @@ chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>%+man%<neg%>:ch%>e%>man # ; ! Src/ALMG
 le%<det%>%+akʼal%<n%>%<pl%>:l%>aʼkʼalabʼ # ; ! Src/CanPixabaj
 ri%<det%>%+%<px3sg%>jolom%<n%>:r%>uʼ%>jolom # ; ! Src/CanPixabaj
 ri%<det%>%+tzʼiʼ%<n%>:r%>tzʼiʼ # ; ! Src/CanPixabaj
+ri%<det%>%+aʼchi%<n%>:r%>aʼchi # ; ! Src/CanPixabaj
 ri%<det%>%+%<px1pl%>sok%<n%>:r%>qa%>sok # ; ! Src/CanPixabaj
 
 LEXICON Relationals
@@ -5832,6 +5833,7 @@ nimatajinaq:nimatajinaq A-saq ; ! "serious"
 nin:nin A-saq ; ! "rancid smelling"
 nojik:nojik A-saq ; ! "full"
 nojim:nojim A-saq ; ! "slow"
+nojim:noʼjim A-saq ; ! "slow" ! Src/CanPixabaj
 nojinaq:nojinaq A-saq ; ! "filled"
 nom:nom A-saq ; ! "emaciated"
 nuchʼ:nuchʼ A-saq ; ! "small"
@@ -6763,6 +6765,7 @@ malalej:malale                     V-TV-D ; ! "pet softly"
 malij:mali                         V-TV-D ; ! "lose (home"
 maltyoxij:maltioxi                 V-TV-D ; ! "thank for something (xumaltioxij ri toqʼob ri xban che)"
 maltyoxij:maltyoxi                 V-TV-D ; ! "thank for something (xumaltioxij ri toqʼob ri xban che)" ! Src/Biblia
+tyoxij:tyoxi                       V-TV-D ; ! "thank for something" ! Src/CanPixabaj
 manxorisaj:manxorisa               V-TV-D ; ! "tame"
 matatej:matate                     V-TV-D ; ! "hold tightly (hand so donʼt get lost)"
 matzʼatzʼej:matzʼatzʼe             V-TV-D ; ! "hug hard"
@@ -7085,6 +7088,7 @@ tzeʼj:tzeʼ                         V-TV-D ; ! "laugh at something"
 tzij:tzi                           V-TV-D ; ! "light (candle)"
 tzijobʼej:tzijobe                   V-TV-D ; ! "counsel"
 tzijoj:tzijo                       V-TV-D ; ! "tell, relate"
+tzijoj:tzjo                       V-TV-D ; ! "tell, relate" ! Src/CanPixabaj
 tzoj:tzo                           V-TV-D ; ! "scrape"
 tzokʼ:tzokʼ                        V-TV-R ; ! "sculpt"
 tzolij:tzoli                       V-TV-D ; ! "inspect"
