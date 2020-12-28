@@ -61,7 +61,7 @@
 "<pa>"
 	"pa" pr @case
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<Siriʼa>"
 	"Siriʼa" np top @obl
 "<e>"
@@ -69,11 +69,11 @@
 "<pa>"
 	"pa" pr @case
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<Silisiʼa>"
 	"Silisiʼa" np top @conj
 "<,>"
-	"," cm
+	"," cm @punct
 "<jawijeʼ>"
 	"jawijeʼ" adv itg
 "<kuya>"
@@ -81,11 +81,11 @@
 "<wi>"
 	"wi" adv dir @advmod
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<kichuqʼabʼ>"
 	"chuqʼabʼ" n px3pl @obj
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<Komon>"
 	"komon" n @compound
 "<Tyox>"
@@ -102,7 +102,7 @@
 	"taq" cnjsub
 	"taq" pl
 "<we>"
-	"we" det @det
+	"we" det @det @det @det
 "<tzij>"
 	"tzij" n
 "<riʼ>"
@@ -112,17 +112,17 @@
 "<xkikʼam>"
 	"kʼam" v tv perf o_sg3 s_pl3 @root
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<kiqasnaʼ>"
 	"qasnaʼ" n px3pl
 "<pa>"
 	"pa" pr @case
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<ubʼi>"
 	"bʼi" n px3sg @obl
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<Ajawxel>"
 	"Ajawaxel" n @nmod
 "<Jesus>"
@@ -141,11 +141,11 @@
 "<bʼaʼ>"
 	"bʼaʼ" ij
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<usipanik>"
 	"sipanik" n px3sg
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<ajawxel>"
 	"Ajawaxel" n
 "<Jesus>"
@@ -155,7 +155,7 @@
 "<rukʼ>"
 	"ukʼ" n rel px3sg
 "<ri>"
-	"ri" det @det
+	"ri" det @det @det @det
 "<awuxlabʼal>"
 	"uxlabʼal" n px2sg
 "<!>"
@@ -239,11 +239,11 @@
 "<wibʼ>"
 	"ibʼ" n rel px1sg
 "<ri>"
-	"ri" det
+	"ri" det @det @det
 "<in>"
 	"in" prn pers p1 sg
 "<?>"
-	"?" sent
+	"?" sent @punct
 
 # sent_id = biblia:10
 # text = Chinatisaj ri rixoqil ri Lot.
@@ -310,4 +310,284 @@
 	"ixoq" n @nsubj #8->6
 "<.>"
 	"." sent @punct #9->6
+
+# sent_id = biblia:35
+# text = Jeriʼ kkibʼan chkech ri winaq.
+# text[spa] = Así lo hicieron los discípulos, y se sentaron todos.
+# labels = complete check-relational
+"<Jeriʼ>"
+	"jeriʼ" adv @advmod #1->2
+"<kkibʼan>"
+	"bʼan" v tv impf o_sg3 s_pl3 @root #2->0
+"<chkech>"
+	"chi" pr @case #3->4
+		"ech" n rel px3pl @obl #4->2
+"<ri>"
+	"ri" det @det #5->6
+"<winaq>"
+	"winaq" n @nmod:relat #6->4
+"<.>"
+	"." sent @punct #7->2
+
+# sent_id = biblia:47
+# text = Ronojel winaq kril na ri ukolonem ri Dyos».
+# text[spa] = Y todo mortal verá la salvación de Dios.” »
+# labels = complete check-relational
+"<Ronojel>"
+	"onojel" n rel px3sg @nsubj #1->3
+"<winaq>"
+	"winaq" n @nmod #2->1
+"<kril>"
+	"il" v tv impf o_sg3 s_sg3 @root #3->0
+"<na>" 
+	"na" adv fut @advmod #4->3
+"<ri>"
+	"ri" det @det #5->6
+"<ukolonem>"
+	"kolon" n px3sg @obj #6->3
+"<ri>"
+	"ri" det @det #7->8
+"<Dyos>"
+	"Dyos" n @nmod:psor #8->6
+"<»>"
+	"»" rquot @punct #9->3
+"<.>"
+	"." sent @punct #10->3
+
+# sent_id = biblia:68
+# text = Ri Simon e ri erachiʼl kkiterneʼbʼej ubʼi ri areʼ.
+# text[spa] = Simón y sus compañeros salieron a buscarlo.
+# labels = incomplete check-adverb
+"<Ri>"
+	"ri" det @det #1->2
+"<Simon>"
+	"Simon" np ant m @nsubj #2->7
+"<e>"
+	"e" cnjcoo @cc #3->6
+"<ri>"
+	"ri" det @det #4->6
+"<erachiʼl>"
+	"e" pl @det #5->6
+		"achiʼl" n px3sg @conj #6->2
+"<kkiterneʼbʼej>"
+	"terneʼbʼej" v tv impf o_sg3 s_pl3 @root #7->0
+"<ubʼi>"
+	"bʼi" adv dir @advmod #8->7
+"<ri>"
+	"ri" det @det #9->10
+"<areʼ>"
+	"areʼ" prn pers p3 sg @obj #10->7
+"<.>"
+	"." sent @punct #11->7
+
+# sent_id = biblia:74
+# text = «Makʼam ubʼi weriʼ, matij weriʼ, machap weriʼ».
+# text[spa] = «No tomes en tus manos, no pruebes, no toques»?
+# labels = incomplete
+"<«>"
+	"«" lquot @punct #1->2
+"<Makʼam>"
+	"kʼam" v tv imp neg o_sg3 s_sg2 @root #2->0
+"<ubʼi>"
+	"bʼi" adv dir @advmod #3->2
+"<weriʼ>"
+	"weriʼ" prn dem @obj #4->2
+"<,>"
+	"," cm @punct #5->6
+"<matij>"
+	"tij" v tv imp neg o_sg3 s_sg2 @conj #6->2
+"<weriʼ>"
+	"weriʼ" prn dem @obj #7->6
+"<,>"
+	"," cm @punct #8->9
+"<machap>"
+	"chap" v tv imp neg o_sg3 s_sg2 @conj #9->2
+"<weriʼ>"
+	"weriʼ" prn dem @obj #10->9
+"<»>"
+	"»" rquot @punct #11->2
+"<.>"
+	"." sent @punct #12->2
+
+# sent_id = biblia:2458
+# text = Kʼatekʼuriʼ, pa taq we qʼij riʼ, ri Jesus kpe uloq chi pa ri Nasaret rech ri Galileʼa, kʼatekʼuriʼ ri Xwan kubʼan uqasnaʼ pa ri Jordan.
+# text[spa] = En esos días llegó Jesús desde Nazaret de Galilea y fue bautizado por Juan en el Jordán.
+# labels = complete check-relational
+"<Kʼatekʼuriʼ>"
+	"kʼatekʼuriʼ" adv @advmod #1->11
+"<,>"
+	"," cm @punct #2->11
+"<pa>"
+	"pa" pr @case #3->6
+"<taq>"
+	"taq" pl @det #4->6
+"<we>"
+	"we" det @det #5->6
+"<qʼij>"
+	"qʼij" n @obl #6->11
+"<riʼ>"
+	"riʼ" prn dem @det #7->6
+"<,>"
+	"," cm @punct #8->6
+"<ri>"
+	"ri" det @det #9->10
+"<Jesus>"
+	"Jesus" np ant m @nsubj #10->11
+"<kpe>"
+	"pe" v iv impf s_sg3 @root #11->0
+"<uloq>"
+	"uloq" adv dir @advmod #12->11
+"<chi>"
+	"chi" adv @advmod #13->11
+"<pa>"
+	"pa" pr @case  #14->16
+"<ri>"
+	"ri" det @det #15->16
+"<Nasaret>"
+	"Nasaret" np top @obl #16->11
+"<rech>"
+	"ech" n rel px3sg @nmod #17->16
+"<ri>"
+	"ri" det @det #18->19
+"<Galileʼa>"
+	"Galileʼa" np top @nmod #19->17
+"<,>"
+	"," cm @punct #20->24
+"<kʼatekʼuriʼ>"
+	"kʼatekʼuriʼ" adv @advmod #21->24
+"<ri>"
+	"ri" det @det #22->23
+"<Xwan>"
+	"Xwan" np ant m @nsubj #23->24
+"<kubʼan>"
+	"bʼan" v tv impf o_sg3 s_sg3 @conj #24->11
+"<uqasnaʼ>"
+	"qasnaʼ" n px3sg @obj #25->24
+"<pa>"
+	"pa" pr @case #26->28
+"<ri>"
+	"ri" det @det #27->28
+"<Jordan>"
+	"Jordan" np top @obl #28->24
+"<.>"
+	"." sent @punct #29->11
+
+# sent_id = biblia:2712
+# text = Ri unan e ri erachalal kepe uloq rukʼ ri areʼ, kʼatekʼuriʼ, man kekowin taj keqibʼ ukoq rukʼ, rumal rech che ekʼo sibʼalaj winaq.
+# text[spa] = La madre y los hermanos de Jesús fueron a verlo, pero como había mucha gente, no lograban acercársele.
+# labels = complete check-subordination
+"<Ri>"
+	"ri" det @det #1->2
+"<unan>"
+	"nan¹" n px3sg @nsubj #2->7
+"<e>"
+	"e" cnjcoo @cc #3->6
+"<ri>"
+	"ri" det @det #4->6
+"<erachalal>"
+	"e" pl @det #5->6
+		"achalal" n px3sg @conj #6->2
+"<kepe>"
+	"pe" v iv impf s_pl3 @root #7->0
+"<uloq>"
+	"uloq" adv dir @advmod #8->7
+"<rukʼ>"
+	"ukʼ" n rel px3sg @obl #9->7
+"<ri>"
+	"ri" det @det #10->11
+"<areʼ>"
+	"areʼ" prn pers p3 sg @nmod #11->9
+"<,>"
+	"," cm @punct #12->13
+"<kʼatekʼuriʼ>"
+	"kʼatekʼuriʼ" adv @advmod #13->16
+"<,>"
+	"," cm @punct #14->16
+"<man>"
+	"man" neg @aux:neg #15->16
+"<kekowin>"
+	"kowin" v iv impf s_pl3 @conj #16->7
+"<taj>"
+	"taj" neg fin @aux:neg #17->16
+"<keqibʼ>"
+	"qibʼ" v iv impf s_pl3 @xcomp #18->16
+"<ukoq>"
+	"uk" adv dir @advmod #19->18
+		"oq" mark @dep #20->19
+"<rukʼ>"
+	"ukʼ" n rel px3sg @obl #21->18
+"<,>"
+	"," cm @punct #22->28
+"<rumal>"
+	"umal" n rel px3sg @dep #23->28
+"<rech>"
+	"ech" n rel px3sg @dep #24->23
+"<che>"
+	"chi" pr @case #25->26
+		"ech" n rel px3sg @dep #26->23
+"<ekʼo>"
+	"e" pl @aux #27->28
+		"kʼo" part @advcl #28->18
+"<sibʼalaj>"
+	"sibʼalaj" adj @amod #29->30
+"<winaq>"
+	"winaq" n @nsubj #30->28
+"<.>"
+	"." sent @punct #31->7
+
+# sent_id = biblia:2752
+# text = Kbʼe kukʼ ri eʼareʼ e ktzalij pa ri Nasaret e keʼunimaj.
+# text[spa] = Así que Jesús bajó con sus padres a Nazaret y vivió sujeto a ellos.
+# labels = complete check-relational
+"<Kbʼe>"
+	"bʼe" v iv impf s_sg3 @root #1->0
+"<kukʼ>"
+	"ukʼ" n rel px3pl @obl #2->1
+"<ri>"
+	"ri" det @det #3->4
+"<eʼareʼ>"
+	"eʼareʼ" prn pers p3 pl @nmod #4->1
+"<e>"
+	"e" cnjcoo @cc #5->6
+"<ktzalij>"
+	"tzalij" v iv impf s_sg3 @conj #6->1
+"<pa>"
+	"pa" pr @case #7->9
+"<ri>"
+	"ri" det @det #8->9
+"<Nasaret>"
+	"Nasaret" np top @obl #9->6
+"<e>"
+	"e" cnjcoo @cc #10->11
+"<keʼunimaj>"
+	"nimaj" v tv impf o_sg3 abl s_sg3 @conj #11->1
+"<.>"
+	"." sent @punct #12->1
+
+# sent_id = biblia:2753
+# text = Ri unan kukʼol ronojel we jastaq riʼ pa ri ranimaʼ.
+# text[spa] = Pero su madre conservaba todas estas cosas en el corazón.
+# labels = complete check-relational
+"<Ri>"
+	"ri" det @det #1->2
+"<unan>"
+	"nan¹" n px3sg @nsubj #2->3
+"<kukʼol>"
+	"kʼol" v tv impf o_sg3 s_sg3 @root #3->0
+"<ronojel>"
+	"onojel" n rel px3sg @obj #4->3
+"<we>"
+	"we" det @det #5->6
+"<jastaq>"
+	"jastaq" n @nmod #6->4
+"<riʼ>"
+	"riʼ" prn dem @det #7->6
+"<pa>"
+	"pa" pr @case #8->10
+"<ri>"
+	"ri" det @det #9->10
+"<ranimaʼ>"
+	"animaʼ" n px3sg @obl #10->3
+"<.>"
+	"." sent @punct #11->3
 

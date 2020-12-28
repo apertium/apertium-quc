@@ -179,3 +179,160 @@
 ^ixoq/ixoq$
 ^./.$
 
+# sent_id = biblia:35
+# text = Jeriʼ kkibʼan chkech ri winaq.
+# text[spa] = Así lo hicieron los discípulos, y se sentaron todos.
+# labels = incomplete
+^Jeriʼ/jeriʼ$
+^kkibʼan/k>ki>bʼan$
+^chkech/ch>k>ech$
+^ri/ri$
+^winaq/winaq$
+^./.$
+
+# sent_id = biblia:47
+# text = Ronojel winaq kril na ri ukolonem ri Dyos».
+# text[spa] = Y todo mortal verá la salvación de Dios.” »
+# labels = incomplete
+^Ronojel/r>onojel$
+^winaq/winaq$
+^kril/k>r>il$
+^na/na$
+^ri/ri$
+^ukolonem/u>kolon>em$
+^ri/ri$
+^Dyos/Dyos$
+^»/»$
+^./.$
+
+# sent_id = biblia:68
+# text = Ri Simon e ri erachiʼl kkiterneʼbʼej ubʼi ri areʼ.
+# text[spa] = Simón y sus compañeros salieron a buscarlo.
+# labels = complete
+^Ri/ri$
+^Simon/Simon$
+^e/e$
+^ri/ri$
+^erachiʼl/e>r>achiʼl$
+^kkiterneʼbʼej/k>ki>terneʼbʼej$
+^ubʼi/u>bʼi$
+^ri/ri$
+^areʼ/areʼ$
+^./.$
+
+# sent_id = biblia:74
+# text = «Makʼam ubʼi weriʼ, matij weriʼ, machap weriʼ».
+# text[spa] = «No tomes en tus manos, no pruebes, no toques»?
+# labels = incomplete
+^«/«$
+^Makʼam/m>a>kʼam$
+^ubʼi/u>bʼi$
+^weriʼ/weriʼ$
+^,/,$
+^matij/m>a>tij$
+^weriʼ/weriʼ$
+^,/,$
+^machap/m>a>chap$
+^weriʼ/weriʼ$
+^»/»$
+^./.$
+
+# sent_id = biblia:2458
+# text = Kʼatekʼuriʼ, pa taq we qʼij riʼ, ri Jesus kpe uloq chi pa ri Nasaret rech ri Galileʼa, kʼatekʼuriʼ ri Xwan kubʼan uqasnaʼ pa ri Jordan.
+# text[spa] = En esos días llegó Jesús desde Nazaret de Galilea y fue bautizado por Juan en el Jordán.
+# labels = incomplete
+^Kʼatekʼuriʼ/kʼatekʼuriʼ$
+^,/,$
+^pa/pa$
+^taq/taq$
+^we/we$
+^qʼij/qʼij$
+^riʼ/riʼ$
+^,/,$
+^ri/ri$
+^Jesus/Jesus$
+^kpe/k>pe$
+^uloq/uloq$
+^chi/chi$
+^pa/pa$
+^ri/ri$
+^Nasaret/Nasaret$
+^rech/r>ech$
+^ri/ri$
+^Galileʼa/Galileʼa$
+^,/,$
+^kʼatekʼuriʼ/kʼatekʼuriʼ$
+^ri/ri$
+^Xwan/Xwan$
+^kubʼan/k>u>bʼan$
+^uqasnaʼ/u>qasnaʼ$
+^pa/pa$
+^ri/ri$
+^Jordan/Jordan$
+^./.$
+
+# sent_id = biblia:2712
+# text = Ri unan e ri erachalal kepe uloq rukʼ ri areʼ, kʼatekʼuriʼ, man kekowin taj keqibʼ ukoq rukʼ, rumal rech che ekʼo sibʼalaj winaq.
+# text[spa] = La madre y los hermanos de Jesús fueron a verlo, pero como había mucha gente, no lograban acercársele.
+# labels = incomplete
+^Ri/ri$
+^unan/u>nan$
+^e/e$
+^ri/ri$
+^erachalal/e>r>achalal$
+^kepe/k>e>pe$
+^uloq/uloq$
+^rukʼ/r>ukʼ$
+^ri/ri$
+^areʼ/areʼ$
+^,/,$
+^kʼatekʼuriʼ/kʼatekʼuriʼ$
+^,/,$
+^man/man$
+^kekowin/k>e>kowin$
+^taj/taj$
+^keqibʼ/k>e>qibʼ$
+^ukoq/uk>oq$
+^rukʼ/r>ukʼ$
+^,/,$
+^rumal/r>umal$
+^rech/r>ech$
+^che/ch>e$
+^ekʼo/e>kʼo$
+^sibʼalaj/sibʼalaj$
+^winaq/winaq$
+^./.$
+
+# sent_id = biblia:2752
+# text = Kbʼe kukʼ ri eʼareʼ e ktzalij pa ri Nasaret e keʼunimaj.
+# text[spa] = Así que Jesús bajó con sus padres a Nazaret y vivió sujeto a ellos.
+# labels = incomplete
+^Kbʼe/k>bʼe$
+^kukʼ/k>ukʼ$
+^ri/ri$
+^eʼareʼ/eʼareʼ$
+^e/e$
+^ktzalij/k>tzalij$
+^pa/pa$
+^ri/ri$
+^Nasaret/Nasaret$
+^e/e$
+^keʼunimaj/k>eʼ>u>nimaj$
+^./.$
+
+# sent_id = biblia:2753
+# text = Ri unan kukʼol ronojel we jastaq riʼ pa ri ranimaʼ.
+# text[spa] = Pero su madre conservaba todas estas cosas en el corazón.
+# labels = incomplete
+^Ri/ri$
+^unan/u>nan$
+^kukʼol/k>u>kʼol$
+^ronojel/r>onojel$
+^we/we$
+^jastaq/jastaq$
+^riʼ/riʼ$
+^pa/pa$
+^ri/ri$
+^ranimaʼ/r>animaʼ$
+^./.$
+

@@ -523,6 +523,7 @@ LEXICON B-TV
 LEXICON MOV-IV
 
 @P.SS.Dep@%<lat%>:@P.SS.Dep@%>ul                   IV ;
+@P.SS.Dep@%<lat%>:@P.SS.Dep@%>ol                   IV ; ! Src/CanPixabaj
 @P.SS.Dep@%<abl%>:@P.SS.Dep@%>eʼ                   IV ;
 @P.SS.Dep@%<abl%>:@P.SS.Dep@%>bʼe                  IV ;
 @U.SS.Dep@:@U.SS.Dep@                              IV-PASS ; ! <imp>
@@ -964,8 +965,9 @@ chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>%+man%<neg%>:ch%>e%>mna # ; ! Src/UTexas
 chi%<pr%>%+%<px3sg%>ech%<n%>%<rel%>%+man%<neg%>:ch%>e%>man # ; ! Src/ALMG
 
 le%<det%>%+akʼal%<n%>%<pl%>:l%>aʼkʼalabʼ # ; ! Src/CanPixabaj
-ri%<det%>%+%<px3sg%>jolom%<n%>:r%>uʼjolom # ; ! Src/CanPixabaj
+ri%<det%>%+%<px3sg%>jolom%<n%>:r%>uʼ%>jolom # ; ! Src/CanPixabaj
 ri%<det%>%+tzʼiʼ%<n%>:r%>tzʼiʼ # ; ! Src/CanPixabaj
+ri%<det%>%+%<px1pl%>sok%<n%>:r%>qa%>sok # ; ! Src/CanPixabaj
 
 LEXICON Relationals
 
@@ -6874,7 +6876,7 @@ qajaxtaj:qajaxta                   V-TV-D ; ! "borrow"
 qajbʼej:qajbe                       V-TV-D ; ! "fall on top of something"
 qasaj:qasa                         V-TV-D ; ! "demolish"
 qebʼisaj:qebisa                     V-TV-D ; ! "move by pushing"
-qibʼ:qib                            V-TV-R ; ! "scrub (to get clean)"
+qibʼ:qibʼ                           V-TV-R ; ! "scrub (to get clean)"
 qitzʼ:qitzʼ                        V-TV-R ; ! "unite two things with string or rope"
 qopij:qopi                         V-TV-D ; ! "cut (paper, cloth, rubber-- as with scissors--see also qupij)"
 quchʼuchʼej:quchʼuchʼe             V-TV-D ; ! "gnash (teeth)"
@@ -7797,7 +7799,7 @@ qat:qat                            V-IV   ; ! "approach"
 qaw:qaw                            V-IV   ; ! "burn to ashes"
 qemqet:qemqet                      V-IV   ; ! "speak with a nasal voice"
 qetet:qetet                        V-IV   ; ! "approach"
-qibʼ:qib                            V-IV   ; ! "draw near"
+qibʼ:qibʼ                           V-IV   ; ! "draw near"
 qichʼichʼ:qichʼichʼ                V-IV   ; ! "squeak (old metal"
 qichʼow:qichʼow                    V-IV   ; ! "squeak (rubbing leather or rubber as in new shoes)"
 qitzʼnaj:qitzʼnaj                  V-IV   ; ! "sound metal grinding or screeching against metal (brakes)"
