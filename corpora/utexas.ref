@@ -1627,7 +1627,7 @@
 ^./.<sent>$
 
 # sent_id = utexas:138.1
-# text = Na kinb’e ta pa le nimatijob’al rumal xinkosik.
+# text = Na kinbʼe ta pa le nimatijobʼal rumal xinkosik.
 # text[spa] = No voy a la escuela porque estoy cansado.
 # labels = tijonik-20 complete
 ^Na/na<neg>$
@@ -1641,7 +1641,7 @@
 ^./.<sent>$
 
 # sent_id = utexas:138.2
-# text = Xinkosik, rumal ri’ na kimb’e ta pa le tijob’al.
+# text = Xinkosik, rumal riʼ na kimbʼe ta pa le tijobʼal.
 # text[spa] = Estoy cansado. Por eso no voy a la escuela.
 # labels = tijonik-20 complete
 ^Xinkosik/<perf><s_sg1>kos<v><iv>+ik<mark>$
@@ -3381,7 +3381,7 @@
 ^./.<sent>$
 
 # sent_id = utexas:278
-# text = We ta xanimaj jas le xinb’ij chawech, ma ta je la’ la’ xab’ano.
+# text = We ta xanimaj jas le xinbʼij chawech, ma ta je laʼ laʼ xabʼano.
 # text[spa] = Si me hubieras hecho caso, no estarías así.
 # labels = tijonik-42 complete
 ^We/we<cnjsub>$

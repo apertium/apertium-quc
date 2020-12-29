@@ -1,5 +1,5 @@
 # sent_id = 1
-# text = Kinya jun rutzil iwach nutijoxelab’!
+# text = Kinya jun rutzil iwach nutijoxelabʼ!
 # text[spa] =  Les doy un cordial saludo, mis estudiantes!
 # labels = tijonik-7
 ^Kinya/<impf><o_sg3><s_sg1>ya<v><tv>$
@@ -10,7 +10,7 @@
 ^!/!<sent>$
 
 # sent_id = 2
-# text = Rajawaxik kak’aman chawe le utijik le lej.
+# text = Rajawaxik kakʼaman chawe le utijik le lej.
 # text[spa] =  Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41
 ^Rajawaxik/rajawaxik<adj>$

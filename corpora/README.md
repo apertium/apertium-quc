@@ -29,7 +29,7 @@ You can use the script `conllise.py` to convert the output to CoNLL-U format:
 ```
 $ python3 ../scripts/conllise.py ../apertium-quc.quc.udx example.dep example.seg 
 # sent_id = example:1
-# text = Kinya jun rutzil iwach nutijoxelab’!
+# text = Kinya jun rutzil iwach nutijoxelabʼ!
 # text[spa] =  Les doy un cordial saludo, mis estudiantes!
 # labels = tijonik-7
 1	Kinya	ya	VERB	_	Aspect=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Valency=2	0	root	_	_
@@ -40,7 +40,7 @@ $ python3 ../scripts/conllise.py ../apertium-quc.quc.udx example.dep example.seg
 6	!	!	_	_	_	1	punct	_	_
 
 # sent_id = example:2
-# text = Rajawaxik kak’aman chawe le utijik le lej.
+# text = Rajawaxik kakʼaman chawe le utijik le lej.
 # text[spa] =  Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41 complete check-nonfinite
 1	Rajawaxik	rajawaxik	ADJ	_	_	0	root	_	_

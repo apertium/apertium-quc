@@ -1,5 +1,5 @@
 # sent_id = ley2009-9:4
-# text = Are taq wa’ ri uq’ijol we taqanik.
+# text = Are taq waʼ ri uqʼijol we taqanik.
 # text[spa] = Son principios rectores de la presente Ley:
 # labels = incomplete
 ^Are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
@@ -12,7 +12,7 @@
 ^./.<sent>$
 
 # sent_id = ley2009-9:14
-# text = We taqanik ri’ kub’ij chi rajawaxik kya’ uq’ij ri winaq xuquje’ kto’ aninaqil.
+# text = We taqanik riʼ kubʼij chi rajawaxik kyaʼ uqʼij ri winaq xuqujeʼ ktoʼ aninaqil.
 # text[spa] = Los procedimientos que establece esta Ley, deben realizarse con especial atención y prioridad.
 # labels = incomplete
 ^We/we<det>$
@@ -31,7 +31,7 @@
 ^./.<sent>$
 
 # sent_id = ley2009-9:38
-# text = We Woktz’ib’ab’al k’o pa uq’ab’ kuchajij xuquje’ kupatanij we taqanik ri’, rachi’l ri chomanem xuquje’ ri ucholchak.
+# text = We Woktzʼibʼabʼal kʼo pa uqʼabʼ kuchajij xuqujeʼ kupatanij we taqanik riʼ, rachiʼl ri chomanem xuqujeʼ ri ucholchak.
 # text[spa] = La Secretaría es la responsable de velar y dar cumplimiento a esta Ley y a políticas y planes relacionados con la misma.
 # text[spa'] = La Secretaría tiene en dominio cuidar también servir el orden este, compañero de pensar también en el mismo
 # labels = incomplete
