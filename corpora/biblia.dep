@@ -440,7 +440,7 @@
 "<chi>"
 	"chi" adv @advmod #13->11
 "<pa>"
-	"pa" pr @case  #14->16
+	"pa" pr @case #14->16
 "<ri>"
 	"ri" det @det #15->16
 "<Nasaret>"
