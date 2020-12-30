@@ -523,7 +523,7 @@ LEXICON B-TV
 LEXICON MOV-IV
 
 @P.SS.Dep@%<lat%>:@P.SS.Dep@%>ul                   IV ;
-@P.SS.Dep@%<lat%>:@P.SS.Dep@%>ol                   IV ; ! Src/CanPixabaj
+@P.SS.Dep@%<lat%>:@P.SS.Dep@%>ol                   IV ; ! Src/CanPixabaj ! Dir/LR
 @P.SS.Dep@%<abl%>:@P.SS.Dep@%>eʼ                   IV ;
 @P.SS.Dep@%<abl%>:@P.SS.Dep@%>bʼe                  IV ;
 @U.SS.Dep@:@U.SS.Dep@                              IV-PASS ; ! <imp>
@@ -538,6 +538,7 @@ LEXICON IV-PASS
 LEXICON MOV-TV
 
 @P.SS.Dep@%<lat%>:@P.SS.Dep@%>ul                   A-TV ;
+@P.SS.Dep@%<lat%>:@P.SS.Dep@%>ol                   A-TV ; ! Src/CanPixabaj ! Dir/LR
 @P.SS.Dep@%<abl%>:@P.SS.Dep@%>eʼ                   A-TV ;
 @P.SS.Dep@%<abl%>:@P.SS.Dep@%>bʼe                  A-TV ;
 @U.SS.Ind@:@U.SS.Ind@                  A-TV ;
