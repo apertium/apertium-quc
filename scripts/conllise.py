@@ -188,7 +188,7 @@ for i in range(0, len(sents_seg)):
 		sents_depseg[sent_id] = {}
 	sents_depseg[sent_id][1] = sents_seg[i]
 
-mono_morphemes = ['pr', 'mark|fin', 'mark']
+mono_morphemes = ['pr', 'mark|fin', 'mark', 'part', 'foc']
 
 converted_sents = 0
 converted_tokens = 0

@@ -556,7 +556,7 @@ LEXICON A-IV
 
 LEXICON A-TV
 
-%<s_sg1%>:%>in%{w%}    TV;     ! in inw
+%<s_sg1%>:%>in%{w%}    TV;     ! in inw !! FIXME: ^xatwilo/x>at>w>il>o$
 %<s_sg2%>:%>a%{w%}     TV;     ! a  aw
 %<s_sg3%>:%>%{r%}      TV;     ! u  r
 %<s_pl1%>:%>q%{a%}     TV;     ! qa q
@@ -714,6 +714,8 @@ chiʼl:chiʼl CC ;                    ! "y"  ! E kʼo achijabʼ chiʼl ixoqibʼ 
 e:e CC ;  ! Src/Biblia
 
 xuqujeʼ:xuqujeʼ CC ;                ! "y" ! Src/Ley2009-9 ! 
+
+pero:pero CC ;                      ! "pero" ! Src/CanPixabaj
 
 we:we CS ;                          ! "si; if"
 weta:weta CS ;                      ! "si" ! Src/Biblia
@@ -6529,6 +6531,7 @@ chʼekenej:chʼekene                 V-TV-D ; ! "reward"
 chʼemij:chʼemi                     V-TV-D ; ! "break (pot)"
 chʼetetej:chʼetete                 V-TV-D ; ! "pour out something"
 chʼij:chʼij                        V-TV-R ; ! "endure"
+qʼiʼ:qʼiʼ                          V-TV-R ; ! "endure" ! Src/CanPixabaj
 chʼik:chʼik                        V-TV-R ; ! "poke with a needle"
 chʼikimij:chʼikimi                 V-TV-D ; ! "push"
 chʼikimej:chʼikime                 V-TV-D ; ! "atropellar"
@@ -6637,6 +6640,7 @@ kamulij:kamuli                     V-TV-D ; ! "do a second time"
 karqʼuj:karqʼu                     V-TV-D ; ! "swallow (medicine, etc.)"
 katz:katz                          V-TV-R ; ! "bite (dog)"
 kayej:kaye                         V-TV-D ; ! "bite (dog)"
+kachʼ:kachʼ                        V-TV-R ; ! "bite)" ! Src/CanPixabaj
 kaʼyej:kaʼye                       V-TV-D ; ! "see something"
 kaʼyisäj:kaʼyisä                   V-TV-D ; ! "make seen"
 kechʼ:kechʼ                        V-TV-R ; ! "break off pieces of something"
@@ -6817,6 +6821,7 @@ oqʼej:oqʼe                         V-TV-D ; ! "mourn someone"
 oqʼesaj:oqʼesa                     V-TV-D ; ! "blare out (trumpet)"
 oqʼetaj:oqʼeta                     V-TV-D ; ! "cry for something"
 owaj:owa                           V-TV-D ; ! "hide"
+oyʼej:oyʼe                         V-TV-D ; ! "hope"
 pachʼ:pachʼ                        V-TV-R ; ! "crush"
 pachʼalej:pachʼale                 V-TV-D ; ! "crush (as in a body part)"
 pachʼuj:pachʼu                     V-TV-D ; ! "braid (rope"
@@ -6994,6 +6999,7 @@ suq:suq                            V-TV-R ; ! "tie loosely"
 sutij:suti                         V-TV-D ; ! "spin, rotate"
 sübʼaj:süba                         V-TV-D ; ! "wrap tamales"
 ta:ta                              V-TV-R ; ! "entender; understand"
+taqchiʼij:taqchiʼi                 V-TV-D ; ! "force"
 tajij:taji                         V-TV-D ; ! "work land in preparation for planting"
 takej:take                         V-TV-D ; ! "woo"
 takmij:takmi                       V-TV-D ; ! "knock something over"

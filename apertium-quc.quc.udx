@@ -1,6 +1,8 @@
 #lem 	pos 	morf 	dep | 	lem 	pos 	morf 		dep
 man	neg	_	_	man	PART	Negative=Yes	_
 ma	neg	_	_	ma	PART	Negative=Yes	_
+na	neg	_	_	na	PART	Negative=Yes	_
+taj	neg	_	_	taj	PART	Negative=Yes	_
 taq	pl	_	_	taq	PART	Number=Plur	_
 jetaq	pl	_	_	jetaq	PART	Number=Plur	_
 e	pl	_	_	e	PART	Animacy=Anim|Number=Plur	_
