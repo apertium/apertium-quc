@@ -5766,15 +5766,15 @@
 # text[spa] = Que fuera yo con ustedes.
 # labels = tijonik-42 incomplete check-adv
 "<Xaq>"
-	"xaq" adv
+	"xaq" adv @advmod
 "<ta>"
 	"taj" neg
 "<ne>"
 	"ne" adv
 "<kimbʼe>"
-	"bʼe" v iv impf s_sg1
+	"bʼe" v iv impf s_sg1 @root
 "<iwukʼ>"
-	"ukʼ" n rel px2pl
+	"ukʼ" n rel px2pl @obl
 "<.>"
 	"." sent
 
@@ -5818,11 +5818,11 @@
 "<laʼ>"
 	"laʼ" prn dem
 "<katchakun>"
-	"chakun" v iv impf s_sg2
+	"chakun" v iv impf s_sg2 @csubj
 "<wukʼ>"
 	"ukʼ" n rel px1sg @obl
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = utexas:299
 # text = We ne xatkowin ta laʼ xatbʼe rukʼ le al Talin.
@@ -5841,13 +5841,13 @@
 "<xatbʼe>"
 	"bʼe" v iv perf s_sg2
 "<rukʼ>"
-	"ukʼ" n rel px3sg
+	"ukʼ" n rel px3sg @obl
 "<le>"
-	"le" det
+	"le" det @det
 "<al>"
-	"ali" clf f
+	"ali" clf f @clf
 "<Talin>"
-	"Talin" np ant f
+	"Talin" np ant f @nmod
 "<.>"
-	"." sent
+	"." sent @punct
 
