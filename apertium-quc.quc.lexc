@@ -751,6 +751,7 @@ LEXICON Direccionales
 
 uloq%<adv%>%<dir%>:uloq # ;              ! "toward speaker, here, toward here"
 uloq%<adv%>%<dir%>:loq # ;              ! "toward speaker, here, toward here"
+uloq%<adv%>%<dir%>:ulo # ;              ! "toward speaker, here, toward here" ! Src/CanPixabaj
 la%<adv%>%<dir%>:la # ;              ! "toward speaker, here, toward here"
 na%<adv%>%<fut%>:na # ;                  ! "marker of future or certainty"
 
