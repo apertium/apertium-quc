@@ -1,0 +1,35 @@
+# sent_id = cuents:Alaj_imul:10
+# text = Rajawaxik ri akʼalabʼ kikinimaj kitzij le kinan, kitat.
+# text[spa'] = Es necesario que los niños obedecen la palabra de sus madres, sus padres.
+# labels = complete
+^Rajawaxik/Rajawaxik$
+^ri/ri$
+^akʼalabʼ/akʼal>abʼ$
+^kikinimaj/ki>ki>nimaj$
+^kitzij/ki>tzij$
+^le/le$
+^kinan/ki>nan$
+^,/,$
+^kitat/ki>tat$
+^./.$
+
+# sent_id = cuentos:Upixab’_nan_To’n:12
+# text = Ri a Teʼk xumaltyoxij che ri ratiʼt, rumal ri utzalaj noʼjibʼal xukʼut chech.
+# text[spa'] = Teʼk dio gracias a la abuela, por la idea buenísima que le enseñó.
+# labels = complete check-relative
+^Ri/Ri$
+^a/a$
+^Teʼk/Teʼk$
+^xumaltyoxij/x>u>maltyoxij$
+^che/ch>e$
+^ri/ri$
+^ratiʼt/r>atiʼt$
+^,/,$
+^rumal/r>umal$
+^ri/ri$
+^utzalaj/utz>alaj$
+^noʼjibʼal/noʼjibʼal$
+^xukʼut/x>u>kʼut$
+^chech/ch>ech$
+^./.$
+
