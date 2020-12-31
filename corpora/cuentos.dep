@@ -60,3 +60,24 @@
 "<.>"
 	"." sent @punct #17->4
 
+# sent_id = cuentos:Le_k’olot_ali:10
+# text = Xaq uj junam chi uwach ri Ajaw.
+# text[spa'] = Nosotros somos iguales al Dueño.
+# labels = complete
+"<Xaq>"
+	"xaq" adv @advmod #1->3
+"<uj>"
+	"uj" prn pers p1 pl @nsubj #2->3
+"<junam>"
+	"junam" adj @root #3->0
+"<chi>"
+	"chi" pr @case #4->5
+"<uwach>"
+	"wach" n rel px3sg @obl #5->3
+"<ri>"
+	"ri" det @det #6->7
+"<Ajaw>"
+	"ajaw" n @nmod #7->5
+"<.>"
+	"." sent @punct #8->3
+

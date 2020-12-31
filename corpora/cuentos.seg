@@ -33,3 +33,16 @@
 ^chech/ch>ech$
 ^./.$
 
+# sent_id = cuentos:Le_k’olot_ali:10
+# text = Xaq uj junam chi uwach ri Ajaw.
+# text[spa'] = Nosotros somos iguales al Dueño.
+# labels = complete
+^Xaq/Xaq$
+^uj/uj$
+^junam/junam$
+^chi/chi$
+^uwach/u>wach$
+^ri/ri$
+^Ajaw/Ajaw$
+^./.$
+
