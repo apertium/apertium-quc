@@ -13,7 +13,7 @@
 ^kitat/ki>tat$
 ^./.$
 
-# sent_id = cuentos:Upixab’_nan_To’n:12
+# sent_id = cuentos:Upixabʼ_nan_Toʼn:12
 # text = Ri a Teʼk xumaltyoxij che ri ratiʼt, rumal ri utzalaj noʼjibʼal xukʼut chech.
 # text[spa'] = Teʼk dio gracias a la abuela, por la idea buenísima que le enseñó.
 # labels = complete check-relative
@@ -33,7 +33,7 @@
 ^chech/ch>ech$
 ^./.$
 
-# sent_id = cuentos:Le_k’olot_ali:10
+# sent_id = cuentos:Le_kʼolot_ali:10
 # text = Xaq uj junam chi uwach ri Ajaw.
 # text[spa'] = Nosotros somos iguales al Dueño.
 # labels = complete
@@ -44,5 +44,37 @@
 ^uwach/u>wach$
 ^ri/ri$
 ^Ajaw/Ajaw$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul:12
+# text = Ri ajtij kubʼij chike: rajawaxik keqachajij ri awaj, are utikoʼn ri Ajaw.
+# text[spa'] = El maestro dice a ellos: necesario cuidamos los animales, la creación del Dueño. 
+# labels = 
+^Ri/Ri$
+^ajtij/ajtij$
+^kubʼij/k>u>bʼij$
+^chike/chi>k>e$
+^:/:$
+^rajawaxik/rajawaxik$
+^keqachajij/k>e>qa>chaji>j$
+^ri/ri$
+^awaj/awaj$
+^,/,$
+^are/are$
+^utikoʼn/u>tikoʼn$
+^ri/ri$
+^Ajaw/Ajaw$
+^./.$
+
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:76
+# text = E kebʼ kekʼam bʼik pa tuj.
+# text[spa'] = Dos están recibidos en temazcal.
+# labels = 
+^E/E$
+^kebʼ/kebʼ$
+^kekʼam/k>e>kʼam$
+^bʼik/bʼi>k$
+^pa/pa$
+^tuj/tuj$
 ^./.$
 
