@@ -1,3 +1,19 @@
+# sent_id = cuentos:Alaj_imul.wiki:5
+# text = Xkotiʼ pa qʼayes xoqʼik.
+# text[spa'] = Se echó en césped y lloró.
+# labels = complete
+"<Xkotiʼ>"
+	"kotiʼ" v iv perf s_sg3 @root #1->0
+"<pa>"
+	"pa" pr @case #2->3
+"<qʼayes>"
+	"qʼayes" n @obl #3->1
+"<xoqʼik>"
+	"oqʼ" v iv perf s_sg3 @parataxis #4->1
+		"ik" mark @dep #5->4
+"<.>"
+	"." sent @punct #6->1
+
 # sent_id = cuentos:Alaj_imul.wiki:9
 # text = Rajawaxik ri akʼalabʼ kikinimaj kitzij le kinan, kitat.
 # text[spa'] = Es necesario que los niños obedecen la palabra de sus madres, sus padres.
@@ -22,6 +38,64 @@
 	"tat" n px3pl @conj #9->7
 "<.>"
 	"." sent @punct #10->1
+
+# sent_id = cuentos:Alaj_kuk.wiki:4
+# text = Xubʼij che: -jas xabʼano Tintin?
+# text[spa'] = Dijo a él: - qué hiciste Tintin?
+# labels = incomplete
+"<Xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3 @root #1->0
+"<che>"
+	"chi" pr @case #2->3
+		"ech" n rel px3sg @obl #3->1
+"<:>"
+	":" sent @punct #4->1
+"<->"
+	"-" guio @punct #5->1
+"<jas>"
+	"jas" prn itg @obj #6->7
+"<xabʼano>"
+	"bʼan" v tv perf o_sg3 s_sg2 @parataxis #7->1
+		"u" mark @dep #8->7
+"<Tintin>"
+	"Tintin" np ant m @vocative #9->7
+"<?>"
+	"?" sent @punct #10->1
+
+# sent_id = cuentos:Alaj_kuk.wiki:8
+# text = Utz chaqe kaqatoʼ qibʼ, taq kʼo kʼaxkʼolil, katewechiʼn ri Ajaw paqawiʼ.
+# text[spa'] = Es bueno a nosotros ayudar a nosotros, cuando hay sufrimiento, está bendito el Dueño encima de nosotros.
+# labels = complete
+"<Utz>"
+	"utz" adj @root #1->0
+"<chaqe>"
+	"chi" pr @case #2->3
+		"ech" n rel px1pl @obl #3->1
+"<kaqatoʼ>"
+	"toʼ" v tv impf o_sg3 s_pl1 @csubj #4->1
+"<qibʼ>"
+	"ibʼ" n rel px1pl @obj #5->4
+"<,>"
+	"," cm @punct #6->
+"<taq>"
+	"taq" cnjsub @mark #7->8
+"<kʼo>"
+	"kʼo" part @advcl #8->1
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n @nsubj #9->8
+"<,>"
+	"," cm @punct #10->11
+"<katewechiʼn>"
+	"tewechiʼj" v tv anti impf s_sg3 @parataxis #11->1
+"<ri>"
+	"ri" det @det #12->13
+"<Ajaw>"
+	"ajaw" n @obj #13->11
+"<paqawiʼ>"
+	"pa" pr @case #14->15
+		"wiʼ" n rel px1pl @nmod #15->13
+"<.>"
+	"." sent @punct #16->1
 
 # sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:5
 # text = E kebʼ kekʼam bʼik pa tuj.
@@ -301,7 +375,7 @@
 
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:12
 # text = Kqabʼij man kekowin taj.
-# text[spa'] =  Decimos que no pueden.
+# text[spa'] = Decimos que no pueden.
 # labels = complete
 "<Kqabʼij>"
 	"bʼij" v tv impf o_sg3 s_pl1 @root #1->0

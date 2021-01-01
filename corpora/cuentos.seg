@@ -114,8 +114,8 @@
 
 # sent_id = cuentos:Alaj_imul.wiki:5
 # text = Xkotiʼ pa qʼayes xoqʼik.
-# text[spa'] =  se Echó en césped lloró .
-# labels = incomplete
+# text[spa'] = Se echó en césped y lloró.
+# labels = complete
 ^Xkotiʼ/X>kotiʼ$
 ^pa/pa$
 ^qʼayes/qʼayes$
@@ -280,17 +280,17 @@
 ^./.$
 
 # sent_id = cuentos:Alaj_kuk.wiki:4
-# text = Xubʼij che: -jas xabʼano Tintin. 
-# text[spa'] =  Dijo a él: -qué hiciste *Tintin. 
-# labels = incomplete
-^Xubʼij/*Xubʼij$
+# text = Xubʼij che: - jas xabʼano Tintin?
+# text[spa'] = Dijo a él: - qué hiciste Tintin?
+# labels = complete
+^Xubʼij/X>u>bʼij$
 ^che/ch>e$
 ^:/:$
 ^-/-$
 ^jas/jas$
-^xabʼano/*xabʼano$
+^xabʼano/x>a>bʼan>o$
 ^Tintin/Tintin$
-^./.$ 
+^?/?$ 
 
 # sent_id = cuentos:Alaj_kuk.wiki:5
 # text = - ¡Ay!  Xa xintzaq uloq, kʼax we waqan. 
@@ -372,18 +372,18 @@
 
 # sent_id = cuentos:Alaj_kuk.wiki:8
 # text = Utz chaqe kaqatoʼ qibʼ, taq kʼo kʼaxkʼolil, katewechiʼn ri Ajaw paqawiʼ.
-# text[spa'] = Bueno a nosotros ayudamos a nosotros, hay *kʼaxkʼolil, *katewechiʼn el Dueño encima nosotros.
-# labels = incomplete
+# text[spa'] = Es bueno a nosotros ayudar a nosotros, cuando hay sufrimiento, está bendito el Dueño encima de nosotros.
+# labels = complete
 ^Utz/Utz$
 ^chaqe/ch>aq>e$
-^kaqatoʼ/*kaqatoʼ$
+^kaqatoʼ/ka>qa>toʼ$
 ^qibʼ/q>ibʼ$
 ^,/,$
 ^taq/taq$
 ^kʼo/kʼo$
 ^kʼaxkʼolil/kʼaxkʼolil$
 ^,/,$
-^katewechiʼn/*katewechiʼn$
+^katewechiʼn/ka>tewechiʼn$
 ^ri/ri$
 ^Ajaw/Ajaw$
 ^paqawiʼ/pa>qa>wiʼ$
