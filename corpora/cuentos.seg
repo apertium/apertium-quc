@@ -1,6 +1,186 @@
-# sent_id = cuents:Alaj_imul:10
+# sent_id = cuentos:Alaj_imul.wiki:1
+# text = Ekʼo kajibʼ ral ri imul, jun saq, jun qʼan, jun qʼeq, jun qʼeqoj, sibʼalaj ketzʼanik, kechʼopinik ri alaj taq imul.
+# text[spa'] = Hay cuatro el hijo del conejo, un blanco, un amarillo, un negro, un prieto, mucho juega , los conejos pequeños saltan .
+# labels = complete
+^Ekʼo/E>kʼo$
+^kajibʼ/kajibʼ$
+^ral/r>al$
+^ri/ri$
+^imul/imul$
+^,/,$
+^jun/jun$
+^saq/saq$
+^,/,$
+^jun/jun$
+^qʼan/qʼan$
+^,/,$
+^jun/jun$
+^qʼeq/qʼeq$
+^,/,$
+^jun/jun$
+^qʼeqoj/qʼeqoj$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^ketzʼanik/k>etzʼan>ik$
+^,/,$
+^kechʼopinik/k>e>chʼopin>ik$
+^ri/ri$
+^alaj/alaj$
+^taq/taq$
+^imul/imul$
+^./.$
+
+# sent_id = cuentos:Alaj_imul.wiki:2
+# text = Ri kinan xubʼij chike: -ma kixeʼ ta naj, we kixetzʼanik, xaq naqaj kixkʼojiʼ wi.
+# text[spa'] = La madre dijo a ellos: -no abajo ellos lejos, si juegan , sólo cerca habitan .
+# labels = incomplete
+^Ri/Ri$
+^kinan/ki>nan/k>in>an$
+^xubʼij/*xubʼij$
+^chike/chi>k>e$
+^:/:$
+^-/-$
+^ma/ma$
+^kixeʼ/ki>xeʼ$
+^ta/ta$
+^naj/naj$
+^,/,$
+^we/we/w>e$
+^kixetzʼanik/k>ix>etzʼan>ik$
+^,/,$
+^xaq/xaq$
+^naqaj/naqaj$
+^kixkʼojiʼ/k>ix>kʼojiʼ$
+^wi/wi$
+^./.$
+
+# sent_id = cuentos:Alaj_imul.wiki:3
+# text = Le laj imul qʼeq rij, are kachʼopinik, ma kuxeʼj ta ribʼ, kʼate xrilo ma ekʼo ta chik ri rachalal.  
+# text[spa'] = El conejo negro pequeño atrás él, salta , no *kuxeʼj a él, hasta vio hay ya el hermano. 
+# labels = incomplete
+^Le/Le$
+^laj/laj$
+^imul/imul/i>mul$
+^qʼeq/qʼeq$
+^rij/r>ij$
+^,/,$
+^are/are$
+^kachʼopinik/ka>chʼopin>ik$
+^,/,$
+^ma/ma$
+^kuxeʼj/*kuxeʼj$
+^ta/ta$
+^ribʼ/r>ibʼ$
+^,/,$
+^kʼate/kʼate$
+^xrilo/*xrilo$
+^ma/ma$
+^ekʼo/ekʼo$
+^ta/ta$
+^chik/chik$
+^ri/ri$
+^rachalal/r>achalal$
+^./.$  
+
+# sent_id = cuentos:Alaj_imul.wiki:4
+# text = Xkaʼy chirij, xkaʼy chuwach, ma kʼo ta chi jun ksilobʼik, xoqʼik xuxeʼj ribʼ xchʼopinik xtzalij loq xuriq ta chik ri ubʼe.
+# text[spa'] =  Miró atrás él, miró a él, no hay a un se vibra , lloró *xuxeʼj a él saltó volvió encontró ya la senda.
+# labels = incomplete
+^Xkaʼy/X>kaʼy$
+^chirij/chi>r>ij$
+^,/,$
+^xkaʼy/x>kaʼy$
+^chuwach/ch>u>wach$
+^,/,$
+^ma/ma$
+^kʼo/kʼo$
+^ta/ta$
+^chi/chi$
+^jun/jun$
+^ksilobʼik/*ksilobʼik$
+^,/,$
+^xoqʼik/x>oqʼ>ik$
+^xuxeʼj/*xuxeʼj$
+^ribʼ/r>ibʼ$
+^xchʼopinik/x>chʼopin>ik$
+^xtzalij/x>tzalij$
+^loq/loq$
+^xuriq/*xuriq$
+^ta/ta$
+^chik/chik$
+^ri/ri$
+^ubʼe/u>bʼe$
+^./.$
+
+# sent_id = cuentos:Alaj_imul.wiki:5
+# text = Xkotiʼ pa qʼayes xoqʼik.
+# text[spa'] =  se Echó en césped lloró .
+# labels = incomplete
+^Xkotiʼ/X>kotiʼ$
+^pa/pa$
+^qʼayes/qʼayes$
+^xoqʼik/x>oqʼ>ik$
+^./.$
+
+# sent_id = cuentos:Alaj_imul.wiki:6
+# text = Kʼate xrilo, xpe ri unan che utzukuxik, xkikotik, xusalabʼisaj ri taq uxkin.
+# text[spa'] = Hasta vio, vino la madre a búsqueda, estuvo feliz , movió el *uxkin.
+# labels = incomplete
+^Kʼate$
+^xrilo/*xrilo$
+^,/,$
+^xpe/x>pe$
+^ri/ri$
+^unan/u>nan$
+^che/ch>e$
+^utzukuxik/u>tzukuxik$
+^,/,$
+^xkikotik/x>kikot>ik$
+^,/,$
+^xusalabʼisaj/*xusalabʼisaj$
+^ri/ri$
+^taq/taq$
+^uxkin/u>xkin$
+^./.$
+
+# sent_id = cuentos:Alaj_imul.wiki:7
+# text = Xutaʼ sachbʼal umak che ri unan.
+# text[spa'] =  Pidió confusión culpa a la madre.
+# labels = incomplete
+^Xutaʼ/*Xutaʼ$
+^sachbʼal/sachbʼal$
+^umak/u>mak$
+^che/ch>e$
+^ri/ri$
+^unan/u>nan$
+^./.$
+
+# sent_id = cuentos:Alaj_imul.wiki:8
+# text = Xubʼij che: -sachaʼ la numak nan, man kinbʼan ta chik, kinimaj tzij la.
+# text[spa'] =  Dijo a él: -*sachaʼ culpa madre, no hago ya, obedecen palabra .
+# labels = incomplete
+^Xubʼij/*Xubʼij$
+^che/ch>e$
+^:/:$
+^-/-$
+^sachaʼ/*sachaʼ$
+^la/la$
+^numak/nu>mak$
+^nan/nan$
+^,/,$
+^man/man/m>an$
+^kinbʼan/*kinbʼan$
+^ta/ta$
+^chik/chik$
+^,/,$
+^kinimaj/*kinimaj$
+^tzij/tzij$
+^la/la$
+^./.$
+
+# sent_id = cuentos:Alaj_imul.wiki:9
 # text = Rajawaxik ri akʼalabʼ kikinimaj kitzij le kinan, kitat.
-# text[spa'] = Es necesario que los niños obedecen la palabra de sus madres, sus padres.
+# text[spa'] = Es necesario que los niños obedezcan las palabras de sus madres, padres.
 # labels = complete
 ^Rajawaxik/Rajawaxik$
 ^ri/ri$
@@ -13,29 +193,2748 @@
 ^kitat/ki>tat$
 ^./.$
 
-# sent_id = cuentos:Upixabʼ_nan_Toʼn:12
-# text = Ri a Teʼk xumaltyoxij che ri ratiʼt, rumal ri utzalaj noʼjibʼal xukʼut chech.
-# text[spa'] = Teʼk dio gracias a la abuela, por la idea buenísima que le enseñó.
-# labels = complete check-relative
-^Ri/Ri$
-^a/a$
-^Teʼk/Teʼk$
-^xumaltyoxij/x>u>maltyoxij$
-^che/ch>e$
-^ri/ri$
-^ratiʼt/r>atiʼt$
+# sent_id = cuentos:Alaj_kuk.wiki:1
+# text = Kʼo jun kuk ubʼiʼ Tintin, waʼ le laj kuk mam kajeqi taj, kapaqi kaxulik pa uwiʼ uqʼabʼ taq cheʼ, sibʼalaj sakʼaj, keʼuto le enimaʼq, chʼutin, rachiʼl, ajsipanel sibʼalaj utz ranimaʼ.  
+# text[spa'] = Hay una ardilla de nombre *Tintin, éste la ardilla pequeña de abuelo *kajeqi , *kapaqi baja encimade mano árboles, mucho ágil, *keʼuto el grandes, joven, amigo, *ajsipanel mucho ánima buena. 
+# labels = incomplete
+^Kʼo$
+^jun/jun$
+^kuk/kuk$
+^ubʼiʼ/u>bʼiʼ$
+^Tintin/Tintin$
 ^,/,$
-^rumal/r>umal$
+^waʼ/waʼ$
+^le/le$
+^laj/laj$
+^kuk/kuk$
+^mam/mam$
+^kajeqi/*kajeqi$
+^taj/taj$
+^,/,$
+^kapaqi/*kapaqi$
+^kaxulik/ka>xul>ik$
+^pa/pa$
+^uwiʼ/u>wiʼ$
+^uqʼabʼ/*uqʼabʼ$
+^taq/taq$
+^cheʼ/cheʼ$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^sakʼaj/*sakʼaj$
+^,/,$
+^keʼuto/*keʼuto$
+^le/le$
+^enimaʼq/e>nim>aʼq$
+^,/,$
+^chʼutin/chʼutin/chʼuti>n$
+^,/,$
+^rachiʼl/r>achiʼl$
+^,/,$
+^ajsipanel/*ajsipanel$
+^sibʼalaj/sibʼalaj$
+^utz/utz$
+^ranimaʼ/r>animaʼ$
+^./.$  
+
+# sent_id = cuentos:Alaj_kuk.wiki:2
+# text = Che jun qʼij tajin ketzʼanik pa uwiʼ taq le cheʼ kʼateʼ xtzaquloq, paqʼ xtzaq loq, solobʼataj ri raqan.
+# text[spa'] = a él un día juega encimade los árboles hasta *xtzaquloq, *paqʼ cayó , *solobʼataj el pie.
+# labels = incomplete
+^Che/Ch>e$
+^jun/jun$
+^qʼij/qʼij$
+^tajin/tajin$
+^ketzʼanik/k>etzʼan>ik$
+^pa/pa$
+^uwiʼ/u>wiʼ$
+^taq/taq$
+^le/le$
+^cheʼ/cheʼ$
+^kʼateʼ/kʼateʼ$
+^xtzaquloq/*xtzaquloq$
+^,/,$
+^paqʼ/*paqʼ$
+^xtzaq/x>tzaq$
+^loq/loq$
+^,/,$
+^solobʼataj/*solobʼataj$
 ^ri/ri$
-^utzalaj/utz>alaj$
-^noʼjibʼal/noʼjibʼal$
-^xukʼut/x>u>kʼut$
-^chech/ch>ech$
+^raqan/r>aqan$
 ^./.$
 
-# sent_id = cuentos:Le_kʼolot_ali:10
+# sent_id = cuentos:Alaj_kuk.wiki:3
+# text = Ri alaj Tintin xbʼisonik, te xrilo kropopik xpeʼ jun palomax.
+# text[spa'] = El pequeño *Tintin estuvo triste , ahora vio *kropopik *xpeʼ una paloma.
+# labels = incomplete
+^Ri/Ri$
+^alaj/alaj$
+^Tintin/Tintin$
+^xbʼisonik/x>bʼison>ik/x>bʼiso>n>ik$
+^,/,$
+^te/te$
+^xrilo/*xrilo$
+^kropopik/*kropopik$
+^xpeʼ/*xpeʼ$
+^jun/jun$
+^palomax/palomax$
+^./.$
+
+# sent_id = cuentos:Alaj_kuk.wiki:4
+# text = Xubʼij che: -jas xabʼano Tintin. 
+# text[spa'] =  Dijo a él: -qué hiciste *Tintin. 
+# labels = incomplete
+^Xubʼij/*Xubʼij$
+^che/ch>e$
+^:/:$
+^-/-$
+^jas/jas$
+^xabʼano/*xabʼano$
+^Tintin/Tintin$
+^./.$ 
+
+# sent_id = cuentos:Alaj_kuk.wiki:5
+# text = - ¡Ay!  Xa xintzaq uloq, kʼax we waqan. 
+# text[spa'] = - ¡Ay! Sólo perdí, malo este pie. 
+# labels = incomplete
+^-/-$
+^¡/¡$
+^Ay/Ay$
+^!/!$
+^Xa/Xa$
+^xintzaq/x>in>tzaq$
+^uloq/uloq$
+^,/,$
+^kʼax/kʼax$
+^we/we/w>e$
+^waqan/w>aqan$
+^./.$ 
+
+# sent_id = cuentos:Alaj_kuk.wiki:6
+# text = Are kʼu le palomax xubʼij che: -mam katbʼison taj, kinsikʼij nikʼaj wachiʼl kerapapik.
+# text[spa'] =  pero la paloma dijo a él: -abuelo estás triste , llamo amigo otro vuelan .
+# labels = incomplete
+^Are/Are$
+^kʼu/kʼu$
+^le/le$
+^palomax/palomax$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^:/:$
+^-/-$
+^mam/mam$
+^katbʼison/k>at>bʼison$
+^taj/taj$
+^,/,$
+^kinsikʼij/*kinsikʼij$
+^nikʼaj/nikʼaj$
+^wachiʼl/w>achiʼl$
+^kerapapik/k>e>rapap>ik$
+^./.$
+
+# sent_id = cuentos:Alaj_kuk.wiki:7
+# text = Xeʼ ri palomax che utzukuxik nikʼaj chikop chik, xepe kʼu taq rachil chikop xkikʼam bʼik ri Tintin xkichajij, xkitzuqu, nojimal xutzir ri raqan, xumaj chik le tobʼanik pa komom. 
+# text[spa'] = *Xeʼ la paloma a él búsqueda animal otro ya, vinieron pero amigos animal recibieron el *Tintin cuidaron, *xkitzuqu, lentitud se mejoró el pie, agarró ya el ayudar en *komom. 
+# labels = incomplete
+^Xeʼ/*Xeʼ$
+^ri/ri$
+^palomax/palomax$
+^che/ch>e$
+^utzukuxik/u>tzukuxik$
+^nikʼaj/nikʼaj$
+^chikop/chikop$
+^chik/chik$
+^,/,$
+^xepe/x>e>pe$
+^kʼu/kʼu$
+^taq/taq$
+^rachil/r>achil$
+^chikop/chikop$
+^xkikʼam/*xkikʼam$
+^bʼik/bʼi>k$
+^ri/ri$
+^Tintin/Tintin$
+^xkichajij/*xkichajij$
+^,/,$
+^xkitzuqu/*xkitzuqu$
+^,/,$
+^nojimal/nojimal$
+^xutzir/x>utzir$
+^ri/ri$
+^raqan/r>aqan$
+^,/,$
+^xumaj/*xumaj$
+^chik/chik$
+^le/le$
+^tobʼanik/*tobʼanik$
+^pa/pa$
+^komom/*komom$
+^./.$ 
+
+# sent_id = cuentos:Alaj_kuk.wiki:8
+# text = Utz chaqe kaqatoʼ qibʼ, taq kʼo kʼaxkʼolil, katewechiʼn ri Ajaw paqawiʼ.
+# text[spa'] = Bueno a nosotros ayudamos a nosotros, hay *kʼaxkʼolil, *katewechiʼn el Dueño encima nosotros.
+# labels = incomplete
+^Utz/Utz$
+^chaqe/ch>aq>e$
+^kaqatoʼ/*kaqatoʼ$
+^qibʼ/q>ibʼ$
+^,/,$
+^taq/taq$
+^kʼo/kʼo$
+^kʼaxkʼolil/kʼaxkʼolil$
+^,/,$
+^katewechiʼn/*katewechiʼn$
+^ri/ri$
+^Ajaw/Ajaw$
+^paqawiʼ/pa>qa>wiʼ$
+^./.$
+
+# sent_id = cuentos:Jas_uchakuxik_kaxlanwa.wiki:1
+# text = Ri qʼetz numan xusipaj kan chqech jas uchakuxi ri kaxlanwa.  
+# text[spa'] = El *qʼetz *numan regaló a nosotros qué *uchakuxi el pan. 
+# labels = incomplete
+^Ri/Ri$
+^qʼetz/*qʼetz$
+^numan/*numan$
+^xusipaj/*xusipaj$
+^kan/kan/k>an$
+^chqech/ch>q>ech$
+^jas/jas$
+^uchakuxi/*uchakuxi$
+^ri/ri$
+^kaxlanwa/kaxlanwa$
+^./.$  
+
+# sent_id = cuentos:Jas_uchakuxik_kaxlanwa.wiki:2
+# text = Nabʼe: kbʼan ri chʼam rukʼ jutzʼit kʼaj.
+# text[spa'] = Primero: se hace el agrio con pedazo pulverizado.
+# labels = incomplete
+^Nabʼe/Nabʼe$
+^:/:$
+^kbʼan/*kbʼan$
+^ri/ri$
+^chʼam/*chʼam$
+^rukʼ/r>ukʼ$
+^jutzʼit/jutzʼit$
+^kʼaj/kʼ>aj$
+^./.$
+
+# sent_id = cuentos:Jas_uchakuxik_kaxlanwa.wiki:3
+# text = Le chʼam are kukʼiyisaj ukʼux ri qʼor, xuqujeʼ le chʼam kbʼan kanoq wuqubʼ qʼij majoʼq kamubʼax ri qʼor.
+# text[spa'] = El agrio siembra alma el *qʼor, también el agrio se hace siete día *majoʼq se remoja el *qʼor.
+# labels = incomplete
+^Le/Le$
+^chʼam/*chʼam$
+^are/are$
+^kukʼiyisaj/*kukʼiyisaj$
+^ukʼux/u>kʼux$
+^ri/ri$
+^qʼor/qʼor$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^le/le$
+^chʼam/*chʼam$
+^kbʼan/*kbʼan$
+^kanoq/kan>oq$
+^wuqubʼ/wuqubʼ$
+^qʼij/qʼij$
+^majoʼq/majoʼq$
+^kamubʼax/*kamubʼax$
+^ri/ri$
+^qʼor/qʼor$
+^./.$
+
+# sent_id = cuentos:Jas_uchakuxik_kaxlanwa.wiki:4
+# text = Ukabʼ: ikʼowinaq chik wuqubʼ qʼij are kamubʼax ri kʼaj aqʼabʼ kanoq.
+# text[spa'] = Segundo: *ikʼowinaq ya siete día se remoja la noche pulverizada .
+# labels = incomplete
+^Ukabʼ/Ukabʼ$
+^:/:$
+^ikʼowinaq/*ikʼowinaq$
+^chik/chik$
+^wuqubʼ/wuqubʼ$
+^qʼij/qʼij$
+^are/are$
+^kamubʼax/*kamubʼax$
+^ri/ri$
+^kʼaj/kʼ>aj$
+^aqʼabʼ/*aqʼabʼ$
+^kanoq/kan>oq$
+^./.$
+
+# sent_id = cuentos:Jas_uchakuxik_kaxlanwa.wiki:5
+# text = Rox: chi ukabʼ qʼij kqasax ri qʼor pa ajkuʼ.
+# text[spa'] = *Rox: a día segundo se derriba el *qʼor en *ajkuʼ.
+# labels = incomplete
+^Rox/*Rox$
+^:/:$
+^chi/chi$
+^ukabʼ/ukabʼ$
+^qʼij/qʼij$
+^kqasax/*kqasax$
+^ri/ri$
+^qʼor/qʼor$
+^pa/pa$
+^ajkuʼ/*ajkuʼ$
+^./.$
+
+# sent_id = cuentos:Jas_uchakuxik_kaxlanwa.wiki:6
+# text = Xuqujeʼ kbʼan ukunel xaqxuwi kukʼam bʼi asukal rukʼ jubʼiqʼ mantekaʼ.
+# text[spa'] = También se hace *ukunel *xaqxuwi recibe *asukal con él un poco *mantekaʼ.
+# labels = incomplete
+^Xuqujeʼ/Xuqujeʼ$
+^kbʼan/*kbʼan$
+^ukunel/u>kunel$
+^xaqxuwi/*xaqxuwi$
+^kukʼam/*kukʼam$
+^bʼi/bʼi$
+^asukal/asukal$
+^rukʼ/r>ukʼ$
+^jubʼiqʼ/jubʼiqʼ$
+^mantekaʼ/mantekaʼ$
+^./.$
+
+# sent_id = cuentos:Jas_uchakuxik_kaxlanwa.wiki:7
+# text = Ukaj: kachaplex ubʼanik ri etzʼabʼal jacha ri sesetesik, taq alaʼs, kej xuqujeʼ. 
+# text[spa'] = Cielo: *kachaplex la forma del juguete como el *sesetesik, muñecas, caballo también. 
+# labels = incomplete
+^Ukaj/Ukaj/U>kaj$
+^:/:$
+^kachaplex/*kachaplex$
+^ubʼanik/*ubʼanik$
+^ri/ri$
+^etzʼabʼal/*etzʼabʼal$
+^jacha/jacha$
+^ri/ri$
+^sesetesik/*sesetesik$
+^,/,$
+^taq/taq$
+^alaʼs/alaʼs$
+^,/,$
+^kej/kej$
+^xuqujeʼ/xuqujeʼ$
+^./.$ 
+
+# sent_id = cuentos:Jas_uchakuxik_kaxlanwa.wiki:8
+# text = Uro: knim pa tuj che uchaqʼajisaxik.
+# text[spa'] = *Uro: *knim en temazcal a para aliñarse.
+# labels = incomplete
+^Uro/*Uro$
+^:/:$
+^knim/*knim$
+^pa/pa$
+^tuj/tuj$
+^che/ch>e$
+^uchaqʼajisaxik/*uchaqʼajisaxik$
+^./.$
+
+# sent_id = cuentos:Jas_uchakuxik_kaxlanwa.wiki:9
+# text = Uwaq: are taq kchaqʼajik taqal chik che utijik.
+# text[spa'] = Sexto: cuando *kchaqʼajik *taqal ya a para comer.
+# labels = incomplete
+^Uwaq/Uwaq$
+^:/:$
+^are/are$
+^taq/taq$
+^kchaqʼajik/*kchaqʼajik$
+^taqal/taqal$
+^chik/chik$
+^che/ch>e$
+^utijik/*utijik$
+^./.$
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:1
+# text = Kʼo jumul, jun akʼal ubʼiʼ a Luʼ, ronojel qʼij keʼuyuqʼuj jukʼal uchij, naʼtam ktzalij uloq pa rachoch, kreyeʼj na, kenoj na ri uchij.
+# text[spa'] = Hay vez, un el nombre joven de Pedro, todo él día pastorea *jukʼal oveja, *naʼtam vuelve en casa, *kreyeʼj no, la oveja llenan .
+# labels = incomplete
+^Kʼo$
+^jumul/jumul$
+^,/,$
+^jun/jun$
+^akʼal/akʼal$
+^ubʼiʼ/u>bʼiʼ$
+^a/a$
+^Luʼ/Luʼ$
+^,/,$
+^ronojel/r>onojel$
+^qʼij/qʼij$
+^keʼuyuqʼuj/*keʼuyuqʼuj$
+^jukʼal/*jukʼal$
+^uchij/u>chij$
+^,/,$
+^naʼtam/*naʼtam$
+^ktzalij/k>tzalij$
+^uloq/uloq$
+^pa/pa$
+^rachoch/r>achoch$
+^,/,$
+^kreyeʼj/*kreyeʼj$
+^na/na$
+^,/,$
+^kenoj/k>e>noj$
+^na/na$
+^ri/ri$
+^uchij/u>chij$
+^./.$
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:2
+# text = Xkʼulmataj jumul, xubʼan jun nimalaj jabʼ, man xbʼeyetaj ta na xukʼis le uyuqʼ chike.  
+# text[spa'] =  Pasó vez, hizo una lluvia grande, no se tardó acabó el *uyuqʼ a ellos. 
+# labels = incomplete
+^Xkʼulmataj/*Xkʼulmataj$
+^jumul/jumul$
+^,/,$
+^xubʼan/*xubʼan$
+^jun/jun$
+^nimalaj/nimalaj/nim>alaj$
+^jabʼ/jabʼ$
+^,/,$
+^man/man/m>an$
+^xbʼeyetaj/*xbʼeyetaj$
+^ta/ta$
+^na/na$
+^xukʼis/*xukʼis$
+^le/le$
+^uyuqʼ/u>yuqʼ$
+^chike/chi>k>e$
+^./.$  
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:3
+# text = Ronojel ri uchij are kʼu ri uchij kkaj taj xeʼsalabʼik, majaʼ enojinaq, xusikʼij necher man xkaj taj ri chij are kʼuri ri akʼal xumaj jun oqʼej xa rumal che ri utat reyeʼm kan cho rachoch we akʼal xaq uxiʼm ribʼ xa che kachʼayik; te kʼu riʼ xopan jun imul xutaʼ che: -jas che katoqʼik.
+# text[spa'] = Toda la oveja pero la oveja quieren *xeʼsalabʼik, aún no lleno, llamó *necher no quisieron la oveja *kʼuri el niño agarró un *oqʼej sólo porque el padre *reyeʼm a la casa de este niño sólo *uxiʼm a él sólo a para se pega; ahora pero ése llegó un conejo pidió a él: -por qué cornea .
+# labels = incomplete
+^Ronojel/R>onojel$
+^ri/ri$
+^uchij/u>chij$
+^are/are$
+^kʼu/kʼu$
+^ri/ri$
+^uchij/u>chij$
+^kkaj/k>kaj$
+^taj/taj$
+^xeʼsalabʼik/*xeʼsalabʼik$
+^,/,$
+^majaʼ/majaʼ$
+^enojinaq/e>nojinaq$
+^,/,$
+^xusikʼij/*xusikʼij$
+^necher/*necher$
+^man/man/m>an$
+^xkaj/*xkaj$
+^taj/taj$
+^ri/ri$
+^chij/chij$
+^are/are$
+^kʼuri/kʼuri$
+^ri/ri$
+^akʼal/akʼal$
+^xumaj/*xumaj$
+^jun/jun$
+^oqʼej/oqʼej$
+^xa/xa$
+^rumal/r>umal$
+^che/ch>e$
+^ri/ri$
+^utat/u>tat$
+^reyeʼm/*reyeʼm$
+^kan/kan/k>an$
+^cho/cho/ch>o$
+^rachoch/r>achoch$
+^we/we/w>e$
+^akʼal/akʼal$
+^xaq/xaq$
+^uxiʼm/*uxiʼm$
+^ribʼ/r>ibʼ$
+^xa/xa$
+^che/ch>e$
+^kachʼayik/ka>chʼay>ik$
+^;/;$
+^te/te$
+^kʼu/kʼu$
+^riʼ/riʼ$
+^xopan/x>opan$
+^jun/jun$
+^imul/imul/i>mul$
+^xutaʼ/*xutaʼ$
+^che/ch>e$
+^:/:$
+^-/-$
+^jas/jas$
+^che/ch>e$
+^katoqʼik/ka>toqʼ>ik/k>at>oqʼ>ik$
+^./.$
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:4
+# text = Le akʼal xubʼij che: -xa che ri nuchij kkaj ta kebʼe pa kikʼolibʼal.
+# text[spa'] = El niño dijo a él: -sólo a él las ovejas quieren van en lugar.
+# labels = incomplete
+^Le/Le$
+^akʼal/akʼal$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^:/:$
+^-/-$
+^xa/xa$
+^che/ch>e$
+^ri/ri$
+^nuchij/nu>chij$
+^kkaj/k>kaj$
+^ta/ta$
+^kebʼe/k>e>bʼe$
+^pa/pa$
+^kikʼolibʼal/ki>kʼolibʼal$
+^./.$
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:5
+# text = Ri imul xumaj jun oqʼej rukʼ ri akʼal, xopan jun par xutaʼ che ri imul: -jas che katoqʼik ri imul xutzalij utzij: -xa are le uchij ri akʼal kkaj ta kebʼe pa kikʼolibʼal.
+# text[spa'] = El conejo agarró un *oqʼej con el niño, llegó un *par pidió al conejo: -por qué cornea el conejo devolvió palabra: -sólo las ovejas del niño quieren van en lugar.
+# labels = incomplete
+^Ri/Ri$
+^imul/imul/i>mul$
+^xumaj/*xumaj$
+^jun/jun$
+^oqʼej/oqʼej$
+^rukʼ/r>ukʼ$
+^ri/ri$
+^akʼal/akʼal$
+^,/,$
+^xopan/x>opan$
+^jun/jun$
+^par/par$
+^xutaʼ/*xutaʼ$
+^che/ch>e$
+^ri/ri$
+^imul/imul/i>mul$
+^:/:$
+^-/-$
+^jas/jas$
+^che/ch>e$
+^katoqʼik/ka>toqʼ>ik/k>at>oqʼ>ik$
+^ri/ri$
+^imul/imul/i>mul$
+^xutzalij/*xutzalij$
+^utzij/u>tzij$
+^:/:$
+^-/-$
+^xa/xa$
+^are/are$
+^le/le$
+^uchij/u>chij$
+^ri/ri$
+^akʼal/akʼal$
+^kkaj/k>kaj$
+^ta/ta$
+^kebʼe/k>e>bʼe$
+^pa/pa$
+^kikʼolibʼal/ki>kʼolibʼal$
+^./.$
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:6
+# text = Xopan jun wonon, xutaʼ chike: -jas che kixoqʼik.
+# text[spa'] =  Llegó una abeja, pidió a ellos: -por qué lloran .
+# labels = incomplete
+^Xopan/X>opan$
+^jun/jun$
+^wonon/wonon$
+^,/,$
+^xutaʼ/*xutaʼ$
+^chike/chi>k>e$
+^:/:$
+^-/-$
+^jas/jas$
+^che/ch>e$
+^kixoqʼik/k>ix>oqʼ>ik$
+^./.$
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:7
+# text = Xkitzalij kitzij ri imul rukʼ ri akʼal: -xa areʼ le chij ma kkaj taj kebʼe pa kikʼolibʼal.
+# text[spa'] =  Devolvieron la palabra del conejo con el niño: -sólo él las ovejas no quieren van en lugar.
+# labels = incomplete
+^Xkitzalij/*Xkitzalij$
+^kitzij/ki>tzij$
+^ri/ri$
+^imul/imul/i>mul$
+^rukʼ/r>ukʼ$
+^ri/ri$
+^akʼal/akʼal$
+^:/:$
+^-/-$
+^xa/xa$
+^areʼ/areʼ$
+^le/le$
+^chij/chij$
+^ma/ma$
+^kkaj/k>kaj$
+^taj/taj$
+^kebʼe/k>e>bʼe$
+^pa/pa$
+^kikʼolibʼal/ki>kʼolibʼal$
+^./.$
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:8
+# text = We wonon xubʼij chike: - kixinto.
+# text[spa'] = Esta abeja dijo a ellos: - ayudo.
+# labels = incomplete
+^We/We/W>e$
+^wonon/wonon$
+^xubʼij/*xubʼij$
+^chike/chi>k>e$
+^:/:$
+^-/-$
+^kixinto/*kixinto$
+^./.$
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:9
+# text = Konojel xetzeʼnik, xkibʼij: -uj ma xujkowin ta chike: -jas kubʼan waʼ, we alaj nitzʼ wonon, le wonon xutyaʼche uxikin le nimalaj chij, xbʼe sibʼalaj anim, ma xuxlan taj chikiwach erachiʼl chij, xkiterneʼj bʼik le kachiʼl xenabʼej bʼik.
+# text[spa'] = Todo ellos se rieron , dijeron: -nosotros no pudimos a ellos: -qué hace éste, si abeja pequeña pequeña, la abeja *xutyaʼche la oreja de la oveja grande, fue mucho prisa, no reposó a amigos oveja, *xkiterneʼj el amigo empezaron .
+# labels = incomplete
+^Konojel/K>onojel$
+^xetzeʼnik/x>e>tzeʼn>ik/x>e>tzeʼ>n>ik$
+^,/,$
+^xkibʼij/*xkibʼij$
+^:/:$
+^-/-$
+^uj/uj$
+^ma/ma$
+^xujkowin/x>uj>kowin$
+^ta/ta$
+^chike/chi>k>e$
+^:/:$
+^-/-$
+^jas/jas$
+^kubʼan/*kubʼan$
+^waʼ/waʼ$
+^,/,$
+^we/we/w>e$
+^alaj/alaj$
+^nitzʼ/nitzʼ$
+^wonon/wonon$
+^,/,$
+^le/le$
+^wonon/wonon$
+^xutyaʼche/*xutyaʼche$
+^uxikin/*uxikin$
+^le/le$
+^nimalaj/nimalaj/nim>alaj$
+^chij/chij$
+^,/,$
+^xbʼe/x>bʼe$
+^sibʼalaj/sibʼalaj$
+^anim/anim$
+^,/,$
+^ma/ma$
+^xuxlan/x>uxlan$
+^taj/taj$
+^chikiwach/chi>ki>wach$
+^erachiʼl/e>r>achiʼl$
+^chij/chij$
+^,/,$
+^xkiterneʼj/*xkiterneʼj$
+^bʼik/bʼi>k$
+^le/le$
+^kachiʼl/k>achiʼl/k>achiʼl$
+^xenabʼej/*xenabʼej$
+^bʼik/bʼi>k$
+^./.$
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:10
+# text = Xaq je riʼ le akʼal, imul, xuqujeʼ sotzʼ xekikotik rumal che le wonon xtobʼan chike kikʼamik ri chij pa xoral, xkimayo chi le wonon laj nitzʼ necher laj nim xeʼuto. 
+# text[spa'] = Sólo como ése el niño, conejo, también murciélago estuvieron feliz porque la abeja ayudó a ellos recibir la oveja en jardín, *xkimayo a la abeja pequeña pequeña *necher pequeño grande *xeʼuto. 
+# labels = incomplete
+^Xaq/Xaq$
+^je/je$
+^riʼ/riʼ$
+^le/le$
+^akʼal/akʼal$
+^,/,$
+^imul/imul/i>mul$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^sotzʼ/sotzʼ$
+^xekikotik/x>e>kikot>ik$
+^rumal/r>umal$
+^che/ch>e$
+^le/le$
+^wonon/wonon$
+^xtobʼan/x>tobʼan$
+^chike/chi>k>e$
+^kikʼamik/*kikʼamik$
+^ri/ri$
+^chij/chij$
+^pa/pa$
+^xoral/xoral$
+^,/,$
+^xkimayo/*xkimayo$
+^chi/chi$
+^le/le$
+^wonon/wonon$
+^laj/laj$
+^nitzʼ/nitzʼ$
+^necher/*necher$
+^laj/laj$
+^nim/nim$
+^xeʼuto/*xeʼuto$
+^./.$ 
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:1
+# text = Kʼo jun qʼij xkʼulmataj cho jun ja, are taq xkʼoji jun alaj lol, sibʼalaj kakikotik, are xumajij rapinem xubʼan kebʼ ukʼux rumal che kʼo jun laj neʼ kachakanik cho le uwoja.
+# text[spa'] = Hay un día pasó a una casa, cuando habitó un grillo pequeño, mucho está feliz , comenzó que volar hizo dos alma porque hay un bebé pequeño *kachakanik a él el *uwoja.
+# labels = incomplete
+^Kʼo$
+^jun/jun$
+^qʼij/qʼij$
+^xkʼulmataj/*xkʼulmataj$
+^cho/cho/ch>o$
+^jun/jun$
+^ja/ja$
+^,/,$
+^are/are$
+^taq/taq$
+^xkʼoji/x>kʼoji$
+^jun/jun$
+^alaj/alaj$
+^lol/lol$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^kakikotik/ka>kikot>ik$
+^,/,$
+^are/are$
+^xumajij/*xumajij$
+^rapinem/rapinem$
+^xubʼan/*xubʼan$
+^kebʼ/kebʼ$
+^ukʼux/u>kʼux$
+^rumal/r>umal$
+^che/ch>e$
+^kʼo/kʼo$
+^jun/jun$
+^laj/laj$
+^neʼ/neʼ$
+^kachakanik/*kachakanik$
+^cho/cho/ch>o$
+^le/le$
+^uwoja/*uwoja$
+^./.$
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:2
+# text = Ri alaj neʼ kachakanik, kaxulik kapaqiʼ, xuqujeʼ we chikop, are kʼuri neʼ kachʼopin cho ri ja, xkikoʼtik jewaʼ kubʼij: - wech wa we jun etzʼabʼal laj chikop kinchap na, xbʼe che uchapik wa le lol, are kʼu xrapapik xeʼk. 
+# text[spa'] = El bebé pequeño *kachakanik, baja sube , también este animal, *kʼuri bebé salta a la casa, *xkikoʼtik así dice: - a mí comida un juguete pequeño de animal cazo , fue a él cazar comida el grillo, pero voló *xeʼk. 
+# labels = incomplete
+^Ri/Ri$
+^alaj/alaj$
+^neʼ/neʼ$
+^kachakanik/*kachakanik$
+^,/,$
+^kaxulik/ka>xul>ik$
+^kapaqiʼ/ka>paqiʼ/k>a>paqiʼ$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^we/we/w>e$
+^chikop/chikop$
+^,/,$
+^are/are$
+^kʼuri/kʼuri$
+^neʼ/neʼ$
+^kachʼopin/ka>chʼopin$
+^cho/cho/ch>o$
+^ri/ri$
+^ja/ja$
+^,/,$
+^xkikoʼtik/*xkikoʼtik$
+^jewaʼ/jewaʼ/j>e>waʼ$
+^kubʼij/*kubʼij$
+^:/:$
+^-/-$
+^wech/w>ech$
+^wa/wa$
+^we/we/w>e$
+^jun/jun$
+^etzʼabʼal/*etzʼabʼal$
+^laj/laj$
+^chikop/chikop$
+^kinchap/k>in>chap$
+^na/na$
+^,/,$
+^xbʼe/x>bʼe$
+^che/ch>e$
+^uchapik/*uchapik$
+^wa/wa$
+^le/le$
+^lol/lol$
+^,/,$
+^are/are$
+^kʼu/kʼu$
+^xrapapik/x>rapap>ik$
+^xeʼk/*xeʼk$
+^./.$ 
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:3
+# text = Are kʼu ri neʼ xuternej bʼik karaj xuchapoʼ, necher le lol xa xrapapik, xrapapik xeʼ pwiʼ le taq kʼotzʼiʼj.
+# text[spa'] =  y el bebé *xuternej quiere *xuchapoʼ, *necher el grillo sólo voló , voló *xeʼ sombrero las flores.
+# labels = incomplete
+^Are/Are$
+^kʼu/kʼu$
+^ri/ri$
+^neʼ/neʼ$
+^xuternej/*xuternej$
+^bʼik/bʼi>k$
+^karaj/*karaj$
+^xuchapoʼ/*xuchapoʼ$
+^,/,$
+^necher/*necher$
+^le/le$
+^lol/lol$
+^xa/xa$
+^xrapapik/x>rapap>ik$
+^,/,$
+^xrapapik/x>rapap>ik$
+^xeʼ/*xeʼ$
+^pwiʼ/pwiʼ$
+^le/le$
+^taq/taq$
+^kʼotzʼiʼj/kʼotzʼiʼj$
+^./.$
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:4
+# text = Tekʼuri xuchomaj…  la man xata kraj wa le neʼ kinukamisaj… la xa kraj wa kinetzʼan rukʼ, jewa xubʼij: - nabʼe kinchʼabʼej na, we kraj kujetzʼan junam rukʼ. 
+# text[spa'] = Y pensó…  no oíste que quiere comida el bebé mata… sólo quiere comida juego con él, así dijo: - primero hablo, si quiere que jugamos igual con él. 
+# labels = incomplete
+^Tekʼuri/Tekʼuri$
+^xuchomaj/*xuchomaj$
+^…/…$
+^la/la$
+^man/man/m>an$
+^xata/*xata$
+^kraj/*kraj$
+^wa/wa$
+^le/le$
+^neʼ/neʼ$
+^kinukamisaj/*kinukamisaj$
+^…/…$
+^la/la$
+^xa/xa$
+^kraj/*kraj$
+^wa/wa$
+^kinetzʼan/k>in>etzʼan$
+^rukʼ/r>ukʼ$
+^,/,$
+^jewa/jewa$
+^xubʼij/*xubʼij$
+^:/:$
+^-/-$
+^nabʼe/nabʼe$
+^kinchʼabʼej/*kinchʼabʼej$
+^na/na$
+^,/,$
+^we/we/w>e$
+^kraj/*kraj$
+^kujetzʼan/k>uj>etzʼan$
+^junam/junam$
+^rukʼ/r>ukʼ$
+^./.$ 
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:5
+# text = Xetzijonik na ekebʼ, ri neʼ xubʼij: - man kʼota wachiʼl, la kawaj katetzʼan wukʼ rech oqtan ibʼ, la utz in kinalmajik.
+# text[spa'] =  Hablaron dos, el bebé dijo: - no *kʼota amigo, quieres que juegas conmigo a él *oqtan *ibʼ, bueno yo *kinalmajik.
+# labels = incomplete
+^Xetzijonik/X>e>tzijon>ik/X>e>tzijo>n>ik$
+^na/na$
+^ekebʼ/e>kebʼ$
+^,/,$
+^ri/ri$
+^neʼ/neʼ$
+^xubʼij/*xubʼij$
+^:/:$
+^-/-$
+^man/man/m>an$
+^kʼota/*kʼota$
+^wachiʼl/w>achiʼl$
+^,/,$
+^la/la$
+^kawaj/k>awaj$
+^katetzʼan/k>at>etzʼan$
+^wukʼ/w>ukʼ$
+^rech/rech/r>ech$
+^oqtan/*oqtan$
+^ibʼ/*ibʼ$
+^,/,$
+^la/la$
+^utz/utz$
+^in/in$
+^kinalmajik/*kinalmajik$
+^./.$
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:6
+# text = Xcha ri lol xukʼam uqʼabʼ le neʼ xkimajij le etzʼanem. 
+# text[spa'] =  Eligió el grillo recibió que las manos del bebé comenzaron el juego. 
+# labels = incomplete
+^Xcha/X>cha$
+^ri/ri$
+^lol/lol$
+^xukʼam/*xukʼam$
+^uqʼabʼ/*uqʼabʼ$
+^le/le$
+^neʼ/neʼ$
+^xkimajij/*xkimajij$
+^le/le$
+^etzʼanem/etzʼanem$
+^./.$ 
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:7
+# text = Taq xkil le unan, utat le akʼal xkimayij chi kʼo rachilʼ le neʼ che etzʼanem.
+# text[spa'] = Cuando vieron la madre, el padre del niño admiraron a hay *rachilʼ el bebé a juego.
+# labels = incomplete
+^Taq/Taq$
+^xkil/*xkil$
+^le/le$
+^unan/u>nan$
+^,/,$
+^utat/u>tat$
+^le/le$
+^akʼal/akʼal$
+^xkimayij/*xkimayij$
+^chi/chi$
+^kʼo/kʼo$
+^rachilʼ/*rachilʼ$
+^le/le$
+^neʼ/neʼ$
+^che/ch>e$
+^etzʼanem/etzʼanem$
+^./.$
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:8
+# text = Are kʼu tajij ketzʼanik xopan jun chʼo xubʼij chike, la kiwaj kinetzʼan iwukʼ. 
+# text[spa'] =  pero *tajij juega llegó una rata dijo a ellos, quieren que juego con ustedes. 
+# labels = incomplete
+^Are/Are$
+^kʼu/kʼu$
+^tajij/*tajij$
+^ketzʼanik/k>etzʼan>ik$
+^xopan/x>opan$
+^jun/jun$
+^chʼo/chʼo$
+^xubʼij/*xubʼij$
+^chike/chi>k>e$
+^,/,$
+^la/la$
+^kiwaj/*kiwaj$
+^kinetzʼan/k>in>etzʼan$
+^iwukʼ/iw>ukʼ$
+^./.$ 
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:9
+# text = –Utz xe chaʼ, su uwach etzʼanem awetaʼm. 
+# text[spa'] = –Bueno *xe *chaʼ, qué a él juego supiste. 
+# labels = incomplete
+^–/–$
+^Utz/Utz$
+^xe/*xe$
+^chaʼ/*chaʼ$
+^,/,$
+^su/su$
+^uwach/u>wach$
+^etzʼanem/etzʼanem$
+^awetaʼm/aw>etaʼm$
+^./.$ 
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:10
+# text = E yoxibʼ chik xkichomaj: - jas chi kʼu etzʼanem qabʼano. 
+# text[spa'] =  *yoxibʼ ya pensaron: - qué a pero juego *qabʼano. 
+# labels = incomplete
+^E/E$
+^yoxibʼ/*yoxibʼ$
+^chik/chik$
+^xkichomaj/*xkichomaj$
+^:/:$
+^-/-$
+^jas/jas$
+^chi/chi$
+^kʼu/kʼu$
+^etzʼanem/etzʼanem$
+^qabʼano/*qabʼano$
+^./.$ 
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:11
+# text = Are utz ri kʼunem xchaʼ le chʼo… jewa xkimajij chi jumul le etzʼanem, sibʼalaj kekikoʼtik cho le uwoja rukʼ le alaj akʼal.
+# text[spa'] =  bueno el *kʼunem la rata eligió … así comenzaron a vez el juego, mucho *kekikoʼtik a él el *uwoja con el niño pequeño.
+# labels = incomplete
+^Are/Are$
+^utz/utz$
+^ri/ri$
+^kʼunem/*kʼunem$
+^xchaʼ/x>chaʼ$
+^le/le$
+^chʼo/chʼo$
+^…/…$
+^jewa/jewa$
+^xkimajij/*xkimajij$
+^chi/chi$
+^jumul/jumul$
+^le/le$
+^etzʼanem/etzʼanem$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^kekikoʼtik/*kekikoʼtik$
+^cho/cho/ch>o$
+^le/le$
+^uwoja/*uwoja$
+^rukʼ/r>ukʼ$
+^le/le$
+^alaj/alaj$
+^akʼal/akʼal$
+^./.$
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:12
+# text = Taq xekosik, xeqʼitajik necher sibʼalaj kekikoʼtiik, xkijach kibʼ.
+# text[spa'] = Cuando se cansaron , *xeqʼitajik *necher mucho *kekikoʼtiik, entregaron a ellos.
+# labels = incomplete
+^Taq/Taq$
+^xekosik/x>e>kos>ik$
+^,/,$
+^xeqʼitajik/*xeqʼitajik$
+^necher/*necher$
+^sibʼalaj/sibʼalaj$
+^kekikoʼtiik/*kekikoʼtiik$
+^,/,$
+^xkijach/*xkijach$
+^kibʼ/k>ibʼ$
+^./.$
+
+# sent_id = cuentos:Jun_lol_ketz’an_ruk’_le_ne’.wiki:13
+# text = Le lol xeʼ pa uwiʼ taq le kotzʼiʼj, ri chʼo xeʼ chi uxeʼ taq le xot, le neʼ xewar pa uchʼat.
+# text[spa'] = El grillo *xeʼ encimade las flores, la rata *xeʼ abajode los comales, los bebés durmieron en cama.
+# labels = incomplete
+^Le/Le$
+^lol/lol$
+^xeʼ/*xeʼ$
+^pa/pa$
+^uwiʼ/u>wiʼ$
+^taq/taq$
+^le/le$
+^kotzʼiʼj/kotzʼiʼj$
+^,/,$
+^ri/ri$
+^chʼo/chʼo$
+^xeʼ/*xeʼ$
+^chi/chi$
+^uxeʼ/u>xeʼ$
+^taq/taq$
+^le/le$
+^xot/xot$
+^,/,$
+^le/le$
+^neʼ/neʼ$
+^xewar/x>e>war$
+^pa/pa$
+^uchʼat/u>chʼat$
+^./.$
+
+# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:1
+# text = Riʼ kʼamal taq bʼe kʼax kanimaʼ chech ri kʼachelaj, xkichomaj kʼut xkibʼan jun wokoj kukʼ ri winaq.
+# text[spa'] = Ése raíz sendas malas ánima a él el *kʼachelaj, pensaron pero hicieron un *wokoj con la persona.
+# labels = incomplete
+^Riʼ/Riʼ$
+^kʼamal/kʼamal$
+^taq/taq$
+^bʼe/bʼe$
+^kʼax/kʼax$
+^kanimaʼ/k>animaʼ$
+^chech/ch>ech$
+^ri/ri$
+^kʼachelaj/*kʼachelaj$
+^,/,$
+^xkichomaj/*xkichomaj$
+^kʼut/kʼut/kʼ>ut$
+^xkibʼan/*xkibʼan$
+^jun/jun$
+^wokoj/*wokoj$
+^kukʼ/k>ukʼ$
+^ri/ri$
+^winaq/winaq$
+^./.$
+
+# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:2
+# text = Xkitzijoj chikech ri winaq man utz taj keqasax ri cheʼ, we kabʼanik, kasikʼix saqʼij chaqij. 
+# text[spa'] =  Contaron a ellos la persona no bueno se derriban el árbol, si inventa , se llama estación seca *chaqij. 
+# labels = incomplete
+^Xkitzijoj/*Xkitzijoj$
+^chikech/chi>k>ech$
+^ri/ri$
+^winaq/winaq$
+^man/man/m>an$
+^utz/utz$
+^taj/taj$
+^keqasax/*keqasax$
+^ri/ri$
+^cheʼ/cheʼ$
+^,/,$
+^we/we/w>e$
+^kabʼanik/ka>bʼan>ik$
+^,/,$
+^kasikʼix/ka>sikʼix$
+^saqʼij/saqʼij$
+^chaqij/*chaqij$
+^./.$ 
+
+# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:3
+# text = Kechaqijar taq ri kʼwaʼ, ri nimaʼ, kakʼis uwach le loqʼolaj jaʼ, xa necher rajawaxik kkichajij ri qʼinomal uyaʼom ri Ajaw chaqe.
+# text[spa'] = *Kechaqijar los pozos, el río, acaba a él el *loqʼolaj agua, sólo *necher necesario cuidan la riqueza dada el Dueño a nosotros.
+# labels = incomplete
+^Kechaqijar/*Kechaqijar$
+^taq/taq$
+^ri/ri$
+^kʼwaʼ/kʼwaʼ/kʼ>waʼ$
+^,/,$
+^ri/ri$
+^nimaʼ/nimaʼ$
+^,/,$
+^kakʼis/ka>kʼis$
+^uwach/u>wach$
+^le/le$
+^loqʼolaj/*loqʼolaj$
+^jaʼ/jaʼ$
+^,/,$
+^xa/xa$
+^necher/*necher$
+^rajawaxik/rajawaxik$
+^kkichajij/*kkichajij$
+^ri/ri$
+^qʼinomal/qʼinomal$
+^uyaʼom/*uyaʼom$
+^ri/ri$
+^Ajaw/Ajaw$
+^chaqe/ch>aq>e$
+^./.$
+
+# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:4
+# text = Konojel xkichomaj rij, xkibʼij kʼut: areʼ utz ketik cheʼ.
+# text[spa'] = Todo ellos pensaron atrás él, dijeron pero: él bueno se siembran árbol.
+# labels = incomplete
+^Konojel/K>onojel$
+^xkichomaj/*xkichomaj$
+^rij/r>ij$
+^,/,$
+^xkibʼij/*xkibʼij$
+^kʼut/kʼut/kʼ>ut$
+^:/:$
+^areʼ/areʼ$
+^utz/utz$
+^ketik/*ketik$
+^cheʼ/cheʼ$
+^./.$
+
+# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:5
+# text = Xa rumal sibʼalaj rajawaxik le loqʼalaj jaʼ, le winaq xkibʼij: che we ikʼ riʼ qonojel kujbʼe che utikik taq cheʼ.
+# text[spa'] = Sólo por él mucho necesario el agua querida, la persona dijeron: a él esa luna todo nosotros vamos a para sembrarse árboles.
+# labels = incomplete
+^Xa/Xa$
+^rumal/r>umal$
+^sibʼalaj/sibʼalaj$
+^rajawaxik/rajawaxik$
+^le/le$
+^loqʼalaj/loqʼalaj/loqʼ>alaj$
+^jaʼ/jaʼ$
+^,/,$
+^le/le$
+^winaq/winaq$
+^xkibʼij/*xkibʼij$
+^:/:$
+^che/ch>e$
+^we/we/w>e$
+^ikʼ/ikʼ$
+^riʼ/riʼ$
+^qonojel/q>onojel$
+^kujbʼe/k>uj>bʼe$
+^che/ch>e$
+^utikik/*utikik$
+^taq/taq$
+^cheʼ/cheʼ$
+^./.$
+
+# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:6
+# text = Are utz katik le cheʼ re lemobʼ, saqchaj, kʼisis, pa taq juyubʼ. 
+# text[spa'] =  bueno siembras el árbol a él *lemobʼ, *saqchaj, *kʼisis, en montes. 
+# labels = incomplete
+^Are/Are$
+^utz/utz$
+^katik/*katik$
+^le/le$
+^cheʼ/cheʼ$
+^re/r>e$
+^lemobʼ/*lemobʼ$
+^,/,$
+^saqchaj/*saqchaj$
+^,/,$
+^kʼisis/kʼisis$
+^,/,$
+^pa/pa$
+^taq/taq$
+^juyubʼ/juyubʼ$
+^./.$ 
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:1
+# text = Kʼo jumul kebʼ alabʼom, ekʼo jobʼ kichij, xkichomaj kebeʼ pa yuqʼ.
+# text[spa'] = Hay vez dos muchacho, hay cinco oveja, pensaron van en *yuqʼ.
+# labels = incomplete
+^Kʼo$
+^jumul/jumul$
+^kebʼ/kebʼ$
+^alabʼom/alabʼom$
+^,/,$
+^ekʼo/ekʼo$
+^jobʼ/jobʼ$
+^kichij/ki>chij$
+^,/,$
+^xkichomaj/*xkichomaj$
+^kebeʼ/*kebeʼ$
+^pa/pa$
+^yuqʼ/yuqʼ$
+^./.$
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:2
+# text = Are xeʼopan chi uchiʼ ri juyubʼ, xkilo chi man qas ta kʼo qʼayes.
+# text[spa'] =  llegó a la orilla del monte, vieron a no seguro hay césped.
+# labels = incomplete
+^Are/Are$
+^xeʼopan/x>eʼ>opan$
+^chi/chi$
+^uchiʼ/u>chiʼ$
+^ri/ri$
+^juyubʼ/juyubʼ$
+^,/,$
+^xkilo/*xkilo$
+^chi/chi$
+^man/man/m>an$
+^qas/qas$
+^ta/ta$
+^kʼo/kʼo$
+^qʼayes/qʼayes$
+^./.$
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:3
+# text = Xebʼin chi na jubʼiq chik, xebʼinik, xebʼinik.
+# text[spa'] =  Anduvieron a no *jubʼiq ya, anduvieron , anduvieron .
+# labels = incomplete
+^Xebʼin/X>e>bʼin$
+^chi/chi$
+^na/na$
+^jubʼiq/*jubʼiq$
+^chik/chik$
+^,/,$
+^xebʼinik/x>e>bʼin>ik/x>e>bʼi>n>ik$
+^,/,$
+^xebʼinik/x>e>bʼin>ik/x>e>bʼi>n>ik$
+^./.$
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:4
+# text = Kʼa te xkilo ekʼo jujun chomaʼq taq cheʼ sibʼalaj, jeʼl kimujal, xuqujeʼ kʼo jun nimalaj bʼinel jaʼ, jun nim uwosaq.
+# text[spa'] = *Kʼa ahora vieron hay árboles gordos algunos mucho, sombra bonita, también hay un grande *bʼinel agua, un campo grande.
+# labels = incomplete
+^Kʼa$
+^te/te$
+^xkilo/*xkilo$
+^ekʼo/ekʼo$
+^jujun/jujun$
+^chomaʼq/chom>aʼq$
+^taq/taq$
+^cheʼ/cheʼ$
+^sibʼalaj/sibʼalaj$
+^,/,$
+^jeʼl/jeʼl$
+^kimujal/ki>mujal$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^kʼo/kʼo$
+^jun/jun$
+^nimalaj/nimalaj/nim>alaj$
+^bʼinel/*bʼinel$
+^jaʼ/jaʼ$
+^,/,$
+^jun/jun$
+^nim/nim$
+^uwosaq/uwosaq$
+^./.$
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:5
+# text = Sibʼalaj jeʼl xkilo xekitzoqopij ri kichij chilaʼ.
+# text[spa'] = Mucho bonito vieron liberar las ovejas allí.
+# labels = incomplete
+^Sibʼalaj/Sibʼalaj$
+^jeʼl/jeʼl$
+^xkilo/*xkilo$
+^xekitzoqopij/*xekitzoqopij$
+^ri/ri$
+^kichij/ki>chij$
+^chilaʼ/chilaʼ$
+^./.$
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:6
+# text = Le jobʼ chij sibʼalaj xewaʼik cho le uwosaq, xbʼantajik chi xkikʼyaq kan le kimes pa taq le cheʼ pa le uwosaq.
+# text[spa'] = El cinco oveja mucho comieron al campo, completó que tiraron que bendicen en los árboles en el campo.
+# labels = incomplete
+^Le/Le$
+^jobʼ/jobʼ$
+^chij/chij$
+^sibʼalaj/sibʼalaj$
+^xewaʼik/x>e>waʼ>ik$
+^cho/cho/ch>o$
+^le/le$
+^uwosaq/uwosaq$
+^,/,$
+^xbʼantajik/x>bʼan>taj>ik$
+^chi/chi$
+^xkikʼyaq/*xkikʼyaq$
+^kan/kan/k>an$
+^le/le$
+^kimes/ki>mes$
+^pa/pa$
+^taq/taq$
+^le/le$
+^cheʼ/cheʼ$
+^pa/pa$
+^le/le$
+^uwosaq/uwosaq$
+^./.$
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:7
+# text = Xkibʼan kʼax che le uwosaq rumal man utz ta chi kakayik.
+# text[spa'] =  Hicieron malo a él el campo por él no bueno a *kakayik.
+# labels = incomplete
+^Xkibʼan/*Xkibʼan$
+^kʼax/kʼax$
+^che/ch>e$
+^le/le$
+^uwosaq/uwosaq$
+^rumal/r>umal$
+^man/man/m>an$
+^utz/utz$
+^ta/ta$
+^chi/chi$
+^kakayik/*kakayik$
+^./.$
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:8
+# text = Are taq xyaʼ ubʼixik chike ri ajwabʼ chi xetzʼilobʼisax ri uwosaq.
+# text[spa'] = cuando se dio anuncio a ellos el *ajwabʼ que se ensuciaron el campo.
+# labels = incomplete
+^Are/Are$
+^taq/taq$
+^xyaʼ/*xyaʼ$
+^ubʼixik/u>bʼixik$
+^chike/chi>k>e$
+^ri/ri$
+^ajwabʼ/*ajwabʼ$
+^chi/chi$
+^xetzʼilobʼisax/*xetzʼilobʼisax$
+^ri/ri$
+^uwosaq/uwosaq$
+^./.$
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:9
+# text = Xesikʼixik, kʼate kʼuriʼ xeyajik, xuqujeʼ xetaq bʼi che usikʼik le mes. 
+# text[spa'] =  se Llamaron , hasta *kʼuriʼ regañaron , también se enviaron nombre a él agarrar el *mes. 
+# labels = incomplete
+^Xesikʼixik/X>e>sikʼix>ik/X>e>sikʼi>x>ik$
+^,/,$
+^kʼate/kʼate$
+^kʼuriʼ/kʼuriʼ$
+^xeyajik/x>e>yaj>ik$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^xetaq/*xetaq$
+^bʼi/bʼi$
+^che/ch>e$
+^usikʼik/*usikʼik$
+^le/le$
+^mes/mes$
+^./.$ 
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:10
+# text = Rumal riʼ are utz man xaq taj jawjeʼ kaqakʼyaq le mes kaqatzukuj ukʼolibʼal.
+# text[spa'] = Por él ése bueno no sólo *jawjeʼ tiramos el *mes *kaqatzukuj lugar.
+# labels = incomplete
+^Rumal/R>umal$
+^riʼ/riʼ$
+^are/are$
+^utz/utz$
+^man/man/m>an$
+^xaq/xaq$
+^taj/taj$
+^jawjeʼ/*jawjeʼ$
+^kaqakʼyaq/*kaqakʼyaq$
+^le/le$
+^mes/mes$
+^kaqatzukuj/*kaqatzukuj$
+^ukʼolibʼal/u>kʼolibʼal$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:1
+# text = Kakitzijoj ri ojer taq winaq xuqujeʼ amaqʼel kikiknaʼtasaj ri tat nan.
+# text[spa'] =  Cuentan el antes personas también *amaqʼel *kikiknaʼtasaj el madre.
+# labels = incomplete
+^Kakitzijoj/*Kakitzijoj$
+^ri/ri$
+^ojer/ojer$
+^taq/taq$
+^winaq/winaq$
+^xuqujeʼ/xuqujeʼ$
+^amaqʼel/amaqʼel$
+^kikiknaʼtasaj/*kikiknaʼtasaj$
+^ri/ri$
+^tat/tat$
+^nan/nan$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:2
+# text = Pa taq ri chak are kopan ri okbʼal aqʼabʼil su xkʼulmataj ojer.
+# text[spa'] = En los trabajos llega la entrada *aqʼabʼil qué pasó antes.
+# labels = incomplete
+^Pa/Pa$
+^taq/taq$
+^ri/ri$
+^chak/chak$
+^are/are$
+^kopan/k>opan$
+^ri/ri$
+^okbʼal/*okbʼal$
+^aqʼabʼil/*aqʼabʼil$
+^su/su$
+^xkʼulmataj/*xkʼulmataj$
+^ojer/ojer$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:3
+# text = Sibʼalaj kʼextal ri kinoʼjibʼal xuqujeʼ ri kibʼantajik ri qatiʼt qamam ojer.
+# text[spa'] = Mucho *kʼextal la idea también el ser de la abuela de abuelo antes.
+# labels = incomplete
+^Sibʼalaj/Sibʼalaj$
+^kʼextal/*kʼextal$
+^ri/ri$
+^kinoʼjibʼal/ki>noʼjibʼal$
+^xuqujeʼ/xuqujeʼ$
+^ri/ri$
+^kibʼantajik/ki>bʼantajik$
+^ri/ri$
+^qatiʼt/q>atiʼt$
+^qamam/qa>mam$
+^ojer/ojer$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:4
+# text = Xa rumal che sibʼalaj e kʼo, kʼo nim kichuqʼabʼ, katzʼaktzʼat kiware.
+# text[spa'] = Sólo porque mucho hay, hay poder grande, *katzʼaktzʼat diente.
+# labels = incomplete
+^Xa/Xa$
+^rumal/r>umal$
+^che/ch>e$
+^sibʼalaj/sibʼalaj$
+^e/e$
+^kʼo/kʼo$
+^,/,$
+^kʼo/kʼo$
+^nim/nim$
+^kichuqʼabʼ/ki>chuqʼabʼ$
+^,/,$
+^katzʼaktzʼat/ka>tzʼaktzʼat$
+^kiware/*kiware$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:5
+# text = Xuquje man xaq ta keyawajik rumal kikichajij kibʼ.
+# text[spa'] = También no sólo se enferman por él cuidan a ellos.
+# labels = incomplete
+^Xuquje/Xuquje$
+^man/man/m>an$
+^xaq/xaq$
+^ta/ta$
+^keyawajik/k>e>yawaj>ik$
+^rumal/r>umal$
+^kikichajij/*kikichajij$
+^kibʼ/k>ibʼ$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:6
+# text = We keʼ yawajik aninaq kikikunaj kibʼ rukʼ mayabʼ kunabʼal.
+# text[spa'] = Este diente enfermarse corrido curan a ellos con medicina maya.
+# labels = incomplete
+^We/We/W>e$
+^keʼ/*keʼ$
+^yawajik/*yawajik$
+^aninaq/*aninaq$
+^kikikunaj/*kikikunaj$
+^kibʼ/k>ibʼ$
+^rukʼ/r>ukʼ$
+^mayabʼ/mayabʼ$
+^kunabʼal/kunabʼal$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:7
+# text = Keʼbʼek pataq chak sibʼalaj taq naj tinimit.
+# text[spa'] = *Keʼbʼek *pataq trabajo mucho tierras lejos.
+# labels = incomplete
+^Keʼbʼek/*Keʼbʼek$
+^pataq/*pataq$
+^chak/chak$
+^sibʼalaj/sibʼalaj$
+^taq/taq$
+^naj/naj$
+^tinimit/tinimit$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:8
+# text = Chikaqan keʼbʼin wi, ma jumul kikichomaj bʼinabʼal chʼichʼ rukʼ ronojel ri kikibʼano.
+# text[spa'] = *Chikaqan anda , no vez piensan *bʼinabʼal coche con él todo él que hacen.
+# labels = incomplete
+^Chikaqan/*Chikaqan$
+^keʼbʼin/k>eʼ>bʼin$
+^wi/wi$
+^,/,$
+^ma/ma$
+^jumul/jumul$
+^kikichomaj/*kikichomaj$
+^bʼinabʼal/*bʼinabʼal$
+^chʼichʼ/chʼichʼ$
+^rukʼ/r>ukʼ$
+^ronojel/r>onojel$
+^ri/ri$
+^kikibʼano/*kikibʼano$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:9
+# text = Kikikam bʼik nimaʼq taq keqaʼn e chiʼ keʼ bʼek.
+# text[spa'] = *Kikikam bultos grandes aquí diente *bʼek.
+# labels = incomplete
+^Kikikam/*Kikikam$
+^bʼik/bʼi>k$
+^nimaʼq/nim>aʼq$
+^taq/taq$
+^keqaʼn/k>eqaʼn$
+^e/e$
+^chiʼ/chiʼ$
+^keʼ/*keʼ$
+^bʼek/*bʼek$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:10
+# text = Xuqujeʼ nimaʼq taq eqʼaʼn kekikʼam uloq are chiʼ keʼ tzalijik.
+# text[spa'] = También grandes *eqʼaʼn reciben aquí diente volver.
+# labels = incomplete
+^Xuqujeʼ/Xuqujeʼ$
+^nimaʼq/nim>aʼq$
+^taq/taq$
+^eqʼaʼn/*eqʼaʼn$
+^kekikʼam/*kekikʼam$
+^uloq/uloq$
+^are/are$
+^chiʼ/chiʼ$
+^keʼ/*keʼ$
+^tzalijik/*tzalijik$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:11
+# text = Konojel ri qatit, qamam ri are ma jumul xubʼan kʼebʼ kikʼux.
+# text[spa'] = Todo ellos el *qatit, abuelo el no vez hizo *kʼebʼ mascan.
+# labels = incomplete
+^Konojel/K>onojel$
+^ri/ri$
+^qatit/*qatit$
+^,/,$
+^qamam/qa>mam$
+^ri/ri$
+^are/are$
+^ma/ma$
+^jumul/jumul$
+^xubʼan/*xubʼan$
+^kʼebʼ/*kʼebʼ$
+^kikʼux/ki>kʼux$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:12
+# text = Kikikʼam ubʼik saq ki are chiʼ keʼbʼek pa ri Ermiʼt, xuqujeʼ kikikʼam uloq kaq ik are ketzalij uloq.
+# text[spa'] =  Reciben fuera maguey blanco aquí *keʼbʼek en el *Ermiʼt, también reciben cerdo chile vuelven .
+# labels = incomplete
+^Kikikʼam/*Kikikʼam$
+^ubʼik/ubʼik$
+^saq/saq$
+^ki/ki$
+^are/are$
+^chiʼ/chiʼ$
+^keʼbʼek/*keʼbʼek$
+^pa/pa$
+^ri/ri$
+^Ermiʼt/Ermiʼt$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^kikikʼam/*kikikʼam$
+^uloq/uloq$
+^kaq/kaq/k>aq$
+^ik/ik$
+^are/are$
+^ketzalij/k>e>tzalij$
+^uloq/uloq$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:13
+# text = Kʼa tekʼuriʼ keʼbʼe che ukʼayixik par ki tinamit ubʼi miqʼinaʼ.
+# text[spa'] = *Kʼa y va a para venderse *par maguey tierra nombre *miqʼinaʼ.
+# labels = incomplete
+^Kʼa$
+^tekʼuriʼ/tekʼuriʼ$
+^keʼbʼe/k>eʼ>bʼe$
+^che/ch>e$
+^ukʼayixik/*ukʼayixik$
+^par/par$
+^ki/ki$
+^tinamit/tinamit$
+^ubʼi/u>bʼi$
+^miqʼinaʼ/miqʼinaʼ$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:14
+# text = Ri nimaʼq taq bʼinabʼal xkibʼano, man xaq ta jun qʼij kebʼ qʼij.
+# text[spa'] = El grandes *bʼinabʼal hicieron, no sólo un día dos día.
+# labels = incomplete
+^Ri/Ri$
+^nimaʼq/nim>aʼq$
+^taq/taq$
+^bʼinabʼal/*bʼinabʼal$
+^xkibʼano/*xkibʼano$
+^,/,$
+^man/man/m>an$
+^xaq/xaq$
+^ta/ta$
+^jun/jun$
+^qʼij/qʼij$
+^kebʼ/kebʼ$
+^qʼij/qʼij$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:15
+# text = Xane pataq ikʼ joʼlajuj qʼij xkibʼano che keʼtzalij uloq, kʼitaq qʼij xebʼinik pataq kikʼay man rukʼ ta kʼuriʼ xubʼan kebʼ kikʼux.
+# text[spa'] = Sino *pataq luna *joʼlajuj día hicieron a para vuelve , *kʼitaq día anduvieron *pataq puesto no con él *kʼuriʼ hizo dos mascan.
+# labels = incomplete
+^Xane/Xane$
+^pataq/*pataq$
+^ikʼ/ikʼ$
+^joʼlajuj/*joʼlajuj$
+^qʼij/qʼij$
+^xkibʼano/*xkibʼano$
+^che/ch>e$
+^keʼtzalij/k>eʼ>tzalij$
+^uloq/uloq$
+^,/,$
+^kʼitaq/*kʼitaq$
+^qʼij/qʼij$
+^xebʼinik/x>e>bʼin>ik/x>e>bʼi>n>ik$
+^pataq/*pataq$
+^kikʼay/ki>kʼay$
+^man/man/m>an$
+^rukʼ/r>ukʼ$
+^ta/ta$
+^kʼuriʼ/kʼuriʼ$
+^xubʼan/*xubʼan$
+^kebʼ/kebʼ$
+^kikʼux/ki>kʼux$
+^./.$
+
+# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:16
+# text = Are xkichomaj ri nimalaj utzilal kikiya kanoq chikech kalkʼwal rech junalik keʼnatasaxix.
+# text[spa'] =  pensaron la paz grande dan a ellos *kalkʼwal a él eterno *keʼnatasaxix.
+# labels = incomplete
+^Are/Are$
+^xkichomaj/*xkichomaj$
+^ri/ri$
+^nimalaj/nimalaj/nim>alaj$
+^utzilal/utzilal$
+^kikiya/*kikiya$
+^kanoq/kan>oq$
+^chikech/chi>k>ech$
+^kalkʼwal/*kalkʼwal$
+^rech/rech/r>ech$
+^junalik/junalik$
+^keʼnatasaxix/*keʼnatasaxix$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:1
+# text = Kakitzijoj taq nan, tat re jelaʼ jawijeʼ chiʼ kinchakun wi pa tijobʼal.
+# text[spa'] =  Cuentan madres, a él allá dónde aquí trabajo en escuela.
+# labels = incomplete
+^Kakitzijoj/*Kakitzijoj$
+^taq/taq$
+^nan/nan$
+^,/,$
+^tat/tat$
+^re/r>e$
+^jelaʼ/jelaʼ$
+^jawijeʼ/jawijeʼ$
+^chiʼ/chiʼ$
+^kinchakun/k>in>chakun$
+^wi/wi$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:2
+# text = Jun tatoʼ tajin kchakunik pa nimalaj rulew are xuriq kajibʼ abʼaj xalqʼaʼt, xeʼukʼam bʼik cho rachoch, xubʼij che ri rixoqil, ralkʼwaʼl, uwimam.
+# text[spa'] = Un *tatoʼ trabaja en tierra grande encontró cuatro *abʼaj *xalqʼaʼt, *xeʼukʼam a casa, dijo a la esposa, *ralkʼwaʼl, *uwimam.
+# labels = incomplete
+^Jun/Jun/Jun$
+^tatoʼ/*tatoʼ$
+^tajin/tajin$
+^kchakunik/k>chakun>ik/k>chaku>n>ik$
+^pa/pa$
+^nimalaj/nimalaj/nim>alaj$
+^rulew/r>ulew$
+^are/are$
+^xuriq/*xuriq$
+^kajibʼ/kajibʼ$
+^abʼaj/*abʼaj$
+^xalqʼaʼt/*xalqʼaʼt$
+^,/,$
+^xeʼukʼam/*xeʼukʼam$
+^bʼik/bʼi>k$
+^cho/cho/ch>o$
+^rachoch/r>achoch$
+^,/,$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^ri/ri$
+^rixoqil/*rixoqil$
+^,/,$
+^ralkʼwaʼl/*ralkʼwaʼl$
+^,/,$
+^uwimam/*uwimam$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:3
+# text = Xuta kʼu chike jas kubʼan chike kajibʼ abʼaj.
+# text[spa'] =  Oyó pero a ellos qué hace a ellos cuatro *abʼaj.
+# labels = incomplete
+^Xuta/*Xuta$
+^kʼu/kʼu$
+^chike/chi>k>e$
+^jas/jas$
+^kubʼan/*kubʼan$
+^chike/chi>k>e$
+^kajibʼ/kajibʼ$
+^abʼaj/*abʼaj$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:4
+# text = Konojel xkibʼij chi re chi ma utz kukʼol kan cho ja, rumal chi ronojel ri jastaq kʼo kawasil, we jun winaq karowaj kʼo kʼaxkʼolil kuriq pa ukʼaslemal.
+# text[spa'] = Todo ellos dijeron a él a no bueno guarda a casa, por él todas las cosas hay *kawasil, una persona esconde hay *kʼaxkʼolil encuentra en vida.
+# labels = incomplete
+^Konojel/K>onojel$
+^xkibʼij/*xkibʼij$
+^chi/chi$
+^re/r>e$
+^chi/chi$
+^ma/ma$
+^utz/utz$
+^kukʼol/*kukʼol$
+^kan/kan/k>an$
+^cho/cho/ch>o$
+^ja/ja$
+^,/,$
+^rumal/r>umal$
+^chi/chi$
+^ronojel/r>onojel$
+^ri/ri$
+^jastaq/jastaq$
+^kʼo/kʼo$
+^kawasil/*kawasil$
+^,/,$
+^we/we/w>e$
+^jun/jun$
+^winaq/winaq$
+^karowaj/*karowaj$
+^kʼo/kʼo$
+^kʼaxkʼolil/kʼaxkʼolil$
+^kuriq/*kuriq$
+^pa/pa$
+^ukʼaslemal/u>kʼaslemal$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:5
+# text = Kuyaʼo xuqujeʼ are ri kʼaxkʼolil keʼopan pa kiwi ri jastaq rech.
+# text[spa'] =  Da también el *kʼaxkʼolil llega encima de las cosas a él.
+# labels = incomplete
+^Kuyaʼo/*Kuyaʼo$
+^xuqujeʼ/xuqujeʼ$
+^are/are$
+^ri/ri$
+^kʼaxkʼolil/kʼaxkʼolil$
+^keʼopan/k>eʼ>opan$
+^pa/pa$
+^kiwi/ki>wi$
+^ri/ri$
+^jastaq/jastaq$
+^rech/rech/r>ech$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:6
+# text = Are utz kuya kanoq pa ri ukʼolibʼal jawijeʼ xuriq wi.
+# text[spa'] =  bueno da en el lugar dónde encontró.
+# labels = incomplete
+^Are/Are$
+^utz/utz$
+^kuya/*kuya$
+^kanoq/kan>oq$
+^pa/pa$
+^ri/ri$
+^ukʼolibʼal/u>kʼolibʼal$
+^jawijeʼ/jawijeʼ$
+^xuriq/*xuriq$
+^wi/wi$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:7
+# text = Are kʼu we kraj kukʼam bʼi cho rachoch rajawaxik kubʼan jun ukotzʼijal.
+# text[spa'] =  pero si quiere recibe a casa necesario hace un *ukotzʼijal.
+# labels = incomplete
+^Are/Are$
+^kʼu/kʼu$
+^we/we/w>e$
+^kraj/*kraj$
+^kukʼam/*kukʼam$
+^bʼi/bʼi$
+^cho/cho/ch>o$
+^rachoch/r>achoch$
+^rajawaxik/rajawaxik$
+^kubʼan/*kubʼan$
+^jun/jun$
+^ukotzʼijal/*ukotzʼijal$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:8
+# text = Kuta toqʼobʼ chech ri qanan uwachulew kukʼam bʼi cho rachoch.
+# text[spa'] =  Oye piedad a él la madre de mundo recibe a casa.
+# labels = incomplete
+^Kuta/Kut>a$
+^toqʼobʼ/toqʼobʼ$
+^chech/ch>ech$
+^ri/ri$
+^qanan/qa>nan$
+^uwachulew/uwachulew$
+^kukʼam/*kukʼam$
+^bʼi/bʼi$
+^cho/cho/ch>o$
+^rachoch/r>achoch$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:9
+# text = Ri tat xuchomaj are utz kutzalij pa ri ulew jawijeʼ xeʼuriq wi.
+# text[spa'] = El padre pensó bueno devuelve en la tierra dónde *xeʼuriq .
+# labels = incomplete
+^Ri/Ri$
+^tat/tat$
+^xuchomaj/*xuchomaj$
+^are/are$
+^utz/utz$
+^kutzalij/*kutzalij$
+^pa/pa$
+^ri/ri$
+^ulew/ulew$
+^jawijeʼ/jawijeʼ$
+^xeʼuriq/*xeʼuriq$
+^wi/wi$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:10
+# text = Xa kʼu xukoj kanoq che kʼulbʼat re ukomon, xukʼam bʼi taq ri abʼaj chikijujunal xumuqu pa taq uxukut rulew.
+# text[spa'] = Sólo pero puso a él *kʼulbʼat a iglesia, recibió el *abʼaj cada uno ellos enterró en *uxukut tierra.
+# labels = incomplete
+^Xa/Xa$
+^kʼu/kʼu$
+^xukoj/*xukoj$
+^kanoq/kan>oq$
+^che/ch>e$
+^kʼulbʼat/*kʼulbʼat$
+^re/r>e$
+^ukomon/u>komon$
+^,/,$
+^xukʼam/*xukʼam$
+^bʼi/bʼi$
+^taq/taq$
+^ri/ri$
+^abʼaj/*abʼaj$
+^chikijujunal/chi>ki>jujunal$
+^xumuqu/*xumuqu$
+^pa/pa$
+^taq/taq$
+^uxukut/*uxukut$
+^rulew/r>ulew$
+^./.$
+
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:11
+# text = Rumal laʼ xkoj “Xalqʼat” che ubʼiʼ ri komon.
+# text[spa'] = Por él éste se puso “*Xalqʼat” al nombre de la comunidad.
+# labels = incomplete
+^Rumal/R>umal$
+^laʼ/laʼ$
+^xkoj/*xkoj$
+^“/“$
+^Xalqʼat/*Xalqʼat$
+^”/”$
+^che/ch>e$
+^ubʼiʼ/u>bʼiʼ$
+^ri/ri$
+^komon/komon$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:1
+# text = Ri kabʼan Tzʼunil are chiʼ kil uwach jun lochʼ.
+# text[spa'] = Que haces Tzʼunil aquí se ve a un bebé.
+# labels = incomplete
+^Ri/Ri$
+^kabʼan/*kabʼan$
+^Tzʼunil/Tzʼunil$
+^are/are$
+^chiʼ/chiʼ$
+^kil/k>il$
+^uwach/u>wach$
+^jun/jun$
+^lochʼ/lochʼ$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:2
+# text = Are kel wajxaqibʼ uqʼij ri xkʼojik.
+# text[spa'] =  va ocho día que habitó .
+# labels = incomplete
+^Are/Are$
+^kel/k>el$
+^wajxaqibʼ/wajxaqibʼ$
+^uqʼij/u>qʼij$
+^ri/ri$
+^xkʼojik/x>kʼoji>k$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:3
+# text = Kakoj kyaq usok ri unan rech kachʼaj bʼik.
+# text[spa'] =  Pones el nido rojo de la madre para lavas.
+# labels = incomplete
+^Kakoj/*Kakoj$
+^kyaq/kyaq$
+^usok/*usok$
+^ri/ri$
+^unan/u>nan$
+^rech/rech/r>ech$
+^kachʼaj/*kachʼaj$
+^bʼik/bʼi>k$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:4
+# text = Pa le nimaʼ kechʼajoq rech utz kiwach.
+# text[spa'] = En el río *kechʼajoq a él bueno 
+# labels = incomplete
+^Pa/Pa$
+^le/le$
+^nimaʼ/nimaʼ$
+^kechʼajoq/k>e>chʼajoq$
+^rech/rech/r>ech$
+^utz/utz$ 
+^kiwach/ki>wach$
+^./.^
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:5
+# text = E kebʼ kekʼam bʼik pa tuj.
+# text[spa'] = Dos se reciben en temazcal.
+# labels = complete
+^E/E$
+^kebʼ/kebʼ$
+^kekʼam/k>e>kʼam$
+^bʼik/bʼi>k$
+^pa/pa$
+^tuj/tuj$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:6
+# text = Tekʼuriʼ kabʼan jun komon waʼim pa kachoch.
+# text[spa'] = E inventa una cena toda en casa.
+# labels = incomplete
+^Tekʼuriʼ/Tekʼuriʼ$
+^kabʼan/*kabʼan$
+^jun/jun$
+^komon/komon$
+^waʼim/waʼim$
+^pa/pa$
+^kachoch/k>achoch$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:7
+# text = Ktij ri uwaʼl ik rumal ri kinimaqʼij.
+# text[spa'] =  Come el jugo de chile por la fiesta.
+# labels = incomplete
+^Ktij/K>tij$
+^ri/ri$
+^uwaʼl/uwaʼl/u>waʼl$
+^ik/ik$
+^rumal/r>umal$
+^ri/ri$
+^kinimaqʼij/ki>nimaqʼij$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:8
+# text = We man je kabʼan chike, kabʼison le rajaw tuj.
+# text[spa'] = Este no como inventa a ellos, el dueño de temazcal está triste .
+# labels = incomplete
+^We/We/W>e$
+^man/man/m>an$
+^je/je$
+^kabʼan/*kabʼan$
+^chike/chi>k>e$
+^,/,$
+^kabʼison/ka>bʼison$
+^le/le$
+^rajaw/r>ajaw$
+^tuj/tuj$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem.wiki:1
+# text = Jelaʼ pa tinamit Chipi ayok xkʼasi jun nim chʼojinel ubʼi Tekum Umam.
+# text[spa'] = Allá en tierra *Chipi *ayok *xkʼasi un grande *chʼojinel nombre *Tekum Abuelo.
+# labels = incomplete
+^Jelaʼ/Jelaʼ$
+^pa/pa$
+^tinamit/tinamit$
+^Chipi/Chipi$
+^ayok/*ayok$
+^xkʼasi/*xkʼasi$
+^jun/jun$
+^nim/nim$
+^chʼojinel/*chʼojinel$
+^ubʼi/u>bʼi$
+^Tekum/Tekum$
+^Umam/Umam/U>mam$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem.wiki:2
+# text = Xchʼojin rukʼ jun achi ubʼi Luʼ are xeʼulik le kaxlan winaq.
+# text[spa'] = *Xchʼojin con él un hombre el nombre de Pedro *xeʼulik la persona extranjera.
+# labels = incomplete
+^Xchʼojin/*Xchʼojin$
+^rukʼ/r>ukʼ$
+^jun/jun$
+^achi/achi$
+^ubʼi/u>bʼi$
+^Luʼ/Luʼ$
+^are/are$
+^xeʼulik/*xeʼulik$
+^le/le$
+^kaxlan/kaxlan$
+^winaq/winaq$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem.wiki:3
+# text = Saq utzʼumal, qʼan uwiʼ kabʼix chech ukʼojol le qʼij, kabʼixik chi re xepaqiʼ uloq pa le ixkanul. 
+# text[spa'] = cuero Blanco, amarillo encima él ara al hijo del día, ara a él subieron en el *ixkanul. 
+# labels = incomplete
+^Saq/Saq$
+^utzʼumal/*utzʼumal$
+^,/,$
+^qʼan/qʼan$
+^uwiʼ/u>wiʼ$
+^kabʼix/ka>bʼix/k>abʼix$
+^chech/ch>ech$
+^ukʼojol/*ukʼojol$
+^le/le$
+^qʼij/qʼij$
+^,/,$
+^kabʼixik/ka>bʼix>ik/ka>bʼi>x>ik$
+^chi/chi$
+^re/r>e$
+^xepaqiʼ/x>e>paqiʼ$
+^uloq/uloq$
+^pa/pa$
+^le/le$
+^ixkanul/i>xkanul$
+^./.$ 
+
+# sent_id = cuentos:K’ulmatajem.wiki:4
+# text = Le Tekum Umam xqebʼ panoq chuxukut ri tinamit ubʼiʼ Las Majadas.
+# text[spa'] = El *Tekum Abuelo *xqebʼ *panoq *chuxukut la tierra de nombre *Las *Majadas.
+# labels = incomplete
+^Le/Le$
+^Tekum/Tekum$
+^Umam/Umam/U>mam$
+^xqebʼ/*xqebʼ$
+^panoq/*panoq$
+^chuxukut/*chuxukut$
+^ri/ri$
+^tinamit/tinamit$
+^ubʼiʼ/u>bʼiʼ$
+^Las/Las$
+^Majadas/*Majadas$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem.wiki:5
+# text = Kabʼixik chi le kikyej le kaxlan winaq xekosik, rumal, le bʼe sibʼalaj takʼalik, xetzaq le kyej chikixeʼ, le achijabʼ xechʼojinik.
+# text[spa'] =  Ara al *kikyej la persona extranjera se cansaron , por él, la senda mucho parado, cayeron el *kyej abajo ellos, los hombres *xechʼojinik.
+# labels = incomplete
+^Kabʼixik/Ka>bʼix>ik/Ka>bʼi>x>ik$
+^chi/chi$
+^le/le$
+^kikyej/*kikyej$
+^le/le$
+^kaxlan/kaxlan$
+^winaq/winaq$
+^xekosik/x>e>kos>ik$
+^,/,$
+^rumal/r>umal$
+^,/,$
+^le/le$
+^bʼe/bʼe$
+^sibʼalaj/sibʼalaj$
+^takʼalik/takʼalik$
+^,/,$
+^xetzaq/x>e>tzaq$
+^le/le$
+^kyej/*kyej$
+^chikixeʼ/chi>ki>xeʼ$
+^,/,$
+^le/le$
+^achijabʼ/achij>abʼ$
+^xechʼojinik/*xechʼojinik$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem.wiki:6
+# text = Xeʼopan pa le tinamit Chwikabʼyok, sibʼalaj kachaqiʼj kichiʼ ri kyej.
+# text[spa'] =  Llegó en la tierra Chwikabʼyok, mucho se seca orilla el *kyej.
+# labels = incomplete
+^Xeʼopan/X>eʼ>opan$
+^pa/pa$
+^le/le$
+^tinamit/tinamit$
+^Chwikabʼyok/Chwikabʼyok$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^kachaqiʼj/ka>chaqiʼj$
+^kichiʼ/ki>chiʼ$
+^ri/ri$
+^kyej/*kyej$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem.wiki:7
+# text = Are kʼut pa le juyubʼ kkʼiy joron, chilaʼ xekikʼama wi ri jaʼ ri winaq.
+# text[spa'] =  pero en el monte crece frío, allí *xekikʼama el agua la persona.
+# labels = incomplete
+^Are/Are$
+^kʼut/kʼut/kʼ>ut$
+^pa/pa$
+^le/le$
+^juyubʼ/juyubʼ$
+^kkʼiy/k>kʼiy$
+^joron/*joron$
+^,/,$
+^chilaʼ/chilaʼ$
+^xekikʼama/*xekikʼama$
+^wi/wi$
+^ri/ri$
+^jaʼ/jaʼ$
+^ri/ri$
+^winaq/winaq$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem.wiki:8
+# text = Le tat Tekum Umam xpe raywal, xeʼek xtzijon rukʼ le rajaw juyubʼ.
+# text[spa'] = El padre *Tekum Abuelo vino *raywal, fueron habló con el dueño de monte.
+# labels = incomplete
+^Le/Le$
+^tat/tat$
+^Tekum/Tekum$
+^Umam/Umam/U>mam$
+^xpe/x>pe$
+^raywal/*raywal$
+^,/,$
+^xeʼek/x>e>ʼe>k$
+^xtzijon/x>tzijon$
+^rukʼ/r>ukʼ$
+^le/le$
+^rajaw/r>ajaw$
+^juyubʼ/juyubʼ$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem.wiki:9
+# text = Kabʼan la toqʼobʼ tzʼapij la, le jaʼ, xnimax rutzij, xchaqijar le jaʼ, le kyej kʼota chik kijoron kakiqumuj.
+# text[spa'] =  Inventa piedad *tzʼapij , el agua, se obedeció *rutzij, *xchaqijar el agua, el *kyej *kʼota ya frío beben.
+# labels = incomplete
+^Kabʼan/*Kabʼan$
+^la/la$
+^toqʼobʼ/toqʼobʼ$
+^tzʼapij/*tzʼapij$
+^la/la$
+^,/,$
+^le/le$
+^jaʼ/jaʼ$
+^,/,$
+^xnimax/*xnimax$
+^rutzij/*rutzij$
+^,/,$
+^xchaqijar/*xchaqijar$
+^le/le$
+^jaʼ/jaʼ$
+^,/,$
+^le/le$
+^kyej/*kyej$
+^kʼota/*kʼota$
+^chik/chik$
+^kijoron/*kijoron$
+^kakiqumuj/*kakiqumuj$
+^./.$
+
+# sent_id = cuentos:K’ulmatajem.wiki:10
+# text = Kamik le jaʼ kchojojik, kchojojik, katatajik pa ri juyubʼ.
+# text[spa'] = Ahora el agua *kchojojik, *kchojojik, oye en el monte.
+# labels = incomplete
+^Kamik/Kamik$
+^le/le$
+^jaʼ/jaʼ$
+^kchojojik/k>chojoj>ik$
+^,/,$
+^kchojojik/k>chojoj>ik$
+^,/,$
+^katatajik/ka>ta>taj>ik$
+^pa/pa$
+^ri/ri$
+^juyubʼ/juyubʼ$
+^./.$
+
+# sent_id = cuentos:Le_ajxojlob’.wiki:1
+# text = Kʼo jun qʼij che utzukuxik le kumatz rech xojowem, xa rumal che ronojel junabʼ le ajxojlobʼ, kexojow cho Tyox rech le nimaqʼij. 
+# text[spa'] = Hay un día a él la búsqueda de la serpiente para danzar, sólo porque todo él año el *ajxojlobʼ, danzan a Santo a la fiesta. 
+# labels = incomplete
+^Kʼo$
+^jun/jun$
+^qʼij/qʼij$
+^che/ch>e$
+^utzukuxik/u>tzukuxik$
+^le/le$
+^kumatz/kumatz$
+^rech/rech/r>ech$
+^xojowem/*xojowem$
+^,/,$
+^xa/xa$
+^rumal/r>umal$
+^che/ch>e$
+^ronojel/r>onojel$
+^junabʼ/junabʼ$
+^le/le$
+^ajxojlobʼ/*ajxojlobʼ$
+^,/,$
+^kexojow/k>e>xojow$
+^cho/cho/ch>o$
+^Tyox/Tyox$
+^rech/rech/r>ech$
+^le/le$
+^nimaqʼij/nimaqʼij$
+^./.$ 
+
+# sent_id = cuentos:Le_ajxojlob’.wiki:2
+# text = Nabʼe qʼij che tzukunem xbʼe pa Xatinabʼ, xebʼinik xeʼopanik chi unaqaj che ri rachoch le a Teʼk.
+# text[spa'] = Primero día a él buscar fue en *Xatinabʼ, anduvieron *xeʼopanik a *unaqaj a la casa de Teʼk.
+# labels = incomplete
+^Nabʼe/Nabʼe$
+^qʼij/qʼij$
+^che/ch>e$
+^tzukunem/*tzukunem$
+^xbʼe/x>bʼe$
+^pa/pa$
+^Xatinabʼ/*Xatinabʼ$
+^,/,$
+^xebʼinik/x>e>bʼin>ik/x>e>bʼi>n>ik$
+^xeʼopanik/*xeʼopanik$
+^chi/chi$
+^unaqaj/u>naqaj$
+^che/ch>e$
+^ri/ri$
+^rachoch/r>achoch$
+^le/le$
+^a/a$
+^Teʼk/Teʼk$
+^./.$
+
+# sent_id = cuentos:Le_ajxojlob’.wiki:3
+# text = Chilaʼ kʼo jun jeʼl laj moʼch chij, jun chike le ajtzakunelabʼ sibʼalaj utz xrilo, ri jun moʼch xumalma, te kʼu riʼ xaq takʼal ri achi taq te kunaʼ xtoqʼ chirij.
+# text[spa'] = Allí hay un carnero pequeño bonito de oveja, un a ellos el *ajtzakunelabʼ mucho bueno vio, un carnero *xumalma, ahora pero ése sólo *takʼal el hombre ahora se siente corneó atrás él.
+# labels = incomplete
+^Chilaʼ/Chilaʼ$
+^kʼo/kʼo$
+^jun/jun$
+^jeʼl/jeʼl$
+^laj/laj$
+^moʼch/moʼch$
+^chij/chij$
+^,/,$
+^jun/jun$
+^chike/chi>k>e$
+^le/le$
+^ajtzakunelabʼ/*ajtzakunelabʼ$
+^sibʼalaj/sibʼalaj$
+^utz/utz$
+^xrilo/*xrilo$
+^,/,$
+^ri/ri$
+^jun/jun$
+^moʼch/moʼch$
+^xumalma/*xumalma$
+^,/,$
+^te/te$
+^kʼu/kʼu$
+^riʼ/riʼ$
+^xaq/xaq$
+^takʼal/*takʼal$
+^ri/ri$
+^achi/achi$
+^taq/taq$
+^te/te$
+^kunaʼ/*kunaʼ$
+^xtoqʼ/x>toqʼ$
+^chirij/chi>r>ij$
+^./.$
+
+# sent_id = cuentos:Le_ajxojlob’.wiki:4
+# text = Le achi kutzur le moch chij, are taq xtzalij loq te kunaʼoʼ oqtam are rumal ri moʼch, rumal wa le achi man xkowita chik xanimajik, xjilil ri raqan xeqaj xechʼikil pa le kʼix re tukan.
+# text[spa'] = El hombre reta el *moch oveja, cuando volvió ahora *kunaʼoʼ *oqtam por el carnero, por él comida el hombre no *xkowita ya huyó , resbaló el pie cayeron *xechʼikil en la espina a mora.
+# labels = incomplete
+^Le/Le$
+^achi/achi$
+^kutzur/*kutzur$
+^le/le$
+^moch/*moch$
+^chij/chij$
+^,/,$
+^are/are$
+^taq/taq$
+^xtzalij/x>tzalij$
+^loq/loq$
+^te/te$
+^kunaʼoʼ/*kunaʼoʼ$
+^oqtam/*oqtam$
+^are/are$
+^rumal/r>umal$
+^ri/ri$
+^moʼch/moʼch$
+^,/,$
+^rumal/r>umal$
+^wa/wa$
+^le/le$
+^achi/achi$
+^man/man/m>an$
+^xkowita/*xkowita$
+^chik/chik$
+^xanimajik/x>animaj>ik$
+^,/,$
+^xjilil/x>jilil$
+^ri/ri$
+^raqan/r>aqan$
+^xeqaj/x>e>qaj$
+^xechʼikil/*xechʼikil$
+^pa/pa$
+^le/le$
+^kʼix/kʼix/kʼ>ix$
+^re/r>e$
+^tukan/tukan$
+^./.$
+
+# sent_id = cuentos:Le_ajxojlob’.wiki:5
+# text = Konojel le rachiʼl keman che utzexik uwach.
+# text[spa'] = Todo el amigo *keman a él *utzexik a él.
+# labels = incomplete
+^Konojel/K>onojel$
+^le/le$
+^rachiʼl/r>achiʼl$
+^keman/*keman$
+^che/ch>e$
+^utzexik/*utzexik$
+^uwach/u>wach$
+^./.$
+
+# sent_id = cuentos:Le_ajxojlob’.wiki:6
+# text = Wa we jun kʼulmatajem kunataj chike nojel junabʼ le rachiʼl, are taq kekitzukuj le kumatz xa che xkanaj kan retal jawi xtzaq le kachiʼl.
+# text[spa'] = Comida este un pasar recuerda a ellos *nojel año el amigo, cuando *kekitzukuj la serpiente sólo a él quedó signo dónde el amigo cayó .
+# labels = incomplete
+^Wa/Wa$
+^we/we/w>e$
+^jun/jun$
+^kʼulmatajem/*kʼulmatajem$
+^kunataj/*kunataj$
+^chike/chi>k>e$
+^nojel/*nojel$
+^junabʼ/junabʼ$
+^le/le$
+^rachiʼl/r>achiʼl$
+^,/,$
+^are/are$
+^taq/taq$
+^kekitzukuj/*kekitzukuj$
+^le/le$
+^kumatz/kumatz$
+^xa/xa$
+^che/ch>e$
+^xkanaj/x>kanaj$
+^kan/kan/k>an$
+^retal/r>etal$
+^jawi/jawi$
+^xtzaq/x>tzaq$
+^le/le$
+^kachiʼl/k>achiʼl/k>achiʼl$
+^./.$
+
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:1
+# text = Kʼo jun mul jun par kawakat cho taq juyubʼ, kʼateʼ xrilo takʼal ri jun joj pa uwiʼ jun nim cheʼ, xuchʼabʼej xubʼij che: -tat joj, saʼj la wukʼ chujtzijonoq xa rumal che maj wachiʼl kinbʼisonik.
+# text[spa'] = Hay una vez un *par *kawakat a montes, hasta vio *takʼal un cuervo encima de un árbol grande, habló dijo a él: - cuervo, *saʼj conmigo hablemos sólo porque no amigo estoy triste .
+# labels = incomplete
+^Kʼo$
+^jun/jun$
+^mul/mul/m>ul$
+^jun/jun$
+^par/par$
+^kawakat/*kawakat$
+^cho/cho/ch>o$
+^taq/taq$
+^juyubʼ/juyubʼ$
+^,/,$
+^kʼateʼ/kʼateʼ$
+^xrilo/*xrilo$
+^takʼal/*takʼal$
+^ri/ri$
+^jun/jun$
+^joj/joj$
+^pa/pa$
+^uwiʼ/u>wiʼ$
+^jun/jun$
+^nim/nim$
+^cheʼ/cheʼ$
+^,/,$
+^xuchʼabʼej/*xuchʼabʼej$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^:/:$
+^-/-$
+^tat/tat$
+^joj/joj$
+^,/,$
+^saʼj/*saʼj$
+^la/la$
+^wukʼ/w>ukʼ$
+^chujtzijonoq/ch>uj>tzijon>oq/ch>uj>tzijo>n>oq$
+^xa/xa$
+^rumal/r>umal$
+^che/ch>e$
+^maj/maj$
+^wachiʼl/w>achiʼl$
+^kinbʼisonik/k>in>bʼison>ik/k>in>bʼiso>n>ik$
+^./.$
+
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:2
+# text = Ri joj xuchomaj chi ri par are kraj katijiq, tajij kutij jun imul ri par xa kutzukuj chik jas kubʼij che xuchomaj, xu bʼij che: areʼ jun tzʼikin nim ka petik kabʼixonik, are jun awaj jelik cho taq ri nikʼaj awaj chik.
+# text[spa'] = El cuervo pensó al *par quiere *katijiq, *tajij come un conejo el *par sólo *kutzukuj ya qué dice a para #pensar, sólo *bʼij a él: él es un pájaro grande *ka venir canta , un animal *jelik a los animales otros ya.
+# labels = incomplete
+^Ri/Ri$
+^joj/joj$
+^xuchomaj/*xuchomaj$
+^chi/chi$
+^ri/ri$
+^par/par$
+^are/are$
+^kraj/*kraj$
+^katijiq/*katijiq$
+^,/,$
+^tajij/*tajij$
+^kutij/*kutij$
+^jun/jun$
+^imul/imul/i>mul$
+^ri/ri$
+^par/par$
+^xa/xa$
+^kutzukuj/*kutzukuj$
+^chik/chik$
+^jas/jas$
+^kubʼij/*kubʼij$
+^che/ch>e$
+^xuchomaj/*xuchomaj$
+^,/,$
+^xu/xu$
+^bʼij/*bʼij$
+^che/ch>e$
+^:/:$
+^areʼ/areʼ$
+^jun/jun$
+^tzʼikin/tzʼikin$
+^nim/nim$
+^ka/ka$
+^petik/*petik$
+^kabʼixonik/*kabʼixonik$
+^,/,$
+^are/are$
+^jun/jun$
+^awaj/awaj/aw>aj$
+^jelik/*jelik$
+^cho/cho/ch>o$
+^taq/taq$
+^ri/ri$
+^nikʼaj/nikʼaj$
+^awaj/awaj/aw>aj$
+^chik/chik$
+^./.$
+
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:3
+# text = Ri joj sibʼalaj xkikot ranimaʼ xukʼabʼ ri uchiʼ, xubʼan ri jun bʼixonem rukʼ kikoʼtemal.
+# text[spa'] = El cuervo mucho estuvo feliz ánima *xukʼabʼ la orilla, hizo el un cantar con él *kikoʼtemal.
+# labels = incomplete
+^Ri/Ri$
+^joj/joj$
+^sibʼalaj/sibʼalaj$
+^xkikot/x>kikot$
+^ranimaʼ/r>animaʼ$
+^xukʼabʼ/*xukʼabʼ$
+^ri/ri$
+^uchiʼ/u>chiʼ$
+^,/,$
+^xubʼan/*xubʼan$
+^ri/ri$
+^jun/jun$
+^bʼixonem/*bʼixonem$
+^rukʼ/r>ukʼ$
+^kikoʼtemal/*kikoʼtemal$
+^./.$
+
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:4
+# text = Are taq xujaq ri uchiʼ xutzoqopij ri imul, ri par naj uwiʼ che; xuchap ri imul, xutijo xaq jeri xpakun ri unumik.
+# text[spa'] = cuando abrió que la orilla liberó el conejo, el *par lejos encima él a él; tocó el conejo, comió sólo *jeri *xpakun el tener hambre.
+# labels = incomplete
+^Are/Are$
+^taq/taq$
+^xujaq/*xujaq$
+^ri/ri$
+^uchiʼ/u>chiʼ$
+^xutzoqopij/*xutzoqopij$
+^ri/ri$
+^imul/imul/i>mul$
+^,/,$
+^ri/ri$
+^par/par$
+^naj/naj$
+^uwiʼ/u>wiʼ$
+^che/ch>e$
+^;/;$
+^xuchap/*xuchap$
+^ri/ri$
+^imul/imul/i>mul$
+^,/,$
+^xutijo/*xutijo$
+^xaq/xaq$
+^jeri/*jeri$
+^xpakun/*xpakun$
+^ri/ri$
+^unumik/*unumik$
+^./.$
+
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:5
+# text = Xutyoxij che ri joj katzenik xeʼ pa ri ujul.
+# text[spa'] = *Xutyoxij al cuervo *katzenik *xeʼ en el cava.
+# labels = incomplete
+^Xutyoxij/*Xutyoxij$
+^che/ch>e$
+^ri/ri$
+^joj/joj$
+^katzenik/*katzenik$
+^xeʼ/*xeʼ$
+^pa/pa$
+^ri/ri$
+^ujul/uj>ul/u>jul$
+^./.$
+
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:6
+# text = Ri joj kabʼisonik rumal che maj chik kutijo.
+# text[spa'] = El cuervo está triste porque no ya come.
+# labels = incomplete
+^Ri/Ri$
+^joj/joj$
+^kabʼisonik/ka>bʼison>ik/ka>bʼiso>n>ik$
+^rumal/r>umal$
+^che/ch>e$
+^maj/maj$
+^chik/chik$
+^kutijo/*kutijo$
+^./.$
+
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:7
+# text = Karapinik xutzukuj chi jun awaj.
+# text[spa'] =  Vuela *xutzukuj a un animal.
+# labels = incomplete
+^Karapinik/Ka>rapin>ik$
+^xutzukuj/*xutzukuj$
+^chi/chi$
+^jun/jun$
+^awaj/awaj/aw>aj$
+^./.$
+
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:8
+# text = Man xuriq taj urikil xaq jeri xkam che wiʼjal.
+# text[spa'] = No encontró comida sólo *jeri murió a él *wiʼjal.
+# labels = incomplete
+^Man/Man/Man/M>an$
+^xuriq/*xuriq$
+^taj/taj$
+^urikil/u>rikil$
+^xaq/xaq$
+^jeri/*jeri$
+^xkam/*xkam$
+^che/ch>e$
+^wiʼjal/wiʼjal$
+^./.$
+
+# sent_id = cuentos:Le_k’olot_ali.wiki:1
+# text = Ko jumul, jun ali laʼj raqan, kʼolot uwiʼ, jeʼl kpetik rumal poʼr ri ubʼaqʼ wach.
+# text[spa'] = vez Fuerte, una niña *laʼj pie, *kʼolot encima él, bonito viene por pipa la pepita *wach.
+# labels = incomplete
+^Ko/Ko$
+^jumul/jumul$
+^,/,$
+^jun/jun$
+^ali/ali$
+^laʼj/*laʼj$
+^raqan/r>aqan$
+^,/,$
+^kʼolot/*kʼolot$
+^uwiʼ/u>wiʼ$
+^,/,$
+^jeʼl/jeʼl$
+^kpetik/k>pet>ik$
+^rumal/r>umal$
+^poʼr/poʼr$
+^ri/ri$
+^ubʼaqʼ/u>bʼaqʼ$
+^wach/wach$
+^./.$
+
+# sent_id = cuentos:Le_k’olot_ali.wiki:2
+# text = Xkʼulmataj kʼut, xuʼlik chi uchiʼ ri ubʼe,  rumal che kilik konojel le winaq keʼikʼowik.
+# text[spa'] =  Pasó pero, *xuʼlik a la orilla de la senda, porque se ve toda la persona *keʼikʼowik.
+# labels = incomplete
+^Xkʼulmataj/*Xkʼulmataj$
+^kʼut/kʼut/kʼ>ut$
+^,/,$
+^xuʼlik/*xuʼlik$
+^chi/chi$
+^uchiʼ/u>chiʼ$
+^ri/ri$
+^ubʼe/u>bʼe$
+^,/,$
+^rumal/r>umal$
+^che/ch>e$
+^kilik/k>il>ik$
+^konojel/k>onojel$
+^le/le$
+^winaq/winaq$
+^keʼikʼowik/*keʼikʼowik$
+^./.$
+
+# sent_id = cuentos:Le_k’olot_ali.wiki:3
+# text = Are tzalij cho rachoch xuchap bʼis,  xuriqa jumul koqʼik.
+# text[spa'] =  *tzalij a él casa tocó tristeza,  encontró vez llorón.
+# labels = incomplete
+^Are/Are$
+^tzalij/*tzalij$
+^cho/cho/ch>o$
+^rachoch/r>achoch$
+^xuchap/*xuchap$
+^bʼis/*bʼis$
+^,/,$
+^xuriqa/*xuriqa$
+^jumul/jumul$
+^koqʼik/koqʼik/k>oqʼ>ik$
+^./.$
+
+# sent_id = cuentos:Le_k’olot_ali.wiki:4
+# text = Xpe le unan xuta che: -jas le kawoqʼej.
+# text[spa'] =  Vino la madre oyó a él: -qué que lloras.
+# labels = incomplete
+^Xpe/X>pe$
+^le/le$
+^unan/u>nan$
+^xuta/*xuta$
+^che/ch>e$
+^:/:$
+^-/-$
+^jas/jas$
+^le/le$
+^kawoqʼej/*kawoqʼej$
+^./.$
+
+# sent_id = cuentos:Le_k’olot_ali.wiki:5
+# text = Areʼ xubʼij: - xa man utz taj kinwil le nuwiʼ, rumal chi kʼolot.
+# text[spa'] = Él dijo: - sólo no bueno veo el encima mí, por él a *kʼolot.
+# labels = incomplete
+^Areʼ/Areʼ$
+^xubʼij/*xubʼij$
+^:/:$
+^-/-$
+^xa/xa$
+^man/man/m>an$
+^utz/utz$
+^taj/taj$
+^kinwil/*kinwil$
+^le/le$
+^nuwiʼ/nu>wiʼ$
+^,/,$
+^rumal/r>umal$
+^chi/chi$
+^kʼolot/*kʼolot$
+^./.$
+
+# sent_id = cuentos:Le_k’olot_ali.wiki:6
+# text = Are kaqaj chi nuwach le wiʼ ka sololik.
+# text[spa'] =  cae a mí el *wiʼ *ka *sololik.
+# labels = incomplete
+^Are/Are$
+^kaqaj/ka>qaj/k>aqaj$
+^chi/chi$
+^nuwach/nu>wach$
+^le/le$
+^wiʼ/wiʼ$
+^ka/ka$
+^sololik/*sololik$
+^./.$
+
+# sent_id = cuentos:Le_k’olot_ali.wiki:7
+# text = Xpe ri unan xubʼij che: - chachomaj wal, are utz kawaj awibʼ, konojel le winaq we taq laj on nim kaqan, kʼolot ki wiʼ.
+# text[spa'] =  Vino la madre dijo a él: - piensa hijo, bueno quieres a ti, toda la persona si pequeño o grande presta, *kʼolot maguey *wiʼ.
+# labels = incomplete
+^Xpe/X>pe$
+^ri/ri$
+^unan/u>nan$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^:/:$
+^-/-$
+^chachomaj/*chachomaj$
+^wal/*wal$
+^,/,$
+^are/are$
+^utz/utz$
+^kawaj/k>awaj$
+^awibʼ/aw>ibʼ$
+^,/,$
+^konojel/k>onojel$
+^le/le$
+^winaq/winaq$
+^we/we/w>e$
+^taq/taq$
+^laj/laj$
+^on/on$
+^nim/nim$
+^kaqan/k>aqan$
+^,/,$
+^kʼolot/*kʼolot$
+^ki/ki$
+^wiʼ/wiʼ$
+^./.$
+
+# sent_id = cuentos:Le_k’olot_ali.wiki:8
 # text = Xaq uj junam chi uwach ri Ajaw.
-# text[spa'] = Nosotros somos iguales al Dueño.
+# text[spa'] = Sólo nosotros somos iguales al Dueño.
 # labels = complete
 ^Xaq/Xaq$
 ^uj/uj$
@@ -46,10 +2945,1540 @@
 ^Ajaw/Ajaw$
 ^./.$
 
-# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul:12
+# sent_id = cuentos:Le_k’olot_ali.wiki:9
+# text = Yaʼtal chaqe qonojel ri uj winaq utz kaqil qibʼ. 
+# text[spa'] = Lícito a nosotros todo nosotros nosotros persona buena vemos a nosotros. 
+# labels = incomplete
+^Yaʼtal/Yaʼtal$
+^chaqe/ch>aq>e$
+^qonojel/q>onojel$
+^ri/ri$
+^uj/uj$
+^winaq/winaq$
+^utz/utz$
+^kaqil/k>aqil$
+^qibʼ/q>ibʼ$
+^./.$ 
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:1
+# text = Kʼo jun komon ubʼi Chikabʼraqan, kariqatajik pa tinamit Kʼicheʼ.
+# text[spa'] = Hay un nombre todo *Chikabʼraqan, encuentra en tierra Quiché.
+# labels = incomplete
+^Kʼo$
+^jun/jun$
+^komon/komon$
+^ubʼi/u>bʼi$
+^Chikabʼraqan/Chikabʼraqan$
+^,/,$
+^kariqatajik/ka>riqa>taj>ik/ka>riq>ataj>ik$
+^pa/pa$
+^tinamit/tinamit$
+^Kʼicheʼ$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:2
+# text = Ri winaq kakibʼij chi kʼo jun bʼe, areʼ bʼe rech tinamit ubʼi Lemoʼ.
+# text[spa'] = La persona dicen a hay una senda, él senda a él tierra nombre Espejo.
+# labels = incomplete
+^Ri/Ri$
+^winaq/winaq$
+^kakibʼij/*kakibʼij$
+^chi/chi$
+^kʼo/kʼo$
+^jun/jun$
+^bʼe/bʼe$
+^,/,$
+^areʼ/areʼ$
+^bʼe/bʼe$
+^rech/rech/r>ech$
+^tinamit/tinamit$
+^ubʼi/u>bʼi$
+^Lemoʼ/Lemoʼ/Lemoʼ$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:3
+# text = Katzijoxik chi le uchʼi ri siwan kʼo uchuqʼabʼ, xa rumal che kʼo kakikʼulmaj riʼ winaq are keqʼax chilaʼ.
+# text[spa'] =  se Cuenta al *uchʼi el barranco hay poder, sólo porque hay fomentan ése persona pasan allí.
+# labels = incomplete
+^Katzijoxik/Ka>tzijo>x>ik$
+^chi/chi$
+^le/le$
+^uchʼi/*uchʼi$
+^ri/ri$
+^siwan/siwan$
+^kʼo/kʼo$
+^uchuqʼabʼ/u>chuqʼabʼ$
+^,/,$
+^xa/xa$
+^rumal/r>umal$
+^che/ch>e$
+^kʼo/kʼo$
+^kakikʼulmaj/*kakikʼulmaj$
+^riʼ/riʼ$
+^winaq/winaq$
+^are/are$
+^keqʼax/k>e>qʼax$
+^chilaʼ/chilaʼ$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:4
+# text = Jas neʼ xu kʼulmaj ri tat ubʼi Xoʼr.
+# text[spa'] = Qué bebé sólo *kʼulmaj el nombre *Xoʼr.
+# labels = incomplete
+^Jas/Jas$
+^neʼ/neʼ$
+^xu/xu$
+^kʼulmaj/*kʼulmaj$
+^ri/ri$
+^tat/tat$
+^ubʼi/u>bʼi$
+^Xoʼr/*Xoʼr$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:5
+# text = Che jun qʼij xbʼek pari tinamit Lemoʼ, bʼenaq ri Xoʼr kʼate xril uwach jun laj akʼal ketzʼan pa le siwan, ri tat Xoʼr xuta cheʼ sukabʼan chiri akʼal. 
+# text[spa'] = a él un día fue en la tierra de Espejo, ido el *Xoʼr hasta vio a un niño pequeño juega en el barranco, el padre *Xoʼr oyó árbol *sukabʼan *chiri niño. 
+# labels = incomplete
+^Che/Ch>e$
+^jun/jun$
+^qʼij/qʼij$
+^xbʼek/x>bʼe>k$
+^pari/pa>ri$
+^tinamit/tinamit$
+^Lemoʼ/Lemoʼ/Lemoʼ$
+^,/,$
+^bʼenaq/*bʼenaq$
+^ri/ri$
+^Xoʼr/*Xoʼr$
+^kʼate/kʼate$
+^xril/*xril$
+^uwach/u>wach$
+^jun/jun$
+^laj/laj$
+^akʼal/akʼal$
+^ketzʼan/k>etzʼan$
+^pa/pa$
+^le/le$
+^siwan/siwan$
+^,/,$
+^ri/ri$
+^tat/tat$
+^Xoʼr/*Xoʼr$
+^xuta/*xuta$
+^cheʼ/cheʼ$
+^sukabʼan/*sukabʼan$
+^chiri/*chiri$
+^akʼal/akʼal$
+^./.$ 
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:6
+# text = Ri akʼal xubʼij che, xa wayemla, xpe ri tat Xoʼr xuxijribʼ, mankuriqtachik su kubʼano.
+# text[spa'] = El niño dijo a él, sólo *wayemla, vino el padre *Xoʼr *xuxijribʼ, *mankuriqtachik qué hace.
+# labels = incomplete
+^Ri/Ri$
+^akʼal/akʼal$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^,/,$
+^xa/xa$
+^wayemla/*wayemla$
+^,/,$
+^xpe/x>pe$
+^ri/ri$
+^tat/tat$
+^Xoʼr/*Xoʼr$
+^xuxijribʼ/*xuxijribʼ$
+^,/,$
+^mankuriqtachik/*mankuriqtachik$
+^su/su$
+^kubʼano/*kubʼano$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:7
+# text = Tekʼu ri akʼal xu chap uqʼabʼ xukujeʼ xukʼambʼik cho jun juyubʼ, are waʼ xubʼij ri akʼal che tat Xoʼr.
+# text[spa'] = *Tekʼu el niño sólo flecha mano *xukujeʼ *xukʼambʼik a un monte, éste dijo el niño a padre *Xoʼr.
+# labels = incomplete
+^Tekʼu/*Tekʼu$
+^ri/ri$
+^akʼal/akʼal$
+^xu/xu$
+^chap/chap$
+^uqʼabʼ/*uqʼabʼ$
+^xukujeʼ/*xukujeʼ$
+^xukʼambʼik/*xukʼambʼik$
+^cho/cho/ch>o$
+^jun/jun$
+^juyubʼ/juyubʼ$
+^,/,$
+^are/are$
+^waʼ/waʼ$
+^xubʼij/*xubʼij$
+^ri/ri$
+^akʼal/akʼal$
+^che/ch>e$
+^tat/tat$
+^Xoʼr/*Xoʼr$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:8
+# text = Kʼi pwaq kʼo waral kʼamabʼila ronojel ri kajla, kʼateʼ katoj la chuwe.
+# text[spa'] = oro Mucho hay aquí *kʼamabʼila todo él el *kajla, hasta pagas *chuwe.
+# labels = incomplete
+^Kʼi$
+^pwaq/pwaq$
+^kʼo/kʼo$
+^waral/waral$
+^kʼamabʼila/*kʼamabʼila$
+^ronojel/r>onojel$
+^ri/ri$
+^kajla/*kajla$
+^,/,$
+^kʼateʼ/kʼateʼ$
+^katoj/*katoj$
+^la/la$
+^chuwe/*chuwe$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:9
+# text = Katoj la are kuriqaʼ le kamikal, kape la, xuquje rajawaxik kelbʼana la raqantaq ja waral.
+# text[spa'] =  Pagas encuentra la muerte, viene , también necesario *kelbʼana *raqantaq casa aquí.
+# labels = incomplete
+^Katoj/*Katoj$
+^la/la$
+^are/are$
+^kuriqaʼ/*kuriqaʼ$
+^le/le$
+^kamikal/*kamikal$
+^,/,$
+^kape/kape/ka>pe$
+^la/la$
+^,/,$
+^xuquje/xuquje$
+^rajawaxik/rajawaxik$
+^kelbʼana/*kelbʼana$
+^la/la$
+^raqantaq/*raqantaq$
+^ja/ja$
+^waral/waral$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:10
+# text = Su kabʼij la, xubʼij le akʼal che le tat Xoʼr.
+# text[spa'] = Qué pasado mañana , dijo el niño al padre *Xoʼr.
+# labels = incomplete
+^Su/Su$
+^kabʼij/*kabʼij$
+^la/la$
+^,/,$
+^xubʼij/*xubʼij$
+^le/le$
+^akʼal/akʼal$
+^che/ch>e$
+^le/le$
+^tat/tat$
+^Xoʼr/*Xoʼr$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:11
+# text = Kʼatekʼuri le tat Xoʼr xubʼij, man kawaj taj, man kawaj taj.
+# text[spa'] = *Kʼatekʼuri el padre *Xoʼr dijo, no lo quieres, no lo quieres.
+# labels = incomplete
+^Kʼatekʼuri/Kʼatekʼuri$
+^le/le$
+^tat/tat$
+^Xoʼr/Xoʼr$
+^xubʼij/x>u>bʼij$
+^,/,$
+^man/man$
+^kawaj/k>aw>aj$
+^taj/taj$
+^,/,$
+^man/man$
+^kawaj/k>aw>aj$
+^taj/taj$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:12
+# text = Xumaj* ubʼanik uchʼabʼal ri tat Xoʼr xtzalij pa uchomabʼal. 
+# text[spa'] =  Agarró la forma del idioma del padre *Xoʼr volvió en actitud. 
+# labels = incomplete
+^Xumaj/*Xumaj$
+^ubʼanik/*ubʼanik$
+^uchʼabʼal/u>chʼabʼal$
+^ri/ri$
+^tat/tat$
+^Xoʼr/*Xoʼr$
+^xtzalij/x>tzalij$
+^pa/pa$
+^uchomabʼal/u>chomabʼal$
+^./.$ 
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:13
+# text = Kʼatekʼu ixriloʼ utukel tajin katzijonik chuchi ri nimaʼ ubʼi Qʼan cho.
+# text[spa'] = Entonces *ixriloʼ solo habla a la orilla del río de nombre Amarillo a él.
+# labels = incomplete
+^Kʼatekʼu$
+^ixriloʼ/*ixriloʼ$
+^utukel/utukel/u>tukel$
+^tajin/tajin$
+^katzijonik/ka>tzijon>ik/ka>tzijo>n>ik$
+^chuchi/ch>u>chi$
+^ri/ri$
+^nimaʼ/nimaʼ$
+^ubʼi/u>bʼi$
+^Qʼan$
+^cho/cho/ch>o$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:14
+# text = Areʼ ubʼeyal chike le winaq man kebʼintaj kitukel cho ri juyubʼ.
+# text[spa'] = Él *ubʼeyal a ellos la persona no *kebʼintaj *kitukel al monte.
+# labels = incomplete
+^Areʼ/Areʼ$
+^ubʼeyal/*ubʼeyal$
+^chike/chi>k>e$
+^le/le$
+^winaq/winaq$
+^man/man/m>an$
+^kebʼintaj/*kebʼintaj$
+^kitukel/ki>tukel$
+^cho/cho/ch>o$
+^ri/ri$
+^juyubʼ/juyubʼ$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:15
+# text = Mat bʼin atukel, ma bʼan chawe jas xbʼan che ri tat Xoʼr.
+# text[spa'] = *Mat *bʼin *atukel, no *bʼan a ti qué masticó al padre *Xoʼr.
+# labels = incomplete
+^Mat/*Mat$
+^bʼin/*bʼin$
+^atukel/a>tukel$
+^,/,$
+^ma/ma$
+^bʼan/*bʼan$
+^chawe/ch>aw>e$
+^jas/jas$
+^xbʼan/*xbʼan$
+^che/ch>e$
+^ri/ri$
+^tat/tat$
+^Xoʼr/*Xoʼr$
+^./.$
+
+# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:16
+# text = ʼʼʼXumaj - Xuchip*ʼʼʼ
+# text[spa'] = *ʼʼʼXumaj - *Xuchip**ʼʼʼ
+# labels = incomplete
+^ʼʼʼXumaj/*ʼʼʼXumaj$
+^-/-$
+^Xuchip/*Xuchip$
+^ʼʼʼ/*ʼʼʼ$
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:1
+# text = Majoq na ujunabʼ ri wikan Chaliʼy, kʼate ne lo waqibʼ ujunabʼ, are taq xtaq bʼi che ubʼanik utajkil utukel.
+# text[spa'] = *Majoq no el año del tío *Chaliʼy, hasta *ne aquí seis año, cuando se envió nombre a él forma mandado solo.
+# labels = incomplete
+^Majoq/Majoq$
+^na/na$
+^ujunabʼ/u>junabʼ$
+^ri/ri$
+^wikan/w>ikan$
+^Chaliʼy/*Chaliʼy$
+^,/,$
+^kʼate/kʼate$
+^ne/ne$
+^lo/lo$
+^waqibʼ/waqibʼ$
+^ujunabʼ/u>junabʼ$
+^,/,$
+^are/are$
+^taq/taq$
+^xtaq/*xtaq$
+^bʼi/bʼi$
+^che/ch>e$
+^ubʼanik/*ubʼanik$
+^utajkil/u>tajkil$
+^utukel/utukel/u>tukel$
+^./.$
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:2
+# text = Ri wikan Chaliʼy kel pa juyubʼ Chwitziribʼal.
+# text[spa'] = El tío Chaliʼy va en monte Chwitziribʼal.
+# labels = incomplete
+^Ri/Ri$
+^wikan/w>ikan$
+^Chaliʼy/Chaliʼy$
+^kel/k>el$
+^pa/pa$
+^juyubʼ/juyubʼ$
+^Chwitziribʼal/Chwitziribʼal$
+^./.$
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:3
+# text = Xaneʼ xbeʼ che ubʼanik utajkil, jawijeʼ xtaq bʼi rumal le utat, kʼakʼow na jun chuchiʼ jun siwan; bʼenaq waʼ are chi xrilo, xsikʼix rumal jun chom laj akʼal, man kʼo ta xuchomaj areʼ, xa xunimaj utzij jachin ri xusikʼij.   
+# text[spa'] = Sino fue a forma mandado, dónde se envió por el padre, *kʼakʼow no un a la orilla de un barranco; ido éste que vio, se llamó por un niño pequeño gordo, no hay pensó él, sólo obedeció palabra quién que llamó. 
+# labels = incomplete
+^Xaneʼ/Xaneʼ$
+^xbeʼ/*xbeʼ$
+^che/ch>e$
+^ubʼanik/*ubʼanik$
+^utajkil/u>tajkil$
+^,/,$
+^jawijeʼ/jawijeʼ$
+^xtaq/*xtaq$
+^bʼi/bʼi$
+^rumal/r>umal$
+^le/le$
+^utat/u>tat$
+^,/,$
+^kʼakʼow/*kʼakʼow$
+^na/na$
+^jun/jun$
+^chuchiʼ/ch>u>chiʼ$
+^jun/jun$
+^siwan/siwan$
+^;/;$
+^bʼenaq/*bʼenaq$
+^waʼ/waʼ$
+^are/are$
+^chi/chi$
+^xrilo/*xrilo$
+^,/,$
+^xsikʼix/x>sikʼix$
+^rumal/r>umal$
+^jun/jun$
+^chom/chom$
+^laj/laj$
+^akʼal/akʼal$
+^,/,$
+^man/man/m>an$
+^kʼo/kʼo$
+^ta/ta$
+^xuchomaj/*xuchomaj$
+^areʼ/areʼ$
+^,/,$
+^xa/xa$
+^xunimaj/*xunimaj$
+^utzij/u>tzij$
+^jachin/jachin$
+^ri/ri$
+^xusikʼij/*xusikʼij$
+^./.$   
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:4
+# text = Xkʼam bʼik pa jun utz laj ja, jawijeʼ chiʼ kʼo wi sibʼalaj uwach taq cheʼ, kʼo jalajoj taq kotzʼiʼj, kʼi taq awajibʼ.
+# text[spa'] =  se Recibió en una casa pequeña buena, dónde aquí hay mucho a árboles, hay flores diferentes, animales muchos.
+# labels = incomplete
+^Xkʼam/*Xkʼam$
+^bʼik/bʼi>k$
+^pa/pa$
+^jun/jun$
+^utz/utz$
+^laj/laj$
+^ja/ja$
+^,/,$
+^jawijeʼ/jawijeʼ$
+^chiʼ/chiʼ$
+^kʼo/kʼo$
+^wi/wi$
+^sibʼalaj/sibʼalaj$
+^uwach/u>wach$
+^taq/taq$
+^cheʼ/cheʼ$
+^,/,$
+^kʼo/kʼo$
+^jalajoj/jalajoj$
+^taq/taq$
+^kotzʼiʼj/kotzʼiʼj$
+^,/,$
+^kʼi/kʼi$
+^taq/taq$
+^awajibʼ/awaj>ibʼ$
+^./.$
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:5
+# text = Ri wikan Chaliʼy, man kuriq ta chik jas kubʼan chupam ri kʼolibʼal riʼ, are taq xutaʼ xkisikʼix ubʼiʼ, xunimaj, xeʼrilaʼ jachin xsikʼin apanoq, kʼate xrilo are bʼik ralixik tajin kebʼel chʼuʼj rumal areʼ.
+# text[spa'] = El tío *Chaliʼy, no encuentra ya qué hace adentro de ese lugar, cuando pidió *xkisikʼix nombre, obedeció, vio quién llamó , hasta vio *ralixik *kebʼel loco por él.
+# labels = incomplete
+^Ri/Ri$
+^wikan/w>ikan$
+^Chaliʼy/*Chaliʼy$
+^,/,$
+^man/man/m>an$
+^kuriq/*kuriq$
+^ta/ta$
+^chik/chik$
+^jas/jas$
+^kubʼan/*kubʼan$
+^chupam/ch>u>pam$
+^ri/ri$
+^kʼolibʼal/kʼolibʼal$
+^riʼ/riʼ$
+^,/,$
+^are/are$
+^taq/taq$
+^xutaʼ/*xutaʼ$
+^xkisikʼix/*xkisikʼix$
+^ubʼiʼ/u>bʼiʼ$
+^,/,$
+^xunimaj/*xunimaj$
+^,/,$
+^xeʼrilaʼ/*xeʼrilaʼ$
+^jachin/jachin$
+^xsikʼin/x>sikʼin$
+^apanoq/apan>oq$
+^,/,$
+^kʼate/kʼate$
+^xrilo/*xrilo$
+^are/are$
+^bʼik/bʼi>k$
+^ralixik/*ralixik$
+^tajin/tajin$
+^kebʼel/*kebʼel$
+^chʼuʼj/chʼuʼj$
+^rumal/r>umal$
+^areʼ/areʼ$
+^./.$
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:6
+# text = Xtaʼ che: -jawije chiʼ xatbʼe wi. 
+# text[spa'] =  se Pidió a él: -*jawije aquí fuiste . 
+# labels = incomplete
+^Xtaʼ/*Xtaʼ$
+^che/ch>e$
+^:/:$
+^-/-$
+^jawije/jawije$
+^chiʼ/chiʼ$
+^xatbʼe/x>at>bʼe$
+^wi/wi$
+^./.$ 
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:7
+# text = Areʼ xubʼij: -xaq jelaʼ apanoq. 
+# text[spa'] = Él dijo: -sólo allá cerca . 
+# labels = incomplete
+^Areʼ/Areʼ$
+^xubʼij/*xubʼij$
+^:/:$
+^-/-$
+^xaq/xaq$
+^jelaʼ/jelaʼ$
+^apanoq/apan>oq$
+^./.$ 
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:8
+# text = Ri unan xubʼij che:  -xbʼe oxibʼ qʼij katqatzukuj. 
+# text[spa'] = La madre dijo a él: - fue tres día *katqatzukuj. 
+# labels = incomplete
+^Ri/Ri$
+^unan/u>nan$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^:/:$
+^-/-$
+^xbʼe/x>bʼe$
+^oxibʼ/oxibʼ$
+^qʼij/qʼij$
+^katqatzukuj/*katqatzukuj$
+^./.$ 
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:9
+# text = Ri akʼal xubʼij:-  kʼate ne xinbʼe knataj chwe.
+# text[spa'] = El niño dijo:- hasta *ne fui *knataj a mí.
+# labels = incomplete
+^Ri/Ri$
+^akʼal/akʼal$
+^xubʼij/*xubʼij$
+^:/:$
+^-/-$
+^kʼate/kʼate$
+^ne/ne$
+^xinbʼe/x>in>bʼe$
+^knataj/*knataj$
+^chwe/ch>w>e$
+^./.$
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:10
+# text = Man xunaʼ taj are chiʼ xokʼow oxibʼ qʼij, chi upam le siwan rukʼ ke nitzʼ achi. 
+# text[spa'] = No se sintió aquí pasó tres día, adentro él el barranco con él a hombre pequeño. 
+# labels = incomplete
+^Man/Man/Man/M>an$
+^xunaʼ/*xunaʼ$
+^taj/taj$
+^are/are$
+^chiʼ/chiʼ$
+^xokʼow/x>okʼow$
+^oxibʼ/oxibʼ$
+^qʼij/qʼij$
+^,/,$
+^chi/chi$
+^upam/u>pam$
+^le/le$
+^siwan/siwan$
+^rukʼ/r>ukʼ$
+^ke/k>e$
+^nitzʼ/nitzʼ$
+^achi/achi$
+^./.$ 
+
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:11
+# text = Jebʼa riʼ xukʼulmaj le wikan Chaliʼy.. 
+# text[spa'] = *Jebʼa ése fomentó el tío *Chaliʼy.. 
+# labels = incomplete
+^Jebʼa/*Jebʼa$
+^riʼ/riʼ$
+^xukʼulmaj/*xukʼulmaj$
+^le/le$
+^wikan/w>ikan$
+^Chaliʼy/*Chaliʼy$
+^../..$ 
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:1
+# text = Pa ri jun komon ubʼi Chijolom, xokopila, rech Qʼumaʼr Kaj.
+# text[spa'] = En un nombre todo *Chijolom, *xokopila, a él *Qʼumaʼr Cielo.
+# labels = incomplete
+^Pa/Pa$
+^ri/ri$
+^jun/jun$
+^komon/komon$
+^ubʼi/u>bʼi$
+^Chijolom/*Chijolom$
+^,/,$
+^xokopila/*xokopila$
+^,/,$
+^rech/rech/r>ech$
+^Qʼumaʼr/*Qʼumaʼr$
+^Kaj/Kaj/K>aj$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:2
+# text = Keriqitaj kebʼ kʼaybʼal jaʼ jun miqʼin, jun saqliʼ.
+# text[spa'] =  Encuentran dos tienda agua un calor, un *saqliʼ.
+# labels = incomplete
+^Keriqitaj/*Keriqitaj$
+^kebʼ/kebʼ$
+^kʼaybʼal/kʼaybʼal$
+^jaʼ/jaʼ$
+^jun/jun$
+^miqʼin/miqʼin$
+^,/,$
+^jun/jun$
+^saqliʼ/saqliʼ$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:3
+# text = Waʼ we kebʼ kʼaybʼal jaʼ kel uloq chuxoʼl taq ri abʼaj.
+# text[spa'] = Éste si dos tienda agua sale entre él el *abʼaj.
+# labels = incomplete
+^Waʼ/Waʼ$
+^we/we/w>e$
+^kebʼ/kebʼ$
+^kʼaybʼal/kʼaybʼal$
+^jaʼ/jaʼ$
+^kel/k>el$
+^uloq/uloq$
+^chuxoʼl/ch>u>xoʼl$
+^taq/taq$
+^ri/ri$
+^abʼaj/*abʼaj$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:4
+# text = Le ajchijabʼ re Komon Chijolom kukʼ nikʼaj komon xkitoʼ kibʼ xkiwokaj ri loqʼalaj jaʼ.
+# text[spa'] = El *ajchijabʼ a él Todo *Chijolom con ellos comunidad otra ayudaron a ellos *xkiwokaj el agua querida.
+# labels = incomplete
+^Le/Le$
+^ajchijabʼ/*ajchijabʼ$
+^re/r>e$
+^Komon/Komon$
+^Chijolom/*Chijolom$
+^kukʼ/k>ukʼ$
+^nikʼaj/nikʼaj$
+^komon/komon$
+^xkitoʼ/*xkitoʼ$
+^kibʼ/k>ibʼ$
+^xkiwokaj/*xkiwokaj$
+^ri/ri$
+^loqʼalaj/loqʼalaj/loqʼ>alaj$
+^jaʼ/jaʼ$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:5
+# text = Ri miqʼin jaʼ, xki kʼot juxiʼl che, xkibʼan jun kʼolbʼal jaʼ, xkibʼan rachoch.
+# text[spa'] = El calor de agua, *xki *kʼot *juxiʼl a él, hicieron un lugar de agua, hicieron casa.
+# labels = incomplete
+^Ri/Ri$
+^miqʼin/miqʼin$
+^jaʼ/jaʼ$
+^,/,$
+^xki/*xki$
+^kʼot/*kʼot$
+^juxiʼl/*juxiʼl$
+^che/ch>e$
+^,/,$
+^xkibʼan/*xkibʼan$
+^jun/jun$
+^kʼolbʼal/kʼolbʼal$
+^jaʼ/jaʼ$
+^,/,$
+^xkibʼan/*xkibʼan$
+^rachoch/r>achoch$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:6
+# text = Xakʼu jeriʼ utz kabʼan atinem chupam le miqʼin jaʼ.
+# text[spa'] = *Xakʼu así bueno inventa baño adentro del calor de agua.
+# labels = incomplete
+^Xakʼu/*Xakʼu$
+^jeriʼ/jeriʼ$
+^utz/utz$
+^kabʼan/*kabʼan$
+^atinem/atinem$
+^chupam/ch>u>pam$
+^le/le$
+^miqʼin/miqʼin$
+^jaʼ/jaʼ$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:7
+# text = Le achijabʼ xkiwok kibʼ che rilixik ri miqʼina, xki chʼik jun qʼij che ujosqʼixik.
+# text[spa'] = Los hombres formaron a ellos a él cuidarse el *miqʼina, *xki *chʼik un día a para limpiarse.
+# labels = incomplete
+^Le/Le$
+^achijabʼ/achij>abʼ$
+^xkiwok/*xkiwok$
+^kibʼ/k>ibʼ$
+^che/ch>e$
+^rilixik/*rilixik$
+^ri/ri$
+^miqʼina/*miqʼina$
+^,/,$
+^xki/*xki$
+^chʼik/*chʼik$
+^jun/jun$
+^qʼij/qʼij$
+^che/ch>e$
+^ujosqʼixik/*ujosqʼixik$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:8
+# text = Sibʼalaj utz kakayik are taq ri winaq, kakisutij rij ri loqʼolaj jaʼ.
+# text[spa'] = Mucho bueno *kakayik cuando la persona, giran atrás él el *loqʼolaj agua.
+# labels = incomplete
+^Sibʼalaj/Sibʼalaj$
+^utz/utz$
+^kakayik/*kakayik$
+^are/are$
+^taq/taq$
+^ri/ri$
+^winaq/winaq$
+^,/,$
+^kakisutij/*kakisutij$
+^rij/r>ij$
+^ri/ri$
+^loqʼolaj/*loqʼolaj$
+^jaʼ/jaʼ$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:9
+# text = Xyaʼ jun taqanik chi ma katzaqta tzʼil, chʼipaq chupam ri jaʼ. 
+# text[spa'] =  se Dio un mandamiento a no *katzaqta sucio, jabón adentro del agua. 
+# labels = incomplete
+^Xyaʼ/*Xyaʼ$
+^jun/jun$
+^taqanik/taqanik$
+^chi/chi$
+^ma/ma$
+^katzaqta/*katzaqta$
+^tzʼil/tzʼil$
+^,/,$
+^chʼipaq/*chʼipaq$
+^chupam/ch>u>pam$
+^ri/ri$
+^jaʼ/jaʼ$
+^./.$ 
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:10
+# text = Xa jeriʼ chʼojchʼoj wi ri loqʼalaj jaʼ ronojel qʼij.
+# text[spa'] = Sólo así *chʼojchʼoj el agua querida todo el día.
+# labels = incomplete
+^Xa/Xa$
+^jeriʼ/jeriʼ$
+^chʼojchʼoj/*chʼojchʼoj$
+^wi/wi$
+^ri/ri$
+^loqʼalaj/loqʼalaj/loqʼ>alaj$
+^jaʼ/jaʼ$
+^ronojel/r>onojel$
+^qʼij/qʼij$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:11
+# text = Utz wa kaqabʼij xuqujeʼ chi ri loqʼalaj jaʼ sibʼalaj kakunannik.
+# text[spa'] = comida Buena decimos también al agua querida mucho *kakunannik.
+# labels = incomplete
+^Utz/Utz$
+^wa/wa$
+^kaqabʼij/*kaqabʼij$
+^xuqujeʼ/xuqujeʼ$
+^chi/chi$
+^ri/ri$
+^loqʼalaj/loqʼalaj/loqʼ>alaj$
+^jaʼ/jaʼ$
+^sibʼalaj/sibʼalaj$
+^kakunannik/*kakunannik$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:12
+# text = Kʼi taq uwach qʼoxom bʼaqilaj kukunaj xa rumal ri umiqʼinal, are kʼu ri saqliʼloj kʼo jujun keʼatin chilaʼ.
+# text[spa'] = Mucho a él dolor hueso cura sólo por él el *umiqʼinal, pero el *saqliʼloj hay algún se baña allí.
+# labels = incomplete
+^Kʼi$
+^taq/taq$
+^uwach/u>wach$
+^qʼoxom/qʼoxom$
+^bʼaqilaj/*bʼaqilaj$
+^kukunaj/*kukunaj$
+^xa/xa$
+^rumal/r>umal$
+^ri/ri$
+^umiqʼinal/*umiqʼinal$
+^,/,$
+^are/are$
+^kʼu/kʼu$
+^ri/ri$
+^saqliʼloj/*saqliʼloj$
+^kʼo/kʼo$
+^jujun/jujun$
+^keʼatin/k>eʼ>atin$
+^chilaʼ/chilaʼ$
+^./.$
+
+# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:13
+# text = Xuqujeʼ chiʼuxukut e kʼo ixoqibʼ ka ki chʼaj ri katzʼyaq, wene jampaʼ kiwaj kiʼsolij, kixqayeʼj, sibʼalaj jeʼlik uwach.
+# text[spa'] = También *chiʼuxukut hay mujeres *ka maguey *chʼaj el trapo, quizás cuándo quieren *kiʼsolij, *kixqayeʼj, mucho guapo a él.
+# labels = incomplete
+^Xuqujeʼ/Xuqujeʼ$
+^chiʼuxukut/*chiʼuxukut$
+^e/e$
+^kʼo/kʼo$
+^ixoqibʼ/ixoq>ibʼ$
+^ka/ka$
+^ki/ki$
+^chʼaj/*chʼaj$
+^ri/ri$
+^katzʼyaq/k>atzʼyaq$
+^,/,$
+^wene/wene$
+^jampaʼ/jampaʼ$
+^kiwaj/*kiwaj$
+^kiʼsolij/*kiʼsolij$
+^,/,$
+^kixqayeʼj/*kixqayeʼj$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^jeʼlik/jeʼl>ik$
+^uwach/u>wach$
+^./.$
+
+# sent_id = cuentos:Nutinimit_Q’antel.wiki:1
+# text = Ri nutinimit Qʼantel sibʼalaj ekʼi ri uwinaqil, kʼo kʼi taq Tyox ja, kʼo taq tijobʼal, kʼo kʼolibʼal kech taq ajkun, xuqujeʼ kʼo ukʼolibʼal re etzʼanen potzʼ, kʼo ja rech qʼatbʼal tzij, ekʼo taq ajbʼara rech le jalajoJ taq komon.
+# text[spa'] = El pueblo *Qʼantel mucho mucho la comunidad, hay Santos muchos casa, hay escuelas, hay lugar a médicos, también hay lugar a él *etzʼanen *potzʼ, hay casa a él *qʼatbʼal palabra, hay *ajbʼara a las comunidades diferentes.
+# labels = incomplete
+^Ri/Ri$
+^nutinimit/nu>tinimit$
+^Qʼantel/Qʼantel$
+^sibʼalaj/sibʼalaj$
+^ekʼi/ekʼi/e>kʼi$
+^ri/ri$
+^uwinaqil/u>winaqil$
+^,/,$
+^kʼo/kʼo$
+^kʼi/kʼi$
+^taq/taq$
+^Tyox/Tyox$
+^ja/ja$
+^,/,$
+^kʼo/kʼo$
+^taq/taq$
+^tijobʼal/tijobʼal$
+^,/,$
+^kʼo/kʼo$
+^kʼolibʼal/kʼolibʼal$
+^kech/k>ech$
+^taq/taq$
+^ajkun/ajkun$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^kʼo/kʼo$
+^ukʼolibʼal/u>kʼolibʼal$
+^re/r>e$
+^etzʼanen/*etzʼanen$
+^potzʼ/potzʼ$
+^,/,$
+^kʼo/kʼo$
+^ja/ja$
+^rech/rech/r>ech$
+^qʼatbʼal/qʼatbʼal$
+^tzij/tzij$
+^,/,$
+^ekʼo/ekʼo$
+^taq/taq$
+^ajbʼara/*ajbʼara$
+^rech/rech/r>ech$
+^le/le$
+^jalajoJ$
+^taq/taq$
+^komon/komon$
+^./.$
+
+# sent_id = cuentos:Nutinimit_Q’antel.wiki:2
+# text = Le achijabʼ kechakunik kukʼ taq kemabʼal, ekʼo bʼanal kaxlan wa, xuqujeʼ ekʼo yakal taq ja, ekʼo ajkʼayibʼ, e kʼo esukʼumal taq chʼichʼ.
+# text[spa'] = Los hombres trabajan con ellos *kemabʼal, hay hacedor comida extranjera, también hay *yakal casas, hay vendedores, hay justicias coches.
+# labels = incomplete
+^Le/Le$
+^achijabʼ/achij>abʼ$
+^kechakunik/k>e>chakun>ik/k>e>chaku>n>ik$
+^kukʼ/k>ukʼ$
+^taq/taq$
+^kemabʼal/*kemabʼal$
+^,/,$
+^ekʼo/ekʼo$
+^bʼanal/*bʼanal$
+^kaxlan/kaxlan$
+^wa/wa$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^ekʼo/ekʼo$
+^yakal/*yakal$
+^taq/taq$
+^ja/ja$
+^,/,$
+^ekʼo/ekʼo$
+^ajkʼayibʼ/ajkʼay>ibʼ$
+^,/,$
+^e/e$
+^kʼo/kʼo$
+^esukʼumal/e>sukʼumal$
+^taq/taq$
+^chʼichʼ/chʼichʼ$
+^./.$
+
+# sent_id = cuentos:Nutinimit_Q’antel.wiki:3
+# text = Kʼo xuqujeʼ kechakun pa nim tinamit, e kʼo ajtijabʼ, e kʼo ajkunanelab. 
+# text[spa'] = Hay también trabajan en tierra grande, hay maestros, hay curanderos. 
+# labels = incomplete
+^Kʼo$
+^xuqujeʼ/xuqujeʼ$
+^kechakun/k>e>chakun$
+^pa/pa$
+^nim/nim$
+^tinamit/tinamit$
+^,/,$
+^e/e$
+^kʼo/kʼo$
+^ajtijabʼ/ajtij>abʼ$
+^,/,$
+^e/e$
+^kʼo/kʼo$
+^ajkunanelab/*ajkunanelab$
+^./.$ 
+
+# sent_id = cuentos:Nutinimit_Q’antel.wiki:4
+# text = Are le ixoqibʼ ekʼo ajtʼisoʼmanelabʼ, ekʼo ajsolol bʼatzʼ, e kʼo ajbʼanal wa, xuqujeʼ ekʼo ixoqibʼ ajtijabʼ, ajkununelabʼ nim ketamabʼal.
+# text[spa'] =  las mujeres hay sastres, hay *ajsolol mono, hay criminal comida, también hay mujeres maestros, curanderos educación grande.
+# labels = incomplete
+^Are/Are$
+^le/le$
+^ixoqibʼ/ixoq>ibʼ$
+^ekʼo/ekʼo$
+^ajtʼisoʼmanelabʼ/ajtʼisoʼmanel>abʼ$
+^,/,$
+^ekʼo/ekʼo$
+^ajsolol/*ajsolol$
+^bʼatzʼ/*bʼatzʼ$
+^,/,$
+^e/e$
+^kʼo/kʼo$
+^ajbʼanal/ajbʼanal$
+^wa/wa$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^ekʼo/ekʼo$
+^ixoqibʼ/ixoq>ibʼ$
+^ajtijabʼ/ajtij>abʼ$
+^,/,$
+^ajkununelabʼ/ajkununel>abʼ$
+^nim/nim$
+^ketamabʼal/k>etamabʼal$
+^./.$
+
+# sent_id = cuentos:Nutinimit_Q’antel.wiki:5
+# text = Sibʼalaj jelik rumal le winaq ketzijon pa le kichʼabʼal kʼicheʼ.
+# text[spa'] = Mucho *jelik por él las personas hablan en el idioma quiché.
+# labels = incomplete
+^Sibʼalaj/Sibʼalaj$
+^jelik/*jelik$
+^rumal/r>umal$
+^le/le$
+^winaq/winaq$
+^ketzijon/k>e>tzijon$
+^pa/pa$
+^le/le$
+^kichʼabʼal/ki>chʼabʼal$
+^kʼicheʼ/kʼicheʼ$
+^./.$
+
+# sent_id = cuentos:Q’or_re_aj.wiki:1
+# text = Pa ri komon rech San Vicente Buenabaj.
+# text[spa'] = En la comunidad a él *San Vicente *Buenabaj.
+# labels = incomplete
+^Pa/Pa$
+^ri/ri$
+^komon/komon$
+^rech/rech/r>ech$
+^San/*San$
+^Vicente/Vicente$
+^Buenabaj/*Buenabaj$
+^./.$
+
+# sent_id = cuentos:Q’or_re_aj.wiki:2
+# text = Pa ri kiqʼij kaminaqibʼ kbʼan qʼor ikʼyaʼ rech aj: nabʼe ri nan kutzukuj kan ri aj, kujachʼoʼ xuquje kukʼeto. 
+# text[spa'] = En el día de muertos se hace *qʼor *ikʼyaʼ a caña: primero la madre *kutzukuj la caña, *kujachʼoʼ también *kukʼeto. 
+# labels = incomplete
+^Pa/Pa$
+^ri/ri$
+^kiqʼij/ki>qʼij$
+^kaminaqibʼ/kaminaq>ibʼ$
+^kbʼan/*kbʼan$
+^qʼor/qʼor$
+^ikʼyaʼ/*ikʼyaʼ$
+^rech/rech/r>ech$
+^aj/aj$
+^:/:$
+^nabʼe/nabʼe$
+^ri/ri$
+^nan/nan$
+^kutzukuj/*kutzukuj$
+^kan/kan/k>an$
+^ri/ri$
+^aj/aj$
+^,/,$
+^kujachʼoʼ/*kujachʼoʼ$
+^xuquje/xuquje$
+^kukʼeto/*kukʼeto$
+^./.$ 
+
+# sent_id = cuentos:Q’or_re_aj.wiki:3
+# text = Chu kabʼ qʼij, ri nan kukeʼj cho ri kaʼ, are xchatajik, kuchʼaj ri bʼoj, tekʼuri kukʼama ri chaʼbʼal kuyaʼ puwi ri bʼoj, xuqujeʼ kukʼama ri chaqon qʼor kucha uwach.
+# text[spa'] = Apestoso *kabʼ día, la madre muele a la muela, eligió, lava la olla, y *kukʼama el tamiz da encima de la olla, también *kukʼama el *chaqon *qʼor elige a él.
+# labels = incomplete
+^Chu/Chu$
+^kabʼ/k>abʼ$
+^qʼij/qʼij$
+^,/,$
+^ri/ri$
+^nan/nan$
+^kukeʼj/*kukeʼj$
+^cho/cho/ch>o$
+^ri/ri$
+^kaʼ/kaʼ$
+^,/,$
+^are/are$
+^xchatajik/x>cha>taj>ik$
+^,/,$
+^kuchʼaj/*kuchʼaj$
+^ri/ri$
+^bʼoj/bʼoj$
+^,/,$
+^tekʼuri/tekʼuri$
+^kukʼama/*kukʼama$
+^ri/ri$
+^chaʼbʼal/*chaʼbʼal$
+^kuyaʼ/*kuyaʼ$
+^puwi/p>u>wi$
+^ri/ri$
+^bʼoj/bʼoj$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^kukʼama/*kukʼama$
+^ri/ri$
+^chaqon/*chaqon$
+^qʼor/qʼor$
+^kucha/*kucha$
+^uwach/u>wach$
+^./.$
+
+# sent_id = cuentos:Q’or_re_aj.wiki:4
+# text = Are xchaʼtajik kutzaqabʼaʼ puwi ri kʼtan alaj qʼaqʼ, kok che ri utukik, kuyaʼ kabʼ rukʼ, maj jun kokbʼik pa ja, man kukojtaj uwach winaq che ri qʼor. 
+# text[spa'] =  eligió *kutzaqabʼaʼ encima él el *kʼtan fuego pequeño, entra a él el *utukik, da *kabʼ con él, no un *kokbʼik en casa, no *kukojtaj a persona a él el *qʼor. 
+# labels = incomplete
+^Are/Are$
+^xchaʼtajik/x>chaʼ>taj>ik$
+^kutzaqabʼaʼ/*kutzaqabʼaʼ$
+^puwi/p>u>wi$
+^ri/ri$
+^kʼtan/*kʼtan$
+^alaj/alaj$
+^qʼaqʼ/qʼaqʼ$
+^,/,$
+^kok/k>ok$
+^che/ch>e$
+^ri/ri$
+^utukik/*utukik$
+^,/,$
+^kuyaʼ/*kuyaʼ$
+^kabʼ/k>abʼ$
+^rukʼ/r>ukʼ$
+^,/,$
+^maj/maj$
+^jun/jun$
+^kokbʼik/*kokbʼik$
+^pa/pa$
+^ja/ja$
+^,/,$
+^man/man/m>an$
+^kukojtaj/*kukojtaj$
+^uwach/u>wach$
+^winaq/winaq$
+^che/ch>e$
+^ri/ri$
+^qʼor/qʼor$
+^./.$ 
+
+# sent_id = cuentos:Q’or_re_aj.wiki:5
+# text = Poqʼowik xeyoq kanoq chike ri kaminaqibʼ puwi ri chʼakitebʼ, chi ukabʼqʼij ka kikʼam bʼik je la pa muqbʼal kaminaqibʼ, xa je kubʼan le winaq are chi kʼaslik na. 
+# text[spa'] = Hervir *xeyoq a los muertos encima él el *chʼakitebʼ, a *ukabʼqʼij *ka reciben como en *muqbʼal muertos, sólo como hace la persona a vivo no. 
+# labels = incomplete
+^Poqʼowik/*Poqʼowik$
+^xeyoq/*xeyoq$
+^kanoq/kan>oq$
+^chike/chi>k>e$
+^ri/ri$
+^kaminaqibʼ/kaminaq>ibʼ$
+^puwi/p>u>wi$
+^ri/ri$
+^chʼakitebʼ/*chʼakitebʼ$
+^,/,$
+^chi/chi$
+^ukabʼqʼij/*ukabʼqʼij$
+^ka/ka$
+^kikʼam/ki>kʼam$
+^bʼik/bʼi>k$
+^je/je$
+^la/la$
+^pa/pa$
+^muqbʼal/*muqbʼal$
+^kaminaqibʼ/kaminaq>ibʼ$
+^,/,$
+^xa/xa$
+^je/je$
+^kubʼan/*kubʼan$
+^le/le$
+^winaq/winaq$
+^are/are$
+^chi/chi$
+^kʼaslik/kʼaslik$
+^na/na$
+^./.$ 
+
+# sent_id = cuentos:Q’or_re_aj.wiki:6
+# text = Kʼo jujun kekikotik, kkijumij kanoq pa kiwiʼ ri kaminaqibʼ.
+# text[spa'] = Hay algún están feliz , *kkijumij encima de los muertos.
+# labels = incomplete
+^Kʼo$
+^jujun/jujun$
+^kekikotik/k>e>kikot>ik$
+^,/,$
+^kkijumij/*kkijumij$
+^kanoq/kan>oq$
+^pa/pa$
+^kiwiʼ/ki>wiʼ$
+^ri/ri$
+^kaminaqibʼ/kaminaq>ibʼ$
+^./.$
+
+# sent_id = cuentos:Rawasil_ri_jastaq.wiki:1
+# text = A was are: katikʼow pwi le qanan ixim, kel uloq chʼaʼk chi rij le abʼaqil.
+# text[spa'] =  *was : *katikʼow *pwi la madre de maíz, sale llaga atrás del hueso.
+# labels = incomplete
+^A/A$
+^was/*was$
+^are/are$
+^:/:$
+^katikʼow/*katikʼow$
+^pwi/*pwi$
+^le/le$
+^qanan/qa>nan$
+^ixim/ixim$
+^,/,$
+^kel/k>el$
+^uloq/uloq$
+^chʼaʼk/chʼaʼk$
+^chi/chi$
+^rij/r>ij$
+^le/le$
+^abʼaqil/a>bʼaqil$
+^./.$
+
+# sent_id = cuentos:Rawasil_ri_jastaq.wiki:2
+# text = Jun ala kikʼow pa uwiʼ ri mesebʼal, we je kubʼano xwi alitom ri ralkʼwal we xkʼulik.
+# text[spa'] = Un niño *kikʼow encima él el *mesebʼal, si como hace *xwi muchacha el *ralkʼwal si se encontró .
+# labels = incomplete
+^Jun/Jun/Jun$
+^ala/ala/al>a/a>la$
+^kikʼow/*kikʼow$
+^pa/pa$
+^uwiʼ/u>wiʼ$
+^ri/ri$
+^mesebʼal/*mesebʼal$
+^,/,$
+^we/we/w>e$
+^je/je$
+^kubʼano/*kubʼano$
+^xwi/*xwi$
+^alitom/alitom$
+^ri/ri$
+^ralkʼwal/*ralkʼwal$
+^we/we/w>e$
+^xkʼulik/x>kʼul>ik$
+^./.$
+
+# sent_id = cuentos:Rawasil_ri_jastaq.wiki:3
+# text = We kabʼan elaqʼ pwaq, kape ri mebʼaʼil pa awiʼ.
+# text[spa'] = Este inventa robo oro, viene la pobreza encima ti.
+# labels = incomplete
+^We/We/W>e$
+^kabʼan/*kabʼan$
+^elaqʼ/*elaqʼ$
+^pwaq/pwaq$
+^,/,$
+^kape/kape/ka>pe$
+^ri/ri$
+^mebʼaʼil/*mebʼaʼil$
+^pa/pa$
+^awiʼ/a>wiʼ$
+^./.$
+
+# sent_id = cuentos:Rawasil_ri_jastaq.wiki:4
+# text = Kachap kikotzʼiʼj kamina we man awech, kebʼel uloq ubʼoqʼoch kaminaq chirij aqʼabʼ.
+# text[spa'] =  Caza vela *kamina si no a ti, *kebʼel aquí ojo muerto atrásde noche.
+# labels = incomplete
+^Kachap/Ka>chap$
+^kikotzʼiʼj/ki>kotzʼiʼj$
+^kamina/*kamina$
+^we/we/w>e$
+^man/man/m>an$
+^awech/aw>ech$
+^,/,$
+^kebʼel/*kebʼel$
+^uloq/uloq$
+^ubʼoqʼoch/u>bʼoqʼoch$
+^kaminaq/kaminaq$
+^chirij/chi>r>ij$
+^aqʼabʼ/*aqʼabʼ$
+^./.$
+
+# sent_id = cuentos:Rawasil_ri_jastaq.wiki:5
+# text = Itzel kawil le jabʼ, we katkamik pa jabʼ katmuq wi.
+# text[spa'] = Malo ves la lluvia, si mueres en lluvia entierras .
+# labels = incomplete
+^Itzel/Itzel$
+^kawil/*kawil$
+^le/le$
+^jabʼ/jabʼ$
+^,/,$
+^we/we/w>e$
+^katkamik/*katkamik$
+^pa/pa$
+^jabʼ/jabʼ$
+^katmuq/k>at>muq$
+^wi/wi$
+^./.$
+
+# sent_id = cuentos:Rawasil_ri_jastaq.wiki:6
+# text = Kattʼuyiʼ pa kitem le tat nan, aninaq kasaqir ri ajolom.
+# text[spa'] =  te Sientas en trono el madre, corrido la cabeza amanece .
+# labels = incomplete
+^Kattʼuyiʼ/*Kattʼuyiʼ$
+^pa/pa$
+^kitem/ki>tem$
+^le/le$
+^tat/tat$
+^nan/nan$
+^,/,$
+^aninaq/*aninaq$
+^kasaqir/ka>saqir$
+^ri/ri$
+^ajolom/*ajolom$
+^./.$
+
+# sent_id = cuentos:Rawasil_ri_jastaq.wiki:7
+# text = Katikʼow pa le kinonochʼ ri tat nan, katrijobʼ aninaq.
+# text[spa'] = *Katikʼow en la sombra el madre, *katrijobʼ corrido.
+# labels = incomplete
+^Katikʼow/*Katikʼow$
+^pa/pa$
+^le/le$
+^kinonochʼ/ki>nonochʼ$
+^ri/ri$
+^tat/tat$
+^nan/nan$
+^,/,$
+^katrijobʼ/*katrijobʼ$
+^aninaq/*aninaq$
+^./.$
+
+# sent_id = cuentos:Rawasil_ri_jastaq.wiki:8
+# text = Xaq karepuj le joron, we kabʼano, katzajik.
+# text[spa'] = Sólo *karepuj el frío, si haces, se seca .
+# labels = incomplete
+^Xaq/Xaq$
+^karepuj/*karepuj$
+^le/le$
+^joron/*joron$
+^,/,$
+^we/we/w>e$
+^kabʼano/*kabʼano$
+^,/,$
+^katzajik/ka>tzaj>ik$
+^./.$
+
+# sent_id = cuentos:Rawasil_ri_jastaq.wiki:9
+# text = Kʼa maʼtam katwaʼlijik, katuchulij le qʼij.
+# text[spa'] = *Kʼa *maʼtam *katwaʼlijik, *katuchulij el día.
+# labels = incomplete
+^Kʼa$
+^maʼtam/maʼtam$
+^katwaʼlijik/*katwaʼlijik$
+^,/,$
+^katuchulij/*katuchulij$
+^le/le$
+^qʼij/qʼij$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:1
+# text = Jun qʼij kanoq pa komon Xechpup uqʼabʼ tinamit Xoʼl Abʼaj.
+# text[spa'] = Un día en comunidad Xechpup de mano de tierra *Xoʼl *Abʼaj.
+# labels = incomplete
+^Jun/Jun/Jun$
+^qʼij/qʼij$
+^kanoq/kan>oq$
+^pa/pa$
+^komon/komon$
+^Xechpup/Xechpup$
+^uqʼabʼ/*uqʼabʼ$
+^tinamit/tinamit$
+^Xoʼl/Xoʼl$
+^Abʼaj/*Abʼaj$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:2
+# text = Ri alaj ali Choʼn bʼenaq pa tijobʼal rachiʼl ri uchaqʼ Siʼl sibʼalaj kekiʼkotik.
+# text[spa'] = El pequeño Choʼn ido en escuela el amigo del hermano de #Siʼl mucho están feliz .
+# labels = incomplete
+^Ri/Ri$
+^alaj/alaj$
+^ali/ali$
+^Choʼn/Choʼn$
+^bʼenaq/*bʼenaq$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^rachiʼl/r>achiʼl$
+^ri/ri$
+^uchaqʼ/u>chaqʼ$
+^Siʼl/Siʼl$
+^sibʼalaj/sibʼalaj$
+^kekiʼkotik/k>e>kiʼkot>ik$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:3
+# text = Pa ri bʼe xkiraq jun alaj imul saq rij, xkikʼam bʼik.
+# text[spa'] = En la senda *xkiraq un conejo blanco pequeño atrás él, recibieron.
+# labels = incomplete
+^Pa/Pa$
+^ri/ri$
+^bʼe/bʼe$
+^xkiraq/*xkiraq$
+^jun/jun$
+^alaj/alaj$
+^imul/imul/i>mul$
+^saq/saq$
+^rij/r>ij$
+^,/,$
+^xkikʼam/*xkikʼam$
+^bʼik/bʼi>k$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:4
+# text = Xkikʼut chi uwach ri ajtij xuqujeʼ chikiwach ri taq nikʼaj kachil.
+# text[spa'] =  Enseñaron al maestro también a los amigos otros.
+# labels = incomplete
+^Xkikʼut/*Xkikʼut$
+^chi/chi$
+^uwach/u>wach$
+^ri/ri$
+^ajtij/ajtij$
+^xuqujeʼ/xuqujeʼ$
+^chikiwach/chi>ki>wach$
+^ri/ri$
+^taq/taq$
+^nikʼaj/nikʼaj$
+^kachil/k>achil$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:5
+# text = Konojel ri akʼalabʼ sibʼalaj utz xkil le imul.
+# text[spa'] = Todos los niños mucho bueno el conejo vieron.
+# labels = incomplete
+^Konojel/K>onojel$
+^ri/ri$
+^akʼalabʼ/akʼal>abʼ$
+^sibʼalaj/sibʼalaj$
+^utz/utz$
+^xkil/x>k>il$
+^le/le$
+^imul/imul$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:6
+# text = Ri ajtij Lol xuta chike jawi xkichap wi ri alaj imul.
+# text[spa'] = El maestro de Grillo oyó a ellos dónde el conejo pequeño tocaron.
+# labels = incomplete
+^Ri/Ri$
+^ajtij/ajtij$
+^Lol/Lol/Lol$
+^xuta/*xuta$
+^chike/chi>k>e$
+^jawi/jawi$
+^xkichap/*xkichap$
+^wi/wi$
+^ri/ri$
+^alaj/alaj$
+^imul/imul/i>mul$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:7
+# text = Ri alaj ali Siʼl xubʼij xqachap pa utzal ri Tyox.
+# text[spa'] = El pequeño #Siʼl dijo tocamos en *utzal el Santo.
+# labels = incomplete
+^Ri/Ri$
+^alaj/alaj$
+^ali/ali$
+^Siʼl/Siʼl$
+^xubʼij/*xubʼij$
+^xqachap/*xqachap$
+^pa/pa$
+^utzal/u>tzal$
+^ri/ri$
+^Tyox/Tyox$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:8
+# text = Ri ajtij xumatzej ri imul xuqujeʼ xutzilij ri ubʼaqil, kʼate xirilo qʼajnaq jun uqʼabʼ ri alaj imul.
+# text[spa'] = El maestro abrazó el conejo también devolvió el hueso, hasta *xirilo quebrado un la mano del conejo pequeño.
+# labels = incomplete
+^Ri/Ri$
+^ajtij/ajtij$
+^xumatzej/*xumatzej$
+^ri/ri$
+^imul/imul/i>mul$
+^xuqujeʼ/xuqujeʼ$
+^xutzilij/*xutzilij$
+^ri/ri$
+^ubʼaqil/u>bʼaqil$
+^,/,$
+^kʼate/kʼate$
+^xirilo/*xirilo$
+^qʼajnaq/*qʼajnaq$
+^jun/jun$
+^uqʼabʼ/*uqʼabʼ$
+^ri/ri$
+^alaj/alaj$
+^imul/imul/i>mul$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:9
+# text = Xubʼij chike ri akʼalabʼ su kʼax che ri imul.
+# text[spa'] =  Dijo a los niños qué malo al conejo.
+# labels = incomplete
+^Xubʼij/*Xubʼij$
+^chike/chi>k>e$
+^ri/ri$
+^akʼalabʼ/akʼal>abʼ$
+^su/su$
+^kʼax/kʼax$
+^che/ch>e$
+^ri/ri$
+^imul/imul/i>mul$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:10
+# text = Xuchomaj ri ajtij xuta chike suʼ kikbʼan che ri imul, are xkito ri akʼalabʼ kikibʼij qakʼayij bʼik rech kʼo qapwaq.
+# text[spa'] =  Pensó el maestro oyó a flauta hacen al conejo, ayudaron que los niños dicen *qakʼayij a él hay oro.
+# labels = incomplete
+^Xuchomaj/*Xuchomaj$
+^ri/ri$
+^ajtij/ajtij$
+^xuta/*xuta$
+^chike/chi>k>e$
+^suʼ/suʼ$
+^kikbʼan/*kikbʼan$
+^che/ch>e$
+^ri/ri$
+^imul/imul/i>mul$
+^,/,$
+^are/are$
+^xkito/*xkito$
+^ri/ri$
+^akʼalabʼ/akʼal>abʼ$
+^kikibʼij/*kikibʼij$
+^qakʼayij/*qakʼayij$
+^bʼik/bʼi>k$
+^rech/rech/r>ech$
+^kʼo/kʼo$
+^qapwaq/qa>pwaq$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:11
+# text = Jun chik xubʼij: chaya kanoq rech kutzir ri uqʼabʼ.
+# text[spa'] = Un ya dijo: *chaya a él la mano se mejora .
+# labels = incomplete
+^Jun/Jun/Jun$
+^chik/chik$
+^xubʼij/*xubʼij$
+^:/:$
+^chaya/*chaya$
+^kanoq/kan>oq$
+^rech/rech/r>ech$
+^kutzir/k>utzir$
+^ri/ri$
+^uqʼabʼ/*uqʼabʼ$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:12
+# text = Jun chik xubʼij: katzoqopij bʼik are xuqujeʼ karaj utz ukʼaslemal.
+# text[spa'] = Un ya dijo: liberas también quiere vida buena.
+# labels = incomplete
+^Jun/Jun/Jun$
+^chik/chik$
+^xubʼij/*xubʼij$
+^:/:$
+^katzoqopij/*katzoqopij$
+^bʼik/bʼi>k$
+^are/are$
+^xuqujeʼ/xuqujeʼ$
+^karaj/*karaj$
+^utz/utz$
+^ukʼaslemal/u>kʼaslemal$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:13
 # text = Ri ajtij kubʼij chike: rajawaxik keqachajij ri awaj, are utikoʼn ri Ajaw.
-# text[spa'] = El maestro dice a ellos: necesario cuidamos los animales, la creación del Dueño. 
-# labels = 
+# text[spa'] = El maestro dice a ellos: necesario cuidamos los animales, la creación del Dueño.
+# labels = complete
 ^Ri/Ri$
 ^ajtij/ajtij$
 ^kubʼij/k>u>bʼij$
@@ -66,15 +4495,3552 @@
 ^Ajaw/Ajaw$
 ^./.$
 
-# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil:76
-# text = E kebʼ kekʼam bʼik pa tuj.
-# text[spa'] = Dos están recibidos en temazcal.
-# labels = 
-^E/E$
-^kebʼ/kebʼ$
-^kekʼam/k>e>kʼam$
-^bʼik/bʼi>k$
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:14
+# text = Are kabʼan kʼax chike taq awajibʼ, kʼax kunaʼ ukʼuʼx ri Ajaw, xuqujeʼ kʼo kikʼaslemal xa uj junam kukʼ.
+# text[spa'] =  inventa malo a animales, malo se siente el alma del Dueño, también hay vida sólo nosotros igual con ellos.
+# labels = incomplete
+^Are/Are$
+^kabʼan/*kabʼan$
+^kʼax/kʼax$
+^chike/chi>k>e$
+^taq/taq$
+^awajibʼ/awaj>ibʼ$
+^,/,$
+^kʼax/kʼax$
+^kunaʼ/*kunaʼ$
+^ukʼuʼx/u>kʼuʼx$
+^ri/ri$
+^Ajaw/Ajaw$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^kʼo/kʼo$
+^kikʼaslemal/ki>kʼaslemal$
+^xa/xa$
+^uj/uj$
+^junam/junam$
+^kukʼ/k>ukʼ$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_tz’unun.wiki:1
+# text = Jun aqʼabʼil kʼo ri ali Naʼ chi uwach ri rachoch.
+# text[spa'] = Un *aqʼabʼil hay #Naʼ a la casa.
+# labels = incomplete
+^Jun/Jun/Jun$
+^aqʼabʼil/*aqʼabʼil$
+^kʼo/kʼo$
+^ri/ri$
+^ali/ali$
+^Naʼ/Naʼ$
+^chi/chi$
+^uwach/u>wach$
+^ri/ri$
+^rachoch/r>achoch$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_tz’unun.wiki:2
+# text = Utaqem kujaʼj ri ukotzʼiʼj, xaq kʼateʼ karopopik le laj tzʼunun, xtzaq chuwach. 
+# text[spa'] = *Utaqem *kujaʼj la vela, sólo hasta *karopopik la chuparrosa pequeña, cayó a él. 
+# labels = incomplete
+^Utaqem/*Utaqem$
+^kujaʼj/*kujaʼj$
+^ri/ri$
+^ukotzʼiʼj/u>kotzʼiʼj$
+^,/,$
+^xaq/xaq$
+^kʼateʼ/kʼateʼ$
+^karopopik/*karopopik$
+^le/le$
+^laj/laj$
+^tzʼunun/tzʼunun$
+^,/,$
+^xtzaq/x>tzaq$
+^chuwach/ch>u>wach$
+^./.$ 
+
+# sent_id = cuentos:Ri_alaj_tz’unun.wiki:3
+# text = Ri ali Naʼ xrilo xuyak uloq le laj chikop, kukʼabʼ upuchiʼ, ri ali xukʼamaʼ juqubʼ joron, xuyaʼ pa uchiʼ, le laj tzʼunun xubʼiqʼ bʼik, ri ali xbʼisonik xkʼam waʼ xchaʼ xuchip bʼik, xuyaʼ kan pa uwiʼ jun jeʼlalaj roxox.
+# text[spa'] = #Naʼ vio construyó el animal pequeño, *kukʼabʼ *upuchiʼ, la niña *xukʼamaʼ trago frío, dio en orilla, la chuparrosa pequeña tragó, la niña estuvo triste se recibió éste eligió *xuchip , dio encima él un *jeʼlalaj rosa.
+# labels = incomplete
+^Ri/Ri$
+^ali/ali$
+^Naʼ/Naʼ$
+^xrilo/*xrilo$
+^xuyak/*xuyak$
+^uloq/uloq$
+^le/le$
+^laj/laj$
+^chikop/chikop$
+^,/,$
+^kukʼabʼ/*kukʼabʼ$
+^upuchiʼ/*upuchiʼ$
+^,/,$
+^ri/ri$
+^ali/ali$
+^xukʼamaʼ/*xukʼamaʼ$
+^juqubʼ/juqubʼ$
+^joron/*joron$
+^,/,$
+^xuyaʼ/*xuyaʼ$
 ^pa/pa$
-^tuj/tuj$
+^uchiʼ/u>chiʼ$
+^,/,$
+^le/le$
+^laj/laj$
+^tzʼunun/tzʼunun$
+^xubʼiqʼ/*xubʼiqʼ$
+^bʼik/bʼi>k$
+^,/,$
+^ri/ri$
+^ali/ali$
+^xbʼisonik/x>bʼison>ik/x>bʼiso>n>ik$
+^xkʼam/*xkʼam$
+^waʼ/waʼ$
+^xchaʼ/x>chaʼ$
+^xuchip/*xuchip$
+^bʼik/bʼi>k$
+^,/,$
+^xuyaʼ/*xuyaʼ$
+^kan/kan/k>an$
+^pa/pa$
+^uwiʼ/u>wiʼ$
+^jun/jun$
+^jeʼlalaj/*jeʼlalaj$
+^roxox/roxox$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_tz’unun.wiki:4
+# text = Xtakʼi rukʼ xuchajij, te kʼu riʼ xaq kʼate xrilo chi ri laj tzʼunun xrapapik, xrapapik.
+# text[spa'] = *Xtakʼi con él cuidó, ahora pero ése sólo hasta vio a la chuparrosa pequeña voló , voló .
+# labels = incomplete
+^Xtakʼi/*Xtakʼi$
+^rukʼ/r>ukʼ$
+^xuchajij/*xuchajij$
+^,/,$
+^te/te$
+^kʼu/kʼu$
+^riʼ/riʼ$
+^xaq/xaq$
+^kʼate/kʼate$
+^xrilo/*xrilo$
+^chi/chi$
+^ri/ri$
+^laj/laj$
+^tzʼunun/tzʼunun$
+^xrapapik/x>rapap>ik$
+^,/,$
+^xrapapik/x>rapap>ik$
+^./.$
+
+# sent_id = cuentos:Ri_alaj_tz’unun.wiki:6
+# text = Ri ali Naʼ kakiʼkotik are taq xrilo chi le laj tzʼunun xbʼe pa uwiʼ le jeʼl taq kotzʼiʼj.
+# text[spa'] = Naʼ estaba feliz cuando vio a la chuparrosa pequeña que fue encima de las flores bonitas.
+# labels = complete
+^Ri/Ri$
+^ali/ali$
+^Naʼ/Naʼ$
+^kakiʼkotik/ka>kiʼkot>ik$
+^are/are$
+^taq/taq$
+^xrilo/x>r>il>o$
+^chi/chi$
+^le/le$
+^laj/laj$
+^tzʼunun/tzʼunun$
+^xbʼe/x>bʼe$
+^pa/pa$
+^uwiʼ/u>wiʼ$
+^le/le$
+^jeʼl/jeʼl$
+^taq/taq$
+^kotzʼiʼj/kotzʼiʼj$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:1
+# text = Pa jun jeʼl tijobʼal kutijoj ribʼ jun akʼal, ubʼiʼ Poʼx, utz kurilo ke pa tijobʼal ronojel taq qʼij.
+# text[spa'] = En una escuela bonita enseña a un niño, el nombre de Poʼx, bueno *kurilo a ellos en escuela todos los días.
+# labels = incomplete
+^Pa/Pa$
+^jun/jun$
+^jeʼl/jeʼl$
+^tijobʼal/tijobʼal$
+^kutijoj/*kutijoj$
+^ribʼ/r>ibʼ$
+^jun/jun$
+^akʼal/akʼal$
+^,/,$
+^ubʼiʼ/u>bʼiʼ$
+^Poʼx/Poʼx$
+^,/,$
+^utz/utz$
+^kurilo/*kurilo$
+^ke/k>e$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^ronojel/r>onojel$
+^taq/taq$
+^qʼij/qʼij$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:2
+# text = Ri ajtij rech ali Poʼx ubʼi Wiy Batz, kutaq che usikʼixik uwach wuj ronojel taq aqʼabʼ.
+# text[spa'] = El maestro a Poʼx de nombre *Wiy *Batz, envía a llamada a él libro todas las noches.
+# labels = incomplete
+^Ri/Ri$
+^ajtij/ajtij$
+^rech/rech/r>ech$
+^ali/ali$
+^Poʼx/Poʼx$
+^ubʼi/u>bʼi$
+^Wiy/*Wiy$
+^Batz/Batz$
+^,/,$
+^kutaq/*kutaq$
+^che/ch>e$
+^usikʼixik/u>sikʼixik$
+^uwach/u>wach$
+^wuj/wuj$
+^ronojel/r>onojel$
+^taq/taq$
+^aqʼabʼ/*aqʼabʼ$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:3
+# text = Kubʼij chech naʼl kabʼan che ri a tzʼibʼ.
+# text[spa'] =  Dice a esmero inventa a él el carta.
+# labels = incomplete
+^Kubʼij/*Kubʼij$
+^chech/ch>ech$
+^naʼl/naʼl$
+^kabʼan/*kabʼan$
+^che/ch>e$
+^ri/ri$
+^a/a$
+^tzʼibʼ/tzʼibʼ$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:4
+# text = Ri aliʼ Poʼx, utzalaj ajtijoxel, kʼax taj kubʼan che usikʼixik uwach wuj.
+# text[spa'] = El *aliʼ Poʼx, estudiante buenísimo, malo hace a llamada a libro.
+# labels = incomplete
+^Ri/Ri$
+^aliʼ/*aliʼ$
+^Poʼx/Poʼx$
+^,/,$
+^utzalaj/utzalaj/utz>alaj/u>tzalaj$
+^ajtijoxel/ajtijoxel$
+^,/,$
+^kʼax/kʼax$
+^taj/taj$
+^kubʼan/*kubʼan$
+^che/ch>e$
+^usikʼixik/u>sikʼixik$
+^uwach/u>wach$
+^wuj/wuj$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:5
+# text = Amaqʼel naʼl kubʼan chech ri utijoxik ribʼpa tijobʼal.
+# text[spa'] = *Amaqʼel esmero hace a la enseñanza *ribʼpa escuela.
+# labels = incomplete
+^Amaqʼel/Amaqʼel$
+^naʼl/naʼl$
+^kubʼan/*kubʼan$
+^chech/ch>ech$
+^ri/ri$
+^utijoxik/u>tijoxik$
+^ribʼpa/*ribʼpa$
+^tijobʼal/tijobʼal$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:6
+# text = Are chi xkʼistaj ri utijoxik ribʼ pa tijobʼal.
+# text[spa'] =  que acabó la enseñanza a él en escuela.
+# labels = incomplete
+^Are/Are$
+^chi/chi$
+^xkʼistaj/*xkʼistaj$
+^ri/ri$
+^utijoxik/u>tijoxik$
+^ribʼ/r>ibʼ$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:7
+# text = Xumaltyoxij che ri ajtij ronojel le xukʼut chi uwach.
+# text[spa'] =  dio gracias al maestro todo él que enseñó a él.
+# labels = incomplete
+^Xumaltyoxij/*Xumaltyoxij$
+^che/ch>e$
+^ri/ri$
+^ajtij/ajtij$
+^ronojel/r>onojel$
+^le/le$
+^xukʼut/*xukʼut$
+^chi/chi$
+^uwach/u>wach$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:8
+# text = Te kʼu riʼ xutzʼibʼaj ribʼ pa ri nimalaj tijobʼal rech Ajkuʼn.
+# text[spa'] = Ahora pero ése escribió a él en la escuela grande a él *Ajkuʼn.
+# labels = complete
+^Te/Te$
+^kʼu/kʼu$
+^riʼ/riʼ$
+^xutzʼibʼaj/x>u>tzʼibʼa>j$
+^ribʼ/r>ibʼ$
+^pa/pa$
+^ri/ri$
+^nimalaj/nim>alaj$
+^tijobʼal/tijobʼal$
+^rech/r>ech$
+^Ajkuʼn/Ajkuʼn$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:9
+# text = Xuchʼek ronojel le retamanik xpaqiʼk kʼa xkwʼinik xubʼan ajkun.
+# text[spa'] = *Xuchʼek todo él el *retamanik subió *kʼa *xkwʼinik hizo médico.
+# labels = incomplete
+^Xuchʼek/*Xuchʼek$
+^ronojel/r>onojel$
+^le/le$
+^retamanik/*retamanik$
+^xpaqiʼk/x>paqiʼ>k$
+^kʼa/kʼa$
+^xkwʼinik/*xkwʼinik$
+^xubʼan/*xubʼan$
+^ajkun/ajkun$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:10
+# text = Kamik xuwok jun ja jawchi ku kunaj eyowaʼibʼ rech ukomon.
+# text[spa'] = Ahora construyó una casa *jawchi *ku *kunaj *eyowaʼibʼ a iglesia.
+# labels = incomplete
+^Kamik/Kamik$
+^xuwok/*xuwok$
+^jun/jun$
+^ja/ja$
+^jawchi/*jawchi$
+^ku/*ku$
+^kunaj/*kunaj$
+^eyowaʼibʼ/*eyowaʼibʼ$
+^rech/rech/r>ech$
+^ukomon/u>komon$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:11
+# text = Sibʼalaj utz uchomabʼal jeʼl ku naʼoʼ kubʼan toqʼobʼ chikech le winaq.
+# text[spa'] = Mucho actitud bonita buena *ku *naʼoʼ hace piedad a la persona.
+# labels = incomplete
+^Sibʼalaj/Sibʼalaj$
+^utz/utz$
+^uchomabʼal/u>chomabʼal$
+^jeʼl/jeʼl$
+^ku/*ku$
+^naʼoʼ/*naʼoʼ$
+^kubʼan/*kubʼan$
+^toqʼobʼ/toqʼobʼ$
+^chikech/chi>k>ech$
+^le/le$
+^winaq/winaq$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:12
+# text = Kamik ri aliʼ Poʼx kubʼij chike le akʼalabʼ jix pa tijobʼal chitijoj iwibʼ, chi wetamaj ronojel le utzilal ekʼo pa taq le noʼj wuj.
+# text[spa'] = Ahora el *aliʼ Poʼx dice a los niños *jix en escuela enseñen a ustedes, a *wetamaj todo él la paz hay en las ideas de libro.
+# labels = incomplete
+^Kamik/Kamik$
+^ri/ri$
+^aliʼ/*aliʼ$
+^Poʼx/Poʼx$
+^kubʼij/*kubʼij$
+^chike/chi>k>e$
+^le/le$
+^akʼalabʼ/akʼal>abʼ$
+^jix/jix$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^chitijoj/*chitijoj$
+^iwibʼ/iw>ibʼ$
+^,/,$
+^chi/chi$
+^wetamaj/*wetamaj$
+^ronojel/r>onojel$
+^le/le$
+^utzilal/utzilal$
+^ekʼo/ekʼo$
+^pa/pa$
+^taq/taq$
+^le/le$
+^noʼj/noʼj$
+^wuj/wuj$
+^./.$
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:13
+# text = In kwaj kibʼan utzataq achiʼjabʼ, utzataq ixoqibʼ rech qa komon.
+# text[spa'] = Yo quiero que hagan *utzataq *achiʼjabʼ, *utzataq mujeres a él *qa comunidad.
+# labels = incomplete
+^In/In$
+^kwaj/k>w>aj$
+^kibʼan/*kibʼan$
+^utzataq/*utzataq$
+^achiʼjabʼ/*achiʼjabʼ$
+^,/,$
+^utzataq/*utzataq$
+^ixoqibʼ/ixoq>ibʼ$
+^rech/rech/r>ech$
+^qa/*qa$
+^komon/komon$
+^./.$
+
+# sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:1
+# text = Kʼo jumul jun achi qʼinom, xuchomaj kbʼe che jun waʼkatem, xuyaʼ kanoq ri qʼan taq pwaq rukʼ jun ukʼul ja, are chiʼ xtzalij uloq che le uwakatem.
+# text[spa'] = Hay vez un hombre rico, pensó va a una vuelta, dio los oros amarillos con un vecino, aquí volvió a él el *uwakatem.
+# labels = incomplete
+^Kʼo$
+^jumul/jumul$
+^jun/jun$
+^achi/achi$
+^qʼinom/qʼinom$
+^,/,$
+^xuchomaj/*xuchomaj$
+^kbʼe/k>bʼe/k>bʼe$
+^che/ch>e$
+^jun/jun$
+^waʼkatem/waʼkatem$
+^,/,$
+^xuyaʼ/*xuyaʼ$
+^kanoq/kan>oq$
+^ri/ri$
+^qʼan/qʼan$
+^taq/taq$
+^pwaq/pwaq$
+^rukʼ/r>ukʼ$
+^jun/jun$
+^ukʼul/u>kʼul$
+^ja/ja$
+^,/,$
+^are/are$
+^chiʼ/chiʼ$
+^xtzalij/x>tzalij$
+^uloq/uloq$
+^che/ch>e$
+^le/le$
+^uwakatem/*uwakatem$
+^./.$
+
+# sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:2
+# text = Xopan rukʼ le achi le uyaʼom le pwaq, are kʼu le achi xubʼij che ri ajchaqʼe ri meʼr.
+# text[spa'] =  Llegó con el hombre el dado el oro, pero el hombre dijo al dueño el *meʼr.
+# labels = incomplete
+^Xopan/X>opan$
+^rukʼ/r>ukʼ$
+^le/le$
+^achi/achi$
+^le/le$
+^uyaʼom/*uyaʼom$
+^le/le$
+^pwaq/pwaq$
+^,/,$
+^are/are$
+^kʼu/kʼu$
+^le/le$
+^achi/achi$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^ri/ri$
+^ajchaqʼe/ajchaqʼe$
+^ri/ri$
+^meʼr/*meʼr$
+^./.$
+
+# sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:3
+# text = Ala ri arajil xinkʼolo chuxeʼ ri wachoch, utz xinbʼan che.  
+# text[spa'] = Niño el dinero guardé abajo de la casa, bueno hice a él. 
+# labels = incomplete
+^Ala/Ala/Al>a/A>la$
+^ri/ri$
+^arajil/a>rajil$
+^xinkʼolo/*xinkʼolo$
+^chuxeʼ/ch>u>xeʼ$
+^ri/ri$
+^wachoch/w>achoch$
+^,/,$
+^utz/utz$
+^xinbʼan/*xinbʼan$
+^che/ch>e$
+^./.$  
+
+# sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:4
+# text = Te xinwilo xmekʼmobʼ ri ulew, xinxej wibʼ rumal waʼ xinqaj che resaxik ri ulew, kʼate xinwilo are le chʼo, xjuquchʼbʼik le arajil: -utz laʼ man katbʼison taj-, xcha ri achi che.
+# text[spa'] = Ahora vi *xmekʼmobʼ la tierra, *xinxej a mí por él éste presté a para quitarse la tierra, hasta vi la rata, *xjuquchʼbʼik el dinero: -bueno éste no estás triste -, eligió el hombre a él.
+# labels = incomplete
+^Te/Te$
+^xinwilo/*xinwilo$
+^xmekʼmobʼ/*xmekʼmobʼ$
+^ri/ri$
+^ulew/ulew$
+^,/,$
+^xinxej/*xinxej$
+^wibʼ/w>ibʼ$
+^rumal/r>umal$
+^waʼ/waʼ$
+^xinqaj/x>in>qaj$
+^che/ch>e$
+^resaxik/*resaxik$
+^ri/ri$
+^ulew/ulew$
+^,/,$
+^kʼate/kʼate$
+^xinwilo/*xinwilo$
+^are/are$
+^le/le$
+^chʼo/chʼo$
+^,/,$
+^xjuquchʼbʼik/*xjuquchʼbʼik$
+^le/le$
+^arajil/a>rajil$
+^:/:$
+^-/-$
+^utz/utz$
+^laʼ/laʼ$
+^man/man/m>an$
+^katbʼison/k>at>bʼison$
+^taj/taj$
+^-/-$
+^,/,$
+^xcha/x>cha$
+^ri/ri$
+^achi/achi$
+^che/ch>e$
+^./.$
+
+# sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:5
+# text = Nojim xel bʼik ri achi ajchaqʼe ri pwaq, xuyuqej bʼi ri jun jeʼlalaj kej rech ri ukʼul ja, yuqutal cho ri saq, xukʼam bʼi cho ri rachoch, kabʼison le ajchaqʼel ri kej xubʼij che ri ajchaqʼe ri pwaq: -xane xelaqʼaxbʼik ri nukej.
+# text[spa'] = Lento fue el hombre de dueño el oro, *xuyuqej el un *jeʼlalaj caballo al vecino, *yuqutal a él el blanco, recibió a la casa, está triste el *ajchaqʼel el caballo dijo al dueño el oro: -sino *xelaqʼaxbʼik el caballo.
+# labels = incomplete
+^Nojim/Nojim$
+^xel/x>el$
+^bʼik/bʼi>k$
+^ri/ri$
+^achi/achi$
+^ajchaqʼe/ajchaqʼe$
+^ri/ri$
+^pwaq/pwaq$
+^,/,$
+^xuyuqej/*xuyuqej$
+^bʼi/bʼi$
+^ri/ri$
+^jun/jun$
+^jeʼlalaj/*jeʼlalaj$
+^kej/kej$
+^rech/rech/r>ech$
+^ri/ri$
+^ukʼul/u>kʼul$
+^ja/ja$
+^,/,$
+^yuqutal/*yuqutal$
+^cho/cho/ch>o$
+^ri/ri$
+^saq/saq$
+^,/,$
+^xukʼam/*xukʼam$
+^bʼi/bʼi$
+^cho/cho/ch>o$
+^ri/ri$
+^rachoch/r>achoch$
+^,/,$
+^kabʼison/ka>bʼison$
+^le/le$
+^ajchaqʼel/*ajchaqʼel$
+^ri/ri$
+^kej/kej$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^ri/ri$
+^ajchaqʼe/ajchaqʼe$
+^ri/ri$
+^pwaq/pwaq$
+^:/:$
+^-/-$
+^xane/xane$
+^xelaqʼaxbʼik/*xelaqʼaxbʼik$
+^ri/ri$
+^nukej/nu>kej$
+^./.$
+
+# sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:6
+# text = Are le sotzʼ xkʼamow bʼik xuchixik rumal le achi 
+# text[spa'] =  el murciélago recibió *xuchixik por el hombre 
+# labels = incomplete
+^Are/Are$
+^le/le$
+^sotzʼ/sotzʼ$
+^xkʼamow/x>kʼamow$
+^bʼik/bʼi>k$
+^xuchixik/*xuchixik$
+^rumal/r>umal$
+^le/le$
+^achi/achi$ 
+
+# sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:7
+# text = -Jas che kabʼij chi are le sotzʼ. 
+# text[spa'] = -por qué pasado mañana al murciélago. 
+# labels = incomplete
+^-/-$
+^Jas/Jas$
+^che/ch>e$
+^kabʼij/*kabʼij$
+^chi/chi$
+^are/are$
+^le/le$
+^sotzʼ/sotzʼ$
+^./.$ 
+
+# sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:8
+# text = –Je xaq junam laʼ, rukʼ ri chʼo xkiquchʼ bʼik ri pwaq.
+# text[spa'] = –Como sólo igual éste, con la rata *xkiquchʼ el oro.
+# labels = incomplete
+^–/–$
+^Je/Je$
+^xaq/xaq$
+^junam/junam$
+^laʼ/laʼ$
+^,/,$
+^rukʼ/r>ukʼ$
+^ri/ri$
+^chʼo/chʼo$
+^xkiquchʼ/*xkiquchʼ$
+^bʼik/bʼi>k$
+^ri/ri$
+^pwaq/pwaq$
+^./.$
+
+# sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:9
+# text = Tekʼu riʼ xukʼexbʼej achi, xutzalij kan ri upwaq, ri areʼ xutzalij le ukej.
+# text[spa'] = *Tekʼu ése *xukʼexbʼej hombre, devolvió el oro, él devolvió el caballo.
+# labels = incomplete
+^Tekʼu/*Tekʼu$
+^riʼ/riʼ$
+^xukʼexbʼej/*xukʼexbʼej$
+^achi/achi$
+^,/,$
+^xutzalij/*xutzalij$
+^kan/kan/k>an$
+^ri/ri$
+^upwaq/u>pwaq$
+^,/,$
+^ri/ri$
+^areʼ/areʼ$
+^xutzalij/*xutzalij$
+^le/le$
+^ukej/u>kej$
+^./.$
+
+# sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:1
+# text = Kʼo jun mul jun imul xkʼistaj ukʼuʼx rumal che xaq tajin wi, xaq xuʼ cho taq uwach saq kpixkʼan wi, kʼo jun qʼij xuchomaj rumal che xril apan jun xik, sibʼalaj naj karapap chikaj. 
+# text[spa'] = Hay una vez un conejo acabó alma porque sólo , sólo *xuʼ a él a él blanco salta , hay un día pensó porque vio un cernícalo, mucho lejos vuela en el cielo. 
+# labels = incomplete
+^Kʼo$
+^jun/jun$
+^mul/mul/m>ul$
+^jun/jun$
+^imul/imul/i>mul$
+^xkʼistaj/*xkʼistaj$
+^ukʼuʼx/u>kʼuʼx$
+^rumal/r>umal$
+^che/ch>e$
+^xaq/xaq$
+^tajin/tajin$
+^wi/wi$
+^,/,$
+^xaq/xaq$
+^xuʼ/*xuʼ$
+^cho/cho/ch>o$
+^taq/taq$
+^uwach/u>wach$
+^saq/saq$
+^kpixkʼan/k>pixkʼan$
+^wi/wi$
+^,/,$
+^kʼo/kʼo$
+^jun/jun$
+^qʼij/qʼij$
+^xuchomaj/*xuchomaj$
+^rumal/r>umal$
+^che/ch>e$
+^xril/*xril$
+^apan/apan$
+^jun/jun$
+^xik/xik$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^naj/naj$
+^karapap/ka>rapap$
+^chikaj/chikaj$
+^./.$ 
+
+# sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:2
+# text = Xusikʼij apanoq xubʼij che: –xik, sibʼalaj utz akʼaslemal, rumal chi kʼa ajsik katropop wi.
+# text[spa'] =  Llamó dijo a él: –cernícalo, mucho vida buena, por él a *kʼa *ajsik *katropop .
+# labels = incomplete
+^Xusikʼij/*Xusikʼij$
+^apanoq/apan>oq$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^:/:$
+^–/–$
+^xik/xik$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^utz/utz$
+^akʼaslemal/a>kʼaslemal$
+^,/,$
+^rumal/r>umal$
+^chi/chi$
+^kʼa/kʼa$
+^ajsik/ajsik$
+^katropop/*katropop$
+^wi/wi$
+^./.$
+
+# sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:3
+# text = Ri xik xubʼij: –ma katbʼison taj, kuyaʼ katinkʼam bʼik wukʼ ajsik xaq xuwi chinakayej cho waqan.
+# text[spa'] = El cernícalo dijo: –no estás triste , da que recibo conmigo *ajsik sólo sólo muerde a pie.
+# labels = incomplete
+^Ri/Ri$
+^xik/xik$
+^xubʼij/*xubʼij$
+^:/:$
+^–/–$
+^ma/ma$
+^katbʼison/k>at>bʼison$
+^taj/taj$
+^,/,$
+^kuyaʼ/*kuyaʼ$
+^katinkʼam/*katinkʼam$
+^bʼik/bʼi>k$
+^wukʼ/w>ukʼ$
+^ajsik/ajsik$
+^xaq/xaq$
+^xuwi/xuwi$
+^chinakayej/*chinakayej$
+^cho/cho/ch>o$
+^waqan/w>aqan$
+^./.$
+
+# sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:4
+# text = Ri imul xubʼij: –maltyox chawe, we kabʼan ri toqʼobʼ, chakuyuʼ kinkaʼy apan jutzʼit ajsik, xchaʼ ri imul.
+# text[spa'] = El conejo dijo: –gracias a ti, si inventa la piedad, soporta que miro pedazo *ajsik, el conejo eligió .
+# labels = incomplete
+^Ri/Ri$
+^imul/imul/i>mul$
+^xubʼij/*xubʼij$
+^:/:$
+^–/–$
+^maltyox/maltyox$
+^chawe/ch>aw>e$
+^,/,$
+^we/we/w>e$
+^kabʼan/*kabʼan$
+^ri/ri$
+^toqʼobʼ/toqʼobʼ$
+^,/,$
+^chakuyuʼ/*chakuyuʼ$
+^kinkaʼy/k>in>kaʼy$
+^apan/apan$
+^jutzʼit/jutzʼit$
+^ajsik/ajsik$
+^,/,$
+^xchaʼ/x>chaʼ$
+^ri/ri$
+^imul/imul/i>mul$
+^./.$
+
+# sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:5
+# text = Xkʼam ri imul ajsik, are taq xkaʼy uloq chikaj, sutut uwach, xtzaq uloq rumal.
+# text[spa'] =  se Recibió el conejo *ajsik, cuando miró en el cielo, *sutut a él, cayó por él.
+# labels = incomplete
+^Xkʼam/*Xkʼam$
+^ri/ri$
+^imul/imul/i>mul$
+^ajsik/ajsik$
+^,/,$
+^are/are$
+^taq/taq$
+^xkaʼy/x>kaʼy$
+^uloq/uloq$
+^chikaj/chikaj$
+^,/,$
+^sutut/*sutut$
+^uwach/u>wach$
+^,/,$
+^xtzaq/x>tzaq$
+^uloq/uloq$
+^rumal/r>umal$
+^./.$
+
+# sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:6
+# text = Pixabʼri kakʼut chaqe: man xaq ta urayixik jun jasach ri man taqal ta chaqe, chujmaltyoxinoq jas le qabʼantajik.
+# text[spa'] = *Pixabʼri se enseña a nosotros: no sólo quererse una cosa el no *taqal a nosotros, demos gracias qué el ser.
+# labels = incomplete
+^Pixabʼri/*Pixabʼri$
+^kakʼut/*kakʼut$
+^chaqe/ch>aq>e$
+^:/:$
+^man/man/m>an$
+^xaq/xaq$
+^ta/ta$
+^urayixik/*urayixik$
+^jun/jun$
+^jasach/*jasach$
+^ri/ri$
+^man/man/m>an$
+^taqal/taqal$
+^ta/ta$
+^chaqe/ch>aq>e$
+^,/,$
+^chujmaltyoxinoq/ch>uj>maltyoxin>oq/ch>uj>maltyoxi>n>oq$
+^jas/jas$
+^le/le$
+^qabʼantajik/qa>bʼantajik$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:1
+# text = Xkʼulmataj pa jun Komon chiʼ uwach jun juyubʼ, xuriqa jun qʼij xkiriq kibʼ jun imul rukʼ le kok.
+# text[spa'] =  Pasó en un Todo aquí a un monte, encontró un día encontraron a un conejo con la tortuga.
+# labels = incomplete
+^Xkʼulmataj/*Xkʼulmataj$
+^pa/pa$
+^jun/jun$
+^Komon/Komon$
+^chiʼ/chiʼ$
+^uwach/u>wach$
+^jun/jun$
+^juyubʼ/juyubʼ$
+^,/,$
+^xuriqa/*xuriqa$
+^jun/jun$
+^qʼij/qʼij$
+^xkiriq/*xkiriq$
+^kibʼ/k>ibʼ$
+^jun/jun$
+^imul/imul/i>mul$
+^rukʼ/r>ukʼ$
+^le/le$
+^kok/k>ok$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:2
+# text = Xpe le imul xubʼij che le kok rech kakitzaq anim.
+# text[spa'] =  Vino el conejo dijo a la tortuga para pierden prisa.
+# labels = incomplete
+^Xpe/X>pe$
+^le/le$
+^imul/imul/i>mul$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^le/le$
+^kok/k>ok$
+^rech/rech/r>ech$
+^kakitzaq/*kakitzaq$
+^anim/anim$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:3
+# text = Le imul xubʼij: kok, katkowin taj katzaq anim, nojim katbʼinik.
+# text[spa'] = El conejo dijo: entra , puedes cae prisa, lento andas .
+# labels = incomplete
+^Le/Le$
+^imul/imul/i>mul$
+^xubʼij/*xubʼij$
+^:/:$
+^kok/k>ok$
+^,/,$
+^katkowin/k>at>kowin$
+^taj/taj$
+^katzaq/ka>tzaq$
+^anim/anim$
+^,/,$
+^nojim/nojim$
+^katbʼinik/k>at>bʼin>ik/k>at>bʼi>n>ik$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:4
+# text = Qastzij xcha ri kok, in nojim kinbʼinik.
+# text[spa'] = Verdadero eligió la tortuga, yo lento ando .
+# labels = incomplete
+^Qastzij/Qastzij$
+^xcha/x>cha$
+^ri/ri$
+^kok/k>ok$
+^,/,$
+^in/in$
+^nojim/nojim$
+^kinbʼinik/k>in>bʼin>ik/k>in>bʼi>n>ik$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:5
+# text = Xa kʼu kinbʼij chawe chi in kinchʼak ri anim.
+# text[spa'] = Sólo pero digo a ti a yo conquisto la prisa.
+# labels = incomplete
+^Xa/Xa$
+^kʼu/kʼu$
+^kinbʼij/*kinbʼij$
+^chawe/ch>aw>e$
+^chi/chi$
+^in/in$
+^kinchʼak/k>in>chʼa>k$
+^ri/ri$
+^anim/anim$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:6
+# text = Xpe ri imul xutzeʼj uwach ri kok, xkiyuk bʼa kʼibʼ le kebʼ awajibʼ rech kel che anim.
+# text[spa'] =  Vino el conejo se rio a la tortuga, *xkiyuk a ellos el dos animales para va a prisa.
+# labels = incomplete
+^Xpe/X>pe$
+^ri/ri$
+^imul/imul/i>mul$
+^xutzeʼj/*xutzeʼj$
+^uwach/u>wach$
+^ri/ri$
+^kok/k>ok$
+^,/,$
+^xkiyuk/*xkiyuk$
+^bʼa/bʼa$
+^kʼibʼ/kʼ>ibʼ$
+^le/le$
+^kebʼ/kebʼ$
+^awajibʼ/awaj>ibʼ$
+^rech/rech/r>ech$
+^kel/k>el$
+^che/ch>e$
+^anim/anim$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:7
+# text = Ri kʼamal bʼe xubʼij chike, chimaja ri anim.
+# text[spa'] = La guía dijo a ellos, la prisa agarren.
+# labels = complete
+^Ri/Ri$
+^kʼamal/kʼamal$
+^bʼe/bʼe$
+^xubʼij/x>u>bʼij$
+^chike/chi>k>e$
+^,/,$
+^chimaja/ch>i>maja$
+^ri/ri$
+^anim/anim$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:8
+# text = Ri imul xumaj ri anim, xuya kan le kok.
+# text[spa'] = El conejo agarró la prisa, la tortuga dio.
+# labels = incomplete
+^Ri/Ri$
+^imul/imul/i>mul$
+^xumaj/*xumaj$
+^ri/ri$
+^anim/anim$
+^,/,$
+^xuya/*xuya$
+^kan/kan/k>an$
+^le/le$
+^kok/k>ok$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:9
+# text = Ri kok nojim xbʼek, xuchʼijo xopan pa ukʼisbʼalil le anim.
+# text[spa'] = La tortuga lenta fue , sufrió llegó en el fin de la prisa.
+# labels = incomplete
+^Ri/Ri$
+^kok/k>ok$
+^nojim/nojim$
+^xbʼek/x>bʼe>k$
+^,/,$
+^xuchʼijo/*xuchʼijo$
+^xopan/x>opan$
+^pa/pa$
+^ukʼisbʼalil/u>kʼisbʼalil$
+^le/le$
+^anim/anim$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:10
+# text = Ri imul xuchʼij taj, xkanaj pa bʼe, rumal ri nimal kujaluj ri imul, xutzaq ri anim.
+# text[spa'] = El conejo sufrió, quedó en senda, por él el jefe finge el conejo, la prisa perdió.
+# labels = incomplete
+^Ri/Ri$
+^imul/imul/i>mul$
+^xuchʼij/*xuchʼij$
+^taj/taj$
+^,/,$
+^xkanaj/x>kanaj$
+^pa/pa$
+^bʼe/bʼe$
+^,/,$
+^rumal/r>umal$
+^ri/ri$
+^nimal/nimal$
+^kujaluj/*kujaluj$
+^ri/ri$
+^imul/imul/i>mul$
+^,/,$
+^xutzaq/*xutzaq$
+^ri/ri$
+^anim/anim$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:11
+# text = Pixabʼ: man utz taj kʼax kujchʼaw chikij nikʼaj qachil.
+# text[spa'] = Ley: no bueno malo hablamos atrásde amigo otro.
+# labels = incomplete
+^Pixabʼ/Pixabʼ$
+^:/:$
+^man/man/m>an$
+^utz/utz$
+^taj/taj$
+^kʼax/kʼax$
+^kujchʼaw/k>uj>chʼaw$
+^chikij/chi>k>ij$
+^nikʼaj/nikʼaj$
+^qachil/q>achil$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:12
+# text = Kqabʼij man kekowin taj.
+# text[spa'] = Decimos que no pueden.
+# labels = complete
+^Kqabʼij/K>qa>bʼij$
+^man/man$
+^kekowin/k>e>kowin$
+^taj/taj$
+^./.$
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:13
+# text = Xa rajawaxik kqatoʼ qibʼ pa qakʼaslemal.
+# text[spa'] = Sólo necesario ayudamos a nosotros en vida.
+# labels = incomplete
+^Xa/Xa$
+^rajawaxik/rajawaxik$
+^kqatoʼ/*kqatoʼ$
+^qibʼ/q>ibʼ$
+^pa/pa$
+^qakʼaslemal/qa>kʼaslemal$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:1
+# text = Ri komon Xechpup rech uqʼabʼ tinamit Xoʼl Abʼaj rech Qʼumarkaj.
+# text[spa'] = La comunidad Xechpup a él mano tierra *Xoʼl *Abʼaj a él *Qʼumarkaj.
+# labels = incomplete
+^Ri/Ri$
+^komon/komon$
+^Xechpup/Xechpup$
+^rech/rech/r>ech$
+^uqʼabʼ/*uqʼabʼ$
+^tinamit/tinamit$
+^Xoʼl/Xoʼl$
+^Abʼaj/*Abʼaj$
+^rech/rech/r>ech$
+^Qʼumarkaj/*Qʼumarkaj$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:2
+# text = Kʼo chik kʼi ujunabʼ che tiktajnaq kanoq, nabʼe kikibʼij ri qatiʼt qamam kʼota tijobʼal, xuqujeʼ kʼot Tyox ja.
+# text[spa'] = Hay ya año mucho a él *tiktajnaq , primero dicen la abuela de abuelo *kʼota escuela, también *kʼot Santo casa.
+# labels = incomplete
+^Kʼo$
+^chik/chik$
+^kʼi/kʼi$
+^ujunabʼ/u>junabʼ$
+^che/ch>e$
+^tiktajnaq/*tiktajnaq$
+^kanoq/kan>oq$
+^,/,$
+^nabʼe/nabʼe$
+^kikibʼij/*kikibʼij$
+^ri/ri$
+^qatiʼt/q>atiʼt$
+^qamam/qa>mam$
+^kʼota/*kʼota$
+^tijobʼal/tijobʼal$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^kʼot/*kʼot$
+^Tyox/Tyox$
+^ja/ja$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:3
+# text = Xa chuxeʼ jun cheʼ ubʼi Bʼaqay, kabʼan wi ri chakitebʼkakoj che chʼabʼal.
+# text[spa'] = Sólo abajo de un árbol de nombre *Bʼaqay, inventa el *chakitebʼkakoj a idioma.
+# labels = incomplete
+^Xa/Xa$
+^chuxeʼ/ch>u>xeʼ$
+^jun/jun$
+^cheʼ/cheʼ$
+^ubʼi/u>bʼi$
+^Bʼaqay/*Bʼaqay$
+^,/,$
+^kabʼan/*kabʼan$
+^wi/wi$
+^ri/ri$
+^chakitebʼkakoj/*chakitebʼkakoj$
+^che/ch>e$
+^chʼabʼal/chʼabʼal$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:4
+# text = Ri winaq rech ri ojer komon xikel taj ri uwach wuj, xuqujeʼ kʼot ubʼe chʼichʼ, kʼot kaxlan qʼaqʼ, kʼot chʼabʼal rech kaloqʼ sutaq ke.
+# text[spa'] = La persona a él el antes comunidad *xikel el a libro, también *kʼot senda coche, *kʼot fuego extranjero, *kʼot idioma a él compras cosas a ellos.
+# labels = incomplete
+^Ri/Ri$
+^winaq/winaq$
+^rech/rech/r>ech$
+^ri/ri$
+^ojer/ojer$
+^komon/komon$
+^xikel/*xikel$
+^taj/taj$
+^ri/ri$
+^uwach/u>wach$
+^wuj/wuj$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^kʼot/*kʼot$
+^ubʼe/u>bʼe$
+^chʼichʼ/chʼichʼ$
+^,/,$
+^kʼot/*kʼot$
+^kaxlan/kaxlan$
+^qʼaqʼ/qʼaqʼ$
+^,/,$
+^kʼot/*kʼot$
+^chʼabʼal/chʼabʼal$
+^rech/rech/r>ech$
+^kaloqʼ/*kaloqʼ$
+^sutaq/sutaq$
+^ke/k>e$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:5
+# text = Jun achi ubʼi Kuʼ xusipaj kebʼ kʼaʼm ulew rech kabʼan ri tijobʼal, kamik, kʼo chik ajtij rech ri komon Xechpup.
+# text[spa'] = Un hombre el nombre de Kuʼ regaló dos cuerda tierra para inventa la escuela, ahora, hay ya maestro a él la comunidad Xechpup.
+# labels = incomplete
+^Jun/Jun/Jun$
+^achi/achi$
+^ubʼi/u>bʼi$
+^Kuʼ/Kuʼ$
+^xusipaj/*xusipaj$
+^kebʼ/kebʼ$
+^kʼaʼm/kʼaʼm$
+^ulew/ulew$
+^rech/rech/r>ech$
+^kabʼan/*kabʼan$
+^ri/ri$
+^tijobʼal/tijobʼal$
+^,/,$
+^kamik/kamik$
+^,/,$
+^kʼo/kʼo$
+^chik/chik$
+^ajtij/ajtij$
+^rech/rech/r>ech$
+^ri/ri$
+^komon/komon$
+^Xechpup/Xechpup$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:6
+# text = Le ajtij Lol, xuqujeʼ xutijoj ribʼ rech ajpop.
+# text[spa'] = El maestro de Grillo, también enseñó a él a rey.
+# labels = incomplete
+^Le/Le$
+^ajtij/ajtij$
+^Lol/Lol/Lol$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^xutijoj/*xutijoj$
+^ribʼ/r>ibʼ$
+^rech/rech/r>ech$
+^ajpop/ajpop$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:7
+# text = We kamik kʼo chik Tyox ja, xuqujeʼ kʼo chik kaxlan qʼaqʼ.
+# text[spa'] = Este ahora hay ya Santo casa, también hay ya fuego extranjero.
+# labels = incomplete
+^We/We/W>e$
+^kamik/kamik$
+^kʼo/kʼo$
+^chik/chik$
+^Tyox/Tyox$
+^ja/ja$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^kʼo/kʼo$
+^chik/chik$
+^kaxlan/kaxlan$
+^qʼaqʼ/qʼaqʼ$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:8
+# text = Xuquje kʼo chik utz taq ja, kebʼal tzi, chʼichʼ kʼamal winaq.
+# text[spa'] = También hay ya casas buenas, *kebʼal *tzi, coche raíz persona.
+# labels = incomplete
+^Xuquje/Xuquje$
+^kʼo/kʼo$
+^chik/chik$
+^utz/utz$
+^taq/taq$
+^ja/ja$
+^,/,$
+^kebʼal/*kebʼal$
+^tzi/tzi$
+^,/,$
+^chʼichʼ/chʼichʼ$
+^kʼamal/kʼamal$
+^winaq/winaq$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:9
+# text = Ri alabʼom ri alitomabʼ tajin kikitijoj kibʼ rech sutaq, are kakaj kikibʼan nimaq achijabʼ chupam ri kikʼaslemal, xuquje kʼo chik jupuq bʼixonel chupam ri komon.
+# text[spa'] = El muchacho las muchachas están enseñando a ellos a cosas, quieren hacen hombres grandes adentro de la vida, también hay ya basura cantante adentro de la comunidad.
+# labels = incomplete
+^Ri/Ri$
+^alabʼom/alabʼom$
+^ri/ri$
+^alitomabʼ/alitom>abʼ$
+^tajin/tajin$
+^kikitijoj/*kikitijoj$
+^kibʼ/k>ibʼ$
+^rech/rech/r>ech$
+^sutaq/sutaq$
+^,/,$
+^are/are$
+^kakaj/*kakaj$
+^kikibʼan/*kikibʼan$
+^nimaq/nim>aq$
+^achijabʼ/achij>abʼ$
+^chupam/ch>u>pam$
+^ri/ri$
+^kikʼaslemal/ki>kʼaslemal$
+^,/,$
+^xuquje/xuquje$
+^kʼo/kʼo$
+^chik/chik$
+^jupuq/jupuq$
+^bʼixonel/*bʼixonel$
+^chupam/ch>u>pam$
+^ri/ri$
+^komon/komon$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:10
+# text = Jun xusipaj ri Juʼl Perez, sibʼalaj nim chikiwach ri winaqibʼ rech ri komon.
+# text[spa'] = Un regaló Juʼl Pérez, mucho grande a ellos las personas a la comunidad.
+# labels = incomplete
+^Jun/Jun/Jun$
+^xusipaj/*xusipaj$
+^ri/ri$
+^Juʼl/Juʼl$
+^Perez/Perez$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^nim/nim$
+^chikiwach/chi>ki>wach$
+^ri/ri$
+^winaqibʼ/winaq>ibʼ$
+^rech/rech/r>ech$
+^ri/ri$
+^komon/komon$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:11
+# text = Kʼo chik jun ja rech kekunax ri yabʼ taq winaq.
+# text[spa'] = Hay ya una casa a él las personas enfermas están curado .
+# labels = incomplete
+^Kʼo$
+^chik/chik$
+^jun/jun$
+^ja/ja$
+^rech/rech/r>ech$
+^kekunax/k>e>kunax$
+^ri/ri$
+^yabʼ/yabʼ$
+^taq/taq$
+^winaq/winaq$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:12
+# text = Nim chak xbʼan chiʼ rumal sibʼalaj kabʼe kikʼuʼx che rutzilal le komon.
+# text[spa'] = trabajo Grande masticó aquí por él mucho va alma a la paz de la comunidad.
+# labels = incomplete
+^Nim/Nim$
+^chak/chak$
+^xbʼan/*xbʼan$
+^chiʼ/chiʼ$
+^rumal/r>umal$
+^sibʼalaj/sibʼalaj$
+^kabʼe/ka>bʼe$
+^kikʼuʼx/ki>kʼuʼx$
+^che/ch>e$
+^rutzilal/r>utzilal$
+^le/le$
+^komon/komon$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:13
+# text = Pa ri komon areʼ ekʼi winaqibʼ kichʼaw pa chʼabʼal kʼicheʼ, xuquje ekʼo le mosibʼ kichʼaw pa kaxlan tzij.
+# text[spa'] = En la comunidad él personas muchas chirimía en idioma quiché, también hay el *mosibʼ chirimía en palabra extranjera.
+# labels = incomplete
+^Pa/Pa$
+^ri/ri$
+^komon/komon$
+^areʼ/areʼ$
+^ekʼi/ekʼi$
+^winaqibʼ/winaq>ibʼ$
+^kichʼaw/k>i>chʼaw$
+^pa/pa$
+^chʼabʼal/chʼabʼal$
+^kʼicheʼ/kʼicheʼ$
+^,/,$
+^xuquje/xuquje$
+^ekʼo/ekʼo$
+^le/le$
+^mosibʼ/mos>ibʼ$
+^kichʼaw/k>i>chʼaw$
+^pa/pa$
+^kaxlan/kaxlan$
+^tzij/tzij$
+^./.$
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:14
+# text = Ri komon Xechpup, sibʼalaj siwan kʼo pa ri ulew, chi uxeʼ kikʼow jun nim jaʼ xuqujeʼ kikʼow bʼeyaʼ pataq nikʼaj. 
+# text[spa'] = La comunidad Xechpup, mucho barranco hay en la tierra, abajo él *kikʼow una agua grande también *kikʼow valle *pataq otro. 
+# labels = incomplete
+^Ri/Ri$
+^komon/komon$
+^Xechpup/Xechpup$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^siwan/siwan$
+^kʼo/kʼo$
+^pa/pa$
+^ri/ri$
+^ulew/ulew$
+^,/,$
+^chi/chi$
+^uxeʼ/u>xeʼ$
+^kikʼow/*kikʼow$
+^jun/jun$
+^nim/nim$
+^jaʼ/jaʼ$
+^xuqujeʼ/xuqujeʼ$
+^kikʼow/*kikʼow$
+^bʼeyaʼ/*bʼeyaʼ$
+^pataq/*pataq$
+^nikʼaj/nikʼaj$
+^./.$ 
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:15
+# text = Are waʼ ronojel kikibʼij che ri komon Xechpup.
+# text[spa'] =  éste todo él dicen a la comunidad Xechpup.
+# labels = incomplete
+^Are/Are$
+^waʼ/waʼ$
+^ronojel/r>onojel$
+^kikibʼij/*kikibʼij$
+^che/ch>e$
+^ri/ri$
+^komon/komon$
+^Xechpup/Xechpup$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:1
+# text = Pa jun nim kʼacheʼlaj, kʼo jun kʼwaʼ sibʼalaj saqloloj, nim uwach.
+# text[spa'] = En un bosque grande, hay un pozo mucho blanco, grande a él.
+# labels = incomplete
+^Pa/Pa$
+^jun/jun$
+^nim/nim$
+^kʼacheʼlaj/kʼacheʼlaj$
+^,/,$
+^kʼo/kʼo$
+^jun/jun$
+^kʼwaʼ/kʼwaʼ/kʼ>waʼ$
+^sibʼalaj/sibʼalaj$
+^saqloloj/saqloloj$
+^,/,$
+^nim/nim$
+^uwach/u>wach$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:2
+# text = Le tat Juʼl, kel ukʼuʼx chech kuchajij, kurilij ronojel taq qʼij.
+# text[spa'] = Juʼl, va alma a para #cuidar, *kurilij todos los días.
+# labels = incomplete
+^Le/Le$
+^tat/tat$
+^Juʼl/Juʼl$
+^,/,$
+^kel/k>el$
+^ukʼuʼx/u>kʼuʼx$
+^chech/ch>ech$
+^kuchajij/*kuchajij$
+^,/,$
+^kurilij/*kurilij$
+^ronojel/r>onojel$
+^taq/taq$
+^qʼij/qʼij$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:3
+# text = Jun uwiʼ umam ubʼiʼ Akel Bʼatzʼ xutaʼ chech: -watiʼt, jas urilixik ri kʼwaʼ.
+# text[spa'] = Un encima él abuelo nombre *Akel Mono pidió a él: -abuela, qué *urilixik el pozo.
+# labels = incomplete
+^Jun/Jun/Jun$
+^uwiʼ/u>wiʼ$
+^umam/u>mam$
+^ubʼiʼ/u>bʼiʼ$
+^Akel/*Akel$
+^Bʼatzʼ/*Bʼatzʼ$
+^xutaʼ/*xutaʼ$
+^chech/ch>ech$
+^:/:$
+^-/-$
+^watiʼt/w>atiʼt$
+^,/,$
+^jas/jas$
+^urilixik/*urilixik$
+^ri/ri$
+^kʼwaʼ/kʼwaʼ/kʼ>waʼ$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:4
+# text = Ri tat Juʼl xubʼij chech ri akʼal: -rajawaxik ktik kʼitaq cheʼ chi uchiʼ taq ri kʼwaʼ, chi uxukut, xuqujeʼ maj mes kkʼyaq bʼik chi upam.
+# text[spa'] = Juʼl dijo al niño: -necesario se siembra *kʼitaq árbol a orilla los pozos, a *uxukut, también no *mes se tira adentro él.
+# labels = incomplete
+^Ri/Ri$
+^tat/tat$
+^Juʼl/Juʼl$
+^xubʼij/*xubʼij$
+^chech/ch>ech$
+^ri/ri$
+^akʼal/akʼal$
+^:/:$
+^-/-$
+^rajawaxik/rajawaxik$
+^ktik/*ktik$
+^kʼitaq/*kʼitaq$
+^cheʼ/cheʼ$
+^chi/chi$
+^uchiʼ/u>chiʼ$
+^taq/taq$
+^ri/ri$
+^kʼwaʼ/kʼwaʼ/kʼ>waʼ$
+^,/,$
+^chi/chi$
+^uxukut/*uxukut$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^maj/maj$
+^mes/mes$
+^kkʼyaq/*kkʼyaq$
+^bʼik/bʼi>k$
+^chi/chi$
+^upam/u>pam$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:5
+# text = We kechajix taq le kʼwa jacha kinbʼij; junalik kʼo jaʼ xuqujeʼ sibʼalaj saqloloj.
+# text[spa'] = Este se cuidan las comidas como digo; eterno hay agua también mucho blanco.
+# labels = incomplete
+^We/We/W>e$
+^kechajix/*kechajix$
+^taq/taq$
+^le/le$
+^kʼwa/kʼ>wa$
+^jacha/jacha$
+^kinbʼij/*kinbʼij$
+^;/;$
+^junalik/junalik$
+^kʼo/kʼo$
+^jaʼ/jaʼ$
+^xuqujeʼ/xuqujeʼ$
+^sibʼalaj/sibʼalaj$
+^saqloloj/saqloloj$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:6
+# text = Ri a Kel xkikot ri ranimaʼ, xuto ri xubʼij ri ratiʼt chech.
+# text[spa'] = El Va estuvo feliz la ánima, ayudó que dijo la abuela a él.
+# labels = incomplete
+^Ri/Ri$
+^a/a$
+^Kel/K>el$
+^xkikot/x>kikot$
+^ri/ri$
+^ranimaʼ/r>animaʼ$
+^,/,$
+^xuto/*xuto$
+^ri/ri$
+^xubʼij/*xubʼij$
+^ri/ri$
+^ratiʼt/r>atiʼt$
+^chech/ch>ech$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:7
+# text = Ri tat Juʼl rachiʼl ri uwiʼ umam kakitik cheʼ pa taq le juyubʼ.
+# text[spa'] = Juʼl de amigo el encima él abuelo siembran árbol en los montes.
+# labels = incomplete
+^Ri/Ri$
+^tat/tat$
+^Juʼl/Juʼl$
+^rachiʼl/r>achiʼl$
+^ri/ri$
+^uwiʼ/u>wiʼ$
+^umam/u>mam$
+^kakitik/*kakitik$
+^cheʼ/cheʼ$
+^pa/pa$
+^taq/taq$
+^le/le$
+^juyubʼ/juyubʼ$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:8
+# text = Are utz we chirij taq jawi kʼo taq le kʼwaʼ.
+# text[spa'] =  bueno si atrás él dónde hay los pozos.
+# labels = incomplete
+^Are/Are$
+^utz/utz$
+^we/we/w>e$
+^chirij/chi>r>ij$
+^taq/taq$
+^jawi/jawi$
+^kʼo/kʼo$
+^taq/taq$
+^le/le$
+^kʼwaʼ/kʼwaʼ/kʼ>waʼ$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:9
+# text = Xkibʼij chike le winaq man kakitzaq ta mes pa taq kʼacheʼlaj, xuqujeʼ chi taq le kʼwaʼ, nim kkiloqʼisaj ri jaʼ.
+# text[spa'] =  Dijeron a ellos la persona no pierden *mes en bosques, también a los pozos, grande *kkiloqʼisaj el agua.
+# labels = incomplete
+^Xkibʼij/*Xkibʼij$
+^chike/chi>k>e$
+^le/le$
+^winaq/winaq$
+^man/man/m>an$
+^kakitzaq/*kakitzaq$
+^ta/ta$
+^mes/mes$
+^pa/pa$
+^taq/taq$
+^kʼacheʼlaj/kʼacheʼlaj$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^chi/chi$
+^taq/taq$
+^le/le$
+^kʼwaʼ/kʼwaʼ/kʼ>waʼ$
+^,/,$
+^nim/nim$
+^kkiloqʼisaj/*kkiloqʼisaj$
+^ri/ri$
+^jaʼ/jaʼ$
+^./.$
+
+# sent_id = cuentos:Ri_k’wa’.wiki:10
+# text = Xa rumal ketaʼm konojel ri winaq kkiqumuj le jaʼ. 
+# text[spa'] = Sólo por él supieron todo ellos las personas beben el agua. 
+# labels = incomplete
+^Xa/Xa$
+^rumal/r>umal$
+^ketaʼm/k>etaʼm$
+^konojel/k>onojel$
+^ri/ri$
+^winaq/winaq$
+^kkiqumuj/*kkiqumuj$
+^le/le$
+^jaʼ/jaʼ$
+^./.$ 
+
+# sent_id = cuentos:Ri_k’wa’.wiki:11
+# text = Qachajij bʼaʼ rumal qonojel kkikojo, nim kupatanij pa le uwachulew. 
+# text[spa'] = *Qachajij por él todo nosotros ponen, grande sirve en el mundo. 
+# labels = incomplete
+^Qachajij/*Qachajij$
+^bʼaʼ/bʼaʼ$
+^rumal/r>umal$
+^qonojel/q>onojel$
+^kkikojo/*kkikojo$
+^,/,$
+^nim/nim$
+^kupatanij/*kupatanij$
+^pa/pa$
+^le/le$
+^uwachulew/uwachulew$
+^./.$ 
+
+# sent_id = cuentos:Ri_Paxkwal.wiki:1
+# text = Pa jun komon ubʼi Tukan Cheʼ (Palomora) re tinimit Trix Xeʼkʼul re Chwimiqʼenaʼ, kariqitaj jun nitzʼ, nitzʼ achiʼ ubʼi Paxkwal, wa we jun laj nitzʼ achi, kareqaj jun ukʼoʼx, rech kʼolibʼal utzam. 
+# text[spa'] = En un nombre todo de Mora de Árbol (*Palomora) a tierra *Trix se Encontró a él *Chwimiqʼenaʼ, encuentra un pequeño, hombre pequeño nombre *Paxkwal, comida un hombre pequeño pequeño, lleva un *ukʼoʼx, a él lugar licor. 
+# labels = incomplete
+^Pa/Pa$
+^jun/jun$
+^komon/komon$
+^ubʼi/u>bʼi$
+^Tukan/Tukan$
+^Cheʼ/Cheʼ$
+^(/($
+^Palomora/*Palomora$
+^)/)$
+^re/r>e$
+^tinimit/tinimit$
+^Trix/Trix$
+^Xeʼkʼul/X>eʼ>kʼul$
+^re/r>e$
+^Chwimiqʼenaʼ/*Chwimiqʼenaʼ$
+^,/,$
+^kariqitaj/*kariqitaj$
+^jun/jun$
+^nitzʼ/nitzʼ$
+^,/,$
+^nitzʼ/nitzʼ$
+^achiʼ/achiʼ/a>chiʼ$
+^ubʼi/u>bʼi$
+^Paxkwal/*Paxkwal$
+^,/,$
+^wa/wa$
+^we/we/w>e$
+^jun/jun$
+^laj/laj$
+^nitzʼ/nitzʼ$
+^achi/achi$
+^,/,$
+^kareqaj/*kareqaj$
+^jun/jun$
+^ukʼoʼx/u>kʼoʼx$
+^,/,$
+^rech/rech/r>ech$
+^kʼolibʼal/kʼolibʼal$
+^utzam/u>tzam$
+^./.$ 
+
+# sent_id = cuentos:Ri_Paxkwal.wiki:2
+# text = Are wa ri nitzʼ achi kawakat cho taq le panibʼal, katzijoxik chi are taq kebʼe le achijabʼ pa taq kichak, te kuriʼ kixoqilal kekanaj kan kitukel cho taq kachoch, xaneʼ kuriqa nikʼaj qʼij kopan le laj chi, che kibʼochixik, xopan rukʼ jun ixoq ubʼi Xper, are chiʼ tajin kakeʼnik chi uwach ri ukaʼ, tajin kuchaʼq ri uqʼor, kʼate xrilo, xok biʼ rukʼ; jun laj achi, tekʼuriʼ xtijon rukʼ: la at kʼolik ali xchaʼ che…
+# text[spa'] =  comida el hombre pequeño *kawakat a él el *panibʼal, se cuenta a cuando van los hombres en trabajos, ahora *kuriʼ *kixoqilal quedan *kitukel a casas, sino encuentra día otro llega el pequeño a, a él *kibʼochixik, llegó con una mujer de nombre Elisabet, aquí muele a la muela, *kuchaʼq el *uqʼor, hasta vio, entró nombre con él; un hombre pequeño, y enseñó con él: tú hay niña eligió a él…
+# labels = incomplete
+^Are/Are$
+^wa/wa$
+^ri/ri$
+^nitzʼ/nitzʼ$
+^achi/achi$
+^kawakat/*kawakat$
+^cho/cho/ch>o$
+^taq/taq$
+^le/le$
+^panibʼal/panibʼal$
+^,/,$
+^katzijoxik/ka>tzijo>x>ik$
+^chi/chi$
+^are/are$
+^taq/taq$
+^kebʼe/k>e>bʼe$
+^le/le$
+^achijabʼ/achij>abʼ$
+^pa/pa$
+^taq/taq$
+^kichak/ki>chak$
+^,/,$
+^te/te$
+^kuriʼ/*kuriʼ$
+^kixoqilal/*kixoqilal$
+^kekanaj/k>e>kanaj$
+^kan/kan/k>an$
+^kitukel/ki>tukel$
+^cho/cho/ch>o$
+^taq/taq$
+^kachoch/k>achoch$
+^,/,$
+^xaneʼ/xaneʼ$
+^kuriqa/*kuriqa$
+^nikʼaj/nikʼaj$
+^qʼij/qʼij$
+^kopan/k>opan$
+^le/le$
+^laj/laj$
+^chi/chi$
+^,/,$
+^che/ch>e$
+^kibʼochixik/*kibʼochixik$
+^,/,$
+^xopan/x>opan$
+^rukʼ/r>ukʼ$
+^jun/jun$
+^ixoq/ixoq$
+^ubʼi/u>bʼi$
+^Xper/Xper$
+^,/,$
+^are/are$
+^chiʼ/chiʼ$
+^tajin/tajin$
+^kakeʼnik/ka>keʼn>ik/ka>keʼ>n>ik$
+^chi/chi$
+^uwach/u>wach$
+^ri/ri$
+^ukaʼ/u>kaʼ$
+^,/,$
+^tajin/tajin$
+^kuchaʼq/*kuchaʼq$
+^ri/ri$
+^uqʼor/u>qʼor$
+^,/,$
+^kʼate/kʼate$
+^xrilo/*xrilo$
+^,/,$
+^xok/x>ok$
+^biʼ/biʼ$
+^rukʼ/r>ukʼ$
+^;/;$
+^jun/jun$
+^laj/laj$
+^achi/achi$
+^,/,$
+^tekʼuriʼ/tekʼuriʼ$
+^xtijon/*xtijon$
+^rukʼ/r>ukʼ$
+^:/:$
+^la/la$
+^at/at$
+^kʼolik/kʼol>ik$
+^ali/ali$
+^xchaʼ/x>chaʼ$
+^che/ch>e$
+^…/…$
+
+# sent_id = cuentos:Ri_Paxkwal.wiki:3
+# text = -Are xutaʼ xchʼabʼexik, sibʼalaj xumayo xuxij ribʼ. 
+# text[spa'] = - pidió se habló, mucho *xumayo *xuxij a él. 
+# labels = incomplete
+^-/-$
+^Are/Are$
+^xutaʼ/*xutaʼ$
+^xchʼabʼexik/x>chʼabʼe>x>ik$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^xumayo/*xumayo$
+^xuxij/*xuxij$
+^ribʼ/r>ibʼ$
+^./.$ 
+
+# sent_id = cuentos:Ri_Paxkwal.wiki:4
+# text = -Jachaʼ ali jas tajin kabʼanoʼ, la kawaj katkʼuliʼ wukʼ xchaʼ che. 
+# text[spa'] = -Como niña qué *kabʼanoʼ, quieres *katkʼuliʼ conmigo eligió a él. 
+# labels = incomplete
+^-/-$
+^Jachaʼ/Jachaʼ$
+^ali/ali$
+^jas/jas$
+^tajin/tajin$
+^kabʼanoʼ/*kabʼanoʼ$
+^,/,$
+^la/la$
+^kawaj/k>awaj$
+^katkʼuliʼ/*katkʼuliʼ$
+^wukʼ/w>ukʼ$
+^xchaʼ/x>chaʼ$
+^che/ch>e$
+^./.$ 
+
+# sent_id = cuentos:Ri_Paxkwal.wiki:5
+# text = - Mmm, xchaʼ le ali Xper are chiʼ xutaʼ xchʼaw le alaj achi che. 
+# text[spa'] = - *Mmm, eligió Elisabet aquí pidió habló el hombre pequeño a él. 
+# labels = incomplete
+^-/-$
+^Mmm/Mmm$
+^,/,$
+^xchaʼ/x>chaʼ$
+^le/le$
+^ali/ali$
+^Xper/Xper$
+^are/are$
+^chiʼ/chiʼ$
+^xutaʼ/*xutaʼ$
+^xchʼaw/x>chʼaw$
+^le/le$
+^alaj/alaj$
+^achi/achi$
+^che/ch>e$
+^./.$ 
+
+# sent_id = cuentos:Ri_Paxkwal.wiki:6
+# text = Xuchomaj na, te kʼu riʼ xubʼij che: chanaʼmpeʼ riʼ upatzaʼm man kat naw ta che usuʼik, kʼa te kʼu riʼ kawaj katkʼuli wukʼ.
+# text[spa'] =  Pensó, ahora pero ése dijo a él: *chanaʼmpeʼ ése *upatzaʼm no *kat *naw a él *usuʼik, *kʼa ahora pero ése quieres *katkʼuli conmigo.
+# labels = incomplete
+^Xuchomaj/*Xuchomaj$
+^na/na$
+^,/,$
+^te/te$
+^kʼu/kʼu$
+^riʼ/riʼ$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^:/:$
+^chanaʼmpeʼ/*chanaʼmpeʼ$
+^riʼ/riʼ$
+^upatzaʼm/*upatzaʼm$
+^man/man/m>an$
+^kat/*kat$
+^naw/*naw$
+^ta/ta$
+^che/ch>e$
+^usuʼik/*usuʼik$
+^,/,$
+^kʼa/kʼa$
+^te/te$
+^kʼu/kʼu$
+^riʼ/riʼ$
+^kawaj/k>awaj$
+^katkʼuli/*katkʼuli$
+^wukʼ/w>ukʼ$
+^./.$
+
+# sent_id = cuentos:Ri_Paxkwal.wiki:7
+# text = Xa man katchoman taj, are xu xutaʼ ri alaj achi xsach uwach. 
+# text[spa'] = Sólo no piensas , sólo pidió el hombre pequeño se perdió a él. 
+# labels = incomplete
+^Xa/Xa$
+^man/man/m>an$
+^katchoman/k>at>choman$
+^taj/taj$
+^,/,$
+^are/are$
+^xu/xu$
+^xutaʼ/*xutaʼ$
+^ri/ri$
+^alaj/alaj$
+^achi/achi$
+^xsach/x>sach$
+^uwach/u>wach$
+^./.$ 
+
+# sent_id = cuentos:Ri_Paxkwal.wiki:8
+# text = Tekʼuriʼ xutzijoj chike konojel le alabʼom, achijabʼ, xekitzukuj, necher xsach uwach pa jun nimalaj kʼachelaj, rumal laʼ xubʼiyal le juyubʼ chi Paxkwal.
+# text[spa'] = Y contó a ellos todo el muchacho, hombres, *xekitzukuj, *necher se perdió a él en un grande *kʼachelaj, por él éste *xubʼiyal el monte a *Paxkwal.
+# labels = incomplete
+^Tekʼuriʼ/Tekʼuriʼ$
+^xutzijoj/*xutzijoj$
+^chike/chi>k>e$
+^konojel/k>onojel$
+^le/le$
+^alabʼom/alabʼom$
+^,/,$
+^achijabʼ/achij>abʼ$
+^,/,$
+^xekitzukuj/*xekitzukuj$
+^,/,$
+^necher/*necher$
+^xsach/x>sach$
+^uwach/u>wach$
+^pa/pa$
+^jun/jun$
+^nimalaj/nimalaj/nim>alaj$
+^kʼachelaj/*kʼachelaj$
+^,/,$
+^rumal/r>umal$
+^laʼ/laʼ$
+^xubʼiyal/*xubʼiyal$
+^le/le$
+^juyubʼ/juyubʼ$
+^chi/chi$
+^Paxkwal/*Paxkwal$
+^./.$
+
+# sent_id = cuentos:Ri_sub’unel.wiki:1
+# text = Xkʼulmataj najtir, jun tataʼ xutik tiriko, are taq xkʼis ubʼanik ri qʼatoj rumal man xuyaʼ ta chik le qʼij che ukʼamik le utiriko, rumal laʼ, man xukochʼ ta chik uwach che uqʼa xik chaqʼabʼ rumal che chirij le juyubʼ kʼowi kanoq.
+# text[spa'] =  Pasó *najtir, un señor sembró *tiriko, cuando acabó la forma de la cosecha por él no dio ya el día a él recibirse el *utiriko, por él éste, no tuvo paciencia ya a él a él *uqʼa cernícalo de noche porque atrás del monte *kʼowi .
+# labels = incomplete
+^Xkʼulmataj/*Xkʼulmataj$
+^najtir/najtir$
+^,/,$
+^jun/jun$
+^tataʼ/tataʼ$
+^xutik/*xutik$
+^tiriko/*tiriko$
+^,/,$
+^are/are$
+^taq/taq$
+^xkʼis/x>kʼis$
+^ubʼanik/*ubʼanik$
+^ri/ri$
+^qʼatoj/qʼatoj$
+^rumal/r>umal$
+^man/man/m>an$
+^xuyaʼ/*xuyaʼ$
+^ta/ta$
+^chik/chik$
+^le/le$
+^qʼij/qʼij$
+^che/ch>e$
+^ukʼamik/*ukʼamik$
+^le/le$
+^utiriko/*utiriko$
+^,/,$
+^rumal/r>umal$
+^laʼ/laʼ$
+^,/,$
+^man/man/m>an$
+^xukochʼ/*xukochʼ$
+^ta/ta$
+^chik/chik$
+^uwach/u>wach$
+^che/ch>e$
+^uqʼa/*uqʼa$
+^xik/xik$
+^chaqʼabʼ/chaqʼabʼ$
+^rumal/r>umal$
+^che/ch>e$
+^chirij/chi>r>ij$
+^le/le$
+^juyubʼ/juyubʼ$
+^kʼowi/*kʼowi$
+^kanoq/kan>oq$
+^./.$
+
+# sent_id = cuentos:Ri_sub’unel.wiki:2
+# text = Nim aqʼabʼil xebʼe che ukʼamik, taq xopan le tat Luʼ rukʼ le ukʼojol xkitaʼ chi kʼo winaq pa le tiriko.
+# text[spa'] = Grande *aqʼabʼil fueron a para recibirse, llegó Pedro con él el hijo pidieron a hay persona en el *tiriko.
+# labels = incomplete
+^Nim/Nim$
+^aqʼabʼil/*aqʼabʼil$
+^xebʼe/x>e>bʼe$
+^che/ch>e$
+^ukʼamik/*ukʼamik$
+^,/,$
+^taq/taq$
+^xopan/x>opan$
+^le/le$
+^tat/tat$
+^Luʼ/Luʼ$
+^rukʼ/r>ukʼ$
+^le/le$
+^ukʼojol/*ukʼojol$
+^xkitaʼ/*xkitaʼ$
+^chi/chi$
+^kʼo/kʼo$
+^winaq/winaq$
+^pa/pa$
+^le/le$
+^tiriko/*tiriko$
+^./.$
+
+# sent_id = cuentos:Ri_sub’unel.wiki:3
+# text = Xkixej kibʼ, are taq xkitaʼ ri atʼixnabʼ, necher man xaq ta are le xkito, xkichomaj chi jun winaq kʼo pa le tiriko, weneʼ jun subʼanel*, are ta neʼ xraj ri utat le ala xuxibʼij bʼik.
+# text[spa'] = *Xkixej a ellos, cuando pidieron el *atʼixnabʼ, *necher no sólo que ayudaron, pensaron a una persona hay en el *tiriko, quizás un *subʼanel*, bebé quiso que el padre del niño dio miedo.
+# labels = incomplete
+^Xkixej/*Xkixej$
+^kibʼ/k>ibʼ$
+^,/,$
+^are/are$
+^taq/taq$
+^xkitaʼ/*xkitaʼ$
+^ri/ri$
+^atʼixnabʼ/*atʼixnabʼ$
+^,/,$
+^necher/*necher$
+^man/man/m>an$
+^xaq/xaq$
+^ta/ta$
+^are/are$
+^le/le$
+^xkito/*xkito$
+^,/,$
+^xkichomaj/*xkichomaj$
+^chi/chi$
+^jun/jun$
+^winaq/winaq$
+^kʼo/kʼo$
+^pa/pa$
+^le/le$
+^tiriko/*tiriko$
+^,/,$
+^weneʼ/weneʼ$
+^jun/jun$
+^subʼanel/*subʼanel$
+^,/,$
+^are/are$
+^ta/ta$
+^neʼ/neʼ$
+^xraj/*xraj$
+^ri/ri$
+^utat/u>tat$
+^le/le$
+^ala/ala/al>a/a>la$
+^xuxibʼij/*xuxibʼij$
+^bʼik/bʼi>k$
+^./.$
+
+# sent_id = cuentos:Ri_sub’unel.wiki:4
+# text = Te kʼu kunaʼo le tataʼ, are nabʼe xsikir taq raqan, uqʼabʼ rumal xibʼribʼ. 
+# text[spa'] = Ahora pero se siente el señor, primero se durmió pies, mano por él *xibʼribʼ. 
+# labels = incomplete
+^Te/Te$
+^kʼu/kʼu$
+^kunaʼo/*kunaʼo$
+^le/le$
+^tataʼ/tataʼ$
+^,/,$
+^are/are$
+^nabʼe/nabʼe$
+^xsikir/x>sikir$
+^taq/taq$
+^raqan/r>aqan$
+^,/,$
+^uqʼabʼ/*uqʼabʼ$
+^rumal/r>umal$
+^xibʼribʼ/xibʼribʼ$
+^./.$ 
+
+# sent_id = cuentos:Ri_sub’unel.wiki:5
+# text = Xuchomaj ri tataʼ, chi are utz man kuxej ta ribʼ, rajawaxik xa kabʼan jun chʼawem rukʼ ri Ajaw are chaʼ, kal maj bʼik ri subʼunel.   
+# text[spa'] =  Pensó el señor, a bueno no *kuxej a él, necesario sólo inventa una conversación con el Dueño *chaʼ, hijo no el *subʼunel. 
+# labels = incomplete
+^Xuchomaj/*Xuchomaj$
+^ri/ri$
+^tataʼ/tataʼ$
+^,/,$
+^chi/chi$
+^are/are$
+^utz/utz$
+^man/man/m>an$
+^kuxej/*kuxej$
+^ta/ta$
+^ribʼ/r>ibʼ$
+^,/,$
+^rajawaxik/rajawaxik$
+^xa/xa$
+^kabʼan/*kabʼan$
+^jun/jun$
+^chʼawem/chʼawem$
+^rukʼ/r>ukʼ$
+^ri/ri$
+^Ajaw/Ajaw$
+^are/are$
+^chaʼ/*chaʼ$
+^,/,$
+^kal/*kal$
+^maj/maj$
+^bʼik/bʼi>k$
+^ri/ri$
+^subʼunel/*subʼunel$
+^./.$   
+
+# sent_id = cuentos:Ri_sub’unel.wiki:6
+# text = *subʼanel - subʼunel
+# text[spa'] = **subʼanel - *subʼunel
+# labels = incomplete
+*^subʼanel/*subʼanel$
+^-/-$
+^subʼunel/*subʼunel$
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:1
+# text = Jelaʼ pa ri timinit Chwikabyok rech Xelajuʼ, le qanan qatat kakitiko jeʼlalaj taq uwach ichaj.
+# text[spa'] = Allá en la tierra Chwikabʼyok a Quetzaltenango, la madre de padre siembran *jeʼlalaj a hierba.
+# labels = complete
+^Jelaʼ/Jelaʼ$
+^pa/pa$
+^ri/ri$
+^timinit/timinit$
+^Chwikabyok/Chwikabyok$
+^rech/r>ech$
+^Xelajuʼ/Xelajuʼ$
+^,/,$
+^le/le$
+^qanan/qa>nan$
+^qatat/qa>tat$
+^kakitiko/ka>ki>tiko$
+^jeʼlalaj/jeʼl>alaj$
+^taq/taq$
+^uwach/u>wach$
+^ichaj/ichaj$
+^./.$
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:2
+# text = Le ichaj are qʼanwach, saqwach, kikʼichaj le tataʼibʼ kekiʼkotik, ketzenik, kejajatik, are chiʼ ketajiʼnik pa taq le kulew.
+# text[spa'] = La hierba *qʼanwach, patata, *kikʼichaj los señores están feliz , *ketzenik, *kejajatik, aquí *ketajiʼnik en las tierras.
+# labels = incomplete
+^Le/Le$
+^ichaj/ichaj/i>chaj$
+^are/are$
+^qʼanwach/*qʼanwach$
+^,/,$
+^saqwach/*saqwach$
+^,/,$
+^kikʼichaj/*kikʼichaj$
+^le/le$
+^tataʼibʼ/tataʼ>ibʼ$
+^kekiʼkotik/k>e>kiʼkot>ik$
+^,/,$
+^ketzenik/*ketzenik$
+^,/,$
+^kejajatik/*kejajatik$
+^,/,$
+^are/are$
+^chiʼ/chiʼ$
+^ketajiʼnik/*ketajiʼnik$
+^pa/pa$
+^taq/taq$
+^le/le$
+^kulew/k>ulew$
+^./.$
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:3
+# text = Pa kulew kekʼy uloq le taq uwach tikoʼn, jelik kekayik le uwachulew.
+# text[spa'] = En tierra *kekʼy aquí el a creación, *jelik *kekayik el mundo.
+# labels = incomplete
+^Pa/Pa$
+^kulew/k>ulew$
+^kekʼy/*kekʼy$
+^uloq/uloq$
+^le/le$
+^taq/taq$
+^uwach/u>wach$
+^tikoʼn/tikoʼn$
+^,/,$
+^jelik/*jelik$
+^kekayik/*kekayik$
+^le/le$
+^uwachulew/uwachulew$
+^./.$
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:4
+# text = Rax, rax, rax, kʼokʼ, kʼokʼ, kʼokʼ le ruxlabʼ le taq tikoʼn.
+# text[spa'] = Verde, verde, verde, aromático, aromático, aromático el espíritu de las creaciones.
+# labels = incomplete
+^Rax/Rax$
+^,/,$
+^rax/rax$
+^,/,$
+^rax/rax$
+^,/,$
+^kʼokʼ/kʼokʼ$
+^,/,$
+^kʼokʼ/kʼokʼ$
+^,/,$
+^kʼokʼ/kʼokʼ$
+^le/le$
+^ruxlabʼ/r>uxlabʼ$
+^le/le$
+^taq/taq$
+^tikoʼn/tikoʼn$
+^./.$
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:5
+# text = Jawi kel taq uwach le tikon, le chuchuʼibʼ, tataʼibʼ le akʼalabʼ junam kechakunik, xa kakikʼam bʼik ri jalajoj taq uwach ichaj pa kʼaybʼal.
+# text[spa'] = Dónde va a él el *tikon, las madres, señores los niños iguales trabajan , sólo reciben el diferente a hierba en tienda.
+# labels = incomplete
+^Jawi/Jawi$
+^kel/k>el$
+^taq/taq$
+^uwach/u>wach$
+^le/le$
+^tikon/*tikon$
+^,/,$
+^le/le$
+^chuchuʼibʼ/chuch>uʼibʼ$
+^,/,$
+^tataʼibʼ/tataʼ>ibʼ$
+^le/le$
+^akʼalabʼ/akʼal>abʼ$
+^junam/junam$
+^kechakunik/k>e>chakun>ik/k>e>chaku>n>ik$
+^,/,$
+^xa/xa$
+^kakikʼam/*kakikʼam$
+^bʼik/bʼi>k$
+^ri/ri$
+^jalajoj/jalajoj$
+^taq/taq$
+^uwach/u>wach$
+^ichaj/ichaj/i>chaj$
+^pa/pa$
+^kʼaybʼal/kʼaybʼal$
+^./.$
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:6
+# text = Are taq le chuchuʼibʼ kekikʼyij le taq ichaj pakʼaybʼal sibʼalaj kekikotik.
+# text[spa'] = cuando las madres *kekikʼyij las hierbas *pakʼaybʼal mucho están feliz .
+# labels = incomplete
+^Are/Are$
+^taq/taq$
+^le/le$
+^chuchuʼibʼ/chuch>uʼibʼ$
+^kekikʼyij/*kekikʼyij$
+^le/le$
+^taq/taq$
+^ichaj/ichaj/i>chaj$
+^pakʼaybʼal/*pakʼaybʼal$
+^sibʼalaj/sibʼalaj$
+^kekikotik/k>e>kikot>ik$
+^./.$
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:7
+# text = Le winaq ajloqʼomanel kakitaʼ jawichiʼ tikom wi ri jalajoj taq ichaj.
+# text[spa'] = La persona *ajloqʼomanel piden dónde sembrado las hierbas diferentes.
+# labels = incomplete
+^Le/Le$
+^winaq/winaq$
+^ajloqʼomanel/*ajloqʼomanel$
+^kakitaʼ/*kakitaʼ$
+^jawichiʼ/jawichiʼ$
+^tikom/tikom$
+^wi/wi$
+^ri/ri$
+^jalajoj/jalajoj$
+^taq/taq$
+^ichaj/ichaj/i>chaj$
+^./.$
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:8
+# text = Le chuchuʼibʼ kikibʼij jelaʼ chi uxeʼ le xkanul.
+# text[spa'] = Las madres dicen allá abajo del Xcanul.
+# labels = incomplete
+^Le/Le$
+^chuchuʼibʼ/chuch>uʼibʼ$
+^kikibʼij/*kikibʼij$
+^jelaʼ/jelaʼ$
+^chi/chi$
+^uxeʼ/u>xeʼ$
+^le/le$
+^xkanul/xkanul$
+^./.$
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:9
+# text = Le ajloqʼomanelabʼ kekikotik, kekikotik, kikiloqʼ bʼik le rax, taq ichaj.
+# text[spa'] = El *ajloqʼomanelabʼ están feliz , están feliz , compran el verde, hierbas.
+# labels = incomplete
+^Le/Le$
+^ajloqʼomanelabʼ/*ajloqʼomanelabʼ$
+^kekikotik/k>e>kikot>ik$
+^,/,$
+^kekikotik/k>e>kikot>ik$
+^,/,$
+^kikiloqʼ/*kikiloqʼ$
+^bʼik/bʼi>k$
+^le/le$
+^rax/rax$
+^,/,$
+^taq/taq$
+^ichaj/ichaj/i>chaj$
+^./.$
+
+# sent_id = cuentos:Ri_tukur.wiki:1
+# text = Kʼo jun mul xukʼulmaj ri a Awel, are taq kawarik xaq kʼate xutaʼ kʼo jun tukur pa uwiʼ le rachoch, muq, muq, kachaʼ ri tukur, ri Awel xuxeʼj ribʼ, xukʼasuj ri utat, xubʼij che: - chatampeʼ, le jun chikop, muq, muq, kachaʼ.
+# text[spa'] = Hay una vez fomentó el *Awel, cuando duerme sólo hasta pidió hay un búho encima de la casa, *muq, *muq, elige el búho, el *Awel *xuxeʼj a él, *xukʼasuj el padre, dijo a él: - *chatampeʼ, un animal, *muq, *muq, elige .
+# labels = incomplete
+^Kʼo$
+^jun/jun$
+^mul/mul/m>ul$
+^xukʼulmaj/*xukʼulmaj$
+^ri/ri$
+^a/a$
+^Awel/*Awel$
+^,/,$
+^are/are$
+^taq/taq$
+^kawarik/ka>war>ik$
+^xaq/xaq$
+^kʼate/kʼate$
+^xutaʼ/*xutaʼ$
+^kʼo/kʼo$
+^jun/jun$
+^tukur/tukur$
+^pa/pa$
+^uwiʼ/u>wiʼ$
+^le/le$
+^rachoch/r>achoch$
+^,/,$
+^muq/*muq$
+^,/,$
+^muq/*muq$
+^,/,$
+^kachaʼ/ka>chaʼ$
+^ri/ri$
+^tukur/tukur$
+^,/,$
+^ri/ri$
+^Awel/*Awel$
+^xuxeʼj/*xuxeʼj$
+^ribʼ/r>ibʼ$
+^,/,$
+^xukʼasuj/*xukʼasuj$
+^ri/ri$
+^utat/u>tat$
+^,/,$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^:/:$
+^-/-$
+^chatampeʼ/*chatampeʼ$
+^,/,$
+^le/le$
+^jun/jun$
+^chikop/chikop$
+^,/,$
+^muq/*muq$
+^,/,$
+^muq/*muq$
+^,/,$
+^kachaʼ/ka>chaʼ$
+^./.$
+
+# sent_id = cuentos:Ri_tukur.wiki:2
+# text = Le utat xubʼij che ri ukʼojol: -man kaxej taj awibʼ, wa le chikop ma umak taj, xa taj kxibʼinik, xaʼ are utajkil yaʼom rumal ri Ajaw.
+# text[spa'] = El padre dijo al hijo: -no *kaxej a ti, comida el animal no culpa , sólo se da miedo , *xaʼ mandado dado por el Dueño.
+# labels = incomplete
+^Le/Le$
+^utat/u>tat$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^ri/ri$
+^ukʼojol/*ukʼojol$
+^:/:$
+^-/-$
+^man/man/m>an$
+^kaxej/*kaxej$
+^taj/taj$
+^awibʼ/aw>ibʼ$
+^,/,$
+^wa/wa$
+^le/le$
+^chikop/chikop$
+^ma/ma$
+^umak/u>mak$
+^taj/taj$
+^,/,$
+^xa/xa$
+^taj/taj$
+^kxibʼinik/*kxibʼinik$
+^,/,$
+^xaʼ/*xaʼ$
+^are/are$
+^utajkil/u>tajkil$
+^yaʼom/yaʼom$
+^rumal/r>umal$
+^ri/ri$
+^Ajaw/Ajaw$
+^./.$
+
+# sent_id = cuentos:Ri_tukur.wiki:3
+# text = Xa chujwalijoq nukʼojol nojim kujmatzatzik, qayaʼ kanoq jumuqʼ ixim jeʼla xe le ja.
+# text[spa'] = Sólo madruguemos hijo lento caminamos , *qayaʼ *jumuqʼ maíz *jeʼla *xe la casa.
+# labels = incomplete
+^Xa/Xa$
+^chujwalijoq/ch>uj>walij>oq$
+^nukʼojol/*nukʼojol$
+^nojim/nojim$
+^kujmatzatzik/k>uj>matzatz>ik$
+^,/,$
+^qayaʼ/*qayaʼ$
+^kanoq/kan>oq$
+^jumuqʼ/*jumuqʼ$
+^ixim/ixim$
+^jeʼla/*jeʼla$
+^xe/*xe$
+^le/le$
+^ja/ja$
+^./.$
+
+# sent_id = cuentos:Ri_tukur.wiki:4
+# text = -La jas upatan le ixim xchaʼ le Awel che ri utat.
+# text[spa'] = - qué el uso del maíz eligió el *Awel al padre.
+# labels = incomplete
+^-/-$
+^La/La$
+^jas/jas$
+^upatan/u>patan$
+^le/le$
+^ixim/ixim$
+^xchaʼ/x>chaʼ$
+^le/le$
+^Awel/*Awel$
+^che/ch>e$
+^ri/ri$
+^utat/u>tat$
+^./.$
+
+# sent_id = cuentos:Ri_tukur.wiki:5
+# text = Are chaʼ le tukur weneʼ man kamikal taj kubʼij.
+# text[spa'] =  *chaʼ el búho quizás no muerte dice.
+# labels = incomplete
+^Are/Are$
+^chaʼ/*chaʼ$
+^le/le$
+^tukur/tukur$
+^weneʼ/weneʼ$
+^man/man/m>an$
+^kamikal/*kamikal$
+^taj/taj$
+^kubʼij/*kubʼij$
+^./.$
+
+# sent_id = cuentos:Ri_tukur.wiki:6
+# text = Weneʼ tewchibʼal kuyaʼ are kʼula are utz qayaʼ uwa, are uwa le ixim.
+# text[spa'] = Quizás bendición da *kʼula bueno *qayaʼ comida, la comida del maíz.
+# labels = incomplete
+^Weneʼ/Weneʼ$
+^tewchibʼal/tewchibʼal$
+^kuyaʼ/*kuyaʼ$
+^are/are$
+^kʼula/*kʼula$
+^are/are$
+^utz/utz$
+^qayaʼ/*qayaʼ$
+^uwa/u>wa$
+^,/,$
+^are/are$
+^uwa/u>wa$
+^le/le$
+^ixim/ixim$
+^./.$
+
+# sent_id = cuentos:Ri_tukur.wiki:7
+# text = Ri Awel xretaʼmaj chi rajawaxik man kuxej ta ribʼ che ri tukur.
+# text[spa'] = El *Awel aprendió a necesario no *kuxej a él al búho.
+# labels = incomplete
+^Ri/Ri$
+^Awel/*Awel$
+^xretaʼmaj/*xretaʼmaj$
+^chi/chi$
+^rajawaxik/rajawaxik$
+^man/man/m>an$
+^kuxej/*kuxej$
+^ta/ta$
+^ribʼ/r>ibʼ$
+^che/ch>e$
+^ri/ri$
+^tukur/tukur$
+^./.$
+
+# sent_id = cuentos:Ri_xojoj_kech_k’oyab’.wiki:1
+# text = X kibʼij ri qawinaq chi jelaʼ Xolabʼaj, xtik ri xojoj kech kʼoyabʼ*.
+# text[spa'] = *X dicen la persona a allá *Xolabʼaj, se sembró la danza a ellos *kʼoyabʼ*.
+# labels = incomplete
+^X/*X$
+^kibʼij/*kibʼij$
+^ri/ri$
+^qawinaq/qa>winaq$
+^chi/chi$
+^jelaʼ/jelaʼ$
+^Xolabʼaj/*Xolabʼaj$
+^,/,$
+^xtik/*xtik$
+^ri/ri$
+^xojoj/xojoj$
+^kech/k>ech$
+^kʼoyabʼ/*kʼoyabʼ$
+^./.$
+
+# sent_id = cuentos:Ri_xojoj_kech_k’oyab’.wiki:2
+# text = We xojoj kukʼut ri kʼax xbʼan chike kebʼ winaq.
+# text[spa'] = Esta danza enseña el mal masticó a ellos dos persona.
+# labels = incomplete
+^We/We/W>e$
+^xojoj/xojoj$
+^kukʼut/*kukʼut$
+^ri/ri$
+^kʼax/kʼax$
+^xbʼan/*xbʼan$
+^chike/chi>k>e$
+^kebʼ/kebʼ$
+^winaq/winaq$
+^./.$
+
+# sent_id = cuentos:Ri_xojoj_kech_k’oyab’.wiki:3
+# text = Jun Bʼatzʼ, Jun Chʼowen kibʼiʼ.
+# text[spa'] = Un Mono, Un *Chʼowen nombre.
+# labels = incomplete
+^Jun/Jun/Jun$
+^Bʼatzʼ/*Bʼatzʼ$
+^,/,$
+^Jun/Jun/Jun$
+^Chʼowen/*Chʼowen$
+^kibʼiʼ/ki>bʼiʼ$
+^./.$
+
+# sent_id = cuentos:Ri_xojoj_kech_k’oyab’.wiki:4
+# text = Rumal ri kʼax xkibʼan chi ke kebʼ alaxik, kibʼiʼ Jun Ajpu rachiʼl Jun Jun Ajpu. 
+# text[spa'] = Por él el mal hicieron a ellos dos clan, el nombre de Hunahpú de amigo Hun-Hunahpú. 
+# labels = incomplete
+^Rumal/R>umal$
+^ri/ri$
+^kʼax/kʼax$
+^xkibʼan/*xkibʼan$
+^chi/chi$
+^ke/k>e$
+^kebʼ/kebʼ$
+^alaxik/alaxik$
+^,/,$
+^kibʼiʼ/ki>bʼiʼ$
+^Jun/Jun/Jun$
+^Ajpu/Ajpu$
+^rachiʼl/r>achiʼl$
+^Jun/Jun/Jun$
+^Jun/Jun/Jun$
+^Ajpu/Ajpu$
+^./.$ 
+
+# sent_id = cuentos:Ri_xojoj_kech_k’oyab’.wiki:5
+# text = Rumal ri kʼax xkibʼano xeʼux kʼoyabʼ, rumal laʼ nim pixabʼ kuya ri xojoj.
+# text[spa'] = Por él los males hicieron que se volvió *kʼoyabʼ, por él éste ley grande la danza da.
+# labels = incomplete
+^Rumal/R>umal$
+^ri/ri$
+^kʼax/kʼax$
+^xkibʼano/*xkibʼano$
+^xeʼux/x>eʼ>ux$
+^kʼoyabʼ/*kʼoyabʼ$
+^,/,$
+^rumal/r>umal$
+^laʼ/laʼ$
+^nim/nim$
+^pixabʼ/pixabʼ$
+^kuya/*kuya$
+^ri/ri$
+^xojoj/xojoj$
+^./.$
+
+# sent_id = cuentos:Ri_xojoj_kech_k’oyab’.wiki:6
+# text = Chi taq junabʼ kakʼut pa nimaqʼij chi uwach le tyox. 
+# text[spa'] = A años se enseña en fiesta al santo. 
+# labels = incomplete
+^Chi/Chi$
+^taq/taq$
+^junabʼ/junabʼ$
+^kakʼut/*kakʼut$
+^pa/pa$
+^nimaqʼij/nimaqʼij$
+^chi/chi$
+^uwach/u>wach$
+^le/le$
+^tyox/tyox$
+^./.$ 
+
+# sent_id = cuentos:Ri_xojoj_kech_k’oyab’.wiki:7
+# text = Are laʼ kabʼan Xolabʼaj.
+# text[spa'] =  éste inventa *Xolabʼaj.
+# labels = incomplete
+^Are/Are$
+^laʼ/laʼ$
+^kabʼan/*kabʼan$
+^Xolabʼaj/*Xolabʼaj$
+^./.$
+
+# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:2
+# text = Xa rumal karaj kretaʼmaj unikʼoxik xuqujeʼ utzʼibʼaxik uwach wuj, utz karil le etzʼanem xuqujeʼ le bʼix. 
+# text[spa'] = Sólo por él quiere aprender inspeccionarse también escribirse a libro, bueno ve el juego también el *bʼix. 
+# labels = incomplete
+^Xa/Xa$
+^rumal/r>umal$
+^karaj/*karaj$
+^kretaʼmaj/*kretaʼmaj$
+^unikʼoxik/*unikʼoxik$
+^xuqujeʼ/xuqujeʼ$
+^utzʼibʼaxik/*utzʼibʼaxik$
+^uwach/u>wach$
+^wuj/wuj$
+^,/,$
+^utz/utz$
+^karil/*karil$
+^le/le$
+^etzʼanem/etzʼanem$
+^xuqujeʼ/xuqujeʼ$
+^le/le$
+^bʼix/*bʼix$
+^./.$ 
+
+# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:3
+# text = Xopan jun qʼij xbʼe utukel pa tijobʼal xuriq apanoq jupuq tzʼiʼ pa ri bʼe. 
+# text[spa'] =  Llegó un día fue solo en escuela encontró basura perro en la senda. 
+# labels = incomplete
+^Xopan/X>opan$
+^jun/jun$
+^qʼij/qʼij$
+^xbʼe/x>bʼe$
+^utukel/utukel/u>tukel$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^xuriq/*xuriq$
+^apanoq/apan>oq$
+^jupuq/jupuq$
+^tzʼiʼ/tzʼiʼ$
+^pa/pa$
+^ri/ri$
+^bʼe/bʼe$
+^./.$ 
+
+# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:4
+# text = Aaa, sibʼalaj xuxej ribʼ xtakʼik xuchomaj kʼut, su kinbʼano, aninaq xutzukuj ri ukʼyaqbʼal, kʼate xarilo man xukʼam taj, kʼax xunaʼy, xusikʼ abʼaj, xanimaj chikiwach jupuq tzʼiʼ xkoqataj ri a Siʼs, xpe kʼu le a Sis, xuraqaqej uchiʼ xubʼij a… a… a… a… ri tzʼiʼ kinkityaʼ man kʼotaj kintowik, sibʼalaj ekʼan.
+# text[spa'] = Ah, mucho *xuxej a él *xtakʼik pensó pero, qué hago, corrido *xutzukuj el *ukʼyaqbʼal, hasta *xarilo no recibió, malo *xunaʼy, *xusikʼ *abʼaj, obedeciste a basura perro siguieron Siʼs, vino pero el *Sis, *xuraqaqej orilla dijo … … … … el perro *kinkityaʼ no *kʼotaj oigo , mucho *ekʼan.
+# labels = incomplete
+^Aaa/Aaa$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^xuxej/*xuxej$
+^ribʼ/r>ibʼ$
+^xtakʼik/*xtakʼik$
+^xuchomaj/*xuchomaj$
+^kʼut/kʼut/kʼ>ut$
+^,/,$
+^su/su$
+^kinbʼano/*kinbʼano$
+^,/,$
+^aninaq/*aninaq$
+^xutzukuj/*xutzukuj$
+^ri/ri$
+^ukʼyaqbʼal/*ukʼyaqbʼal$
+^,/,$
+^kʼate/kʼate$
+^xarilo/*xarilo$
+^man/man/m>an$
+^xukʼam/*xukʼam$
+^taj/taj$
+^,/,$
+^kʼax/kʼax$
+^xunaʼy/*xunaʼy$
+^,/,$
+^xusikʼ/*xusikʼ$
+^abʼaj/*abʼaj$
+^,/,$
+^xanimaj/x>animaj$
+^chikiwach/chi>ki>wach$
+^jupuq/jupuq$
+^tzʼiʼ/tzʼiʼ$
+^xkoqataj/*xkoqataj$
+^ri/ri$
+^a/a$
+^Siʼs/Siʼs/Siʼs$
+^,/,$
+^xpe/x>pe$
+^kʼu/kʼu$
+^le/le$
+^a/a$
+^Sis/Sis$
+^,/,$
+^xuraqaqej/*xuraqaqej$
+^uchiʼ/u>chiʼ$
+^xubʼij/*xubʼij$
+^a/a$
+^…/…$
+^a/a$
+^…/…$
+^a/a$
+^…/…$
+^a/a$
+^…/…$
+^ri/ri$
+^tzʼiʼ/tzʼiʼ$
+^kinkityaʼ/*kinkityaʼ$
+^man/man/m>an$
+^kʼotaj/*kʼotaj$
+^kintowik/k>in>tow>ik$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^ekʼan/*ekʼan$
+^./.$
+
+# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:5
+# text = Le a Siʼs xsachik, xtzaqik are kʼu le tzʼiʼ, xalmaj bʼik, are kʼu le alaj ala sibʼalaj koqʼik, koqʼik xtzalij cho rachoch.
+# text[spa'] = Siʼs se perdió , cayó y el perro, *xalmaj , y el niño pequeño mucho llorón, llorón volvió a casa.
+# labels = incomplete
+^Le/Le$
+^a/a$
+^Siʼs/Siʼs/Siʼs$
+^xsachik/x>sach>ik$
+^,/,$
+^xtzaqik/x>tzaq>ik$
+^are/are$
+^kʼu/kʼu$
+^le/le$
+^tzʼiʼ/tzʼiʼ$
+^,/,$
+^xalmaj/*xalmaj$
+^bʼik/bʼi>k$
+^,/,$
+^are/are$
+^kʼu/kʼu$
+^le/le$
+^alaj/alaj$
+^ala/ala/al>a/a>la$
+^sibʼalaj/sibʼalaj$
+^koqʼik/koqʼik/k>oqʼ>ik$
+^,/,$
+^koqʼik/koqʼik/k>oqʼ>ik$
+^xtzalij/x>tzalij$
+^cho/cho/ch>o$
+^rachoch/r>achoch$
+^./.$
+
+# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:6
+# text = Xutzijoj che ri unan le xukʼulmaj, are xuxeʼj ribʼ rumal taq xril le ukikʼel kʼo che ri atzʼyaq le a Siʼs.
+# text[spa'] =  Contó a la madre que fomentó, *xuxeʼj a él por él vio la sangre hay a él el trapo Siʼs.
+# labels = incomplete
+^Xutzijoj/*Xutzijoj$
+^che/ch>e$
+^ri/ri$
+^unan/u>nan$
+^le/le$
+^xukʼulmaj/*xukʼulmaj$
+^,/,$
+^are/are$
+^xuxeʼj/*xuxeʼj$
+^ribʼ/r>ibʼ$
+^rumal/r>umal$
+^taq/taq$
+^xril/*xril$
+^le/le$
+^ukikʼel/u>kikʼel$
+^kʼo/kʼo$
+^che/ch>e$
+^ri/ri$
+^atzʼyaq/atzʼyaq$
+^le/le$
+^a/a$
+^Siʼs/Siʼs/Siʼs$
+^./.$
+
+# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:7
+# text = Ri nan Toʼn aninaq xukʼexo ratzʼyaq ri ral, xukʼam bʼi pa tinimit rukʼ ajkun.
+# text[spa'] = Toʼn corrido cambió el trapo del hijo, recibió en tierra con médico.
+# labels = incomplete
+^Ri/Ri$
+^nan/nan$
+^Toʼn/Toʼn$
+^aninaq/*aninaq$
+^xukʼexo/*xukʼexo$
+^ratzʼyaq/r>atzʼyaq$
+^ri/ri$
+^ral/*ral$
+^,/,$
+^xukʼam/*xukʼam$
+^bʼi/bʼi$
+^pa/pa$
+^tinimit/tinimit$
+^rukʼ/r>ukʼ$
+^ajkun/ajkun$
+^./.$
+
+# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:8
+# text = Xnikʼoxik, xuqujeʼ xkunaxik xaq jeʼ wa nojim kutzirik le raqan.
+# text[spa'] =  se Inspeccionó, también estuvo curado sólo sí comida lenta el pie se mejora .
+# labels = incomplete
+^Xnikʼoxik/X>nikʼo>x>ik$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^xkunaxik/x>kunax>ik/x>kuna>x>ik$
+^xaq/xaq$
+^jeʼ/jeʼ$
+^wa/wa$
+^nojim/nojim$
+^kutzirik/k>utzirik/k>utzir>ik$
+^le/le$
+^raqan/r>aqan$
+^./.$
+
+# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:9
+# text = Jewa xkibʼano xetzalij cho kachoch rukʼ kikotemal.
+# text[spa'] = Así hicieron volvieron a casa con placer.
+# labels = incomplete
+^Jewa/Jewa$
+^xkibʼano/*xkibʼano$
+^xetzalij/x>e>tzalij$
+^cho/cho/ch>o$
+^kachoch/k>achoch$
+^rukʼ/r>ukʼ$
+^kikotemal/kikotemal$
+^./.$
+
+# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:10
+# text = ʼʼʼupatan - uchakʼʼʼ*
+# text[spa'] = *ʼʼʼupatan - *uchakʼʼʼ*
+# labels = incomplete
+^ʼʼʼupatan/*ʼʼʼupatan$
+^-/-$
+^uchakʼʼʼ/*uchakʼʼʼ$*
+
+# sent_id = cuentos:Sak’aj_walijem.wiki:1
+# text = Xkʼulmataj jumul kʼo jun akʼal sibʼalaj saqʼor, sibʼalaj natam* kwalijik, kyaj rumal ri unan xa kpe royowal, xaneʼ kʼo jun qʼij rumal che kʼamatan xwalijik man xatin chibʼik, man xwaʼ taj xunim bʼi ri uwuj, ri utzʼibʼabʼal chiʼ upam ri uchim, xreqaj bʼik, te kʼu riʼ xeʼ pa tijobʼal. 
+# text[spa'] =  Pasó vez hay un niño mucho vago, mucho *natam* madruga , regaña por la madre sólo viene enfado, sino hay un día porque *kʼamatan madrugó no se bañó *chibʼik, no comió *xunim el libro, el lápiz aquí adentro del morral, llevó, ahora pero ése *xeʼ en escuela. 
+# labels = incomplete
+^Xkʼulmataj/*Xkʼulmataj$
+^jumul/jumul$
+^kʼo/kʼo$
+^jun/jun$
+^akʼal/akʼal$
+^sibʼalaj/sibʼalaj$
+^saqʼor/saqʼor$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^natam/*natam$
+^kwalijik/k>walij>ik$
+^,/,$
+^kyaj/k>yaj$
+^rumal/r>umal$
+^ri/ri$
+^unan/u>nan$
+^xa/xa$
+^kpe/k>pe$
+^royowal/r>oyowal$
+^,/,$
+^xaneʼ/xaneʼ$
+^kʼo/kʼo$
+^jun/jun$
+^qʼij/qʼij$
+^rumal/r>umal$
+^che/ch>e$
+^kʼamatan/*kʼamatan$
+^xwalijik/x>walij>ik$
+^man/man/m>an$
+^xatin/x>atin$
+^chibʼik/*chibʼik$
+^,/,$
+^man/man/m>an$
+^xwaʼ/x>waʼ$
+^taj/taj$
+^xunim/*xunim$
+^bʼi/bʼi$
+^ri/ri$
+^uwuj/u>wuj$
+^,/,$
+^ri/ri$
+^utzʼibʼabʼal/u>tzʼibʼabʼal$
+^chiʼ/chiʼ$
+^upam/u>pam$
+^ri/ri$
+^uchim/u>chim$
+^,/,$
+^xreqaj/*xreqaj$
+^bʼik/bʼi>k$
+^,/,$
+^te/te$
+^kʼu/kʼu$
+^riʼ/riʼ$
+^xeʼ/*xeʼ$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^./.$ 
+
+# sent_id = cuentos:Sak’aj_walijem.wiki:2
+# text = Bʼenaq pa ri bʼe are taq xrilo chi matam chik xtontirik xuchap aninem.
+# text[spa'] = Ido en la senda cuando vio a no cortes ya *xtontirik tocó *aninem.
+# labels = incomplete
+^Bʼenaq/*Bʼenaq$
+^pa/pa$
+^ri/ri$
+^bʼe/bʼe$
+^are/are$
+^taq/taq$
+^xrilo/*xrilo$
+^chi/chi$
+^matam/*matam$
+^chik/chik$
+^xtontirik/*xtontirik$
+^xuchap/*xuchap$
+^aninem/*aninem$
+^./.$
+
+# sent_id = cuentos:Sak’aj_walijem.wiki:3
+# text = Rumal xumaj anim pa le bʼe xuriq jun tzʼiʼ kakay uloq che, kʼa teʼ kunaʼo xutiʼo che ri raqan.
+# text[spa'] = Por él agarró prisa en la senda encontró un perro *kakay aquí a él, *kʼa ahora se siente picó al pie.
+# labels = incomplete
+^Rumal/R>umal$
+^xumaj/*xumaj$
+^anim/anim$
+^pa/pa$
+^le/le$
+^bʼe/bʼe$
+^xuriq/*xuriq$
+^jun/jun$
+^tzʼiʼ/tzʼiʼ$
+^kakay/*kakay$
+^uloq/uloq$
+^che/ch>e$
+^,/,$
+^kʼa/kʼa$
+^teʼ/teʼ$
+^kunaʼo/*kunaʼo$
+^xutiʼo/*xutiʼo$
+^che/ch>e$
+^ri/ri$
+^raqan/r>aqan$
+^./.$
+
+# sent_id = cuentos:Sak’aj_walijem.wiki:4
+# text = Xuchap oqʼej pa le bʼe, sibʼalaj koqʼik, xkubʼiʼ kan pa ri bʼe man xeʼ ta chik pa tijobʼal.
+# text[spa'] =  Tocó *oqʼej en la senda, mucho llorón, *xkubʼiʼ en la senda no *xeʼ ya en escuela.
+# labels = incomplete
+^Xuchap/*Xuchap$
+^oqʼej/oqʼej$
+^pa/pa$
+^le/le$
+^bʼe/bʼe$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^koqʼik/koqʼik/k>oqʼ>ik$
+^,/,$
+^xkubʼiʼ/*xkubʼiʼ$
+^kan/kan/k>an$
+^pa/pa$
+^ri/ri$
+^bʼe/bʼe$
+^man/man/m>an$
+^xeʼ/*xeʼ$
+^ta/ta$
+^chik/chik$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^./.$
+
+# sent_id = cuentos:Sak’aj_walijem.wiki:5
+# text = Are taq xukʼulmaj waʼ xul ri uchomanik xubʼij: are utz wa aqʼabʼ kinwalijik, are chaʼ chanim kinopan pa tijobʼal, maj chi kinkʼulmaj.
+# text[spa'] = cuando fomentó éste llegó la idea dijo: comida buena noche madrugo , *chaʼ pronto llego en escuela, no que fomento.
+# labels = incomplete
+^Are/Are$
+^taq/taq$
+^xukʼulmaj/*xukʼulmaj$
+^waʼ/waʼ$
+^xul/xul/x>ul$
+^ri/ri$
+^uchomanik/u>chomanik$
+^xubʼij/*xubʼij$
+^:/:$
+^are/are$
+^utz/utz$
+^wa/wa$
+^aqʼabʼ/*aqʼabʼ$
+^kinwalijik/k>in>walij>ik$
+^,/,$
+^are/are$
+^chaʼ/*chaʼ$
+^chanim/chanim$
+^kinopan/k>in>opan$
+^pa/pa$
+^tijobʼal/tijobʼal$
+^,/,$
+^maj/maj$
+^chi/chi$
+^kinkʼulmaj/*kinkʼulmaj$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:1
+# text = Jelaʼ pa ri komon Xeʼwenabʼaj kel wi jun akʼal ubʼiʼ a Tiʼx, ri akʼal sibʼalaj ukʼatik kayuqʼunik, ekʼo jobʼ uchij, jun ukej, jun uwakax, xuqujeʼ jun utzʼiʼ ubʼi a Paʼtz.
+# text[spa'] = Allá en la comunidad Xeʼwenabʼaj es un nombre joven Tiʼx, el niño mucho fuego pastorea , hay cinco oveja, un caballo, una vaca, también un el perro del nombre de Paʼtz.
+# labels = incomplete
+^Jelaʼ/Jelaʼ$
+^pa/pa$
+^ri/ri$
+^komon/komon$
+^Xeʼwenabʼaj/Xeʼwenabʼaj$
+^kel/k>el$
+^wi/wi$
+^jun/jun$
+^akʼal/akʼal$
+^ubʼiʼ/u>bʼiʼ$
+^a/a$
+^Tiʼx/Tiʼx$
+^,/,$
+^ri/ri$
+^akʼal/akʼal$
+^sibʼalaj/sibʼalaj$
+^ukʼatik/u>kʼatik$
+^kayuqʼunik/ka>yuqʼun>ik/ka>yuqʼu>n>ik$
+^,/,$
+^ekʼo/ekʼo$
+^jobʼ/jobʼ$
+^uchij/u>chij$
+^,/,$
+^jun/jun$
+^ukej/u>kej$
+^,/,$
+^jun/jun$
+^uwakax/*uwakax$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^jun/jun$
+^utzʼiʼ/u>tzʼiʼ$
+^ubʼi/u>bʼi$
+^a/a$
+^Paʼtz/Paʼtz$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:2
+# text = Nojel qʼij ri a Tiʼx kuyuqʼuj le taq awaj jelaʼ pa nikʼaj jaʼ, chirij ri juyubʼ ubʼiʼ Tenaʼ.
+# text[spa'] = Cada día Tiʼx pastorea los animales allá en agua otra, atrás de la montaña de nombre Tenaʼ.
+# labels = incomplete
+^Nojel/Nojel$
+^qʼij/qʼij$
+^ri/ri$
+^a/a$
+^Tiʼx/Tiʼx$
+^kuyuqʼuj/k>u>yuqʼuj$
+^le/le$
+^taq/taq$
+^awaj/awaj$
+^jelaʼ/jelaʼ$
+^pa/pa$
+^nikʼaj/nikʼaj$
+^jaʼ/jaʼ$
+^,/,$
+^chirij/chi>r>ij$
+^ri/ri$
+^juyubʼ/juyubʼ$
+^ubʼiʼ/u>bʼiʼ$
+^Tenaʼ/Tenaʼ$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:3
+# text = Jun xeʼqal xubʼij che ri unan, chweq kinbʼe pa yuqʼ chirij Tenaʼ, aqʼabʼ kawalij la che ubʼanik le nuwaʼ, nukʼatan, utz ri wal xchaʼ che.
+# text[spa'] = Un *xeʼqal dijo a la madre, *chweq voy en *yuqʼ atrás él *Tenaʼ, noche madruga a la forma de la comida, fiebre, bueno el hijo eligió a él.
+# labels = incomplete
+^Jun/Jun/Jun$
+^xeʼqal/*xeʼqal$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^ri/ri$
+^unan/u>nan$
+^,/,$
+^chweq/*chweq$
+^kinbʼe/k>in>bʼe$
+^pa/pa$
+^yuqʼ/yuqʼ$
+^chirij/chi>r>ij$
+^Tenaʼ/Tenaʼ$
+^,/,$
+^aqʼabʼ/*aqʼabʼ$
+^kawalij/ka>walij$
+^la/la$
+^che/ch>e$
+^ubʼanik/*ubʼanik$
+^le/le$
+^nuwaʼ/nu>waʼ$
+^,/,$
+^nukʼatan/*nukʼatan$
+^,/,$
+^utz/utz$
+^ri/ri$
+^wal/*wal$
+^xchaʼ/x>chaʼ$
+^che/ch>e$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:4
+# text = Aqʼabʼ xwalijik le unan le ala, xubʼan ri ulej, jun saqmol pa ri xot, xutzir uwa ri a Tiʼx.
+# text[spa'] = Noche madrugó la madre del niño, hizo la tortilla, un huevo en el comal, la comida de Tiʼx se mejoró .
+# labels = incomplete
+^Aqʼabʼ/*Aqʼabʼ$
+^xwalijik/x>walij>ik$
+^le/le$
+^unan/u>nan$
+^le/le$
+^ala/ala/al>a/a>la$
+^,/,$
+^xubʼan/*xubʼan$
+^ri/ri$
+^ulej/u>lej$
+^,/,$
+^jun/jun$
+^saqmol/saqmol$
+^pa/pa$
+^ri/ri$
+^xot/xot$
+^,/,$
+^xutzir/x>utzir$
+^uwa/u>wa$
+^ri/ri$
+^a/a$
+^Tiʼx/Tiʼx$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:5
+# text = Xukʼasuj le ral: - Tiʼx, Tiʼx, chatwalijoq, xutzir ri awaʼ xcha che.
+# text[spa'] = *Xukʼasuj el hijo: - Tiʼx, Tiʼx, madruga , se mejoró la comida eligió a él.
+# labels = incomplete
+^Xukʼasuj/*Xukʼasuj$
+^le/le$
+^ral/*ral$
+^:/:$
+^-/-$
+^Tiʼx/Tiʼx$
+^,/,$
+^Tiʼx/Tiʼx$
+^,/,$
+^chatwalijoq/ch>at>walij>oq$
+^,/,$
+^xutzir/x>utzir$
+^ri/ri$
+^awaʼ/a>waʼ$
+^xcha/x>cha$
+^che/ch>e$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:6
+# text = Xwaljik xubʼij che ri unan: - man kintij taj ri nuwa, pisa pa jun sut, rukʼ le nukʼatan, xuqujeʼ kyala bʼik ri uwa le nutzʼiʼ. -Utz ri wal, xchaʼ ri unan, xuyaʼ bʼik le uwa pa ri uchim. 
+# text[spa'] = *Xwaljik dijo a la madre: - no como la comida, *pisa en un *sut, con la fiebre, también *kyala la comida del perro. -Bueno el hijo, eligió la madre, dio la comida en el morral. 
+# labels = incomplete
+^Xwaljik/*Xwaljik$
+^xubʼij/*xubʼij$
+^che/ch>e$
+^ri/ri$
+^unan/u>nan$
+^:/:$
+^-/-$
+^man/man/m>an$
+^kintij/k>in>tij$
+^taj/taj$
+^ri/ri$
+^nuwa/nu>wa$
+^,/,$
+^pisa/*pisa$
+^pa/pa$
+^jun/jun$
+^sut/*sut$
+^,/,$
+^rukʼ/r>ukʼ$
+^le/le$
+^nukʼatan/*nukʼatan$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^kyala/*kyala$
+^bʼik/bʼi>k$
+^ri/ri$
+^uwa/u>wa$
+^le/le$
+^nutzʼiʼ/nu>tzʼiʼ$
+^./.$
+^-/-$
+^Utz/Utz$
+^ri/ri$
+^wal/*wal$
+^,/,$
+^xchaʼ/x>chaʼ$
+^ri/ri$
+^unan/u>nan$
+^,/,$
+^xuyaʼ/*xuyaʼ$
+^bʼik/bʼi>k$
+^le/le$
+^uwa/u>wa$
+^pa/pa$
+^ri/ri$
+^uchim/u>chim$
+^./.$ 
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:7
+# text = Ri a Tiʼx xeresaj ri awajibʼ, xbʼe pa yuqʼ.
+# text[spa'] = Tiʼx quitó los animales, fue a pastorear.
+# labels = incomplete
+^Ri/Ri$
+^a/a$
+^Tiʼx/Tiʼx$
+^xeresaj/x>e>resaj$
+^ri/ri$
+^awajibʼ/awaj>ibʼ$
+^,/,$
+^xbʼe/x>bʼe$
+^pa/pa$
+^yuqʼ/yuqʼ$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:8
+# text = Are taq xokʼow, chi uxeʼ le juyubʼ ubʼi Tenaʼ; kateʼ xrilo xpakak jun sutzʼ, le a Atiʼx man xunaʼ taj xutzaq kan le uwa. 
+# text[spa'] = cuando pasó , abajo del nombre inclinado *Tenaʼ; hasta vio *xpakak una nube, el @iʼx no se sintió la comida perdió. 
+# labels = incomplete
+^Are/Are$
+^taq/taq$
+^xokʼow/x>okʼow$
+^,/,$
+^chi/chi$
+^uxeʼ/u>xeʼ$
+^le/le$
+^juyubʼ/juyubʼ$
+^ubʼi/u>bʼi$
+^Tenaʼ/Tenaʼ$
+^;/;$
+^kateʼ/kateʼ$
+^xrilo/*xrilo$
+^xpakak/*xpakak$
+^jun/jun$
+^sutzʼ/sutzʼ$
+^,/,$
+^le/le$
+^a/a$
+^Atiʼx/At>iʼx$
+^man/man/m>an$
+^xunaʼ/*xunaʼ$
+^taj/taj$
+^xutzaq/*xutzaq$
+^kan/kan/k>an$
+^le/le$
+^uwa/u>wa$
+^./.$ 
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:9
+# text = Are taq xopan naqaj che le jaʼ, jawi kayuqʼun wi, kʼateʼ xrilo man kʼota chik ri apaʼtz.
+# text[spa'] = cuando llegó cerca al agua, dónde pastorea , hasta vio *kʼota ya el *apaʼtz.
+# labels = incomplete
+^Are/Are$
+^taq/taq$
+^xopan/x>opan$
+^naqaj/naqaj$
+^che/ch>e$
+^le/le$
+^jaʼ/jaʼ$
+^,/,$
+^jawi/jawi$
+^kayuqʼun/ka>yuqʼun$
+^wi/wi$
+^,/,$
+^kʼateʼ/kʼateʼ$
+^xrilo/*xrilo$
+^man/man/m>an$
+^kʼota/*kʼota$
+^chik/chik$
+^ri/ri$
+^apaʼtz/*apaʼtz$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:10
+# text = Te xunaʼo man reqam ta ri uchim, aaa, aaa, sibʼalaj xbʼisonik xeʼuyakan ri uchij, chilaʼ, xuqujeʼ xuxim kan ri taq awaj, xtzalij bʼik che utzukuxik le uchim rech uwa.
+# text[spa'] = Ahora se sintió *reqam el morral, ah, ah, mucho estuvo triste *xeʼuyakan la oveja, allí, también ató los animales, volvió a la búsqueda del morral a comida.
+# labels = incomplete
+^Te/Te$
+^xunaʼo/*xunaʼo$
+^man/man/m>an$
+^reqam/*reqam$
+^ta/ta$
+^ri/ri$
+^uchim/u>chim$
+^,/,$
+^aaa/aaa$
+^,/,$
+^aaa/aaa$
+^,/,$
+^sibʼalaj/sibʼalaj$
+^xbʼisonik/x>bʼison>ik/x>bʼiso>n>ik$
+^xeʼuyakan/*xeʼuyakan$
+^ri/ri$
+^uchij/u>chij$
+^,/,$
+^chilaʼ/chilaʼ$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^xuxim/*xuxim$
+^kan/kan/k>an$
+^ri/ri$
+^taq/taq$
+^awaj/awaj/aw>aj$
+^,/,$
+^xtzalij/x>tzalij$
+^bʼik/bʼi>k$
+^che/ch>e$
+^utzukuxik/u>tzukuxik$
+^le/le$
+^uchim/u>chim$
+^rech/rech/r>ech$
+^uwa/u>wa$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:11
+# text = Sibʼalaj uxim ribʼ xbʼek pa ri bʼe, rumal che xaq utukel.
+# text[spa'] = Mucho volverse para fue en la senda, porque sólo solo.
+# labels = incomplete
+^Sibʼalaj/Sibʼalaj$
+^uxim/*uxim$
+^ribʼ/r>ibʼ$
+^xbʼek/x>bʼe>k$
+^pa/pa$
+^ri/ri$
+^bʼe/bʼe$
+^,/,$
+^rumal/r>umal$
+^che/ch>e$
+^xaq/xaq$
+^utukel/utukel/u>tukel$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:12
+# text = Naj kʼowi apanoq, kʼate xrilo kotol ri a Paʼtz pa ri bʼe jupul pwiʼ ri uchim.
+# text[spa'] = Lejos *kʼowi cerca , hasta vio *kotol Paʼtz en la senda *jupul sombrero el morral.
+# labels = incomplete
+^Naj/Naj$
+^kʼowi/*kʼowi$
+^apanoq/apan>oq$
+^,/,$
+^kʼate/kʼate$
+^xrilo/*xrilo$
+^kotol/*kotol$
+^ri/ri$
+^a/a$
+^Paʼtz/Paʼtz$
+^pa/pa$
+^ri/ri$
+^bʼe/bʼe$
+^jupul/*jupul$
+^pwiʼ/pwiʼ$
+^ri/ri$
+^uchim/u>chim$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:13
+# text = Are taq xriloʼ, ri a Tiʼx sibʼalaj xkikotik, xuqujeʼ ri alaj a Paʼtz sibʼalaj xusilabʼaj ujeʼ, aninaq xbʼe che ukʼulaxik le rajaw, kusutusa ujeʼ.
+# text[spa'] = cuando *xriloʼ, Tiʼx mucho estuvo feliz , también el pequeño Paʼtz mucho *xusilabʼaj *ujeʼ, corrido fue a para dar la bienvenidase el dueño, *kusutusa *ujeʼ.
+# labels = incomplete
+^Are/Are$
+^taq/taq$
+^xriloʼ/*xriloʼ$
+^,/,$
+^ri/ri$
+^a/a$
+^Tiʼx/Tiʼx$
+^sibʼalaj/sibʼalaj$
+^xkikotik/x>kikot>ik$
+^,/,$
+^xuqujeʼ/xuqujeʼ$
+^ri/ri$
+^alaj/alaj$
+^a/a$
+^Paʼtz/Paʼtz$
+^sibʼalaj/sibʼalaj$
+^xusilabʼaj/*xusilabʼaj$
+^ujeʼ/*ujeʼ$
+^,/,$
+^aninaq/*aninaq$
+^xbʼe/x>bʼe$
+^che/ch>e$
+^ukʼulaxik/*ukʼulaxik$
+^le/le$
+^rajaw/r>ajaw$
+^,/,$
+^kusutusa/*kusutusa$
+^ujeʼ/*ujeʼ$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:14
+# text = We ala sibʼalaj xkikotik xuriqaʼ ri uchim chajital rumal ri laj a Paʼtz.
+# text[spa'] = Este niño mucho estuvo feliz encontró el morral *chajital por él el pequeño Paʼtz.
+# labels = incomplete
+^We/We/W>e$
+^ala/ala/al>a/a>la$
+^sibʼalaj/sibʼalaj$
+^xkikotik/x>kikot>ik$
+^xuriqaʼ/*xuriqaʼ$
+^ri/ri$
+^uchim/u>chim$
+^chajital/*chajital$
+^rumal/r>umal$
+^ri/ri$
+^laj/laj$
+^a/a$
+^Paʼtz/Paʼtz$
+^./.$
+
+# sent_id = cuentos:Sutz’_sachanel.wiki:15
+# text = Xetzalij bʼi kukʼ le awaj rukʼ kikotemal.
+# text[spa'] =  Volvieron con el animal con placer.
+# labels = incomplete
+^Xetzalij/X>e>tzalij$
+^bʼi/bʼi$
+^kukʼ/k>ukʼ$
+^le/le$
+^awaj/awaj/aw>aj$
+^rukʼ/r>ukʼ$
+^kikotemal/kikotemal$
+^./.$
+
+# sent_id = cuentos:Upixab’_nan_To’n.wiki:1
+# text = Ri nan Toʼn nim winaq chik, saq uwiʼ, ronojel aqʼabʼ utz kunaʼo katʼuyiʼ pa   utem, kumiqʼisaj ribʼ cho ri qʼij, kʼo jun uwiʼ umam ubʼiʼ a Teʼk.
+# text[spa'] = Toʼn de persona grande ya, blanco encima él, todo él noche buena se siente se sienta en trono, calienta a él al día, hay un encima del abuelo del nombre de Teʼk.
+# labels = incomplete
+^Ri/Ri$
+^nan/nan$
+^Toʼn/Toʼn$
+^nim/nim$
+^winaq/winaq$
+^chik/chik$
+^,/,$
+^saq/saq$
+^uwiʼ/u>wiʼ$
+^,/,$
+^ronojel/r>onojel$
+^aqʼabʼ/*aqʼabʼ$
+^utz/utz$
+^kunaʼo/*kunaʼo$
+^katʼuyiʼ/*katʼuyiʼ$
+^pa/pa$
+^utem/u>tem$
+^,/,$
+^kumiqʼisaj/*kumiqʼisaj$
+^ribʼ/r>ibʼ$
+^cho/cho/ch>o$
+^ri/ri$
+^qʼij/qʼij$
+^,/,$
+^kʼo/kʼo$
+^jun/jun$
+^uwiʼ/u>wiʼ$
+^umam/u>mam$
+^ubʼiʼ/u>bʼiʼ$
+^a/a$
+^Teʼk/Teʼk$
+^./.$
+
+# sent_id = cuentos:Upixab’_nan_To’n.wiki:2
+# text = Ri a Teʼk xutaʼ chech ri nan Toʼn: - nan jas cheʼ chi man kaj ta la qakʼatisaj ri joʼq. 
+# text[spa'] = Teʼk pidió a Toʼn: - madre qué árbol a no cielo *qakʼatisaj el doblador. 
+# labels = incomplete
+^Ri/Ri$
+^a/a$
+^Teʼk/Teʼk$
+^xutaʼ/*xutaʼ$
+^chech/ch>ech$
+^ri/ri$
+^nan/nan$
+^Toʼn/Toʼn$
+^:/:$
+^-/-$
+^nan/nan$
+^jas/jas$
+^cheʼ/cheʼ$
+^chi/chi$
+^man/man/m>an$
+^kaj/kaj/k>aj$
+^ta/ta$
+^la/la$
+^qakʼatisaj/*qakʼatisaj$
+^ri/ri$
+^joʼq/joʼq$
+^./.$ 
+
+# sent_id = cuentos:Upixab’_nan_To’n.wiki:3
+# text = Ri nan Toʼn xubʼij chech: - xa rumal awas, le joʼq areʼ ratzʼyaq ri jal, ratzʼyaq ri qawa.
+# text[spa'] = Toʼn dijo a él: - sólo por él prohibido, el doblador él es el trapo de la mazorca, el trapo de la comida.
+# labels = incomplete
+^Ri/Ri$
+^nan/nan$
+^Toʼn/Toʼn$
+^xubʼij/*xubʼij$
+^chech/ch>ech$
+^:/:$
+^-/-$
+^xa/xa$
+^rumal/r>umal$
+^awas/awas$
+^,/,$
+^le/le$
+^joʼq/joʼq$
+^areʼ/areʼ$
+^ratzʼyaq/r>atzʼyaq$
+^ri/ri$
+^jal/*jal$
+^,/,$
+^ratzʼyaq/r>atzʼyaq$
+^ri/ri$
+^qawa/qa>wa$
+^./.$
+
+# sent_id = cuentos:Upixab’_nan_To’n.wiki:4
+# text = Jas kʼulmatajik we ta kinkʼatisaj jubʼiqʼ joʼq, man utz ta ri rumal che man kakʼiy ta chik ri aj, we maj aj, maj jal, kaqariq wiʼjal, xubʼij ri nan Toʼn.
+# text[spa'] = Qué pasar si enciendo un poco doblador, no bueno el porque no crece ya la caña, si no caña, no mazorca, encontramos *wiʼjal, Toʼn dijo.
+# labels = incomplete
+^Jas/Jas$
+^kʼulmatajik/*kʼulmatajik$
+^we/we/w>e$
+^ta/ta$
+^kinkʼatisaj/*kinkʼatisaj$
+^jubʼiqʼ/jubʼiqʼ$
+^joʼq/joʼq$
+^,/,$
+^man/man/m>an$
+^utz/utz$
+^ta/ta$
+^ri/ri$
+^rumal/r>umal$
+^che/ch>e$
+^man/man/m>an$
+^kakʼiy/ka>kʼiy$
+^ta/ta$
+^chik/chik$
+^ri/ri$
+^aj/aj$
+^,/,$
+^we/we/w>e$
+^maj/maj$
+^aj/aj$
+^,/,$
+^maj/maj$
+^jal/*jal$
+^,/,$
+^kaqariq/*kaqariq$
+^wiʼjal/wiʼjal$
+^,/,$
+^xubʼij/*xubʼij$
+^ri/ri$
+^nan/nan$
+^Toʼn/Toʼn$
+^./.$
+
+# sent_id = cuentos:Upixab’_nan_To’n.wiki:5
+# text = Ri a Teʼk xumaltyoxij che ri ratiʼt, rumal ri utzalaj noʼjibʼal xukʼut chech.
+# text[spa'] = Teʼk dio gracias a la abuela, por la idea buenísima que le enseñó.
+# labels = complete
+^Ri/Ri$
+^a/a$
+^Teʼk/Teʼk$
+^xumaltyoxij/x>u>maltyoxij$
+^che/ch>e$
+^ri/ri$
+^ratiʼt/r>atiʼt$
+^,/,$
+^rumal/r>umal$
+^ri/ri$
+^utzalaj/utz>alaj$
+^noʼjibʼal/noʼjibʼal$
+^xukʼut/x>u>kʼut$
+^chech/ch>ech$
+^./.$
+
+# sent_id = cuentos:Upixab’_nan_To’n.wiki:6
+# text = Pa jun qʼij riʼ, le a Teʼk, kel ukʼuʼx chech ri joʼq, man karaj ta chik kakʼatisax le joʼq.
+# text[spa'] = En un ese día, Teʼk, va alma al doblador, no quiere ya el doblador se enciende.
+# labels = incomplete
+^Pa/Pa$
+^jun/jun$
+^qʼij/qʼij$
+^riʼ/riʼ$
+^,/,$
+^le/le$
+^a/a$
+^Teʼk/Teʼk$
+^,/,$
+^kel/k>el$
+^ukʼuʼx/u>kʼuʼx$
+^chech/ch>ech$
+^ri/ri$
+^joʼq/joʼq$
+^,/,$
+^man/man/m>an$
+^karaj/*karaj$
+^ta/ta$
+^chik/chik$
+^kakʼatisax/*kakʼatisax$
+^le/le$
+^joʼq/joʼq$
 ^./.$
 

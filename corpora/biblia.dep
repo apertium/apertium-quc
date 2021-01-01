@@ -383,7 +383,7 @@
 # sent_id = biblia:74
 # text = «Makʼam ubʼi weriʼ, matij weriʼ, machap weriʼ».
 # text[spa] = «No tomes en tus manos, no pruebes, no toques»?
-# labels = incomplete
+# labels = complete
 "<«>"
 	"«" lquot @punct #1->2
 "<Makʼam>"
