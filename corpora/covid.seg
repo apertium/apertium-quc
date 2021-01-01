@@ -1,7 +1,7 @@
 # sent_id = covid:2.0
 # text = Loqʼ katkuntaj che le yabʼil (COVID-19).
 # text[spa] = Es posible recuperarse de la enfermedad por coronavirus (COVID-19).
-# labels = incomplete
+# labels = complete
 ^Loqʼ/loqʼ$
 ^katkuntaj/k>at>kun>taj$
 ^che/ch>e$
@@ -15,7 +15,7 @@
 # sent_id = covid:4
 # text = We katij tzam man katuchajij ta che le COVID-19 xuqujeʼ xibʼabʼal chawe.
 # text[spa] = Beber alcohol NO lo protegerá del COVID-19 y podría ser peligroso.
-# labels = incomplete
+# labels = complete
 ^We/we$
 ^katij/ka>tij$
 ^tzam/tzam$
@@ -71,7 +71,7 @@
 # sent_id = covid:13
 # text = We katij anxux man katutoʼ ta chi uqʼatixik le kʼakʼ yabʼil coronavirus (2019-nCOV).
 # text[spa] = Comer ajo NO ayuda a prevenir el contagio del nuevo coronavirus (2019-nCoV).
-# labels = incomplete
+# labels = complete
 ^We/we$
 ^katij/ka>tij$
 ^anxux/anxux$
@@ -94,7 +94,7 @@
 # sent_id = covid:18.0
 # text = ¿Kʼo kʼu laʼ jun kunabʼal che kuqʼatej xuqujeʼ kukunaj le kʼakʼ yabʼil coronavirus?
 # text[spa] = ¿Hay alguna medicina para prevenir o tratar el nuevo coronavirus?
-# labels = incomplete
+# labels = complete
 ^¿/¿$
 ^Kʼo/kʼo$
 ^kʼu/kʼu$

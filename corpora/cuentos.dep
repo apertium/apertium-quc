@@ -97,6 +97,173 @@
 "<.>"
 	"." sent @punct #16->1
 
+# sent_id = cuentos:Jun_ajyuq’.wiki:6
+# text = Xopan jun wonon, xutaʼ chike: - jas che kixoqʼik?
+# text[spa'] = Llegó una abeja, preguntó a ellos: - por qué lloran?
+# labels = complete
+"<Xopan>"
+	"opan" v iv perf s_sg3 @root #1->0
+"<jun>"
+	"jun" num @nummod #2->3
+"<wonon>"
+	"wonon" n @nsubj #3->1
+"<,>"
+	"," cm @punct #4->5
+"<xutaʼ>"
+	"taʼ" v tv perf o_sg3 s_sg3 @parataxis #5->1
+"<chike>"
+	"chi" pr @case #6->7
+		"ech" n rel px3pl @obl #7->5
+"<:>"
+	":" sent @punct #8->5
+"<->"
+	"-" guio @punct #9->5
+"<jas>"
+	"jas" prn itg @advmod #10->13
+"<che>"
+	"chi" pr @case #11->12
+		"ech" n rel px3sg @obl #12->13
+"<kixoqʼik>"
+	"oqʼ" v iv impf s_pl2 @parataxis #13->5
+		"ik" mark @dep #14->13
+"<?>"
+	"?" sent @punct #15->1
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:8
+# text = We wonon xubʼij chike: - kixinto.
+# text[spa'] = Esta abeja dijo a ellos: - os ayudo.
+# labels = complete
+"<We>"
+	"we" det @det #1->2
+"<wonon>"
+	"wonon" n @nsubj #2->3
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3 @root #3->0
+"<chike>"
+	"chi" pr @case #4->5
+		"ech" n rel px3pl @obl #5->3
+"<:>"
+	":" sent @punct #6->8
+"<->"
+	"-" guio @punct #7->8
+"<kixinto>"
+	"toʼ" v tv impf o_pl2 s_sg1 @parataxis #8->3
+"<.>"
+	"." sent @punct #9->3
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:1
+# text = Kʼo jumul kebʼ alabʼom, ekʼo jobʼ kichij, xkichomaj kebeʼ pa yuqʼ.
+# text[spa'] = Hay vez dos muchachos, que tenían cinco ovejas, pensaron ir a pastorear.
+# labels = complete check-all
+"<Kʼo>"
+	"kʼo" part @root #1->0
+"<jumul>"
+	"jumul" n @nsubj #2->1
+"<kebʼ>"
+	"kebʼ" num @nummod #3->4
+"<alabʼom>"
+	"alabʼom" n @nsubj #4->11
+"<,>"
+	"," cm @punct #5->7
+"<ekʼo>"
+	"e" pl @aux #6->7
+		"kʼo" part @acl #7->4
+"<jobʼ>"
+	"jobʼ" num @nummod #8->9
+"<kichij>"
+	"chij" n px3pl @nsubj #9->7
+"<,>"
+	"," cm @punct #10->11
+"<xkichomaj>"
+	"chomaj" v tv perf o_sg3 s_pl3 @root #11->0
+"<kebeʼ>"
+	"bʼe" v iv impf s_pl3 @xcomp #12->11
+"<pa>"
+	"pa" pr @case #13->14
+"<yuqʼ>"
+	"yuqʼ" n @obl #14->12
+"<.>"
+	"." sent @punct #15->11
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:2
+# text = Are xeʼopan chi uchiʼ ri juyubʼ, xkilo chi man qas ta kʼo qʼayes.
+# text[spa'] = Llegó a la orilla del monte, vieron que no era verdad haber césped.
+# labels = complete
+"<Are>"
+	"areʼ" prn pers p3 sg @nsubj #1->2
+"<xeʼopan>"
+	"opan" v iv perf s_sg3 abl @root #2->0
+"<chi>"
+	"chi" pr @case #3->4
+"<uchiʼ>"
+	"chiʼ" n px3sg @obl #4->2
+"<ri>"
+	"ri" det @det #5->6
+"<juyubʼ>"
+	"juyubʼ" n @nmod #7->4
+"<,>"
+	"," cm @punct #7->8
+"<xkilo>"
+	"il" v tv perf o_sg3 s_pl3 @conj #8->1
+		"u" mark @dep #9->8
+"<chi>"
+	"chi" cnjsub @mark #10->13
+"<man>"
+	"man" neg @aux:neg #11->12
+"<qas>"
+	"qas" adj @ccomp #12->8
+"<ta>"
+	"taj" neg @aux:neg #13->12
+"<kʼo>"
+	"kʼo" part @csubj #14->12
+"<qʼayes>"
+	"qʼayes" n @nsubj #15->14
+"<.>"
+	"." sent @punct #16->2
+
+# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:2
+# text = Xkitzijoj chikech ri winaq man utz taj keqasax ri cheʼ, we kabʼanik, kasikʼix saqʼij chaqij. 
+# text[spa'] = Contaron a las personas no es bueno que se derriban las arboles, si se hace, se llama estación seca.
+# labels = complete
+"<Xkitzijoj>"
+	"tzijoj" v tv perf o_sg3 s_pl3 @root #1->0
+"<chikech>"
+	"chi" pr @case #2->3
+		"ech" n rel px3pl @obl #3->1
+"<ri>"
+	"ri" det @det #4->5
+"<winaq>"
+	"winaq" n @nmod #5->3
+"<man>"
+	"man" neg @aux:neg #6->7
+"<utz>"
+	"utz" adj @ccomp #7->1
+"<taj>"
+	"taj" neg fin @aux:neg #8->7
+"<keqasax>"
+	"qasaj" v tv pass impf s_pl3 @csubj #9->7
+"<ri>"
+	"ri" det @det #10->11
+"<cheʼ>"
+	"cheʼ" n @obj #11->9
+"<,>"
+	"," cm @punct #12->14
+"<we>"
+	"we" cnjsub @mark #13->14
+"<kabʼanik>"
+	"bʼan" v tv pass impf s_sg3 @advcl #14->17
+		"ik" mark @dep #15->14
+"<,>"
+	"," cm @punct #16->17
+"<kasikʼix>"
+	"sikʼij" v tv pass impf s_sg3 @parataxis #17->9
+"<saqʼij>"
+	"saqʼij" n @nsubj #18->17
+"<chaqij>"
+	"chaqi’j" adj @amod #19->18
+"<.>"
+	"." sent @punct #20->1
+
 # sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:5
 # text = E kebʼ kekʼam bʼik pa tuj.
 # text[spa'] = Dos están recibidos en temazcal.
