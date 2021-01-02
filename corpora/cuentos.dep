@@ -1150,7 +1150,7 @@
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:4
 # text = Xkikʼut chi uwach ri ajtij xuqujeʼ chikiwach ri taq nikʼaj kachil.
-# text[spa'] =  Lo enseñaron al maestro y a los otros amigos.
+# text[spa'] = Lo enseñaron al maestro y a los otros amigos.
 # labels = complete
 "<Xkikʼut>"
 	"kʼut" v tv perf o_sg3 s_pl3 @root #1->0
@@ -1201,6 +1201,63 @@
 "<.>"
 	"." sent @punct #9->6
 
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:6
+# text = Ri ajtij Lol xuta chike jawi xkichap wi ri alaj imul.
+# text[spa'] = El maestro Lol preguntó a ellos dónde el conejo pequeño agarraron.
+# labels = complete
+"<Ri>"
+	"ri" det @det #1->2
+"<ajtij>"
+	"ajtij" n @nsubj #2->4
+"<Lol>"
+	"Lol" np ant m @appos #3->2
+"<xuta>"
+	"ta’" v tv perf o_sg3 s_sg3 @root #4->0
+"<chike>"
+	"chi" pr @case #5->6
+		"ech" n rel px3pl @obl #6->4
+"<jawi>"
+	"jawi" adv itg @advmod #7->8
+"<xkichap>"
+	"chap" v tv perf o_sg3 s_pl3 @ccomp #8->4
+"<wi>"
+	"wi" adv dir @advmod #9->8
+"<ri>"
+	"ri" det @det #10->12
+"<alaj>"
+	"alaj" adj @amod #11->12
+"<imul>"
+	"imul" n @obj #13->8
+"<.>"
+	"." sent @punct #14->4
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:7
+# text = Ri alaj ali Siʼl xubʼij xqachap pa utzal ri Tyox.
+# text[spa'] = La pequeña niña Siʼl dijo agarramos al lado del Santo.
+# labels = complete
+"<Ri>"
+	"ri" det @det #1->3
+"<alaj>"
+	"alaj" adj @amod #2->3
+"<ali>"
+	"ali" n @nsubj #3->5
+"<Siʼl>"
+	"Siʼl" np ant f @appos #4->3
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3 @root #5->0
+"<xqachap>"
+	"chap" v tv perf o_sg3 s_pl1 @ccomp #6->5
+"<pa>"
+	"pa" pr @case #7->8
+"<utzal>"
+	"tzalaj" n rel px3sg @obl #8->6
+"<ri>"
+	"ri" det @det #9->10
+"<Tyox>"
+	"tyox" n @nmod #10->8
+"<.>"
+	"." sent @punct #11->5
+
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:13
 # text = Ri ajtij kubʼij chike: rajawaxik keqachajij ri awaj, are utikoʼn ri Ajaw.
 # text[spa'] = El maestro dice a ellos: es necesario que cuidemos los animales, la creación del Dueño. 
@@ -1236,7 +1293,6 @@
 	"ajaw" n @nmod #15->13
 "<.>"
 	"." sent @punct #16->3
-
 
 # sent_id = cuentos:Ri_alaj_tz’unun.wiki:6
 # text = Ri ali Naʼ kakiʼkotik are taq xrilo chi le laj tzʼunun xbʼe pa uwiʼ le jeʼl taq kotzʼiʼj.
@@ -1282,6 +1338,81 @@
 	"kotzʼiʼj" n @nmod #20->16
 "<.>"
 	"." sent @punct #21->4
+
+# sent_id = cuentos:Ri_alaj_tz’unun.wiki:1
+# text = Jun aqʼabʼil kʼo ri ali Naʼ chi uwach ri rachoch.
+# text[spa'] = Una madrugada está Naʼ en la casa.
+# labels = complete
+"<Jun>"
+	"jun" num @nummod #1->2
+"<aqʼabʼil>"
+	"aqʼäbʼil" n @obl #2->3
+"<kʼo>"
+	"kʼo" part @root #3->0
+"<ri>"
+	"ri" det @det #4->6
+"<ali>"
+	"ali" clf f @clf #5->6
+"<Naʼ>"
+	"Naʼ" np ant f @nsubj #6->3
+"<chi>"
+	"chi" pr @case #7->8
+"<uwach>"
+	"wach" n rel px3sg @obl #8->3
+"<ri>"
+	"ri" det @det #9->10
+"<rachoch>"
+	"achoch" n px3sg @nmod #10->8
+"<.>"
+	"." sent @punct #11->3
+
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:1
+# text = Pa jun jeʼl tijobʼal kutijoj ribʼ jun akʼal, ubʼiʼ Poʼx, utz kurilo ke pa tijobʼal ronojel taq qʼij.
+# text[spa'] = En una escuela bonita se enseña un niño, el nombre de Poʼx, le gusta a ellos en escuela todos los días.
+# labels = complete
+"<Pa>"
+	"pa" pr @case  #1->4
+"<jun>"
+	"jun" num @nummod #2->4
+"<jeʼl>"
+	"jeʼl" adj @amod #3->4
+"<tijobʼal>"
+	"tijobʼal" n @obl #4->5
+"<kutijoj>"
+	"tijoj" v tv impf o_sg3 s_sg3 @root #5->0
+"<ribʼ>"
+	"ibʼ" n rel px3sg @obj #6->5
+"<jun>"
+	"jun" num @nummod #7->8
+"<akʼal>"
+	"akʼal" n @nsubj #8->5
+"<,>"
+	"," cm @punct #9->10
+"<ubʼiʼ>"
+	"bʼiʼ" n px3sg @appos #10->8
+"<Poʼx>"
+	"Poʼx" np ant m @nmod #11->10
+"<,>"
+	"," cm @punct #12->10
+"<utz>"
+	"utz" adv @advmod #13->14
+"<kurilo>"
+	"il" v tv impf o_sg3 s_sg3 @parataxis #14->5
+		"u" mark @dep #15->14
+"<ke>"
+	"ech" n rel px3pl @obl #16->14
+"<pa>"
+	"pa" pr @case #17->18
+"<tijobʼal>"
+	"tijobʼal" n @obl #18->14
+"<ronojel>"
+	"onojel" n rel px3sg @obl #19->14
+"<taq>"
+	"taq" pl @det #20->21
+"<qʼij>"
+	"qʼij" n @nmod #21->19
+"<.>"
+	"." sent @punct #22->5
 
 # sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:8
 # text = Te kʼu riʼ xutzʼibʼaj ribʼ pa ri nimalaj tijobʼal rech Ajkuʼn.
@@ -1451,7 +1582,7 @@
 "<xretaʼmaj>"
 	"etaʼmaj" v tv perf o_sg3 s_sg3 @root #3->0
 "<chi>"
-	"chi" cnjsub @mark  #4->5
+	"chi" cnjsub @mark #4->5
 "<rajawaxik>"
 	"rajawaxik" adj @ccomp #5->3
 "<man>"
@@ -1515,7 +1646,7 @@
 
 # sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:3
 # text = Xopan jun qʼij xbʼe utukel pa tijobʼal xuriq apanoq jupuq tzʼiʼ pa ri bʼe. 
-# text[spa'] =  Llegó un día fue solo en escuela encontró una camada de perros en la senda. 
+# text[spa'] = Llegó un día fue solo en escuela encontró una camada de perros en la senda. 
 # labels = complete
 "<Xopan>"
 	"opan" v iv perf s_sg3 @root #1->0
@@ -1624,7 +1755,7 @@
 
 # sent_id = cuentos:Sutz’_sachanel.wiki:15
 # text = Xetzalij bʼi kukʼ le awaj rukʼ kikotemal.
-# text[spa'] =  Volvieron con el animal con placer.
+# text[spa'] = Volvieron con el animal con placer.
 # labels = complete
 "<Xetzalij>"
 	"tzalij" v iv perf s_pl3 @root #1->0

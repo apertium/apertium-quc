@@ -4344,31 +4344,31 @@
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:6
 # text = Ri ajtij Lol xuta chike jawi xkichap wi ri alaj imul.
-# text[spa'] = El maestro de Grillo oyó a ellos dónde el conejo pequeño tocaron.
+# text[spa'] = El maestro Lol preguntó a ellos dónde el conejo pequeño agararron.
 # labels = incomplete
 ^Ri/Ri$
-^ajtij/ajtij$
-^Lol/Lol/Lol$
-^xuta/*xuta$
+^ajtij/aj>tij$
+^Lol/Lol$
+^xuta/x>u>ta$
 ^chike/chi>k>e$
 ^jawi/jawi$
-^xkichap/*xkichap$
+^xkichap/x>ki>chap$
 ^wi/wi$
 ^ri/ri$
 ^alaj/alaj$
-^imul/imul/i>mul$
+^imul/imul$
 ^./.$
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:7
 # text = Ri alaj ali Siʼl xubʼij xqachap pa utzal ri Tyox.
-# text[spa'] = El pequeño #Siʼl dijo tocamos en *utzal el Santo.
-# labels = incomplete
+# text[spa'] = La pequeña niña Siʼl dijo agarramos al lado del Santo.
+# labels = complete
 ^Ri/Ri$
 ^alaj/alaj$
 ^ali/ali$
 ^Siʼl/Siʼl$
-^xubʼij/*xubʼij$
-^xqachap/*xqachap$
+^xubʼij/x>u>bʼij$
+^xqachap/x>qa>chap$
 ^pa/pa$
 ^utzal/u>tzal$
 ^ri/ri$
@@ -4524,8 +4524,8 @@
 # text = Jun aqʼabʼil kʼo ri ali Naʼ chi uwach ri rachoch.
 # text[spa'] = Un *aqʼabʼil hay #Naʼ a la casa.
 # labels = incomplete
-^Jun/Jun/Jun$
-^aqʼabʼil/*aqʼabʼil$
+^Jun/Jun$
+^aqʼabʼil/aqʼabʼil$
 ^kʼo/kʼo$
 ^ri/ri$
 ^ali/ali$
@@ -4662,7 +4662,7 @@
 ^jun/jun$
 ^jeʼl/jeʼl$
 ^tijobʼal/tijobʼal$
-^kutijoj/*kutijoj$
+^kutijoj/k>u>tijo>j$
 ^ribʼ/r>ibʼ$
 ^jun/jun$
 ^akʼal/akʼal$
@@ -4671,7 +4671,7 @@
 ^Poʼx/Poʼx$
 ^,/,$
 ^utz/utz$
-^kurilo/*kurilo$
+^kurilo/k>ur>il>o$
 ^ke/k>e$
 ^pa/pa$
 ^tijobʼal/tijobʼal$
