@@ -6915,12 +6915,12 @@
 # text[spa'] = El *Awel aprendió a necesario no *kuxej a él al búho.
 # labels = incomplete
 ^Ri/Ri$
-^Awel/*Awel$
-^xretaʼmaj/*xretaʼmaj$
+^Awel/Awel$
+^xretaʼmaj/x>r>etaʼma>j$
 ^chi/chi$
 ^rajawaxik/rajawaxik$
-^man/man/m>an$
-^kuxej/*kuxej$
+^man/man$
+^kuxej/k>u>xej$
 ^ta/ta$
 ^ribʼ/r>ibʼ$
 ^che/ch>e$
@@ -7044,25 +7044,25 @@
 
 # sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:2
 # text = Xa rumal karaj kretaʼmaj unikʼoxik xuqujeʼ utzʼibʼaxik uwach wuj, utz karil le etzʼanem xuqujeʼ le bʼix.
-# text[spa'] = Sólo por él quiere aprender inspeccionarse también escribirse a libro, bueno ve el juego también el *bʼix.
-# labels = incomplete
+# text[spa'] = Sólo por él quiere aprender inspeccionarse también escribirse a libro, bueno ve el juego también el canto.
+# labels = complete 
 ^Xa/Xa$
 ^rumal/r>umal$
-^karaj/*karaj$
-^kretaʼmaj/*kretaʼmaj$
-^unikʼoxik/*unikʼoxik$
+^karaj/ka>r>aj$
+^kretaʼmaj/k>r>etaʼma>j$
+^unikʼoxik/u>nikʼo>x>ik$
 ^xuqujeʼ/xuqujeʼ$
-^utzʼibʼaxik/*utzʼibʼaxik$
+^utzʼibʼaxik/u>tzʼibʼa>x>ik$
 ^uwach/u>wach$
 ^wuj/wuj$
 ^,/,$
 ^utz/utz$
-^karil/*karil$
+^karil/ka>r>il$
 ^le/le$
 ^etzʼanem/etzʼanem$
 ^xuqujeʼ/xuqujeʼ$
 ^le/le$
-^bʼix/*bʼix$
+^bʼix/bʼix$
 ^./.$
 
 # sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:3
