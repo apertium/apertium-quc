@@ -55,80 +55,81 @@
 # sent_id = biblia:3
 # text = Kbʼe pa ri Siriʼa e pa ri Silisiʼa, jawijeʼ kuya wi ri kichuqʼabʼ ri Komon Tyox.
 # text[spa] = Y viajó por Siria y Cilicia, consolidando a las iglesias.
-# labels = Hechos:5:1 relcl
+# labels = Hechos:5:1 check-relative
 "<Kbʼe>"
-	"bʼe" v iv impf s_sg3 @root
+	"bʼe" v iv impf s_sg3 @root #1->0
 "<pa>"
-	"pa" pr @case
+	"pa" pr @case #2->4
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det #3->4
 "<Siriʼa>"
-	"Siriʼa" np top @obl
+	"Siriʼa" np top @obl #4->1
 "<e>"
-	"e" cnjcoo @cc
+	"e" cnjcoo @cc #5->8
 "<pa>"
-	"pa" pr @case
+	"pa" pr @case #6->8
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det #7->8
 "<Silisiʼa>"
-	"Silisiʼa" np top @conj
+	"Silisiʼa" np top @conj #8->4
 "<,>"
-	"," cm @punct
+	"," cm @punct @punct #9->11
 "<jawijeʼ>"
-	"jawijeʼ" adv itg
+	"jawijeʼ" adv itg @advmod #10->11
 "<kuya>"
-	"ya" v tv impf o_sg3 s_sg3
+	"ya" v tv impf o_sg3 s_sg3 @acl #11->4
 "<wi>"
-	"wi" adv dir @advmod
+	"wi" adv dir @advmod #12->11
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det #13->14
 "<kichuqʼabʼ>"
-	"chuqʼabʼ" n px3pl @obj
+	"chuqʼabʼ" n px3pl @obj #14->11
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det #15->16
 "<Komon>"
-	"komon" n @compound
+	"komon" n @nmod #16->14
 "<Tyox>"
-	"tyox" n @nmod
+	"tyox" n @compound #17->16
 "<.>"
+	"." sent @punct #18->1
 
 # sent_id = biblia:4
 # text = Rukʼ taq we tzij riʼ, xkikʼam ri kiqasnaʼ pa ri ubʼi ri Ajawxel Jesus;
 # text[spa] = Al oír esto, fueron bautizados en el nombre del Señor Jesús.
+# text[spa'] = Con estas palabras, ellos recibieron sus bautismos en el nombre de Señor Jesús.
 # labels = Hechos:5:19
 "<Rukʼ>"
-	"ukʼ" n rel px3sg
+	"ukʼ" n rel px3sg @obl #1->7
 "<taq>"
-	"taq" cnjsub
-	"taq" pl
+	"taq" pl @det #2->5
 "<we>"
-	"we" det @det @det @det
+	"we" det @det #3->5
 "<tzij>"
-	"tzij" n
+	"tzij" n @nmod #4->5
 "<riʼ>"
-	"riʼ" prn dem
+	"riʼ" prn dem @det #5->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->1
 "<xkikʼam>"
-	"kʼam" v tv perf o_sg3 s_pl3 @root
+	"kʼam" v tv perf o_sg3 s_pl3 @root #7->0
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det #8->9
 "<kiqasnaʼ>"
-	"qasnaʼ" n px3pl
+	"qasnaʼ" n px3pl @obj #9->7
 "<pa>"
-	"pa" pr @case
+	"pa" pr @case #10->12
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det #11->12
 "<ubʼi>"
-	"bʼi" n px3sg @obl
+	"bʼi" n px3sg @obl #12->7
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det #13->14
 "<Ajawxel>"
-	"Ajawaxel" n @nmod
+	"Ajawaxel" n @nmod #14->12
 "<Jesus>"
-	"Jesus" np ant m @appos
+	"Jesus" np ant m @appos #15->14
 "<;>"
-	";" sent @punct
+	";" sent @punct #16->7
 
 # sent_id = biblia:5
 # text = ¡Kkʼojiʼ bʼaʼ ri usipanik ri ajawxel Jesus Kristo rukʼ ri awuxlabʼal!
@@ -141,11 +142,11 @@
 "<bʼaʼ>"
 	"bʼaʼ" ij
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det
 "<usipanik>"
 	"sipanik" n px3sg
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det
 "<ajawxel>"
 	"Ajawaxel" n
 "<Jesus>"
@@ -155,7 +156,7 @@
 "<rukʼ>"
 	"ukʼ" n rel px3sg
 "<ri>"
-	"ri" det @det @det @det
+	"ri" det @det
 "<awuxlabʼal>"
 	"uxlabʼal" n px2sg
 "<!>"
@@ -183,24 +184,24 @@
 # text[spa] = ¿Cuando alguien se siente débil, no comparto yo su debilidad?
 # labels = 8_2CO_11
 "<We>"
-	"we" cnjsub @mark #
+	"we" cnjsub @mark #1->2
 "<kʼo>"
-	"kʼo" part @advcl #
+	"kʼo" part @advcl #2->11
 "<jun>"
-	"jun" num @nsubj #
+	"jun" num @nsubj #3->
 "<ktuqaʼrik>"
-	"tuqaʼr" v iv impf s_sg3 @csubj #
-		"ik" mark @dep
+	"tuqaʼr" v iv impf s_sg3 @csubj #4->
+		"ik" mark @dep #5->4
 "<,>"
 	"," cm @punct #
 "<¿>"
 	"¿" lquest @punct #
 "<la>"
-	"la" qst @discourse
+	"la" qst @discourse #
 "<man>"
-	"man" neg @advmod:neg
+	"man" neg @advmod:neg #
 "<xoqujeʼ>"
-	"xuqujʼe" adv @advmod
+	"xuqujʼe" adv @advmod #
 "<taj>"
 	"taj" neg fin @advmod:neg #10->11
 "<kintuqaʼr>"

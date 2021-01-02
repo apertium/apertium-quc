@@ -193,13 +193,18 @@ mono_morphemes = ['pr', 'mark|fin', 'mark', 'part', 'foc']
 converted_sents = 0
 converted_tokens = 0
 
+missing_parses = 0
+missing_segmentations = 0
+
 for depseg in sents_depseg:
 	#print('-->', depseg, file=sys.stderr)
 	if len(sents_depseg[depseg]) != 2:
 		if 0 not in sents_depseg[depseg]:
 			print(depseg, '| WARNING: Empty parse', file=sys.stderr)
+			missing_parses += 1
 		if 1 not in sents_depseg[depseg]:
 			print(depseg, '| WARNING: Empty segmentation', file=sys.stderr)
+			missing_segmentations += 1
 		continue
 
 	parse = sents_depseg[depseg][0]
@@ -246,4 +251,4 @@ for depseg in sents_depseg:
 
 ###############################################################################
 
-print('Converted:',converted_sents,'sentences,',converted_tokens,'tokens.',file=sys.stderr)
+print('Converted %d sentences and %d tokens. Missing %d parses and %d segmentations.' % (converted_sents, converted_tokens, missing_parses, missing_segmentations), file=sys.stderr)

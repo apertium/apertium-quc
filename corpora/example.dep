@@ -59,17 +59,17 @@
 # text[spa] = El libro fue comprado por la chica.
 # labels = canpixabaj-59b
 "<Xuloqʼ>"
-	"loqʼ" v tv pass perf s_sg3 @root
+	"loqʼ" v tv pass perf s_sg3 @root #1->0
 "<ri>"
-	"ri" det @det
+	"ri" det @det #2->3
 "<wuj>"
-	"wuj" n @nsubj
+	"wuj" n @nsubj #3->1
 "<rumal>"
-	"umal" n rel px3sg @case
+	"umal" n rel px3sg @obl:agent #4->1
 "<ri>"
-	"ri" det @det
+	"ri" det @det #5->6
 "<ali>"
-	"ali" n @obl:agent
+	"ali" n @nmod #6->4
 "<.>"
-	"." @punct
+	"." @punct #7->1
 

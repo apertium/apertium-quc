@@ -22,3 +22,26 @@
 ^lej/lej$
 ^./.$
 
+# sent_id = example:3
+# text = Xuloqʼ ri wuj ri ali.
+# text[spa] = La chica compró el libro.
+# labels = canpixabaj-59a
+^Xuloqʼ/X>ul>oqʼ$
+^ri/ri$
+^wuj/wuj$
+^ri/ri$
+^ali/ali$
+^./.$
+
+# sent_id = example:4
+# text = Xuloqʼ ri wuj rumal ri ali.
+# text[spa] = El libro fue comprado por la chica.
+# labels = canpixabaj-59b
+^Xuloqʼ/X>ul>oqʼ$
+^ri/ri$
+^wuj/wuj$
+^rumal/r>umal$
+^ri/ri$
+^ali/ali$
+^./.$
+

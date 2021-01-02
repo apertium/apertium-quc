@@ -883,7 +883,7 @@
 
 # sent_id = utexas:57
 # text = Kinya jun rutzil iwach nutijoxelabʼ!
-# text[spa] =  Les doy un cordial saludo, mis estudiantes!
+# text[spa] = Les doy un cordial saludo, mis estudiantes!
 # labels = tijonik-7 complete
 "<Kinya>"
 	"ya" v tv impf o_sg3 s_sg1 @root #1->0
@@ -1001,7 +1001,7 @@
 
 # sent_id = utexas:64
 # text = Kʼax le kibʼe le winaq.
-# text[spa] =  El camino de la gente es difícil.
+# text[spa] = El camino de la gente es difícil.
 # labels = tijonik-7 complete
 # notes = (le) PX-noun1 (le) noun2 = (el) noun1 de (el) noun2
 "<Kʼax>"
@@ -1034,7 +1034,7 @@
 
 # sent_id = utexas:66
 # text = Kʼakʼ le poʼt.
-# text[spa] =  El huipil es nuevo.
+# text[spa] = El huipil es nuevo.
 # labels = tijonik-7 complete
 "<Kʼakʼ>"
 	"kʼakʼ" adj @root #1->0
@@ -1570,7 +1570,7 @@
 	"?" sent
 
 # sent_id = utexas:90.6
-# text = Kakitij le kinaqʼ, le ichaj, le uwaʼl ik rukʼ  lej.
+# text = Kakitij le kinaqʼ, le ichaj, le uwaʼl ik rukʼ lej.
 # text[spa] = Comen frijoles, hierbas, y caldo con tortillas.
 # labels = tijonik-14 complete
 "<Kakitij>"
@@ -2239,7 +2239,7 @@
 
 # sent_id = utexas:123.2
 # text = Xukʼut le Kʼicheʼ chʼabʼal le al Nela chqawach.
-# text[spa] =  Manuela nos enseñó el idioma kʼicheʼ
+# text[spa] = Manuela nos enseñó el idioma kʼicheʼ
 # labels = tijonik-17 complete
 "<Xukʼut>"
 	"kʼut" v tv perf o_sg3 s_sg3 @root #1->0
@@ -3958,7 +3958,7 @@
 "<Chitatabʼej>"
 	"tatabʼej" v tv imp o_sg3 s_pl2 @root #1->0
 "<jas>"
-	"jas" prn itg @obj  #2->1
+	"jas" prn itg @obj #2->1
 "<ri>"
 	"ri" prn rel @obj #3->4
 "<kimbʼij>"
@@ -4686,7 +4686,7 @@
 
 # sent_id = utexas:23
 # text = Rajawaxik kakʼaman chawe le utijik le lej.
-# text[spa] =  Es necesario que te acostumbres a comer tortillas.
+# text[spa] = Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41 complete check-nonfinite
 "<Rajawaxik>"
 	"rajawaxik" adj @root #1->0
@@ -4926,7 +4926,7 @@
 
 # sent_id = utexas:265.1
 # text = Wemna chpe le jabʼ kakam le abʼix.
-# text[spa] =  Si no viene la lluvia se muere la milpa.
+# text[spa] = Si no viene la lluvia se muere la milpa.
 # labels = tijonik-42 complete
 "<Wemna>"
 	"we" cnjsub @mark #1->3
@@ -5172,7 +5172,7 @@
 
 # sent_id = utexas:274
 # text = We ta xatbʼe wukʼ pa le tinamit, xaloqʼ ta waʼ we jastaq
-# text[spa] =  Si hubieras ido conmigo al pueblo, hubieras comprado esta ropa.
+# text[spa] = Si hubieras ido conmigo al pueblo, hubieras comprado esta ropa.
 # labels = tijonik-42 complete check-irrealis
 "<We>"
 	"we" cnjsub @mark #1->3
@@ -5205,7 +5205,7 @@
 
 # sent_id = utexas:275
 # text = We ta ma ta xatbʼe pa le tinamit ma ta xaloqʼ laʼ le ujastaq le akʼajol.
-# text[spa] =  Si no hubieras ido al pueblo, no hubieras comprado la ropa de tu hijo.
+# text[spa] = Si no hubieras ido al pueblo, no hubieras comprado la ropa de tu hijo.
 # labels = tijonik-42 complete check-negative
 "<We>"
 	"we" cnjsub @mark #1->5
@@ -5399,7 +5399,7 @@
 "<We>"
 	"we" cnjsub @mark #1->5
 "<ta>"
-	"taj" neg @aux  #2->5
+	"taj" neg @aux #2->5
 "<je>"
 	"je" adv @advmod #3->5
 "<laʼ>"
@@ -5542,7 +5542,7 @@
 
 # sent_id = utexas:286
 # text = Ma ta kʼo jun kakanaj kanoq, qonojel kojbʼek.
-# text[spa] =  Que nadie se quede, todos nos vamos.
+# text[spa] = Que nadie se quede, todos nos vamos.
 # labels = tijonik-42 incomplete
 "<Ma>"
 	"ma" neg
@@ -5606,7 +5606,7 @@
 	"qajaw" n px1pl @nsubj #5->6
 "<kixtewechiʼnik>"
 	"tewechiʼj" v tv anti impf s_pl2 @root #6->0
-		"ik" mark @dep  #7->6
+		"ik" mark @dep #7->6
 "<.>"
 	"." sent @punct #8->6
 
