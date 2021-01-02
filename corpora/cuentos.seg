@@ -2166,7 +2166,7 @@
 # labels = incomplete
 ^Ktij/K>tij$
 ^ri/ri$
-^uwaʼl/uwaʼl/u>waʼl$
+^uwaʼl/u>waʼl$
 ^ik/ik$
 ^rumal/r>umal$
 ^ri/ri$
@@ -2176,11 +2176,11 @@
 # sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:8
 # text = We man je kabʼan chike, kabʼison le rajaw tuj.
 # text[spa'] = Este no como inventa a ellos, el dueño de temazcal está triste .
-# labels = incomplete
-^We/We/W>e$
-^man/man/m>an$
+# labels = complete
+^We/We$
+^man/man$
 ^je/je$
-^kabʼan/*kabʼan$
+^kabʼan/k>a>bʼan$
 ^chike/chi>k>e$
 ^,/,$
 ^kabʼison/ka>bʼison$
@@ -2315,18 +2315,18 @@
 
 # sent_id = cuentos:K’ulmatajem.wiki:7
 # text = Are kʼut pa le juyubʼ kkʼiy joron, chilaʼ xekikʼama wi ri jaʼ ri winaq.
-# text[spa'] =  pero en el monte crece frío, allí *xekikʼama el agua la persona.
-# labels = incomplete
+# text[spa'] = Pero en el monte crece frío, allí reciben las aguas las personas.
+# labels = complete
 ^Are/Are$
-^kʼut/kʼut/kʼ>ut$
+^kʼut/kʼut$
 ^pa/pa$
 ^le/le$
 ^juyubʼ/juyubʼ$
 ^kkʼiy/k>kʼiy$
-^joron/*joron$
+^joron/joron$
 ^,/,$
 ^chilaʼ/chilaʼ$
-^xekikʼama/*xekikʼama$
+^xekikʼama/x>e>ki>kʼam>a$
 ^wi/wi$
 ^ri/ri$
 ^jaʼ/jaʼ$

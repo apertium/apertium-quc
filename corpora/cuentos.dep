@@ -424,6 +424,44 @@
 "<.>"
 	"." sent @punct #20->1
 
+# sent_id = cuentos:K’ulmatajem.wiki:7
+# text = Are kʼut pa le juyubʼ kkʼiy joron, chilaʼ xekikʼama wi ri jaʼ ri winaq.
+# text[spa'] = Pero en el monte crece frío, allí reciben las aguas las personas.
+# labels = complete
+"<Are>"
+	"are" foc @discourse #1->6
+"<kʼut>"
+	"kʼut" part @discourse #2->6
+"<pa>"
+	"pa" pr @case #3->5
+"<le>"
+	"le" det @det #4->5
+"<juyubʼ>"
+	"juyubʼ" n @obl #5->6
+"<kkʼiy>"
+	"kʼiy" v iv impf s_sg3 @root #6->0
+"<joron>"
+	"jorön" n @nsubj #7->6
+"<,>"
+	"," cm @punct #8->10
+"<chilaʼ>"
+	"chilaʼ" adv @advmod #9->10
+"<xekikʼama>"
+	"kʼam" v tv perf o_pl3 s_pl3 @parataxis #10->6
+"<wi>"
+	"wi" adv dir @advmod #11->10
+"<ri>"
+	"ri" det @det #12->13
+"<jaʼ>"
+	"jaʼ" n @obj #13->11
+"<ri>"
+	"ri" det @det #14->15
+"<winaq>"
+	"winaq" n @nsubj #15->11
+"<.>"
+	"." sent @punct #16->6
+
+
 # sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:5
 # text = E kebʼ kekʼam bʼik pa tuj.
 # text[spa'] = Dos están recibidos en temazcal.
@@ -464,6 +502,55 @@
 	"achoch" n px3pl @obl #8->2
 "<.>"
 	"." sent @punct #9->2
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:7
+# text = Ktij ri uwaʼl ik rumal ri kinimaqʼij.
+# text[spa'] = Come el jugo de chile para su fiesta.
+# labels = complete check-translation
+"<Ktij>"
+	"tij" v iv impf s_sg3 @root #1->0
+"<ri>"
+	"ri" det @det #2->3
+"<uwaʼl>"
+	"waʼl" n px3sg @obj #3->1
+"<ik>"
+	"ik" n @compound #4->3
+"<rumal>"
+	"umal" n rel px3sg @obl #5->7
+"<ri>"
+	"ri" det @det #6->7
+"<kinimaqʼij>"
+	"nimaqʼij" n px3pl @obl #8->1
+"<.>"
+	"." sent @punct #9->1
+
+# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:8
+# text = We man je kabʼan chike, kabʼison le rajaw tuj.
+# text[spa'] = Si no haces así a ellos, el dueño de temazcal está triste.
+# labels = complete
+"<We>"
+	"we" cnjsub @mark #1->4
+"<man>"
+	"man" neg @aux:neg #2->4
+"<je>"
+	"je" adv @advmod #3->4
+"<kabʼan>"
+	"bʼan" v tv impf o_sg3 s_sg2 @advcl #4->8
+"<chike>"
+	"chi" pr @case #5->6
+		"ech" n rel px3pl @obl #6->4
+"<,>"
+	"," cm @punct #7->4
+"<kabʼison>"
+	"bʼison" v iv impf s_sg3 @root #8->0
+"<le>"
+	"le" det @det #9->10
+"<rajaw>"
+	"ajaw" n px3sg @nsubj #10->8
+"<tuj>"
+	"tuj" n @nmod #11->10
+"<.>"
+	"." sent @punct #12->8
 
 # sent_id = cuentos:Le_k’olot_ali.wiki:8
 # text = Xaq uj junam chi uwach ri Ajaw.

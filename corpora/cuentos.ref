@@ -2191,17 +2191,17 @@
 
 # sent_id = cuentos:K’ulmatajem.wiki:1
 # text = Jelaʼ pa tinamit Chipi ayok xkʼasi jun nim chʼojinel ubʼi Tekum Umam.
-# text[spa'] = Allá en tierra *Chipi *ayok *xkʼasi un grande *chʼojinel nombre *Tekum Abuelo.
+# text[spa'] = Allá en tierra Chipi *ayok vivia un grande guerrero de nombre Tekum Umam.
 # labels = incomplete
 ^Jelaʼ/jelaʼ<adv>$
 ^pa/pa<pr>$
 ^tinamit/tinamit<n>$
 ^Chipi/Chipi<np><top>$
 ^ayok/*ayok$
-^xkʼasi/*xkʼasi$
+^xkʼasi/<perf><s_sg3>kʼasiʼ<v><iv>$
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^nim/nim<adj>$
-^chʼojinel/*chʼojinel$
+^chʼojinel/chʼojinel<n>$
 ^ubʼi/<px3sg>bʼi<n>$
 ^Tekum/Tekum<np><ant><m>$
 ^Umam/Umam<np><cog>/<px3sg>Mam<n>/<px3sg>mam<n>$

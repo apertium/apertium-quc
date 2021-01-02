@@ -4874,6 +4874,8 @@ cholchak:cholchak N-tinamit ; ! "mismo"
 
 qʼataj:qʼataj N-tinamit ; ! "artículo"
 
+chʼojinel:chʼojinel N-tinamit ; ! "guerrero"
+
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Didyme:Didyme NP-Top ;
@@ -7560,6 +7562,7 @@ kʼamow:kʼamow                      V-IV   ; ! "receive"
 kʼaqat:kʼaqat                      V-IV   ; ! "itch"
 kʼarar:kʼarar                      V-IV   ; ! "sound of grains scattering on surface (wheat on table)"
 kʼasiʼ:kʼasiʼ                      V-IV   ; ! "vivir; live"
+kʼasiʼ:kʼasi                      V-IV   ; ! "vivir; live" ! Src/Cuentos ! Use/Spell
 kʼastaj:kʼastaj                    V-IV   ; ! "awaken"
 kʼat:kʼat                          V-IV   ; ! "burn"
 kʼatzitz:kʼatzitz                  V-IV   ; ! "creaking of a tree"
