@@ -3932,42 +3932,42 @@
 
 # sent_id = cuentos:Q’or_re_aj.wiki:1
 # text = Pa ri komon rech San Vicente Buenabaj.
-# text[spa'] = En la comunidad a él *San Vicente *Buenabaj.
-# labels = incomplete
+# text[spa'] = En la comunidad de San Vicente Buenabaj.
+# labels = complete
 ^Pa/Pa$
 ^ri/ri$
 ^komon/komon$
-^rech/rech/r>ech$
-^San/*San$
+^rech/rech$
+^San/San$
 ^Vicente/Vicente$
-^Buenabaj/*Buenabaj$
+^Buenabaj/Buenabaj$
 ^./.$
 
 # sent_id = cuentos:Q’or_re_aj.wiki:2
 # text = Pa ri kiqʼij kaminaqibʼ kbʼan qʼor ikʼyaʼ rech aj: nabʼe ri nan kutzukuj kan ri aj, kujachʼoʼ xuquje kukʼeto.
 # text[spa'] = En el día de muertos se hace atole *ikʼyaʼ a caña: primero la madre *kutzukuj la caña, *kujachʼoʼ también *kukʼeto.
-# labels = incomplete
+# labels = complete
 ^Pa/Pa$
 ^ri/ri$
 ^kiqʼij/ki>qʼij$
 ^kaminaqibʼ/kaminaq>ibʼ$
-^kbʼan/*kbʼan$
+^kbʼan/k>bʼan$
 ^qʼor/qʼor$
-^ikʼyaʼ/*ikʼyaʼ$
-^rech/rech/r>ech$
+^ikʼyaʼ/ikʼyaʼ$
+^rech/r>ech$
 ^aj/aj$
 ^:/:$
 ^nabʼe/nabʼe$
 ^ri/ri$
 ^nan/nan$
-^kutzukuj/*kutzukuj$
-^kan/kan/k>an$
+^kutzukuj/k>u>tzuku>j$
+^kan/kan$
 ^ri/ri$
 ^aj/aj$
 ^,/,$
-^kujachʼoʼ/*kujachʼoʼ$
+^kujachʼoʼ/k>u>jachʼoʼ$
 ^xuquje/xuquje$
-^kukʼeto/*kukʼeto$
+^kukʼeto/k>u>kʼeto$
 ^./.$
 
 # sent_id = cuentos:Q’or_re_aj.wiki:3
@@ -4148,15 +4148,15 @@
 # sent_id = cuentos:Rawasil_ri_jastaq.wiki:3
 # text = We kabʼan elaqʼ pwaq, kape ri mebʼaʼil pa awiʼ.
 # text[spa'] = Este inventa robo oro, viene la pobreza encima ti.
-# labels = incomplete
-^We/We/W>e$
-^kabʼan/*kabʼan$
-^elaqʼ/*elaqʼ$
+# labels = complete
+^We/We$
+^kabʼan/k>a>bʼan$
+^elaqʼ/elaqʼ$
 ^pwaq/pwaq$
 ^,/,$
-^kape/kape/ka>pe$
+^kape/ka>pe$
 ^ri/ri$
-^mebʼaʼil/*mebʼaʼil$
+^mebʼaʼil/mebʼaʼil$
 ^pa/pa$
 ^awiʼ/a>wiʼ$
 ^./.$
@@ -4183,14 +4183,14 @@
 # sent_id = cuentos:Rawasil_ri_jastaq.wiki:5
 # text = Itzel kawil le jabʼ, we katkamik pa jabʼ katmuq wi.
 # text[spa'] = Malo ves la lluvia, si mueres en lluvia entierras .
-# labels = incomplete
+# labels = complete
 ^Itzel/Itzel$
-^kawil/*kawil$
+^kawil/k>aw>il$
 ^le/le$
 ^jabʼ/jabʼ$
 ^,/,$
-^we/we/w>e$
-^katkamik/*katkamik$
+^we/we$
+^katkamik/k>at>kam>ik$
 ^pa/pa$
 ^jabʼ/jabʼ$
 ^katmuq/k>at>muq$
@@ -4260,18 +4260,18 @@
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:1
 # text = Jun qʼij kanoq pa komon Xechpup uqʼabʼ tinamit Xoʼl Abʼaj.
-# text[spa'] = Un día en comunidad Xechpup de mano de tierra *Xoʼl *Abʼaj.
-# labels = incomplete
+# text[spa'] = Un día en comunidad Xechpup de mano del pueblo Xoʼl Abʼaj.
+# labels = complete
 ^Jun/Jun/Jun$
 ^qʼij/qʼij$
 ^kanoq/kan>oq$
 ^pa/pa$
 ^komon/komon$
 ^Xechpup/Xechpup$
-^uqʼabʼ/*uqʼabʼ$
+^uqʼabʼ/u>qʼabʼ$
 ^tinamit/tinamit$
 ^Xoʼl/Xoʼl$
-^Abʼaj/*Abʼaj$
+^Abʼaj/Abʼaj$
 ^./.$
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:2
@@ -4296,30 +4296,30 @@
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:3
 # text = Pa ri bʼe xkiraq jun alaj imul saq rij, xkikʼam bʼik.
 # text[spa'] = En la senda *xkiraq un conejo blanco pequeño atrás él, recibieron.
-# labels = incomplete
+# labels = complete
 ^Pa/Pa$
 ^ri/ri$
 ^bʼe/bʼe$
-^xkiraq/*xkiraq$
+^xkiraq/x>ki>raq$
 ^jun/jun$
 ^alaj/alaj$
-^imul/imul/i>mul$
+^imul/imul$
 ^saq/saq$
 ^rij/r>ij$
 ^,/,$
-^xkikʼam/*xkikʼam$
+^xkikʼam/x>ki>kʼam$
 ^bʼik/bʼi>k$
 ^./.$
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:4
 # text = Xkikʼut chi uwach ri ajtij xuqujeʼ chikiwach ri taq nikʼaj kachil.
 # text[spa'] =  Enseñaron al maestro también a los amigos otros.
-# labels = incomplete
-^Xkikʼut/*Xkikʼut$
+# labels = complete
+^Xkikʼut/X>ki>kʼut$
 ^chi/chi$
 ^uwach/u>wach$
 ^ri/ri$
-^ajtij/ajtij$
+^ajtij/aj>tij$
 ^xuqujeʼ/xuqujeʼ$
 ^chikiwach/chi>ki>wach$
 ^ri/ri$
@@ -4331,7 +4331,7 @@
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:5
 # text = Konojel ri akʼalabʼ sibʼalaj utz xkil le imul.
 # text[spa'] = Todos los niños mucho bueno el conejo vieron.
-# labels = incomplete
+# labels = complete
 ^Konojel/K>onojel$
 ^ri/ri$
 ^akʼalabʼ/akʼal>abʼ$
