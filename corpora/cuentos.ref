@@ -56,7 +56,7 @@
 
 # sent_id = cuentos:Alaj_imul.wiki:3
 # text = Le laj imul qʼeq rij, are kachʼopinik, ma kuxeʼj ta ribʼ, kʼate xrilo ma ekʼo ta chik ri rachalal.  
-# text[spa'] = El conejo negro pequeño atrás él, salta , no *kuxeʼj a él, hasta vio hay ya el hermano. 
+# text[spa'] = El conejo negro pequeño atrás él, salta, no tiene miedo, hasta vio hay otra vez los hermanos. 
 # labels = incomplete
 ^Le/le<det>/le<prn><rel>$
 ^laj/laj<adj>/laʼj<adj>$
@@ -68,7 +68,7 @@
 ^kachʼopinik/<impf><s_sg3>chʼopin<v><iv>+ik<mark>$
 ^,/,<cm>$
 ^ma/ma<neg>$
-^kuxeʼj/*kuxeʼj$
+^kuxeʼj/<impf><o_sg3><s_sg3>xeʼj<v><tv>$
 ^ta/taj<neg>$
 ^ribʼ/<px3sg>ibʼ<n><rel>$
 ^,/,<cm>$
@@ -7265,14 +7265,6 @@
 ^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
 ^kikotemal/kikotemal<n>$
 ^./.<sent>$
-
-# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:10
-# text = ʼʼʼupatan - uchakʼʼʼ*
-# text[spa'] = *ʼʼʼupatan - *uchakʼʼʼ*
-# labels = incomplete
-^ʼʼʼupatan/*ʼʼʼupatan$
-^-/-<guio>$
-^uchakʼʼʼ/*uchakʼʼʼ$*
 
 # sent_id = cuentos:Sak’aj_walijem.wiki:1
 # text = Xkʼulmataj jumul kʼo jun akʼal sibʼalaj saqʼor, sibʼalaj natam* kwalijik, kyaj rumal ri unan xa kpe royowal, xaneʼ kʼo jun qʼij rumal che kʼamatan xwalijik man xatin chibʼik, man xwaʼ taj xunim bʼi ri uwuj, ri utzʼibʼabʼal chiʼ upam ri uchim, xreqaj bʼik, te kʼu riʼ xeʼ pa tijobʼal. 

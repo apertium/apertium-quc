@@ -5077,6 +5077,8 @@ Abʼraham:Abʼrahamʼ NP-Ant-M ; ! Src/Biblia ! Use/Spell
 David:David NP-Ant-M ;
 Santiʼago:Santiʼago NP-Ant-M ;
 Pedro:Pedro NP-Ant-M ;
+Xoʼr:Xoʼr NP-Ant-M ;
+Tekʼu:Tekʼu NP-Ant-M ;
 Judas:Judas NP-Ant-M ;
 Herodiʼas:Herodiʼas NP-Ant-F ;
 Pilato:Pilato NP-Ant-M ;
@@ -6680,7 +6682,8 @@ kol:kol                            V-TV-R ; ! "save"
 kolobʼaj:koloba                     V-TV-D ; ! "hang by a nail (colgar)"
 kolomaj:koloma                     V-TV-D ; ! "arrange"
 koloqʼaj:koloqʼa                   V-TV-D ; ! "caress, to pet (animal)"
-kolotaj:kolota                     V-TV-D ; ! "save"
+!kʼolot:kʼolot                      V-TV-R ; ! "salvar, guardar"
+kolotaj:kolota                     V-TV-D ; ! "save" ! FIXME: IV?
 korobʼaj:koroba                     V-TV-D ; ! "loosen something"
 kotokiej:kotokie                   V-TV-D ; ! "twist (ankle)"
 kototej:kotote                     V-TV-D ; ! "twist something"
@@ -6706,8 +6709,8 @@ kʼaqatij:kʼaqati                   V-TV-D ; ! "scratch (skin from itch or plea
 kʼas:kʼas                          V-TV-R ; ! "buy something on credit"
 kʼaslemaj:kʼaslema                 V-TV-D ; ! "vivir, experimentar; "
 kʼastajisaj:kʼastajisa             V-TV-D ; ! "wake someone up"
-kʼatisaj:kʼatisa                   V-TV-D ; ! "cause to burn"
-kʼatisaj:kʼatisa                   V-TV-D ; ! "light on fire"
+kʼasuj:kʼasu                       V-TV-D ; ! ""
+kʼatisaj:kʼatisa                   V-TV-D ; ! "cause to burn, light on fire"
 kʼaxkʼolij:kʼaxkʼoli               V-TV-D ; ! "sufrir; suffer"
 kʼayij:kʼayi                       V-TV-D ; ! "vender; sell"
 kʼej:kʼe                           V-TV-D ; ! "change"
@@ -7248,6 +7251,7 @@ yuxij:yuxi                         V-TV-D ; ! "spy on"
 yuxilej:yuxile                     V-TV-D ; ! "watch or guard out of curiosity"
 
 naʼ:naʼ V-TV-R ; ! "sentir"
+xeʼj:xeʼ                         V-TV-D   ; ! "tener miedo; be afraid" ! Src/CanPixabaj
 xeʼj:xiʼ                         V-TV-D   ; ! "tener miedo; be afraid" ! Src/CanPixabaj
 qʼil:qʼil                          V-TV-R   ; ! "prevent"
 min:min                            V-TV-R ; ! "introducir; introduce"
@@ -7877,6 +7881,7 @@ qʼuyuy:qʼuyuy                      V-IV   ; ! "vibrate (voice when singing)"
 qʼänar:qʼänar                      V-IV   ; ! "scorch (cloth from iron)"
 racak:racak                        V-IV   ; ! "clamber up (cat up a tree)"
 rapap:rapap                        V-IV   ; ! "fly"
+rapap:ropop                        V-IV   ; ! "fly" ! Src/Cuentos
 raparat:raparat                    V-IV   ; ! "fly like a butterfly"
 rapin:rapin                        V-IV   ; ! "fly"
 raqin:raqin                        V-IV   ; ! "crack (pot)"
@@ -7914,6 +7919,7 @@ saqʼorin:saqʼorin                  V-IV   ; ! "not have the desire to work"
 sayoʼp:sayoʼp                      V-IV   ; ! "rock side to side (boat on water)"
 saʼl:saʼl                          V-IV   ; ! "dry out by sun or fire"
 selebʼataj:selebataj                V-IV   ; ! "dislocate"
+selebʼataj:solobʼataj               V-IV   ; ! "dislocate" ! Src/Cuentos
 seren:seren                        V-IV   ; ! "cut planks from a tree"
 seteʼ:seteʼ                        V-IV   ; ! "fill out"
 seyow:seyow                        V-IV   ; ! "float"
