@@ -573,6 +573,96 @@
 "<.>"
 	"." sent @punct #8->3
 
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:4
+# text = Are taq xujaq ri uchiʼ xutzoqopij ri imul, ri par naj uwiʼ che; xuchap ri imul, xutijo xaq jeri xpakun ri unumik.
+# text[spa'] = Cuando abrió la orilla liberó el conejo, el zorillo lejos de encima de él; tocó el conejo, comió sólo así se deshace de tener hambre.
+# labels = incomplete
+"<Are>"
+	"are" adv @mark
+"<taq>"
+	"taq" cnjsub @fixed
+"<xujaq>"
+	"jaq" v tv perf o_sg3 s_sg3 @advcl
+"<ri>"
+	"ri" det @det
+"<uchiʼ>"
+	"chiʼ" n px3sg @obj
+"<xutzoqopij>"
+	"tzoqopij" v tv perf o_sg3 s_sg3 @root
+"<ri>"
+	"ri" det @det
+"<imul>"
+	"imul" n
+"<,>"
+	"," cm
+"<ri>"
+	"ri" det
+"<par>"
+	"par" n
+"<naj>"
+	"naj" adj
+	"naj" adv
+"<uwiʼ>"
+	"wiʼ" n px3sg
+	"wiʼ" n rel px3sg
+"<che>"
+	"chi" pr
+		"ech" n rel px3sg
+"<;>"
+	";" sent
+"<xuchap>"
+	"chap" v tv perf o_sg3 s_sg3
+"<ri>"
+	"ri" det
+"<imul>"
+	"imul" n
+"<,>"
+	"," cm
+"<xutijo>"
+	"tij" v tv perf o_sg3 s_sg3
+		"u" mark
+"<xaq>"
+	"xaq" adj
+	"xaq" adv
+	"xaq" n
+	"xäq" n
+"<jeri>"
+	"jeriʼ" adv
+"<xpakun>"
+	"pak" v tv anti perf s_sg3
+"<ri>"
+	"ri" det
+"<unumik>"
+	"num" v iv inf s_sg3
+"<.>"
+	"." sent
+
+# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:6
+# text = Ri joj kabʼisonik rumal che maj chik kutijo.
+# text[spa'] = El cuervo está triste porque otra vez no come.
+# labels = complete check-subordinator
+"<Ri>"
+	"ri" det @det #1->2
+"<joj>"
+	"joj" n @nsubj #2->3
+"<kabʼisonik>"
+	"bʼison" v iv impf s_sg3 @root #3->0
+		"ik" mark @dep #4->3
+"<rumal>"
+	"umal" n rel px3sg @mark #5->10
+"<che>"
+	"chi" pr @fixed #6->5
+		"ech" n rel px3sg @fixed #7->5
+"<maj>"
+	"maj" part neg @aux:neg #8->10
+"<chik>"
+	"chik" adv @advmod #9->10
+"<kutijo>"
+	"tij" v tv impf o_sg3 s_sg3 @advcl #10->3
+		"u" mark @dep #11->10
+"<.>"
+	"." sent @punct #12->3
+
 # sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:11
 # text = Kʼatekʼuri le tat Xoʼr xubʼij, man kawaj taj, man kawaj taj.
 # text[spa'] = Entonces el padre Xoʼr dijo, no lo quieres, no lo quieres.

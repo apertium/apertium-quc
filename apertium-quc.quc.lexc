@@ -2600,6 +2600,8 @@ kikʼ:kikʼ N-tinamit ; ! "rubber ball"
 !kikʼ poqʼ:kikʼ poqʼ N-tinamit ; ! "blood blister"
 !kikʼ tzʼenem:kikʼ tzʼenem N-tinamit ; ! "game with rubber ball"
 kikotemal:kikotemal N-tinamit ; ! "pleasure"
+kikotemal:kikoʼtemal N-tinamit ; ! "pleasure" ! Src/Cuentos
+kikotemal:kiʼkotemal N-tinamit ; ! "pleasure" 
 kinäqʼ:kinäqʼ N-tinamit ; ! "bean"
 kiqiqʼ:kiqiqʼ N-tinamit ; ! "radiating pain"
 kirik:kirik N-tinamit ; ! "the untying"
@@ -4682,7 +4684,6 @@ bʼaqilal:bʼaqilal N-tinamit ;
 tabʼal:tabʼal N-tinamit ;
 rayibʼal:rayibʼal N-tinamit ;
 amajaʼ:amajaʼ N-tinamit ;
-kiʼkotemal:kiʼkotemal N-tinamit ;
 kyaqiqʼ:kyaqiqʼ N-tinamit ;
 
 bʼaqʼ:bʼaqʼ N-tinamit ; ! "pepita"
@@ -6287,6 +6288,7 @@ are:aare Ad-aninaq ;                ! "when, while" ! Use/Long
 chanim:chanim Ad-aninaq ;          ! "right now, rapidly"
 waral:waral Ad-aninaq ;            ! "here"
 jeriʼ:jeriʼ Ad-aninaq ;            ! "thus, like that"
+jeriʼ:jeri Ad-aninaq ;            ! "thus, like that" ! Src/Cuentos ! Use/Spell
 naj:naj Ad-aninaq ;                ! "from afar, for a long time"
 ne:ne Ad-aninaq ;                  ! "marker of doubt"
 apawijeʼ:apawijeʼ Ad-aninaq ;      ! "wherever"

@@ -2746,16 +2746,16 @@
 
 # sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:6
 # text = Ri joj kabʼisonik rumal che maj chik kutijo.
-# text[spa'] = El cuervo está triste porque no ya come.
+# text[spa'] = El cuervo está triste porque otra vez no come.
 # labels = incomplete
 ^Ri/Ri$
 ^joj/joj$
-^kabʼisonik/ka>bʼison>ik/ka>bʼiso>n>ik$
+^kabʼisonik/ka>bʼison>ik$
 ^rumal/r>umal$
 ^che/ch>e$
 ^maj/maj$
 ^chik/chik$
-^kutijo/*kutijo$
+^kutijo/k>u>tij>o$
 ^./.$
 
 # sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:7
