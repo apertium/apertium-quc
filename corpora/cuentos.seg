@@ -4276,7 +4276,7 @@
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:2
 # text = Ri alaj ali Choʼn bʼenaq pa tijobʼal rachiʼl ri uchaqʼ Siʼl sibʼalaj kekiʼkotik.
-# text[spa'] = El pequeño Choʼn ido en escuela el amigo del hermano de #Siʼl mucho están feliz .
+# text[spa'] = El pequeño Choʼn ido en escuela el amigo del hermano de Siʼl mucho están feliz .
 # labels = incomplete
 ^Ri/Ri$
 ^alaj/alaj$
@@ -4657,7 +4657,7 @@
 # sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:1
 # text = Pa jun jeʼl tijobʼal kutijoj ribʼ jun akʼal, ubʼiʼ Poʼx, utz kurilo ke pa tijobʼal ronojel taq qʼij.
 # text[spa'] = En una escuela bonita enseña a un niño, el nombre de Poʼx, bueno *kurilo a ellos en escuela todos los días.
-# labels = incomplete
+# labels = complete
 ^Pa/Pa$
 ^jun/jun$
 ^jeʼl/jeʼl$
@@ -4690,27 +4690,27 @@
 ^ali/ali$
 ^Poʼx/Poʼx$
 ^ubʼi/u>bʼi$
-^Wiy/*Wiy$
+^Wiy/Wiy$
 ^Batz/Batz$
 ^,/,$
-^kutaq/*kutaq$
+^kutaq/k>u>taq$
 ^che/ch>e$
-^usikʼixik/u>sikʼixik$
+^usikʼixik/u>sikʼi>x>ik$
 ^uwach/u>wach$
 ^wuj/wuj$
 ^ronojel/r>onojel$
 ^taq/taq$
-^aqʼabʼ/*aqʼabʼ$
+^aqʼabʼ/aqʼabʼ$
 ^./.$
 
 # sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:3
 # text = Kubʼij chech naʼl kabʼan che ri a tzʼibʼ.
 # text[spa'] =  Dice a esmero inventa a él el carta.
-# labels = incomplete
-^Kubʼij/*Kubʼij$
+# labels = complete
+^Kubʼij/K>u>bʼij$
 ^chech/ch>ech$
 ^naʼl/naʼl$
-^kabʼan/*kabʼan$
+^kabʼan/ka>bʼan$
 ^che/ch>e$
 ^ri/ri$
 ^a/a$
@@ -4719,35 +4719,36 @@
 
 # sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:4
 # text = Ri aliʼ Poʼx, utzalaj ajtijoxel, kʼax taj kubʼan che usikʼixik uwach wuj.
-# text[spa'] = El *aliʼ Poʼx, estudiante buenísimo, malo hace a llamada a libro.
-# labels = incomplete
+# text[spa'] = El niño Poʼx, estudiante buenísimo, malo hace a llamada a libro.
+# labels = complete
 ^Ri/Ri$
-^aliʼ/*aliʼ$
+^aliʼ/aliʼ$
 ^Poʼx/Poʼx$
 ^,/,$
-^utzalaj/utzalaj/utz>alaj/u>tzalaj$
-^ajtijoxel/ajtijoxel$
+^utzalaj/utz>alaj$
+^ajtijoxel/aj>tijoxel$
 ^,/,$
 ^kʼax/kʼax$
 ^taj/taj$
-^kubʼan/*kubʼan$
+^kubʼan/k>u>bʼan$
 ^che/ch>e$
-^usikʼixik/u>sikʼixik$
+^usikʼixik/u>sikʼi>x>ik$
 ^uwach/u>wach$
 ^wuj/wuj$
 ^./.$
 
 # sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:5
-# text = Amaqʼel naʼl kubʼan chech ri utijoxik ribʼpa tijobʼal.
-# text[spa'] = *Amaqʼel esmero hace a la enseñanza *ribʼpa escuela.
-# labels = incomplete
+# text = Amaqʼel naʼl kubʼan chech ri utijoxik ribʼ pa tijobʼal.
+# text[spa'] = *Amaqʼel esmero hace a la enseñanza en escuela.
+# labels = complete
 ^Amaqʼel/Amaqʼel$
 ^naʼl/naʼl$
-^kubʼan/*kubʼan$
+^kubʼan/k>u>bʼan$
 ^chech/ch>ech$
 ^ri/ri$
-^utijoxik/u>tijoxik$
-^ribʼpa/*ribʼpa$
+^utijoxik/u>tijo>x>ik$
+^ribʼ/r>ibʼ$
+^pa/pa$
 ^tijobʼal/tijobʼal$
 ^./.$
 
@@ -4767,15 +4768,15 @@
 
 # sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:7
 # text = Xumaltyoxij che ri ajtij ronojel le xukʼut chi uwach.
-# text[spa'] =  dio gracias al maestro todo él que enseñó a él.
+# text[spa'] = Dio gracias al maestro todo él que enseñó a él.
 # labels = incomplete
-^Xumaltyoxij/*Xumaltyoxij$
+^Xumaltyoxij/X>u>maltyoxi>j$
 ^che/ch>e$
 ^ri/ri$
-^ajtij/ajtij$
+^ajtij/aj>tij$
 ^ronojel/r>onojel$
 ^le/le$
-^xukʼut/*xukʼut$
+^xukʼut/x>u>kʼut$
 ^chi/chi$
 ^uwach/u>wach$
 ^./.$
@@ -4801,14 +4802,14 @@
 # text = Xuchʼek ronojel le retamanik xpaqiʼk kʼa xkwʼinik xubʼan ajkun.
 # text[spa'] = *Xuchʼek todo él el *retamanik subió *kʼa *xkwʼinik hizo médico.
 # labels = incomplete
-^Xuchʼek/*Xuchʼek$
+^Xuchʼek/X>u>chʼek$
 ^ronojel/r>onojel$
 ^le/le$
-^retamanik/*retamanik$
+^retamanik/r>etama>n>ik$
 ^xpaqiʼk/x>paqiʼ>k$
 ^kʼa/kʼa$
-^xkwʼinik/*xkwʼinik$
-^xubʼan/*xubʼan$
+^xkwʼinik/x>kwʼin>ik$
+^xubʼan/x>u>bʼan$
 ^ajkun/ajkun$
 ^./.$
 
@@ -4820,8 +4821,8 @@
 ^xuwok/*xuwok$
 ^jun/jun$
 ^ja/ja$
-^jawchi/*jawchi$
-^ku/*ku$
+^jawchi/jawchi$
+^ku/ku$
 ^kunaj/*kunaj$
 ^eyowaʼibʼ/*eyowaʼibʼ$
 ^rech/rech/r>ech$
@@ -4836,7 +4837,7 @@
 ^utz/utz$
 ^uchomabʼal/u>chomabʼal$
 ^jeʼl/jeʼl$
-^ku/*ku$
+^ku/ku$
 ^naʼoʼ/*naʼoʼ$
 ^kubʼan/*kubʼan$
 ^toqʼobʼ/toqʼobʼ$
@@ -4851,9 +4852,9 @@
 # labels = incomplete
 ^Kamik/Kamik$
 ^ri/ri$
-^aliʼ/*aliʼ$
+^aliʼ/aliʼ$
 ^Poʼx/Poʼx$
-^kubʼij/*kubʼij$
+^kubʼij/k>u>bʼij$
 ^chike/chi>k>e$
 ^le/le$
 ^akʼalabʼ/akʼal>abʼ$
@@ -4882,14 +4883,14 @@
 # labels = incomplete
 ^In/In$
 ^kwaj/k>w>aj$
-^kibʼan/*kibʼan$
-^utzataq/*utzataq$
+^kibʼan/ki>bʼan$
+^utzataq/u>tzataq$
 ^achiʼjabʼ/*achiʼjabʼ$
 ^,/,$
-^utzataq/*utzataq$
+^utzataq/u>tzataq$
 ^ixoqibʼ/ixoq>ibʼ$
 ^rech/rech/r>ech$
-^qa/*qa$
+^qa/qa$
 ^komon/komon$
 ^./.$
 
@@ -4897,19 +4898,19 @@
 # text = Kʼo jumul jun achi qʼinom, xuchomaj kbʼe che jun waʼkatem, xuyaʼ kanoq ri qʼan taq pwaq rukʼ jun ukʼul ja, are chiʼ xtzalij uloq che le uwakatem.
 # text[spa'] = Hay vez un hombre rico, pensó va a una vuelta, dio los oros amarillos con un vecino, aquí volvió a él el *uwakatem.
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^jumul/jumul$
 ^jun/jun$
 ^achi/achi$
 ^qʼinom/qʼinom$
 ^,/,$
-^xuchomaj/*xuchomaj$
-^kbʼe/k>bʼe/k>bʼe$
+^xuchomaj/x>u>chomaj$
+^kbʼe/k>bʼe$
 ^che/ch>e$
 ^jun/jun$
 ^waʼkatem/waʼkatem$
 ^,/,$
-^xuyaʼ/*xuyaʼ$
+^xuyaʼ/x>u>yaʼ$
 ^kanoq/kan>oq$
 ^ri/ri$
 ^qʼan/qʼan$
@@ -4926,7 +4927,7 @@
 ^uloq/uloq$
 ^che/ch>e$
 ^le/le$
-^uwakatem/*uwakatem$
+^uwakatem/u>wakatem$
 ^./.$
 
 # sent_id = cuentos:Ri_ch’o_quch’ul_pwaq.wiki:2

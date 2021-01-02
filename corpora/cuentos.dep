@@ -1414,6 +1414,32 @@
 "<.>"
 	"." sent @punct #22->5
 
+# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:7
+# text = Xumaltyoxij che ri ajtij ronojel le xukʼut chi uwach.
+# text[spa'] = Dio gracias al maestro todo lo que enseñó a él.
+# labels = complete
+"<Xumaltyoxij>"
+	"maltyoxij" v tv perf o_sg3 s_sg3 @root #1->0
+"<che>"
+	"chi" pr @case #2->3
+		"ech" n rel px3sg @obl #3->1
+"<ri>"
+	"ri" det @det #4->5
+"<ajtij>"
+	"ajtij" n @nmod #5->1
+"<ronojel>"
+	"onojel" n rel px3sg @obl #6->1
+"<le>"
+	"le" prn rel @obj #7->8
+"<xukʼut>"
+	"kʼut" v tv perf o_sg3 s_sg3 @acl #8->6
+"<chi>"
+	"chi" pr @case #9->10
+"<uwach>"
+	"wach" n rel px3sg @obl #10->8
+"<.>"
+	"." sent @punct #11->1
+
 # sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:8
 # text = Te kʼu riʼ xutzʼibʼaj ribʼ pa ri nimalaj tijobʼal rech Ajkuʼn.
 # text[spa'] = Ahora pero ése escribió a él en la escuela grande a él *Ajkuʼn.
