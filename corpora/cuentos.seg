@@ -196,8 +196,8 @@
 # sent_id = cuentos:Alaj_kuk.wiki:1
 # text = Kʼo jun kuk ubʼiʼ Tintin, waʼ le laj kuk mam kajeqi taj, kapaqi kaxulik pa uwiʼ uqʼabʼ taq cheʼ, sibʼalaj sakʼaj, keʼuto le enimaʼq, chʼutin, rachiʼl, ajsipanel sibʼalaj utz ranimaʼ.
 # text[spa'] = Hay una ardilla de nombre *Tintin, éste la ardilla pequeña de abuelo *kajeqi , *kapaqi baja encimade mano árboles, mucho ágil, *keʼuto el grandes, joven, amigo, *ajsipanel mucho ánima buena.
-# labels = incomplete
-^Kʼo$
+# labels = complete
+^Kʼo/Kʼo$
 ^jun/jun$
 ^kuk/kuk$
 ^ubʼiʼ/u>bʼiʼ$
@@ -208,29 +208,29 @@
 ^laj/laj$
 ^kuk/kuk$
 ^mam/mam$
-^kajeqi/*kajeqi$
+^kajeqi/ka>jeqi$
 ^taj/taj$
 ^,/,$
-^kapaqi/*kapaqi$
+^kapaqi/ka>paqi$
 ^kaxulik/ka>xul>ik$
 ^pa/pa$
 ^uwiʼ/u>wiʼ$
-^uqʼabʼ/*uqʼabʼ$
+^uqʼabʼ/uqʼabʼ$
 ^taq/taq$
 ^cheʼ/cheʼ$
 ^,/,$
 ^sibʼalaj/sibʼalaj$
-^sakʼaj/*sakʼaj$
+^sakʼaj/sakʼaj$
 ^,/,$
-^keʼuto/*keʼuto$
+^keʼuto/k>eʼ>u>to$
 ^le/le$
 ^enimaʼq/e>nim>aʼq$
 ^,/,$
-^chʼutin/chʼutin/chʼuti>n$
+^chʼutin/chʼutin$
 ^,/,$
 ^rachiʼl/r>achiʼl$
 ^,/,$
-^ajsipanel/*ajsipanel$
+^ajsipanel/aj>sipanel$
 ^sibʼalaj/sibʼalaj$
 ^utz/utz$
 ^ranimaʼ/r>animaʼ$
