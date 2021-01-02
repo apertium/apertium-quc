@@ -221,6 +221,28 @@
 "<.>"
 	"." sent @punct #16->2
 
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:5
+# text = Sibʼalaj jeʼl xkilo xekitzoqopij ri kichij chilaʼ.
+# text[spa'] = Mucho bonito vieron liberar las ovejas allí.
+# labels = complete
+"<Sibʼalaj>"
+	"sibʼalaj" adv @advmod #1->2
+"<jeʼl>"
+	"jeʼl" adj @advmod #2->3
+"<xkilo>"
+	"il" v tv perf o_sg3 s_pl3 @root #3->0
+		"u" mark @dep #4->3
+"<xekitzoqopij>"
+	"tzoqopij" v tv perf o_pl3 s_pl3 @ccomp #5->3
+"<ri>"
+	"ri" det @det #6->7
+"<kichij>"
+	"chij" n px3pl @obj #7->5
+"<chilaʼ>"
+	"chilaʼ" adv @advmod #8->5
+"<.>"
+	"." sent @punct #9->3
+
 # sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:2
 # text = Xkitzijoj chikech ri winaq man utz taj keqasax ri cheʼ, we kabʼanik, kasikʼix saqʼij chaqij. 
 # text[spa'] = Contaron a las personas no es bueno que se derriban las arboles, si se hace, se llama estación seca.
