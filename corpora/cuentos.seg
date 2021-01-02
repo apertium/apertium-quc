@@ -1470,21 +1470,21 @@
 
 # sent_id = cuentos:Keb’_ajyuq’ab’.wiki:6
 # text = Le jobʼ chij sibʼalaj xewaʼik cho le uwosaq, xbʼantajik chi xkikʼyaq kan le kimes pa taq le cheʼ pa le uwosaq.
-# text[spa'] = El cinco oveja mucho comieron al campo, completó que tiraron que bendicen en los árboles en el campo.
-# labels = incomplete
+# text[spa'] = Las cinco ovejas comieron mucho al campo, resultó que tiraron su fertilizador en los árboles en el campo.
+# labels = complete check-subject
 ^Le/Le$
 ^jobʼ/jobʼ$
 ^chij/chij$
 ^sibʼalaj/sibʼalaj$
 ^xewaʼik/x>e>waʼ>ik$
-^cho/cho/ch>o$
+^cho/ch>o$
 ^le/le$
 ^uwosaq/uwosaq$
 ^,/,$
 ^xbʼantajik/x>bʼan>taj>ik$
 ^chi/chi$
-^xkikʼyaq/*xkikʼyaq$
-^kan/kan/k>an$
+^xkikʼyaq/x>ki>kʼyaq$
+^kan/kan$
 ^le/le$
 ^kimes/ki>mes$
 ^pa/pa$
@@ -1498,19 +1498,19 @@
 
 # sent_id = cuentos:Keb’_ajyuq’ab’.wiki:7
 # text = Xkibʼan kʼax che le uwosaq rumal man utz ta chi kakayik.
-# text[spa'] =  Hicieron malo a él el campo por él no bueno a *kakayik.
-# labels = incomplete
-^Xkibʼan/*Xkibʼan$
+# text[spa'] = Hicieron malo al campo por el observar no era bueno.
+# labels = complete check-subject
+^Xkibʼan/X>ki>bʼan$
 ^kʼax/kʼax$
 ^che/ch>e$
 ^le/le$
 ^uwosaq/uwosaq$
 ^rumal/r>umal$
-^man/man/m>an$
+^man/man$
 ^utz/utz$
 ^ta/ta$
 ^chi/chi$
-^kakayik/*kakayik$
+^kakayik/ka>kay>ik$
 ^./.$
 
 # sent_id = cuentos:Keb’_ajyuq’ab’.wiki:8

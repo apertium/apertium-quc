@@ -243,6 +243,91 @@
 "<.>"
 	"." sent @punct #9->3
 
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:6
+# text = Le jobʼ chij sibʼalaj xewaʼik cho le uwosaq, xbʼantajik chi xkikʼyaq kan le kimes pa taq le cheʼ pa le uwosaq.
+# text[spa'] = Las cinco ovejas comieron mucho al campo, resultó que tiraron su fertilizador en los árboles en el campo.
+# labels = complete check-subject
+"<Le>"
+	"le" det @det #1->3
+"<jobʼ>"
+	"jobʼ" num @nummod #2->3
+"<chij>"
+	"chij" n @nsubj #3->5
+"<sibʼalaj>"
+	"sibʼalaj" adv @advmod #4->5
+"<xewaʼik>"
+	"waʼ" v iv perf s_pl3 @root #5->0
+		"ik" mark @dep #6->5
+"<cho>"
+	"chi" pr @case #7->8
+		"wach" n rel px3sg @obl #8->5
+"<le>"
+	"le" det @det #9->10
+"<uwosaq>"
+	"uwosaq" n @nmod #10->8
+"<,>"
+	"," cm @punct #11->12
+"<xbʼantajik>"
+	"bʼan" v tv pass stat perf s_sg3 @parataxis #12->5
+		"ik" mark @dep #13->12
+"<chi>"
+	"chi" cnjsub @mark #14->15
+"<xkikʼyaq>"
+	"kʼyaq" v tv perf o_sg3 s_pl3 @csubj #15->12
+"<kan>"
+	"kan" adv dir @advmod #16->15
+"<le>"
+	"le" det @det #17->18
+"<kimes>"
+	"mes" n px3pl @obj #18->14
+"<pa>"
+	"pa" pr @case #19->22
+"<taq>"
+	"taq" pl @det #20->22
+"<le>"
+	"le" det @det #21->22
+"<cheʼ>"
+	"cheʼ" n @obl #22->14
+"<pa>"
+	"pa" pr @case #23->25
+"<le>"
+	"le" det @det #24->25
+"<uwosaq>"
+	"uwosaq" n @nmod #25->22
+"<.>"
+	"." sent @punct #26->5
+
+# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:7
+# text = Xkibʼan kʼax che le uwosaq rumal man utz ta chi kakayik.
+# text[spa'] =  Hicieron malo al campo por el observar no era bueno.
+# labels = complete check-subject
+"<Xkibʼan>"
+	"bʼan" v tv perf o_sg3 s_pl3 @root #1->0
+"<kʼax>"
+	"kʼax" n @obj #2->1
+"<che>"
+	"chi" pr @case #3->4
+		"ech" n rel px3sg @obl #4->1
+"<le>"
+	"le" det @det #5->6
+"<uwosaq>"
+	"uwosaq" n @nmod #6->4
+"<rumal>"
+	"umal" n rel px3sg @mark #7->9
+"<man>"
+	"man" neg @aux:neg #8->9
+"<utz>"
+	"utz" adj @advcl #9->1
+"<ta>"
+	"taj" neg @aux:neg #10->9
+"<chi>" 
+	"chi" cnjsub @mark #11->12
+"<kakayik>"
+	"kaʼy" v iv impf s_sg3 @csubj #12->9
+		"ik" mark @dep #13->12
+"<.>"
+	"." sent @punct #14->1
+
 # sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:2
 # text = Xkitzijoj chikech ri winaq man utz taj keqasax ri cheʼ, we kabʼanik, kasikʼix saqʼij chaqij. 
 # text[spa'] = Contaron a las personas no es bueno que se derriban las arboles, si se hace, se llama estación seca.
