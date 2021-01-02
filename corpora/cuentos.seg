@@ -1701,18 +1701,17 @@
 ^./.$
 
 # sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:9
-# text = Kikikam bʼik nimaʼq taq keqaʼn e chiʼ keʼ bʼek.
-# text[spa'] = *Kikikam bultos grandes aquí diente *bʼek.
-# labels = incomplete
-^Kikikam/*Kikikam$
+# text = Kikikʼam bʼik nimaʼq taq keqaʼn e chiʼ keʼbʼek.
+# text[spa'] = Los bultos grandes reciben y aquí van.
+# labels = complete check-translation
+^Kikikʼam/Ki>ki>kʼam$
 ^bʼik/bʼi>k$
 ^nimaʼq/nim>aʼq$
 ^taq/taq$
 ^keqaʼn/k>eqaʼn$
 ^e/e$
 ^chiʼ/chiʼ$
-^keʼ/*keʼ$
-^bʼek/*bʼek$
+^kebʼek/k>e>bʼe>k$
 ^./.$
 
 # sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:10
@@ -2068,13 +2067,13 @@
 
 # sent_id = cuentos:Komon_Xalq’a’t.wiki:11
 # text = Rumal laʼ xkoj “Xalqʼat” che ubʼiʼ ri komon.
-# text[spa'] = Por él éste se puso “*Xalqʼat” al nombre de la comunidad.
-# labels = incomplete
+# text[spa'] = Por esto se puso “Xalqʼat” al nombre de la comunidad.
+# labels = complete
 ^Rumal/R>umal$
 ^laʼ/laʼ$
-^xkoj/*xkoj$
+^xkoj/x>koj$
 ^“/“$
-^Xalqʼat/*Xalqʼat$
+^Xalqʼat/Xalqʼat$
 ^”/”$
 ^che/ch>e$
 ^ubʼiʼ/u>bʼiʼ$

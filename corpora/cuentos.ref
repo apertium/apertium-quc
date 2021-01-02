@@ -1701,18 +1701,17 @@
 ^./.<sent>$
 
 # sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:9
-# text = Kikikam bʼik nimaʼq taq keqaʼn e chiʼ keʼ bʼek.
-# text[spa'] = *Kikikam bultos grandes aquí diente *bʼek.
+# text = Kikikʼam bʼik nimaʼq taq keqaʼn e chiʼ kebʼek.
+# text[spa'] = Los bultos grandes reciben y aquí van.
 # labels = incomplete
-^Kikikam/*Kikikam$
+^Kikikʼam/<impf><o_sg3><s_pl3>kʼam<v><tv>$
 ^bʼik/bʼi<adv><dir>+ik<mark>$
 ^nimaʼq/nim<adj><pl>$
 ^taq/taq<cnjsub>/taq<pl>$
 ^keqaʼn/<px3pl>eqaʼn<n>$
 ^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
 ^chiʼ/chiʼ<adv>/chiʼ<cnjsub>/chiʼ<n>$
-^keʼ/<px3pl>eʼ<n>$
-^bʼek/*bʼek$
+^kebʼek/<impf><s_pl3>bʼe<v><iv>+ik<mark>$
 ^./.<sent>$
 
 # sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:10
