@@ -1,3 +1,36 @@
+# sent_id = ley2009-9:4
+# text = Are taq waʼ ri uqʼijol we taqanik.
+# text[spa] = Son principios rectores de la presente Ley:
+# labels = incomplete
+"<Are>"
+	"areʼ" prn pers p3 sg
+	"areʼ" prn pro p3 sg
+	"are" adv
+	"are" foc
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<waʼ>"
+	"waʼ" prn dem
+	"wa" n
+	"aʼ" n px1sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<uqʼijol>"
+	"*uqʼijol"
+"<we>"
+	"we" cnjsub
+	"we" det
+	"we" prn rel
+	"ech" n rel px1sg
+"<taqanik>"
+	"taqanik" n
+	"taqan" v iv inf
+	"taq" v tv anti inf
+"<.>"
+	"." sent
+
 # sent_id = ley2009-9:14
 # text = We taqanik riʼ kubʼij chi rajawaxik kyaʼ uqʼij ri winaq xuqujeʼ ktoʼ aninaqil.
 # text[spa] = Los procedimientos que establece esta Ley, deben realizarse con especial atención y prioridad.
@@ -30,6 +63,1768 @@
 	"aninaqil" adv @advmod #13->12
 "<.>"
 	"." sent @punct #14->4
+
+# sent_id = ley2009-9:18
+# text = Ri ajtzʼibʼ rech chakunem rech Woktzʼibʼabʼal, kjach reqeleʼn rumal ri Ukʼabʼ kʼamal Ubʼe Amaqʼ.
+# text[spa] = El Secretario Ejecutivo de la Secretaría, será nombrado por el Vicepresidente de la República.
+# labels = incomplete
+"<Ri>"
+	"ri" det @det
+"<ajtzʼibʼ>"
+	"ajtzʼibʼ" n @nsubj
+"<rech>"
+	"ech" n rel px3sg @
+"<chakunem>"
+	"chakunem" n @
+"<rech>"
+	"ech" n rel px3sg @
+"<Woktzʼibʼabʼal>"
+	"woktzʼibʼabʼal" n @
+"<,>"
+	"," cm @punct
+"<kjach>"
+	"jach" v tv pass impf s_sg3 @root
+"<reqeleʼn>"
+	"eqeleʼn" n px3sg @nsubj
+"<rumal>"
+	"umal" n rel px3sg @obl
+"<ri>"
+	"ri" det @det
+"<Ukʼabʼ>"
+	"ukabʼ" num ord @amod
+"<kʼamal>"
+	"kʼamal" n @nmod
+"<Ubʼe>"
+	"bʼe" n px3sg @nmod
+"<Amaqʼ>"
+	"amaqʼ" n @nmod
+"<.>"
+	"." sent @punct
+
+# sent_id = ley2009-9:35
+# text = Pa kiqʼabʼ ri qʼatbʼal taq tzij e tobʼanelabʼ kʼo wi, umajik uchakuxik rij ri tobʼanik yaʼtal chech ri winaq xuqujeʼ ri qʼatbʼal tzij.
+# text[spa] = Las autoridades competentes, bajo su propia responsabilidad, deben iniciar de oficio los procedimientos administrativos y judiciales para garantizar la protección de la víctima.
+# labels = incomplete
+"<Pa>"
+	"pa" pr
+"<kiqʼabʼ>"
+	"qʼabʼ" n px3pl
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<qʼatbʼal>"
+	"qʼatbʼal" adj
+	"qʼatbʼaʼl" n
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<tzij>"
+	"tzij" adj
+	"tzij" adv
+	"tzij" n
+"<e>"
+	"e" cnjcoo
+	"e" pl
+	"e" prn pro p3 pl
+"<tobʼanelabʼ>"
+	"tobʼanel" n pl
+"<kʼo>"
+	"kʼo" part
+"<wi>"
+	"wi" adv dir
+"<,>"
+	"," cm
+"<umajik>"
+	"maj" v tv inf s_sg3
+	"maj" v tv pass inf s_sg3
+"<uchakuxik>"
+	"chakuj" v tv pass inf s_sg3
+"<rij>"
+	"ij" n px3sg
+	"ij" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<tobʼanik>"
+	"tobʼan" v iv inf
+"<yaʼtal>"
+	"yaʼtal" adj
+"<chech>"
+	"chi" pr
+		"ech" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<xuqujeʼ>"
+	"xuqujeʼ" adv
+	"xuqujeʼ" cnjcoo
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<qʼatbʼal>"
+	"qʼatbʼal" adj
+	"qʼatbʼaʼl" n
+"<tzij>"
+	"tzij" adj
+	"tzij" adv
+	"tzij" n
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:38
+# text = We Woktzʼibʼabʼal kʼo pa uqʼabʼ kuchajij xuqujeʼ kupatanij we taqanik riʼ, rachiʼl ri chomanem xuqujeʼ ri ucholchak.
+# text[spa] = La Secretaría es la responsable de velar y dar cumplimiento a esta Ley y a políticas y planes relacionados con la misma.
+# labels = incomplete
+"<We>"
+	"we" det @det
+"<Woktzʼibʼabʼal>"
+	"woktzʼibʼabʼal" n
+"<kʼo>"
+	"kʼo" part @root
+"<pa>"
+	"pa" pr @case
+"<uqʼabʼ>"
+	"qʼabʼ" n px3sg @obl
+"<kuchajij>"
+	"chajij" v tv impf o_sg3 s_sg3
+"<xuqujeʼ>"
+	"xuqujeʼ" cnjcoo @cc
+"<kupatanij>"
+	"patanij" v tv impf o_sg3 s_sg3 @conj
+"<we>"
+	"we" det @det
+"<taqanik>"
+	"taqanik" n @obj
+"<riʼ>"
+	"riʼ" prn dem @det
+"<,>"
+	"," cm @punct
+"<rachiʼl>"
+	"achiʼl" n px3sg
+"<ri>"
+	"ri" det
+"<chomanem>"
+	"choman" v iv inf
+"<xuqujeʼ>"
+	"xuqujeʼ" adv
+"<ri>"
+	"ri" det
+"<ucholchak>"
+	"cholchak" n px3sg
+"<.>"
+	"." sent
+ 
+# sent_id = ley2009-9:41
+# text = Are taq waʼ ri yaʼtal chech ri xukʼulmaj kʼaxkʼolil:
+# text[spa] = Son derechos de la persona víctima, por lo menos, los siguientes:
+# labels = incomplete
+"<Are>"
+	"areʼ" prn pers p3 sg
+	"areʼ" prn pro p3 sg
+	"are" adv
+	"are" foc
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<waʼ>"
+	"waʼ" prn dem
+	"wa" n
+	"aʼ" n px1sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<yaʼtal>"
+	"yaʼtal" adj
+"<chech>"
+	"chi" pr
+		"ech" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<xukʼulmaj>"
+	"kʼulmaj" v tv perf o_sg3 s_sg3
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<:>"
+	":" sent
+
+# sent_id = ley2009-9:52
+# text = Ronojel ri yaʼtalil pa we qʼataj, tzʼaqat kiwach, man ktzaq ta kanoq xuqujeʼ man ktas taj.
+# text[spa] = Los derechos enunciados en este artículo son integrales, irrenunciables e indivisibles.
+# labels = complete
+"<Ronojel>"
+	"onojel" n rel px3sg @nsubj #1->12
+"<ri>"
+	"ri" det @det #2->3
+"<yaʼtalil>"
+	"yaʼtalil" n @nmod #3->1
+"<pa>"
+	"pa" pr @case #4->6
+"<we>"
+	"we" det @det #5->6
+"<qʼataj>"
+	"qʼataj" n @nmod #6->3
+"<,>"
+	"," cm @punct #7->8
+"<tzʼaqat>"
+	"tzʼaqat" n @conj #8->1
+"<kiwach>"
+	"wach" n rel px3pl @nmod #9->8
+"<,>"
+	"," cm @punct #10->8
+"<man>"
+	"man" neg @aux:neg #11->12
+"<ktzaq>"
+	"tzaq" v tv pass impf s_sg3 @root #12->0
+"<ta>"
+	"taj" neg @aux:neg #13->12
+"<kanoq>"
+	"kan" adv dir @advmod #14->12
+		"oq" mark @dep #15->14
+"<xuqujeʼ>"
+	"xuqujeʼ" cnjcoo @cc #16->18
+"<man>"
+	"man" neg @aux:neg #17->18
+"<ktas>"
+	"tas" v tv pass impf s_sg3 @conj #18->12
+"<taj>"
+	"taj" neg fin @aux:neg #19->18
+"<.>"
+	"." sent @punct #20->12
+
+# sent_id = ley2009-9:57
+# text = Ronojel we tzujunem kbʼanik man kesax ta utzijol.
+# text[spa] = La denuncia podrá ser presentada bajo reserva de confidencialidad.
+# labels = incomplete
+"<Ronojel>"
+	"onojel" n rel px3sg
+"<we>"
+	"we" det
+"<tzujunem>"
+	"tzujunem" n
+"<kbʼanik>"
+	"bʼan" v tv pass impf s_sg3
+		"ik" mark
+"<man>"
+	"man" neg @aux:neg
+"<kesax>"
+	"esaj" v tv pass impf s_sg3 @
+"<ta>"
+	"taj" neg @aux:neg
+"<utzijol>"
+	"tzijol" n px3sg @nsubj
+"<.>"
+	"." sent @punct
+
+# sent_id = ley2009-9:59
+# text = Man kbʼan ta kʼax chech ri kʼamom uqʼabʼil kukʼ aj chʼaqap jaʼ chi yaʼtal chi kech ri winaq kebʼin pa taq tinamit, ri wokaj chajinelabʼ rech ri qʼaxem pa taq tinamit chik, rajawaxik kkil we jastaq riʼ:
+# text[spa] = Sin perjuicios de los compromisos internacionales relativos a la libre circulación de personas, las autoridades de migración deberán, por lo menos:
+# labels = incomplete
+"<Man>"
+	"man" neg
+"<kbʼan>"
+	"bʼaj" v tv anti impf s_sg3
+	"bʼaj" v tv anti agfoc impf s_sg3
+	"bʼan" v tv pass impf s_sg3
+"<ta>"
+	"taj" neg
+"<kʼax>"
+	"kʼax" adj
+	"kʼax" n
+"<chech>"
+	"chi" pr
+		"ech" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kʼamom>"
+	"kʼam" v tv pp
+"<uqʼabʼil>"
+	"*uqʼabʼil"
+"<kukʼ>"
+	"ukʼ" n px3pl
+	"ukʼ" n rel px3pl
+"<aj>"
+	"Aj" n
+	"aj" n
+	"aj" pr
+	"äj" n
+"<chʼaqap>"
+	"chʼaqap" adv
+"<jaʼ>"
+	"jaʼ" n
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<yaʼtal>"
+	"yaʼtal" adj
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<kech>"
+	"ech" n rel px3pl
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<kebʼin>"
+	"bʼij" v tv anti impf s_pl3
+	"bʼij" v tv anti agfoc impf s_pl3
+	"bʼin" v iv impf s_pl3
+"<pa>"
+	"pa" pr
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<tinamit>"
+	"tinamit" n
+"<,>"
+	"," cm
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<wokaj>"
+	"wokaj" n
+"<chajinelabʼ>"
+	"chajinel" n pl
+"<rech>"
+	"rech" cnjsub
+	"ech" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<qʼaxem>"
+	"qʼax" v iv inf
+"<pa>"
+	"pa" pr
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<tinamit>"
+	"tinamit" n
+"<chik>"
+	"chik" adv
+	"chik" part
+"<,>"
+	"," cm
+"<rajawaxik>"
+	"rajawaxik" adj
+"<kkil>"
+	"il" v tv impf o_sg3 s_pl3
+"<we>"
+	"we" cnjsub
+	"we" det
+	"we" prn rel
+	"ech" n rel px1sg
+"<jastaq>"
+	"jastaq" n
+"<riʼ>"
+	"riʼ" prn dem
+"<:>"
+	":" sent
+
+# sent_id = ley2009-9:67
+# text = We ri winaq kʼo pa kʼaxkʼolil aj chʼaqap jaʼ, ri qʼatbʼal tzij tobʼanel rajawik kuya ubʼixik aninaqil chi kech ri wokaj ilol rech pa chʼaqap jaʼ.
+# text[spa] = Si la persona víctima es extranjera, la autoridad competente debe dar aviso inmediato a la agencia consular que corresponda.
+# labels = incomplete
+"<We>"
+	"we" cnjsub @mark
+"<ri>"
+	"ri" det
+"<winaq>"
+	"winaq" n
+"<kʼo>"
+	"kʼo" part @advcl
+"<pa>"
+	"pa" pr @case
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<aj>"
+	"Aj" n
+	"aj" n
+	"aj" pr
+	"äj" n
+"<chʼaqap>"
+	"chʼaqap" adv
+"<jaʼ>"
+	"jaʼ" n
+"<,>"
+	"," cm
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<qʼatbʼal>"
+	"qʼatbʼal" adj
+	"qʼatbʼaʼl" n
+"<tzij>"
+	"tzij" adj
+	"tzij" adv
+	"tzij" n
+"<tobʼanel>"
+	"tobʼanel" n
+"<rajawik>"
+	"*rajawik"
+"<kuya>"
+	"yaʼ" v tv impf o_sg3 s_sg3
+"<ubʼixik>"
+	"bʼixik" n px3sg
+	"bʼij" v tv pass inf s_sg3
+	"bʼix" v iv inf s_sg3
+"<aninaqil>"
+	"aninaqil" adv
+	"aninäqil" n
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<kech>"
+	"ech" n rel px3pl
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<wokaj>"
+	"wokaj" n
+"<ilol>"
+	"ilol" n
+	"lol" n px2pl
+"<rech>"
+	"rech" cnjsub
+	"ech" n rel px3sg
+"<pa>"
+	"pa" pr
+"<chʼaqap>"
+	"chʼaqap" adv
+"<jaʼ>"
+	"jaʼ" n
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:69
+# text = Ri winaq xkikʼulmaj kʼax rajawaxik ketzalix pa kitinamit are chiʼ bʼantajinaq chik ri tzijonem kukʼ ri kʼamal taq ubʼe ri Amaqʼ rech kitinamit, kejach pa kiqʼabʼ.
+# text[spa] = Las víctimas de trata deberán ser repatriadas únicamente, hasta que se haya establecido comunicación oficial con los representantes de su país de origen, a quienes se les entregará bajo su protección.
+# labels = incomplete
+"<Ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<xkikʼulmaj>"
+	"kʼulmaj" v tv perf o_sg3 s_pl3
+"<kʼax>"
+	"kʼax" adj
+	"kʼax" n
+"<rajawaxik>"
+	"rajawaxik" adj
+"<ketzalix>"
+	"tzalij" v tv pass impf s_pl3
+"<pa>"
+	"pa" pr
+"<kitinamit>"
+	"tinamit" n px3pl
+"<are>"
+	"areʼ" prn pers p3 sg
+	"areʼ" prn pro p3 sg
+	"are" adv
+	"are" foc
+"<chiʼ>"
+	"chiʼ" adv
+	"chiʼ" cnjsub
+	"chiʼ" n
+"<bʼantajinaq>"
+	"bʼantajinaq" adj
+	"bʼantaj" v iv pp
+	"bʼantaj" v iv pp s_sg3
+"<chik>"
+	"chik" adv
+	"chik" part
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<tzijonem>"
+	"tzijoj" v tv anti inf
+	"tzijonem" n
+	"tzijon" v iv inf
+"<kukʼ>"
+	"ukʼ" n px3pl
+	"ukʼ" n rel px3pl
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kʼamal>"
+	"kʼamal" n
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<ubʼe>"
+	"bʼe" n px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<Amaqʼ>"
+	"amaqʼ" n
+"<rech>"
+	"rech" cnjsub
+	"ech" n rel px3sg
+"<kitinamit>"
+	"tinamit" n px3pl
+"<,>"
+	"," cm
+"<kejach>"
+	"jach" v tv pass impf s_pl3
+"<pa>"
+	"pa" pr
+"<kiqʼabʼ>"
+	"qʼabʼ" n px3pl
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:71
+# text = Ri Wokqʼatbʼal tzij chajinel rech kʼulmatajem pa Amaqʼ, nim ri keqeleʼn pa uwiʼ ri taqanik kech akʼalabʼ xuqujeʼ qʼapojibʼ, kʼo pa kiqʼabʼ kkichakuj ri tzalijem kech ri majaʼ na tzʼaqat kijunabʼ.
+# text[spa] = La Procuraduría General de la Nación, en calidad de representante legal de la niñez y adolescencia, se encargará del proceso de repatriación para las personas menores de edad.
+# labels = incomplete
+"<Ri>"
+	"ri" det
+	"ri" prn rel
+"<Wokqʼatbʼal>"
+	"*Wokqʼatbʼal"
+"<tzij>"
+	"tzij" adj
+	"tzij" adv
+	"tzij" n
+"<chajinel>"
+	"chajinel" n
+"<rech>"
+	"rech" cnjsub
+	"ech" n rel px3sg
+"<kʼulmatajem>"
+	"kʼulmatäj" v iv inf
+"<pa>"
+	"pa" pr
+"<Amaqʼ>"
+	"amaqʼ" n
+"<,>"
+	"," cm
+"<nim>"
+	"nim" adj
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<keqeleʼn>"
+	"eqeleʼn" n px3pl
+"<pa>"
+	"pa" pr
+"<uwiʼ>"
+	"wiʼ" n px3sg
+	"wiʼ" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<taqanik>"
+	"taqanik" n
+	"taqan" v iv inf
+	"taq" v tv anti inf
+"<kech>"
+	"ech" n rel px3pl
+"<akʼalabʼ>"
+	"akʼal" n pl
+"<xuqujeʼ>"
+	"xuqujeʼ" adv
+	"xuqujeʼ" cnjcoo
+"<qʼapojibʼ>"
+	"*qʼapojibʼ"
+"<,>"
+	"," cm
+"<kʼo>"
+	"kʼo" part
+"<pa>"
+	"pa" pr
+"<kiqʼabʼ>"
+	"qʼabʼ" n px3pl
+"<kkichakuj>"
+	"chakuj" v tv impf o_sg3 s_pl3
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<tzalijem>"
+	"tzalij" v iv inf
+"<kech>"
+	"ech" n rel px3pl
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<majaʼ>"
+	"majaʼ" adv
+	"jaʼ" v tv imp neg o_sg3 s_sg2
+"<na>"
+	"na" adv
+	"na" adv fut
+	"na" neg
+"<tzʼaqat>"
+	"tzʼaqat" adj
+	"tzʼaqat" n
+"<kijunabʼ>"
+	"junabʼ" n px3pl
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:75
+# text = Man kbʼan ta kʼax che ri kitzalijem, kbʼan ri kikunaxik, kkʼex ri kinoʼjibʼal rech kekʼojiʼ pa utzilal, xuqujeʼ yaʼtal chech kekʼojiʼ janikʼpaʼ ne lo qʼij pa ri tinamit keriqitaj wi.
+# text[spa] = Sin perjuicio del proceso de repatriación, se deben prestar los servicios de salud y psicológicos que garanticen el bienestar a la víctima, además del derecho de asilo o la permanencia temporal o permanentemente en el territorio del Estado.
+# labels = incomplete
+"<Man>"
+	"Man" np top barb
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<kbʼan>"
+	"bʼaj" v tv anti impf s_sg3
+	"bʼaj" v tv anti agfoc impf s_sg3
+	"bʼan" v tv pass impf s_sg3
+"<ta>"
+	"taj" neg
+"<kʼax>"
+	"kʼax" adj
+	"kʼax" n
+"<che>"
+	"chi" pr
+		"ech" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kitzalijem>"
+	"tzalij" v iv inf s_pl3
+"<,>"
+	"," cm
+"<kbʼan>"
+	"bʼaj" v tv anti impf s_sg3
+	"bʼaj" v tv anti agfoc impf s_sg3
+	"bʼan" v tv pass impf s_sg3
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kikunaxik>"
+	"kunaxik" n px3pl
+	"kunaj" v tv pass inf s_pl3
+	"kunax" v iv inf s_pl3
+"<,>"
+	"," cm
+"<kkʼex>"
+	"kʼej" v tv pass impf s_sg3
+	"kʼex" v iv impf s_sg3
+	"kʼex" v tv pass impf s_sg3
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kinoʼjibʼal>"
+	"noʼjibʼal" n px3pl
+"<rech>"
+	"rech" cnjsub
+	"ech" n rel px3sg
+"<kekʼojiʼ>"
+	"kʼojiʼk" v iv impf s_pl3
+"<pa>"
+	"pa" pr
+"<utzilal>"
+	"utzilal" n
+"<,>"
+	"," cm
+"<xuqujeʼ>"
+	"xuqujeʼ" adv
+	"xuqujeʼ" cnjcoo
+"<yaʼtal>"
+	"yaʼtal" adj
+"<chech>"
+	"chi" pr
+		"ech" n rel px3sg
+"<kekʼojiʼ>"
+	"kʼojiʼk" v iv impf s_pl3
+"<janikʼpaʼ>"
+	"*janikʼpaʼ"
+"<ne>"
+	"ne" adv
+"<lo>"
+	"lo" adv
+"<qʼij>"
+	"qʼij" n
+"<pa>"
+	"pa" pr
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<tinamit>"
+	"tinamit" n
+"<keriqitaj>"
+	"riq" v tv pass stat impf s_pl3
+"<wi>"
+	"wi" adv dir
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:76
+# text = We tzʼaqat chi ronojel ri kitzalijem pa kitinamit, man kuya taj kbʼayitajisax chik.
+# text[spa] = En el caso que sea seguro para la víctima volver a su país de origen, la repatriación se realizará sin demora indebida o injustificada.
+# labels = incomplete
+"<We>"
+	"we" det
+"<tzʼaqat>"
+	"tzʼaqat" adj
+	"tzʼaqat" n
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<ronojel>"
+	"onojel" n px3sg
+	"onojel" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kitzalijem>"
+	"tzalij" v iv inf s_pl3
+"<pa>"
+	"pa" pr @case
+"<kitinamit>"
+	"tinamit" n px3pl @obl
+"<,>"
+	"," cm @punct
+"<man>"
+	"man" neg @aux:neg
+"<kuya>"
+	"yaʼ" v tv impf o_sg3 s_sg3 @root
+"<taj>"
+	"taj" neg fin @aux:neg
+"<kbʼayitajisax>"
+	"bʼeyetajisaj" v tv pass impf s_sg3 @ccomp
+"<chik>"
+	"chik" adv @advmod
+"<.>"
+	"." sent @punct
+
+# sent_id = ley2009-9:77
+# text = Wene man kʼot uwujil ukʼaslemal ri winaq, ri Qʼatbʼal tzij Ilonel pa Chʼaqap Jaʼ, kuchakuj rij ri wujil qʼaxibʼal pa ri utinamit.
+# text[spa] = Para dichos efectos y en el caso que la víctima carezca de la debida documentación, el Ministerio de Relaciones Exteriores promoverá, en coordinación con el país de origen, los documentos de viaje o autorización que sean necesarios para su retorno.
+# labels = incomplete
+"<Wene>"
+	"weneʼ" adv
+"<man>"
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<kʼot>"
+	"*kʼot"
+"<uwujil>"
+	"wujil" n px3sg
+"<ukʼaslemal>"
+	"kʼaslemal" n px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<,>"
+	"," cm
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<Qʼatbʼal>"
+	"qʼatbʼal" adj
+	"qʼatbʼaʼl" n
+"<tzij>"
+	"tzij" adj
+	"tzij" adv
+	"tzij" n
+"<Ilonel>"
+	"ilonel" n
+"<pa>"
+	"pa" pr
+"<Chʼaqap>"
+	"chʼaqap" adv
+"<Jaʼ>"
+	"jaʼ" n
+"<,>"
+	"," cm
+"<kuchakuj>"
+	"chakuj" v tv impf o_sg3 s_sg3
+"<rij>"
+	"ij" n px3sg
+	"ij" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<wujil>"
+	"wujil" n
+"<qʼaxibʼal>"
+	"*qʼaxibʼal"
+"<pa>"
+	"pa" pr
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<utinamit>"
+	"tinamit" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:78
+# text = Ri Qʼatbʼal ilonel pa Chaqʼabʼ Jaʼ, are taq waʼ ri rajawaxik kuchajij:
+# text[spa] = El Ministerio de Relaciones Exteriores deberá garantizar, como mínimo, los siguientes derechos:
+# labels = incomplete
+"<Ri>"
+	"ri" det
+"<Qʼatbʼal>"
+	"qʼatbʼal" adj
+	"qʼatbʼaʼl" n
+"<ilonel>"
+	"ilonel" n
+"<pa>"
+	"pa" pr
+"<Chaqʼabʼ>"
+	"chaqʼabʼ" adv
+"<Jaʼ>"
+	"jaʼ" n
+"<,>"
+	"," cm
+"<are>"
+	"areʼ" prn pers p3 sg
+	"areʼ" prn pro p3 sg
+	"are" adv
+	"are" foc
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<waʼ>"
+	"waʼ" prn dem
+	"wa" n
+	"aʼ" n px1sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<rajawaxik>"
+	"rajawaxik" adj
+"<kuchajij>"
+	"chajij" v tv impf o_sg3 s_sg3
+"<:>"
+	":" sent
+
+# sent_id = ley2009-9:97
+# text = Ronojel ri kʼaxkʼolil kbʼan chi kech ri winaq majaʼ na tzʼaqat kijunabʼ, kʼate kmajitaj upatenexik rij are chiʼ ktzʼaqat ujunabʼ ri winaq xuriq kʼaxkʼolil.
+# text[spa] = En los delitos cometidos en contra de personas menores de edad, el plazo de prescripción comenzará a contarse desde el momento en que la víctima cumpla su mayoría de edad.”
+# labels = incomplete
+"<Ronojel>"
+	"onojel" n px3sg
+	"onojel" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<kbʼan>"
+	"bʼaj" v tv anti impf s_sg3
+	"bʼaj" v tv anti agfoc impf s_sg3
+	"bʼan" v tv pass impf s_sg3
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<kech>"
+	"ech" n rel px3pl
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<majaʼ>"
+	"majaʼ" adv
+	"jaʼ" v tv imp neg o_sg3 s_sg2
+"<na>"
+	"na" adv
+	"na" adv fut
+	"na" neg
+"<tzʼaqat>"
+	"tzʼaqat" adj
+	"tzʼaqat" n
+"<kijunabʼ>"
+	"junabʼ" n px3pl
+"<,>"
+	"," cm
+"<kʼate>"
+	"kʼateʼ" pr
+"<kmajitaj>"
+	"majij" v tv pass stat impf s_sg3
+	"maj" v tv pass stat impf s_sg3
+"<upatenexik>"
+	"*upatenexik"
+"<rij>"
+	"ij" n px3sg
+	"ij" n rel px3sg
+"<are>"
+	"areʼ" prn pers p3 sg
+	"areʼ" prn pro p3 sg
+	"are" adv
+	"are" foc
+"<chiʼ>"
+	"chiʼ" adv
+	"chiʼ" cnjsub
+	"chiʼ" n
+"<ktzʼaqat>"
+	"tzʼaqat" v iv impf s_sg3
+	"tzʼaqat" n px3pl
+"<ujunabʼ>"
+	"junabʼ" n px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<xuriq>"
+	"riq" v tv perf o_sg3 s_sg3
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:112
+# text = Ri tojbʼal makaj chi rij ri winaq ajmak, jalan chi uwach ri nikʼaj tojbʼal mak rech nikʼaj taq makaj chik.
+# text[spa] = La pena se impondrá sin perjuicio de las penas que puedan corresponder por la comisión de otros delitos.”
+# labels = incomplete
+"<Ri>"
+	"ri" det
+"<tojbʼal>"
+	"tojbʼal" n
+"<makaj>"
+	"makaj" n
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<rij>"
+	"ij" n px3sg
+	"ij" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<ajmak>"
+	"Ajmak" n
+	"ajmak" n
+"<,>"
+	"," cm
+"<jalan>"
+	"alan" v iv imp mov s_sg3
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<uwach>"
+	"wach" n px3sg
+	"wach" n rel px3sg
+	"wäch" n px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<nikʼaj>"
+	"nikʼaj" adj
+	"nikʼaj" n
+"<tojbʼal>"
+	"tojbʼal" n
+"<mak>"
+	"mak" n
+"<rech>"
+	"rech" cnjsub
+	"ech" n rel px3sg
+"<nikʼaj>"
+	"nikʼaj" adj
+	"nikʼaj" n
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<makaj>"
+	"makaj" n
+	"mak" n
+"<chik>"
+	"chik" adv
+	"chik" part
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:103
+# text = Jachin retaʼm chi uriqom yabʼil rumaleqelenik, kutzʼaj chi jun winaq, kqʼat kebʼ onkajibʼ junabʼ chi rij pa cheʼ. We ri xukʼulmaj kʼaxkʼolil majaʼ tzʼaqat ujunabʼ, man kutoʼ ta ribʼ on man tzʼaqat ta uchomabʼal, wa we tojbʼal makaj knimarisax kebʼ on oxibʼ mul.
+# text[spa] = Quien a sabiendas que padece de infección de transmisión sexual, expusiera a otra persona al contagio, será sancionado con prisión de dos a cuatro años.
+# labels = incomplete
+"<Jachin>"
+	"jachin" prn itg
+"<retaʼm>"
+	"etaʼm" v tv perf o_sg3 s_sg3
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<uriqom>"
+	"riq" v tv pp s_sg3
+"<yabʼil>"
+	"yabʼil" n
+"<rumaleqelenik>"
+	"*rumaleqelenik"
+"<,>"
+	"," cm
+"<kutzʼaj>"
+	"*kutzʼaj"
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<jun>"
+	"jun" adj
+	"jun" n
+	"jun" num
+"<winaq>"
+	"winaq" n
+"<,>"
+	"," cm
+"<kqʼat>"
+	"qʼat" v tv pass impf s_sg3
+	"qʼat" n px3pl
+"<kebʼ>"
+	"kebʼ" num
+"<onkajibʼ>"
+	"*onkajibʼ"
+"<junabʼ>"
+	"junabʼ" n
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<rij>"
+	"ij" n px3sg
+	"ij" n rel px3sg
+"<pa>"
+	"pa" pr
+"<cheʼ>"
+	"cheʼ" adj
+	"cheʼ" n
+"<.>"
+	"." sent
+"<We>"
+	"we" cnjsub
+	"we" det
+	"we" prn rel
+	"ech" n rel px1sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<xukʼulmaj>"
+	"kʼulmaj" v tv perf o_sg3 s_sg3
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<majaʼ>"
+	"majaʼ" adv
+	"jaʼ" v tv imp neg o_sg3 s_sg2
+"<tzʼaqat>"
+	"tzʼaqat" adj
+	"tzʼaqat" n
+"<ujunabʼ>"
+	"junabʼ" n px3sg
+"<,>"
+	"," cm
+"<man>"
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<kutoʼ>"
+	"toʼ" v tv impf o_sg3 s_sg3
+"<ta>"
+	"taj" neg
+"<ribʼ>"
+	"ibʼ" n rel px3sg
+"<on>"
+	"on" cnjcoo
+"<man>"
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<tzʼaqat>"
+	"tzʼaqat" adj
+	"tzʼaqat" n
+"<ta>"
+	"taj" neg
+"<uchomabʼal>"
+	"chomabʼal" n px3sg
+"<,>"
+	"," cm
+"<wa>"
+	"wa" n
+"<we>"
+	"we" cnjsub
+	"we" det
+	"we" prn rel
+	"ech" n rel px1sg
+"<tojbʼal>"
+	"tojbʼal" n
+"<makaj>"
+	"makaj" n
+	"mak" n
+"<knimarisax>"
+	"nimarisaj" v tv pass impf s_sg3
+"<kebʼ>"
+	"kebʼ" num
+"<on>"
+	"on" cnjcoo
+"<oxibʼ>"
+	"oxibʼ" num
+"<mul>"
+	"mul" n
+	"ul" v iv imp neg s_sg3
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:116
+# text = Jachin kbʼanow kʼax chech uchʼakul, unoʼjibʼal, kuneq neʼ ri uchʼakul ri winaq xa rumal kurayij eqelenik rukʼ, ri bʼanal kʼax weneʼ ri winaq pa utukel, waʼ jun makaj pineʼ man kyaʼtaj ta kʼaxkʼolil, kqaj waʼ pa cheʼ jobʼ wene wajxaqibʼ junabʼ.
+# text[spa] = Quién con violencia física o sicológica, realice actos con fines sexuales o eróticos a otra persona, al agresor o a sí misma, siempre que no constituya delito de violación será sancionado con prisión de cinco a ocho años.
+# labels = incomplete
+"<Jachin>"
+	"jachin" prn itg
+"<kbʼanow>"
+	"bʼanow" v iv impf s_sg3
+	"bʼan" v tv anti agfoc impf s_sg3
+"<kʼax>"
+	"kʼax" adj
+	"kʼax" n
+"<chech>"
+	"chi" pr
+		"ech" n rel px3sg
+"<uchʼakul>"
+	"*uchʼakul"
+"<,>"
+	"," cm
+"<unoʼjibʼal>"
+	"noʼjibʼal" n px3sg
+"<,>"
+	"," cm
+"<kuneq>"
+	"*kuneq"
+"<neʼ>"
+	"neʼ" n
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<uchʼakul>"
+	"*uchʼakul"
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<xa>"
+	"xa" adv
+	"xa" n
+"<rumal>"
+	"umal" n rel px3sg
+"<kurayij>"
+	"rayij" v tv impf o_sg3 s_sg3
+"<eqelenik>"
+	"*eqelenik"
+"<rukʼ>"
+	"ukʼ" n px3sg
+	"ukʼ" n rel px3sg
+"<,>"
+	"," cm
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<bʼanal>"
+	"bʼanal" n
+"<kʼax>"
+	"kʼax" adj
+	"kʼax" n
+"<weneʼ>"
+	"weneʼ" adv
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<pa>"
+	"pa" pr
+"<utukel>"
+	"utukel" adj
+	"tukel" n rel px3sg
+"<,>"
+	"," cm
+"<waʼ>"
+	"waʼ" prn dem
+	"wa" n
+	"aʼ" n px1sg
+"<jun>"
+	"jun" adj
+	"jun" n
+	"jun" num
+"<makaj>"
+	"makaj" n
+	"mak" n
+"<pineʼ>"
+	"*pineʼ"
+"<man>"
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<kyaʼtaj>"
+	"yaʼ" v tv pass stat impf s_sg3
+"<ta>"
+	"taj" neg
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<,>"
+	"," cm
+"<kqaj>"
+	"aj" v tv impf o_sg3 s_pl1
+	"qaj" v iv impf s_sg3
+"<waʼ>"
+	"waʼ" prn dem
+	"wa" n
+	"aʼ" n px1sg
+"<pa>"
+	"pa" pr
+"<cheʼ>"
+	"cheʼ" adj
+	"cheʼ" n
+"<jobʼ>"
+	"jobʼ" num
+"<wene>"
+	"weneʼ" adv
+"<wajxaqibʼ>"
+	"wajxaqibʼ" num
+"<junabʼ>"
+	"junabʼ" n
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:117
+# text = Makaj waʼ we majaʼ kajlajuj ujunabʼ ri winaq kuriq kʼaxkʼolil, wene xa man kutoʼ ta ribʼ, on man tzʼaqat ta unoʼjibʼal, pineʼ man kukʼulmaj ta kʼaxkʼolil ri uchʼakul on unoʼjibʼal.
+# text[spa] = Siempre se comete este delito cuando la víctima sea una persona menor de catorce años de edad o cuando sea una persona con incapacidad volitiva o cognitiva aún cuando no medie violencia física o psicológica.
+# labels = incomplete
+"<Makaj>"
+	"makaj" n
+	"mak" n
+"<waʼ>"
+	"waʼ" prn dem
+	"wa" n
+	"aʼ" n px1sg
+"<we>"
+	"we" cnjsub
+	"we" det
+	"we" prn rel
+	"ech" n rel px1sg
+"<majaʼ>"
+	"majaʼ" adv
+	"jaʼ" v tv imp neg o_sg3 s_sg2
+"<kajlajuj>"
+	"kajlajuj" num
+"<ujunabʼ>"
+	"junabʼ" n px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<kuriq>"
+	"riq" v tv impf o_sg3 s_sg3
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<,>"
+	"," cm
+"<wene>"
+	"weneʼ" adv
+"<xa>"
+	"xa" adv
+	"xa" n
+"<man>"
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<kutoʼ>"
+	"toʼ" v tv impf o_sg3 s_sg3
+"<ta>"
+	"taj" neg
+"<ribʼ>"
+	"ibʼ" n rel px3sg
+"<,>"
+	"," cm
+"<on>"
+	"on" cnjcoo
+"<man>"
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<tzʼaqat>"
+	"tzʼaqat" adj
+	"tzʼaqat" n
+"<ta>"
+	"taj" neg
+"<unoʼjibʼal>"
+	"noʼjibʼal" n px3sg
+"<,>"
+	"," cm
+"<pineʼ>"
+	"*pineʼ"
+"<man>"
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<kukʼulmaj>"
+	"kʼulmaj" v tv impf o_sg3 s_sg3
+"<ta>"
+	"taj" neg
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<uchʼakul>"
+	"*uchʼakul"
+"<on>"
+	"on" cnjcoo
+"<unoʼjibʼal>"
+	"noʼjibʼal" n px3sg
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:124
+# text = Jachin kreqelej jun winaq wene kutaq chi jun chik chech eqelenik chi kiwach akʼalabʼ wene chi kiwach ri winaq man tzʼaqat ta kinoʼjibʼal, kuqʼaxex oxibʼ on jobʼ junabʼ ri winaq pa cheʼ.”
+# text[spa] = Quien ejecute, o hiciere ejecutar a otra persona, actos sexuales frente a personas menores de edad o persona con incapacidad volitiva o cognitiva, será sancionado con pena de tres a cinco años de prisión.”
+# labels = incomplete
+"<Jachin>"
+	"jachin" prn itg
+"<kreqelej>"
+	"*kreqelej"
+"<jun>"
+	"jun" adj
+	"jun" n
+	"jun" num
+"<winaq>"
+	"winaq" n
+"<wene>"
+	"weneʼ" adv
+"<kutaq>"
+	"taq" v tv impf o_sg3 s_sg3
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<jun>"
+	"jun" adj
+	"jun" n
+	"jun" num
+"<chik>"
+	"chik" adv
+	"chik" part
+"<chech>"
+	"chi" pr
+		"ech" n rel px3sg
+"<eqelenik>"
+	"*eqelenik"
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<kiwach>"
+	"wach" n px3pl
+	"wach" n rel px3pl
+	"wäch" n px3pl
+"<akʼalabʼ>"
+	"akʼal" n pl
+"<wene>"
+	"weneʼ" adv
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<kiwach>"
+	"wach" n px3pl
+	"wach" n rel px3pl
+	"wäch" n px3pl
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<man>"
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<tzʼaqat>"
+	"tzʼaqat" adj
+	"tzʼaqat" n
+"<ta>"
+	"taj" neg
+"<kinoʼjibʼal>"
+	"noʼjibʼal" n px3pl
+"<,>"
+	"," cm
+"<kuqʼaxex>"
+	"*kuqʼaxex"
+"<oxibʼ>"
+	"oxibʼ" num
+"<on>"
+	"on" cnjcoo
+"<jobʼ>"
+	"jobʼ" num
+"<junabʼ>"
+	"junabʼ" n
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<pa>"
+	"pa" pr
+"<cheʼ>"
+	"cheʼ" adj
+	"cheʼ" n
+"<.>"
+	"." sent
+"<”>"
+	"”" rquot
+
+# sent_id = ley2009-9:136
+# text = Kqʼat kebʼ on kajibʼ junabʼ pa cheʼ chi rij ri winaq, jachin krelesaj ubʼixik, utzijoxik ri ukʼaslemal jun chi winaq are chiʼ kriqitaj wachibʼalil rukʼ ri bʼim kan pa le jun qʼataj.
+# text[spa] = Se impondrá prisión de dos a cuatro años a quien difunda, revele o ceda, a cualquier título, a terceros, los datos o hechos descubiertos o las imágenes captadas a que se refiere este artículo.”
+# labels = incomplete
+"<Kqʼat>"
+	"qʼat" v tv pass impf s_sg3
+	"qʼat" n px3pl
+"<kebʼ>"
+	"kebʼ" num
+"<on>"
+	"on" cnjcoo
+"<kajibʼ>"
+	"kajibʼ" num
+"<junabʼ>"
+	"junabʼ" n
+"<pa>"
+	"pa" pr
+"<cheʼ>"
+	"cheʼ" adj
+	"cheʼ" n
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<rij>"
+	"ij" n px3sg
+	"ij" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<,>"
+	"," cm
+"<jachin>"
+	"jachin" prn itg
+"<krelesaj>"
+	"elesaj" v tv impf o_sg3 s_sg3
+"<ubʼixik>"
+	"bʼixik" n px3sg
+	"bʼij" v tv pass inf s_sg3
+	"bʼix" v iv inf s_sg3
+"<,>"
+	"," cm
+"<utzijoxik>"
+	"tzijoxik" n px3sg
+	"tzijoj" v tv pass inf s_sg3
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<ukʼaslemal>"
+	"kʼaslemal" n px3sg
+"<jun>"
+	"jun" adj
+	"jun" n
+	"jun" num
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<winaq>"
+	"winaq" n
+"<are>"
+	"areʼ" prn pers p3 sg
+	"areʼ" prn pro p3 sg
+	"are" adv
+	"are" foc
+"<chiʼ>"
+	"chiʼ" adv
+	"chiʼ" cnjsub
+	"chiʼ" n
+"<kriqitaj>"
+	"riq" v tv pass stat impf s_sg3
+"<wachibʼalil>"
+	"*wachibʼalil"
+"<rukʼ>"
+	"ukʼ" n px3sg
+	"ukʼ" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<bʼim>"
+	"bʼim" adj
+"<kan>"
+	"Kan" n
+	"kan" adv dir
+	"kan" n
+	"an" v iv impf s_sg3
+"<pa>"
+	"pa" pr
+"<le>"
+	"le" det
+	"le" prn rel
+"<jun>"
+	"jun" adj
+	"jun" n
+	"jun" num
+"<qʼataj>"
+	"qʼataj" n
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:160
+# text = Wene man kʼot qʼatbal tzij ktobʼan rukʼ ri akʼal, wene are chiʼ chʼoʼj rij ri kajawaxik rumal ri ajkʼax rukʼ ri utaʼqoʼn qʼatbʼal tzij.
+# text[spa] = En todo caso, velará por los derechos de la niñez víctima de acuerdo a su interés superior.
+# labels = incomplete
+"<Wene>"
+	"weneʼ" adv
+"<man>"
+	"man" neg
+	"an" v iv imp neg s_sg3
+"<kʼot>"
+	"*kʼot"
+"<qʼatbal>"
+	"qʼatbʼal" adj
+	"qʼatbʼaʼl" n
+"<tzij>"
+	"tzij" adj
+	"tzij" adv
+	"tzij" n
+"<ktobʼan>"
+	"tobʼan" v iv impf s_sg3
+"<rukʼ>"
+	"ukʼ" n px3sg
+	"ukʼ" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<akʼal>"
+	"akʼal" adj
+	"akʼal" n
+"<,>"
+	"," cm
+"<wene>"
+	"weneʼ" adv
+"<are>"
+	"areʼ" prn pers p3 sg
+	"areʼ" prn pro p3 sg
+	"are" adv
+	"are" foc
+"<chiʼ>"
+	"chiʼ" adv
+	"chiʼ" cnjsub
+	"chiʼ" n
+"<chʼoʼj>"
+	"chʼoʼj" adj
+	"chʼoʼj" n
+"<rij>"
+	"ij" n px3sg
+	"ij" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kajawaxik>"
+	"*kajawaxik"
+"<rumal>"
+	"umal" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<ajkʼax>"
+	"*ajkʼax"
+"<rukʼ>"
+	"ukʼ" n px3sg
+	"ukʼ" n rel px3sg
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<utaʼqoʼn>"
+	"*utaʼqoʼn"
+"<qʼatbʼal>"
+	"qʼatbʼal" adj
+	"qʼatbʼaʼl" n
+"<tzij>"
+	"tzij" adj
+	"tzij" adv
+	"tzij" n
+"<.>"
+	"." sent
+
+# sent_id = ley2009-9:163
+# text = Ri winaq kubʼan we kʼaxkʼolil riʼ, kqʼat wajxaqibʼ wene wajxaqlajuj junabʼ chi rij pa cheʼ xuqujeʼ kutoj 300 mil kʼa pa 500 mil qʼuqʼ.
+# text[spa] = Quien cometa este delito será sancionado con prisión de ocho a dieciocho años y multa de trescientos mil a quinientos mil Quetzales.
+# labels = complete check-adverbs
+"<Ri>"
+	"ri" det @det #1->2
+"<winaq>"
+	"winaq" n @dislocated #2->8
+"<kubʼan>"
+	"bʼan" v tv impf o_sg3 s_sg3 @acl #3->2
+"<we>"
+	"we" det @det #4->5
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n @obj #5->3
+"<riʼ>"
+	"riʼ" prn dem @det #6->5
+"<,>"
+	"," cm @punct #7->2
+"<kqʼat>"
+	"qʼat" v tv pass impf s_sg3 @root #8->0
+"<wajxaqibʼ>"
+	"wajxaqibʼ" num @nummod #9->12
+"<wene>"
+	"weneʼ" adv @advmod #10->11
+"<wajxaqlajuj>"
+	"wajxaqlajuj" num @dep #11->9
+"<junabʼ>"
+	"junabʼ" n @nsubj #12->8
+"<chi>"
+	"chi" pr @case #13->14
+"<rij>"
+	"ij" n rel px3sg @obl #14->8
+"<pa>"
+	"pa" pr @case #15->16
+"<cheʼ>"
+	"cheʼ" n @nmod #16->14
+"<xuqujeʼ>"
+	"xuqujeʼ" cnjcoo @cc #17->18
+"<kutoj>"
+	"toj" v tv impf o_sg3 s_sg3 @conj #18->8
+"<300>"
+	"300" num @nummod #19->20
+"<mil>"
+	"mil" n @nummod #20->25
+"<kʼa>"
+	"kʼa" pr @case #21->24
+"<pa>"
+	"pa" pr @case #22->24
+"<500>"
+	"500" num @nummod #23->24
+"<mil>"
+	"mil" n @nummod #24->20
+"<qʼuqʼ>"
+	"qʼuqʼ" n @obj #25->18
+"<.>"
+	"." sent @punct #26->8
+
+# sent_id = ley2009-9:164
+# text = We xa xokisax ukʼuʼx wene xa xtaqachiʼx pa ri kʼaxkʼolil ri winaq on ri kʼamal ubʼe chi uwach qʼatbʼal tzij, are qas kil we kuriq kʼaxkʼolil pa ri ukʼaslemal.
+# text[spa] = En ningún caso se tendrá en cuenta el consentimiento prestado por la víctima de trata de personas o por su representante legal.
+# labels = incomplete
+"<We>"
+	"we" cnjsub
+	"we" det
+	"we" prn rel
+	"ech" n rel px1sg
+"<xa>"
+	"xa" adv
+	"xa" n
+"<xokisax>"
+	"okisaj" v tv pass perf s_sg3
+"<ukʼuʼx>"
+	"kʼuʼx²" n px3sg
+	"kʼuʼx¹" n px3sg
+"<wene>"
+	"weneʼ" adv
+"<xa>"
+	"xa" adv
+	"xa" n
+"<xtaqachiʼx>"
+	"*xtaqachiʼx"
+"<pa>"
+	"pa" pr
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<winaq>"
+	"winaq" n
+"<on>"
+	"on" cnjcoo
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<kʼamal>"
+	"kʼamal" n
+"<ubʼe>"
+	"bʼe" n px3sg
+"<chi>"
+	"chi" adj
+	"chi" adv
+	"chi" cnjsub
+	"chi" pr
+"<uwach>"
+	"wach" n px3sg
+	"wach" n rel px3sg
+	"wäch" n px3sg
+"<qʼatbʼal>"
+	"qʼatbʼal" adj
+	"qʼatbʼaʼl" n
+"<tzij>"
+	"tzij" adj
+	"tzij" adv
+	"tzij" n
+"<,>"
+	"," cm
+"<are>"
+	"areʼ" prn pers p3 sg
+	"areʼ" prn pro p3 sg
+	"are" adv
+	"are" foc
+"<qas>"
+	"qas" adj
+"<kil>"
+	"il" v tv pass impf s_sg3
+	"il" n px3pl
+"<we>"
+	"we" cnjsub
+	"we" det
+	"we" prn rel
+	"ech" n rel px1sg
+"<kuriq>"
+	"riq" v tv impf o_sg3 s_sg3
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n
+"<pa>"
+	"pa" pr
+"<ri>"
+	"ri" det
+	"ri" prn rel
+"<ukʼaslemal>"
+	"kʼaslemal" n px3sg
+"<.>"
+	"." sent
 
 # sent_id = ley2009-9:199
 # text = We xkam ri winaq, ri pwaq rech tojbʼal makaj kyaʼ chi kech ri ralaxik.

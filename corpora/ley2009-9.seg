@@ -42,6 +42,61 @@
 ^ucholchak/u>cholchak$
 ^./.$
 
+# sent_id = ley2009-9:52
+# text = Ronojel ri yaʼtalil pa we qʼataj, tzʼaqat kiwach, man ktzaq ta kanoq xuqujeʼ man ktas taj.
+# text[spa] = Los derechos enunciados en este artículo son integrales, irrenunciables e indivisibles.
+# labels = complete
+^Ronojel/R>onojel$
+^ri/ri$
+^yaʼtalil/yaʼtalil$
+^pa/pa$
+^we/we$
+^qʼataj/qʼataj$
+^,/,$
+^tzʼaqat/tzʼaqat$
+^kiwach/ki>wach$
+^,/,$
+^man/man$
+^ktzaq/k>tzaq$
+^ta/ta$
+^kanoq/kan>oq$
+^xuqujeʼ/xuqujeʼ$
+^man/man$
+^ktas/k>tas$
+^taj/taj$
+^./.$
+
+# sent_id = ley2009-9:163
+# text = Ri winaq kubʼan we kʼaxkʼolil riʼ, kqʼat wajxaqibʼ wene wajxaqlajuj junabʼ chi rij pa cheʼ xuqujeʼ kutoj 300 mil kʼa pa 500 mil qʼuqʼ.
+# text[spa] = Quien cometa este delito será sancionado con prisión de ocho a dieciocho años y multa de trescientos mil a quinientos mil Quetzales.
+# labels = complete
+^Ri/Ri$
+^winaq/winaq$
+^kubʼan/k>u>bʼan$
+^we/we/w>e/w>ech$
+^kʼaxkʼolil/kʼaxkʼolil$
+^riʼ/riʼ$
+^,/,$
+^kqʼat/k>qʼat$
+^wajxaqibʼ/wajxaqibʼ$
+^wene/wene$
+^wajxaqlajuj/wajxaqlajuj$
+^junabʼ/junabʼ$
+^chi/chi$
+^rij/r>ij$
+^pa/pa$
+^cheʼ/cheʼ$
+^xuqujeʼ/xuqujeʼ$
+^kutoj/k>u>toj$
+^300/300$
+^mil/mil$
+^kʼa/kʼa$
+^pa/pa$
+^500/500$
+^mil/mil$
+^qʼuqʼ/qʼuqʼ$
+^./.$
+
 # sent_id = ley2009-9:199
 # text = We xkam ri winaq, ri pwaq rech tojbʼal makaj kyaʼ chi kech ri ralaxik.
 # text[spa] = La indemnización corresponderá a los herederos, si la víctima hubiere fallecido.

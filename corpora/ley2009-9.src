@@ -30,6 +30,57 @@
 ^aninaqil/aninaqil<adv>/aninäqil<n>$
 ^./.<sent>$
 
+# sent_id = ley2009-9:18
+# text = Ri ajtzʼibʼ rech chakunem rech Woktzʼibʼabʼal, kjach reqeleʼn rumal ri Ukʼabʼ kʼamal Ubʼe Amaqʼ.
+# text[spa] = El Secretario Ejecutivo de la Secretaría, será nombrado por el Vicepresidente de la República.
+# labels = incomplete
+^Ri/ri<det>/ri<prn><rel>$
+^ajtzʼibʼ/ajtzʼibʼ<n>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^chakunem/chakuj<v><tv><anti><inf>/chakunem<n>/chakun<v><iv><inf>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^Woktzʼibʼabʼal/woktzʼibʼabʼal<n>$
+^,/,<cm>$
+^kjach/<impf><s_sg3>jach<v><tv><pass>$
+^reqeleʼn/<px3sg>eqeleʼn<n>$
+^rumal/<px3sg>umal<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^Ukʼabʼ/*Ukʼabʼ$
+^kʼamal/kʼamal<n>$
+^Ubʼe/<px3sg>bʼe<n>$
+^Amaqʼ/amaqʼ<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:35
+# text = Pa kiqʼabʼ ri qʼatbʼal taq tzij e tobʼanelabʼ kʼo wi, umajik uchakuxik rij ri tobʼanik yaʼtal chech ri winaq xuqujeʼ ri qʼatbʼal tzij.
+# text[spa] = Las autoridades competentes, bajo su propia responsabilidad, deben iniciar de oficio los procedimientos administrativos y judiciales para garantizar la protección de la víctima.
+# labels = incomplete
+^Pa/pa<pr>$
+^kiqʼabʼ/<px3pl>qʼabʼ<n>$
+^ri/ri<det>/ri<prn><rel>$
+^qʼatbʼal/qʼatbʼal<adj>/qʼatbʼaʼl<n>$
+^taq/taq<cnjsub>/taq<pl>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
+^tobʼanelabʼ/tobʼanel<n><pl>$
+^kʼo/kʼo<part>$
+^wi/wi<adv><dir>$
+^,/,<cm>$
+^umajik/<s_sg3>maj<v><tv><inf>/<s_sg3>maj<v><tv><pass><inf>$
+^uchakuxik/<s_sg3>chakuj<v><tv><pass><inf>$
+^rij/<px3sg>ij<n>/<px3sg>ij<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^tobʼanik/tobʼan<v><iv><inf>$
+^yaʼtal/yaʼtal<adj>$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^xuqujeʼ/xuqujeʼ<adv>/xuqujeʼ<cnjcoo>$
+^ri/ri<det>/ri<prn><rel>$
+^qʼatbʼal/qʼatbʼal<adj>/qʼatbʼaʼl<n>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^./.<sent>$
+
 # sent_id = ley2009-9:38
 # text = We Woktzʼibʼabʼal kʼo pa uqʼabʼ kuchajij xuqujeʼ kupatanij we taqanik riʼ, rachiʼl ri chomanem xuqujeʼ ri ucholchak.
 # text[spa] = La Secretaría es la responsable de velar y dar cumplimiento a esta Ley y a políticas y planes relacionados con la misma.
@@ -53,6 +104,335 @@
 ^ri/ri<det>/ri<prn><rel>$
 ^ucholchak/<px3sg>cholchak<n>$
 ^./.<sent>$ 
+
+# sent_id = ley2009-9:41
+# text = Are taq waʼ ri yaʼtal chech ri xukʼulmaj kʼaxkʼolil:
+# text[spa] = Son derechos de la persona víctima, por lo menos, los siguientes:
+# labels = incomplete
+^Are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^taq/taq<cnjsub>/taq<pl>$
+^waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^ri/ri<det>/ri<prn><rel>$
+^yaʼtal/yaʼtal<adj>$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^xukʼulmaj/<perf><o_sg3><s_sg3>kʼulmaj<v><tv>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^:/:<sent>$
+
+# sent_id = ley2009-9:52
+# text = Ronojel ri yaʼtalil pa we qʼataj, tzʼaqat kiwach, man ktzaq ta kanoq xuqujeʼ man ktas taj.
+# text[spa] = Los derechos enunciados en este artículo son integrales, irrenunciables e indivisibles.
+# labels = incomplete
+^Ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^yaʼtalil/*yaʼtalil$
+^pa/pa<pr>$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^qʼataj/qʼataj<n>$
+^,/,<cm>$
+^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
+^kiwach/<px3pl>wach<n>/<px3pl>wach<n><rel>/<px3pl>wäch<n>$
+^,/,<cm>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^ktzaq/<impf><s_sg3>tzaq<v><iv>/<impf><s_sg3>tzaq<v><tv><pass>/<px3pl>tzaq<n>$
+^ta/taj<neg>$
+^kanoq/kan<adv><dir>+oq<mark>$
+^xuqujeʼ/xuqujeʼ<adv>/xuqujeʼ<cnjcoo>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^ktas/<impf><s_sg3>tas<v><tv><pass>$
+^taj/taj<neg><fin>$
+^./.<sent>$
+
+# sent_id = ley2009-9:57
+# text = Ronojel we tzujunem kbʼanik man kesax ta utzijol.
+# text[spa] = La denuncia podrá ser presentada bajo reserva de confidencialidad.
+# labels = incomplete
+^Ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^tzujunem/tzujuj<v><tv><anti><inf>/tzujun<v><iv><inf>$
+^kbʼanik/<impf><s_sg3>bʼaj<v><tv><anti>+ik<mark>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>+ik<mark>/<impf><s_sg3>bʼan<v><tv><pass>+ik<mark>/<px3pl>bʼanik<n>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kesax/<impf><s_sg3>esaj<v><tv><pass>$
+^ta/taj<neg>$
+^utzijol/<px3sg>tzijol<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:59
+# text = Man kbʼan ta kʼax chech ri kʼamom uqʼabʼil kukʼ aj chʼaqap jaʼ chi yaʼtal chi kech ri winaq kebʼin pa taq tinamit, ri wokaj chajinelabʼ rech ri qʼaxem pa taq tinamit chik, rajawaxik kkil we jastaq riʼ:
+# text[spa] = Sin perjuicios de los compromisos internacionales relativos a la libre circulación de personas, las autoridades de migración deberán, por lo menos:
+# labels = incomplete
+^Man/Man<np><top><barb>/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kbʼan/<impf><s_sg3>bʼaj<v><tv><anti>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>/<impf><s_sg3>bʼan<v><tv><pass>$
+^ta/taj<neg>$
+^kʼax/kʼax<adj>/kʼax<n>$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^kʼamom/kʼam<v><tv><pp>$
+^uqʼabʼil/*uqʼabʼil$
+^kukʼ/<px3pl>ukʼ<n>/<px3pl>ukʼ<n><rel>$
+^aj/Aj<n>/aj<n>/aj<pr>/äj<n>$
+^chʼaqap/chʼaqap<adv>$
+^jaʼ/jaʼ<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^yaʼtal/yaʼtal<adj>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^kech/<px3pl>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^kebʼin/<impf><s_pl3>bʼij<v><tv><anti>/<impf><s_pl3>bʼij<v><tv><anti><agfoc>/<impf><s_pl3>bʼin<v><iv>$
+^pa/pa<pr>$
+^taq/taq<cnjsub>/taq<pl>$
+^tinamit/tinamit<n>$
+^,/,<cm>$
+^ri/ri<det>/ri<prn><rel>$
+^wokaj/wokaj<n>$
+^chajinelabʼ/chajinel<n><pl>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^qʼaxem/qʼax<v><iv><inf>$
+^pa/pa<pr>$
+^taq/taq<cnjsub>/taq<pl>$
+^tinamit/tinamit<n>$
+^chik/chik<adv>/chik<part>$
+^,/,<cm>$
+^rajawaxik/rajawaxik<adj>$
+^kkil/<impf><o_sg3><s_pl3>il<v><tv>$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^jastaq/jastaq<n>$
+^riʼ/riʼ<prn><dem>$
+^:/:<sent>$
+
+# sent_id = ley2009-9:67
+# text = We ri winaq kʼo pa kʼaxkʼolil aj chʼaqap jaʼ, ri qʼatbʼal tzij tobʼanel rajaw
+# text[spa] = Si la persona víctima es extranjera, la autoridad competente debe dar aviso inmediato a la agencia consular que corresponda.
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^kʼo/kʼo<part>$
+^pa/pa<pr>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^aj/Aj<n>/aj<n>/aj<pr>/äj<n>$
+^chʼaqap/chʼaqap<adv>$
+^jaʼ/jaʼ<n>$
+^,/,<cm>$
+^ri/ri<det>/ri<prn><rel>$
+^qʼatbʼal/qʼatbʼal<adj>/qʼatbʼaʼl<n>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^tobʼanel/tobʼanel<n>$
+^rajaw/<px3sg>ajaw<n>$
+
+# sent_id = ley2009-9:69
+# text = Ri winaq xkikʼulmaj kʼax rajawaxik ketzalix pa kitinamit are chiʼ bʼantajinaq chik ri tzijonem kukʼ ri kʼamal taq ubʼe ri Amaqʼ rech kitinamit, kejach pa kiqʼabʼ.
+# text[spa] = Las víctimas de trata deberán ser repatriadas únicamente, hasta que se haya establecido comunicación oficial con los representantes de su país de origen, a quienes se les entregará bajo su protección.
+# labels = incomplete
+^Ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^xkikʼulmaj/<perf><o_sg3><s_pl3>kʼulmaj<v><tv>$
+^kʼax/kʼax<adj>/kʼax<n>$
+^rajawaxik/rajawaxik<adj>$
+^ketzalix/<impf><s_pl3>tzalij<v><tv><pass>$
+^pa/pa<pr>$
+^kitinamit/<px3pl>tinamit<n>$
+^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^chiʼ/chiʼ<adv>/chiʼ<cnjsub>/chiʼ<n>$
+^bʼantajinaq/bʼantajinaq<adj>/bʼantaj<v><iv><pp>/<s_sg3>bʼantaj<v><iv><pp>$
+^chik/chik<adv>/chik<part>$
+^ri/ri<det>/ri<prn><rel>$
+^tzijonem/tzijoj<v><tv><anti><inf>/tzijonem<n>/tzijon<v><iv><inf>$
+^kukʼ/<px3pl>ukʼ<n>/<px3pl>ukʼ<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^kʼamal/kʼamal<n>$
+^taq/taq<cnjsub>/taq<pl>$
+^ubʼe/<px3sg>bʼe<n>$
+^ri/ri<det>/ri<prn><rel>$
+^Amaqʼ/amaqʼ<n>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^kitinamit/<px3pl>tinamit<n>$
+^,/,<cm>$
+^kejach/<impf><s_pl3>jach<v><tv><pass>$
+^pa/pa<pr>$
+^kiqʼabʼ/<px3pl>qʼabʼ<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:71
+# text = Ri Wokqʼatbʼal tzij chajinel rech kʼulmatajem pa Amaqʼ, nim ri keqeleʼn pa uwiʼ ri taqanik kech akʼalabʼ xuqujeʼ qʼapojibʼ, kʼo pa kiqʼabʼ kkichakuj ri tzalijem kech ri majaʼ na tzʼaqat kijunabʼ.
+# text[spa] = La Procuraduría General de la Nación, en calidad de representante legal de la niñez y adolescencia, se encargará del proceso de repatriación para las personas menores de edad.
+# labels = incomplete
+^Ri/ri<det>/ri<prn><rel>$
+^Wokqʼatbʼal/*Wokqʼatbʼal$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^chajinel/chajinel<n>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^kʼulmatajem/kʼulmatäj<v><iv><inf>$
+^pa/pa<pr>$
+^Amaqʼ/amaqʼ<n>$
+^,/,<cm>$
+^nim/nim<adj>$
+^ri/ri<det>/ri<prn><rel>$
+^keqeleʼn/<px3pl>eqeleʼn<n>$
+^pa/pa<pr>$
+^uwiʼ/<px3sg>wiʼ<n>/<px3sg>wiʼ<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^taqanik/taqanik<n>/taqan<v><iv><inf>/taq<v><tv><anti><inf>$
+^kech/<px3pl>ech<n><rel>$
+^akʼalabʼ/akʼal<n><pl>$
+^xuqujeʼ/xuqujeʼ<adv>/xuqujeʼ<cnjcoo>$
+^qʼapojibʼ/*qʼapojibʼ$
+^,/,<cm>$
+^kʼo/kʼo<part>$
+^pa/pa<pr>$
+^kiqʼabʼ/<px3pl>qʼabʼ<n>$
+^kkichakuj/<impf><o_sg3><s_pl3>chakuj<v><tv>$
+^ri/ri<det>/ri<prn><rel>$
+^tzalijem/tzalij<v><iv><inf>$
+^kech/<px3pl>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^majaʼ/majaʼ<adv>/<imp><neg><o_sg3><s_sg2>jaʼ<v><tv>$
+^na/na<adv>/na<adv><fut>/na<neg>$
+^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
+^kijunabʼ/<px3pl>junabʼ<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:75
+# text = Man kbʼan ta kʼax che ri kitzalijem, kbʼan ri kikunaxik, kkʼex ri kinoʼjibʼal rech kekʼojiʼ pa utzilal, xuqujeʼ yaʼtal chech kekʼojiʼ janikʼpaʼ ne lo qʼij pa ri tinamit keriqitaj wi.
+# text[spa] = Sin perjuicio del proceso de repatriación, se deben prestar los servicios de salud y psicológicos que garanticen el bienestar a la víctima, además del derecho de asilo o la permanencia temporal o permanentemente en el territorio del Estado.
+# labels = incomplete
+^Man/Man<np><top><barb>/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kbʼan/<impf><s_sg3>bʼaj<v><tv><anti>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>/<impf><s_sg3>bʼan<v><tv><pass>$
+^ta/taj<neg>$
+^kʼax/kʼax<adj>/kʼax<n>$
+^che/chi<pr>+<px3sg>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^kitzalijem/<s_pl3>tzalij<v><iv><inf>$
+^,/,<cm>$
+^kbʼan/<impf><s_sg3>bʼaj<v><tv><anti>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>/<impf><s_sg3>bʼan<v><tv><pass>$
+^ri/ri<det>/ri<prn><rel>$
+^kikunaxik/<px3pl>kunaxik<n>/<s_pl3>kunaj<v><tv><pass><inf>/<s_pl3>kunax<v><iv><inf>$
+^,/,<cm>$
+^kkʼex/<impf><s_sg3>kʼej<v><tv><pass>/<impf><s_sg3>kʼex<v><iv>/<impf><s_sg3>kʼex<v><tv><pass>$
+^ri/ri<det>/ri<prn><rel>$
+^kinoʼjibʼal/<px3pl>noʼjibʼal<n>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^kekʼojiʼ/<impf><s_pl3>kʼojiʼk<v><iv>$
+^pa/pa<pr>$
+^utzilal/utzilal<n>$
+^,/,<cm>$
+^xuqujeʼ/xuqujeʼ<adv>/xuqujeʼ<cnjcoo>$
+^yaʼtal/yaʼtal<adj>$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^kekʼojiʼ/<impf><s_pl3>kʼojiʼk<v><iv>$
+^janikʼpaʼ/*janikʼpaʼ$
+^ne/ne<adv>$
+^lo/lo<adv>$
+^qʼij/qʼij<n>$
+^pa/pa<pr>$
+^ri/ri<det>/ri<prn><rel>$
+^tinamit/tinamit<n>$
+^keriqitaj/<impf><s_pl3>riq<v><tv><pass><stat>$
+^wi/wi<adv><dir>$
+^./.<sent>$
+
+# sent_id = ley2009-9:76
+# text = We tzʼaqat chi ronojel ri kitzalijem pa kitinamit, man kuya taj kbʼayitajisax chik.
+# text[spa] = En el caso que sea seguro para la víctima volver a su país de origen, la repatriación se realizará sin demora indebida o injustificada.
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^kitzalijem/<s_pl3>tzalij<v><iv><inf>$
+^pa/pa<pr>$
+^kitinamit/<px3pl>tinamit<n>$
+^,/,<cm>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kuya/<impf><o_sg3><s_sg3>yaʼ<v><tv>$
+^taj/taj<neg><fin>$
+^kbʼayitajisax/*kbʼayitajisax$
+^chik/chik<adv>/chik<part>$
+^./.<sent>$
+
+# sent_id = ley2009-9:77
+# text = Wene man kʼot uwujil ukʼaslemal ri winaq, ri Qʼatbʼal tzij Ilonel pa Chʼaqap Jaʼ, kuchakuj rij ri wujil qʼaxibʼal pa ri utinamit.
+# text[spa] = Para dichos efectos y en el caso que la víctima carezca de la debida documentación, el Ministerio de Relaciones Exteriores promoverá, en coordinación con el país de origen, los documentos de viaje o autorización que sean necesarios para su retorno.
+# labels = incomplete
+^Wene/weneʼ<adv>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kʼot/*kʼot$
+^uwujil/<px3sg>wujil<n>$
+^ukʼaslemal/<px3sg>kʼaslemal<n>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^,/,<cm>$
+^ri/ri<det>/ri<prn><rel>$
+^Qʼatbʼal/qʼatbʼal<adj>/qʼatbʼaʼl<n>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^Ilonel/ilonel<n>$
+^pa/pa<pr>$
+^Chʼaqap/chʼaqap<adv>$
+^Jaʼ/jaʼ<n>$
+^,/,<cm>$
+^kuchakuj/<impf><o_sg3><s_sg3>chakuj<v><tv>$
+^rij/<px3sg>ij<n>/<px3sg>ij<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^wujil/wujil<n>$
+^qʼaxibʼal/*qʼaxibʼal$
+^pa/pa<pr>$
+^ri/ri<det>/ri<prn><rel>$
+^utinamit/<px3sg>tinamit<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:78
+# text = Ri Qʼatbʼal ilonel pa Chaqʼabʼ Jaʼ, are taq waʼ ri rajawaxik kuchajij:
+# text[spa] = El Ministerio de Relaciones Exteriores deberá garantizar, como mínimo, los siguientes derechos:
+# labels = incomplete
+^Ri/ri<det>/ri<prn><rel>$
+^Qʼatbʼal/qʼatbʼal<adj>/qʼatbʼaʼl<n>$
+^ilonel/ilonel<n>$
+^pa/pa<pr>$
+^Chaqʼabʼ/chaqʼabʼ<adv>$
+^Jaʼ/jaʼ<n>$
+^,/,<cm>$
+^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^taq/taq<cnjsub>/taq<pl>$
+^waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^ri/ri<det>/ri<prn><rel>$
+^rajawaxik/rajawaxik<adj>$
+^kuchajij/<impf><o_sg3><s_sg3>chajij<v><tv>$
+^:/:<sent>$
+
+# sent_id = ley2009-9:97
+# text = Ronojel ri kʼaxkʼolil kbʼan chi kech ri winaq majaʼ na tzʼaqat kijunabʼ, kʼate kmajitaj upatenexik rij are chiʼ ktzʼaqat ujunabʼ ri winaq xuriq kʼaxkʼolil.
+# text[spa] = En los delitos cometidos en contra de personas menores de edad, el plazo de prescripción comenzará a contarse desde el momento en que la víctima cumpla su mayoría de edad.”
+# labels = incomplete
+^Ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^kbʼan/<impf><s_sg3>bʼaj<v><tv><anti>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>/<impf><s_sg3>bʼan<v><tv><pass>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^kech/<px3pl>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^majaʼ/majaʼ<adv>/<imp><neg><o_sg3><s_sg2>jaʼ<v><tv>$
+^na/na<adv>/na<adv><fut>/na<neg>$
+^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
+^kijunabʼ/<px3pl>junabʼ<n>$
+^,/,<cm>$
+^kʼate/kʼateʼ<pr>$
+^kmajitaj/<impf><s_sg3>majij<v><tv><pass><stat>/<impf><s_sg3>maj<v><tv><pass><stat>$
+^upatenexik/*upatenexik$
+^rij/<px3sg>ij<n>/<px3sg>ij<n><rel>$
+^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^chiʼ/chiʼ<adv>/chiʼ<cnjsub>/chiʼ<n>$
+^ktzʼaqat/<impf><s_sg3>tzʼaqat<v><iv>/<px3pl>tzʼaqat<n>$
+^ujunabʼ/<px3sg>junabʼ<n>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^xuriq/<perf><o_sg3><s_sg3>riq<v><tv>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^./.<sent>$
 
 # sent_id = ley2009-9:112
 # text = Ri tojbʼal makaj chi rij ri winaq ajmak, jalan chi uwach ri nikʼaj tojbʼal mak rech nikʼaj taq makaj chik.
@@ -79,6 +459,356 @@
 ^taq/taq<cnjsub>/taq<pl>$
 ^makaj/makaj<n>/mak<n>$
 ^chik/chik<adv>/chik<part>$
+^./.<sent>$
+
+# sent_id = ley2009-9:103
+# text = Jachin retaʼm chi uriqom yabʼil rumaleqelenik, kutzʼaj chi jun winaq, kqʼat kebʼ onkajibʼ junabʼ chi rij pa cheʼ. We ri xukʼulmaj kʼaxkʼolil majaʼ tzʼaqat ujunabʼ, man kutoʼ ta ribʼ on man tzʼaqat ta uchomabʼal, wa we tojbʼal makaj knimarisax kebʼ on oxibʼ mul.
+# text[spa] = Quien a sabiendas que padece de infección de transmisión sexual, expusiera a otra persona al contagio, será sancionado con prisión de dos a cuatro años.
+# labels = incomplete
+^Jachin/jachin<prn><itg>$
+^retaʼm/<o_sg3><s_sg3>etaʼm<v><tv><perf>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^uriqom/<s_sg3>riq<v><tv><pp>$
+^yabʼil/yabʼil<n>$
+^rumaleqelenik/*rumaleqelenik$
+^,/,<cm>$
+^kutzʼaj/*kutzʼaj$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^winaq/winaq<n>$
+^,/,<cm>$
+^kqʼat/<impf><s_sg3>qʼat<v><tv><pass>/<px3pl>qʼat<n>$
+^kebʼ/kebʼ<num>$
+^onkajibʼ/*onkajibʼ$
+^junabʼ/junabʼ<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^rij/<px3sg>ij<n>/<px3sg>ij<n><rel>$
+^pa/pa<pr>$
+^cheʼ/cheʼ<adj>/cheʼ<n>$
+^./.<sent>$
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^xukʼulmaj/<perf><o_sg3><s_sg3>kʼulmaj<v><tv>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^majaʼ/majaʼ<adv>/<imp><neg><o_sg3><s_sg2>jaʼ<v><tv>$
+^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
+^ujunabʼ/<px3sg>junabʼ<n>$
+^,/,<cm>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kutoʼ/<impf><o_sg3><s_sg3>toʼ<v><tv>$
+^ta/taj<neg>$
+^ribʼ/<px3sg>ibʼ<n><rel>$
+^on/on<cnjcoo>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
+^ta/taj<neg>$
+^uchomabʼal/<px3sg>chomabʼal<n>$
+^,/,<cm>$
+^wa/wa<n>$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^tojbʼal/tojbʼal<n>$
+^makaj/makaj<n>/mak<n>$
+^knimarisax/<impf><s_sg3>nimarisaj<v><tv><pass>$
+^kebʼ/kebʼ<num>$
+^on/on<cnjcoo>$
+^oxibʼ/oxibʼ<num>$
+^mul/mul<n>/<imp><neg><s_sg3>ul<v><iv>$
+^./.<sent>$
+
+# sent_id = ley2009-9:116
+# text = Jachin kbʼanow kʼax chech uchʼakul, unoʼjibʼal, kuneq neʼ ri uchʼakul ri winaq xa rumal kurayij eqelenik rukʼ, ri bʼanal kʼax weneʼ ri winaq pa utukel, waʼ jun makaj pineʼ man kyaʼtaj ta kʼaxkʼolil, kqaj waʼ pa cheʼ jobʼ wene wajxaqibʼ junabʼ.
+# text[spa] = Quién con violencia física o sicológica, realice actos con fines sexuales o eróticos a otra persona, al agresor o a sí misma, siempre que no constituya delito de violación será sancionado con prisión de cinco a ocho años.
+# labels = incomplete
+^Jachin/jachin<prn><itg>$
+^kbʼanow/<impf><s_sg3>bʼanow<v><iv>/<impf><s_sg3>bʼan<v><tv><anti><agfoc>$
+^kʼax/kʼax<adj>/kʼax<n>$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^uchʼakul/*uchʼakul$
+^,/,<cm>$
+^unoʼjibʼal/<px3sg>noʼjibʼal<n>$
+^,/,<cm>$
+^kuneq/*kuneq$
+^neʼ/neʼ<n>$
+^ri/ri<det>/ri<prn><rel>$
+^uchʼakul/*uchʼakul$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^xa/xa<adv>/xa<n>$
+^rumal/<px3sg>umal<n><rel>$
+^kurayij/<impf><o_sg3><s_sg3>rayij<v><tv>$
+^eqelenik/*eqelenik$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^,/,<cm>$
+^ri/ri<det>/ri<prn><rel>$
+^bʼanal/bʼanal<n>$
+^kʼax/kʼax<adj>/kʼax<n>$
+^weneʼ/weneʼ<adv>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^pa/pa<pr>$
+^utukel/utukel<adj>/<px3sg>tukel<n><rel>$
+^,/,<cm>$
+^waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^makaj/makaj<n>/mak<n>$
+^pineʼ/*pineʼ$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kyaʼtaj/<impf><s_sg3>yaʼ<v><tv><pass><stat>$
+^ta/taj<neg>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^,/,<cm>$
+^kqaj/<impf><o_sg3><s_pl1>aj<v><tv>/<impf><s_sg3>qaj<v><iv>$
+^waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^pa/pa<pr>$
+^cheʼ/cheʼ<adj>/cheʼ<n>$
+^jobʼ/jobʼ<num>$
+^wene/weneʼ<adv>$
+^wajxaqibʼ/wajxaqibʼ<num>$
+^junabʼ/junabʼ<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:117
+# text = Makaj waʼ we majaʼ kajlajuj ujunabʼ ri winaq kuriq kʼaxkʼolil, wene xa man kutoʼ ta ribʼ, on man tzʼaqat ta unoʼjibʼal, pineʼ man kukʼulmaj ta kʼaxkʼolil ri uchʼakul on unoʼjibʼal.
+# text[spa] = Siempre se comete este delito cuando la víctima sea una persona menor de catorce años de edad o cuando sea una persona con incapacidad volitiva o cognitiva aún cuando no medie violencia física o psicológica.
+# labels = incomplete
+^Makaj/makaj<n>/mak<n>$
+^waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^majaʼ/majaʼ<adv>/<imp><neg><o_sg3><s_sg2>jaʼ<v><tv>$
+^kajlajuj/kajlajuj<num>$
+^ujunabʼ/<px3sg>junabʼ<n>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^kuriq/<impf><o_sg3><s_sg3>riq<v><tv>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^,/,<cm>$
+^wene/weneʼ<adv>$
+^xa/xa<adv>/xa<n>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kutoʼ/<impf><o_sg3><s_sg3>toʼ<v><tv>$
+^ta/taj<neg>$
+^ribʼ/<px3sg>ibʼ<n><rel>$
+^,/,<cm>$
+^on/on<cnjcoo>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
+^ta/taj<neg>$
+^unoʼjibʼal/<px3sg>noʼjibʼal<n>$
+^,/,<cm>$
+^pineʼ/*pineʼ$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kukʼulmaj/<impf><o_sg3><s_sg3>kʼulmaj<v><tv>$
+^ta/taj<neg>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^ri/ri<det>/ri<prn><rel>$
+^uchʼakul/*uchʼakul$
+^on/on<cnjcoo>$
+^unoʼjibʼal/<px3sg>noʼjibʼal<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:118
+# text = Ri tojbʼal makaj chi rij ri winaq ajmak, jalan chi uwach ri nikʼaj tojbʼal mak rech nikʼaj taq makaj chik.
+# text[spa] = La pena se impondrá sin perjuicio de las penas que puedan corresponder por la comisión de otros delitos.”
+# labels = incomplete
+^Ri/ri<det>/ri<prn><rel>$
+^tojbʼal/tojbʼal<n>$
+^makaj/makaj<n>/mak<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^rij/<px3sg>ij<n>/<px3sg>ij<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^ajmak/Ajmak<n>/ajmak<n>$
+^,/,<cm>$
+^jalan/<imp><mov><s_sg3>alan<v><iv>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
+^ri/ri<det>/ri<prn><rel>$
+^nikʼaj/nikʼaj<adj>/nikʼaj<n>$
+^tojbʼal/tojbʼal<n>$
+^mak/mak<n>$
+^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
+^nikʼaj/nikʼaj<adj>/nikʼaj<n>$
+^taq/taq<cnjsub>/taq<pl>$
+^makaj/makaj<n>/mak<n>$
+^chik/chik<adv>/chik<part>$
+^./.<sent>$
+
+# sent_id = ley2009-9:124
+# text = Jachin kreqelej jun winaq wene kutaq chi jun chik chech eqelenik chi kiwach akʼalabʼ wene chi kiwach ri winaq man tzʼaqat ta kinoʼjibʼal, kuqʼaxex oxibʼ on jobʼ junabʼ ri winaq pa cheʼ.”
+# text[spa] = Quien ejecute, o hiciere ejecutar a otra persona, actos sexuales frente a personas menores de edad o persona con incapacidad volitiva o cognitiva, será sancionado con pena de tres a cinco años de prisión.”
+# labels = incomplete
+^Jachin/jachin<prn><itg>$
+^kreqelej/*kreqelej$
+^jun/jun<adj>/jun<n>/jun<num>$
+^winaq/winaq<n>$
+^wene/weneʼ<adv>$
+^kutaq/<impf><o_sg3><s_sg3>taq<v><tv>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^chik/chik<adv>/chik<part>$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^eqelenik/*eqelenik$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^kiwach/<px3pl>wach<n>/<px3pl>wach<n><rel>/<px3pl>wäch<n>$
+^akʼalabʼ/akʼal<n><pl>$
+^wene/weneʼ<adv>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^kiwach/<px3pl>wach<n>/<px3pl>wach<n><rel>/<px3pl>wäch<n>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
+^ta/taj<neg>$
+^kinoʼjibʼal/<px3pl>noʼjibʼal<n>$
+^,/,<cm>$
+^kuqʼaxex/*kuqʼaxex$
+^oxibʼ/oxibʼ<num>$
+^on/on<cnjcoo>$
+^jobʼ/jobʼ<num>$
+^junabʼ/junabʼ<n>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^pa/pa<pr>$
+^cheʼ/cheʼ<adj>/cheʼ<n>$
+^./.<sent>$
+^”/”<rquot>$
+
+# sent_id = ley2009-9:136
+# text = Kqʼat kebʼ on kajibʼ junabʼ pa cheʼ chi rij ri winaq, jachin krelesaj ubʼixik, utzijoxik ri ukʼaslemal jun chi winaq are chiʼ kriqitaj wachibʼalil rukʼ ri bʼim kan pa le jun qʼataj.
+# text[spa] = Se impondrá prisión de dos a cuatro años a quien difunda, revele o ceda, a cualquier título, a terceros, los datos o hechos descubiertos o las imágenes captadas a que se refiere este artículo.”
+# labels = incomplete
+^Kqʼat/<impf><s_sg3>qʼat<v><tv><pass>/<px3pl>qʼat<n>$
+^kebʼ/kebʼ<num>$
+^on/on<cnjcoo>$
+^kajibʼ/kajibʼ<num>$
+^junabʼ/junabʼ<n>$
+^pa/pa<pr>$
+^cheʼ/cheʼ<adj>/cheʼ<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^rij/<px3sg>ij<n>/<px3sg>ij<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^,/,<cm>$
+^jachin/jachin<prn><itg>$
+^krelesaj/<impf><o_sg3><s_sg3>elesaj<v><tv>$
+^ubʼixik/<px3sg>bʼixik<n>/<s_sg3>bʼij<v><tv><pass><inf>/<s_sg3>bʼix<v><iv><inf>$
+^,/,<cm>$
+^utzijoxik/<px3sg>tzijoxik<n>/<s_sg3>tzijoj<v><tv><pass><inf>$
+^ri/ri<det>/ri<prn><rel>$
+^ukʼaslemal/<px3sg>kʼaslemal<n>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^winaq/winaq<n>$
+^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^chiʼ/chiʼ<adv>/chiʼ<cnjsub>/chiʼ<n>$
+^kriqitaj/<impf><s_sg3>riq<v><tv><pass><stat>$
+^wachibʼalil/*wachibʼalil$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^bʼim/bʼim<adj>$
+^kan/Kan<n>/kan<adv><dir>/kan<n>/<impf><s_sg3>an<v><iv>$
+^pa/pa<pr>$
+^le/le<det>/le<prn><rel>$
+^jun/jun<adj>/jun<n>/jun<num>$
+^qʼataj/qʼataj<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:160
+# text = Wene man kʼot qʼatbal tzij ktobʼan rukʼ ri akʼal, wene are chiʼ chʼoʼj rij ri kajawaxik rumal ri ajkʼax rukʼ ri utaʼqoʼn qʼatbʼal tzij.
+# text[spa] = En todo caso, velará por los derechos de la niñez víctima de acuerdo a su interés superior.
+# labels = incomplete
+^Wene/weneʼ<adv>$
+^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
+^kʼot/*kʼot$
+^qʼatbal/qʼatbʼal<adj>/qʼatbʼaʼl<n>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^ktobʼan/<impf><s_sg3>tobʼan<v><iv>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^akʼal/akʼal<adj>/akʼal<n>$
+^,/,<cm>$
+^wene/weneʼ<adv>$
+^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^chiʼ/chiʼ<adv>/chiʼ<cnjsub>/chiʼ<n>$
+^chʼoʼj/chʼoʼj<adj>/chʼoʼj<n>$
+^rij/<px3sg>ij<n>/<px3sg>ij<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^kajawaxik/*kajawaxik$
+^rumal/<px3sg>umal<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^ajkʼax/*ajkʼax$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^ri/ri<det>/ri<prn><rel>$
+^utaʼqoʼn/*utaʼqoʼn$
+^qʼatbʼal/qʼatbʼal<adj>/qʼatbʼaʼl<n>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:163
+# text = Ri winaq kubʼan we kʼaxkʼolil riʼ, kqʼat wajxaqibʼ wene wajxaqlajuj junabʼ chi rij pa cheʼ xuqujeʼ kutoj 300 mil kʼa pa 500 mil qʼuqʼ.
+# text[spa] = Quien cometa este delito será sancionado con prisión de ocho a dieciocho años y multa de trescientos mil a quinientos mil Quetzales.
+# labels = incomplete
+^Ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^kubʼan/<impf><o_sg3><s_sg3>bʼan<v><tv>$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^riʼ/riʼ<prn><dem>$
+^,/,<cm>$
+^kqʼat/<impf><s_sg3>qʼat<v><tv><pass>/<px3pl>qʼat<n>$
+^wajxaqibʼ/wajxaqibʼ<num>$
+^wene/weneʼ<adv>$
+^wajxaqlajuj/wajxaqlajuj<n>$
+^junabʼ/junabʼ<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^rij/<px3sg>ij<n>/<px3sg>ij<n><rel>$
+^pa/pa<pr>$
+^cheʼ/cheʼ<adj>/cheʼ<n>$
+^xuqujeʼ/xuqujeʼ<adv>/xuqujeʼ<cnjcoo>$
+^kutoj/<impf><o_sg3><s_sg3>toj<v><tv>$
+^300/300<num>$
+^mil/<imp><neg><s_sg3>il<v><tv><pass>$
+^kʼa/kʼa<adj>/kʼa<n>/kʼa<pr>/kʼä<adv>$
+^pa/pa<pr>$
+^500/500<num>$
+^mil/<imp><neg><s_sg3>il<v><tv><pass>$
+^qʼuqʼ/qʼuqʼ<n>$
+^./.<sent>$
+
+# sent_id = ley2009-9:164
+# text = We xa xokisax ukʼuʼx wene xa xtaqachiʼx pa ri kʼaxkʼolil ri winaq on ri kʼamal ubʼe chi uwach qʼatbʼal tzij, are qas kil we kuriq kʼaxkʼolil pa ri ukʼaslemal.
+# text[spa] = En ningún caso se tendrá en cuenta el consentimiento prestado por la víctima de trata de personas o por su representante legal.
+# labels = incomplete
+^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^xa/xa<adv>/xa<n>$
+^xokisax/<perf><s_sg3>okisaj<v><tv><pass>$
+^ukʼuʼx/<px3sg>kʼuʼx²<n>/<px3sg>kʼuʼx¹<n>$
+^wene/weneʼ<adv>$
+^xa/xa<adv>/xa<n>$
+^xtaqachiʼx/*xtaqachiʼx$
+^pa/pa<pr>$
+^ri/ri<det>/ri<prn><rel>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^ri/ri<det>/ri<prn><rel>$
+^winaq/winaq<n>$
+^on/on<cnjcoo>$
+^ri/ri<det>/ri<prn><rel>$
+^kʼamal/kʼamal<n>$
+^ubʼe/<px3sg>bʼe<n>$
+^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
+^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
+^qʼatbʼal/qʼatbʼal<adj>/qʼatbʼaʼl<n>$
+^tzij/tzij<adj>/tzij<adv>/tzij<n>$
+^,/,<cm>$
+^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
+^qas/qas<adj>$
+^kil/<impf><s_sg3>il<v><tv><pass>/<px3pl>il<n>$
+^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^kuriq/<impf><o_sg3><s_sg3>riq<v><tv>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
+^pa/pa<pr>$
+^ri/ri<det>/ri<prn><rel>$
+^ukʼaslemal/<px3sg>kʼaslemal<n>$
 ^./.<sent>$
 
 # sent_id = ley2009-9:199
