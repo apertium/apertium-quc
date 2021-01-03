@@ -104,3 +104,20 @@
 ^ralaxik/<px3sg>alaxik<n>$
 ^./.<sent>$
 
+# sent_id = ley2009-9:227
+# text = Ri pwaq rech we qʼataj riʼ kesax chech ri tojbʼal kʼayinem.
+# text[spa] = La fuente de financiamiento del presente artículo deberá provenir de los ingresos tributarios.
+# labels = incomplete
+^Ri/ri<det>$
+^pwaq/pwaq<n>$
+^rech/<px3sg>ech<n><rel>$
+^we/we<det>$
+^qʼataj/qʼataj<n>$
+^riʼ/riʼ<prn><dem>$
+^kesax/<impf><s_sg3>esaj<v><tv><pass>$
+^chech/chi<pr>+<px3sg>ech<n><rel>$
+^ri/ri<det>$
+^tojbʼal/tojbʼal<n>$
+^kʼayinem/kʼayij<v><tv><anti><inf>$
+^./.<sent>$
+

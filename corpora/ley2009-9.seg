@@ -63,3 +63,20 @@
 ^ralaxik/r>alaxik$
 ^./.$
 
+# sent_id = ley2009-9:227
+# text = Ri pwaq rech we qʼataj riʼ kesax chech ri tojbʼal kʼayinem.
+# text[spa] = La fuente de financiamiento del presente artículo deberá provenir de los ingresos tributarios.
+# labels = complete
+^Ri/Ri$
+^pwaq/pwaq$
+^rech/r>ech$
+^we/we$
+^qʼataj/qʼataj$
+^riʼ/riʼ$
+^kesax/k>e>sa>x$
+^chech/ch>ech$
+^ri/ri$
+^tojbʼal/tojbʼal$
+^kʼayinem/kʼayinem$
+^./.$
+

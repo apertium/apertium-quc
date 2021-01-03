@@ -68,3 +68,33 @@
 "<.>"
 	"." sent @punct #15->11
 
+# sent_id = ley2009-9:227
+# text = Ri pwaq rech we qʼataj riʼ kesax chech ri tojbʼal kʼayinem.
+# text[spa] = La fuente de financiamiento del presente artículo deberá provenir de los ingresos tributarios.
+# labels = complete
+"<Ri>"
+	"ri" det @det #1->2
+"<pwaq>"
+	"pwaq" n @nsubj #2->7
+"<rech>"
+	"ech" n rel px3sg @nmod #3->2
+"<we>"
+	"we" det @det #4->5
+"<qʼataj>"
+	"qʼataj" n @nmod #5->3
+"<riʼ>"
+	"riʼ" prn dem @det #6->5
+"<kesax>"
+	"esaj" v tv pass impf s_sg3 @root #7->0
+"<chech>"
+	"chi" pr @case #8->9
+		"ech" n rel px3sg @obl #9->7
+"<ri>"
+	"ri" det @det #10->11
+"<tojbʼal>"
+	"tojbʼal" n @nmod #11->9
+"<kʼayinem>"
+	"kʼayij" v tv anti inf @acl #12->11
+"<.>"
+	"." sent @punct #13->7
+
