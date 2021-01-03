@@ -670,6 +670,8 @@ la%<part%>%<frm%>:la # ; !
 alaq%<part%>%<frm%>:alaq # ; !
 are%<foc%>:are # ;
 
+sin%<part%>:sin # ; ! Affective 
+
 nakʼut%<adv%>:nakʼut # ; ! "pues"
 
 bʼaʼ%<mod%>:bʼaʼ # ; ! "pues"
@@ -973,6 +975,10 @@ ri%<det%>%+%<px3sg%>jolom%<n%>:r%>uʼ%>jolom # ; ! Src/CanPixabaj
 ri%<det%>%+tzʼiʼ%<n%>:r%>tzʼiʼ # ; ! Src/CanPixabaj
 ri%<det%>%+aʼchi%<n%>:r%>aʼchi # ; ! Src/CanPixabaj
 ri%<det%>%+%<px1pl%>sok%<n%>:r%>qa%>sok # ; ! Src/CanPixabaj
+
+! Contracciones de preposiciones y verbos no finitos
+@P.AGR.A@chi%<pr%>%+%<s_sg3%>:@P.AGR.A@ch%>%{r%}%> IV ;
+@P.AGR.A@chi%<pr%>%+%<s_sg3%>:@P.AGR.A@ch%>%{r%}%> TV ;
 
 LEXICON Relationals
 
@@ -6487,7 +6493,7 @@ bʼus:bus                            V-TV-R ; ! "fold"
 bʼätzʼij:bätzʼi                     V-TV-D ; ! "make thread"
 bʼan:ban                           V-TV-R ; ! "hacer; do"
 bʼan:bʼan                          V-TV-R ; ! "hacer; do"
-bʼan:bʼan                          V-TV-R ; ! "hacer; do"
+bʼan:ʼan                          V-TV-R ; ! "hacer; do" ! Src/CanPixabaj
 bʼisoj:bʼiso                       V-TV-D ; ! "extrañar; miss (someone)"
 chaʼ:chaʼ                          V-TV-R ; ! "elegir; choose" ! FIXME: check ! Src/Biblia
 chaʼ:cha                          V-TV-R ; ! "elegir; choose" ! FIXME: check ! Src/Biblia ! Use/Spell
@@ -7245,6 +7251,7 @@ yuchʼuj:yuchʼu                     V-TV-D ; ! "sew up, gather together"
 yuj:yu                             V-TV-D ; ! "empty (liquid from container)"
 yujaj:yuja                         V-TV-D ; ! "mix"
 yumej:yume                         V-TV-D ; ! "keep water in mouth"
+yupubʼa:yupubʼa                    V-TV-R   ; ! "blink"  ! Src/CanPixabaj
 yuq:yuq                            V-TV-R ; ! "stretch out (rubber)"
 yuqʼej:yuqʼe                       V-TV-D ; ! "lead"
 yuqʼuj:yuqʼu                       V-TV-D ; ! "tend (sheep)"
@@ -7343,6 +7350,7 @@ chaʼ:cha                          V-IV   ; ! "decir; say" ! FIXME: check ! Src/
 chajin:chajin                      V-IV   ; ! "guard"
 chajir:chajir                      V-IV   ; ! "burn to the ground to ashes (house"
 chakun:chakun                      V-IV   ; ! "work"
+chapon:chapon                      V-IV   ; ! "work" ! Src/CanPixabaj
 chakuy:chakuy                      V-IV   ; ! "support"
 chakʼakʼ:chakʼakʼ                  V-IV   ; ! "cause pricking sensation (wool"
 chakʼan:chakʼan                    V-IV   ; ! "cause pricking sensation (cut hairs in shirt collar)"
@@ -7909,6 +7917,7 @@ rubʼuw:rubuw                        V-IV   ; ! "ache"
 rupnaj:rupnaj                      V-IV   ; ! "swish"
 räxar:räxar                        V-IV   ; ! "bruise"
 sach:sach                          V-IV   ; ! "be lost"
+sachon:sachon                      V-IV   ; ! "forget" ! Src/CanPixabaj
 sakʼin:sakʼin                      V-IV   ; ! "break (rope)"
 sakʼlaj:sakʼlaj                    V-IV   ; ! "be diligent"
 salabʼ:salab                        V-IV   ; ! "moverse (tree branch in wind)"
