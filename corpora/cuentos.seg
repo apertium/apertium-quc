@@ -1877,7 +1877,7 @@
 # text = Jun tatoʼ tajin kchakunik pa nimalaj rulew are xuriq kajibʼ abʼaj xalqʼaʼt, xeʼukʼam bʼik cho rachoch, xubʼij che ri rixoqil, ralkʼwaʼl, uwimam.
 # text[spa'] = Un *tatoʼ trabaja en tierra grande encontró cuatro *abʼaj *xalqʼaʼt, *xeʼukʼam a casa, dijo a la esposa, *ralkʼwaʼl, *uwimam.
 # labels = incomplete
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^tatoʼ/*tatoʼ$
 ^tajin/tajin$
 ^kchakunik/k>chakun>ik/k>chaku>n>ik$
@@ -3265,15 +3265,6 @@
 ^Xoʼr/*Xoʼr$
 ^./.$
 
-# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:16
-# text = ʼʼʼXumaj - Xuchip*ʼʼʼ
-# text[spa'] = *ʼʼʼXumaj - *Xuchip**ʼʼʼ
-# labels = incomplete
-^ʼʼʼXumaj/*ʼʼʼXumaj$
-^-/-$
-^Xuchip/*Xuchip$
-^ʼʼʼ/*ʼʼʼ$
-
 # sent_id = cuentos:Mayb’al_k’olib’al.wiki:1
 # text = Majoq na ujunabʼ ri wikan Chaliʼy, kʼate ne lo waqibʼ ujunabʼ, are taq xtaq bʼi che ubʼanik utajkil utukel.
 # text[spa'] = *Majoq no el año del tío *Chaliʼy, hasta *ne aquí seis año, cuando se envió nombre a él forma mandado solo.
@@ -4126,7 +4117,7 @@
 # text = Jun ala kikʼow pa uwiʼ ri mesebʼal, we je kubʼano xwi alitom ri ralkʼwal we xkʼulik.
 # text[spa'] = Un niño *kikʼow encima él el *mesebʼal, si como hace *xwi muchacha el *ralkʼwal si se encontró .
 # labels = incomplete
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^ala/ala/al>a/a>la$
 ^kikʼow/*kikʼow$
 ^pa/pa$
@@ -4262,7 +4253,7 @@
 # text = Jun qʼij kanoq pa komon Xechpup uqʼabʼ tinamit Xoʼl Abʼaj.
 # text[spa'] = Un día en comunidad Xechpup de mano del pueblo Xoʼl Abʼaj.
 # labels = complete
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^qʼij/qʼij$
 ^kanoq/kan>oq$
 ^pa/pa$
@@ -4445,7 +4436,7 @@
 # text = Jun chik xubʼij: chaya kanoq rech kutzir ri uqʼabʼ.
 # text[spa'] = Un ya dijo: *chaya a él la mano se mejora .
 # labels = incomplete
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^chik/chik$
 ^xubʼij/*xubʼij$
 ^:/:$
@@ -4461,7 +4452,7 @@
 # text = Jun chik xubʼij: katzoqopij bʼik are xuqujeʼ karaj utz ukʼaslemal.
 # text[spa'] = Un ya dijo: liberas también quiere vida buena.
 # labels = incomplete
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^chik/chik$
 ^xubʼij/*xubʼij$
 ^:/:$
@@ -5629,7 +5620,7 @@
 # text = Jun achi ubʼi Kuʼ xusipaj kebʼ kʼaʼm ulew rech kabʼan ri tijobʼal, kamik, kʼo chik ajtij rech ri komon Xechpup.
 # text[spa'] = Un hombre el nombre de Kuʼ regaló dos cuerda tierra para inventa la escuela, ahora, hay ya maestro a él la comunidad Xechpup.
 # labels = incomplete
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^achi/achi$
 ^ubʼi/u>bʼi$
 ^Kuʼ/Kuʼ$
@@ -5742,7 +5733,7 @@
 # text = Jun xusipaj ri Juʼl Perez, sibʼalaj nim chikiwach ri winaqibʼ rech ri komon.
 # text[spa'] = Un regaló Juʼl Pérez, mucho grande a ellos las personas a la comunidad.
 # labels = incomplete
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^xusipaj/*xusipaj$
 ^ri/ri$
 ^Juʼl/Juʼl$
@@ -5901,7 +5892,7 @@
 # text = Jun uwiʼ umam ubʼiʼ Akel Bʼatzʼ xutaʼ chech: -watiʼt, jas urilixik ri kʼwaʼ.
 # text[spa'] = Un encima él abuelo nombre *Akel Mono pidió a él: -abuela, qué *urilixik el pozo.
 # labels = incomplete
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^uwiʼ/u>wiʼ$
 ^umam/u>mam$
 ^ubʼiʼ/u>bʼiʼ$
@@ -6967,10 +6958,10 @@
 # text = Jun Bʼatzʼ, Jun Chʼowen kibʼiʼ.
 # text[spa'] = Un Mono, Un *Chʼowen nombre.
 # labels = incomplete
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^Bʼatzʼ/*Bʼatzʼ$
 ^,/,$
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^Chʼowen/*Chʼowen$
 ^kibʼiʼ/ki>bʼiʼ$
 ^./.$
@@ -6989,11 +6980,11 @@
 ^alaxik/alaxik$
 ^,/,$
 ^kibʼiʼ/ki>bʼiʼ$
-^Jun/Jun/Jun$
+^Jun/Jun$
 ^Ajpu/Ajpu$
 ^rachiʼl/r>achiʼl$
-^Jun/Jun/Jun$
-^Jun/Jun/Jun$
+^Jun/Jun$
+^Jun/Jun$
 ^Ajpu/Ajpu$
 ^./.$
 
@@ -7068,16 +7059,16 @@
 
 # sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:3
 # text = Xopan jun qʼij xbʼe utukel pa tijobʼal xuriq apanoq jupuq tzʼiʼ pa ri bʼe.
-# text[spa'] =  Llegó un día fue solo en escuela encontró basura perro en la senda.
+# text[spa'] =  Llegó un día fue solo en escuela encontró camada de perro en la senda.
 # labels = incomplete
 ^Xopan/X>opan$
 ^jun/jun$
 ^qʼij/qʼij$
 ^xbʼe/x>bʼe$
-^utukel/utukel/u>tukel$
+^utukel/u>tukel$
 ^pa/pa$
 ^tijobʼal/tijobʼal$
-^xuriq/*xuriq$
+^xuriq/x>u>riq$
 ^apanoq/apan>oq$
 ^jupuq/jupuq$
 ^tzʼiʼ/tzʼiʼ$

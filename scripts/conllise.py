@@ -31,7 +31,7 @@ def get_tags_cg(line):
 	tags = []
 	for i in line.strip().split(' '):
 		if not i:
-			print('ERROR:', line, '|||', i, file=sys.stderr)
+			print('[get_tags_cg] ERROR:', line, '|||', i, file=sys.stderr)
 			return ''
 		if i[0] not in ['@', '"', '#']:
 			tags.append(i)
@@ -215,8 +215,8 @@ for depseg in sents_depseg:
 #	print(tokens)
 
 	if len(tokens) != len(segmentations):
-		print('ERROR:',tokens, file=sys.stderr)
-		print('ERROR:',segmentations, file=sys.stderr)
+		print('[tok_seg] ERROR:',tokens, file=sys.stderr)
+		print('[tok_seg] ERROR:',segmentations, file=sys.stderr)
 		continue
 
 	print(comments)

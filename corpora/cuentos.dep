@@ -1371,7 +1371,7 @@
 # text[spa'] = En una escuela bonita se enseña un niño, el nombre de Poʼx, le gusta a ellos en escuela todos los días.
 # labels = complete
 "<Pa>"
-	"pa" pr @case  #1->4
+	"pa" pr @case #1->4
 "<jun>"
 	"jun" num @nummod #2->4
 "<jeʼl>"
