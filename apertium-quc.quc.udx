@@ -18,10 +18,11 @@ _	_	m	_	_	_	Gender=Masc	_
 _	_	frm	_	_	_	Register=Formal	_
 _	_	fut	_	_	_	Tense=Fut	_
 _	_	imp	_	_	_	Mood=Imp	_
-_	_	impf	_	_	_	Aspect=Imp	_
+_	_	impf	_	_	_	Aspect=Imp|VerbForm=Fin	_
+_	_	inf	_	_	_	VerbForm=Inf	_
 _	_	anti	_	_	_	Voice=Anti	_
 _	_	pass	_	_	_	Voice=Pass	_
-_	_	perf	_	_	_	Aspect=Perf	_
+_	_	perf	_	_	_	Aspect=Perf|VerbForm=Fin	_
 _	_	itg	_	_	_	PronType=Int	_
 _	_	iv	_	_	_	Valency=1	_
 _	_	neg	_	_	_	Negative=Yes	_
@@ -69,6 +70,7 @@ _	prn	_	_	_	PRON	_	_
 _	mod	_	_	_	PART	_	_
 _	emph	_	_	_	PART	_	_
 _	n	_	_	_	NOUN	_	_
+_	clf	_	_	_	NOUN	_	_
 _	np	_	_	_	PROPN	_	_
 _	num	_	_	_	NUM	_	_
 _	adj	_	_	_	ADJ	_	_

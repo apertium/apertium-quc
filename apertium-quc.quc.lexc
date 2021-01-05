@@ -795,7 +795,7 @@ ka%<adv%>%<dir%>:ka # ;
 
 LEXICON Prepositions
 
-chi:chi Pr ;                       ! "ahora, otra vez, otro; now, again, other, another"
+chi:chi Pr ;                       ! "en" 
 pa:pa Pr ;                         ! "en, dentro, hacia, a, de, durante; in, into, toward, at, on, to, from, during"
 jachaʼ:jachaʼ Pr ;                 ! "like, as"
 jachaʼ:jacha Pr ;                 ! "like, as"
@@ -1117,7 +1117,8 @@ tataʼ:tataʼ N-ixoq ;               ! "a gentleman"
 iyom:iyom N-iyom ;                 ! "partera; midwife"
 
 alitom:alitom N-iyom ;             ! "señorita"
-alabʼom:alabʼom N-tinamit ;             ! "muchacho"
+!alabʼom:alabʼom N-tinamit ;             ! "muchacho"
+alabʼom:alabʼom N-iyom ;             ! "muchacho"
 alit:alit N-alit ;                 ! "señorita; young woman"
 alabʼ:alab N-alit ;                 ! "muchacho; man"
 
@@ -4190,6 +4191,7 @@ xaqʼabʼal:xaqʼabʼal N-tinamit ; ! "trampling"
 !xaqʼan qʼij:xaqʼan qʼij N-tinamit ; ! "winter solstice (sun ascends)"
 xaqʼeʼchaj:xaqʼeʼchaj N-tinamit ; ! "caterpillar that infests pines"
 xaqʼol:xaqʼol N-tinamit ; ! "mud (see also xoqʼol)"
+xaqʼol:xaqʼoʼl N-tinamit ; ! "mud (see also xoqʼol)" ! Src/Dico
 xaqibʼal:xaqibʼal N-tinamit ; ! "smudge"
 xar:xar N-tinamit ; ! "blue bird (urraca)"
 xarakʼ:xarakʼ N-tinamit ; ! "crumbs (of bread)"
@@ -4603,6 +4605,7 @@ kaqiqʼ:kaqiqʼ N-tinamit ; ! "viento; wind"
 mayibʼal:mayibʼal N-tinamit ; ! "milagro; miracle"
 qʼijil:qʼijil N-tinamit ; ! "gloria; glory"
 atzʼyaq:atzʼyaq N-tinamit ; ! "ropa; clothes"
+atzʼyaq:atzʼiyaq N-tinamit ; ! "ropa; clothes" ! Src/Dico
 kikʼel:kikʼel N-tinamit ; ! "sangre; blood"
 woqʼoch:woqʼoch N-chiʼ ; ! "ojo; eye"
 woqʼoch:woqʼochʼ N-chiʼ ; ! "ojo; eye" ! Use/Spell
@@ -6551,6 +6554,7 @@ chʼemij:chʼemi                     V-TV-D ; ! "break (pot)"
 chʼetetej:chʼetete                 V-TV-D ; ! "pour out something"
 chʼij:chʼij                        V-TV-R ; ! "endure"
 qʼiʼ:qʼiʼ                          V-TV-R ; ! "endure" ! Src/CanPixabaj
+qʼiʼ:qʼiy                          V-TV-R ; ! "endure" ! Src/Dico
 chʼik:chʼik                        V-TV-R ; ! "poke with a needle"
 chʼikimij:chʼikimi                 V-TV-D ; ! "push"
 chʼikimej:chʼikime                 V-TV-D ; ! "atropellar"
@@ -7250,6 +7254,7 @@ yuchʼuj:yuchʼu                     V-TV-D ; ! "criticize something"
 yuchʼuj:yuchʼu                     V-TV-D ; ! "sew up, gather together"
 yuj:yu                             V-TV-D ; ! "empty (liquid from container)"
 yujaj:yuja                         V-TV-D ; ! "mix"
+yujaj:yujaʼ                        V-TV-D ; ! "mix" ! Src/Dico
 yumej:yume                         V-TV-D ; ! "keep water in mouth"
 yupubʼa:yupubʼa                    V-TV-R   ; ! "blink"  ! Src/CanPixabaj
 yuq:yuq                            V-TV-R ; ! "stretch out (rubber)"
@@ -7803,6 +7808,7 @@ poqʼ:poqʼ                          V-IV   ; ! "explode (firecracker, bomb)"
 poqʼ:poqʼ                          V-IV   ; ! "grow in number"
 poqʼin:poqʼin                      V-IV   ; ! "pop"
 poqʼon:poqʼon                      V-IV   ; ! "multiply (people, animals)"
+poqʼon:poqʼan                      V-IV   ; ! "multiply (people, animals)" ! Src/Dico
 poqʼor:poqʼor                      V-IV   ; ! "multiply (fish)"
 poqʼow:poqʼow                      V-IV   ; ! "boil"
 poqʼowisax:poqʼowisax              V-IV   ; ! "be boiled"
