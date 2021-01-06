@@ -1320,7 +1320,8 @@ ajchaqʼim:ajchaqʼim N-tinamit ; ! "child who has or is going to have a baby br
 ajchar:ajchar N-tinamit ; ! "sifter (quadrangular)"
 ajcheʼ:ajcheʼ N-tinamit ; ! "matasano fruit"
 ajchikaj:ajchikaj N-tinamit ; ! "celestial"
-ajchiqʼij:ajchiqʼij N-tinamit ; ! "day laborer"
+ajchiqʼij:ajchiqʼij N-tinamit ; ! "day labourer"
+chiqʼij:chiqʼij N-tinamit ; ! "day labourer"
 ajchoqʼe:ajchoqʼe N-tinamit ; ! "owner"
 ajelbʼal:ajelbal N-tinamit ; ! "flutist"
 ajibʼal:ajibal N-tinamit ; ! "wants"
@@ -6503,6 +6504,7 @@ chaʼ:cha                          V-TV-R ; ! "elegir; choose" ! FIXME: check ! 
 chajij:chaji                       V-TV-D ; ! "cuidar; look after"
 chajij:chaji                       V-TV-D ; ! "take care of"
 chakuj:chaku                       V-TV-D ; ! "work something"
+chakuj:chuku                       V-TV-D ; ! "work something" ! Src/Dico
 chamarisaj:chamarisa               V-TV-D ; ! "fatten"
 chap:chap                          V-TV-R ; ! "grasp"
 chap:chap                          V-TV-R ; ! "take hold of"
@@ -7042,6 +7044,7 @@ tanij:tani                         V-TV-D ; ! "bounce"
 taq:taq                            V-TV-R ; ! ";send, command"
 taqalbʼej:taqalbe                   V-TV-D ; ! "have something happen by accident"
 taqchiʼj:taqchiʼ                   V-TV-D ; ! "tempt"
+taqchʼij:taqchʼi                   V-TV-D ; ! "force" !  Src/CanPixabaj
 taqej:taqe                         V-TV-D ; ! "continue doing something"
 tas:tas                            V-TV-R ; ! "separate"
 tatabʼej:tatabe                     V-TV-D ; ! "hearken"
@@ -7155,6 +7158,7 @@ tzʼujaj:tzʼuja                     V-TV-D ; ! "prevent rain from reaching crop
 tzʼumaj:tzʼuma                     V-TV-D ; ! "kiss"
 tzʼutuj:tzʼutu                     V-TV-D ; ! "anoint"
 tzʼuʼ:tzʼuʼ                        V-TV-R ; ! "chupar; suck"
+tzʼubʼ:tzʼubʼ                      V-TV-R   ; ! "suck" ! Src/Dico
 tʼarij:tʼari                       V-TV-D ; ! "poke with fingers (hard)"
 tʼin:tʼin                          V-TV-R ; ! "dip in thick liquid"
 tʼis:tʼis                          V-TV-R ; ! "mend"
