@@ -7060,6 +7060,7 @@ teqʼ:teqʼ                          V-TV-R ; ! "make a hole"
 teqʼuj:teqʼu                       V-TV-D ; ! "puncture"
 terembʼej:terembe                   V-TV-D ; ! "follow someone"
 terneʼbʼej:terneʼbʼe               V-TV-D ; ! "follow someone" ! Src/Biblia
+terneʼj:terneʼ                      V-TV-D ; ! "follow someone" ! Src/Dico
 terenej:terene                     V-TV-D ; ! "follow"
 tewichij:tewichi                   V-TV-D ; ! "bless"
 tewchiʼj:tewchiʼ                   V-TV-D ; ! "bendecir; bless"
@@ -7395,6 +7396,7 @@ choman:choman                      V-IV   ; ! "think (calculative"
 chomir:chomir                      V-IV   ; ! "become fat"
 chopin:chopin                      V-IV   ; ! "jump over"
 choqchot:choqchot                  V-IV   ; ! "be mischievous"
+choqchot:choqchat                  V-IV   ; ! "be mischievous" ! Src/Dico
 choqʼ:choqʼ                        V-IV   ; ! "draw blood"
 choqʼon:choqʼon                    V-IV   ; ! "prick with a needle"
 choʼl:choʼl                        V-IV   ; ! "be loose"
@@ -7940,7 +7942,8 @@ sach:sach                          V-IV   ; ! "be lost"
 sachon:sachon                      V-IV   ; ! "forget" ! Src/CanPixabaj
 sakʼin:sakʼin                      V-IV   ; ! "break (rope)"
 sakʼlaj:sakʼlaj                    V-IV   ; ! "be diligent"
-salabʼ:salab                        V-IV   ; ! "moverse (tree branch in wind)"
+salabʼ:salabʼ                        V-IV   ; ! "moverse (tree branch in wind)"
+salabʼ:silabʼ                        V-IV   ; ! "moverse (tree branch in wind)" ! Src/Dico
 sansat:sansat                      V-IV   ; ! "swell"
 saqarisan:saqarisan                V-IV   ; ! "wake up"
 saqbʼachin:saqbachin                V-IV   ; ! "hail"
