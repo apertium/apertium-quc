@@ -6922,6 +6922,7 @@ qitzʼ:qitzʼ                        V-TV-R ; ! "unite two things with string or
 qopij:qopi                         V-TV-D ; ! "cut (paper, cloth, rubber-- as with scissors--see also qupij)"
 quchʼuchʼej:quchʼuchʼe             V-TV-D ; ! "gnash (teeth)"
 qumuj:qumu                         V-TV-D ; ! "drink slowly (liquids other than water)"
+qumuj:qamu                         V-TV-D ; ! "drink slowly (liquids other than water)" ! Src/Dico 
 qupij:qupi                         V-TV-D ; ! "cut with scissors"
 qupuj:qupu                         V-TV-D ; ! "trim"
 qʼabʼaj:qʼaba                       V-TV-D ; ! "blame for something"
@@ -7525,6 +7526,7 @@ jukuk:jukuk                        V-IV   ; ! "go fast (bus)"
 juljut:juljut                      V-IV   ; ! "shine (metal)"
 juluw:juluw                        V-IV   ; ! "be glorious"
 juluw:juluw                        V-IV   ; ! "burn with pain"
+juluw:jaluw                        V-IV   ; ! "burn with pain" ! Src/Dico
 jumjut:jumjut                      V-IV   ; ! "walk with lightness of step"
 jumum:jumum                        V-IV   ; ! "run as fast as can"
 jumum:jumum                        V-IV   ; ! "sound of rain, earthquake, wind, fast-moving truck passing by"
