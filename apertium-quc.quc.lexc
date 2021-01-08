@@ -11,7 +11,6 @@ Multichar_Symbols
 %<aux%>              ! Auxiliar; Auxiliary
 %<prn%>              ! Pronombre; Pronoun
 %<clf%>              ! Clasificador; Classifier
-%<mark%>             ! Marcador; Marker
 %<barb%>             ! Barbarismo; Barbarism
 %<qst%>              ! Question marker
 %<dem%>              ! Demonstrative
@@ -169,12 +168,12 @@ Irregulares ;
 
 LEXICON OQ
 
-%+oq%<mark%>:%>oq     # ;
+%+oq%<aux%>:%>oq     # ;
                       # ;
 
 LEXICON IK
 
-%+ik%<mark%>:%>%{i%}k # ;
+%+ik%<aux%>:%>%{i%}k # ;
                       # ;
 
 LEXICON Procliticos
@@ -448,25 +447,25 @@ LEXICON NP-Ant-F
 
 LEXICON SS-OQ-A
 
-%+oq%<mark%>:%>oq             # ;
-%+a%<mark%>%<fin%>:%>a        # ;
+%+oq%<aux%>:%>oq             # ;
+%+a%<aux%>%<fin%>:%>a        # ;
 
 LEXICON SS-IK-Ø
 
-%+ik%<mark%>:%>%{i%}k         # ;
+%+ik%<aux%>:%>%{i%}k         # ;
 @R.SS@:@R.SS@                 # ; ! ---
 
 LEXICON SS-Vʼ-V
 ! On root transitives, this suffix has the form -Vʼ at the end of the
 ! intonational phrase (-uʼ and -oʼ in harmony with a preceding u or o
 ! and -aʼ in the other cases) and -V in other positions.
-%+uʼ%<mark%>:%>%{U%}ʼ         # ;
-%+uʼ%<mark%>%<fin%>:%>%{U%}   # ;
+%+uʼ%<aux%>:%>%{U%}ʼ         # ;
+%+uʼ%<aux%>%<fin%>:%>%{U%}   # ;
 
 LEXICON SS-OU-Ø
 ! this suffix is -u on root transitives when the root
 ! vowel is u and -o when the root vowel is not u.
-%+u%<mark%>:%>%{O%}           # ;
+%+u%<aux%>:%>%{O%}           # ;
 @R.SS@:@R.SS@                 # ; ! ---
 
 LEXICON SS-TV-R
@@ -660,7 +659,7 @@ si%<emph%>:si # ;
 
 maj%<part%>%<neg%>:maj  # ; ! "none; nothing"
 
-kʼo%<part%>%+ik%<mark%>:kʼol%>%{i%}k # ;
+kʼo%<part%>%+ik%<aux%>:kʼol%>%{i%}k # ;
 kʼo%<part%>:kʼo # ;
 e%<pl%>+kʼo%<part%>:ekʼo # ;
 tajin%<aux%>:tajin # ;  ! Use/Colloq
@@ -795,7 +794,7 @@ uk%<adv%>%<dir%>:uk OQ ;
 
 wi%<adv%>%<dir%>:wi # ;
 
-ka%<adv%>%<dir%>%+oq%<mark%>:koq # ;
+ka%<adv%>%<dir%>%+oq%<aux%>:koq # ;
 ka%<adv%>%<dir%>:ka # ;
 
 LEXICON Prepositions

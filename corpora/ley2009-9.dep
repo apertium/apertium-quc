@@ -282,7 +282,7 @@
 	"taj" neg @aux:neg #13->12
 "<kanoq>"
 	"kan" adv dir @advmod #14->12
-		"oq" mark @dep #15->14
+		"oq" aux @aux:ss #15->14
 "<xuqujeʼ>"
 	"xuqujeʼ" cnjcoo @cc #16->18
 "<man>"

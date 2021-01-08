@@ -191,7 +191,7 @@
 	"jun" num @nsubj #3->
 "<ktuqaʼrik>"
 	"tuqaʼr" v iv impf s_sg3 @csubj #4->
-		"ik" mark @dep #5->4
+		"ik" aux @aux:ss #5->4
 "<,>"
 	"," cm @punct #
 "<¿>"
@@ -298,7 +298,7 @@
 	"kʼisbʼal" n @obl #1->6
 "<kanoq>"
 	"kan" adv dir @advmod #2->6
-		"oq" mark @dep #3->2
+		"oq" aux @aux:ss #3->2
 "<,>"
 	"," cm @punct #4->6
 "<xoqujeʼ>"
@@ -514,7 +514,7 @@
 	"qibʼ" v iv impf s_pl3 @xcomp #18->16
 "<ukoq>"
 	"uk" adv dir @advmod #19->18
-		"oq" mark @dep #20->19
+		"oq" aux @aux:ss #20->19
 "<rukʼ>"
 	"ukʼ" n rel px3sg @obl #21->18
 "<,>"

@@ -10,7 +10,7 @@
 	"qʼayes" n @obl #3->1
 "<xoqʼik>"
 	"oqʼ" v iv perf s_sg3 @parataxis #4->1
-		"ik" mark @dep #5->4
+		"ik" aux @aux:ss #5->4
 "<.>"
 	"." sent @punct #6->1
 
@@ -49,7 +49,7 @@
 	"-" guio @punct #5->6
 "<sachaʼ>"
 	"sach" v tv imp o_sg3 s_sg2 @parataxis #6->1
-		"uʼ" mark @dep #7->6
+		"uʼ" aux @aux:ss #7->6
 "<la>"
 	"la" part frm @aux #8->6
 "<numak>"
@@ -114,17 +114,17 @@
 	"Tintin" np ant m @nsubj #3->4
 "<xbʼisonik>"
 	"bʼison" v iv perf s_sg3 @root #4->0
-		"ik" mark @dep #5->4
+		"ik" aux @aux:ss #5->4
 "<,>"
 	"," cm @punct #6->8
 "<te>"
 	"teʼ" adv @advmod #7->8
 "<xrilo>"
 	"il" v tv perf o_sg3 s_sg3 @parataxis #8->4
-		"u" mark @dep #9->8
+		"u" aux @aux:ss #9->8
 "<kropopik>"
 	"rapap" v iv impf s_sg3 @advcl #10->12
-		"ik" mark @dep #11->10
+		"ik" aux @aux:ss #11->10
 "<xpe>"
 	"pe" v iv perf s_sg3 @ccomp #12->8
 "<jun>"
@@ -151,7 +151,7 @@
 	"jas" prn itg @obj #6->7
 "<xabʼano>"
 	"bʼan" v tv perf o_sg3 s_sg2 @parataxis #7->1
-		"u" mark @dep #8->7
+		"u" aux @aux:ss #8->7
 "<Tintin>"
 	"Tintin" np ant m @vocative #9->7
 "<?>"
@@ -258,7 +258,7 @@
 	"taq" cnjsub @fixed #4->3
 "<kchaqʼajik>"
 	"chäqʼaj" v iv impf s_sg3 @advcl #5->7
-		"ik" mark @dep #6->5
+		"ik" aux @aux:ss #6->5
 "<taqal>"
 	"taqal" adj @parataxis #7->1
 "<chik>"
@@ -299,7 +299,7 @@
 		"ech" n rel px3sg @obl #12->13
 "<kixoqʼik>"
 	"oqʼ" v iv impf s_pl2 @parataxis #13->5
-		"ik" mark @dep #14->13
+		"ik" aux @aux:ss #14->13
 "<?>"
 	"?" sent @punct #15->1
 
@@ -379,7 +379,7 @@
 	"," cm @punct #7->8
 "<xkilo>"
 	"il" v tv perf o_sg3 s_pl3 @conj #8->1
-		"u" mark @dep #9->8
+		"u" aux @aux:ss #9->8
 "<chi>"
 	"chi" cnjsub @mark #10->13
 "<man>"
@@ -405,7 +405,7 @@
 	"jeʼl" adj @advmod #2->3
 "<xkilo>"
 	"il" v tv perf o_sg3 s_pl3 @root #3->0
-		"u" mark @dep #4->3
+		"u" aux @aux:ss #4->3
 "<xekitzoqopij>"
 	"tzoqopij" v tv perf o_pl3 s_pl3 @ccomp #5->3
 "<ri>"
@@ -431,7 +431,7 @@
 	"sibʼalaj" adv @advmod #4->5
 "<xewaʼik>"
 	"waʼ" v iv perf s_pl3 @root #5->0
-		"ik" mark @dep #6->5
+		"ik" aux @aux:ss #6->5
 "<cho>"
 	"chi" pr @case #7->8
 		"wach" n rel px3sg @obl #8->5
@@ -443,7 +443,7 @@
 	"," cm @punct #11->12
 "<xbʼantajik>"
 	"bʼan" v tv pass stat perf s_sg3 @parataxis #12->5
-		"ik" mark @dep #13->12
+		"ik" aux @aux:ss #13->12
 "<chi>"
 	"chi" cnjsub @mark #14->15
 "<xkikʼyaq>"
@@ -498,7 +498,7 @@
 	"chi" cnjsub @mark #11->12
 "<kakayik>"
 	"kaʼy" v iv impf s_sg3 @csubj #12->9
-		"ik" mark @dep #13->12
+		"ik" aux @aux:ss #13->12
 "<.>"
 	"." sent @punct #14->1
 
@@ -510,7 +510,7 @@
 	"kʼam" v tv impf o_sg3 s_pl3 @root #1->0
 "<bʼik>"
 	"bʼi" adv dir @advmod #2->1
-		"ik" mark @dep #3->1
+		"ik" aux @aux:ss #3->1
 "<nimaʼq>"
 	"nim" adj pl @amod #4->6
 "<taq>"
@@ -523,7 +523,7 @@
 	"chiʼ" adv @advmod #8->9
 "<kebʼek>"
 	"bʼe" v iv impf s_pl3 @conj #9->1
-		"ik" mark @dep #10->9
+		"ik" aux @aux:ss #10->9
 "<.>"
 	"." sent @punct #11->1
 
@@ -586,7 +586,7 @@
 	"we" cnjsub @mark #13->14
 "<kabʼanik>"
 	"bʼan" v tv pass impf s_sg3 @advcl #14->17
-		"ik" mark @dep #15->14
+		"ik" aux @aux:ss #15->14
 "<,>"
 	"," cm @punct #16->17
 "<kasikʼix>"
@@ -647,17 +647,17 @@
 	"jaʼ" n @nsubj #3->4
 "<kchojojik>"
 	"chojoj" v iv impf s_sg3 @root #4->0
-		"ik" mark @dep #5->4
+		"ik" aux @aux:ss #5->4
 "<,>"
 	"," cm @punct #6->7
 "<kchojojik>"
 	"chojoj" v iv impf s_sg3 @conj #7->4
-		"ik" mark @dep #8->7
+		"ik" aux @aux:ss #8->7
 "<,>"
 	"," cm @punct #9->10
 "<katatajik>"
 	"ta" v tv pass stat impf s_sg3 @parataxis #10->4
-		"ik" mark @dep #11->10
+		"ik" aux @aux:ss #11->10
 "<pa>"
 	"pa" pr @case #12->14
 "<ri>"
@@ -679,7 +679,7 @@
 	"kʼam" v tv pass impf s_pl3 @root #3->0
 "<bʼik>"
 	"bʼi" adv dir @advmod #4->3
-		"ik" mark @dep #5->4
+		"ik" aux @aux:ss #5->4
 "<pa>"
 	"pa" pr @case #6->7
 "<tuj>"
@@ -852,7 +852,7 @@
 	"joj" n @nsubj #2->3
 "<kabʼisonik>"
 	"bʼison" v iv impf s_sg3 @root #3->0
-		"ik" mark @dep #4->3
+		"ik" aux @aux:ss #4->3
 "<rumal>"
 	"umal" n rel px3sg @mark #5->10
 "<che>"
@@ -864,7 +864,7 @@
 	"chik" adv @advmod #9->10
 "<kutijo>"
 	"tij" v tv impf o_sg3 s_sg3 @advcl #10->3
-		"u" mark @dep #11->10
+		"u" aux @aux:ss #11->10
 "<.>"
 	"." sent @punct #12->3
 
@@ -912,7 +912,7 @@
 	"," cm @punct #6->7
 "<kariqatajik>"
 	"riq" v tv pass stat impf s_sg3 @parataxis #7->1
-		"ik" mark @dep #8->7
+		"ik" aux @aux:ss #8->7
 "<pa>"
 	"pa" pr @case #9->10
 "<tinamit>"
@@ -1132,7 +1132,7 @@
 	"we" cnjsub @mark #6->7
 "<katkamik>"
 	"käm" v iv impf s_sg2 @advcl #7->11
-		"ik" mark @dep #8->7
+		"ik" aux @aux:ss #8->7
 "<pa>"
 	"pa" pr @case #9->10
 "<jabʼ>"
@@ -1154,7 +1154,7 @@
 	"qʼij" n @root #2->0
 "<kanoq>"
 	"kan" adv dir @advmod #3->2
-		"oq" mark @dep #4->3
+		"oq" aux @aux:ss #4->3
 "<pa>"
 	"pa" pr @case #5->6
 "<komon>"
@@ -1200,7 +1200,7 @@
 	"kʼam" v tv perf o_sg3 s_pl3 @parataxis #11->4
 "<bʼik>"
 	"bʼi" adv dir @advmod #12->11
-		"ik" mark @dep #13->12
+		"ik" aux @aux:ss #13->12
 "<.>"
 	"." sent @punct #14->4
 
@@ -1410,14 +1410,14 @@
 	"Naʼ" np ant f @nsubj #3->4
 "<kakiʼkotik>"
 	"kikot" v iv impf s_sg3 @root #4->0
-		"ik" mark @dep #5->4
+		"ik" aux @aux:ss #5->4
 "<are>"
 	"are" adv @mark #6->8
 "<taq>"
 	"taq" cnjsub @fixed #7->6
 "<xrilo>"
 	"il" v tv perf o_sg3 s_sg3 @advcl #8->4
-		"u" mark @dep #9->8
+		"u" aux @aux:ss #9->8
 "<chi>"
 	"chi" pr @case #10->13
 "<le>"
@@ -1502,7 +1502,7 @@
 	"utz" adv @advmod #13->14
 "<kurilo>"
 	"il" v tv impf o_sg3 s_sg3 @parataxis #14->5
-		"u" mark @dep #15->14
+		"u" aux @aux:ss #15->14
 "<ke>"
 	"ech" n rel px3pl @obl #16->14
 "<pa>"
@@ -1939,7 +1939,7 @@
 	"tat" n px1pl @conj #11->10
 "<kakitiko>"
 	"tik" v tv impf o_sg3 s_pl3 @root #12->0
-		"u" mark @dep #13->12
+		"u" aux @aux:ss #13->12
 "<jeʼlalaj>"
 	"jeʼl" adj ints @amod #14->17
 "<taq>"
@@ -2085,7 +2085,7 @@
 	"riq" v tv perf o_sg3 s_sg3 @parataxis #8->4
 "<apanoq>"
 	"apan" adv dir @advmod #9->10
-		"oq" mark @dep #10->8
+		"oq" aux @aux:ss #10->8
 "<jupuq>"
 	"jupuq" n @obj #11->8
 "<tzʼiʼ>"
@@ -2113,7 +2113,7 @@
 	"aninäq" adv @advmod #4->5
 "<xukʼexo>"
 	"kʼex" v tv perf o_sg3 s_sg3 @root #5->0
-		"u" mark @dep #6->5
+		"u" aux @aux:ss #6->5
 "<ratzʼyaq>"
 	"atzʼyaq" n px3sg @obj #7->5
 "<ri>"

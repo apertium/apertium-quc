@@ -114,7 +114,7 @@
 # labels = tijonik-2 complete
 "<Xinsachik>"
 	"sach" v iv perf s_sg1 @root #1->0
-		"ik" mark @dep #2->1
+		"ik" aux @aux:ss #2->1
 "<.>"
 	"." sent @punct #3->1
 
@@ -124,7 +124,7 @@
 # labels = tijonik-2 complete
 "<Xinsachik>"
 	"sach" v iv perf s_sg1 @root #1->0
-		"ik" mark @dep #2->1
+		"ik" aux @aux:ss #2->1
 "<.>"
 	"." sent @punct #3->1
 
@@ -904,7 +904,7 @@
 # labels = tijonik-7 incomplete
 "<Kinkiʼkotik>"
 	"kikot" v iv impf s_sg1 @root
-		"ik" mark @dep
+		"ik" aux @aux:ss
 "<in>"
 	"in" prn pro p1 sg @aux
 "<kʼo>"
@@ -1333,7 +1333,7 @@
 	"," cm @punct #2->3
 "<kimbʼek>"
 	"bʼe" v iv impf s_sg1 @parataxis #3->1
-		"ik" mark @dep #4->3
+		"ik" aux @aux:ss #4->3
 "<.>"
 	"." sent @punct #5->1
 
@@ -1345,7 +1345,7 @@
 	"la" qst @discourse #1->2
 "<kixwarik>"
 	"war" v iv impf s_pl2 @root #2->0
-		"ik" mark @dep #3->2
+		"ik" aux @aux:ss #3->2
 "<?>"
 	"?" sent @punct #4->2
 
@@ -1492,7 +1492,7 @@
 	"," cm @punct #2->3
 "<xintzalijik>"
 	"tzalij" v iv perf s_sg1 @parataxis #3->1
-		"ik" mark @dep #4->3
+		"ik" aux @aux:ss #4->3
 "<.>"
 	"." sent @punct #5->1
 
@@ -1757,7 +1757,7 @@
 	"," cm @punct #2->3
 "<xinloqʼo>"
 	"loqʼ" v tv perf o_sg3 s_sg1 @parataxis #3->1
-		"u" mark @dep #4->2
+		"u" aux @aux:ss #4->2
 "<.>"
 	"." sent @punct #5->1
 
@@ -1784,7 +1784,7 @@
 	"jeʼ" ij @root #1->0
 "<xqabʼano>"
 	"bʼan" v tv perf o_sg3 s_pl1 @parataxis #2->1
-		"u" mark @dep #3->2
+		"u" aux @aux:ss #3->2
 "<.>"
 	"." sent @punct #4->1
 
@@ -1936,10 +1936,10 @@
 # labels = tijonik-16 complete
 "<Kinkowinik>"
 	"kowin" v iv impf s_sg1 @root #1->0
-		"ik" mark @dep #2->1
+		"ik" aux @aux:ss #2->1
 "<kimbʼek>"
 	"bʼe" v iv impf s_sg1 @xcomp #3->1
-		"ik" mark @dep #4->3
+		"ik" aux @aux:ss #4->3
 "<.>"
 	"." sent @punct #5->1
 
@@ -1949,10 +1949,10 @@
 # labels = tijonik-16 complete check-compl
 "<Xatkowinik>"
 	"kowin" v iv perf s_sg2 @root #1->0
-		"ik" mark @dep #2->1
+		"ik" aux @aux:ss #2->1
 "<xabʼano>"
 	"bʼan" v tv perf o_sg3 s_sg2 @xcomp #3->1
-		"u" mark @dep #4->3
+		"u" aux @aux:ss #4->3
 "<.>" 
 	"." sent @punct #5->1
 
@@ -1962,7 +1962,7 @@
 # labels = tijonik-16 complete
 "<Kinkowinik>"
 	"kowin" v iv impf s_sg1 @root #1->0
-		"ik" mark @dep #2->1
+		"ik" aux @aux:ss #2->1
 "<kinkʼam>"
 	"kʼam" v tv impf o_sg3 s_sg1 @xcomp #3->1
 "<bʼi>"
@@ -2014,7 +2014,7 @@
 	"aj" v tv perf o_sg3 s_sg2 @root #1->0
 "<xabʼano>"
 	"bʼan" v tv perf o_sg3 s_sg2 @ccomp #2->1
-		"u" mark @dep #3->2
+		"u" aux @aux:ss #3->2
 "<.>"
 	"." sent @punct #4->1
 
@@ -2544,7 +2544,7 @@
 	"umal" n rel px3sg @mark #7->8
 "<xinkosik>"
 	"kos" v iv perf s_sg1 @advcl #8->2
-		"ik" mark @dep #9->8
+		"ik" aux @aux:ss #9->8
 "<.>"
 	"." sent @punct #10->2
 
@@ -2554,7 +2554,7 @@
 # labels = tijonik-20 complete
 "<Xinkosik>"
 	"kos" v iv perf s_sg1 @root #1->0
-		"ik" mark @dep #2->1
+		"ik" aux @aux:ss #2->1
 "<,>"
 	"," cm @punct #3->7
 "<rumal>"
@@ -3229,7 +3229,7 @@
 	"ali" n @nsubj #2->3
 "<xkunatajik>"
 	"kunaj" v tv pass stat perf s_sg3 @root #3->0
-		"ik" mark @dep #4->3
+		"ik" aux @aux:ss #4->3
 "<.>"
 	"." sent @punct #5->3
 
@@ -3314,7 +3314,7 @@
 # labels = tijonik-32 complete
 "<Ketikonik>"
 	"tikoj" v tv anti impf s_pl3 @root #1->0
-		"ik" mark @dep #2->1
+		"ik" aux @aux:ss #2->1
 "<.>"
 	"." sent @punct #3->1
 
@@ -3397,7 +3397,7 @@
 # labels = tijonik-32 complete
 "<Kinqʼojomanik>"
 	"qʼojomaj" v tv anti impf s_sg1 @root #1->0
-		"ik" mark @dep #2->1
+		"ik" aux @aux:ss #2->1
 "<.>"
 	"." sent @punct #3->1
 
@@ -3420,7 +3420,7 @@
 # labels = tijonik-32 complete
 "<Katʼisoʼmanik>"
 	"tʼis" v tv anti impf s_sg3 @root #1->0
-		"ik" mark @dep #2->1
+		"ik" aux @aux:ss #2->1
 "<.>"
 	"." sent @punct #3->1
 
@@ -3524,7 +3524,7 @@
 	"in" prn pers p1 sg @nsubj:foc #1->2
 "<xatinchʼayo>"
 	"chʼay" v tv perf o_sg2 s_sg1 @root #2->0
-		"o" mark @dep #3->2
+		"o" aux @aux:ss #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -3555,7 +3555,7 @@
 	"achi" n @nsubj:foc #3->4
 "<xinchʼayowik>"
 	"chʼay" v tv anti agfoc perf s_sg1 @root #4->0
-		"ik" mark @dep #5->4
+		"ik" aux @aux:ss #5->4
 "<.>"
 	"." sent @punct #6->4
 
@@ -3600,7 +3600,7 @@
 	"tat" n px1sg @nsubj:foc #3->4
 "<kinloqʼonik>"
 	"loqʼoj" v tv anti agfoc impf s_sg1 @root #4->0
-		"ik" mark @dep #5->4
+		"ik" aux @aux:ss #5->4
 "<.>"
 	"." sent @punct #6->4
 
@@ -3651,7 +3651,7 @@
 	"lal" prn pers p2 frm sg @nsubj:foc #1->2
 "<xintoʼwik>"
 	"toʼ" v tv anti agfoc perf s_sg1 @root #2->0
-		"ik" mark @dep #3->2
+		"ik" aux @aux:ss #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -3761,7 +3761,7 @@
 	"we" prn rel @nsubj #4->5
 "<xinkunanik>"
 	"kunaj" v tv anti agfoc perf s_sg1 @acl:relcl #5->3
-		"ik" mark @dep #6->5
+		"ik" aux @aux:ss #6->5
 "<.>"
 	"." sent @punct #7->1
 
@@ -3846,7 +3846,7 @@
 		"ech" n rel px1sg @obl #8->4
 "<xkamik>"
 	"käm" v iv perf s_sg3 @root #9->0
-		"ik" mark @dep #10->9
+		"ik" aux @aux:ss #10->9
 "<.>"
 	"." sent @punct #11->9
 
@@ -3871,7 +3871,7 @@
 	"utz" adj @xcomp #8->9
 "<kinwilo>"
 	"il" v tv impf o_sg3 s_sg1 @root #9->0
-		"u" mark @dep #10->9
+		"u" aux @aux:ss #10->9
 "<.>"
 	"." sent @punct #11->9
 
@@ -4412,7 +4412,7 @@
 	"el" v iv perf s_sg3 @root #3->0
 "<bʼik>"
 	"bʼi" adv dir @advmod #4->3
-		"ik" mark @dep #5->3
+		"ik" aux @aux:ss #5->3
 "<.>"
 	"." sent @punct #6->3
 
@@ -4426,7 +4426,7 @@
 	"achij" n pl @nsubj #2->3
 "<xeʼqʼabʼaroq>"
 	"qʼabʼar" v iv perf s_pl3 abl @root #3->0
-		"oq" mark @dep #4->3
+		"oq" aux @aux:ss #4->3
 "<.>"
 	"." sent @punct #5->3
 
@@ -4438,7 +4438,7 @@
 	"chʼay" v tv pass perf s_pl1 @root #1->0
 "<bʼik>"
 	"bʼi" adv dir @advmod #2->1
-		"ik" mark @dep #3->1
+		"ik" aux @aux:ss #3->1
 "<.>"
 	"." sent @punct #4->1
 
@@ -4469,7 +4469,7 @@
 "<luʼbʼik>"
 	"la" part frm @aux:agr #4->3
 		"bʼi" adv dir @advmod #5->3
-			"ik" mark @dep #6->3
+			"ik" aux @aux:ss #6->3
 "<?>"
 	"?" sent @punct #7->3
 
@@ -4494,7 +4494,7 @@
 "<wuʼbʼik>"
 	"wi" adv dir @advmod #8->7
 		"bʼi" adv dir @advmod #9->7
-			"ik" mark @dep #10->7
+			"ik" aux @aux:ss #10->7
 "<?>"
 	"?" sent @punct #11->7
 
@@ -4608,7 +4608,7 @@
 	"xuliʼ" v tv pass perf s_sg1 @root #1->0
 "<qajoq>"
 	"qaj" adv dir @advmod #2->1
-		"oq" mark @dep #3->1
+		"oq" aux @aux:ss #3->1
 "<.>"
 	"." sent @punct #4->1
 
@@ -4850,7 +4850,7 @@
 	"we" cnjsub @mark #1->2
 "<chatchakunik>"
 	"chakun" v iv imp s_sg2 @advcl #2->5
-		"ik" mark @dep #3->2
+		"ik" aux @aux:ss #3->2
 "<,>"
 	"," cm @punct #4->2
 "<kʼo>"
@@ -4868,7 +4868,7 @@
 	"we" cnjsub @mark #1->2
 "<chatchakunik>"
 	"chakun" v iv imp s_sg2 @advcl #2->5
-		"ik" mark @dep #3->2
+		"ik" aux @aux:ss #3->2
 "<,>"
 	"," cm @punct #4->2
 "<kʼo>"
@@ -5069,7 +5069,7 @@
 	"aj" v tv perf o_sg3 s_pl2 @root #3->0
 "<xixbʼixanik>"
 	"bʼixaj" v tv anti perf s_pl2 @xcomp #4->3
-		"ik" mark @dep #5->4
+		"ik" aux @aux:ss #5->4
 "<par>"
 	"par" cnjcoo @cc #6->8
 "<na>"
@@ -5256,7 +5256,7 @@
 	"taj" neg @aux:neg
 "<xinawilo>"
 	"il" v tv perf o_sg1 s_sg2 @advcl
-		"u" mark @dep
+		"u" aux @aux:ss
 "<ma>"
 	"ma" neg @aux:neg
 "<ta>"
@@ -5331,7 +5331,7 @@
 	"laʼ" prn dem
 "<xabʼano>"
 	"bʼan" v tv perf o_sg3 s_sg2 @root
-		"u" mark @dep
+		"u" aux @aux:ss
 "<.>"
 	"." sent @punct
 
@@ -5351,7 +5351,7 @@
 	"aqʼabʼ" adv @advmod
 "<kabʼek>"
 	"bʼe" v iv impf s_sg3 @advcl
-		"ik" mark @dep
+		"ik" aux @aux:ss
 "<,>"
 	"," cm @punct
 "<maj>"
@@ -5505,7 +5505,7 @@
 	"xew" adv @advmod #2->3
 "<xayojo>"
 	"yoj" v tv perf o_sg3 s_sg2 @root #3->0
-		"u" mark @dep #4->3
+		"u" aux @aux:ss #4->3
 "<.>"
 	"." sent @punct #5->3
 
@@ -5563,7 +5563,7 @@
 	"onojel" n rel px1pl @nsubj
 "<kojbʼek>"
 	"bʼe" v iv impf s_pl1 @parataxis
-		"ik" mark @dep
+		"ik" aux @aux:ss
 "<.>"
 	"." sent @punct
 
@@ -5606,7 +5606,7 @@
 	"qajaw" n px1pl @nsubj #5->6
 "<kixtewechiʼnik>"
 	"tewechiʼj" v tv anti impf s_pl2 @root #6->0
-		"ik" mark @dep #7->6
+		"ik" aux @aux:ss #7->6
 "<.>"
 	"." sent @punct #8->6
 
