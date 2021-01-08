@@ -896,7 +896,7 @@
 "<nutijoxelabʼ>"
 	"tijoxel" n pl px1sg @vocative #5->1
 "<!>"
-	"!" text @punct #6->1
+	"!" sent @punct #6->1
 
 # sent_id = utexas:58
 # text = Kinkiʼkotik in kʼo iwukʼ.
@@ -4704,7 +4704,7 @@
 "<lej>"
 	"lej" n @obj #8->6
 "<.>"
-	"." text @punct #9->1
+	"." sent @punct #9->1
 
 # sent_id = utexas:251
 # text = In ajchʼajal chichʼ.

@@ -13,7 +13,7 @@
 "<nutijoxelabʼ>"
 	"tijoxel" n pl px1sg @vocative #5->1
 "<!>"
-	"!" text @punct #6->1
+	"!" sent @punct #6->1
 
 # sent_id = example:2
 # text = Rajawaxik kakʼaman chawe le utijik le lej.
@@ -35,7 +35,7 @@
 "<lej>"
 	"lej" n @obj #8->6
 "<.>"
-	"." text @punct #9->1
+	"." sent @punct #9->1
 
 # sent_id = example:3
 # text = Xuloqʼ ri wuj ri ali.
@@ -52,7 +52,7 @@
 "<ali>"
 	"ali" n @nsubj #5->1
 "<.>"
-	"." @punct #6->1
+	"." sent @punct #6->1
 
 # sent_id = example:4
 # text = Xuloqʼ ri wuj rumal ri ali.
@@ -71,5 +71,5 @@
 "<ali>"
 	"ali" n @nmod #6->4
 "<.>"
-	"." @punct #7->1
+	"." sent @punct #7->1
 
