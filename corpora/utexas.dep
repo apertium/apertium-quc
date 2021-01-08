@@ -930,7 +930,7 @@
 "<kʼo>"
 	"kʼo" part @root #6->0
 "<jun>"
-	"jun" num @nummod #7->8
+	"jun" det ind @det #7->8
 "<nutzijonem>"
 	"tzijonem" n px1sg @nsubj #8->6
 "<chirij>"
@@ -2067,7 +2067,7 @@
 "<Kʼo>"
 	"kʼo" part @root #1->0
 "<jun>" 
-	"jun" num @nummod #2->3
+	"jun" det ind @det #2->3
 "<xaʼr>"
 	"xaʼr" n @nsubj #3->1
 "<pa>"
@@ -2162,7 +2162,7 @@
 "<le>"
 	"le" det @det #2->4
 "<jun>"
-	"jun" num @nummod #3->4
+	"jun" det ind @det #3->4
 "<wokaj>"
 	"wokaj" n @obl #4->8
 "<ubʼiʼ>"
@@ -2286,7 +2286,7 @@
 "<Xaya>"
 	"yaʼ" v tv perf o_sg3 s_sg2 @root #1->0
 "<jun>"
-	"jun" num @nummod #2->3
+	"jun" det ind @det #2->3
 "<awuj>"
 	"wuj" n px2sg @obj #3->1
 "<chwech>"
@@ -2311,7 +2311,7 @@
 "<wi>"
 	"wi" adv dir @advmod #6->5
 "<jun>"
-	"jun" num @nummod #7->8
+	"jun" det ind @det #7->8
 "<qameqʼin>"
 	"qameqʼin" n @obj #8->5
 "<.>"
@@ -2744,7 +2744,7 @@
 "<Xinloqʼ>"
 	"loqʼ" v tv perf o_sg3 s_sg1 @root #1->0
 "<jun>"
-	"jun" num @nummod #2->3
+	"jun" det ind @det #2->3
 "<ilbʼal>"
 	"ilbʼal" n @obj #3->1
 "<wibʼ>"
@@ -2786,7 +2786,7 @@
 "<Kʼo>"
 	"kʼo" part @root #1->0
 "<jun>"
-	"jun" num @nummod #2->3
+	"jun" det ind @det #2->3
 "<qariqoj>"
 	"riqoj" n px1pl @nsubj #3->1
 "<qibʼ>"
@@ -3015,7 +3015,7 @@
 # text[spa] = Un perro muy grande
 # labels = tijonik-29 complete
 "<Jun>"
-	"jun" num @nummod #1->2
+	"jun" det ind @det #1->2
 "<nimalaj>"
 	"nim" adj ints @amod #2->3
 "<tzʼiʼ>"
@@ -4689,7 +4689,7 @@
 # text[spa] = Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41 complete check-nonfinite
 "<Rajawaxik>"
-	"rajawaxik" adj @root #1->0
+	"rajawaxik" n @root #1->0
 "<kakʼaman>"
 	"kʼaman" v iv impf s_sg3 @csubj #2->1
 "<chawe>"
@@ -5812,7 +5812,7 @@
 # text[spa] = Deberías de trabajar conmigo.
 # labels = tijonik-42 incomplete
 "<Rajawaxik>"
-	"rajawaxik" adj @root
+	"rajawaxik" n @root
 "<ta>"
 	"taj" neg @discourse
 "<ne>"

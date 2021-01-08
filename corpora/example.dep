@@ -5,7 +5,7 @@
 "<Kinya>"
 	"ya" v tv impf o_sg3 s_sg1 @root #1->0
 "<jun>"
-	"jun" num @nummod #2->3
+	"jun" det ind @det #2->3
 "<rutzil>"
 	"utzil" n px3sg @obj #3->1
 "<iwach>"
@@ -20,7 +20,7 @@
 # text[spa] =  Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41 complete check-nonfinite
 "<Rajawaxik>"
-	"rajawaxik" adj @root #1->0
+	"rajawaxik" n @root #1->0
 "<kakʼaman>"
 	"kʼaman" v iv impf s_sg3 @csubj #2->1
 "<chawe>"

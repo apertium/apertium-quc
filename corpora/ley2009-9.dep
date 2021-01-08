@@ -46,7 +46,7 @@
 "<chi>"
 	"chi" cnjsub @mark #5->6
 "<rajawaxik>"
-	"rajawaxik" adj @ccomp #6->4
+	"rajawaxik" n @ccomp #6->4
 "<kyaʼ>"
 	"yaʼ" v tv pass impf s_sg3 @csubj #7->6
 "<uqʼij>"
@@ -415,7 +415,7 @@
 "<,>"
 	"," cm
 "<rajawaxik>"
-	"rajawaxik" adj
+	"rajawaxik" n
 "<kkil>"
 	"il" v tv impf o_sg3 s_pl3
 "<we>"
@@ -522,7 +522,7 @@
 	"kʼax" adj
 	"kʼax" n
 "<rajawaxik>"
-	"rajawaxik" adj
+	"rajawaxik" n
 "<ketzalix>"
 	"tzalij" v tv pass impf s_pl3
 "<pa>"
@@ -907,7 +907,7 @@
 	"ri" det
 	"ri" prn rel
 "<rajawaxik>"
-	"rajawaxik" adj
+	"rajawaxik" n
 "<kuchajij>"
 	"chajij" v tv impf o_sg3 s_sg3
 "<:>"

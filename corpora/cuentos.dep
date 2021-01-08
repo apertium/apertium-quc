@@ -82,7 +82,7 @@
 # text[spa'] = Es necesario que los niños obedecen la palabra de sus madres, sus padres.
 # labels = complete
 "<Rajawaxik>"
-	"rajawaxik" adj @root #1->0
+	"rajawaxik" n @root #1->0
 "<ri>"
 	"ri" det @det #2->3
 "<akʼalabʼ>"
@@ -128,7 +128,7 @@
 "<xpe>"
 	"pe" v iv perf s_sg3 @ccomp #12->8
 "<jun>"
-	"jun" num @nummod #13->14
+	"jun" det ind @det #13->14
 "<palomax>"
 	"palomäx" n @nsubj #14->12
 "<.>"
@@ -278,7 +278,7 @@
 "<Xopan>"
 	"opan" v iv perf s_sg3 @root #1->0
 "<jun>"
-	"jun" num @nummod #2->3
+	"jun" det ind @det #2->3
 "<wonon>"
 	"wonon" n @nsubj #3->1
 "<,>"
@@ -696,7 +696,7 @@
 "<kabʼan>"
 	"bʼan" v tv impf o_sg3 s_sg2 @root #2->0
 "<jun>"
-	"jun" num @nummod #3->5
+	"jun" det ind @det #3->5
 "<komon>"
 	"komon" adj @amod #4->5
 "<waʼim>"
@@ -901,7 +901,7 @@
 "<Kʼo>"
 	"kʼo" part @root #1->0
 "<jun>"
-	"jun" num @nummod #2->3
+	"jun" det ind @det #2->3
 "<komon>"
 	"komon" n @nsubj #3->1
 "<ubʼi>"
@@ -937,7 +937,7 @@
 "<kʼo>"
 	"kʼo" part @ccomp #6->3
 "<jun>"
-	"jun" num @nummod #7->8
+	"jun" det ind @det #7->8
 "<bʼe>"
 	"bʼe" n @nsubj #8->3
 "<,>"
@@ -1149,7 +1149,7 @@
 # text[spa'] = Un día en comunidad Xechpup de mano del pueblo Xoʼl Abʼaj.
 # labels = complete
 "<Jun>"
-	"jun" num @nummod #1->2
+	"jun" det ind @det #1->2
 "<qʼij>"
 	"qʼij" n @root #2->0
 "<kanoq>"
@@ -1185,7 +1185,7 @@
 "<xkiraq>"
 	"riq" v tv perf o_sg3 s_pl3 @root #4->0
 "<jun>"
-	"jun" num @nummod #5->7
+	"jun" det ind @det #5->7
 "<alaj>"
 	"alaj" adj @amod #6->7
 "<imul>"
@@ -1330,7 +1330,7 @@
 "<:>"
 	":" sent @punct #6->7
 "<rajawaxik>"
-	"rajawaxik" adj @parataxis #7->3
+	"rajawaxik" n @parataxis #7->3
 "<keqachajij>"
 	"chajij" v tv impf o_pl3 s_pl1 @csubj #8->7
 "<ri>"
@@ -1448,7 +1448,7 @@
 # text[spa'] = Una madrugada está Naʼ en la casa.
 # labels = complete
 "<Jun>"
-	"jun" num @nummod #1->2
+	"jun" det ind @det #1->2
 "<aqʼabʼil>"
 	"aqʼäbʼil" n @obl #2->3
 "<kʼo>"
@@ -1477,7 +1477,7 @@
 "<Pa>"
 	"pa" pr @case #1->4
 "<jun>"
-	"jun" num @nummod #2->4
+	"jun" det ind @det #2->4
 "<jeʼl>"
 	"jeʼl" adj @amod #3->4
 "<tijobʼal>"
@@ -1487,7 +1487,7 @@
 "<ribʼ>"
 	"ibʼ" n rel px3sg @obj #6->5
 "<jun>"
-	"jun" num @nummod #7->8
+	"jun" det ind @det #7->8
 "<akʼal>"
 	"akʼal" n @nsubj #8->5
 "<,>"
@@ -1647,7 +1647,7 @@
 # text[spa'] = Un hombre de nombre Kuʼ regaló dos cuerdas de tierra para hacer la escuela, ahora, hay ya maestro a él la comunidad Xechpup.
 # labels = complete
 "<Jun>"
-	"jun" num @nummod #1->2
+	"jun" det ind @det #1->2
 "<achi>"
 	"achi" n @nsubj #2->5
 "<ubʼi>"
@@ -1790,7 +1790,7 @@
 "<chik>"
 	"chik" adv @advmod #2->1
 "<jun>"
-	"jun" num @nummod #3->4
+	"jun" det ind @det #3->4
 "<ja>"
 	"ja" n @nsubj #4->1
 "<rech>"
@@ -1964,7 +1964,7 @@
 "<chi>"
 	"chi" cnjsub @mark #4->5
 "<rajawaxik>"
-	"rajawaxik" adj @ccomp #5->3
+	"rajawaxik" n @ccomp #5->3
 "<man>"
 	"man" neg @aux:neg #6->7
 "<kuxej>"
@@ -2070,7 +2070,7 @@
 "<Xopan>"
 	"opan" v iv perf s_sg3 @root #1->0
 "<jun>"
-	"jun" num @nummod #2->3
+	"jun" det ind @det #2->3
 "<qʼij>"
 	"qʼij" n @nsubj #3->1
 "<xbʼe>"
@@ -2275,7 +2275,7 @@
 "<Pa>"
 	"pa" pr @case #1->3
 "<jun>"
-	"jun" num @nummod #2->3
+	"jun" det ind @det #2->3
 "<qʼij>"
 	"qʼij" n @obl #3->10
 "<riʼ>"

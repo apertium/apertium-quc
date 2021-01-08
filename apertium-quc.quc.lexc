@@ -262,6 +262,11 @@ LEXICON N-cholaj
 @R.Poss.None@%<n%>:@R.Poss.None@%>il # ;
 @D.Poss@%<n%>:@D.Poss@ # ;
 
+LEXICON N-rajawaxik
+
+@R.Poss.None@%<n%>:@R.Poss.None@ # ;
+
+
 
 LEXICON N-chak
 
@@ -1015,6 +1020,7 @@ LEXICON Determiners
 we%<det%>:we # ;                   ! "este; this"
 le%<det%>:le # ;                   ! "el; the"
 ri%<det%>:ri # ;                   ! "el; the"
+jun%<det%>%<ind%>:jun # ;                   ! "uno/una; a"
 !waʼ%<det%>:waʼ # ;                 ! "this"
 
 LEXICON Pronouns
@@ -4896,6 +4902,11 @@ qʼataj:qʼataj N-tinamit ; ! "artículo"
 chʼojinel:chʼojinel N-tinamit ; ! "guerrero"
 kʼaxqulaj:kʼaxqulaj N-tinamit ; ! "dolor de cabeza"
 
+rajawaxik:rajawaxik N-rajawaxik ;        ! "importante; important, necessary"
+rajawaxik:rajawixik N-rajawaxik ;        ! "important" ! Src/xelaorganica
+rajawaxik:rajawxik N-rajawaxik ;        ! "important" ! Src/Wiki
+rajawaxik:rajwaxik N-rajawaxik ;        ! "important" ! Src/ALMG
+
 LEXICON Propios
 Totonicap:Totonicap NP-Top ;
 Didyme:Didyme NP-Top ;
@@ -5506,10 +5517,6 @@ tzij:tzij A-saq ;                  ! "verdadero; true"
 mayabʼ:mayabʼ A-saq ;              ! "maya"
 
 kʼax:kʼax A-saq ;                  ! "difícil; difficult"
-rajawaxik:rajawaxik A-saq ;        ! "importante; important, necessary"
-rajawaxik:rajawixik A-saq ;        ! "important" ! Src/xelaorganica
-rajawaxik:rajawxik A-saq ;        ! "important" ! Src/Wiki
-rajawaxik:rajwaxik A-saq ;        ! "important" ! Src/ALMG
 sibʼ:sib A-saq ;                    ! "humado; smokey-colored"
 alaj:alaj A-saq ;                  ! "pequeño; small, little"
 chʼutiʼn:chʼutiʼn A-saq ;          ! "pequeño; "

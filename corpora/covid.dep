@@ -175,7 +175,7 @@
 "<laʼ>"
 	"laʼ" prn dem @ #4->6
 "<jun>"
-	"jun" num @nummod #5->6
+	"jun" det ind @det #5->6
 "<kunabʼal>"
 	"kunabʼal" n @nsubj #6->2
 "<che>"
