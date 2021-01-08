@@ -1043,7 +1043,7 @@
 
 # sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:2
 # text = Keriqitaj kebʼ kʼaybʼal jaʼ jun miqʼin, jun saqliʼ.
-# text[spa'] =  Se encuentran dos tiendas de agua un templado, un hirvido.
+# text[spa'] = Se encuentran dos tiendas de agua un templado, un hirvido.
 # labels = complete check-translation
 "<Keriqitaj>"
 	"riq" v tv pass stat impf s_pl3 @root #1->0
@@ -1636,7 +1636,7 @@
 "<Abʼaj>"
 	"Abʼaj" np top @flat #8->7
 "<rech>"
-	"ech" n rel px3sg @nmod  #9->7
+	"ech" n rel px3sg @nmod #9->7
 "<Qʼumarkaj>"
 	"Qʼumarkaj" np top @nmod #10->9
 "<.>"

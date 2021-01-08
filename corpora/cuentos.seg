@@ -547,7 +547,7 @@
 # text = Kʼo jumul, jun akʼal ubʼiʼ a Luʼ, ronojel qʼij keʼuyuqʼuj jukʼal uchij, naʼtam ktzalij uloq pa rachoch, kreyeʼj na, kenoj na ri uchij.
 # text[spa'] = Hay vez, un el nombre joven de Pedro, todo él día pastorea *jukʼal oveja, *naʼtam vuelve en casa, *kreyeʼj no, la oveja llenan .
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^jumul/jumul$
 ^,/,$
 ^jun/jun$
@@ -880,7 +880,7 @@
 # text = Kʼo jun qʼij xkʼulmataj cho jun ja, are taq xkʼoji jun alaj lol, sibʼalaj kakikotik, are xumajij rapinem xubʼan kebʼ ukʼux rumal che kʼo jun laj neʼ kachakanik cho le uwoja.
 # text[spa'] = Hay un día pasó a una casa, cuando habitó un grillo pequeño, mucho está feliz , comenzó que volar hizo dos alma porque hay un bebé pequeño *kachakanik a él el *uwoja.
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^jun/jun$
 ^qʼij/qʼij$
 ^xkʼulmataj/*xkʼulmataj$
@@ -2402,7 +2402,7 @@
 # text = Kʼo jun qʼij che utzukuxik le kumatz rech xojowem, xa rumal che ronojel junabʼ le ajxojlobʼ, kexojow cho Tyox rech le nimaqʼij.
 # text[spa'] = Hay un día a él la búsqueda de la serpiente para danzar, sólo porque todo él año el *ajxojlobʼ, danzan a Santo a la fiesta.
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^jun/jun$
 ^qʼij/qʼij$
 ^che/ch>e$
@@ -2583,7 +2583,7 @@
 # text = Kʼo jun mul jun par kawakat cho taq juyubʼ, kʼateʼ xrilo takʼal ri jun joj pa uwiʼ jun nim cheʼ, xuchʼabʼej xubʼij che: -tat joj, saʼj la wukʼ chujtzijonoq xa rumal che maj wachiʼl kinbʼisonik.
 # text[spa'] = Hay una vez un *par *kawakat a montes, hasta vio *takʼal un cuervo encima de un árbol grande, habló dijo a él: - cuervo, *saʼj conmigo hablemos sólo porque no amigo estoy triste .
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^jun/jun$
 ^mul/mul/m>ul$
 ^jun/jun$
@@ -3860,7 +3860,7 @@
 # text = Kʼo xuqujeʼ kechakun pa nim tinamit, e kʼo ajtijabʼ, e kʼo ajkunanelab.
 # text[spa'] = Hay también trabajan en tierra grande, hay maestros, hay curanderos.
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^xuqujeʼ/xuqujeʼ$
 ^kechakun/k>e>chakun$
 ^pa/pa$
@@ -4078,7 +4078,7 @@
 # text = Kʼo jujun kekikotik, kkijumij kanoq pa kiwiʼ ri kaminaqibʼ.
 # text[spa'] = Hay algún están feliz , *kkijumij encima de los muertos.
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^jujun/jujun$
 ^kekikotik/k>e>kikot>ik$
 ^,/,$
@@ -5133,7 +5133,7 @@
 # text = Kʼo jun mul jun imul xkʼistaj ukʼuʼx rumal che xaq tajin wi, xaq xuʼ cho taq uwach saq kpixkʼan wi, kʼo jun qʼij xuchomaj rumal che xril apan jun xik, sibʼalaj naj karapap chikaj.
 # text[spa'] = Hay una vez un conejo acabó alma porque sólo , sólo *xuʼ a él a él blanco salta , hay un día pensó porque vio un cernícalo, mucho lejos vuela en el cielo.
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^jun/jun$
 ^mul/mul/m>ul$
 ^jun/jun$
@@ -5542,7 +5542,7 @@
 # text = Kʼo chik kʼi ujunabʼ che tiktajnaq kanoq, nabʼe kikibʼij ri qatiʼt qamam kʼota tijobʼal, xuqujeʼ kʼot Tyox ja.
 # text[spa'] = Hay ya año mucho a él *tiktajnaq , primero dicen la abuela de abuelo *kʼota escuela, también *kʼot Santo casa.
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^chik/chik$
 ^kʼi/kʼi$
 ^ujunabʼ/u>junabʼ$
@@ -5753,7 +5753,7 @@
 # text = Kʼo chik jun ja rech kekunax ri yabʼ taq winaq.
 # text[spa'] = Hay ya una casa a él las personas enfermas están curado .
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^chik/chik$
 ^jun/jun$
 ^ja/ja$
@@ -6736,7 +6736,7 @@
 # text = Kʼo jun mul xukʼulmaj ri a Awel, are taq kawarik xaq kʼate xutaʼ kʼo jun tukur pa uwiʼ le rachoch, muq, muq, kachaʼ ri tukur, ri Awel xuxeʼj ribʼ, xukʼasuj ri utat, xubʼij che: - chatampeʼ, le jun chikop, muq, muq, kachaʼ.
 # text[spa'] = Hay una vez fomentó el *Awel, cuando duerme sólo hasta pidió hay un búho encima de la casa, *muq, *muq, elige el búho, el *Awel *xuxeʼj a él, *xukʼasuj el padre, dijo a él: - *chatampeʼ, un animal, *muq, *muq, elige .
 # labels = incomplete
-^Kʼo$
+^Kʼo/Kʼo$
 ^jun/jun$
 ^mul/mul/m>ul$
 ^xukʼulmaj/*xukʼulmaj$
