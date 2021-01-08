@@ -5516,7 +5516,7 @@
 # labels = incomplete
 ^Xa/Xa$
 ^rajawaxik/rajawaxik$
-^kqatoʼ/*kqatoʼ$
+^kqatoʼ/k>qa>toʼ$
 ^qibʼ/q>ibʼ$
 ^pa/pa$
 ^qakʼaslemal/qa>kʼaslemal$
@@ -5529,13 +5529,13 @@
 ^Ri/Ri$
 ^komon/komon$
 ^Xechpup/Xechpup$
-^rech/rech/r>ech$
-^uqʼabʼ/*uqʼabʼ$
+^rech/r>ech$
+^uqʼabʼ/u>qʼabʼ$
 ^tinamit/tinamit$
 ^Xoʼl/Xoʼl$
-^Abʼaj/*Abʼaj$
-^rech/rech/r>ech$
-^Qʼumarkaj/*Qʼumarkaj$
+^Abʼaj/Abʼaj$
+^rech/r>ech$
+^Qʼumarkaj/Qʼumarkaj$
 ^./.$
 
 # sent_id = cuentos:Ri_komon_Xechpup.wiki:2
@@ -5698,21 +5698,21 @@
 
 # sent_id = cuentos:Ri_komon_Xechpup.wiki:9
 # text = Ri alabʼom ri alitomabʼ tajin kikitijoj kibʼ rech sutaq, are kakaj kikibʼan nimaq achijabʼ chupam ri kikʼaslemal, xuquje kʼo chik jupuq bʼixonel chupam ri komon.
-# text[spa'] = El muchacho las muchachas están enseñando a ellos a cosas, quieren hacen hombres grandes adentro de la vida, también hay ya basura cantante adentro de la comunidad.
+# text[spa'] = El muchacho las muchachas están enseñando a ellos a cosas, quieren hacen hombres grandes adentro de la vida, también hay ya camada cantante adentro de la comunidad.
 # labels = incomplete
 ^Ri/Ri$
 ^alabʼom/alabʼom$
 ^ri/ri$
 ^alitomabʼ/alitom>abʼ$
 ^tajin/tajin$
-^kikitijoj/*kikitijoj$
+^kikitijoj/ki>ki>tijo>j$
 ^kibʼ/k>ibʼ$
-^rech/rech/r>ech$
+^rech/r>ech$
 ^sutaq/sutaq$
 ^,/,$
 ^are/are$
-^kakaj/*kakaj$
-^kikibʼan/*kikibʼan$
+^kakaj/ka>kaj$
+^kikibʼan/ki>ki>bʼan$
 ^nimaq/nim>aq$
 ^achijabʼ/achij>abʼ$
 ^chupam/ch>u>pam$
@@ -5723,7 +5723,7 @@
 ^kʼo/kʼo$
 ^chik/chik$
 ^jupuq/jupuq$
-^bʼixonel/*bʼixonel$
+^bʼixonel/bʼixonel$
 ^chupam/ch>u>pam$
 ^ri/ri$
 ^komon/komon$
@@ -5757,7 +5757,7 @@
 ^chik/chik$
 ^jun/jun$
 ^ja/ja$
-^rech/rech/r>ech$
+^rech/r>ech$
 ^kekunax/k>e>kunax$
 ^ri/ri$
 ^yabʼ/yabʼ$
@@ -5767,11 +5767,11 @@
 
 # sent_id = cuentos:Ri_komon_Xechpup.wiki:12
 # text = Nim chak xbʼan chiʼ rumal sibʼalaj kabʼe kikʼuʼx che rutzilal le komon.
-# text[spa'] = trabajo Grande masticó aquí por él mucho va alma a la paz de la comunidad.
+# text[spa'] = Se hizo aquí un gran trabajo por mucho su alma va a la paz de la comunidad.
 # labels = incomplete
 ^Nim/Nim$
 ^chak/chak$
-^xbʼan/*xbʼan$
+^xbʼan/x>bʼan$
 ^chiʼ/chiʼ$
 ^rumal/r>umal$
 ^sibʼalaj/sibʼalaj$
@@ -6057,7 +6057,7 @@
 ^konojel/k>onojel$
 ^ri/ri$
 ^winaq/winaq$
-^kkiqumuj/*kkiqumuj$
+^kkiqumuj/k>ki>qumu>j$
 ^le/le$
 ^jaʼ/jaʼ$
 ^./.$

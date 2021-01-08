@@ -1615,6 +1615,33 @@
 "<.>"
 	"." sent @punct #5->1
 
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:1
+# text = Ri komon Xechpup rech uqʼabʼ tinamit Xoʼl Abʼaj rech Qʼumarkaj.
+# text[spa'] = La comunidad Xechpup está de dominio de tierra Xoʼl Abʼaj de Qʼumarkaj.
+# labels = complete check-attachment
+"<Ri>"
+	"ri" det @det #1->2
+"<komon>"
+	"komon" n @nsubj #2->4
+"<Xechpup>"
+	"Xechpup" np top @appos #3->4
+"<rech>"
+	"ech" n rel px3sg @root #4->0
+"<uqʼabʼ>"
+	"qʼabʼ" n px3sg @nmod #5->4
+"<tinamit>"
+	"tinamit" n @nmod #6->5
+"<Xoʼl>"
+	"Xoʼl" np top @appos #7->6
+"<Abʼaj>"
+	"Abʼaj" np top @flat #8->7
+"<rech>"
+	"ech" n rel px3sg @nmod  #9->7
+"<Qʼumarkaj>"
+	"Qʼumarkaj" np top @nmod #10->9
+"<.>"
+	"." sent @punct #11->4
+
 # sent_id = cuentos:Ri_komon_Xechpup.wiki:5
 # text = Jun achi ubʼi Kuʼ xusipaj kebʼ kʼaʼm ulew rech kabʼan ri tijobʼal, kamik, kʼo chik ajtij rech ri komon Xechpup.
 # text[spa'] = Un hombre de nombre Kuʼ regaló dos cuerdas de tierra para hacer la escuela, ahora, hay ya maestro a él la comunidad Xechpup.
@@ -1691,6 +1718,128 @@
 "<.>"
 	"." sent @punct #10->6
 
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:9
+# text = Ri alabʼom ri alitomabʼ tajin kikitijoj kibʼ rech sutaq, are kakaj kikibʼan nimaq achijabʼ chupam ri kikʼaslemal, xuquje kʼo chik jupuq bʼixonel chupam ri komon.
+# text[spa'] = Los muchachos y las muchachas se están enseñando cosas, quieren hacen hombres grandes en la vida, también hay ya camadas de cantantes en la comunidad.
+# labels = incomplete check-advmod
+"<Ri>"
+	"ri" det @det #1->2
+"<alabʼom>"
+	"alabʼom" n @nsubj #2->6
+"<ri>"
+	"ri" det @det #3->4
+"<alitomabʼ>"
+	"alitom" n pl @conj #4->2
+"<tajin>"
+	"tajin" aux @aux #5->6
+"<kikitijoj>"
+	"tijoj" v tv impf o_sg3 s_pl3 @root #6->0
+"<kibʼ>"
+	"ibʼ" n rel px3pl @obj #7->6
+"<rech>"
+	"ech" n rel px3sg @obl #8->6
+"<sutaq>"
+	"sutaq" n @nmod #9->8
+"<,>"
+	"," cm @punct #10->12
+"<are>"
+	"are" adv @advmod #11->12
+"<kakaj>"
+	"aj" v tv impf o_sg3 s_pl3 @parataxis #12->6
+"<kikibʼan>"
+	"bʼan" v tv impf o_sg3 s_pl3 @ccomp #13->12
+"<nimaq>"
+	"nim" adj attr pl @amod #14->15
+"<achijabʼ>"
+	"achij" n pl @obj #15->13
+"<chupam>"
+	"chi" pr @case #16->17
+		"pam" n rel px3sg @obl #17->13
+"<ri>"
+	"ri" det @det #18->19
+"<kikʼaslemal>"
+	"kʼaslemal" n px3pl @obl #19->13
+"<,>"
+	"," cm @punct #20->22
+"<xuquje>"
+	"xuquje" adv @advmod #21->22
+"<kʼo>"
+	"kʼo" part @parataxis #22->12
+"<chik>"
+	"chik" adv @advmod #23->22
+"<jupuq>"
+	"jupuq" n @nsubj #24->22
+"<bʼixonel>"
+	"bʼixonel" n @nmod #25->24
+"<chupam>"
+	"chi" pr @case #26->27
+		"pam" n rel px3sg @obl #27->22
+"<ri>"
+	"ri" det @det #28->29
+"<komon>"
+	"komon" n @nmod #29->27
+"<.>"
+	"." sent @punct #30->6
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:11
+# text = Kʼo chik jun ja rech kekunax ri yabʼ taq winaq.
+# text[spa'] = Hay ya una casa a él las personas enfermas están curado .
+# labels = complete check-translation check-attachment
+"<Kʼo>"
+	"kʼo" part @root #1->0
+"<chik>"
+	"chik" adv @advmod #2->1
+"<jun>"
+	"jun" num @nummod #3->4
+"<ja>"
+	"ja" n @nsubj #4->1
+"<rech>"
+	"ech" n rel px3sg @nmod #5->4
+"<kekunax>"
+	"kunaj" v tv pass impf s_pl3 @acl #6->5
+"<ri>"
+	"ri" det @det #7->10
+"<yabʼ>"
+	"yabʼ" adj @amod #8->10
+"<taq>"
+	"taq" pl @det #9->10
+"<winaq>"
+	"winaq" n @nsubj #10->6
+"<.>"
+	"." sent @punct #11->1
+
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:12
+# text = Nim chak xbʼan chiʼ rumal sibʼalaj kabʼe kikʼuʼx che rutzilal le komon.
+# text[spa'] = Se hizo aquí un gran trabajo por mucho su alma va a la paz de la comunidad.
+# labels = incomplete
+"<Nim>"
+	"nim" adj @amod #1->2
+"<chak>"
+	"chak" n @nsubj #2->3
+"<xbʼan>"
+	"bʼan" v tv pass perf s_sg3 @root #3->0
+"<chiʼ>"
+	"chiʼ" adv @advmod #4->3
+"<rumal>"
+	"umal" n rel px3sg @obl #5->3
+"<sibʼalaj>"
+	"sibʼalaj" adv @advmod #6->7
+"<kabʼe>"
+	"bʼe" v iv impf s_sg3 @acl #7->5
+"<kikʼuʼx>"
+	"kʼuʼx¹" n px3pl @nsubj #8->7
+"<che>"
+	"chi" pr @case #9->10
+		"ech" n rel px3sg @obl #10->7
+"<rutzilal>"
+	"utzilal" n px3sg @nmod #11->10
+"<le>"
+	"le" det @det #12->13
+"<komon>"
+	"komon" n @nmod #13->11
+"<.>"
+	"." sent @punct #14->3
+
 # sent_id = cuentos:Ri_komon_Xechpup.wiki:13
 # text = Pa ri komon areʼ ekʼi winaqibʼ kichʼaw pa chʼabʼal kʼicheʼ, xuquje ekʼo le mosibʼ kichʼaw pa kaxlan tzij.
 # text[spa'] = En la comunidad muchas personas hablan en idioma quiché, también hay el *mosibʼ que hablan en lengua extranjera.
@@ -1736,6 +1885,31 @@
 	"tzij" n @obl #20->17
 "<.>"
 	"." sent @punct #21->7
+
+# sent_id = cuentos:Ri_k’wa’.wiki:10
+# text = Xa rumal ketaʼm konojel ri winaq kkiqumuj le jaʼ. 
+# text[spa'] = Sólo por eso lo supieron todas las personas que beben el agua. 
+# labels = complete check-translation
+"<Xa>"
+	"xa" adv @advmod #1->3
+"<rumal>"
+	"umal" n rel px3sg @obl #3->4
+"<ketaʼm>"
+	"etaʼm" v tv perf o_sg3 s_pl3 @root #4->0
+"<konojel>"
+	"onojel" n rel px3pl @nsubj #5->4
+"<ri>"
+	"ri" det @det #6->7
+"<winaq>"
+	"winaq" n @nmod #7->5
+"<kkiqumuj>"
+	"qumuj" v tv impf o_sg3 s_pl3 @acl #8->7
+"<le>"
+	"le" det @det #9->10
+"<jaʼ>"
+	"jaʼ" n @obj #10->8
+"<.>"
+	"." sent @punct #11->4
 
 # sent_id = cuentos:Ri_tiko'n_ichaj.wiki:1
 # text = Jelaʼ pa ri timinit Chwikabyok rech Xelajuʼ, le qanan qatat kakitiko jeʼlalaj taq uwach ichaj.
