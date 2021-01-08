@@ -4629,6 +4629,7 @@ qʼequʼmal:qʼequʼmal N-tinamit ; ! "oscuridad; darkness"
 
 yawabʼ:yawabʼ N-ixoq ; ! "enfermo; "
 alkʼuwaʼl:alkʼuwaʼl N-tinamit ; ! "hijo, hija; "
+alkʼuwaʼl:alkʼwaʼl N-tinamit ; ! "hijo, hija; " ! Src/Dico
 alkʼuwaʼlaxel:alkʼuwaʼlaxel N-iyom ; ! "hijo, hija; " ! Src/Biblia
 alkʼuwaʼlaxel:alkʼuwaʼlxel N-iyom ; ! "hijo, hija; " ! Src/Biblia
 awalkʼwal:awalkʼwal N-iyom ; ! ""
@@ -4720,6 +4721,7 @@ kʼojolil:kʼojolil N-tinamit ; ! "juventud (del hombre); uqʼapojil"
 kʼolbʼal:kʼolbʼal N-tinamit ; ! "lugar"
 kʼuleʼlaxik:kʼuleʼlaxik N-tinamit ; ! "ser contradicho"
 kʼulja:kʼulja N-tinamit ; ! "vecino"
+kʼulbʼaʼt:kʼulbʼaʼt N-tinamit ; ! "vecino"
 loqʼobʼal:loqʼobʼal N-tinamit ; ! "amor"
 majibʼal:majibʼal N-tinamit ; ! "principio"
 mebʼil:mebʼil N-tinamit ; ! "riqueza"
@@ -7038,6 +7040,7 @@ subʼuj:subu                         V-TV-D ; ! "deceive"
 sukʼubʼij:sukʼubi                   V-TV-D ; ! "complete (a term in office"
 sukʼumaj:sukʼuma                   V-TV-D ; ! "straighten, repair, prepare"
 sukʼubʼa:sukʼubʼa                  V-TV-R ; ! "repair; arreglar"
+sukʼubʼaj:sukbʼa                    V-TV-D ; ! "repair; arreglar" ! Src/Dico
 suq:suq                            V-TV-R ; ! "tie loosely"
 sutij:suti                         V-TV-D ; ! "spin, rotate"
 sübʼaj:süba                         V-TV-D ; ! "wrap tamales"
@@ -8563,3 +8566,4 @@ LEXICON Digits
 
 <[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ;
 <[ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+ [ %, | %. ] [ %0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]+> NUM ;
+
