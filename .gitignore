@@ -105,3 +105,12 @@ venv.bak/
 
 # hfst
 *.hfst
+*.hfstol
+*.att.gz
+*.bin
+
+configure
+*.in
+*.pc
+*.m4
+*.am
