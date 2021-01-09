@@ -215,8 +215,8 @@ for depseg in sents_depseg:
 #	print(tokens)
 
 	if len(tokens) != len(segmentations):
-		print('[tok_seg] ERROR:',tokens, file=sys.stderr)
-		print('[tok_seg] ERROR:',segmentations, file=sys.stderr)
+		print('[tok_seg]',comments.split('\n')[0],'ERROR:',tokens, file=sys.stderr)
+		print('[tok_seg]',comments.split('\n')[0],'ERROR:',segmentations, file=sys.stderr)
 		continue
 
 	print(comments)

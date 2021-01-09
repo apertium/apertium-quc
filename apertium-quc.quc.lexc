@@ -3463,6 +3463,7 @@ rawnax:rawnax N-tinamit ; ! "turnip"
 !räx noʼs:räx noʼs N-tinamit ; ! "pavo real (peacock)"
 !räx qʼor:räx qʼor N-tinamit ; ! "corn dough drink"
 !räx tew:räx tew N-tinamit ; ! "malaria"
+räxtew:räxtew N-tinamit ; ! "malaria" ! Src/Dico
 räxkiaqʼabʼ:räxkiaqʼabʼ N-tinamit ; ! "rainbow"
 raxmaqalik:raxmaqalik N-tinamit ; ! "wet"
 räxqʼabʼ:räxqʼabʼ N-tinamit ; ! "night dew (seen as unhealthy)"
@@ -5513,6 +5514,186 @@ Patmos:Patmos NP-Top ;
 Samotrasiʼa:Samotrasiʼa NP-Top ; 
 
 
+Abʼaj:Abʼaj NP-Top  ;
+Ajkuʼn:Ajkuʼn NP-Top  ;
+Ajpop:Ajpop NP-Cog ;
+Ajpu:Ajpu NP-Ant-M ;
+Ajpu:Ajpu NP-Ant-M  ;
+Ajtzʼalam:Ajtzʼalam NP-Cog  ;
+Ajuʼ:Ajuʼ NP-Cog  ;
+Alame:Alame NP-Ant-F ;
+Alkʼul:Alkʼul NP-Ant-F  ;
+Amaqʼ:Amaqʼ NP-Al ;
+Armita:Armita NP-Top  ;
+Atitlán:Atitlán NP-Top ;
+Austin:Austin NP-Top  ;
+!Awel:Awel NP-Ant-Mf  ;
+Buenabaj:Buenabaj NP-Top  ;
+Bʼokoʼ:Bʼokoʼ NP-Top ;
+Chaliʼy:Chaliʼy NP-Ant-M  ;
+Chana:Chana NP-Ant-F  ;
+Chan:Chan NP-Cog ;
+Cheʼp:Cheʼp NP-Ant-F ;
+Chi:Chi NP-Top  ;
+Chikabʼraqan:Chikabʼraqan NP-Top  ;
+Choʼn:Choʼn NP-Ant-F ;
+Chun:Chun NP-Cog ;
+Chuta:Chuta NP-Cog ;
+Chwikabʼyok:Chwikabʼyok NP-Top  ;
+Chwitziribʼal:Chwitziribʼal NP-Top  ;
+Chwitzʼaq:Chwitzʼaq NP-Top  ;
+COVID-19:COVID-19 NP-Al  ;
+Efeso:Efeso NP-Top  ;
+Galileʼa:Galileʼa NP-Top  ;
+Ixchel:Ixchel NP-Ant-F  ;
+Ixchobʼ:Ixchobʼ NP-Cog  ;
+Ixtzamnaʼ:Ixtzamnaʼ NP-Ant-M ;
+Jesus:Jesus NP-Ant-M  ;
+Jordan:Jordan NP-Top  ;
+Junamil:Junamil NP-Al ;
+Jun:Jun NP-Ant-M ;
+Jun:Jun NP-Ant-M  ;
+Juʼl:Juʼl NP-Ant-F ;
+Juʼl:Juʼl NP-Ant-M  ;
+Kayalaʼ:Kayalaʼ NP-Top ;
+Kel:Kel NP-Ant-M ;
+Kel:Kel NP-Ant-M  ;
+Keʼl:Keʼl NP-Ant-F ;
+Keʼl:Keʼl NP-Ant-F  ;
+Klaʼw:Klaʼw NP-Ant-M ;
+Koʼr:Koʼr NP-Ant-M  ;
+Kristo:Kristo NP-Ant-M  ;
+Kulax:Kulax NP-Ant-M ;
+Kulax:Kulax NP-Ant-M  ;
+Kux:Kux NP-Ant-M  ;
+Kuʼ:Kuʼ NP-Ant-M ;
+Kuʼ:Kuʼ NP-Ant-M  ;
+Kʼaqoʼl:Kʼaqoʼl NP-Top ;
+Kʼusal:Kʼusal NP-Top ;
+Lasaro:Lasaro NP-Ant-M  ;
+Las:Las NP-Ant-M ;
+Laʼ:Laʼ NP-Top  ;
+Lemoʼ:Lemoʼ NP-Top  ;
+Lench:Lench NP-Ant-F  ;
+Leʼn:Leʼn NP-Ant-F  ;
+Liʼy:Liʼy NP-Ant-F  ;
+Lol:Lol NP-Ant-F  ;
+Lol:Lol NP-Ant-M  ;
+Lot:Lot NP-Ant-M  ;
+Loʼl:Loʼl NP-Ant-F ;
+Luʼ:Luʼ NP-Ant-M ;
+Luʼ:Luʼ NP-Ant-M  ;
+Luʼs:Luʼs NP-Ant-F ;
+Luʼs:Luʼs NP-Ant-F  ;
+Mariy:Mariy NP-Ant-F  ;
+Mariʼy:Mariʼy NP-Ant-F ;
+Mariʼy:Mariʼy NP-Ant-F  ;
+Masat:Masat NP-Top  ;
+Max:Max NP-Ant-M ;
+Max:Max NP-Ant-M  ;
+Max:Max NP-Top ;
+Miʼl:Miʼl NP-Ant-F  ;
+Nabʼajul:Nabʼajul NP-Top ;
+Nabʼajul:Nabʼajul NP-Top  ;
+Nahuala:Nahuala NP-Top  ;
+Nasaret:Nasaret NP-Top  ;
+Nawaljaʼ:Nawaljaʼ NP-Top  ;
+Naʼ:Naʼ NP-Ant-F ;
+Naʼ:Naʼ NP-Ant-F  ;
+Naʼs:Naʼs NP-Ant-M  ;
+Naʼy:Naʼy NP-Ant-M ;
+nCOV:nCOV NP-Al  ;
+Nela:Nela NP-Ant-F  ;
+Niʼl:Niʼl NP-Ant-F  ;
+Pajulaʼ:Pajulaʼ NP-Top ;
+Pal:Pal NP-Ant-M ;
+Pal:Pal NP-Ant-M  ;
+Pamqʼan:Pamqʼan NP-Top  ;
+Paʼtz:Paʼtz NP-Ant-M ;
+Petén:Petén NP-Top ;
+Peʼl:Peʼl NP-Ant-M ;
+Peʼl:Peʼl NP-Ant-M  ;
+Poʼx:Poʼx NP-Ant-F ;
+Poʼx:Poʼx NP-Ant-M ;
+Poʼx:Poʼx NP-Ant-M  ;
+Pum:Pum NP-Cog ;
+Qʼumarkaj:Qʼumarkaj NP-Top  ;
+Qʼumaʼrkaj:Qʼumaʼrkaj NP-Top ;
+Roʼs:Roʼs NP-Ant-F ;
+Roʼs:Roʼs NP-Ant-F  ;
+Sakʼjaʼ:Sakʼjaʼ NP-Top ;
+San:San NP-Top  ;
+Saʼn:Saʼn NP-Ant-M ;
+Saʼn:Saʼn NP-Ant-M  ;
+Sikaʼ:Sikaʼ NP-Ant-F ;
+Silisiʼa:Silisiʼa NP-Top  ;
+Simon:Simon NP-Ant-M  ;
+Siriʼa:Siriʼa NP-Top  ;
+Siʼl:Siʼl NP-Ant-F  ;
+Siʼs:Siʼs NP-Ant-M ;
+Skaʼ:Skaʼ NP-Ant-F  ;
+Suʼy:Suʼy NP-Cog ;
+Talin:Talin NP-Ant-F ;
+Talin:Talin NP-Ant-F  ;
+Tax:Tax NP-Ant-F ;
+Tax:Tax NP-Ant-F  ;
+Tax:Tax NP-Cog ;
+Tenaʼ:Tenaʼ NP-Top  ;
+Teʼk:Teʼk NP-Ant-M ;
+Teʼk:Teʼk NP-Ant-M  ;
+Teʼy:Teʼy NP-Ant-F  ;
+Tikiko:Tikiko NP-Ant-M  ;
+Tin:Tin NP-Ant-F  ;
+Tin:Tin NP-Ant-M ;
+Tintin:Tintin NP-Ant-M  ;
+Tiʼx:Tiʼx NP-Ant-M  ;
+Toʼn:Toʼn NP-Ant-F ;
+Toʼn:Toʼn NP-Ant-F  ;
+Trix:Trix NP-Ant-M ;
+Trix:Trix NP-Top ;
+Triʼx:Triʼx NP-Ant-M ;
+Tun:Tun NP-Ant-M ;
+Tun:Tun NP-Ant-M  ;
+Tuʼr:Tuʼr NP-Ant-M ;
+Tuʼr:Tuʼr NP-Ant-M  ;
+Tzʼaläm:Tzʼaläm NP-Cog ;
+Tzʼoloj:Tzʼoloj NP-Top ;
+Uwiʼ:Uwiʼ NP-Top  ;
+Vicente:Vicente NP-Top  ;
+Waʼn:Waʼn NP-Ant-F ;
+Waʼn:Waʼn NP-Ant-F  ;
+Wel:Wel NP-Ant-M ;
+Wel:Wel NP-Ant-M  ;
+Weʼl:Weʼl NP-Ant-F ;
+Weʼl:Weʼl NP-Ant-F  ;
+Weʼt:Weʼt NP-Ant-F  ;
+Wich:Wich NP-Ant-F ;
+Wix:Wix NP-Ant-M ;
+Xalqʼat:Xalqʼat NP-Top  ;
+Xechpup:Xechpup NP-Top  ;
+Xelajuʼ:Xelajuʼ NP-Top  ;
+Xeljuʼ:Xeljuʼ NP-Top ;
+Xepa:Xepa NP-Ant-F  ;
+Xep:Xep NP-Ant-M ;
+Xep:Xep NP-Ant-M  ;
+Xeʼlajuj:Xeʼlajuj NP-Top ;
+Xiroʼm:Xiroʼm NP-Ant-M ;
+Xiroʼm:Xiroʼm NP-Ant-M  ;
+Xiʼn:Xiʼn NP-Ant-F  ;
+Xoʼl:Xoʼl NP-Top  ;
+Xoʼr:Xoʼr NP-Ant-M  ;
+Xpeʼr:Xpeʼr NP-Ant-F  ;
+Xroʼm:Xroʼm NP-Ant-F ;
+Xroʼn:Xroʼn NP-Ant-M  ;
+Xtuʼbʼ:Xtuʼbʼ NP-Ant-M  ;
+Xwan:Xwan NP-Ant-M ;
+Xwan:Xwan NP-Ant-M  ;
+Xwaʼn:Xwaʼn NP-Ant-F ;
+Yak:Yak NP-Cog ;
+Yaxon:Yaxon NP-Cog ;
+Yay:Yay NP-Cog ;
+Yeʼr:Yeʼr NP-Ant-M ;
+
 LEXICON Adjectives
 saq:saq A-saq ;                    ! "blanco; white"
 qʼeq:qʼeq A-saq ;                  ! "negro; black"
@@ -6569,6 +6750,7 @@ chʼanataj:chʼanata                 V-TV-D ; ! "get naked"
 chʼaqabʼaj:chʼaqaba                 V-TV-D ; ! "make wet"
 chʼaqatij:chʼaqati                 V-TV-D ; ! "tear to pieces (coyote to lamb)"
 chʼaqisaj:chʼaqisa                 V-TV-D ; ! "make wet"
+chʼaqisaj:chʼaqsa                 V-TV-D ; ! "make wet" ! Src/Dico
 chʼay:chʼay                        V-TV-R ; ! "hit something"
 chʼaybʼej:chʼaybʼe               V-TV-D ; ! "cut; cortar"
 chʼaʼ:chʼa                         V-TV-R ; ! "quejar; complain"
