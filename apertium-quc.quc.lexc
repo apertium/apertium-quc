@@ -792,7 +792,7 @@ qaj%<adv%>%<dir%>:qaj OQ ;
 ! FIXME: check
 uk%<adv%>%<dir%>:uk OQ ;
 
-wi%<adv%>%<dir%>:wi # ;
+wi%<foc%>:wi # ;
 
 ka%<adv%>%<dir%>%+oq%<aux%>:koq # ;
 ka%<adv%>%<dir%>:ka # ;
@@ -978,6 +978,7 @@ le%<det%>%+akʼal%<n%>%<pl%>:l%>aʼkʼalabʼ # ; ! Src/CanPixabaj
 ri%<det%>%+%<px3sg%>jolom%<n%>:r%>uʼ%>jolom # ; ! Src/CanPixabaj
 ri%<det%>%+tzʼiʼ%<n%>:r%>tzʼiʼ # ; ! Src/CanPixabaj
 ri%<det%>%+aʼchi%<n%>:r%>aʼchi # ; ! Src/CanPixabaj
+ri%<det%>%+ala%<n%>:r%>ala # ; ! Src/Henderson
 ri%<det%>%+%<px1pl%>sok%<n%>:r%>qa%>sok # ; ! Src/CanPixabaj
 
 ! Contracciones de preposiciones y verbos no finitos
@@ -2327,6 +2328,7 @@ kʼalkʼax:kʼalkʼax N-tinamit ; ! "stitch"
 kʼam:kʼam N-tinamit ; ! "cord"
 kʼäm:kʼäm N-tinamit ; ! "dry breast"
 kʼamal:kʼamal N-tinamit ; ! "root"
+kʼamal:kʼamol N-tinamit ; ! "root" ! "~ bʼe = líder" ! Src/Henderson
 !kʼamal be:kʼamal be N-tinamit ; ! "leader"
 !-kʼamal cheʼ:-kʼamal cheʼ N-tinamit ; ! "tree root"
 !-kʼamal xajäb:-kʼamal xajäb N-tinamit ; ! "shoelace"
@@ -3635,7 +3637,7 @@ suʼbʼal:suʼbal N-tinamit ; ! "something which cleans by wiping"
 !suʼbal chiʼ<ij>:suʼbal chiʼ<ij>N-tinamit ; ! "napkin"
 suʼt:suʼt N-tinamit ; ! "cloth"
 !suʼt rech kʼulanem:suʼt rech kʼulanem N-tinamit ; ! "wedding veil"
-sübʼ:süb N-tinamit ; ! "tamalito of corn"
+sübʼ:sübʼ N-tinamit ; ! "tamalito of corn"
 sübʼal:sübal N-tinamit ; ! "pot for tamales"
 subʼunel:subunel N-tinamit ; ! "deceiver"
 subʼunik:subunik N-tinamit ; ! "deception"
@@ -4426,7 +4428,6 @@ bʼaqil:baqil N-chiʼ ; ! "skeleton"
 chʼakat:chʼakat N-chiʼ ; ! "pillow"
 chiʼ:chiʼ N-chiʼ ; ! "mouth"
 chubʼ:chub N-chiʼ ; ! "saliva"
-eʼ:eʼ N-chiʼ ; ! "tooth"
 ij:ij N-chiʼ ; ! "back"
 ismal:ismal N-chiʼ ; ! "hair"
 ixkoʼl:ixkoʼl N-chiʼ ; ! "intestines"
@@ -4456,8 +4457,10 @@ tzaʼm:tzaʼm N-chiʼ ; ! "nose"
 ukʼaʼ:ukʼaʼ N-chiʼ ; ! "horn, testicle"
 uxlabʼ:uxlab N-chiʼ ; ! "breath"
 wäch:wäch N-chiʼ ; ! "condition"
+eʼ:eʼ N-chiʼ ; ! "tooth"
 wareʼ:wareʼ N-chiʼ ; ! "tooth"
-ware:ware N-chiʼ ; ! "tooth" ! Src/UTexas
+wareʼ:wereʼ N-chiʼ ; ! "tooth"
+wareʼ:ware N-chiʼ ; ! "tooth" ! Src/UTexas
 wiʼ:wiʼ N-chiʼ ; ! "top"
 xaq:xaq N-chiʼ ; ! "leaf"
 xikin:xikin N-chiʼ ; ! "ear"
@@ -6544,6 +6547,7 @@ chobʼresaj:chobresa                 V-TV-D ; ! "fertilize"
 chojij:choji                       V-TV-D ; ! "temper with fire to make stronger"
 chokoj:choko                       V-TV-D ; ! "use something"
 chokonsabʼej:chokonsabe             V-TV-D ; ! "use"
+chololej:cholole                   V-TV-D ; ! "order; ordenar"
 chapobʼej:chapobʼe                 V-TV-D ; ! "use"
 chomaj:choma                       V-TV-D ; ! ";think of"
 chomirisaj:chomirisa               V-TV-D ; ! "fatten something (animal)"
@@ -6564,6 +6568,7 @@ chʼaqabʼaj:chʼaqaba                 V-TV-D ; ! "make wet"
 chʼaqatij:chʼaqati                 V-TV-D ; ! "tear to pieces (coyote to lamb)"
 chʼaqisaj:chʼaqisa                 V-TV-D ; ! "make wet"
 chʼay:chʼay                        V-TV-R ; ! "hit something"
+chʼaybʼej:chʼaybʼe               V-TV-D ; ! "cut; cortar"
 chʼaʼ:chʼa                         V-TV-R ; ! "quejar; complain"
 chʼaʼ:chʼaʼ                        V-TV-R ; ! "quejar; complain"
 chʼekenej:chʼekene                 V-TV-D ; ! "reward"

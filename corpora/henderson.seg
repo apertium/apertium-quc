@@ -1,0 +1,717 @@
+# sent_id = henderson:1
+# text = Xinchapo
+# text[orig] = Xin-chap-o
+# text[gloss] = INFL-grab-SS
+# text[eng] = I grabbed it.
+# label = incomplete
+^Xinchapo/X>in>chap>o$
+
+# sent_id = henderson:2
+# text = Xinwarik
+# text[orig] = Xin-war-ik
+# text[gloss] = INFL-sleep-SS
+# text[eng] = I slept.
+# label = incomplete
+^Xinwarik/X>in>war>ik$
+
+# sent_id = henderson:3
+# text = Xchapik
+# text[orig] = X-chaap-ik
+# text[gloss] = INFL-grab.PASS-SS
+# text[eng] = It was grabbed.
+# label = incomplete
+^Xchapik/X>chap>ik$
+
+# sent_id = henderson:4a
+# text = Xutijo
+# text[orig] = Xu-tij-o
+# text[gloss] = INFL-eat-SS
+# text[eng] = He ate it.
+# label = incomplete
+^Xutijo/X>u>tij>o$
+
+# sent_id = henderson:4b
+# text = Xutij
+# text[orig] = Xu-tij-Ø
+# text[gloss] = INFL-eat the tortilla
+# text[eng] = He ate the tortilla.
+# label = incomplete
+^Xutij/X>u>tij$
+
+# sent_id = henderson:5a
+# text = Xinkosik
+# text[orig] = Xin-kos-ik
+# text[gloss] = INFL-tire-SS
+# text[eng] = I am tired.
+# label = incomplete
+^Xinkosik/X>in>kos>ik$
+
+# sent_id = henderson:5b
+# text = Xinkos rumal nuchak.
+# text[orig] = Xin-kos-Ø rumal nuchaak.
+# text[gloss] = INFL-tire because my.work
+# text[eng] = I am tired because of my work.
+# label = incomplete
+^Xinkos/X>in>kos$
+^rumal/r>umal$
+^nuchak/nu>chak$
+^./.$
+
+# sent_id = henderson:6a
+# text = Na xutij taj.
+# text[orig] = Na xu-tij-Ø taj.
+# text[gloss] = NEG INFL-eat IRR
+# text[eng] = He didnʼt eat it.
+# label = incomplete
+^Na/Na$
+^xutij/x>u>tij$
+^taj/taj$
+^./.$
+
+# sent_id = henderson:6b
+# text = Na xutij ta le wa.
+# text[orig] = Na xu-tij ta le wah.
+# text[gloss] = NEG INFL-eat IRR le wah
+# text[eng] = He didnʼt eat the tortilla.
+# label = incomplete
+^Na/Na$
+^xutij/x>u>tij$
+^ta/ta$
+^le/le$
+^wa/wa$
+^./.$
+
+# sent_id = henderson:7a
+# text = La xutij kʼut?
+# text[orig] = La xu-tij-Ø kʼut
+# text[gloss] = Q INFL-eat Q
+# text[eng] = Did he eat it?
+# label = incomplete
+^La/La$
+^xutij/x>u>tij$
+^kʼut/kʼut$
+^?/?$
+
+# sent_id = henderson:7b
+# text = La xutij kʼu le wa?
+# text[orig] = La xu-tij-Ø kʼu le wah.
+# text[gloss] = Q INFL-eat Q le wah
+# text[eng] = Did he eat the tortilla?
+# label = incomplete
+^La/La$
+^xutij/x>u>tij$
+^kʼu/kʼu$
+^le/le$
+^wa/wa$
+^?/?$
+
+# sent_id = henderson:8
+# text = Man pa kʼayibʼal ta xutijo.
+# text[orig] = Man pa kʼayibʼal ta xu-tij-o.
+# text[gloss] = NEG in market IRR INFL-eat-SS
+# text[eng] = It wasnʼt in the market that he ate it.
+# label = incomplete
+^Man/Man$
+^pa/pa$
+^kʼayibʼal/kʼayibʼal$
+^ta/ta$
+^xutijo/x>u>tij>o$
+^./.$
+
+# sent_id = henderson:9
+# text = Man rukʼ ta ikaj xuchʼaybʼej.
+# text[orig] = Man rukʼ ta ikaj xu-chʼay-bʼe-j.
+# text[gloss] = NEG with IRR axe INFL-cut-INSTR-SS
+# text[eng] = It wasnʼt with the axe that he cut it.
+# label = incomplete
+^Man/Man$
+^rukʼ/r>ukʼ$
+^ta/ta$
+^ikaj/ikaj$
+^xuchʼaybʼej/x>u>chʼaybʼe>j$
+^./.$
+
+# sent_id = henderson:10
+# text = Man are ta ri a Xwan xelik.
+# text[orig] = Man aree ta ri a Xwan x-el-ik.
+# text[gloss] = NEG FOC IRR the CLF Juan INFL-leave-SS
+# text[eng] = It wasnʼt Juan who left.
+# label = incomplete
+^Man/Man$
+^are/are$
+^ta/ta$
+^ri/ri$
+^a/a$
+^Xwan/Xwan$
+^xelik/x>el>ik$
+^./.$
+
+# sent_id = henderson:11
+# text = Man tajin ta kinchakunik.
+# text[orig] = Man tajin ta kin-chakun-ik.
+# text[gloss] = NEG PROG IRR INFL-work-SS
+# text[eng] = I am not working.
+# label = incomplete
+^Man/Man$
+^tajin/tajin$
+^ta/ta$
+^kinchakunik/k>in>chakun>ik$
+^./.$
+
+# sent_id = henderson:12a
+# text = Xinwilo chi xwaʼik.
+# text[orig] = Xinw-il-o chi xwaʼ-ik.
+# text[gloss] = INFL-see-SS that he.ate-SS
+# text[eng] = I saw that the boy ate.
+# label = incomplete
+^Xinwilo/X>inw>il>o$
+^chi/chi$
+^xwaʼik/x>waʼ>ik$
+^./.$
+
+# sent_id = henderson:12c
+# text = Xinchapo su xuloqʼo.
+# text[orig] = Xin-chap-o su xu-loqʼ-o.
+# text[gloss] = INFL-grab-SS what INFL-buy-SS
+# text[eng] = I grabbed what he bought.
+# label = incomplete
+^Xinchapo/X>in>chap>o$
+^su/su$
+^xuloqʼo/x>u>loqʼ>o$
+^./.$
+
+# sent_id = henderson:12d
+# text = Xinkosik rumal xinchakunik.
+# text[orig] = Xin-kos-ik rumal xin-chakun-ik.
+# text[gloss] = INFL-tire-SS because INFL-worked-SS
+# text[eng] = I am tired because I worked.
+# label = incomplete
+^Xinkosik/X>in>kos>ik$
+^rumal/r>umal$
+^xinchakunik/x>in>chakun>ik$
+^./.$
+
+# sent_id = henderson:14
+# text = Xeʼul le ala chiʼl le ali.
+# text[orig] = Xeʼ-ul-Ø le alah chiʼl le alih.
+# text[gloss] = INFL-arrive the boy and the girl
+# text[eng] = The boy and the girl arrived.
+# label = incomplete
+^Xeʼul/X>eʼ>ul$
+^le/le$
+^ala/ala$
+^chiʼl/chiʼl$
+^le/le$
+^ali/ali$
+^./.$
+
+# sent_id = henderson:16
+# text = Xeʼulik.
+# text[orig] = Xeʼ-ul-ik.
+# text[gloss] = INFL-arrive-SS
+# text[eng] = They arrived.
+# label = incomplete
+^Xeʼulik/X>eʼ>ul>ik$
+^./.$
+
+# sent_id = henderson:18a
+# text = We kinkosik kinwarik.
+# text[orig] = We kin-kos-ik kin-war-ik.
+# text[gloss] = if INFL-tire-SS INFL-sleep-SS
+# text[eng] = If I get tired, I sleep.
+# label = incomplete
+^We/We$
+^kinkosik/k>in>kos>ik$
+^kinwarik/k>in>war>ik$
+^./.$
+
+# sent_id = henderson:18b
+# text = Are taq kinkosik kinwarik.
+# text[orig] = Aree taq kin-kos-ik kin-war-ik.
+# text[gloss] = when INFL-tired-SS INFL-sleep-SS
+# text[eng] = When I get tired, I sleep.
+# label = incomplete
+^Are/Are$
+^taq/taq$
+^kinkosik/k>in>kos>ik$
+^kinwarik/k>in>war>ik$
+^./.$
+
+# sent_id = henderson:20a
+# text = Na iwir ta xril le kʼamol bʼe.
+# text[orig] = Na iwir ta xr-il-Ø le kʼamol bʼe.
+# text[gloss] = NEG yesterday IRR INFL-see the leader
+# text[eng] = It wasnʼt yesterday that he saw the leader.
+# label = incomplete
+^Na/Na$
+^iwir/iwir$
+^ta/ta$
+^xril/x>r>il$
+^le/le$
+^kʼamol/kʼamol$
+^bʼe/bʼe$
+^./.$
+
+# sent_id = henderson:21a
+# text = La iwir kʼu xril le kʼamol bʼe.
+# text[orig] = La iwir kʼu xr-il-Ø le kʼamol bʼe.
+# text[gloss] = Q yesterday Q INFL-see the leader
+# text[eng] = It wasnʼt yesterday that he saw the leader.
+# label = incomplete
+^La/La$
+^iwir/iwir$
+^kʼu/kʼu$
+^xril/x>r>il$
+^le/le$
+^kʼamol/kʼamol$
+^bʼe/bʼe$
+^./.$
+
+# sent_id = henderson:22
+# text = Xinwil le ala.
+# text[orig] = Xinw-il-Ø le alah.
+# text[gloss] = INFL-see the boy.
+# text[eng] = I saw the boy.
+# label = incomplete
+^Xinwil/X>inw>il$
+^le/le$
+^ala/ala$
+^./.$
+
+# sent_id = henderson:23
+# text = Xinwilo chi xwaʼ ri ala.
+# text[orig] = Xinw-il-o chi xwaʼ-Ø ri alah.
+# text[gloss] = INFL-see-SS that he.ate the boy
+# text[eng] = I saw that the boy ate.
+# label = incomplete
+^Xinwilo/X>inw>il>o$
+^chi/chi$
+^xwaʼ/x>waʼ$
+^ri/ri$
+^ala/ala/al>a/a>la$
+^./.$
+
+# sent_id = henderson:25a
+# text = Xril ri a Xwan chi xwaʼ ri ala.
+# text[orig] = Xr-il-Ø ri a Xwan chi x-waʼ-Ø ri alah.
+# text[gloss] = INFL-see the CLF Juan that INFL-eat the boy
+# text[eng] = Juan saw that the boy ate.
+# label = incomplete
+^Xril/X>r>il$
+^ri/ri$
+^a/a$
+^Xwan/Xwan$
+^chi/chi$
+^xwaʼ/x>waʼ$
+^ri/ri$
+^ala/ala$
+^./.$
+
+# sent_id = henderson:26a
+# text = Xinbʼij iwir chi xebʼe pa Armita.
+# text[orig] = Xin-bʼij iwir chi xe-bʼe-Ø pa Armita.
+# text[gloss] = INFL-say yesterday that INFL-go Guatemala.City
+# text[eng] = Yesterday I said that they went to Guatemala City.
+# label = incomplete
+^Xinbʼij/X>in>bʼij$
+^iwir/iwir$
+^chi/chi$
+^xebʼe/x>e>bʼe$
+^pa/pa$
+^Armita/Armita$
+^./.$
+
+# sent_id = henderson:29a
+# text = Xkichap tojonik.
+# text[orig] = Xki-chap-Ø toj-on-ik.
+# text[gloss] = INFL-start pay-AP-INF
+# text[eng] = They started to pay.
+# label = incomplete
+^Xkichap/X>ki>chap$
+^tojonik/toj>on>ik$
+^./.$
+
+# sent_id = henderson:29c
+# text = Xqachap kikunaxik.
+# text[orig] = Xqa-chap-Ø ki-kuna-x-ik.
+# text[gloss] = INFL-start their-cure-PAS-INF
+# text[eng] = We started to cure them (lit. their being cured).
+# label = incomplete
+^Xqachap/X>qa>chap$
+^kikunaxik/ki>kunax>ik$
+^./.$
+
+# sent_id = henderson:33a
+# text = Xuchap ri bʼah ri xutij qakinaq.
+# text[orig] = Xu-chap-Ø ri bʼah ri xu-tij-Ø qa-kinaq.
+# text[gloss] = INFL-catch the gopher PRN INFL-eat our-beans
+# text[eng] = He caught the gopher that ate our beans.
+# label = incomplete
+^Xuchap/X>u>chap$
+^ri/ri$
+^bʼah/bʼa$
+^ri/ri$
+^xutij/x>u>tij$
+^qakinaq/qa>kinaq$
+^./.$
+
+# sent_id = henderson:39
+# text = Xinkikot awumal.
+# text[orig] = Xi-kikot aw-umaal.
+# text[gloss] = INFL-happy 2sg-because
+# text[eng] = I am happy because of you.
+# label = incomplete
+^Xinkikot/X>in>kikot$
+^awumal/aw>umal$
+^./.$
+
+# sent_id = henderson:41a
+# text = Xinkosik rumal xinchakunik
+# text[orig] = Xin-kos-ik r-umal xin-chakun-ik
+# text[gloss] = INFL-tire-SS 3sg-because INFL-work-SS
+# text[eng] = I am tired because I worked.
+# label = incomplete
+^Xinkosik/X>in>kos>ik$
+^rumal/r>umal$
+^xinchakunik/x>in>chakun>ik$
+
+# sent_id = henderson:49a
+# text = X>in>loqʼ kʼih.
+# text[orig] = Xin-loqʼ-Ø kʼih.
+# text[gloss] = INFL-buy a.lot
+# text[eng] = I bought a lot.
+# label = incomplete
+^X>in>loqʼ/X>in>loqʼ$
+^kʼi/kʼi$
+^./.$
+
+# sent_id = henderson:49b
+# text = X>in>loqʼ kʼi wa.
+# text[orig] = Xin-loqʼ-Ø kʼi wah.
+# text[gloss] = INFL-buy a.lot tortilla
+# text[eng] = I bought a lot of tortillas.
+# label = incomplete
+^X>in>loqʼ/X>in>loqʼ$
+^kʼi/kʼi$
+^wa/wa$
+^./.$
+
+# sent_id = henderson:50a
+# text = Le ala xokik.
+# text[orig] = Le alah x-ok-ik.
+# text[gloss] = The boy INFL-enter-SS
+# text[eng] = The boy entered.
+# label = incomplete
+^Le/Le$
+^ala/ala$
+^xokik/x>ok>ik$
+^./.$
+
+# sent_id = henderson:51a
+# text = Are le bʼah xokik.
+# text[orig] = Are le bʼah x-ok-ik.
+# text[gloss] = FOC the gopher INFL-enter-SS
+# text[eng] = It was the gopher that entered.
+# label = incomplete
+^Are/Are$
+^le/le$
+^bʼa/*bʼa$
+^xokik/x>ok>ik$
+^./.$
+
+# sent_id = henderson:52
+# text = Xril le bʼa le ala.
+# text[orig] = Xr-il-Ø le bʼa le alah.
+# text[gloss] = INFL-see the gopher the boy
+# text[eng] = The boy saw the gopher.
+# label = incomplete
+^Xril/X>r>il$
+^le/le$
+^bʼa/bʼa$
+^le/le$
+^ala/ala$
+^./.$
+
+# sent_id = henderson:53a
+# text = Are le bʼa xril le ala.
+# text[orig] = Are le bʼa xr-il-Ø le ala.
+# text[gloss] = FOC the gopher INFL-see the boy
+# text[eng] = It was the gopher that the boy saw.
+# label = incomplete
+^Are/Are$
+^le/le$
+^bʼa/bʼa$
+^xril/x>r>il$
+^le/le$
+^ala/ala$
+^./.$
+
+# sent_id = henderson:53b
+# text = Man are ta xril.
+# text[orig] = Man are ta xr-il.
+# text[gloss] = NEG FOC IRR INFL-see-SS
+# text[eng] = It wasnʼt him who he saw.
+# label = incomplete
+^Man/Man$
+^are/are$
+^ta/ta$
+^xril/x>r>il$
+^./.$
+
+# sent_id = henderson:54
+# text = Xinpetik, tat.
+# text[orig] = Xin-peet-ik, taat.
+# text[gloss] = INFL-come-SS, sir
+# text[eng] = I came, sir.
+# label = incomplete
+^Xinpetik/X>in>pet>ik$
+^,/,$
+^tat/tat$
+^./.$
+
+# sent_id = henderson:55
+# text = Kʼax kʼolik, kachaʼ.
+# text[orig] = Kʼax kʼol-ik, kachaʼ.
+# text[gloss] = bad exist-SS, REP
+# text[eng] = It was bad, they say.
+# label = incomplete
+^Kʼax/Kʼax$
+^kʼolik/kʼol>ik$
+^,/,$
+^kachaʼ/ka>chaʼ$
+^./.$
+
+# sent_id = henderson:60
+# text = Xinwilo chi xeʼelik.
+# text[orig] = Xinw-il-o chi xeʼ-el-ik.
+# text[gloss] = INFL-see-SS that INFL-left-SS
+# text[eng] = I saw that they left.
+# label = incomplete
+^Xinwilo/X>inw>il>o$
+^chi/chi$
+^xeʼelik/x>eʼ>el>ik$
+^./.$
+
+# sent_id = henderson:63a
+# text = Xkitijo jas xuloqʼo le ixoqibʼ.
+# text[orig] = Xki-tij-o [jas xuyloqʼ-o] le ixoqibʼ.
+# text[gloss] = INFL-eat-SS what INFL-buy-SS the women
+# text[eng] = The women ate what he bought.
+# label = incomplete
+^Xkitijo/X>ki>tij>o$
+^jas/jas$
+^xuloqʼo/x>u>loqʼ>o$
+^le/le$
+^ixoqibʼ/ixoq>ibʼ$
+^./.$
+
+# sent_id = henderson:73a
+# text = Man are ta rala xkosik.
+# text[orig] = Man aree ta ralah x-kos-ik.
+# text[gloss] = NEG FOC IRR DET.boy INFL-tired-SS
+# text[eng] = It wasnʼt the boy who got tired.
+# label = incomplete
+^Man/Man$
+^are/are$
+^ta/ta$
+^rala/r>ala$
+^xkosik/x>kos>ik$
+^./.$
+
+# sent_id = henderson:74a
+# text = Xinkos rumal.
+# text[orig] = Xin-kos-Ø rumaal.
+# text[gloss] = INFL-tired because
+# text[eng] = I am tired because of it.
+# label = incomplete
+^Xinkos/X>in>kos$
+^rumal/r>umal$
+^./.$
+
+# sent_id = henderson:75a
+# text = We kinkos rumal, kinwarik.
+# text[orig] = We kin-kos-Ø rumaal, kin-war-ik.
+# text[gloss] = if INFL-tired because INFL-sleep-SS
+# text[eng] = If I get tired because of it, I sleep.
+# label = incomplete
+^We/We$
+^kinkos/k>in>kos$
+^rumal/r>umal$
+^,/,$
+^kinwarik/k>in>war>ik$
+^./.$
+
+# sent_id = henderson:78a
+# text = Xekos le tzʼiʼ.
+# text[orig] = Xe-kos-Ø le tzʼiʼ.
+# text[gloss] = INFL-tire the dogs
+# text[eng] = The dogs got tired.
+# label = incomplete
+^Xekos/X>e>kos$
+^le/le$
+^tzʼiʼ/tzʼiʼ$
+^./.$
+
+# sent_id = henderson:78b
+# text = Le tzʼiʼ xekosik.
+# text[orig] = Le tzʼiʼ xe-kos-ik.
+# text[gloss] = The dogs INFL-tire-SS
+# text[eng] = The dogs got tired.
+# label = incomplete
+^Le/Le$
+^tzʼiʼ/tzʼiʼ$
+^xekosik/x>e>kos>ik$
+^./.$
+
+# sent_id = henderson:80a
+# text = Man xkitij ta le tzʼiʼ.
+# text[orig] = Man xki-tij-Ø ta le tzʼiʼ.
+# text[gloss] = NEG INFL-eat IRR the dogs
+# text[eng] = The dogs didnʼt eat it.
+# label = incomplete
+^Man/Man$
+^xkitij/x>ki>tij$
+^ta/ta$
+^le/le$
+^tzʼiʼ/tzʼiʼ$
+^./.$
+
+# sent_id = henderson:80b
+# text = Le tzʼiʼ man xkitij taj.
+# text[orig] = Le tzʼiʼ man xki-tij-Ø taj.
+# text[gloss] = The dogs NEG INFL-eat IRR
+# text[eng] = The dogs didnʼt eat it.
+# label = incomplete
+^Le/Le$
+^tzʼiʼ/tzʼiʼ$
+^man/man$
+^xkitij/x>ki>tij$
+^taj/taj$
+^./.$
+
+# sent_id = henderson:83b
+# text = Xinbʼe.
+# text[orig] = Xinbʼé.
+# text[gloss] = INFL-go
+# text[eng] = I went.
+# label = incomplete
+^Xinbʼe/X>in>bʼe$
+^./.$
+
+# sent_id = henderson:86b
+# text = Katela!
+# text[orig] = Katéla!
+# text[gloss] = INFL-leave-IMP
+# text[eng] = Leave!
+# label = incomplete check-form
+^Katela/K>at>el>a$
+^!/!$
+
+# sent_id = henderson:87
+# text = Ma xinel ta chi el pa bʼey.
+# text[orig] = Ma xin-el-Ø ta chi el pa bʼey.
+# text[gloss] = NEG INFL-leave IRR REP DIR on street
+# text[eng] = I didnʼt go out again in the street.
+# label = incomplete
+^Ma/Ma$
+^xinel/x>in>el$
+^ta/ta$
+^chi/chi$
+^el/el$
+^pa/pa$
+^bʼe/bʼe$
+^./.$
+
+# sent_id = henderson:91b
+# text = Katpe.
+# text[orig] = Katpé.
+# text[gloss] = INFL-come
+# text[eng] = You came.
+# label = incomplete
+^Katpe/K>at>pe$
+^./.$
+
+# sent_id = henderson:108a
+# text = Kintij na le akʼ.
+# text[orig] = Kin-tíj-Ø na le akʼ.
+# text[gloss] = INFL-eat ASP the chicken
+# text[eng] = I am going to eat the chicken.
+# label = incomplete
+^Kintij/K>in>tij$
+^na/na$
+^le/le$
+^akʼ/akʼ$
+^./.$
+
+# sent_id = henderson:108b
+# text = Kintij ná.
+# text[orig] = Kin-tij-Ø ná.
+# text[gloss] = INFL-eat ASP
+# text[eng] = I am going to eat it.
+# label = incomplete
+^Kintij/K>in>tij$
+^na/na$
+^./.$
+
+# sent_id = henderson:111
+# text = Kinbʼe taj.
+# text[orig] = Kin-bʼe-Ø taj.
+# text[gloss] = INFL-go IRR
+# text[eng] = I would go.
+# label = incomplete
+^Kinbʼe/K>in>bʼe$
+^taj/taj$
+^./.$
+
+# sent_id = henderson:115b
+# text = Xinkosik.
+# text[orig] = Xin-kos-ík.
+# text[gloss] = INFL-tire-SS
+# text[eng] = I am tired.
+# label = incomplete
+^Xinkosik/X>in>kos>ik$
+^./.$
+
+# sent_id = henderson:116a
+# text = Xintijo.
+# text[orig] = Xin-tij-ó.
+# text[gloss] = INFL-eat-SS
+# text[eng] = I ate it.
+# label = incomplete
+^Xintijo/X>in>tij>o$
+^./.$
+
+# sent_id = henderson:116b
+# text = Xintij le subʼ.
+# text[orig] = Xin-tíj-Ø le subʼ.
+# text[gloss] = INFL-eat the tamalito
+# text[eng] = I ate the tamalito.
+# label = incomplete
+^Xintij/X>in>tij$
+^le/le$
+^subʼ/subʼ$
+^./.$
+
+# sent_id = henderson:117
+# text = Are le ba xulik.
+# text[orig] = Are le bah x-ul-ik.
+# text[gloss] = FOG the gopher INFL-arrive-SS
+# text[eng] = It was the gopher that arrived.
+# label = incomplete
+^Are/Are$
+^le/le$
+^ba/ba$
+^xulik/x>ul>ik$
+^./.$
+
+# sent_id = henderson:126
+# text = Xintij le akʼ.
+# text[orig] = Xintij-Ø le akʼ.
+# text[gloss] = INFL-eat the chicken
+# text[eng] = I ate the chicken.
+# label = incomplete
+^Xintij/X>in>tij$
+^le/le$
+^akʼ/akʼ$
+^./.$
+

@@ -253,7 +253,7 @@
 "<:>"
 	":" sent @punct #2->1
 "<are>"
-	"are" adv @mark #3->5
+	"are" foc @mark #3->5
 "<taq>"
 	"taq" cnjsub @fixed #4->3
 "<kchaqʼajik>"
@@ -783,7 +783,7 @@
 # text[spa'] = Cuando abrió la orilla liberó el conejo, el zorillo lejos de encima de él; tocó el conejo, comió sólo así se deshace de tener hambre.
 # labels = incomplete
 "<Are>"
-	"are" adv @mark
+	"are" foc @mark
 "<taq>"
 	"taq" cnjsub @fixed
 "<xujaq>"
@@ -1412,7 +1412,7 @@
 	"kikot" v iv impf s_sg3 @root #4->0
 		"ik" aux @aux:ss #5->4
 "<are>"
-	"are" adv @mark #6->8
+	"are" foc @mark #6->8
 "<taq>"
 	"taq" cnjsub @fixed #7->6
 "<xrilo>"
