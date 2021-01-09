@@ -1,50 +1,58 @@
 # sent_id = henderson:1
-# text = Xinchapo
+# text = Xinchapo.
 # text[orig] = Xin-chap-o
 # text[gloss] = INFL-grab-SS
 # text[eng] = I grabbed it.
 # label = incomplete
 ^Xinchapo/X>in>chap>o$
+^./.$
 
 # sent_id = henderson:2
-# text = Xinwarik
+# text = Xinwarik.
 # text[orig] = Xin-war-ik
 # text[gloss] = INFL-sleep-SS
 # text[eng] = I slept.
 # label = incomplete
 ^Xinwarik/X>in>war>ik$
+^./.$
 
 # sent_id = henderson:3
-# text = Xchapik
+# text = Xchapik.
 # text[orig] = X-chaap-ik
 # text[gloss] = INFL-grab.PASS-SS
 # text[eng] = It was grabbed.
 # label = incomplete
 ^Xchapik/X>chap>ik$
+^./.$
 
 # sent_id = henderson:4a
-# text = Xutijo
+# text = Xutijo.
 # text[orig] = Xu-tij-o
 # text[gloss] = INFL-eat-SS
 # text[eng] = He ate it.
 # label = incomplete
 ^Xutijo/X>u>tij>o$
+^./.$
 
 # sent_id = henderson:4b
-# text = Xutij
+# text = Xutij le wa.
 # text[orig] = Xu-tij-Ø
 # text[gloss] = INFL-eat the tortilla
 # text[eng] = He ate the tortilla.
 # label = incomplete
 ^Xutij/X>u>tij$
+^le/le$
+^wa/wa$
+^./.$
 
 # sent_id = henderson:5a
-# text = Xinkosik
+# text = Xinkosik.
 # text[orig] = Xin-kos-ik
 # text[gloss] = INFL-tire-SS
 # text[eng] = I am tired.
 # label = incomplete
 ^Xinkosik/X>in>kos>ik$
+^./.$
 
 # sent_id = henderson:5b
 # text = Xinkos rumal nuchak.
@@ -288,7 +296,7 @@
 ^chi/chi$
 ^xwaʼ/x>waʼ$
 ^ri/ri$
-^ala/ala/al>a/a>la$
+^ala/ala$
 ^./.$
 
 # sent_id = henderson:25a
