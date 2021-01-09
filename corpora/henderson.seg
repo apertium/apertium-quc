@@ -608,7 +608,7 @@
 ^!/!$
 
 # sent_id = henderson:87
-# text = Ma xinel ta chi el pa bʼey.
+# text = Ma xinel ta chi el pa bʼe.
 # text[orig] = Ma xin-el-Ø ta chi el pa bʼey.
 # text[gloss] = NEG INFL-leave IRR REP DIR on street
 # text[eng] = I didnʼt go out again in the street.
@@ -644,7 +644,7 @@
 ^./.$
 
 # sent_id = henderson:108b
-# text = Kintij ná.
+# text = Kintij na.
 # text[orig] = Kin-tij-Ø ná.
 # text[gloss] = INFL-eat ASP
 # text[eng] = I am going to eat it.
