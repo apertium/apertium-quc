@@ -2112,13 +2112,13 @@
 # text = Kakoj kyaq usok ri unan rech kachʼaj bʼik.
 # text[spa'] =  Pones el nido rojo de la madre para lavas.
 # labels = incomplete
-^Kakoj/*Kakoj$
+^Kakoj/K>a>koj$
 ^kyaq/kyaq$
-^usok/*usok$
+^usok/u>sok$
 ^ri/ri$
 ^unan/u>nan$
-^rech/rech/r>ech$
-^kachʼaj/*kachʼaj$
+^rech/r>ech$
+^kachʼaj/k>a>chʼaj$
 ^bʼik/bʼi>k$
 ^./.$
 
@@ -7250,9 +7250,9 @@
 # text[spa'] = Así hicieron volvieron a casa con placer.
 # labels = incomplete
 ^Jewa/Jewa$
-^xkibʼano/*xkibʼano$
+^xkibʼano/x>ki>bʼan>o$
 ^xetzalij/x>e>tzalij$
-^cho/cho/ch>o$
+^cho/ch>o$
 ^kachoch/k>achoch$
 ^rukʼ/r>ukʼ$
 ^kikotemal/kikotemal$
@@ -7818,15 +7818,15 @@
 # sent_id = cuentos:Sutz’_sachanel.wiki:14
 # text = We ala sibʼalaj xkikotik xuriqaʼ ri uchim chajital rumal ri laj a Paʼtz.
 # text[spa'] = Este niño mucho estuvo feliz encontró el morral *chajital por él el pequeño Paʼtz.
-# labels = incomplete
-^We/We/W>e$
-^ala/ala/al>a/a>la$
+# labels = complete
+^We/We$
+^ala/ala$
 ^sibʼalaj/sibʼalaj$
 ^xkikotik/x>kikot>ik$
-^xuriqaʼ/*xuriqaʼ$
+^xuriqaʼ/x>u>riqaʼ$
 ^ri/ri$
 ^uchim/u>chim$
-^chajital/*chajital$
+^chajital/chajital$
 ^rumal/r>umal$
 ^ri/ri$
 ^laj/laj$
