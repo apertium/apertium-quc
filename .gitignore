@@ -114,3 +114,12 @@ configure
 *.pc
 *.m4
 *.am
+
+.deps/
+INSTALL
+Makefile
+autom4te.cache/
+config.status
+install-sh
+missing
+modes/
