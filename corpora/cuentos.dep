@@ -1724,6 +1724,85 @@
 "<.>"
 	"." sent @punct #12->4
 
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:1
+# text = Xkʼulmataj pa jun Komon chiʼ uwach jun juyubʼ, xuriqa jun qʼij xkiriq kibʼ jun imul rukʼ le kok.
+# text[spa'] = Pasó en una Comunidad cerca de un monte, llegó un día se encontraron un conejo y una tortuga.
+# labels = complete check-translation check-attachment
+"<Xkʼulmataj>"
+	"kʼulmatäj" v iv perf s_sg3 @root #1->0
+"<pa>"
+	"pa" pr @case #2->4
+"<jun>"
+	"jun" det @det #3->4
+"<Komon>"
+	"komon" n @obl #4->1
+"<chiʼ>"
+	"chi" pr @case #5->6
+"<uwach>"
+	"wach" n rel px3sg @nmod #6->4
+"<jun>"
+	"jun" det @det #7->8
+"<juyubʼ>"
+	"juyubʼ" n @nmod #8->6
+"<,>"
+	"," cm @punct #9->10
+"<xuriqa>"
+	"riqaʼ" v tv perf o_sg3 s_sg3 @parataxis #10->1
+"<jun>"
+	"jun" det @det #11->12
+"<qʼij>"
+	"qʼij" n @nsubj #12->10
+"<xkiriq>"
+	"riq" v tv perf o_sg3 s_pl3 @parataxis #13->1
+"<kibʼ>"
+	"ibʼ" n rel px3pl @obj #14->13
+"<jun>"
+	"jun" det @det #15->16
+"<imul>"
+	"imul" n @nsubj #16->13
+"<rukʼ>"
+	"ukʼ" n rel px3sg @nmod #17->16
+"<le>"
+	"le" det @det #18->19
+"<kok>"
+	"kök" n @nmod #19->17
+"<.>"
+	"." sent @punct #20->1
+
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:3
+# text = Le imul xubʼij: kok, katkowin taj katzaq anim, nojim katbʼinik.
+# text[spa'] = El conejo dijo: tortuga, puedes perder carrera, lento andas.
+# labels = complete check-translation
+"<Le>"
+	"le" det @det #1->2
+"<imul>"
+	"imul" n @nsubj #2->3
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3 @root #3->0
+"<:>"
+	":" sent @punct #4->7
+"<kok>"
+	"kök" n @vocative #5->7
+"<,>"
+	"," cm @punct #6->7
+"<katkowin>"
+	"kowin" v iv impf s_sg2 @parataxis #7->3
+"<taj>"
+	"taj" aux @aux #8->7
+"<katzaq>"
+	"tzaq" v tv impf o_sg3 s_sg2 @xcomp #9->7
+"<anim>"
+	"anim" n @obj #10->9
+"<,>"
+	"," cm @punct #11->13
+"<nojim>"
+	"nojim" adv @advmod #12->13
+"<katbʼinik>"
+	"bʼin" v iv impf s_sg2 @parataxis #13->7
+		"ik" aux @aux:ss #14->13
+"<.>"
+	"." sent @punct #15->3
+
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:5
 # text = Xa kʼu kinbʼij chawe chi in kinchʼak ri anim.
 # text[spa'] = Sólo pero digo a ti que yo conquisto la carrera.

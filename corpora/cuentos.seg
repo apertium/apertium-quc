@@ -5302,7 +5302,7 @@
 # text = Xkʼulmataj pa jun Komon chiʼ uwach jun juyubʼ, xuriqa jun qʼij xkiriq kibʼ jun imul rukʼ le kok.
 # text[spa'] =  Pasó en un Todo aquí a un monte, encontró un día encontraron a un conejo con la tortuga.
 # labels = incomplete
-^Xkʼulmataj/*Xkʼulmataj$
+^Xkʼulmataj/X>kʼulmataj$
 ^pa/pa$
 ^jun/jun$
 ^Komon/Komon$
@@ -5311,16 +5311,16 @@
 ^jun/jun$
 ^juyubʼ/juyubʼ$
 ^,/,$
-^xuriqa/*xuriqa$
+^xuriqa/x>u>riqa$
 ^jun/jun$
 ^qʼij/qʼij$
-^xkiriq/*xkiriq$
+^xkiriq/x>ki>riq$
 ^kibʼ/k>ibʼ$
 ^jun/jun$
-^imul/imul/i>mul$
+^imul/imul$
 ^rukʼ/r>ukʼ$
 ^le/le$
-^kok/k>ok$
+^kok/kok$
 ^./.$
 
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:2
@@ -5341,13 +5341,13 @@
 
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:3
 # text = Le imul xubʼij: kok, katkowin taj katzaq anim, nojim katbʼinik.
-# text[spa'] = El conejo dijo: entra , puedes cae prisa, lento andas .
+# text[spa'] = El conejo dijo: tortuga, puedes perder carrera, lento andas.
 # labels = incomplete
 ^Le/Le$
-^imul/imul/i>mul$
-^xubʼij/*xubʼij$
+^imul/imul$
+^xubʼij/x>u>bʼij$
 ^:/:$
-^kok/k>ok$
+^kok/kok$
 ^,/,$
 ^katkowin/k>at>kowin$
 ^taj/taj$
@@ -5355,7 +5355,7 @@
 ^anim/anim$
 ^,/,$
 ^nojim/nojim$
-^katbʼinik/k>at>bʼin>ik/k>at>bʼi>n>ik$
+^katbʼinik/k>at>bʼin>ik$
 ^./.$
 
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:4
