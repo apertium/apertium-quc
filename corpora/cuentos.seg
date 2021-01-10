@@ -1311,15 +1311,15 @@
 # text[spa'] = Todo ellos pensaron atrás él, dijeron pero: él bueno se siembran árbol.
 # labels = incomplete
 ^Konojel/K>onojel$
-^xkichomaj/*xkichomaj$
+^xkichomaj/x>ki>choma>j$
 ^rij/r>ij$
 ^,/,$
-^xkibʼij/*xkibʼij$
-^kʼut/kʼut/kʼ>ut$
+^xkibʼij/x>ki>bʼij$
+^kʼut/kʼut$
 ^:/:$
 ^areʼ/areʼ$
 ^utz/utz$
-^ketik/*ketik$
+^ketik/k>e>tik$
 ^cheʼ/cheʼ$
 ^./.$
 
@@ -1532,19 +1532,19 @@
 
 # sent_id = cuentos:Keb’_ajyuq’ab’.wiki:9
 # text = Xesikʼixik, kʼate kʼuriʼ xeyajik, xuqujeʼ xetaq bʼi che usikʼik le mes.
-# text[spa'] =  se Llamaron , hasta *kʼuriʼ regañaron , también se enviaron nombre a él agarrar el *mes.
+# text[spa'] =  Se llamaron, entonces regañaron , también se enviaron a agarrar el fertilizador. 
 # labels = incomplete
-^Xesikʼixik/X>e>sikʼix>ik/X>e>sikʼi>x>ik$
+^Xesikʼixik/X>e>sikʼi>x>ik$
 ^,/,$
 ^kʼate/kʼate$
 ^kʼuriʼ/kʼuriʼ$
 ^xeyajik/x>e>yaj>ik$
 ^,/,$
 ^xuqujeʼ/xuqujeʼ$
-^xetaq/*xetaq$
+^xetaq/x>e>taq$
 ^bʼi/bʼi$
 ^che/ch>e$
-^usikʼik/*usikʼik$
+^usikʼik/u>sikʼ>ik$
 ^le/le$
 ^mes/mes$
 ^./.$
@@ -5451,7 +5451,7 @@
 ^nojim/nojim$
 ^xbʼek/x>bʼe>k$
 ^,/,$
-^xuchʼijo/*xuchʼijo$
+^xuchʼijo/x>u>chʼij>o$
 ^xopan/x>opan$
 ^pa/pa$
 ^ukʼisbʼalil/u>kʼisbʼalil$
