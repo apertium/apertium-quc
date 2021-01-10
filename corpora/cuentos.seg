@@ -5389,23 +5389,23 @@
 
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:6
 # text = Xpe ri imul xutzeʼj uwach ri kok, xkiyuk bʼa kʼibʼ le kebʼ awajibʼ rech kel che anim.
-# text[spa'] =  Vino el conejo se rio a la tortuga, *xkiyuk a ellos el dos animales para va a prisa.
+# text[spa'] = Vino el conejo que se rio a la tortuga, se *xkiyuk los dos animales para ir a carrera.
 # labels = incomplete
 ^Xpe/X>pe$
 ^ri/ri$
-^imul/imul/i>mul$
-^xutzeʼj/*xutzeʼj$
+^imul/imul$
+^xutzeʼj/x>u>tzeʼj$
 ^uwach/u>wach$
 ^ri/ri$
-^kok/k>ok$
+^kok/kok$
 ^,/,$
-^xkiyuk/*xkiyuk$
+^xkiyuk/x>ki>yuk$
 ^bʼa/bʼa$
 ^kʼibʼ/kʼ>ibʼ$
 ^le/le$
 ^kebʼ/kebʼ$
 ^awajibʼ/awaj>ibʼ$
-^rech/rech/r>ech$
+^rech/r>ech$
 ^kel/k>el$
 ^che/ch>e$
 ^anim/anim$

@@ -1883,9 +1883,53 @@
 "<.>"
 	"." sent @punct #11->3
 
+# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:6
+# text = Xpe ri imul xutze’j uwach ri kok, xkiyuk b’a k’ib’ le keb’ awajib’ rech kel che anim.
+# text[spa'] = Vino el conejo que se rio a la tortuga, se *xkiyuk los dos animales para ir a carrera.
+# labels = complete check-translation
+"<Xpe>"
+	"pe" v iv perf s_sg3 @root #1->0
+"<ri>"
+	"ri" det @det #2->3
+"<imul>"
+	"imul" n @nsubj #3->1
+"<xutze’j>"
+	"tzeʼj" v tv perf o_sg3 s_sg3 @acl #4->3
+"<uwach>"
+	"wach" n rel px3sg @obl #5->4
+"<ri>"
+	"ri" det @det #6->7
+"<kok>"
+	"kök" n @nmod #7->5
+"<,>"
+	"," cm @punct #8->9
+"<xkiyuk>"
+	"yuk" v tv perf o_sg3 s_pl3 @parataxis #9->1
+"<b’a>"
+	"bʼaʼ" mod @discourse #10->9
+"<k’ib’>"
+	"ibʼ" n rel px3pl @obj #11->9
+"<le>" 
+	"le" det @det #12->14
+"<keb’>"
+	"kebʼ" num @nummod #13->14
+"<awajib’>"
+	"awaj" n pl @nsubj #14->9
+"<rech>"
+	"ech" n rel px3sg @obl #15->9
+"<kel>"
+	"el" v iv impf s_sg3 @acl #16->15
+"<che>"
+	"chi" pr @case #17->18
+		"ech" n rel px3sg @obl #18->16
+"<anim>"
+	"anim" n @nmod #19->18
+"<.>"
+	"." sent @punct #20->1
+
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:7
 # text = Ri kʼamal bʼe xubʼij chike, chimaja ri anim.
-# text[spa'] = La guía dijo a ellos, agarren la prisa.
+# text[spa'] = La guía dijo a ellos, agarren la carrera.
 # labels = complete
 "<Ri>"
 	"ri" det @det #1->2
