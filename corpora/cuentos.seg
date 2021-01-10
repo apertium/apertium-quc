@@ -654,7 +654,7 @@
 ^riʼ/riʼ$
 ^xopan/x>opan$
 ^jun/jun$
-^imul/imul/i>mul$
+^imul/imul$
 ^xutaʼ/*xutaʼ$
 ^che/ch>e$
 ^:/:$
@@ -690,7 +690,7 @@
 # text[spa'] = El conejo agarró un *oqʼej con el niño, llegó un *par pidió al conejo: -por qué cornea el conejo devolvió palabra: -sólo las ovejas del niño quieren van en lugar.
 # labels = incomplete
 ^Ri/Ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^xumaj/*xumaj$
 ^jun/jun$
 ^oqʼej/oqʼej$
@@ -704,14 +704,14 @@
 ^xutaʼ/*xutaʼ$
 ^che/ch>e$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^:/:$
 ^-/-$
 ^jas/jas$
 ^che/ch>e$
 ^katoqʼik/ka>toqʼ>ik/k>at>oqʼ>ik$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^xutzalij/*xutzalij$
 ^utzij/u>tzij$
 ^:/:$
@@ -753,7 +753,7 @@
 ^Xkitzalij/*Xkitzalij$
 ^kitzij/ki>tzij$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^rukʼ/r>ukʼ$
 ^ri/ri$
 ^akʼal/akʼal$
@@ -847,7 +847,7 @@
 ^le/le$
 ^akʼal/akʼal$
 ^,/,$
-^imul/imul/i>mul$
+^imul/imul$
 ^,/,$
 ^xuqujeʼ/xuqujeʼ$
 ^sotzʼ/sotzʼ$
@@ -2642,7 +2642,7 @@
 ^tajij/*tajij$
 ^kutij/*kutij$
 ^jun/jun$
-^imul/imul/i>mul$
+^imul/imul$
 ^ri/ri$
 ^par/par$
 ^xa/xa$
@@ -2709,7 +2709,7 @@
 ^uchiʼ/u>chiʼ$
 ^xutzoqopij/*xutzoqopij$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^,/,$
 ^ri/ri$
 ^par/par$
@@ -2719,7 +2719,7 @@
 ^;/;$
 ^xuchap/*xuchap$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^,/,$
 ^xutijo/*xutijo$
 ^xaq/xaq$
@@ -4374,7 +4374,7 @@
 ^ajtij/ajtij$
 ^xumatzej/*xumatzej$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^xuqujeʼ/xuqujeʼ$
 ^xutzilij/*xutzilij$
 ^ri/ri$
@@ -4387,7 +4387,7 @@
 ^uqʼabʼ/*uqʼabʼ$
 ^ri/ri$
 ^alaj/alaj$
-^imul/imul/i>mul$
+^imul/imul$
 ^./.$
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:9
@@ -4402,7 +4402,7 @@
 ^kʼax/kʼax$
 ^che/ch>e$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^./.$
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:10
@@ -4418,7 +4418,7 @@
 ^kikbʼan/*kikbʼan$
 ^che/ch>e$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^,/,$
 ^are/are$
 ^xkito/*xkito$
@@ -5137,7 +5137,7 @@
 ^jun/jun$
 ^mul/mul/m>ul$
 ^jun/jun$
-^imul/imul/i>mul$
+^imul/imul$
 ^xkʼistaj/*xkʼistaj$
 ^ukʼuʼx/u>kʼuʼx$
 ^rumal/r>umal$
@@ -5226,7 +5226,7 @@
 # text[spa'] = El conejo dijo: –gracias a ti, si inventa la piedad, soporta que miro pedazo *ajsik, el conejo eligió .
 # labels = incomplete
 ^Ri/Ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^xubʼij/*xubʼij$
 ^:/:$
 ^–/–$
@@ -5246,7 +5246,7 @@
 ^,/,$
 ^xchaʼ/x>chaʼ$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^./.$
 
 # sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:5
@@ -5255,7 +5255,7 @@
 # labels = incomplete
 ^Xkʼam/*Xkʼam$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^ajsik/ajsik$
 ^,/,$
 ^are/are$
@@ -5329,7 +5329,7 @@
 # labels = incomplete
 ^Xpe/X>pe$
 ^le/le$
-^imul/imul/i>mul$
+^imul/imul$
 ^xubʼij/*xubʼij$
 ^che/ch>e$
 ^le/le$
@@ -5365,11 +5365,11 @@
 ^Qastzij/Qastzij$
 ^xcha/x>cha$
 ^ri/ri$
-^kok/k>ok$
+^kok/kok$
 ^,/,$
 ^in/in$
 ^nojim/nojim$
-^kinbʼinik/k>in>bʼin>ik/k>in>bʼi>n>ik$
+^kinbʼinik/k>in>bʼin>ik$
 ^./.$
 
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:5
@@ -5431,15 +5431,15 @@
 # text[spa'] = El conejo agarró la prisa, la tortuga dio.
 # labels = incomplete
 ^Ri/Ri$
-^imul/imul/i>mul$
-^xumaj/*xumaj$
+^imul/imul$
+^xumaj/x>u>maj$
 ^ri/ri$
 ^anim/anim$
 ^,/,$
-^xuya/*xuya$
-^kan/kan/k>an$
+^xuya/x>uya$
+^kan/kan$
 ^le/le$
-^kok/k>ok$
+^kok/kok$
 ^./.$
 
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:9
@@ -5464,8 +5464,8 @@
 # text[spa'] = El conejo sufrió, quedó en senda, por él el jefe finge el conejo, la prisa perdió.
 # labels = incomplete
 ^Ri/Ri$
-^imul/imul/i>mul$
-^xuchʼij/*xuchʼij$
+^imul/imul$
+^xuchʼij/x>u>chʼij$
 ^taj/taj$
 ^,/,$
 ^xkanaj/x>kanaj$
@@ -5475,11 +5475,11 @@
 ^rumal/r>umal$
 ^ri/ri$
 ^nimal/nimal$
-^kujaluj/*kujaluj$
+^kujaluj/k>u>jaluj$
 ^ri/ri$
-^imul/imul/i>mul$
+^imul/imul$
 ^,/,$
-^xutzaq/*xutzaq$
+^xutzaq/x>u>tzaq$
 ^ri/ri$
 ^anim/anim$
 ^./.$

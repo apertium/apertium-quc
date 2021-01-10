@@ -13,7 +13,7 @@
 # text = Rajawaxik kakʼaman chawe le utijik le lej.
 # text[spa] =  Es necesario que te acostumbres a comer tortillas.
 # labels = tijonik-41
-^Rajawaxik/rajawaxik$
+^Rajawaxik/Rajawaxik$
 ^kakʼaman/ka>kʼaman$
 ^chawe/ch>aw>e$
 ^le/le$

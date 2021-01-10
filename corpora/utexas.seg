@@ -2357,7 +2357,7 @@
 # text[spa] = Yo lo ayudé (a usted) (activo).
 # labels = tijonik-33 complete
 ^In/in$
-^xintoʼw/<perf><s_sg1>toʼ<v><tv><anti><agfoc>$ 
+^xintoʼw/x>in>toʼ>w$
 ^la/la$
 ^./.$
 
@@ -3142,7 +3142,7 @@
 # labels = tijonik-42 complete
 ^We/we$
 ^chabʼij/ch>>a>bʼi>j$
-^,/,<cm>$ 
+^,/,$ 
 ^na/na$
 ^katinchʼabʼej/k>at>in>chʼabʼe>j$
 ^ta/ta$
@@ -3315,7 +3315,7 @@
 ^ta/ta$
 ^xatbʼe/x>at>bʼe$
 ^wukʼ/w>ukʼ$
-^pa/pa<pr>$ 
+^pa/pa$ 
 ^le/le$
 ^tinamit/tinamit$
 ^,/,$
@@ -3344,7 +3344,7 @@
 ^laʼ/laʼ$
 ^le/le$
 ^ujastaq/u>jastaq$
-^le/le<det>$ 
+^le/le$ 
 ^akʼajol/a>kʼajol$
 ^./.$
 
@@ -3591,7 +3591,7 @@
 # text[spa] = Que ganemos.
 # labels = tijonik-42 complete
 ^Oj/oj$
-^ta/taj<neg>$ 
+^ta/taj$ 
 ^bʼa/bʼa$
 ^chojchʼakanik/>ch>oj>chʼak>an>ik$
 ^./.$
@@ -3630,7 +3630,7 @@
 ^bʼa/bʼa$
 ^le/le$
 ^qaqajaw/qa>qajaw$
-^chattoʼwik/#toʼ#ik$
+^chattoʼwik/ch>at>toʼ>w>ik$
 ^./.$
 
 # sent_id = utexas:295
@@ -3686,7 +3686,7 @@
 # text = Rajawaxik ta ne laʼ katchakun wukʼ.
 # text[spa] = Deberías de trabajar conmigo.
 # labels = tijonik-42 complete
-^Rajawaxik/rajawaxik$
+^Rajawaxik/Rajawaxik$
 ^ta/ta$
 ^ne/ne$
 ^laʼ/laʼ$
@@ -3698,10 +3698,10 @@
 # text = We ne xatkowin ta laʼ xatbʼe rukʼ le al Talin.
 # text[spa] = Tal vez hubieras podido ir con Catarina.
 # labels = tijonik-42 complete
-^We/we$
+^We/We$
 ^ne/ne$
 ^xatkowin/x>at>kowin$
-^ta/taj<neg>$ 
+^ta/taj$ 
 ^laʼ/laʼ$
 ^xatbʼe/x>at>bʼe$
 ^rukʼ/r>ukʼ$
