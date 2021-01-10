@@ -1430,15 +1430,15 @@
 # text = Kʼa te xkilo ekʼo jujun chomaʼq taq cheʼ sibʼalaj, jeʼl kimujal, xuqujeʼ kʼo jun nimalaj bʼinel jaʼ, jun nim uwosaq.
 # text[spa'] = *Kʼa ahora vieron hay árboles gordos algunos mucho, sombra bonita, también hay un grande *bʼinel agua, un campo grande.
 # labels = incomplete
-^Kʼa$
+^Kʼa/Kʼa$
 ^te/te$
-^xkilo/*xkilo$
-^ekʼo/ekʼo$
+^xkilo/x>k>il>o$
+^ekʼo/e>kʼo$
 ^jujun/jujun$
 ^chomaʼq/chom>aʼq$
 ^taq/taq$
 ^cheʼ/cheʼ$
-^sibʼalaj/sibʼalaj$
+^sibʼalaj/sibʼ>alaj$
 ^,/,$
 ^jeʼl/jeʼl$
 ^kimujal/ki>mujal$
@@ -1446,8 +1446,8 @@
 ^xuqujeʼ/xuqujeʼ$
 ^kʼo/kʼo$
 ^jun/jun$
-^nimalaj/nimalaj/nim>alaj$
-^bʼinel/*bʼinel$
+^nimalaj/nim>alaj$
+^bʼinel/bʼinel$
 ^jaʼ/jaʼ$
 ^,/,$
 ^jun/jun$
