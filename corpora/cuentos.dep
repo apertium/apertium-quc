@@ -130,6 +130,46 @@
 "<.>"
 	"." sent @punct #6->1
 
+# sent_id = cuentos:Alaj_imul.wiki:6
+# text = Kʼate xrilo, xpe ri unan che utzukuxik, xkikotik, xusalabʼisaj ri taq uxkin.
+# text[spa'] = Entonces lo vio, vino la madre a buscarlo, estuvo feliz , se movió las orejas.
+# labels = complete check-translation
+"<Kʼate>"
+	"kʼateʼ" adv @advmod #1->2
+"<xrilo>"
+	"il" v tv perf o_sg3 s_sg3 @root #2->0
+		"u" mark @aux:ss #3->2
+"<,>"
+	"," cm @punct #4->5
+"<xpe>"
+	"pe" v iv perf s_sg3 @parataxis #5->2
+"<ri>"
+	"ri" det @det #6->7
+"<unan>"
+	"nan¹" n px3sg @nsubj #7->5
+"<che>"
+	"chi" pr @case #8->9
+		"ech" n rel px3sg @obl #9->5
+"<utzukuxik>"
+	"tzukuj" v tv pass inf s_sg3 @acl #10->9
+"<,>"
+	"," cm @punct #11->12
+"<xkikotik>"
+	"kikot" v iv perf s_sg3 @parataxis #12->5
+		"ik" aux @aux:ss #13->12
+"<,>"
+	"," cm @punct #14->15
+"<xusalabʼisaj>"
+	"salabʼisäj" v tv perf o_sg3 s_sg3 @parataxis #15->12
+"<ri>"
+	"ri" det @det #16->18
+"<taq>"
+	"taq" pl @det #17->18
+"<uxkin>"
+	"xkin" n px3sg @obj #18->15
+"<.>"
+	"." sent @punct #19->2
+
 # sent_id = cuentos:Alaj_imul.wiki:7
 # text = Xutaʼ sachbʼal umak che ri unan.
 # text[spa'] = Pidió desculpa a su madre.
@@ -302,6 +342,47 @@
 "<.>"
 	"." sent @punct #12->3
 
+# sent_id = cuentos:Alaj_kuk.wiki:6
+# text = Are kʼu le palomax xubʼij che: - mam katbʼison taj, kinsikʼij nikʼaj wachiʼl kerapapik.
+# text[spa'] = Pero la paloma le dijo: - abuelo estás triste , llamo otros amigos míos que vuelan.
+# labels = complete check-translation check-attachment
+"<Are>"
+	"are" adv @discourse #1->5
+"<kʼu>"
+	"kʼut" part @discourse #2->5
+"<le>"
+	"le" det @det #3->4
+"<palomax>"
+	"palomäx" n @nsubj #4->5
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3 @root #5->0
+"<che>"
+	"chi" pr @case #6->7
+		"ech" n rel px3sg @obl #7->5
+"<:>"
+	":" sent @punct #8->5
+"<->"
+	"-" guio @punct #9->11
+"<mam>"
+	"mam" n @vocative #10->11
+"<katbʼison>"
+	"bʼison" v iv impf s_sg2 @parataxis #11->5
+"<taj>"
+	"taj" aux @aux #12->11
+"<,>"
+	"," cm @punct #13->14
+"<kinsikʼij>"
+	"sikʼij" v tv impf o_sg3 s_sg1 @parataxis #14->11
+"<nikʼaj>"
+	"nikʼaj" adj @amod #15->16
+"<wachiʼl>"
+	"achiʼl" n px1sg @obj #16->14
+"<kerapapik>"
+	"rapap" v iv impf s_pl3 @acl #17->16
+		"ik" aux @aux:ss #18->17
+"<.>"
+	"." sent @punct #19->5
+
 # sent_id = cuentos:Alaj_kuk.wiki:8
 # text = Utz chaqe kaqatoʼ qibʼ, taq kʼo kʼaxkʼolil, katewechiʼn ri Ajaw paqawiʼ.
 # text[spa'] = Es bueno a nosotros ayudar a nosotros, cuando hay sufrimiento, está bendito el Dueño encima de nosotros.
@@ -386,6 +467,85 @@
 	"tij" v tv inf s_sg3 @advcl #12->7
 "<.>"
 	"." sent @punct #13->1
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:2
+# text = Xkʼulmataj jumul, xubʼan jun nimalaj jabʼ, man xbʼeyetaj ta na xukʼis le uyuqʼ chike.  
+# text[spa'] =  Pasó vez, hizo una lluvia grande, no se les tardó acabar su pastoreo. 
+# labels = complete check-translation
+"<Xkʼulmataj>"
+	"kʼulmaj" v tv pass stat perf s_sg3 @root #1->0
+"<jumul>"
+	"jumul" n @nsubj #2->1
+"<,>"
+	"," cm @punct #3->4
+"<xubʼan>"
+	"bʼan" v tv perf o_sg3 s_sg3 @parataxis #4->1
+"<jun>"
+	"jun" det @det #5->7
+"<nimalaj>"
+	"nim" adj ints @amod #6->7
+"<jabʼ>"
+	"jäbʼ" n @obj #7->4
+"<,>"
+	"," cm @punct #8->10
+"<man>"
+	"man" neg @aux:neg #9->10
+"<xbʼeyetaj>"
+	"bʼeyetaj" v iv perf s_sg3 @parataxis #10->4
+"<ta>"
+	"taj" neg @aux:neg #11->10
+"<na>"
+	"na" adv fut @advmod #12->13
+"<xukʼis>"
+	"kʼis" v tv perf o_sg3 s_sg3 @csubj #13->10
+"<le>"
+	"le" det @det #14->15
+"<uyuqʼ>"
+	"yuqʼ" n px3sg @obj #15->13
+"<chike>"
+	"chi" pr @case #16->17
+		"ech" n rel px3pl @obl #17->13
+"<.>"
+	"." sent @punct #18->1
+
+# sent_id = cuentos:Jun_ajyuq’.wiki:4
+# text = Le akʼal xubʼij che: - xa che ri nuchij kkaj ta kebʼe pa kikʼolibʼal.
+# text[spa'] = El niño dijo a él: -sólo a mis ovejas quieren ir en su lugar.
+# labels = complete check-translation
+"<Le>"
+	"le" det @det #1->2
+"<akʼal>"
+	"akʼal" n @nsubj #2->3
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3 @root #3->0
+"<che>"
+	"chi" pr @case #4->5
+		"ech" n rel px3sg @obl #5->3
+"<:>"
+	":" sent @punct #6->3
+"<->"
+	"-" guio @punct #7->13
+"<xa>"
+	"xa" adv @advmod #8->13
+"<che>"
+	"chi" pr @case #9->10
+		"ech" n rel px3sg @obl #10->13
+"<ri>"
+	"ri" det @det #11->12
+"<nuchij>"
+	"chij" n px1sg @nmod #12->10
+"<kkaj>"
+	"aj" v tv impf o_sg3 s_pl3 @ccomp #13->3
+"<ta>"
+	"taj" aux @aux #14->13
+"<kebʼe>"
+	"bʼe" v iv impf s_pl3 @ccomp #15->13
+"<pa>"
+	"pa" pr @case #16->17
+"<kikʼolibʼal>"
+	"kʼolbʼal" n px3pl @obl #17->15
+"<.>"
+	"." sent @punct #18->3
 
 # sent_id = cuentos:Jun_ajyuq’.wiki:6
 # text = Xopan jun wonon, xutaʼ chike: - jas che kixoqʼik?
@@ -1246,6 +1406,34 @@
 "<.>"
 	"." sent @punct #8->4
 
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:8
+# text = Ri unan xubʼij che:  -xbʼe oxibʼ qʼij katqatzukuj. 
+# text[spa'] = Su madre le dijo: - se fue tres días que te hemos buscado.
+# labels = complete check-relative
+"<Ri>"
+	"ri" det @det #1->2
+"<unan>"
+	"nan¹" n px3sg @nsubj #2->3
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3 @root #3->0
+"<che>"
+	"chi" pr @case #4->5
+		"ech" n rel px3sg @obl #5->3
+"<:>"
+	":" sent @punct #6->3
+"<->"
+	"-" guio @punct #7->8
+"<xbʼe>"
+	"bʼe" v iv perf s_sg3 @parataxis #8->3
+"<oxibʼ>"
+	"oxibʼ" num @nummod #9->10
+"<qʼij>"
+	"qʼij" n @nsubj #10->8
+"<katqatzukuj>"
+	"tzukuj" v tv impf o_sg2 s_pl1 @acl #11->10
+"<.>"
+	"." sent @punct #12->3
+
 # sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:2
 # text = Keriqitaj kebʼ kʼaybʼal jaʼ jun miqʼin, jun saqliʼ.
 # text[spa'] = Se encuentran dos tiendas de agua un templado, un hirvido.
@@ -1376,6 +1564,40 @@
 	"Abʼaj" np top @flat #11->10
 "<.>"
 	"." sent @punct #12->2
+
+# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:2
+# text = Ri alaj ali Choʼn bʼenaq pa tijobʼal rachiʼl ri uchaqʼ Siʼl sibʼalaj kekiʼkotik.
+# text[spa'] = El pequeño Choʼn ha ido a la escuela del amigo del hermano de Siʼl mucho están feliz .
+# labels = complete check-morphology
+"<Ri>"
+	"ri" det @det #1->3
+"<alaj>"
+	"alaj" adj @amod #2->3
+"<ali>"
+	"ali" n @nsubj #3->5
+"<Choʼn>"
+	"Choʼn" np ant f @appos #4->3
+"<bʼenaq>"
+	"bʼe" v iv pp s_sg3 @root #5->0
+"<pa>"
+	"pa" pr @case #6->7
+"<tijobʼal>"
+	"tijobʼal" n @obl #7->5
+"<rachiʼl>"
+	"achiʼl" n px3sg @nmod #8->7
+"<ri>"
+	"ri" det @det #9->10
+"<uchaqʼ>"
+	"chaqʼ¹" n px3sg @nmod #10->8
+"<Siʼl>"
+	"Siʼl" np ant f @nmod #11->10
+"<sibʼalaj>"
+	"sibʼalaj" adv @advmod #12->13
+"<kekiʼkotik>"
+	"kikot" v iv impf s_pl3 @parataxis #13->5
+		"ik" aux @aux:ss #14->13
+"<.>"
+	"." sent @punct #15->5
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:3
 # text = Pa ri bʼe xkiraq jun alaj imul saq rij, xkikʼam bʼik.
@@ -1777,6 +1999,59 @@
 	"Ajkuʼn" np top @nmod #11->10
 "<.>"
 	"." sent @punct #12->4
+
+# sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:4
+# text = Ri imul xubʼij: – maltyox chawe, we kabʼan ri toqʼobʼ, chakuyuʼ kinkaʼy apan jutzʼit ajsik, xchaʼ ri imul.
+# text[spa'] = El conejo dijo: – gracias a ti, si haces el favor, soporta que miro un poco arriba, el conejo dijo.
+# labels = complete check-translation
+"<Ri>"
+	"ri" det @det #1->2
+"<imul>"
+	"imul" n @nsubj #2->3
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3 @root #3->0
+"<:>"
+	":" sent @punct #4->3
+"<–>"
+	"–" guio @punct #5->6
+"<maltyox>"
+	"maltyox" ij @ccomp #6->3
+"<chawe>"
+	"chi" pr @case #7->8
+		"ech" n rel px2sg @obl #8->6
+"<,>"
+	"," cm @punct #9->11
+"<we>"
+	"we" cnjsub @advcl #11->12
+"<kabʼan>"
+	"bʼan" v tv impf o_sg3 s_sg2 @advcl #12->16
+"<ri>"
+	"ri" det @det #13->14
+"<toqʼobʼ>"
+	"toqʼobʼ" n @obj #14->12
+"<,>"
+	"," cm @punct #15->16
+"<chakuyuʼ>"
+	"kuy" v tv imp o_sg3 s_sg2 @parataxis #16->6
+		"uʼ" mark @aux:ss #17->16
+"<kinkaʼy>"
+	"kaʼy" v iv impf s_sg1 @ccomp #18->16
+"<apan>"
+	"apan" adv dir @advmod #19->18
+"<jutzʼit>"
+	"jutzʼit" adv @advmod #20->18
+"<ajsik>"
+	"ajsik" adv @advmod #21->18
+"<,>"
+	"," cm @punct #22->23
+"<xchaʼ>"
+	"chaʼ" v iv perf s_sg3 @parataxis #23->16
+"<ri>"
+	"ri" det @det #24->15
+"<imul>"
+	"imul" n @nsubj #25->13
+"<.>"
+	"." sent @punct #26->3
 
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:1
 # text = Xkʼulmataj pa jun Komon chiʼ uwach jun juyubʼ, xuriqa jun qʼij xkiriq kibʼ jun imul rukʼ le kok.
@@ -2414,6 +2689,74 @@
 "<.>"
 	"." sent @punct #21->7
 
+# sent_id = cuentos:Ri_k’wa’.wiki:1
+# text = Pa jun nim kʼacheʼlaj, kʼo jun kʼwaʼ sibʼalaj saqloloj, nim uwach.
+# text[spa'] = En un bosque grande, hay un pozo mucho blanco, su aspecto es grande.
+# labels = complete check-translation
+"<Pa>"
+	"pa" pr @case #1->4
+"<jun>"
+	"jun" det @det #2->4
+"<nim>"
+	"nim" adj @amod #3->4
+"<kʼacheʼlaj>"
+	"kʼacheʼlaj" n @obl #4->6
+"<,>"
+	"," cm @punct #5->4
+"<kʼo>"
+	"kʼo" part @root #6->0
+"<jun>"
+	"jun" det @det #7->8
+"<kʼwaʼ>"
+	"kʼwaʼ" n @nsubj #8->6
+"<sibʼalaj>"
+	"sibʼalaj" adv @advmod #9->10
+"<saqloloj>"
+	"saqloloj" adj @amod #10->8
+"<,>"
+	"," cm @punct #11->12
+"<nim>"
+	"nim" adj @parataxis #12->6
+"<uwach>"
+	"wach" n px3sg @nsubj #13->12
+"<.>"
+	"." sent @punct #14->6
+
+# sent_id = cuentos:Ri_k’wa’.wiki:5
+# text = We kechajix taq le kʼwa jacha kinbʼij; junalik kʼo jaʼ xuqujeʼ sibʼalaj saqloloj.
+# text[spa'] = Si se cuidan los pozos como digo; eterno hay agua también mucho blanco.
+# labels = complete check-translation check-conjunction
+"<We>"
+	"we" cnjsub @mark #1->2
+"<kechajix>"
+	"chajij" v tv pass impf s_pl3 @advcl #2->10
+"<taq>"
+	"taq" pl @det #3->5
+"<le>"
+	"le" det @det #4->5
+"<kʼwa>"
+	"k’wa’" n @nsubj #5->2
+"<jacha>"
+	"jacha" adv @advmod #6->7
+"<kinbʼij>"
+	"bʼij" v tv impf o_sg3 s_sg1 @acl #7->5
+"<;>"
+	";" sent @punct #8->2
+"<junalik>"
+	"junalik" adv @advmod #9->10
+"<kʼo>"
+	"kʼo" part @root #10->0
+"<jaʼ>"
+	"jaʼ" n @nsubj #11->10
+"<xuqujeʼ>"
+	"xuqujeʼ" cnjcoo @cc #12->14
+"<sibʼalaj>"
+	"sibʼalaj" adv @advmod #13->14
+"<saqloloj>"
+	"saqloloj" adj @conj #14->10
+"<.>"
+	"." sent @punct #15->10
+
 # sent_id = cuentos:Ri_k’wa’.wiki:10
 # text = Xa rumal ketaʼm konojel ri winaq kkiqumuj le jaʼ. 
 # text[spa'] = Sólo por eso lo supieron todas las personas que beben el agua. 
@@ -2478,6 +2821,45 @@
 	"ichäj" n @obj #17->12
 "<.>"
 	"." sent @punct #18->12
+
+# sent_id = cuentos:Ri_tiko'n_ichaj.wiki:4
+# text = Rax, rax, rax, kʼokʼ, kʼokʼ, kʼokʼ le ruxlabʼ le taq tikoʼn.
+# text[spa'] = Verde, verde, verde, aromático, aromático, aromático el espíritu de las creaciones.
+# labels = complete check-everything
+"<Rax>"
+	"rax" adj @root #1->0
+"<,>"
+	"," cm @punct #2->3
+"<rax>"
+	"rax" adj @conj #3->1
+"<,>"
+	"," cm @punct #4->5
+"<rax>"
+	"rax" adj @conj #5->1
+"<,>"
+	"," cm @punct #6->7
+"<kʼokʼ>"
+	"kʼokʼ" adj @conj #7->1
+"<,>"
+	"," cm @punct #8->9
+"<kʼokʼ>"
+	"kʼokʼ" adj @conj #9->7
+"<,>"
+	"," cm @punct #10->11
+"<kʼokʼ>"
+	"kʼokʼ" adj @conj #11->7
+"<le>"
+	"le" det @det #12->13
+"<ruxlabʼ>"
+	"uxlabʼal" n px3sg @nsubj #13->1
+"<le>"
+	"le" det @det #14->16
+"<taq>"
+	"taq" pl @det #15->16
+"<tikoʼn>"
+	"tikoʼn" n @nmod #16->13
+"<.>"
+	"." sent @punct #17->1
 
 # sent_id = cuentos:Ri_tukur.wiki:7
 # text = Ri Awel xretaʼmaj chi rajawaxik man kuxej ta ribʼ che ri tukur.
@@ -2731,7 +3113,7 @@
 	"kʼat" v iv inf s_sg3
 "<kayuqʼunik>"
 	"yuqʼuj" v tv anti agfoc impf s_sg3
-		"ik" mark
+		"ik" aux
 "<,>"
 	"," cm @punct
 "<ekʼo>"

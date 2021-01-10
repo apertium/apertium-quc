@@ -581,19 +581,19 @@
 # text = Xkʼulmataj jumul, xubʼan jun nimalaj jabʼ, man xbʼeyetaj ta na xukʼis le uyuqʼ chike.
 # text[spa'] =  Pasó vez, hizo una lluvia grande, no se tardó acabó el *uyuqʼ a ellos.
 # labels = incomplete
-^Xkʼulmataj/*Xkʼulmataj$
+^Xkʼulmataj/X>kʼulma>taj$
 ^jumul/jumul$
 ^,/,$
-^xubʼan/*xubʼan$
+^xubʼan/x>u>bʼan$
 ^jun/jun$
-^nimalaj/nimalaj/nim>alaj$
+^nimalaj/nim>alaj$
 ^jabʼ/jabʼ$
 ^,/,$
-^man/man/m>an$
-^xbʼeyetaj/*xbʼeyetaj$
+^man/man$
+^xbʼeyetaj/x>bʼeyetaj$
 ^ta/ta$
 ^na/na$
-^xukʼis/*xukʼis$
+^xukʼis/x>u>kʼis$
 ^le/le$
 ^uyuqʼ/u>yuqʼ$
 ^chike/chi>k>e$
@@ -5227,18 +5227,18 @@
 # labels = incomplete
 ^Ri/Ri$
 ^imul/imul$
-^xubʼij/*xubʼij$
+^xubʼij/x>u>bʼij$
 ^:/:$
 ^–/–$
 ^maltyox/maltyox$
 ^chawe/ch>aw>e$
 ^,/,$
-^we/we/w>e$
-^kabʼan/*kabʼan$
+^we/we$
+^kabʼan/k>a>bʼan$
 ^ri/ri$
 ^toqʼobʼ/toqʼobʼ$
 ^,/,$
-^chakuyuʼ/*chakuyuʼ$
+^chakuyuʼ/ch>a>kuy>uʼ$
 ^kinkaʼy/k>in>kaʼy$
 ^apan/apan$
 ^jutzʼit/jutzʼit$
@@ -5861,7 +5861,7 @@
 ^,/,$
 ^kʼo/kʼo$
 ^jun/jun$
-^kʼwaʼ/kʼwaʼ/kʼ>waʼ$
+^kʼwaʼ/kʼwaʼ$
 ^sibʼalaj/sibʼalaj$
 ^saqloloj/saqloloj$
 ^,/,$
@@ -5949,13 +5949,13 @@
 # text = We kechajix taq le kʼwa jacha kinbʼij; junalik kʼo jaʼ xuqujeʼ sibʼalaj saqloloj.
 # text[spa'] = Este se cuidan las comidas como digo; eterno hay agua también mucho blanco.
 # labels = incomplete
-^We/We/W>e$
-^kechajix/*kechajix$
+^We/We$
+^kechajix/k>e>chaji>x$
 ^taq/taq$
 ^le/le$
-^kʼwa/kʼ>wa$
+^kʼwa/kʼwa$
 ^jacha/jacha$
-^kinbʼij/*kinbʼij$
+^kinbʼij/k>in>bʼij$
 ^;/;$
 ^junalik/junalik$
 ^kʼo/kʼo$
