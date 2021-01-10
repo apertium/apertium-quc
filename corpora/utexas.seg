@@ -188,7 +188,7 @@
 # text = Nutom le tzij…
 # text[eng] = I have heard the word…
 # labels = tijonik-2 complete
-^Nutom/in>toʼ>om$
+^Nutom/nu>tom$
 ^le/le$
 ^tzij/tzij$
 ^…/…$
@@ -1425,7 +1425,7 @@
 ^taq/taq$
 ^le/le$
 ^cheʼ/cheʼ$
-^tikil/#tikil$
+^tikil/tikil$
 ^chi/chi$
 ^le/le$
 ^bʼe/bʼe$
@@ -2510,7 +2510,7 @@
 # text = Chitatabʼej jas we kimbʼij.
 # text[spa] = Escuchen esto que digo (ahora mismo).
 # labels = tijonik-34 complete
-^Chitatabʼej/ch>>i>tatabe>j$
+^Chitatabʼej/ch>>i>tatabʼe>j$
 ^jas/jas$
 ^we/we$
 ^kimbʼij/k>>im>bʼi>j$
@@ -2520,7 +2520,7 @@
 # text = Chitatabʼej jas le kimbʼij.
 # text[spa] = Escuchen esto que digo (en este momento).
 # labels = tijonik-34 complete
-^Chitatabʼej/ch>>i>tatabe>j$
+^Chitatabʼej/ch>>i>tatabʼe>j$
 ^jas/jas$
 ^le/le$
 ^kimbʼij/k>>im>bʼi>j$
@@ -2530,7 +2530,7 @@
 # text = Chitatabʼej jas ri kimbʼij.
 # text[spa] = Escuchen esto que les digo.
 # labels = tijonik-34 complete
-^Chitatabʼej/ch>>i>tatabe>j$
+^Chitatabʼej/ch>>i>tatabʼe>j$
 ^jas/jas$
 ^ri/ri$
 ^kimbʼij/k>>im>bʼi>j$
@@ -2540,7 +2540,7 @@
 # text = Chitatabʼej jas we kimbʼij chiwe.
 # text[spa] = Escuchen esto que les digo a ustedes.
 # labels = tijonik-34 complete
-^Chitatabʼej/ch>>i>tatabe>j$
+^Chitatabʼej/ch>>i>tatabʼe>j$
 ^jas/jas$
 ^ri/ri$
 ^kimbʼij/k>>im>bʼi>j$
@@ -3591,7 +3591,7 @@
 # text[spa] = Que ganemos.
 # labels = tijonik-42 complete
 ^Oj/oj$
-^ta/taj$ 
+^ta/ta$ 
 ^bʼa/bʼa$
 ^chojchʼakanik/>ch>oj>chʼak>an>ik$
 ^./.$
@@ -3701,7 +3701,7 @@
 ^We/We$
 ^ne/ne$
 ^xatkowin/x>at>kowin$
-^ta/taj$ 
+^ta/ta$ 
 ^laʼ/laʼ$
 ^xatbʼe/x>at>bʼe$
 ^rukʼ/r>ukʼ$

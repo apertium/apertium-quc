@@ -2,12 +2,12 @@
 # text = Ri nim taq chuchqajawibʼ, xoqujeʼ kkaj kkikamisaj ri Lasaro.
 # text[spa] = Pero los principales sacerdotes acordaron dar muerte también a Lázaro.
 # labels = Juan:12:10
-^Ri/ri$
+^Ri/Ri$
 ^nim/nim$
 ^taq/taq$
 ^chuchqajawibʼ/chuchqajaw>ibʼ$
 ^,/,$
-^xoqujʼe/xoqujeʼ$
+^xoqujʼe/xoqujʼe$
 ^kkaj/k>>k>aj$
 ^kkikamisaj/k>>ki>kamisaj$
 ^ri/ri$
@@ -18,7 +18,7 @@
 # text = Kʼatekʼut, xinbʼe pa ri Siriʼa e pa ri Silisiʼa;
 # text[spa] = Más tarde fui a las regiones de Siria y Cilicia.
 # labels = Gal:9:1
-^Kʼatekʼut/kʼateʼkut$
+^Kʼatekʼut/Kʼatekʼut$
 ^,/,$
 ^xinbʼe/x>in>bʼe$
 ^pa/pa$
@@ -34,7 +34,7 @@
 # text = Kbʼe pa ri Siriʼa e pa ri Silisiʼa, jawijeʼ kuya wi ri kichuqʼabʼ ri Komon Tyox.
 # text[spa] = Y viajó por Siria y Cilicia, consolidando a las iglesias.
 # labels = Hechos:5:1
-^Kbʼe/k>>bʼe$
+^Kbʼe/K>>bʼe$
 ^pa/pa$
 ^ri/ri$
 ^Siriʼa/Siriʼa$
@@ -131,7 +131,7 @@
 ^ktzaqik/k>>tzaq>ik$
 ^¿/¿$
 ^la/la$
-^man/man/m>>an$
+^man/man$
 ^kinporoj/k>in>poroj$
 ^ta/ta$
 ^wibʼ/w>ibʼ$
@@ -143,7 +143,7 @@
 # text = Chinatisaj ri rixoqil ri Lot.
 # text[spa] = ­Acuérdense de la esposa de Lot!
 # labels = incomplete
-^Chinatisaj/chi>naʼtisaj$
+^Chinatisaj/Chi>natisa>j$
 ^ri/ri$
 ^rixoqil/r>ixoqil$
 ^ri/ri$
@@ -154,7 +154,7 @@
 # text = Ri in, xintaq bʼi ri Tikiko pa ri Efeso.
 # text[spa] = A Tíquico lo mandé a Éfeso.
 # labels = complete
-^Ri/ri$
+^Ri/Ri$
 ^in/in$
 ^,/,$
 ^xintaq/x>in>taq$
@@ -170,11 +170,11 @@
 # text = Kʼisbʼal kanoq, xoqujeʼ kkam ri ixoq.
 # text[spa] = Por último, murió también la mujer.
 # labels = complete
-^Kʼisbʼal/kʼisbʼal$
+^Kʼisbʼal/Kʼisbʼal$
 ^kanoq/kan>oq$
 ^,/,$
-^xoqujeʼ/xuqujʼe$
-^kkam/k>käm$
+^xoqujeʼ/xoqujeʼ$
+^kkam/k>kam$
 ^ri/ri$
 ^ixoq/ixoq$
 ^./.$
@@ -183,7 +183,7 @@
 # text = Jeriʼ kkibʼan chkech ri winaq.
 # text[spa] = Así lo hicieron los discípulos, y se sentaron todos.
 # labels = incomplete
-^Jeriʼ/jeriʼ$
+^Jeriʼ/Jeriʼ$
 ^kkibʼan/k>ki>bʼan$
 ^chkech/ch>k>ech$
 ^ri/ri$
@@ -194,7 +194,7 @@
 # text = Ronojel winaq kril na ri ukolonem ri Dyos».
 # text[spa] = Y todo mortal verá la salvación de Dios.” »
 # labels = incomplete
-^Ronojel/r>onojel$
+^Ronojel/R>onojel$
 ^winaq/winaq$
 ^kril/k>r>il$
 ^na/na$
@@ -209,7 +209,7 @@
 # text = Ri Simon e ri erachiʼl kkiterneʼbʼej ubʼi ri areʼ.
 # text[spa] = Simón y sus compañeros salieron a buscarlo.
 # labels = complete
-^Ri/ri$
+^Ri/Ri$
 ^Simon/Simon$
 ^e/e$
 ^ri/ri$
@@ -225,7 +225,7 @@
 # text[spa] = «No tomes en tus manos, no pruebes, no toques»?
 # labels = incomplete
 ^«/«$
-^Makʼam/m>a>kʼam$
+^Makʼam/M>a>kʼam$
 ^ubʼi/u>bʼi$
 ^weriʼ/weriʼ$
 ^,/,$
@@ -241,7 +241,7 @@
 # text = Kʼatekʼuriʼ, pa taq we qʼij riʼ, ri Jesus kpe uloq chi pa ri Nasaret rech ri Galileʼa, kʼatekʼuriʼ ri Xwan kubʼan uqasnaʼ pa ri Jordan.
 # text[spa] = En esos días llegó Jesús desde Nazaret de Galilea y fue bautizado por Juan en el Jordán.
 # labels = incomplete
-^Kʼatekʼuriʼ/kʼatekʼuriʼ$
+^Kʼatekʼuriʼ/Kʼatekʼuriʼ$
 ^,/,$
 ^pa/pa$
 ^taq/taq$
@@ -275,7 +275,7 @@
 # text = Ri unan e ri erachalal kepe uloq rukʼ ri areʼ, kʼatekʼuriʼ, man kekowin taj keqibʼ ukoq rukʼ, rumal rech che ekʼo sibʼalaj winaq.
 # text[spa] = La madre y los hermanos de Jesús fueron a verlo, pero como había mucha gente, no lograban acercársele.
 # labels = incomplete
-^Ri/ri$
+^Ri/Ri$
 ^unan/u>nan$
 ^e/e$
 ^ri/ri$
@@ -307,7 +307,7 @@
 # text = Kbʼe kukʼ ri eʼareʼ e ktzalij pa ri Nasaret e keʼunimaj.
 # text[spa] = Así que Jesús bajó con sus padres a Nazaret y vivió sujeto a ellos.
 # labels = incomplete
-^Kbʼe/k>bʼe$
+^Kbʼe/K>bʼe$
 ^kukʼ/k>ukʼ$
 ^ri/ri$
 ^eʼareʼ/eʼareʼ$
@@ -324,7 +324,7 @@
 # text = Ri unan kukʼol ronojel we jastaq riʼ pa ri ranimaʼ.
 # text[spa] = Pero su madre conservaba todas estas cosas en el corazón.
 # labels = incomplete
-^Ri/ri$
+^Ri/Ri$
 ^unan/u>nan$
 ^kukʼol/k>u>kʼol$
 ^ronojel/r>onojel$

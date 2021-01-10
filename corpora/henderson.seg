@@ -350,14 +350,14 @@
 ^./.$
 
 # sent_id = henderson:33a
-# text = Xuchap ri bʼah ri xutij qakinaq.
+# text = Xuchap ri bʼa ri xutij qakinaq.
 # text[orig] = Xu-chap-Ø ri bʼah ri xu-tij-Ø qa-kinaq.
 # text[gloss] = INFL-catch the gopher PRN INFL-eat our-beans
 # text[eng] = He caught the gopher that ate our beans.
 # label = incomplete
 ^Xuchap/X>u>chap$
 ^ri/ri$
-^bʼah/bʼa$
+^bʼa/bʼa$
 ^ri/ri$
 ^xutij/x>u>tij$
 ^qakinaq/qa>kinaq$
@@ -389,7 +389,7 @@
 # text[gloss] = INFL-buy a.lot
 # text[eng] = I bought a lot.
 # label = incomplete
-^X>in>loqʼ/X>in>loqʼ$
+^Xinloqʼ/X>in>loqʼ$
 ^kʼi/kʼi$
 ^./.$
 
@@ -399,7 +399,7 @@
 # text[gloss] = INFL-buy a.lot tortilla
 # text[eng] = I bought a lot of tortillas.
 # label = incomplete
-^X>in>loqʼ/X>in>loqʼ$
+^Xinloqʼ/X>in>loqʼ$
 ^kʼi/kʼi$
 ^wa/wa$
 ^./.$
@@ -416,14 +416,14 @@
 ^./.$
 
 # sent_id = henderson:51a
-# text = Are le bʼah xokik.
+# text = Are le bʼa xokik.
 # text[orig] = Are le bʼah x-ok-ik.
 # text[gloss] = FOC the gopher INFL-enter-SS
 # text[eng] = It was the gopher that entered.
 # label = incomplete
 ^Are/Are$
 ^le/le$
-^bʼa/*bʼa$
+^bʼa/bʼa$
 ^xokik/x>ok>ik$
 ^./.$
 
