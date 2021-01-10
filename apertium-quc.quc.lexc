@@ -4709,6 +4709,7 @@ ajtikonel:ajtikonnel N-tinamit ; ! "sembrador" ! Use/Spell ! Src/Biblia
 chomabʼal:chomabʼal N-tinamit ; ! "actitud, pensamiento"
 sabʼado:sabʼado N-tinamit ; ! "sábado"
 bʼaqil:bʼaqil N-tinamit ; ! "cuerpo"
+chʼakul:chʼakul N-tinamit ; ! "cuerpo"
 
 loqʼoqʼebʼal:loqʼoqʼebʼal N-tinamit ;
 bʼaqilal:bʼaqilal N-tinamit ;
@@ -7273,7 +7274,8 @@ taqchiʼj:taqchiʼ                   V-TV-D ; ! "tempt"
 taqchʼij:taqchʼi                   V-TV-D ; ! "force" !  Src/CanPixabaj
 taqej:taqe                         V-TV-D ; ! "continue doing something"
 tas:tas                            V-TV-R ; ! "separate"
-tatabʼej:tatabe                     V-TV-D ; ! "hearken"
+tatabʼej:tatabʼe                     V-TV-D ; ! "hearken"
+tatabʼej:tatbʼe                     V-TV-D ; ! "hearken" ! Src/Dico
 tatzʼij:tatzʼi                     V-TV-D ; ! "break (leg, bone)"
 taʼ:taʼ                            V-TV-R ; ! "preguntar; ask"
 tekʼbʼaj:tekʼba                     V-TV-D ; ! "suppor something vertical"
