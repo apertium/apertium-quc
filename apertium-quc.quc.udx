@@ -74,6 +74,7 @@ _	emph	_	_	_	PART	_	_
 _	foc	_	_	_	PART	Focus=Yes	_
 _	n	_	_	_	NOUN	_	_
 _	clf	_	_	_	NOUN	_	_
+_	abbr	_	_	_	NOUN	_	_
 _	np	_	_	_	PROPN	_	_
 _	num	_	_	_	NUM	_	_
 _	adj	_	_	_	ADJ	_	_

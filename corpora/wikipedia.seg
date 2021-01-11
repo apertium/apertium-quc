@@ -1,0 +1,544 @@
+# sent_id = wikipedia:Tripanosomiasis_africana:1
+# text = Tripanosomiasis africana on yabʼilal rech waram are jun uchikopil yabʼil kech e winaq chiʼl awajibʼ.
+# text[eng] = African trypanosomiasis or sleeping sickness is a parasitic disease of humans and other animals.
+# labels = complete
+^Tripanosomiasis/Tripanosomiasis$
+^africana/africana$
+^on/on$
+^yabʼilal/yabʼilal$
+^rech/r>ech$
+^waram/waram$
+^are/are$
+^jun/jun$
+^uchikopil/u>chikopil$
+^yabʼil/yabʼil$
+^kech/k>ech$
+^e/e$
+^winaq/winaq$
+^chiʼl/chiʼl$
+^awajibʼ/awaj>ibʼ$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:2
+# text = Are kayoʼw le uchikopil le ubʼantajik Trypanosoma brucei.
+# text[eng] = It is caused by protozoa of the species Trypanosoma brucei.
+# labels = complete
+^Are/Are$
+^kayoʼw/ka>yoʼw$
+^le/le$
+^uchikopil/u>chikopil$
+^le/le$
+^ubʼantajik/u>bʼantajik$
+^Trypanosoma/Trypanosoma$
+^brucei/brucei$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:3
+# text = Kʼo kebʼ ubʼantajik le kubʼan kʼax chi kech le e winaq, Trypanosoma brucei gambiense (T.b.g) chiʼl Trypanosoma brucei rhodesiense (T.b.r.).
+# text[eng] = There are two types that infect humans, Trypanosoma brucei gambiense (T.b.g) and Trypanosoma brucei rhodesiense (T.b.r.).
+# labels = complete
+^Kʼo/Kʼo$
+^kebʼ/kebʼ$
+^ubʼantajik/u>bʼantajik$
+^le/le$
+^kubʼan/k>u>bʼan$
+^kʼax/kʼax$
+^chi/chi$
+^kech/k>ech$
+^le/le$
+^e/e$
+^winaq/winaq$
+^,/,$
+^Trypanosoma/Trypanosoma$
+^brucei/brucei$
+^gambiense/gambiense$
+^(/($
+^T.b.g/T.b.g$
+^)/)$
+^chiʼl/chiʼl$
+^Trypanosoma/Trypanosoma$
+^brucei/brucei$
+^rhodesiense/rhodesiense$
+^(/($
+^T.b.r/T.b.r$
+^)/)$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:4
+# text = T.b.g are kabʼanow chech le 98% taq yabʼil kayaʼ ubʼixik.
+# text[eng] = T.b.g causes over 98% of reported cases.
+# labels = complete
+^T.b.g/T.b.g$
+^are/are$
+^kabʼanow/ka>bʼan>ow$
+^chech/ch>ech$
+^le/le$
+^98%/98%$
+^taq/taq$
+^yabʼil/yabʼil$
+^kayaʼ/ka>yaʼ$
+^ubʼixik/u>bʼixik$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:5
+# text = Kayaʼtajik rukʼ utiʼonem jun ri uriqom le yabʼil amolo tsetsé xuqujeʼ are kayaʼtaj pa taq ri juyubʼ.
+# text[eng] = Both are usually transmitted by the bite of an infected tsetse fly and are most common in rural areas.
+# labels = incomplete
+^Kayaʼtajik/Ka>yaʼ>taj>ik$
+^rukʼ/r>ukʼ$
+^utiʼonem/u>tiʼonem$
+^jun/jun$
+^ri/ri$
+^uriqom/*uriqom$
+^le/le$
+^yabʼil/yabʼil$
+^amolo/amolo$
+^tsetsé/tsetsé$
+^xuqujeʼ/xuqujeʼ$
+^are/are$
+^kayaʼtaj/*kayaʼtaj$
+^pa/pa$
+^taq/taq$
+^ri/ri$
+^juyubʼ/juyubʼ$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:6
+# text = Kumajibʼej, pa le nabʼe ukʼutunik le yabʼilal, kayaʼtaj qʼaqʼal, uqʼoxom jolomaj, kʼaqat, chiʼl uqʼoxom le bʼaqilal.
+# text[eng] = Initially, in the first stage of the disease, there are fevers, headaches, itchiness, and joint pains.
+# labels = incomplete
+^Kumajib/*Kumajib$
+^ej/*ej$
+^,/,$
+^pa/pa$
+^le/le$
+^nabʼe/nabʼe$
+^ukʼutunik/*ukʼutunik$
+^le/le$
+^yabʼilal/yabʼilal$
+^,/,$
+^kayaʼtaj/*kayaʼtaj$
+^qʼaqʼal/qʼaqʼal$
+^,/,$
+^uqʼoxom/u>qʼoxom$
+^jolomaj/jolom>aj$
+^,/,$
+^kʼaqat/*kʼaqat$
+^,/,$
+^chiʼl/chiʼl$
+^uqʼoxom/u>qʼoxom$
+^le/le$
+^bʼaqilal/bʼaqilal$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:7
+# text = Waʼ kumajij chi jun uwuq on urox uwuq qʼij are taq xtiʼ le winaq.
+# text[eng] = This begins one to three weeks after the bite.
+# labels = incomplete
+^Waʼ/Waʼ$
+^kumajij/*kumajij$
+^chi/chi$
+^jun/jun$
+^uwuq/uwuq$
+^on/on$
+^urox/urox$
+^uwuq/uwuq$
+^qʼij/qʼij$
+^are/are$
+^taq/taq$
+^xtiʼ/x>tiʼ$
+^le/le$
+^winaq/winaq$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:8
+# text = Are taq qʼaxinaq chi kʼI uwuq qʼij on kʼi ikʼ kumajij le ukabʼ ukʼutunik rukʼ taq sachem, man kʼo ta chi uchʼobʼolik, umokʼokʼem chiʼl man kabʼan ta chi waram.
+# text[eng] = Weeks to months later the second stage begins with confusion, poor coordination, numbness and trouble sleeping.
+# labels = incomplete
+^Are/Are$
+^taq/taq$
+^qʼaxinaq/*qʼaxinaq$
+^chi/chi$
+^kʼI$
+^uwuq/uwuq$
+^qʼij/qʼij$
+^on/on$
+^kʼi/kʼi$
+^ikʼ/ikʼ$
+^kumajij/*kumajij$
+^le/le$
+^ukabʼ/ukabʼ/u>kabʼ$
+^ukʼutunik/*ukʼutunik$
+^rukʼ/r>ukʼ$
+^taq/taq$
+^sachem/*sachem$
+^,/,$
+^man/man/m>an$
+^kʼo/kʼo$
+^ta/ta$
+^chi/chi$
+^uchʼobʼolik/*uchʼobʼolik$
+^,/,$
+^umokʼok/*umokʼok$
+^em/*em$
+^chiʼl/chiʼl$
+^man/man/m>an$
+^kabʼan/*kabʼan$
+^ta/ta$
+^chi/chi$
+^waram/waram$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:9
+# text = Le ukunatajem are rukʼ utzukuxik le uchikopil pa jun usolik uxeʼ le kikʼ on le jaʼ rech jun nodo.
+# text[eng] = Diagnosis is via finding the parasite in a blood smear or in the fluid of a lymph node.
+# labels = incomplete
+^Le/Le$
+^ukunatajem/*ukunatajem$
+^are/are$
+^rukʼ/r>ukʼ$
+^utzukuxik/u>tzukuxik$
+^le/le$
+^uchikopil/u>chikopil$
+^pa/pa$
+^jun/jun$
+^usolik/*usolik$
+^uxeʼ/u>xeʼ$
+^le/le$
+^kikʼ/kikʼ/k>ikʼ$
+^on/on$
+^le/le$
+^jaʼ/jaʼ$
+^rech/rech/r>ech$
+^jun/jun$
+^nodo/*nodo$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:10
+# text = Chech punción lumbar amaqʼel rajawaxik chech rilik le ukʼexbʼem wi le nabʼe rukʼ le ukabʼ ukʼutunem le yabʼilal.
+# text[eng] = A lumbar puncture is often needed to tell the difference between first and second stage disease.
+# labels = incomplete
+^Chech/Ch>ech$
+^punción/punción$
+^lumbar/*lumbar$
+^amaqʼel/amaqʼel$
+^rajawaxik/rajawaxik$
+^chech/ch>ech$
+^rilik/rilik$
+^le/le$
+^ukʼexbʼem/u>kʼexbʼem$
+^wi/wi$
+^le/le$
+^nabʼe/nabʼe$
+^rukʼ/r>ukʼ$
+^le/le$
+^ukabʼ/ukabʼ/u>kabʼ$
+^ukʼutunem/*ukʼutunem$
+^le/le$
+^yabʼilal/yabʼilal$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:11
+# text = Le uqʼatexik uwach le yabʼilal rajawaxik keqʼatux le e winaq le kiriqom we yabʼilal rukʼ uqʼatuxik le kikʼ chech ukunaxik T.b.g.
+# text[eng] = Prevention of severe disease involves screening the population at risk with blood tests for T.b.g.
+# labels = incomplete
+^Le/Le$
+^uqʼatexik/*uqʼatexik$
+^uwach/u>wach$
+^le/le$
+^yabʼilal/yabʼilal$
+^rajawaxik/rajawaxik$
+^keqʼatux/k>e>qʼatux$
+^le/le$
+^e/e$
+^winaq/winaq$
+^le/le$
+^kiriqom/*kiriqom$
+^we/we/w>e$
+^yabʼilal/yabʼilal$
+^rukʼ/r>ukʼ$
+^uqʼatuxik/u>qʼatuxik$
+^le/le$
+^kikʼ/kikʼ/k>ikʼ$
+^chech/ch>ech$
+^ukunaxik/u>kunaxik$
+^T/*T$
+^./.$
+^b/*b$
+^./.$
+^g/*g$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:12
+# text = Are man kʼax ta ukunaxik are taq aninaq kaʼilitaj we yabʼilal xuqujeʼ mojoʼqa kuyaʼ le kʼaxkʼolil chech le jolomaj.
+# text[eng] = Treatment is easier when the disease is detected early and before neurological symptoms occur.
+# labels = incomplete
+^Are/Are$
+^man/man/m>an$
+^kʼax/kʼax$
+^ta/ta$
+^ukunaxik/u>kunaxik$
+^are/are$
+^taq/taq$
+^aninaq/*aninaq$
+^kaʼ/kaʼ$
+^ilitaj/*ilitaj$
+^we/we/w>e$
+^yabʼilal/yabʼilal$
+^xuqujeʼ/xuqujeʼ$
+^mojo/*mojo$
+^qa/*qa$
+^kuyaʼ/*kuyaʼ$
+^le/le$
+^kʼaxkʼolil/kʼaxkʼolil$
+^chech/ch>ech$
+^le/le$
+^jolomaj/jolom>aj$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:13
+# text = Le ukunaxik le nabʼe ukʼutunik are rukʼ taq kunabʼal pentamidina on suramina.
+# text[eng] = Treatment of the first stage is with the medications pentamidine or suramin.
+# labels = incomplete
+^Le/Le$
+^ukunaxik/u>kunaxik$
+^le/le$
+^nabʼe/nabʼe$
+^ukʼutunik/*ukʼutunik$
+^are/are$
+^rukʼ/r>ukʼ$
+^taq/taq$
+^kunabʼal/kunabʼal$
+^pentamidina/*pentamidina$
+^on/on$
+^suramina/*suramina$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:14
+# text = Le ukunaxik le ukabʼ ukʼutunik are rukʼ eflornitina on utunibʼaxik le nifurtimox chiʼl eflornitina chech T.b.g.
+# text[eng] = Treatment of the second stage involves: eflornithine or a combination of nifurtimox and eflornithine for T.b.g.
+# labels = incomplete
+^Le/Le$
+^ukunaxik/u>kunaxik$
+^le/le$
+^ukabʼ/ukabʼ/u>kabʼ$
+^ukʼutunik/*ukʼutunik$
+^are/are$
+^rukʼ/r>ukʼ$
+^eflornitina/*eflornitina$
+^on/on$
+^utunib/*utunib$
+^axik/a>xik$
+^le/le$
+^nifurtimox/*nifurtimox$
+^chiʼl/chiʼl$
+^eflornitina/*eflornitina$
+^chech/ch>ech$
+^T/*T$
+^./.$
+^b/*b$
+^./.$
+^g/*g$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:15
+# text = Are kʼu le melarsoprol kukunaj le kebʼ, waʼ xew kakoj chech T.b.r. rumal sibʼalaj kʼo uchuqʼabʼ we kunabʼal.
+# text[eng] = While melarsoprol works for both it is typically only used for T.b.r. due to serious side effects.
+# labels = incomplete
+^Are/Are$
+^kʼu/kʼu$
+^le/le$
+^melarsoprol/*melarsoprol$
+^kukunaj/*kukunaj$
+^le/le$
+^kebʼ/kebʼ$
+^,/,$
+^waʼ/waʼ$
+^xew/xew$
+^kakoj/*kakoj$
+^chech/ch>ech$
+^T/*T$
+^./.$
+^b/*b$
+^./.$
+^r/*r$
+^./.$
+^rumal/r>umal$
+^sibʼalaj/sibʼalaj$
+^kʼo/kʼo$
+^uchuqʼabʼ/u>chuqʼabʼ$
+^we/we/w>e$
+^kunabʼal/kunabʼal$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:16
+# text = We yabʼilal sibʼalaj kayaʼtaj pa jujun taq rulewal rech África Subsahariana, kʼo kʼaxkʼolil chi kij we e winaq le kajawataj 70 millones de dolares pa 36 amaqʼ.
+# text[eng] = The disease occurs regularly in some regions of sub-Saharan Africa with the population at risk being about 70 million in 36 countries.
+# labels = incomplete
+^We/We/W>e$
+^yabʼilal/yabʼilal$
+^sibʼalaj/sibʼalaj$
+^kayaʼtaj/*kayaʼtaj$
+^pa/pa$
+^jujun/jujun$
+^taq/taq$
+^rulewal/r>ulewal$
+^rech/rech/r>ech$
+^África/África$
+^Subsahariana/*Subsahariana$
+^,/,$
+^kʼo/kʼo$
+^kʼaxkʼolil/kʼaxkʼolil$
+^chi/chi$
+^kij/k>ij$
+^we/we/w>e$
+^e/e$
+^winaq/winaq$
+^le/le$
+^kajawataj/*kajawataj$
+^70/70$
+^millones/millon>es$
+^de/de$
+^dolares/*dolares$
+^pa/pa$
+^36/36$
+^amaqʼ/amaqʼ$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:17
+# text = Xumajij la pa ri junabʼ 2010 le xukamisaj bʼi 9,000, kajunamax rukʼ le 34,000 pa ri junabʼ 1990.
+# text[eng] = As of 2010 it caused around 9,000 deaths per year, down from 34,000 in 1990.
+# labels = incomplete
+^Xumajij/*Xumajij$
+^la/la$
+^pa/pa$
+^ri/ri$
+^junabʼ/junabʼ$
+^2010/2010$
+^le/le$
+^xukamisaj/*xukamisaj$
+^bʼi/bʼi$
+^9,000/9,000$
+^,/,$
+^kajunamax/*kajunamax$
+^rukʼ/r>ukʼ$
+^le/le$
+^34,000/34,000$
+^pa/pa$
+^ri/ri$
+^junabʼ/junabʼ$
+^1990/1990$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:18
+# text = Kabʼixik chi 30.000 e winaq kiriqom we yabʼilal, rukʼ 7.000 kʼakʼ taq yabʼil pa ri junabʼ 2012.
+# text[eng] = An estimated 30,000 people are currently infected with 7000 new infections in 2012.
+# labels = complete
+^Kabʼixik/Ka>bʼi>x>ik$
+^chi/chi$
+^30.000/30.000$
+^e/e$
+^winaq/winaq$
+^kiriqom/ki>riq>om$
+^we/we$
+^yabʼilal/yabʼilal$
+^,/,$
+^rukʼ/r>ukʼ$
+^7.000/7.000$
+^kʼakʼ/kʼakʼ$
+^taq/taq$
+^yabʼil/yabʼil$
+^pa/pa$
+^ri/ri$
+^junabʼ/junabʼ$
+^2012/2012$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:19
+# text = Kaqʼax chech le 80% le kiriqom we yabʼilal keriqitaj pa República Democrática del Congo.
+# text[eng] = More than 80% of these cases are in the Democratic Republic of the Congo.
+# labels = complete
+^Kaqʼax/Ka>qʼax$
+^chech/ch>ech$
+^le/le$
+^80%/80%$
+^le/le$
+^kiriqom/ki>riq>om$
+^we/we$
+^yabʼilal/yabʼilal$
+^keriqitaj/k>e>riq>itaj$
+^pa/pa$
+^República/República$
+^Democrática/Democrática$
+^del/del$
+^Congo/Congo$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:20
+# text = Oxibʼ mul yaʼtajinaq we yabʼilal pa taq we qʼij riʼ: jun pa taq ri junabʼ 1896 xukʼis pa ri 1906 xyaʼtaj pa Uganda chiʼl pa Cuenca rech Congo chiʼl kebʼ pa taq ri junabʼ 1920 chiʼl 1970 pa kʼI taq amaqʼ rech África.
+# text[eng] = Three major outbreaks have occurred in recent history: one from 1896 to 1906 primarily in Uganda and the Congo Basin and two in 1920 and 1970 in several African countries.
+# labels = incomplete
+^Oxibʼ/Oxibʼ$
+^mul/mul/m>ul$
+^yaʼtajinaq/*yaʼtajinaq$
+^we/we/w>e$
+^yabʼilal/yabʼilal$
+^pa/pa$
+^taq/taq$
+^we/we/w>e$
+^qʼij/qʼij$
+^riʼ/riʼ$
+^:/:$
+^jun/jun$
+^pa/pa$
+^taq/taq$
+^ri/ri$
+^junabʼ/junabʼ$
+^1896/1896$
+^xukʼis/*xukʼis$
+^pa/pa$
+^ri/ri$
+^1906/1906$
+^xyaʼtaj/*xyaʼtaj$
+^pa/pa$
+^Uganda/Uganda$
+^chiʼl/chiʼl$
+^pa/pa$
+^Cuenca/Cuenca$
+^rech/rech/r>ech$
+^Congo/Congo$
+^chiʼl/chiʼl$
+^kebʼ/kebʼ$
+^pa/pa$
+^taq/taq$
+^ri/ri$
+^junabʼ/junabʼ$
+^1920/1920$
+^chiʼl/chiʼl$
+^1970/1970$
+^pa/pa$
+^kʼI$
+^taq/taq$
+^amaqʼ/amaqʼ$
+^rech/rech/r>ech$
+^África/África$
+^./.$
+
+# sent_id = wikipedia:Tripanosomiasis_africana:21
+# text = E nikʼaj chi awajibʼ, pachaʼ e wakax, kakoqanisaj we yabʼilal.
+# text[eng] = Other animals, such as cows, may carry the disease and become infected.
+# labels = incomplete
+^E/E$
+^nikʼaj/nikʼaj$
+^chi/chi$
+^awajibʼ/awaj>ibʼ$
+^,/,$
+^pachaʼ/pachaʼ$
+^e/e$
+^wakax/*wakax$
+^,/,$
+^kakoqanisaj/*kakoqanisaj$
+^we/we/w>e$
+^yabʼilal/yabʼilal$
+^./.$
+
