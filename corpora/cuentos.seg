@@ -1332,21 +1332,21 @@
 ^sibʼalaj/sibʼalaj$
 ^rajawaxik/rajawaxik$
 ^le/le$
-^loqʼalaj/loqʼalaj/loqʼ>alaj$
+^loqʼalaj/loqʼ>alaj$
 ^jaʼ/jaʼ$
 ^,/,$
 ^le/le$
 ^winaq/winaq$
-^xkibʼij/*xkibʼij$
+^xkibʼij/x>ki>bʼij$
 ^:/:$
 ^che/ch>e$
-^we/we/w>e$
+^we/we$
 ^ikʼ/ikʼ$
 ^riʼ/riʼ$
 ^qonojel/q>onojel$
 ^kujbʼe/k>uj>bʼe$
 ^che/ch>e$
-^utikik/*utikik$
+^utikik/u>tik>ik$
 ^taq/taq$
 ^cheʼ/cheʼ$
 ^./.$
@@ -1958,7 +1958,7 @@
 # text = Kuyaʼo xuqujeʼ are ri kʼaxkʼolil keʼopan pa kiwi ri jastaq rech.
 # text[spa'] =  Da también el *kʼaxkʼolil llega encima de las cosas a él.
 # labels = incomplete
-^Kuyaʼo/*Kuyaʼo$
+^Kuyaʼo/K>u>yaʼ>o$
 ^xuqujeʼ/xuqujeʼ$
 ^are/are$
 ^ri/ri$
@@ -1968,7 +1968,7 @@
 ^kiwi/ki>wi$
 ^ri/ri$
 ^jastaq/jastaq$
-^rech/rech/r>ech$
+^rech/r>ech$
 ^./.$
 
 # sent_id = cuentos:Komon_Xalq’a’t.wiki:6
@@ -5663,7 +5663,7 @@
 # text = We kamik kʼo chik Tyox ja, xuqujeʼ kʼo chik kaxlan qʼaqʼ.
 # text[spa'] = Este ahora hay ya Santo casa, también hay ya fuego extranjero.
 # labels = incomplete
-^We/We/W>e$
+^We/We$
 ^kamik/kamik$
 ^kʼo/kʼo$
 ^chik/chik$

@@ -894,6 +894,36 @@
 "<.>"
 	"." sent @punct #11->1
 
+# sent_id = cuentos:Komon_Xalq’a’t.wiki:5
+# text = Kuyaʼo xuqujeʼ are ri kʼaxkʼolil keʼopan pa kiwi ri jastaq rech.
+# text[spa'] = Lo da y el sufrimiento llega encima de las cosas de él.
+# labels = complete check-translation
+"<Kuyaʼo>"
+	"yaʼ" v tv impf o_sg3 s_sg3 @root #1->0
+		"u" mark @aux:ss #2->1
+"<xuqujeʼ>"
+	"xuqujeʼ" cnjcoo @cc #3->7
+"<are>"
+	"are" foc @discourse #4->7
+"<ri>"
+	"ri" det @det #5->6
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n @nsubj #6->7
+"<keʼopan>"
+	"opan" v iv impf s_sg3 abl @conj #7->1
+"<pa>"
+	"pa" pr @case #8->9
+"<kiwi>"
+	"wiʼ" n rel px3pl @obl #9->7
+"<ri>"
+	"ri" det @det #10->11
+"<jastaq>"
+	"jastaq" n @nmod #11->9
+"<rech>"
+	"ech" n rel px3sg @nmod #12->11
+"<.>"
+	"." sent @punct #13->1
+
 # sent_id = cuentos:Komon_Xalq’a’t.wiki:11
 # text = Rumal laʼ xkoj “Xalqʼat” che ubʼiʼ ri komon.
 # text[spa'] = Por esto se puso “Xalqʼat” al nombre de la comunidad.
@@ -993,6 +1023,59 @@
 	"cheʼ" n @nsubj #11->10
 "<.>"
 	"." sent @punct #12->2
+
+# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:5
+# text = Xa rumal sibʼalaj rajawaxik le loqʼalaj jaʼ, le winaq xkibʼij: che we ikʼ riʼ qonojel kujbʼe che utikik taq cheʼ.
+# text[spa'] = Sólo por eso es muy necesario el agua querida, las personas dijeron: a esa luna todos nosotros vamos a sembrarse árboles.
+# labels = complete check-translation
+"<Xa>"
+	"xa" adv @advmod #1->4
+"<rumal>"
+	"umal" n rel px3sg @obl #2->4
+"<sibʼalaj>"
+	"sibʼalaj" adv @advmod #3->4
+"<rajawaxik>"
+	"rajawaxik" adj @root #4->0
+"<le>"
+	"le" det @det #5->7
+"<loqʼalaj>"
+	"loqʼ" adj ints @amod #6->7
+"<jaʼ>"
+	"jaʼ" n @nsubj #7->4
+"<,>"
+	"," cm @punct #8->11
+"<le>"
+	"le" det @det #9->10
+"<winaq>"
+	"winaq" n @nsubj #10->11
+"<xkibʼij>"
+	"bʼij" v tv perf o_sg3 s_pl3 @parataxis #11->4
+"<:>"
+	":" sent @punct #12->11
+"<che>"
+	"chi" pr @case #13->14
+		"ech" n rel px3sg @obl #14->19
+"<we>"
+	"we" det @det #15->16
+"<ikʼ>"
+	"ikʼ" n @nmod #16->14
+"<riʼ>"
+	"riʼ" prn dem @det #17->16
+"<qonojel>"
+	"onojel" n rel px1pl @nsubj #18->19
+"<kujbʼe>"
+	"bʼe" v iv impf s_pl1 @parataxis #19->11
+"<che>"
+	"chi" pr @case #20->21
+		"ech" n rel px3sg @obl #21->19
+"<utikik>"
+	"tik" v tv pass inf s_sg3 @acl #22->21
+"<taq>"
+	"taq" pl @det #23->24
+"<cheʼ>"
+	"cheʼ" n @nsubj #24->22
+"<.>"
+	"." sent @punct #25->4
 
 # sent_id = cuentos:K’ulmatajem.wiki:7
 # text = Are kʼut pa le juyubʼ kkʼiy joron, chilaʼ xekikʼama wi ri jaʼ ri winaq.
@@ -2576,6 +2659,37 @@
 "<.>"
 	"." sent @punct #10->6
 
+# sent_id = cuentos:Ri_komon_Xechpup.wiki:7
+# text = We kamik kʼo chik Tyox ja, xuqujeʼ kʼo chik kaxlan qʼaqʼ.
+# text[spa'] = Este ahora hay ya Santo casa, también hay ya fuego extranjero.
+# labels = complete check-translation
+"<We>"
+	"we" cnjsub @mark #1->3
+"<kamik>"
+	"kamik" adv @advmod #2->3
+"<kʼo>"
+	"kʼo" part @advcl #3->9
+"<chik>"
+	"chik" adv @advmod #4->3
+"<Tyox>"
+	"tyox" n @nsubj #5->3
+"<ja>"
+	"ja" n @compound #6->5
+"<,>"
+	"," cm @punct #7->3
+"<xuqujeʼ>"
+	"xuqujeʼ" adv @advmod #8->9
+"<kʼo>"
+	"kʼo" part @root #9->0
+"<chik>"
+	"chik" adv @advmod #10->9
+"<kaxlan>"
+	"kaxlan" adj @amod #11->12
+"<qʼaqʼ>"
+	"qʼaqʼ" n @nsubj #12->10
+"<.>"
+	"." sent @punct #13->9
+
 # sent_id = cuentos:Ri_komon_Xechpup.wiki:9
 # text = Ri alabʼom ri alitomabʼ tajin kikitijoj kibʼ rech sutaq, are kakaj kikibʼan nimaq achijabʼ chupam ri kikʼaslemal, xuquje kʼo chik jupuq bʼixonel chupam ri komon.
 # text[spa'] = Los muchachos y las muchachas se están enseñando cosas, quieren hacen hombres grandes en la vida, también hay ya camadas de cantantes en la comunidad.
@@ -2811,6 +2925,40 @@
 	"saqloloj" adj @conj #14->10
 "<.>"
 	"." sent @punct #15->10
+
+# sent_id = cuentos:Ri_k’wa’.wiki:6
+# text = Ri a Kel xkikot ri ranimaʼ, xuto ri xubʼij ri ratiʼt chech.
+# text[spa'] = Kel, su ánima estuvo feliz, ayudó que dijo la abuela a él.
+# labels = complete check-translation
+"<Ri>"
+	"ri" det @det #1->3
+"<a>"
+	"ala" clf m @clf #2->3
+"<Kel>"
+	"Kel" np ant m @dislocated #3->4
+"<xkikot>"
+	"kikot" v iv perf s_sg3 @root #4->0
+"<ri>"
+	"ri" det @det #5->6
+"<ranimaʼ>"
+	"animaʼ" n px3sg @nsubj #6->4
+"<,>"
+	"," cm @punct #7->8
+"<xuto>"
+	"toʼ" v tv perf o_sg3 s_sg3 @parataxis #8->4
+"<ri>"
+	"ri" prn rel @obj #9->8
+"<xubʼij>"
+	"bʼij" v tv perf o_sg3 s_sg3 @acl #10->9
+"<ri>"
+	"ri" det @det #11->12
+"<ratiʼt>"
+	"atiʼt" n px3sg @nsubj #12->10
+"<chech>"
+	"chi" pr @case #13->14
+		"ech" n rel px3sg @obl #14->10
+"<.>"
+	"." sent @punct #15->4
 
 # sent_id = cuentos:Ri_k’wa’.wiki:10
 # text = Xa rumal ketaʼm konojel ri winaq kkiqumuj le jaʼ. 
