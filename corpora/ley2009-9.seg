@@ -17,6 +17,27 @@
 ^aninaqil/aninaqil$
 ^./.$
 
+# sent_id = ley2009-9:18
+# text = Ri ajtzʼibʼ rech chakunem rech Woktzʼibʼabʼal, kjach reqeleʼn rumal ri Ukʼabʼ kʼamal Ubʼe Amaqʼ.
+# text[spa] = El Secretario Ejecutivo de la Secretaría, será nombrado por el Vicepresidente de la República.
+# labels = complete check-dislocated
+^Ri/Ri$
+^ajtzʼibʼ/ajtzʼibʼ$
+^rech/r>ech$
+^chakunem/chakunem$
+^rech/r>ech$
+^Woktzʼibʼabʼal/Woktzʼibʼabʼal$
+^,/,$
+^kjach/k>jach$
+^reqeleʼn/r>eqeleʼn$
+^rumal/r>umal$
+^ri/ri$
+^Ukʼabʼ/U>kʼabʼ$
+^kʼamal/kʼamal$
+^Ubʼe/U>bʼe$
+^Amaqʼ/Amaqʼ$
+^./.$
+
 # sent_id = ley2009-9:38
 # text = We Woktzʼibʼabʼal kʼo pa uqʼabʼ kuchajij xuqujeʼ kupatanij we taqanik riʼ, rachiʼl ri chomanem xuqujeʼ ri ucholchak.
 # text[spa] = La Secretaría es la responsable de velar y dar cumplimiento a esta Ley y a políticas y planes relacionados con la misma.

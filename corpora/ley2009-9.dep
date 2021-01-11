@@ -67,39 +67,39 @@
 # sent_id = ley2009-9:18
 # text = Ri ajtzʼibʼ rech chakunem rech Woktzʼibʼabʼal, kjach reqeleʼn rumal ri Ukʼabʼ kʼamal Ubʼe Amaqʼ.
 # text[spa] = El Secretario Ejecutivo de la Secretaría, será nombrado por el Vicepresidente de la República.
-# labels = incomplete
+# labels = complete check-dislocated
 "<Ri>"
-	"ri" det @det
+	"ri" det @det #1->2
 "<ajtzʼibʼ>"
-	"ajtzʼibʼ" n @nsubj
+	"ajtzʼibʼ" n @dislocated #2->8
 "<rech>"
-	"ech" n rel px3sg @
+	"ech" n rel px3sg @nmod #3->2
 "<chakunem>"
-	"chakunem" n @
+	"chakunem" n @nmod #4->3
 "<rech>"
-	"ech" n rel px3sg @
+	"ech" n rel px3sg @nmod #5->4
 "<Woktzʼibʼabʼal>"
-	"woktzʼibʼabʼal" n @
+	"woktzʼibʼabʼal" n @nmod #6->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->2
 "<kjach>"
-	"jach" v tv pass impf s_sg3 @root
+	"jach" v tv pass impf s_sg3 @root #8->0
 "<reqeleʼn>"
-	"eqeleʼn" n px3sg @nsubj
+	"eqeleʼn" n px3sg @nsubj #9->8
 "<rumal>"
-	"umal" n rel px3sg @obl
+	"umal" n rel px3sg @obl #10->8
 "<ri>"
-	"ri" det @det
+	"ri" det @det #11->13
 "<Ukʼabʼ>"
-	"ukabʼ" num ord @amod
+	"ukabʼ" num ord @amod #12->13
 "<kʼamal>"
-	"kʼamal" n @nmod
+	"kʼamal" n @nmod #13->10
 "<Ubʼe>"
-	"bʼe" n px3sg @nmod
+	"bʼe" n px3sg @nmod #14->13
 "<Amaqʼ>"
-	"amaqʼ" n @nmod
+	"amaqʼ" n @nmod #15->14
 "<.>"
-	"." sent @punct
+	"." sent @punct #16->8
 
 # sent_id = ley2009-9:35
 # text = Pa kiqʼabʼ ri qʼatbʼal taq tzij e tobʼanelabʼ kʼo wi, umajik uchakuxik rij ri tobʼanik yaʼtal chech ri winaq xuqujeʼ ri qʼatbʼal tzij.
