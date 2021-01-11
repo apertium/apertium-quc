@@ -259,7 +259,6 @@ for depseg in sents_depseg:
 				if word[7] == '' or word[7] == None:
 					print('ERROR:',current_sent_id,' Invalid deprel', line, file=sys.stderr)
 	
-			converted_words += 1
 			converted_words += len(token[1])
 		else:
 			# {0: ('Rajawaxik', [(1, '_', 'rajawaxik', '_', '_', '_', 0, '_', '_', '_')])}
