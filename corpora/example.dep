@@ -73,3 +73,25 @@
 "<.>"
 	"." sent @punct #7->1
 
+# sent_id = example:5
+# text = Areʼ uxeʼ ojer tzij waral Kʼicheʼ ubʼiʼ.
+# text[spa] = Este es el principio de las Antiguas historias aquí en el Quiché. 
+# text[eng] = This is the beginning of the ancient word, here in the place called Quiché.
+# labels = complete popol-wuj:1 check-attachment
+"<Areʼ>"
+	"areʼ" prn pers p3 sg @nsubj #1->2
+"<uxeʼ>"
+	"xeʼ" n rel px3sg @root #2->0
+"<ojer>"
+	"ojer" adj @amod #3->4
+"<tzij>"
+	"tzij" n @nmod #4->2
+"<waral>"
+	"waral" adv @advmod #5->6
+"<Kʼicheʼ>"
+	"kʼicheʼ" n @appos #6->4
+"<ubʼiʼ>"
+	"bʼiʼ" n px3sg @nmod #7->6
+"<.>"
+	"." sent @punct #8->2
+

@@ -682,50 +682,48 @@
 	"." sent @punct #21->11
 
 # sent_id = wikipedia:Tripanosomiasis_africana:16
-# text = We yabʼilal sibʼalaj kayaʼtaj pa jujun taq rulewal rech África Subsahariana, kʼo kʼaxkʼolil chi kij we e winaq le kajawataj 70 millones de dolares pa 36 amaqʼ.
+# text = We yabʼilal sibʼalaj kayaʼtaj pa jujun taq rulewal rech África Subsahariana, kʼo kʼaxkʼolil chi kij we e winaq le kajawataj 70 millones pa 36 amaqʼ.
+# text[orig] = We yabʼilal sibʼalaj kayaʼtaj pa jujun taq rulewal rech África Subsahariana, kʼo kʼaxkʼolil chi kij we e winaq le kajawataj 70 millones de dolares pa 36 amaqʼ.
 # text[eng] = The disease occurs regularly in some regions of sub-Saharan Africa with the population at risk being about 70 million in 36 countries.
 # labels = incomplete
 "<We>"
-	"we" det @det
+	"we" det @det #1->2
 "<yabʼilal>"
-	"yabʼilal" n @nsubj
+	"yabʼilal" n @nsubj #2->4
 "<sibʼalaj>"
-	"sibʼalaj" adv @advmod
+	"sibʼalaj" adv @advmod #3->4
 "<kayaʼtaj>"
-	"yaʼ" v tv pass stat impf s_sg3 @root
+	"yaʼ" v tv pass stat impf s_sg3 @root #4->0
 "<pa>"
-	"pa" pr @case
+	"pa" pr @case #5->8
 "<jujun>"
-	"jujun" adj @amod
+	"jujun" adj @amod #6->8
 "<taq>"
-	"taq" pl @det
+	"taq" pl @det #7->8
 "<rulewal>"
-	"ulewal" n px3sg @obl
+	"ulewal" n px3sg @obl #8->4
 "<rech>"
-	"ech" n rel px3sg @nmod
+	"ech" n rel px3sg @nmod #9->8
 "<África>"
-	"África" np top barb @nmod
+	"África" np top barb @nmod #10->9
 "<Subsahariana>"
-	"Subsahariana" adj @flat
+	"Subsahariana" adj @flat #11->10
 "<,>"
-	"," cm @punct
+	"," cm @punct #12->
 "<kʼo>"
 	"kʼo" part @
 "<kʼaxkʼolil>"
-	"kʼaxkʼolil" n
+	"kʼaxkʼolil" n @nsubj
 "<chi>"
 	"chi" pr @case
 "<kij>"
-	"ij" n rel px3pl
+	"ij" n rel px3pl @obl
 "<we>"
-	"we" cnjsub
-	"we" det
-	"we" prn rel
-	"ech" n rel px1sg
+	"we" det @det
 "<e>"
-	"e" pl
+	"e" pl @det
 "<winaq>"
-	"winaq" n
+	"winaq" n @nmod
 "<le>"
 	"le" det
 	"le" prn rel
@@ -753,24 +751,19 @@
 # text[eng] = As of 2010 it caused around 9,000 deaths per year, down from 34,000 in 1990.
 # labels = incomplete
 "<Xumajij>"
-	"majij" v tv perf o_sg3 s_sg3
+	"majij" v tv perf o_sg3 s_sg3 @root
 "<la>"
-	"la" adv dir
-	"la" n
-	"la" part frm
-	"la" qst
+	"la" adv dir @advmod
 "<pa>"
-	"pa" pr
+	"pa" pr @case
 "<ri>"
-	"ri" det
-	"ri" prn rel
+	"ri" det @det
 "<junabʼ>"
-	"junabʼ" n
+	"junabʼ" n @obl
 "<2010>"
-	"2010" num
+	"2010" num @appos
 "<le>"
 	"le" det
-	"le" prn rel
 "<xukamisaj>"
 	"kämisaj" v tv perf o_sg3 s_sg3
 "<bʼi>"
@@ -783,7 +776,6 @@
 "<kajunamax>"
 	"junamaj" v tv pass impf s_sg3
 "<rukʼ>"
-	"ukʼ" n px3sg
 	"ukʼ" n rel px3sg
 "<le>"
 	"le" det
@@ -794,7 +786,6 @@
 	"pa" pr
 "<ri>"
 	"ri" det
-	"ri" prn rel
 "<junabʼ>"
 	"junabʼ" n
 "<1990>"
@@ -805,7 +796,7 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:18
 # text = Kabʼixik chi 30.000 e winaq kiriqom we yabʼilal, rukʼ 7.000 kʼakʼ taq yabʼil pa ri junabʼ 2012.
 # text[eng] = An estimated 30,000 people are currently infected with 7000 new infections in 2012.
-# text[spa'] = Se dice que 30.000 personas encuentran esta enfermedad, con 7.000 nuevos enfermedades en el año 2012.
+# text[spa'] = Se dice que 30.000 personas encuentran esta enfermedad, con 7.000 nuevas enfermedades en el año 2012.
 # labels = incomplete
 "<Kabʼixik>"
 	"bʼij" v tv pass impf s_sg3 @root #1->0
@@ -869,9 +860,9 @@
 "<yabʼilal>"
 	"yabʼilal" n
 "<keriqitaj>"
-	"riq" v tv pass stat impf s_pl3
+	"riq" v tv pass stat impf s_pl3 @acl
 "<pa>"
-	"pa" pr
+	"pa" pr @case
 "<República>"
 	"República" np top barb @obl
 "<Democrática>"

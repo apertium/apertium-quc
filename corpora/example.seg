@@ -45,3 +45,17 @@
 ^ali/ali$
 ^./.$
 
+# sent_id = example:5
+# text = Areʼ uxeʼ ojer tzij waral Kʼicheʼ ubʼiʼ.
+# text[spa] = Este es el principio de las Antiguas historias aquí en el Quiché. 
+# text[eng] = This is the beginning of the ancient word, here in the place called Quiché.
+# labels = complete popol-wuj:1 check-attachment
+^Areʼ/Areʼ$
+^uxeʼ/u>xeʼ$
+^ojer/ojer$
+^tzij/tzij$
+^waral/waral$
+^Kʼicheʼ/Kʼicheʼ$
+^ubʼiʼ/u>bʼiʼ$
+^./.$
+
