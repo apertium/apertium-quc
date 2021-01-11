@@ -106,24 +106,23 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:6
 # text = Kumajibʼej, pa le nabʼe ukʼutunik le yabʼilal, kayaʼtaj qʼaqʼal, uqʼoxom jolomaj, kʼaqat, chiʼl uqʼoxom le bʼaqilal.
 # text[eng] = Initially, in the first stage of the disease, there are fevers, headaches, itchiness, and joint pains.
-# labels = incomplete
-^Kumajib/*Kumajib$
-^ej/*ej$
+# labels = complete
+^Kumajibʼej/Kumajibʼej$
 ^,/,$
 ^pa/pa$
 ^le/le$
 ^nabʼe/nabʼe$
-^ukʼutunik/*ukʼutunik$
+^ukʼutunik/u>kʼutunik$
 ^le/le$
 ^yabʼilal/yabʼilal$
 ^,/,$
-^kayaʼtaj/*kayaʼtaj$
+^kayaʼtaj/ka>yaʼ>taj$
 ^qʼaqʼal/qʼaqʼal$
 ^,/,$
 ^uqʼoxom/u>qʼoxom$
 ^jolomaj/jolom>aj$
 ^,/,$
-^kʼaqat/*kʼaqat$
+^kʼaqat/kʼaqat$
 ^,/,$
 ^chiʼl/chiʼl$
 ^uqʼoxom/u>qʼoxom$
@@ -136,7 +135,7 @@
 # text[eng] = This begins one to three weeks after the bite.
 # labels = incomplete
 ^Waʼ/Waʼ$
-^kumajij/*kumajij$
+^kumajij/k>u>maji>j$
 ^chi/chi$
 ^jun/jun$
 ^uwuq/uwuq$
@@ -192,9 +191,9 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:9
 # text = Le ukunatajem are rukʼ utzukuxik le uchikopil pa jun usolik uxeʼ le kikʼ on le jaʼ rech jun nodo.
 # text[eng] = Diagnosis is via finding the parasite in a blood smear or in the fluid of a lymph node.
-# labels = incomplete
+# labels = complete
 ^Le/Le$
-^ukunatajem/*ukunatajem$
+^ukunatajem/u>kunatajem$
 ^are/are$
 ^rukʼ/r>ukʼ$
 ^utzukuxik/u>tzukuxik$
@@ -202,16 +201,16 @@
 ^uchikopil/u>chikopil$
 ^pa/pa$
 ^jun/jun$
-^usolik/*usolik$
+^usolik/u>solik$
 ^uxeʼ/u>xeʼ$
 ^le/le$
-^kikʼ/kikʼ/k>ikʼ$
+^kikʼ/kikʼ$
 ^on/on$
 ^le/le$
 ^jaʼ/jaʼ$
-^rech/rech/r>ech$
+^rech/r>ech$
 ^jun/jun$
-^nodo/*nodo$
+^nodo/nodo$
 ^./.$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:10
@@ -274,21 +273,19 @@
 # text[eng] = Treatment is easier when the disease is detected early and before neurological symptoms occur.
 # labels = incomplete
 ^Are/Are$
-^man/man/m>an$
+^man/man$
 ^kʼax/kʼax$
 ^ta/ta$
 ^ukunaxik/u>kunaxik$
 ^are/are$
 ^taq/taq$
-^aninaq/*aninaq$
-^kaʼ/kaʼ$
-^ilitaj/*ilitaj$
-^we/we/w>e$
+^aninaq/aninaq$
+^kaʼilitaj/kaʼilitaj$
+^we/we$
 ^yabʼilal/yabʼilal$
 ^xuqujeʼ/xuqujeʼ$
-^mojo/*mojo$
-^qa/*qa$
-^kuyaʼ/*kuyaʼ$
+^mojoʼqa/mojoʼqa$
+^kuyaʼ/k>u>yaʼ$
 ^le/le$
 ^kʼaxkʼolil/kʼaxkʼolil$
 ^chech/ch>ech$
@@ -299,19 +296,19 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:13
 # text = Le ukunaxik le nabʼe ukʼutunik are rukʼ taq kunabʼal pentamidina on suramina.
 # text[eng] = Treatment of the first stage is with the medications pentamidine or suramin.
-# labels = incomplete
+# labels = complete
 ^Le/Le$
 ^ukunaxik/u>kunaxik$
 ^le/le$
 ^nabʼe/nabʼe$
-^ukʼutunik/*ukʼutunik$
+^ukʼutunik/u>kʼutunik$
 ^are/are$
 ^rukʼ/r>ukʼ$
 ^taq/taq$
 ^kunabʼal/kunabʼal$
-^pentamidina/*pentamidina$
+^pentamidina/pentamidina$
 ^on/on$
-^suramina/*suramina$
+^suramina/suramina$
 ^./.$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:14

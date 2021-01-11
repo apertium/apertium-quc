@@ -1,5 +1,5 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:1
-# text = Tripanosomiasis africana on yab’ilal rech waram are jun uchikopil yab’il kech e winaq chi’l awajib’.
+# text = Tripanosomiasis africana on yabʼilal rech waram are jun uchikopil yabʼil kech e winaq chiʼl awajibʼ.
 # text[eng] = African trypanosomiasis or sleeping sickness is a parasitic disease of humans and other animals.
 # labels = complete
 "<Tripanosomiasis>"
@@ -8,7 +8,7 @@
 	"africana" adj @amod #2->1
 "<on>"
 	"on" cnjcoo @cc #3->4
-"<yab’ilal>"
+"<yabʼilal>"
 	"yabʼilal" n @conj #4->1
 "<rech>"
 	"ech" n rel px3sg @nmod #5->4
@@ -20,7 +20,7 @@
 	"jun" det ind @det #8->9
 "<uchikopil>"
 	"chikopil" n px3sg @root #9->0
-"<yab’il>"
+"<yabʼil>"
 	"yabʼil" n @nmod #10->9
 "<kech>"
 	"ech" n rel px3pl @nmod #11->10
@@ -28,58 +28,51 @@
 	"e" pl @det #11->12
 "<winaq>"
 	"winaq" n @nmod #12->11
-"<chi’l>"
+"<chiʼl>"
 	"chiʼl" cnjcoo @cc #13->14
-"<awajib’>"
+"<awajibʼ>"
 	"awaj" n pl @conj #14->12
 "<.>"
 	"." sent @punct #15->9
 
 # sent_id = wikipedia:Tripanosomiasis_africana:2
-# text = Are kayo’w le uchikopil le ub’antajik Trypanosoma brucei.
+# text = Are kayoʼw le uchikopil le ubʼantajik Trypanosoma brucei.
 # text[eng] = It is caused by protozoa of the species Trypanosoma brucei.
-# labels = incomplete
+# labels = complete check-focus
 "<Are>"
-	"areʼ" prn pers p3 sg
-	"areʼ" prn pro p3 sg
-	"are" adv
-	"are" foc
-"<kayo’w>"
-	"yoʼw" v iv impf s_sg3
+	"are" foc @discourse #1->2
+"<kayoʼw>"
+	"yoʼw" v iv impf s_sg3 @root #2->0
 "<le>"
-	"le" det
+	"le" det @det #3->4
 "<uchikopil>"
-	"chikopil" n px3sg
+	"chikopil" n px3sg @nsubj #4->2
 "<le>"
-	"le" det
-	"le" prn rel
-"<ub’antajik>"
-	"bʼantajik" n px3sg
-	"bʼantaj" v iv inf s_sg3
-	"bʼantaj" v tv inf s_sg3
-	"bʼan" v tv pass stat inf s_sg3
+	"le" det @det #5->6
+"<ubʼantajik>"
+	"bʼantajik" n px3sg @nmod #6->4
 "<Trypanosoma>"
-	"Trypanosoma" n
+	"trypanosoma" n @nmod #7->6
 "<brucei>"
-	"brucei" n @flat
+	"brucei" n @flat #8->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #9->2
 
 # sent_id = wikipedia:Tripanosomiasis_africana:3
-# text = K’o keb’ ub’antajik le kub’an k’ax chi kech le e winaq, Trypanosoma brucei gambiense (T.b.g) chi’l Trypanosoma brucei rhodesiense (T.b.r.).
+# text = Kʼo kebʼ ubʼantajik le kubʼan kʼax chi kech le e winaq, Trypanosoma brucei gambiense (T.b.g) chiʼl Trypanosoma brucei rhodesiense (T.b.r.).
 # text[eng] = There are two types that infect humans, Trypanosoma brucei gambiense (T.b.g) and Trypanosoma brucei rhodesiense (T.b.r.).
 # labels = complete
-"<K’o>"
+"<Kʼo>"
 	"kʼo" part @root #1->0
-"<keb’>"
+"<kebʼ>"
 	"kebʼ" num @nummod #2->3
-"<ub’antajik>"
+"<ubʼantajik>"
 	"bʼantajik" n px3sg @nsubj #3->1
 "<le>"
 	"le" prn rel @nsubj #4->5
-"<kub’an>"
+"<kubʼan>"
 	"bʼan" v tv impf o_sg3 s_sg3 @acl #5->3
-"<k’ax>"
+"<kʼax>"
 	"kʼax" n @obj #6->5
 "<chi>"
 	"chi" pr @case #7->8
@@ -105,7 +98,7 @@
 	"T.b.g" abbr @appos #17->13
 "<)>"
 	")" rpar @punct #18->17
-"<chi’l>"
+"<chiʼl>"
 	"chiʼl" cnjcoo @cc #19->20
 "<Trypanosoma>"
 	"trypanosoma" n @conj #20->13
@@ -123,14 +116,14 @@
 	"." sent @punct #26->1
 
 # sent_id = wikipedia:Tripanosomiasis_africana:4
-# text = T.b.g are kab’anow chech le 98% taq yab’il kaya’ ub’ixik.
+# text = T.b.g are kabʼanow chech le 98% taq yabʼil kayaʼ ubʼixik.
 # text[eng] = T.b.g causes over 98% of reported cases.
 # labels = complete check-verb
 "<T.b.g>"
 	"T.b.g" abbr @nsubj #1->3
 "<are>"
 	"are" foc @discourse #2->3
-"<kab’anow>"
+"<kabʼanow>"
 	"bʼan" v tv anti agfoc impf s_sg3 @root #3->0
 "<chech>"
 	"chi" pr @case #4->5
@@ -141,26 +134,25 @@
 	"98" num percent @nmod #7->5
 "<taq>"
 	"taq" pl @det #8->9
-"<yab’il>"
+"<yabʼil>"
 	"yabʼil" n @nmod #9->7
-"<kaya’>"
+"<kayaʼ>"
 	"yaʼ" v tv pass impf s_sg3 @acl #10->9
-"<ub’ixik>"
+"<ubʼixik>"
 	"bʼixik" n px3sg @nsubj #11->10
 "<.>"
 	"." sent @punct #12->3
 
 # sent_id = wikipedia:Tripanosomiasis_africana:5
-# text = Kaya’tajik ruk’ uti’onem jun ri uriqom le yab’il amolo tsetsé xuquje’ are kaya’taj pa taq ri juyub’.
+# text = Kayaʼtajik rukʼ utiʼonem jun ri uriqom le yabʼil amolo tsetsé xuqujeʼ are kayaʼtaj pa taq ri juyubʼ.
 # text[eng] = Both are usually transmitted by the bite of an infected tsetse fly and are most common in rural areas.
 # labels = incomplete
-"<Kaya’tajik>"
+"<Kayaʼtajik>"
 	"yaʼ" v tv pass stat impf s_sg3
 		"ik" aux
-"<ruk’>"
-	"ukʼ" n px3sg
+"<rukʼ>"
 	"ukʼ" n rel px3sg
-"<uti’onem>"
+"<utiʼonem>"
 	"tiʼon" v iv inf s_sg3
 "<jun>"
 	"jun" adj
@@ -175,143 +167,118 @@
 "<le>"
 	"le" det
 	"le" prn rel
-"<yab’il>"
+"<yabʼil>"
 	"yabʼil" n
 "<amolo>"
 	"amolo" n
 "<tsetsé>"
-	"*tsetsé"
-"<xuquje’>"
-	"xuqujeʼ" adv
+	"tsetsé" n
+"<xuqujeʼ>"
 	"xuqujeʼ" cnjcoo
 "<are>"
 	"areʼ" prn pers p3 sg
 	"areʼ" prn pro p3 sg
 	"are" adv
 	"are" foc
-"<kaya’taj>"
+"<kayaʼtaj>"
 	"yaʼ" v tv pass stat impf s_sg3
 "<pa>"
 	"pa" pr
 "<taq>"
-	"taq" cnjsub
 	"taq" pl
 "<ri>"
 	"ri" det
-	"ri" prn rel
-"<juyub’>"
-	"juyubʼ" adj
+"<juyubʼ>"
 	"juyubʼ" n
 "<.>"
 	"." sent
 
 # sent_id = wikipedia:Tripanosomiasis_africana:6
-# text = Kumajib’ej, pa le nab’e uk’utunik le yab’ilal, kaya’taj q’aq’al, uq’oxom jolomaj, k’aqat, chi’l uq’oxom le b’aqilal.
+# text = Kumajibʼej, pa le nabʼe ukʼutunik le yabʼilal, kayaʼtaj qʼaqʼal, uqʼoxom jolomaj, kʼaqat, chiʼl uqʼoxom le bʼaqilal.
 # text[eng] = Initially, in the first stage of the disease, there are fevers, headaches, itchiness, and joint pains.
-# labels = incomplete
-"<Kumajib>"
-	"*Kumajib"
-"<ej>"
-	"*ej"
+# labels = complete
+"<Kumajibʼej>"
+	"kumajibʼej" adv @advmod #1->10
 "<,>"
-	"," cm
+	"," cm @punct #2->1
 "<pa>"
-	"pa" pr
+	"pa" pr @case #3->6
 "<le>"
-	"le" det
-	"le" prn rel
-"<nab’e>"
-	"nabʼe" adv
-	"nabʼe" num ord
-"<uk’utunik>"
-	"kʼutun" v iv inf s_sg3
-	"kʼut" v tv anti inf s_sg3
+	"le" det @det #4->6
+"<nabʼe>"
+	"nabʼe" num ord @amod #5->6
+"<ukʼutunik>"
+	"kʼutunik" n px3sg @obl #6->10
 "<le>"
-	"le" det
-	"le" prn rel
-"<yab’ilal>"
-	"yabʼilal" n
+	"le" det @det #7->8
+"<yabʼilal>"
+	"yabʼilal" n @nmod #8->6
 "<,>"
-	"," cm
-"<kaya’taj>"
-	"yaʼ" v tv pass stat impf s_sg3
-"<q’aq’al>"
-	"qʼaqʼal" n
+	"," cm @punct #9->6
+"<kayaʼtaj>"
+	"yaʼ" v tv pass stat impf s_sg3 @root #10->0
+"<qʼaqʼal>"
+	"qʼaqʼal" n @nsubj #11->10
 "<,>"
-	"," cm
-"<uq’oxom>"
-	"qʼoxom" n px3sg
+	"," cm @punct #12->13
+"<uqʼoxom>"
+	"qʼoxom" n px3sg @conj #13->11
 "<jolomaj>"
-	"jolom" n
+	"jolom" n @nmod #14->13
 "<,>"
-	"," cm
-"<k’aqat>"
-	"kʼäqät" adj
+	"," cm @punct #15->16
+"<kʼaqat>"
+	"kʼäqät" n @conj #16->11
 "<,>"
-	"," cm
-"<chi’l>"
-	"chiʼl" cnjcoo
-"<uq’oxom>"
-	"qʼoxom" n px3sg
+	"," cm @punct #17->19
+"<chiʼl>"
+	"chiʼl" cnjcoo @cc #18->19
+"<uqʼoxom>"
+	"qʼoxom" n px3sg @conj #19->11
 "<le>"
-	"le" det
-	"le" prn rel
-"<b’aqilal>"
-	"bʼaqilal" n
+	"le" det @det #20->21
+"<bʼaqilal>"
+	"bʼaqilal" n @conj #21->19
 "<.>"
-	"." sent
+	"." sent @punct #22->10
 
 # sent_id = wikipedia:Tripanosomiasis_africana:7
-# text = Wa’ kumajij chi jun uwuq on urox uwuq q’ij are taq xti’ le winaq.
+# text = Waʼ kumajij chi jun uwuq on urox uwuq qʼij are taq xtiʼ le winaq.
 # text[eng] = This begins one to three weeks after the bite.
-# labels = incomplete
-"<Wa’>"
-	"waʼ" prn dem
-	"wa" n
-	"aʼ" n px1sg
+# labels = complete check-everything
+"<Waʼ>"
+	"waʼ" prn dem @nsubj #1->2
 "<kumajij>"
-	"majij" v tv impf o_sg3 s_sg3
+	"majij" v tv impf o_sg3 s_sg3 @root #2->0
 "<chi>"
-	"chi" adj
-	"chi" adv
-	"chi" cnjsub
-	"chi" pr
+	"chi" pr @case #3->9
 "<jun>"
-	"jun" adj
-	"jun" det ind
-	"jun" n
-	"jun" num
+	"jun" num @nummod #4->5
 "<uwuq>"
-	"uwuq" num ord
+	"uwuq" num ord @nummod #5->9
 "<on>"
-	"on" cnjcoo
+	"on" cnjcoo @cc #6->8
 "<urox>"
-	"urox" num ord
+	"urox" num ord @nummod #7->8
 "<uwuq>"
-	"uwuq" num ord
-"<q’ij>"
-	"qʼij" n
+	"uwuq" num ord @conj #8->5
+"<qʼij>"
+	"qʼij" n @obl #9->2
 "<are>"
-	"areʼ" prn pers p3 sg
-	"areʼ" prn pro p3 sg
-	"are" adv
-	"are" foc
+	"are" foc @mark #10->12
 "<taq>"
-	"taq" cnjsub
-	"taq" pl
-"<xti’>"
-	"tiʼ" v iv perf s_sg3
-	"tiʼ" v tv pass perf s_sg3
+	"taq" cnjsub @fixed #11->10
+"<xtiʼ>"
+	"tiʼ" v tv pass perf s_sg3 @advcl #12->2
 "<le>"
-	"le" det
-	"le" prn rel
+	"le" det @det #13->14
 "<winaq>"
-	"winaq" n
+	"winaq" n @nsubj #14->12
 "<.>"
-	"." sent
+	"." sent @punct #15->2
 
 # sent_id = wikipedia:Tripanosomiasis_africana:8
-# text = Are taq q’axinaq chi k’I uwuq q’ij on k’i ik’ kumajij le ukab’ uk’utunik ruk’ taq sachem, man k’o ta chi uch’ob’olik, umok’ok’em chi’l man kab’an ta chi waram.
+# text = Are taq qʼaxinaq chi kʼi uwuq qʼij on kʼi ikʼ kumajij le ukabʼ ukʼutunik rukʼ taq sachem, man kʼo ta chi uchʼobʼolik, umokʼokʼem chiʼl man kabʼan ta chi waram.
 # text[eng] = Weeks to months later the second stage begins with confusion, poor coordination, numbness and trouble sleeping.
 # labels = incomplete
 "<Are>"
@@ -322,7 +289,7 @@
 "<taq>"
 	"taq" cnjsub
 	"taq" pl
-"<q’axinaq>"
+"<qʼaxinaq>"
 	"qʼax" v iv pp
 	"qʼax" v iv pp s_sg3
 "<chi>"
@@ -330,31 +297,31 @@
 	"chi" adv
 	"chi" cnjsub
 	"chi" pr
-"<k’I>"
+"<kʼi>"
 	"kʼi" adj
 "<uwuq>"
 	"uwuq" num ord
-"<q’ij>"
+"<qʼij>"
 	"qʼij" n
 "<on>"
 	"on" cnjcoo
-"<k’i>"
+"<kʼi>"
 	"kʼi" adj
-"<ik’>"
+"<ikʼ>"
 	"ikʼ" n
 "<kumajij>"
 	"majij" v tv impf o_sg3 s_sg3
 "<le>"
 	"le" det
 	"le" prn rel
-"<ukab’>"
+"<ukabʼ>"
 	"ukabʼ" adj
 	"ukabʼ" num ord
 	"kabʼ" n px3sg
-"<uk’utunik>"
+"<ukʼutunik>"
 	"kʼutun" v iv inf s_sg3
 	"kʼut" v tv anti inf s_sg3
-"<ruk’>"
+"<rukʼ>"
 	"ukʼ" n px3sg
 	"ukʼ" n rel px3sg
 "<taq>"
@@ -367,7 +334,7 @@
 "<man>"
 	"man" neg
 	"an" v iv imp neg s_sg3
-"<k’o>"
+"<kʼo>"
 	"kʼo" part
 "<ta>"
 	"taj" neg
@@ -376,20 +343,20 @@
 	"chi" adv
 	"chi" cnjsub
 	"chi" pr
-"<uch’ob’olik>"
-	"*uch’ob’olik"
+"<uchʼobʼolik>"
+	"*uchʼobʼolik"
 "<,>"
 	"," cm
-"<umok’ok>"
-	"*umok’ok"
+"<umokʼok>"
+	"*umokʼok"
 "<em>"
 	"*em"
-"<chi’l>"
+"<chiʼl>"
 	"chiʼl" cnjcoo
 "<man>"
 	"man" neg
 	"an" v iv imp neg s_sg3
-"<kab’an>"
+"<kabʼan>"
 	"bʼan" v tv impf o_sg3 s_sg2
 	"abʼan" v iv impf s_sg3
 	"bʼaj" v tv anti impf s_sg3
@@ -409,70 +376,52 @@
 	"." sent
 
 # sent_id = wikipedia:Tripanosomiasis_africana:9
-# text = Le ukunatajem are ruk’ utzukuxik le uchikopil pa jun usolik uxe’ le kik’ on le ja’ rech jun nodo.
+# text = Le ukunatajem are rukʼ utzukuxik le uchikopil pa jun usolik uxeʼ le kikʼ on le jaʼ rech jun nodo.
 # text[eng] = Diagnosis is via finding the parasite in a blood smear or in the fluid of a lymph node.
-# labels = incomplete
+# labels = complete check-non-finites
 "<Le>"
-	"le" det
-	"le" prn rel
+	"le" det @det #1->2
 "<ukunatajem>"
-	"*ukunatajem"
+	"kunatajem" n px3sg @nsubj #2->4
 "<are>"
-	"areʼ" prn pers p3 sg
-	"areʼ" prn pro p3 sg
-	"are" adv
-	"are" foc
-"<ruk’>"
-	"ukʼ" n px3sg
-	"ukʼ" n rel px3sg
+	"are" foc @discourse #3->4
+"<rukʼ>"
+	"ukʼ" n rel px3sg @root #4->0
 "<utzukuxik>"
-	"tzukuxik" n px3sg
-	"tzukuj" v tv pass inf s_sg3
+	"tzukuxik" n px3sg @nmod #5->4
 "<le>"
-	"le" det
-	"le" prn rel
+	"le" det @det #6->7
 "<uchikopil>"
-	"chikopil" n px3sg
+	"chikopil" n px3sg @nmod #7->5
 "<pa>"
-	"pa" pr
+	"pa" pr @case #10->12
 "<jun>"
-	"jun" adj
-	"jun" det ind
-	"jun" n
-	"jun" num
+	"jun" det ind @det #11->12
 "<usolik>"
-	"sol" v tv inf s_sg3
-	"sol" v tv pass inf s_sg3
-"<uxe’>"
-	"xeʼ" n rel px3sg
+	"solik" n px3sg @nmod #12->7
+"<uxeʼ>"
+	"xeʼ" n rel px3sg @nmod #13->12
 "<le>"
-	"le" det
-	"le" prn rel
-"<kik’>"
-	"kikʼ" n
-	"ikʼ" n px3pl
+	"le" det @det #14->15
+"<kikʼ>"
+	"kikʼ" n @nmod #15->13
 "<on>"
-	"on" cnjcoo
+	"on" cnjcoo @cc #16->18
 "<le>"
-	"le" det
-	"le" prn rel
-"<ja’>"
-	"jaʼ" n
+	"le" det @det #17->18
+"<jaʼ>"
+	"jaʼ" n @conj #18->12
 "<rech>"
-	"rech" cnjsub
-	"ech" n rel px3sg
+	"ech" n rel px3sg @nmod #19->18
 "<jun>"
-	"jun" adj
-	"jun" det ind
-	"jun" n
-	"jun" num
+	"jun" det ind @det #20->21
 "<nodo>"
-	"*nodo"
+	"nodo" n barb @nmod #21->19
 "<.>"
-	"." sent
+	"." sent @punct #22->4
 
 # sent_id = wikipedia:Tripanosomiasis_africana:10
-# text = Chech punción lumbar amaq’el rajawaxik chech rilik le uk’exb’em wi le nab’e ruk’ le ukab’ uk’utunem le yab’ilal.
+# text = Chech punción lumbar amaqʼel rajawaxik chech rilik le ukʼexbʼem wi le nabʼe rukʼ le ukabʼ ukʼutunem le yabʼilal.
 # text[eng] = A lumbar puncture is often needed to tell the difference between first and second stage disease.
 # labels = incomplete
 "<Chech>"
@@ -481,82 +430,64 @@
 "<punción>"
 	"punción" n barb
 "<lumbar>"
-	"*lumbar"
-"<amaq’el>"
-	"amaqʼel" adv
+	"lumbar" adj @amod
+"<amaqʼel>"
+	"amaqʼel" adv @advmod
 "<rajawaxik>"
-	"rajawaxik" n
+	"rajawaxik" n @root
 "<chech>"
-	"chi" pr
-		"ech" n rel px3sg
+	"chi" pr @case
+		"ech" n rel px3sg @obl
 "<rilik>"
-	"rilik" adj
-	"il" v tv inf s_sg3
-	"il" v tv pass inf s_sg3
+	"il" v tv pass inf s_sg3 @acl
 "<le>"
-	"le" det
-	"le" prn rel
-"<uk’exb’em>"
+	"le" det @nsubj
+"<ukʼexbʼem>"
 	"kʼexbʼem" n px3sg
 "<wi>"
 	"wi" foc
 "<le>"
 	"le" det
-	"le" prn rel
-"<nab’e>"
-	"nabʼe" adv
+"<nabʼe>"
 	"nabʼe" num ord
-"<ruk’>"
-	"ukʼ" n px3sg
+"<rukʼ>"
 	"ukʼ" n rel px3sg
 "<le>"
 	"le" det
-	"le" prn rel
-"<ukab’>"
-	"ukabʼ" adj
+"<ukabʼ>"
 	"ukabʼ" num ord
-	"kabʼ" n px3sg
-"<uk’utunem>"
-	"kʼutun" v iv inf s_sg3
-	"kʼut" v tv anti inf s_sg3
+"<ukʼutunem>"
+	"kʼutunem" n px3sg
 "<le>"
 	"le" det
-	"le" prn rel
-"<yab’ilal>"
+"<yabʼilal>"
 	"yabʼilal" n
 "<.>"
 	"." sent
 
 # sent_id = wikipedia:Tripanosomiasis_africana:11
-# text = Le uq’atexik uwach le yab’ilal rajawaxik keq’atux le e winaq le kiriqom we yab’ilal ruk’ uq’atuxik le kik’ chech ukunaxik T.b.g.
+# text = Le uqʼatexik uwach le yabʼilal rajawaxik keqʼatux le e winaq le kiriqom we yabʼilal rukʼ uqʼatuxik le kikʼ chech ukunaxik T.b.g.
 # text[eng] = Prevention of severe disease involves screening the population at risk with blood tests for T.b.g.
 # labels = incomplete
 "<Le>"
 	"le" det
-	"le" prn rel
-"<uq’atexik>"
-	"qʼatej" v tv pass inf s_sg3
+"<uqʼatexik>"
+	"qʼatexik" n px3sg
 "<uwach>"
-	"wach" n px3sg
 	"wach" n rel px3sg
-	"wäch" n px3sg
 "<le>"
 	"le" det
-	"le" prn rel
-"<yab’ilal>"
+"<yabʼilal>"
 	"yabʼilal" n
 "<rajawaxik>"
-	"rajawaxik" n
-"<keq’atux>"
+	"rajawaxik" n @root
+"<keqʼatux>"
 	"qʼatuj" v tv pass impf s_pl3
 	"qʼatux" v iv impf s_pl3
 "<le>"
-	"le" det
-	"le" prn rel
+	"le" det @det
 "<e>"
-	"e" cnjcoo
-	"e" pl
-	"e" prn pro p3 pl
+	"e" pl @det
 "<winaq>"
 	"winaq" n
 "<le>"
@@ -565,176 +496,118 @@
 "<kiriqom>"
 	"riq" v tv pp s_pl3
 "<we>"
-	"we" cnjsub
-	"we" det
-	"we" prn rel
-	"ech" n rel px1sg
-"<yab’ilal>"
+	"we" det @det
+"<yabʼilal>"
 	"yabʼilal" n
-"<ruk’>"
-	"ukʼ" n px3sg
+"<rukʼ>"
 	"ukʼ" n rel px3sg
-"<uq’atuxik>"
+"<uqʼatuxik>"
 	"qʼatuxik" n px3sg
-	"qʼatuj" v tv pass inf s_sg3
-	"qʼatux" v iv inf s_sg3
 "<le>"
 	"le" det
-	"le" prn rel
-"<kik’>"
+"<kikʼ>"
 	"kikʼ" n
-	"ikʼ" n px3pl
 "<chech>"
 	"chi" pr
 		"ech" n rel px3sg
 "<ukunaxik>"
 	"kunaxik" n px3sg
-	"kunaj" v tv pass inf s_sg3
-	"kunax" v iv inf s_sg3
-"<T>"
-	"*T"
-"<.>"
-	"." sent
-"<b>"
-	"*b"
-"<.>"
-	"." sent
-"<g>"
-	"*g"
+"<T.b.g>"
+	"T.b.g" abbr
 "<.>"
 	"." sent
 
 # sent_id = wikipedia:Tripanosomiasis_africana:12
-# text = Are man k’ax ta ukunaxik are taq aninaq ka’ilitaj we yab’ilal xuquje’ mojo’qa kuya’ le k’axk’olil chech le jolomaj.
+# text = Are man kʼax ta ukunaxik are taq aninaq kaʼilitaj we yabʼilal xuqujeʼ mojoʼqa kuyaʼ le kʼaxkʼolil chech le jolomaj.
 # text[eng] = Treatment is easier when the disease is detected early and before neurological symptoms occur.
-# labels = incomplete
+# text[spa] = Curarlo no es difícil cuando rápido se ve la enfermedad y _ da el sufrimiento a la cabeza.
+# labels = complete check-analysis
 "<Are>"
-	"areʼ" prn pers p3 sg
-	"areʼ" prn pro p3 sg
-	"are" adv
-	"are" foc
+	"are" foc @discourse #1->3
 "<man>"
-	"man" neg
-	"an" v iv imp neg s_sg3
-"<k’ax>"
-	"kʼax" adj
-	"kʼax" n
+	"man" neg @aux:neg #2->3
+"<kʼax>"
+	"kʼax" adj @root #3->0
 "<ta>"
-	"taj" neg
+	"taj" neg @aux:neg #4->3
 "<ukunaxik>"
-	"kunaxik" n px3sg
-	"kunaj" v tv pass inf s_sg3
-	"kunax" v iv inf s_sg3
+	"kunaj" v tv pass inf s_sg3 @csubj #5->3
 "<are>"
-	"areʼ" prn pers p3 sg
-	"areʼ" prn pro p3 sg
-	"are" adv
-	"are" foc
+	"are" foc @mark #6->9
 "<taq>"
-	"taq" cnjsub
-	"taq" pl
+	"taq" cnjsub @fixed #7->6
 "<aninaq>"
-	"aninäq" adv
-	"an" v iv pp
-	"an" v iv pp s_sg3
-"<ka’>"
-	"kaʼ" n
-	"aʼ" n px3pl
-"<ilitaj>"
-	"*ilitaj"
+	"aninäq" adv @advmod #8->9
+"<kaʼilitaj>"
+	"il" v tv pass stat impf s_sg3 @advcl #9->5
 "<we>"
-	"we" cnjsub
-	"we" det
-	"we" prn rel
-	"ech" n rel px1sg
-"<yab’ilal>"
-	"yabʼilal" n
-"<xuquje’>"
-	"xuqujeʼ" adv
-	"xuqujeʼ" cnjcoo
-"<mojo>"
-	"*mojo"
-"<qa>"
-	"*qa"
-"<kuya’>"
-	"yaʼ" v tv impf o_sg3 s_sg3
+	"we" det @det #10->11
+"<yabʼilal>"
+	"yabʼilal" n @nsubj #11->9
+"<xuqujeʼ>"
+	"xuqujeʼ" cnjcoo @cc #12->14
+"<mojoʼqa>"
+	"mojoʼqa" adv @advmod #13->14
+"<kuyaʼ>"
+	"yaʼ" v tv impf o_sg3 s_sg3 @conj #14->9
 "<le>"
-	"le" det
-	"le" prn rel
-"<k’axk’olil>"
-	"kʼaxkʼolil" n
+	"le" det @det #15->16
+"<kʼaxkʼolil>"
+	"kʼaxkʼolil" n @obj #16->14
 "<chech>"
-	"chi" pr
-		"ech" n rel px3sg
+	"chi" pr @case #17->18
+		"ech" n rel px3sg @obl #18->14
 "<le>"
-	"le" det
-	"le" prn rel
+	"le" det @det #19->20
 "<jolomaj>"
-	"jolom" n
+	"jolom" n @nmod #20->18
 "<.>"
-	"." sent
+	"." sent @punct #21->3
 
 # sent_id = wikipedia:Tripanosomiasis_africana:13
-# text = Le ukunaxik le nab’e uk’utunik are ruk’ taq kunab’al pentamidina on suramina.
+# text = Le ukunaxik le nabʼe ukʼutunik are rukʼ taq kunabʼal pentamidina on suramina.
 # text[eng] = Treatment of the first stage is with the medications pentamidine or suramin.
-# labels = incomplete
+# labels = complete check-non-finites
 "<Le>"
-	"le" det
-	"le" prn rel
+	"le" det @det #1->2
 "<ukunaxik>"
-	"kunaxik" n px3sg
-	"kunaj" v tv pass inf s_sg3
-	"kunax" v iv inf s_sg3
+	"kunaxik" n px3sg @nsubj #2->7
 "<le>"
-	"le" det
-	"le" prn rel
-"<nab’e>"
-	"nabʼe" adv
-	"nabʼe" num ord
-"<uk’utunik>"
-	"kʼutun" v iv inf s_sg3
-	"kʼut" v tv anti inf s_sg3
+	"le" det @det #3->5
+"<nabʼe>"
+	"nabʼe" num ord @amod #4->5
+"<ukʼutunik>"
+	"kʼutunik" n px3sg @nmod #5->2
 "<are>"
-	"areʼ" prn pers p3 sg
-	"areʼ" prn pro p3 sg
-	"are" adv
-	"are" foc
-"<ruk’>"
-	"ukʼ" n px3sg
-	"ukʼ" n rel px3sg
+	"are" foc @discourse #6->7
+"<rukʼ>"
+	"ukʼ" n rel px3sg @root #7->0
 "<taq>"
-	"taq" cnjsub
-	"taq" pl
-"<kunab’al>"
-	"kunabʼal" n
+	"taq" pl @det #8->9
+"<kunabʼal>"
+	"kunabʼal" n @nmod #9->7
 "<pentamidina>"
-	"*pentamidina"
+	"pentamidina" n @appos #10->9
 "<on>"
-	"on" cnjcoo
+	"on" cnjcoo @cc #11->12
 "<suramina>"
-	"*suramina"
+	"suramina" n @conj #12->10
 "<.>"
-	"." sent
+	"." sent @punct #13->7
 
 # sent_id = wikipedia:Tripanosomiasis_africana:14
-# text = Le ukunaxik le ukab’ uk’utunik are ruk’ eflornitina on utunib’axik le nifurtimox chi’l eflornitina chech T.b.g.
+# text = Le ukunaxik le ukabʼ ukʼutunik are rukʼ eflornitina on utunibʼaxik le nifurtimox chiʼl eflornitina chech T.b.g.
 # text[eng] = Treatment of the second stage involves: eflornithine or a combination of nifurtimox and eflornithine for T.b.g.
 # labels = incomplete
 "<Le>"
 	"le" det
-	"le" prn rel
 "<ukunaxik>"
 	"kunaxik" n px3sg
-	"kunaj" v tv pass inf s_sg3
-	"kunax" v iv inf s_sg3
 "<le>"
 	"le" det
-	"le" prn rel
-"<ukab’>"
-	"ukabʼ" adj
+"<ukabʼ>"
 	"ukabʼ" num ord
-	"kabʼ" n px3sg
-"<uk’utunik>"
+"<ukʼutunik>"
 	"kʼutun" v iv inf s_sg3
 	"kʼut" v tv anti inf s_sg3
 "<are>"
@@ -742,44 +615,33 @@
 	"areʼ" prn pro p3 sg
 	"are" adv
 	"are" foc
-"<ruk’>"
-	"ukʼ" n px3sg
+"<rukʼ>"
 	"ukʼ" n rel px3sg
 "<eflornitina>"
-	"*eflornitina"
+	"eflornitina" n
 "<on>"
 	"on" cnjcoo
-"<utunib>"
-	"*utunib"
-"<axik>"
-	"xik" n px2sg
+"<utunibʼaxik>"
+	"tunibʼaxik" n px3sg
 "<le>"
 	"le" det
 	"le" prn rel
 "<nifurtimox>"
-	"*nifurtimox"
-"<chi’l>"
-	"chiʼl" cnjcoo
+	"nifurtimox" n
+"<chiʼl>"
+	"chiʼl" cnjcoo @cc
 "<eflornitina>"
-	"*eflornitina"
+	"eflornitina" n
 "<chech>"
-	"chi" pr
+	"chi" pr @case
 		"ech" n rel px3sg
-"<T>"
-	"*T"
-"<.>"
-	"." sent
-"<b>"
-	"*b"
-"<.>"
-	"." sent
-"<g>"
-	"*g"
+"<T.b.g>"
+	"T.b.g" abbr
 "<.>"
 	"." sent
 
 # sent_id = wikipedia:Tripanosomiasis_africana:15
-# text = Are k’u le melarsoprol kukunaj le keb’, wa’ xew kakoj chech T.b.r. rumal sib’alaj k’o uchuq’ab’ we kunab’al.
+# text = Are kʼu le melarsoprol kukunaj le kebʼ, waʼ xew kakoj chech T.b.r. rumal sibʼalaj kʼo uchuqʼabʼ we kunabʼal.
 # text[eng] = While melarsoprol works for both it is typically only used for T.b.r. due to serious side effects.
 # labels = incomplete
 "<Are>"
@@ -787,24 +649,24 @@
 	"areʼ" prn pro p3 sg
 	"are" adv
 	"are" foc
-"<k’u>"
+"<kʼu>"
 	"kʼut" cnjcoo
 	"kʼut" part
 "<le>"
 	"le" det
 	"le" prn rel
 "<melarsoprol>"
-	"*melarsoprol"
+	"melarsoprol" n
 "<kukunaj>"
 	"kunaj" v tv impf o_sg3 s_sg3
 "<le>"
 	"le" det
 	"le" prn rel
-"<keb’>"
+"<kebʼ>"
 	"kebʼ" num
 "<,>"
 	"," cm
-"<wa’>"
+"<waʼ>"
 	"waʼ" prn dem
 	"wa" n
 	"aʼ" n px1sg
@@ -816,84 +678,58 @@
 "<chech>"
 	"chi" pr
 		"ech" n rel px3sg
-"<T>"
-	"*T"
-"<.>"
-	"." sent
-"<b>"
-	"*b"
-"<.>"
-	"." sent
-"<r>"
-	"*r"
-"<.>"
-	"." sent
+"<T.b.r.>"
+	"T.b.r" abbr
 "<rumal>"
 	"umal" n rel px3sg
-"<sib’alaj>"
-	"sibʼalaj" adj
+"<sibʼalaj>"
 	"sibʼalaj" adv
-	"sibʼ" adj ints
-"<k’o>"
+"<kʼo>"
 	"kʼo" part
-"<uchuq’ab’>"
+"<uchuqʼabʼ>"
 	"chuqʼabʼ" n px3sg
 "<we>"
-	"we" cnjsub
 	"we" det
-	"we" prn rel
-	"ech" n rel px1sg
-"<kunab’al>"
+"<kunabʼal>"
 	"kunabʼal" n
 "<.>"
 	"." sent
 
 # sent_id = wikipedia:Tripanosomiasis_africana:16
-# text = We yab’ilal sib’alaj kaya’taj pa jujun taq rulewal rech África Subsahariana, k’o k’axk’olil chi kij we e winaq le kajawataj 70 millones de dolares pa 36 amaq’.
+# text = We yabʼilal sibʼalaj kayaʼtaj pa jujun taq rulewal rech África Subsahariana, kʼo kʼaxkʼolil chi kij we e winaq le kajawataj 70 millones de dolares pa 36 amaqʼ.
 # text[eng] = The disease occurs regularly in some regions of sub-Saharan Africa with the population at risk being about 70 million in 36 countries.
 # labels = incomplete
 "<We>"
-	"we" cnjsub
-	"we" det
-	"we" prn rel
-	"ech" n rel px1sg
-"<yab’ilal>"
-	"yabʼilal" n
-"<sib’alaj>"
-	"sibʼalaj" adj
-	"sibʼalaj" adv
-	"sibʼ" adj ints
-"<kaya’taj>"
-	"yaʼ" v tv pass stat impf s_sg3
+	"we" det @det
+"<yabʼilal>"
+	"yabʼilal" n @nsubj
+"<sibʼalaj>"
+	"sibʼalaj" adv @advmod
+"<kayaʼtaj>"
+	"yaʼ" v tv pass stat impf s_sg3 @root
 "<pa>"
-	"pa" pr
+	"pa" pr @case
 "<jujun>"
-	"jujun" adj
+	"jujun" adj @amod
 "<taq>"
-	"taq" cnjsub
-	"taq" pl
+	"taq" pl @det
 "<rulewal>"
-	"ulewal" n px3sg
+	"ulewal" n px3sg @obl
 "<rech>"
-	"rech" cnjsub
-	"ech" n rel px3sg
+	"ech" n rel px3sg @nmod
 "<África>"
-	"África" np top barb
+	"África" np top barb @nmod
 "<Subsahariana>"
-	"*Subsahariana"
+	"Subsahariana" adj @flat
 "<,>"
-	"," cm
-"<k’o>"
-	"kʼo" part
-"<k’axk’olil>"
+	"," cm @punct
+"<kʼo>"
+	"kʼo" part @
+"<kʼaxkʼolil>"
 	"kʼaxkʼolil" n
 "<chi>"
-	"chi" adj
-	"chi" adv
-	"chi" cnjsub
-	"chi" pr
+	"chi" pr @case
 "<kij>"
-	"ij" n px3pl
 	"ij" n rel px3pl
 "<we>"
 	"we" cnjsub
@@ -901,9 +737,7 @@
 	"we" prn rel
 	"ech" n rel px1sg
 "<e>"
-	"e" cnjcoo
 	"e" pl
-	"e" prn pro p3 pl
 "<winaq>"
 	"winaq" n
 "<le>"
@@ -912,24 +746,24 @@
 "<kajawataj>"
 	"*kajawataj"
 "<70>"
-	"70" num
+	"70" num @nummod
 "<millones>"
-	"millón" n barb pl
+	"millón" n barb pl @obl
 "<de>"
-	"de" pr barb
+	"de" pr barb @case
 "<dolares>"
-	"*dolares"
+	"dolar" n barb pl @nmod
 "<pa>"
-	"pa" pr
+	"pa" pr @case
 "<36>"
-	"36" num
-"<amaq’>"
-	"amaqʼ" n
+	"36" num @
+"<amaqʼ>"
+	"amaqʼ" n @obl
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = wikipedia:Tripanosomiasis_africana:17
-# text = Xumajij la pa ri junab’ 2010 le xukamisaj b’i 9,000, kajunamax ruk’ le 34,000 pa ri junab’ 1990.
+# text = Xumajij la pa ri junabʼ 2010 le xukamisaj bʼi 9,000, kajunamax rukʼ le 34,000 pa ri junabʼ 1990.
 # text[eng] = As of 2010 it caused around 9,000 deaths per year, down from 34,000 in 1990.
 # labels = incomplete
 "<Xumajij>"
@@ -944,7 +778,7 @@
 "<ri>"
 	"ri" det
 	"ri" prn rel
-"<junab’>"
+"<junabʼ>"
 	"junabʼ" n
 "<2010>"
 	"2010" num
@@ -953,7 +787,7 @@
 	"le" prn rel
 "<xukamisaj>"
 	"kämisaj" v tv perf o_sg3 s_sg3
-"<b’i>"
+"<bʼi>"
 	"bʼi" adv dir
 	"bʼi" n
 "<9,000>"
@@ -962,7 +796,7 @@
 	"," cm
 "<kajunamax>"
 	"junamaj" v tv pass impf s_sg3
-"<ruk’>"
+"<rukʼ>"
 	"ukʼ" n px3sg
 	"ukʼ" n rel px3sg
 "<le>"
@@ -975,7 +809,7 @@
 "<ri>"
 	"ri" det
 	"ri" prn rel
-"<junab’>"
+"<junabʼ>"
 	"junabʼ" n
 "<1990>"
 	"1990" num
@@ -983,11 +817,11 @@
 	"." sent
 
 # sent_id = wikipedia:Tripanosomiasis_africana:18
-# text = Kab’ixik chi 30.000 e winaq kiriqom we yab’ilal, ruk’ 7.000 k’ak’ taq yab’il pa ri junab’ 2012.
+# text = Kabʼixik chi 30.000 e winaq kiriqom we yabʼilal, rukʼ 7.000 kʼakʼ taq yabʼil pa ri junabʼ 2012.
 # text[eng] = An estimated 30,000 people are currently infected with 7000 new infections in 2012.
 # text[spa'] = Se dice que 30.000 personas encuentran esta enfermedad, con 7.000 nuevos enfermedades en el año 2012.
 # labels = incomplete
-"<Kab’ixik>"
+"<Kabʼixik>"
 	"bʼij" v tv pass impf s_sg3 @root #1->0
 		"ik" aux @aux:ss #2->1
 "<chi>"
@@ -1002,25 +836,25 @@
 	"riq" v tv pp s_pl3 @ccomp #7->1
 "<we>"
 	"we" det @det #8->9
-"<yab’ilal>"
+"<yabʼilal>"
 	"yabʼilal" n @obj #9->7
 "<,>"
 	"," cm @punct #10->11
-"<ruk’>"
+"<rukʼ>"
 	"ukʼ" n rel px3sg @obl #11->7
 "<7.000>"
 	"7.000" num @nummod #12->15
-"<k’ak’>"
+"<kʼakʼ>"
 	"kʼakʼ" adj @amod #13->15
 "<taq>"
 	"taq" pl @det #14->15
-"<yab’il>"
+"<yabʼil>"
 	"yabʼil" n @nmod #15->11
 "<pa>"
 	"pa" pr @case #16->18
 "<ri>"
 	"ri" det @det #17->18
-"<junab’>"
+"<junabʼ>"
 	"junabʼ" n @obl #18->15
 "<2012>"
 	"2012" num @appos #19->18
@@ -1028,10 +862,10 @@
 	"." sent @punct #20->1
 
 # sent_id = wikipedia:Tripanosomiasis_africana:19
-# text = Kaq’ax chech le 80% le kiriqom we yab’ilal keriqitaj pa República Democrática del Congo.
+# text = Kaqʼax chech le 80% le kiriqom we yabʼilal keriqitaj pa República Democrática del Congo.
 # text[eng] = More than 80% of these cases are in the Democratic Republic of the Congo.
 # labels = incomplete
-"<Kaq’ax>"
+"<Kaqʼax>"
 	"qʼax" v iv impf s_sg3 @root
 "<chech>"
 	"chi" pr @case
@@ -1046,7 +880,7 @@
 	"riq" v tv pp s_pl3
 "<we>"
 	"we" det @det
-"<yab’ilal>"
+"<yabʼilal>"
 	"yabʼilal" n
 "<keriqitaj>"
 	"riq" v tv pass stat impf s_pl3
@@ -1064,22 +898,22 @@
 	"." sent @punct
 
 # sent_id = wikipedia:Tripanosomiasis_africana:20
-# text = Oxib’ mul ya’tajinaq we yab’ilal pa taq we q’ij ri’: jun pa taq ri junab’ 1896 xuk’is pa ri 1906 xya’taj pa Uganda chi’l pa Cuenca rech Congo chi’l keb’ pa taq ri junab’ 1920 chi’l 1970 pa k’I taq amaq’ rech África.
+# text = Oxibʼ mul yaʼtajinaq we yabʼilal pa taq we qʼij riʼ: jun pa taq ri junabʼ 1896 xukʼis pa ri 1906 xyaʼtaj pa Uganda chiʼl pa Cuenca rech Congo chiʼl kebʼ pa taq ri junabʼ 1920 chiʼl 1970 pa kʼi taq amaqʼ rech África.
 # text[eng] = Three major outbreaks have occurred in recent history: one from 1896 to 1906 primarily in Uganda and the Congo Basin and two in 1920 and 1970 in several African countries.
 # labels = incomplete
-"<Oxib’>"
+"<Oxibʼ>"
 	"oxibʼ" num
 "<mul>"
 	"mul" n
 	"ul" v iv imp neg s_sg3
-"<ya’tajinaq>"
-	"*ya’tajinaq"
+"<yaʼtajinaq>"
+	"*yaʼtajinaq"
 "<we>"
 	"we" cnjsub
 	"we" det
 	"we" prn rel
 	"ech" n rel px1sg
-"<yab’ilal>"
+"<yabʼilal>"
 	"yabʼilal" n
 "<pa>"
 	"pa" pr
@@ -1091,9 +925,9 @@
 	"we" det
 	"we" prn rel
 	"ech" n rel px1sg
-"<q’ij>"
+"<qʼij>"
 	"qʼij" n
-"<ri’>"
+"<riʼ>"
 	"riʼ" prn dem
 "<:>"
 	":" sent
@@ -1110,11 +944,11 @@
 "<ri>"
 	"ri" det
 	"ri" prn rel
-"<junab’>"
+"<junabʼ>"
 	"junabʼ" n
 "<1896>"
 	"1896" num
-"<xuk’is>"
+"<xukʼis>"
 	"kʼis" v tv perf o_sg3 s_sg3
 "<pa>"
 	"pa" pr
@@ -1123,13 +957,13 @@
 	"ri" prn rel
 "<1906>"
 	"1906" num
-"<xya’taj>"
+"<xyaʼtaj>"
 	"yaʼ" v tv pass stat perf s_sg3
 "<pa>"
 	"pa" pr
 "<Uganda>"
 	"Uganda" np top barb
-"<chi’l>"
+"<chiʼl>"
 	"chiʼl" cnjcoo
 "<pa>"
 	"pa" pr
@@ -1140,9 +974,9 @@
 	"ech" n rel px3sg
 "<Congo>"
 	"Congo" np top barb
-"<chi’l>"
+"<chiʼl>"
 	"chiʼl" cnjcoo
-"<keb’>"
+"<kebʼ>"
 	"kebʼ" num
 "<pa>"
 	"pa" pr
@@ -1152,22 +986,22 @@
 "<ri>"
 	"ri" det
 	"ri" prn rel
-"<junab’>"
+"<junabʼ>"
 	"junabʼ" n
 "<1920>"
 	"1920" num
-"<chi’l>"
+"<chiʼl>"
 	"chiʼl" cnjcoo
 "<1970>"
 	"1970" num
 "<pa>"
 	"pa" pr
-"<k’I>"
+"<kʼi>"
 	"kʼi" adj
 "<taq>"
 	"taq" cnjsub
 	"taq" pl
-"<amaq’>"
+"<amaqʼ>"
 	"amaqʼ" n
 "<rech>"
 	"rech" cnjsub
@@ -1178,14 +1012,14 @@
 	"." sent
 
 # sent_id = wikipedia:Tripanosomiasis_africana:21
-# text = E nik’aj chi awajib’, pacha’ e wakax, kakoqanisaj we yab’ilal.
+# text = E nikʼaj chi awajibʼ, pachaʼ e wakax, kakoqanisaj we yabʼilal.
 # text[eng] = Other animals, such as cows, may carry the disease and become infected.
 # labels = incomplete
 "<E>"
 	"e" cnjcoo
 	"e" pl
 	"e" prn pro p3 pl
-"<nik’aj>"
+"<nikʼaj>"
 	"nikʼaj" adj
 	"nikʼaj" n
 "<chi>"
@@ -1193,11 +1027,11 @@
 	"chi" adv
 	"chi" cnjsub
 	"chi" pr
-"<awajib’>"
+"<awajibʼ>"
 	"awaj" n pl
 "<,>"
 	"," cm
-"<pacha’>"
+"<pachaʼ>"
 	"pachaʼ" pr
 "<e>"
 	"e" cnjcoo
@@ -1214,7 +1048,7 @@
 	"we" det
 	"we" prn rel
 	"ech" n rel px1sg
-"<yab’ilal>"
+"<yabʼilal>"
 	"yabʼilal" n
 "<.>"
 	"." sent
