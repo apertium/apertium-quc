@@ -1,3 +1,16 @@
+# sent_id = ley2009-9:4
+# text = Are taq waʼ ri uqʼijol we taqanik.
+# text[spa] = Son principios rectores de la presente Ley:
+# labels = complete check-everything
+^Are/Are$
+^taq/taq$
+^waʼ/waʼ$
+^ri/ri$
+^uqʼijol/u>qʼijol$
+^we/we$
+^taqanik/taqanik$
+^./.$
+
 # sent_id = ley2009-9:14
 # text = We taqanik riʼ kubʼij chi rajawaxik kyaʼ uqʼij ri winaq xuqujeʼ ktoʼ aninaqil.
 # text[spa] = Los procedimientos que establece esta Ley, deben realizarse con especial atención y prioridad.

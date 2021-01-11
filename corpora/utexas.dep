@@ -3120,24 +3120,24 @@
 # sent_id = utexas:170
 # text = Are na aninaq ta kachʼaw chinuwach in.
 # text[spa] = El no habla más rápido que yo.
-# labels = tijonik-29 incomplete check-pronoun
+# labels = tijonik-29 complete
 "<Are>"
-	"are" foc
+	"are" foc @discourse #1->5
 "<na>"
-	"na" neg @aux:neg
+	"na" neg @aux:neg #2->3
 "<aninaq>"
-	"aninäq" adv
+	"aninäq" adv @advmod #3->5
 "<ta>"
-	"taj" neg
+	"taj" neg @aux:neg #4->3
 "<kachʼaw>"
-	"chʼaw" v iv impf s_sg3
+	"chʼaw" v iv impf s_sg3 @root #5->0
 "<chinuwach>"
-	"chi" pr @case
-		"wach" n rel px1sg @obl
+	"chi" pr @case #5->6
+		"wach" n rel px1sg @obl #6->5
 "<in>"
-	"in" prn pers p1 sg @nmod
+	"in" prn pers p1 sg @nmod #7->6
 "<.>"
-	"." sent @punct
+	"." sent @punct #8->5
 
 # sent_id = utexas:171
 # text = Xukunaj le yawabʼ le aj qʼij
@@ -4042,15 +4042,15 @@
 # sent_id = utexas:209
 # text = Utz we kinchakuj.
 # text[spa] = Es bueno lo que trabajo.
-# labels = tijonik-35 incomplete
+# labels = tijonik-35 complete
 "<Utz>"
-	"utz" adj @root
+	"utz" adj @root #1->0
 "<we>"
-	"we" prn rel
+	"we" prn rel @nsubj #2->1
 "<kinchakuj>"
-	"chakuj" v tv impf o_sg3 s_sg1
+	"chakuj" v tv impf o_sg3 s_sg1 @acl #3->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->1
 
 # sent_id = utexas:210
 # text = Xkos le achi.
@@ -4068,19 +4068,19 @@
 # sent_id = utexas:211
 # text = Utz le xubʼij le achi.
 # text[spa] = Lo que dijo el hombre es bueno.
-# labels = tijonik-35 incomplete
+# labels = tijonik-35 complete check-relative
 "<Utz>"
-	"utz" adj @root
+	"utz" adj @root #1->0
 "<le>"
-	"le" prn rel @obj
+	"le" prn rel @nsubj #2->1
 "<xubʼij>"
-	"bʼij" v tv perf o_sg3 s_sg3
+	"bʼij" v tv perf o_sg3 s_sg3 @acl #3->2
 "<le>"
-	"le" det @det
+	"le" det @det #4->5
 "<achi>"
-	"achi" n @nsubj
+	"achi" n @nsubj #5->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->1
 
 # sent_id = utexas:212
 # text = Jachin ri achi?
@@ -4111,16 +4111,16 @@
 # sent_id = utexas:214
 # text = Kʼax ri kachʼawik.
 # text[spa] = Es duro lo que dice/como habla.
-# labels = tijonik-35 incomplete
+# labels = tijonik-35 complete check-relative
 "<Kʼax>"
-	"kʼax" adj
+	"kʼax" adj @root #1->0
 "<ri>"
-	"ri" prn rel
+	"ri" prn rel @nsubj #2->1
 "<kachʼawik>"
-	"chʼaw" v iv impf s_sg3
-		"ik" mark
+	"chʼaw" v iv impf s_sg3 @acl #3->2
+		"ik" mark @aux:ss #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # sent_id = utexas:215
 # text = In waʼ we kinyʼow le tzijonem.
@@ -4135,7 +4135,7 @@
 "<kinyʼow>"
 	"yaʼ" v tv anti agfoc impf s_sg1
 "<le>"
-	"le" det
+	"le" det @det
 "<tzijonem>"
 	"tzijonem" n
 "<.>"
@@ -4192,33 +4192,33 @@
 # sent_id = utexas:219
 # text = Je waʼ katpetik.
 # text[spa] = Vienes para acá.
-# labels = tijonik-35 incomplete
+# labels = tijonik-35 complete check-tokenisation
 "<Je>"
-	"je" adv
+	"je" adv @advmod #1->3
 "<waʼ>"
-	"waʼ" prn dem
+	"waʼ" prn dem @fixed #2->1
 "<katpetik>"
-	"pet" v iv impf s_sg2
-		"ik" mark
+	"pet" v iv impf s_sg2 @root #3->0
+		"ik" mark @aux:ss #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->3
 
 # sent_id = utexas:220
 # text = Je riʼ kachakun ri achi.
 # text[spa] = Así es el trabajo del hombre.
-# labels = tijonik-35 incomplete
+# labels = tijonik-35 complete check-tokenisation
 "<Je>"
-	"je" adv
+	"je" adv @advmod #1->3
 "<riʼ>"
-	"riʼ" prn dem
+	"riʼ" prn dem @fixed #2->1
 "<kachakun>"
-	"chakuj" v tv anti impf s_sg3
+	"chakuj" v tv anti impf s_sg3 @root #3->0
 "<ri>"
-	"ri" det
+	"ri" det @det #4->5
 "<achi>"
-	"achi" n
+	"achi" n @nsubj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # sent_id = utexas:221
 # text = Xekanaj kan le ajchakibʼ.
@@ -4567,7 +4567,7 @@
 # sent_id = utexas:243
 # text = Xinchʼaw apan rukʼ le wanabʼ.
 # text[spa] = Hablé con mi hermana (de aquí para allá).
-# labels = tijonik-36 incomplete
+# labels = tijonik-36 complete
 "<Xinchʼaw>"
 	"chʼaw" v iv perf s_sg1 @root #1->0
 "<apan>"
@@ -4670,17 +4670,17 @@
 # text[spa] = Me duelen los dedos.
 # labels = tijonik-39 incomplete
 "<Kʼax>"
-	"kʼax" adj
+	"kʼax" adj @root
 "<le>"
-	"le" det
+	"le" det @det
 "<uwiʼ>"
 	"wiʼ" n rel px3sg
 "<taq>"
-	"taq" pl
+	"taq" pl @det
 "<le>"
-	"le" det
+	"le" det @det
 "<nuqʼabʼ>"
-	"qʼabʼ" n px1sg
+	"qʼabʼ" n px1sg @
 "<.>"
 	"." sent
 
@@ -4735,52 +4735,52 @@
 # sent_id = utexas:253
 # text = In loqʼomanel re ixim.
 # text[spa] = Soy el que compra el maiz.
-# labels = tijonik-41 incomplete
+# labels = tijonik-41 complete check-pronoun
 "<In>"
-	"in" prn pers p1 sg
+	"in" prn pro p1 sg @aux #1->2
 "<loqʼomanel>"
-	"loqʼomanel" n
+	"loqʼomanel" n @root #2->0
 "<re>"
-	"ech" n rel px3sg
+	"ech" n rel px3sg @nmod #3->2
 "<ixim>"
-	"ixim" n
+	"ixim" n @nmod #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->2
 
 # sent_id = utexas:255
 # text = In chajinel kech le akʼalabʼ.
 # text[spa] = Yo soy el que cuida a los niños
-# labels = tijonik-41 incomplete
+# labels = tijonik-41 complete check-pronoun
 "<In>"
-	"in" prn pers p1 sg
+	"in" prn pro p1 sg @aux #1->2
 "<chajinel>"
-	"chajinel" n
+	"chajinel" n @root #2->0
 "<kech>"
-	"ech" n rel px3pl
+	"ech" n rel px3pl @nmod #3->2
 "<le>"
-	"le" det
+	"le" det @det #4->5
 "<akʼalabʼ>"
-	"akʼal" n pl
+	"akʼal" n pl @nmod #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->2
 
 # sent_id = utexas:256
 # text = Elaqʼanel rech chʼichʼ.
 # text[spa] = El que roba los carros
-# labels = tijonik-41 incomplete
+# labels = tijonik-41 complete
 "<Elaqʼanel>"
-	"elaqʼanel" n
+	"elaqʼanel" n @root #1->0
 "<rech>"
-	"ech" n rel px3sg
+	"ech" n rel px3sg @nmod #2->1
 "<chʼichʼ>"
-	"chʼichʼ" n
+	"chʼichʼ" n @nmod #3->2
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # sent_id = utexas:257
 # text = Eleqʼal chʼichʼ
 # text[spa] = Roba carros
-# labels = tijonik-41 incomplete
+# labels = tijonik-41 complete
 "<Eleqʼal>"
 	"eleqʼal" n @root #1->0
 "<chʼichʼ>"
@@ -4791,20 +4791,20 @@
 # sent_id = utexas:258
 # text = Xbʼe che utzukuxik le ali.
 # text[spa] = Él fue a buscar a la muchacha.
-# labels = tijonik-41 incomplete
+# labels = tijonik-41 complete
 "<Xbʼe>"
-	"bʼe" v iv perf s_sg3 @root
+	"bʼe" v iv perf s_sg3 @root #1->0
 "<che>"
-	"chi" pr @case
-		"ech" n rel px3sg
+	"chi" pr @case #2->3
+		"ech" n rel px3sg @obl #3->1
 "<utzukuxik>"
-	"tzukuj" v tv pass inf s_sg3 @xcomp
+	"tzukuj" v tv pass inf s_sg3 @acl #4->3
 "<le>"
-	"le" det @det
+	"le" det @det #5->6
 "<ali>"
-	"ali" n @obj
+	"ali" n @nsubj #6->4
 "<.>"
-	"." sent @punct
+	"." sent @punct #7->1
 
 # sent_id = utexas:259
 # text = xumajij oqʼej le nan

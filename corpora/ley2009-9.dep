@@ -1,35 +1,23 @@
 # sent_id = ley2009-9:4
 # text = Are taq waʼ ri uqʼijol we taqanik.
 # text[spa] = Son principios rectores de la presente Ley:
-# labels = incomplete
+# labels = complete check-everything
 "<Are>"
-	"areʼ" prn pers p3 sg
-	"areʼ" prn pro p3 sg
-	"are" adv
-	"are" foc
+	"are" foc @discourse #1->5
 "<taq>"
-	"taq" cnjsub
-	"taq" pl
+	"taq" pl @det #2->3
 "<waʼ>"
-	"waʼ" prn dem
-	"wa" n
-	"aʼ" n px1sg
+	"waʼ" prn dem @nsubj #3->5
 "<ri>"
-	"ri" det
-	"ri" prn rel
+	"ri" det @det #4->5
 "<uqʼijol>"
-	"*uqʼijol"
+	"qʼijol" n px3sg @root #5->0
 "<we>"
-	"we" cnjsub
-	"we" det
-	"we" prn rel
-	"ech" n rel px1sg
+	"we" det @det #6->7
 "<taqanik>"
-	"taqanik" n
-	"taqan" v iv inf
-	"taq" v tv anti inf
+	"taqanik" n @nmod #7->5
 "<.>"
-	"." sent
+	"." sent @punct #8->5
 
 # sent_id = ley2009-9:14
 # text = We taqanik riʼ kubʼij chi rajawaxik kyaʼ uqʼij ri winaq xuqujeʼ ktoʼ aninaqil.
