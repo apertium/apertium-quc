@@ -598,47 +598,42 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:14
 # text = Le ukunaxik le ukabʼ ukʼutunik are rukʼ eflornitina on utunibʼaxik le nifurtimox chiʼl eflornitina chech T.b.g.
 # text[eng] = Treatment of the second stage involves: eflornithine or a combination of nifurtimox and eflornithine for T.b.g.
-# labels = incomplete
+# labels = complete
 "<Le>"
-	"le" det
+	"le" det @det #1->2
 "<ukunaxik>"
-	"kunaxik" n px3sg
+	"kunaxik" n px3sg @nsubj #2->7
 "<le>"
-	"le" det
+	"le" det @det #3->4
 "<ukabʼ>"
-	"ukabʼ" num ord
+	"ukabʼ" num ord @amod #4->5
 "<ukʼutunik>"
-	"kʼutun" v iv inf s_sg3
-	"kʼut" v tv anti inf s_sg3
+	"kʼutunik" n px3sg @nmod #5->2
 "<are>"
-	"areʼ" prn pers p3 sg
-	"areʼ" prn pro p3 sg
-	"are" adv
-	"are" foc
+	"are" foc @discourse #6->7
 "<rukʼ>"
-	"ukʼ" n rel px3sg
+	"ukʼ" n rel px3sg @root #7->0
 "<eflornitina>"
-	"eflornitina" n
+	"eflornitina" n @nmod #8->7
 "<on>"
-	"on" cnjcoo
+	"on" cnjcoo @cc #9->10
 "<utunibʼaxik>"
-	"tunibʼaxik" n px3sg
+	"tunibʼaxik" n px3sg @conj #10->8
 "<le>"
-	"le" det
-	"le" prn rel
+	"le" det @det #11->12
 "<nifurtimox>"
-	"nifurtimox" n
+	"nifurtimox" n @nmod #12->10
 "<chiʼl>"
-	"chiʼl" cnjcoo @cc
+	"chiʼl" cnjcoo @cc #13->14
 "<eflornitina>"
-	"eflornitina" n
+	"eflornitina" n @conj #14->12
 "<chech>"
-	"chi" pr @case
-		"ech" n rel px3sg
+	"chi" pr @case #15->16
+		"ech" n rel px3sg @obl #16->7
 "<T.b.g>"
-	"T.b.g" abbr
+	"T.b.g" abbr @nmod #17->16
 "<.>"
-	"." sent
+	"." sent @punct #18->7
 
 # sent_id = wikipedia:Tripanosomiasis_africana:15
 # text = Are kʼu le melarsoprol kukunaj le kebʼ, waʼ xew kakoj chech T.b.r. rumal sibʼalaj kʼo uchuqʼabʼ we kunabʼal.

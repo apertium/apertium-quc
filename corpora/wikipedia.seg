@@ -314,28 +314,23 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:14
 # text = Le ukunaxik le ukabʼ ukʼutunik are rukʼ eflornitina on utunibʼaxik le nifurtimox chiʼl eflornitina chech T.b.g.
 # text[eng] = Treatment of the second stage involves: eflornithine or a combination of nifurtimox and eflornithine for T.b.g.
-# labels = incomplete
+# labels = complete
 ^Le/Le$
 ^ukunaxik/u>kunaxik$
 ^le/le$
-^ukabʼ/ukabʼ/u>kabʼ$
-^ukʼutunik/*ukʼutunik$
+^ukabʼ/ukabʼ$
+^ukʼutunik/u>kʼutunik$
 ^are/are$
 ^rukʼ/r>ukʼ$
-^eflornitina/*eflornitina$
+^eflornitina/eflornitina$
 ^on/on$
-^utunib/*utunib$
-^axik/a>xik$
+^utunibʼaxik/u>tunibʼaxik$
 ^le/le$
-^nifurtimox/*nifurtimox$
+^nifurtimox/nifurtimox$
 ^chiʼl/chiʼl$
-^eflornitina/*eflornitina$
+^eflornitina/eflornitina$
 ^chech/ch>ech$
-^T/*T$
-^./.$
-^b/*b$
-^./.$
-^g/*g$
+^T.b.g/T.b.g$
 ^./.$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:15
