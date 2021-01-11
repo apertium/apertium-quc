@@ -638,57 +638,48 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:15
 # text = Are kʼu le melarsoprol kukunaj le kebʼ, waʼ xew kakoj chech T.b.r. rumal sibʼalaj kʼo uchuqʼabʼ we kunabʼal.
 # text[eng] = While melarsoprol works for both it is typically only used for T.b.r. due to serious side effects.
-# labels = incomplete
+# labels = complete 
 "<Are>"
-	"areʼ" prn pers p3 sg
-	"areʼ" prn pro p3 sg
-	"are" adv
-	"are" foc
+	"are" foc @mark #1->5
 "<kʼu>"
-	"kʼut" cnjcoo
-	"kʼut" part
+	"kʼut" cnjcoo @fixed #2->1
 "<le>"
-	"le" det
-	"le" prn rel
+	"le" det @det #3->4
 "<melarsoprol>"
-	"melarsoprol" n
+	"melarsoprol" n @nsubj #4->5
 "<kukunaj>"
-	"kunaj" v tv impf o_sg3 s_sg3
+	"kunaj" v tv impf o_sg3 s_sg3 @advcl #5->11
 "<le>"
-	"le" det
-	"le" prn rel
+	"le" det @det #6->7
 "<kebʼ>"
-	"kebʼ" num
+	"kebʼ" num @obj #7->5
 "<,>"
-	"," cm
+	"," cm @punct #8->5
 "<waʼ>"
-	"waʼ" prn dem
-	"wa" n
-	"aʼ" n px1sg
+	"waʼ" prn dem @nsubj #9->11
 "<xew>"
-	"xew" adv
+	"xew" adv @advmod #10->11
 "<kakoj>"
-	"koj" v tv impf o_sg3 s_sg2
-	"koj" v tv pass impf s_sg3
+	"koj" v tv pass impf s_sg3 @root #11->0
 "<chech>"
-	"chi" pr
-		"ech" n rel px3sg
+	"chi" pr @case #12->13
+		"ech" n rel px3sg @obl #13->11
 "<T.b.r.>"
-	"T.b.r" abbr
+	"T.b.r" abbr @nmod #14->13
 "<rumal>"
-	"umal" n rel px3sg
+	"umal" n rel px3sg @obl #15->11
 "<sibʼalaj>"
-	"sibʼalaj" adv
+	"sibʼalaj" adv @advmod #16->17
 "<kʼo>"
-	"kʼo" part
+	"kʼo" part @acl #17->15
 "<uchuqʼabʼ>"
-	"chuqʼabʼ" n px3sg
+	"chuqʼabʼ" n px3sg @nsubj #18->17
 "<we>"
-	"we" det
+	"we" det @det #19->20
 "<kunabʼal>"
-	"kunabʼal" n
+	"kunabʼal" n @nmod #20->18
 "<.>"
-	"." sent
+	"." sent @punct #21->11
 
 # sent_id = wikipedia:Tripanosomiasis_africana:16
 # text = We yabʼilal sibʼalaj kayaʼtaj pa jujun taq rulewal rech África Subsahariana, kʼo kʼaxkʼolil chi kij we e winaq le kajawataj 70 millones de dolares pa 36 amaqʼ.

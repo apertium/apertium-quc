@@ -336,30 +336,25 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:15
 # text = Are kʼu le melarsoprol kukunaj le kebʼ, waʼ xew kakoj chech T.b.r. rumal sibʼalaj kʼo uchuqʼabʼ we kunabʼal.
 # text[eng] = While melarsoprol works for both it is typically only used for T.b.r. due to serious side effects.
-# labels = incomplete
+# labels = complete
 ^Are/Are$
 ^kʼu/kʼu$
 ^le/le$
-^melarsoprol/*melarsoprol$
-^kukunaj/*kukunaj$
+^melarsoprol/melarsoprol$
+^kukunaj/k>u>kuna>j$
 ^le/le$
 ^kebʼ/kebʼ$
 ^,/,$
 ^waʼ/waʼ$
 ^xew/xew$
-^kakoj/*kakoj$
+^kakoj/ka>koj$
 ^chech/ch>ech$
-^T/*T$
-^./.$
-^b/*b$
-^./.$
-^r/*r$
-^./.$
+^T.b.r./T.b.r.$
 ^rumal/r>umal$
 ^sibʼalaj/sibʼalaj$
 ^kʼo/kʼo$
 ^uchuqʼabʼ/u>chuqʼabʼ$
-^we/we/w>e$
+^we/we$
 ^kunabʼal/kunabʼal$
 ^./.$
 
