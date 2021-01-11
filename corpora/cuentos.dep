@@ -1544,6 +1544,64 @@
 "<.>"
 	"." sent @punct #8->4
 
+# sent_id = cuentos:Mayb’al_k’olib’al.wiki:4
+# text = Xkʼam bʼik pa jun utz laj ja, jawijeʼ chiʼ kʼo wi sibʼalaj uwach taq cheʼ, kʼo jalajoj taq kotzʼiʼj, kʼi taq awajibʼ.
+# text[spa'] = Se recibió en una pequeña y bonita casa, dónde aquí hay mucho a árboles, hay flores diferentes, animales muchos.
+# labels = complete check-everything
+"<Xkʼam>"
+	"kʼam" v tv pass perf s_sg3 @root #1->0
+"<bʼik>"
+	"bʼi" adv dir @advmod #2->1
+		"ik" mark @aux:ss #3->2
+"<pa>"
+	"pa" pr @case #4->8
+"<jun>"
+	"jun" det @det #5->8
+"<utz>"
+	"utz" adj @amod #6->8
+"<laj>"
+	"laj" adj @amod #7->8
+"<ja>"
+	"ja" n @obl #8->1
+"<,>"
+	"," cm @punct #9->12
+"<jawijeʼ>"
+	"jawijeʼ" adv itg @mark #10->12
+"<chiʼ>"
+	"chiʼ" cnjsub @fixed #11->10
+"<kʼo>"
+	"kʼo" part @acl #12->8
+"<wi>"
+	"wi" adv dir @advmod #13->12
+"<sibʼalaj>"
+	"sibʼ" adj ints @nsubj #14->12
+"<uwach>"
+	"wach" n rel px3sg @obl #15->12
+"<taq>"
+	"taq" pl @det #16->17
+"<cheʼ>"
+	"cheʼ" n @nmod #17->15
+"<,>"
+	"," cm @punct #18->19
+"<kʼo>"
+	"kʼo" part @parataxis #19->12
+"<jalajoj>"
+	"jalajoj" adj @amod #20->22
+"<taq>"
+	"taq" pl @det #21->22
+"<kotzʼiʼj>"
+	"kotzʼiʼj" n @nsubj #22->19
+"<,>"
+	"," cm @punct #23->26
+"<kʼi>"
+	"kʼi" adj @amod #24->26
+"<taq>"
+	"taq" pl @det #25->26
+"<awajibʼ>"
+	"awaj" n pl @conj #26->22
+"<.>"
+	"." sent @punct #27->1
+
 # sent_id = cuentos:Mayb’al_k’olib’al.wiki:8
 # text = Ri unan xubʼij che:  -xbʼe oxibʼ qʼij katqatzukuj. 
 # text[spa'] = Su madre le dijo: - se fue tres días que te hemos buscado.
@@ -2984,6 +3042,44 @@
 	"jaʼ" n @obj #10->8
 "<.>"
 	"." sent @punct #11->4
+
+# sent_id = cuentos:Ri_sub’unel.wiki:4
+# text = Te kʼu kunaʼo le tataʼ, are nabʼe xsikir taq raqan, uqʼabʼ rumal xibʼribʼ. 
+# text[spa'] = Ahora pero lo siente el señor, primero se durmieron sus pies y sus manos por él miedo.
+# labels = incomplete
+"<Te>"
+	"teʼ" adv @advmod #1->3
+"<kʼu>"
+	"kʼut" part @discourse #2->3
+"<kunaʼo>"
+	"naʼ" v tv impf o_sg3 s_sg3 @root #3->0
+		"u" mark @aux:ss #4->3
+"<le>"
+	"le" det @det #5->6
+"<tataʼ>"
+	"tataʼ" n @nsubj #6->3
+"<,>"
+	"," cm @punct #7->10
+"<are>"
+	"are" foc @discourse #8->10
+"<nabʼe>"
+	"nabʼe" adv @advmod #9->10
+"<xsikir>"
+	"sikir" v iv perf s_sg3 @root #11->0
+"<taq>"
+	"taq" pl @det #12->13
+"<raqan>"
+	"aqän" n px3sg @nsubj #13->11
+"<,>"
+	"," cm @punct #14->15
+"<uqʼabʼ>"
+	"qʼabʼ" n px3sg @conj #15->13
+"<rumal>"
+	"umal" n rel px3sg @obl #16->11
+"<xibʼribʼ>"
+	"xibʼribʼ" n @nmod #17->16
+"<.>"
+	"." sent @punct #18->11
 
 # sent_id = cuentos:Ri_tiko'n_ichaj.wiki:1
 # text = Jelaʼ pa ri timinit Chwikabyok rech Xelajuʼ, le qanan qatat kakitiko jeʼlalaj taq uwach ichaj.
