@@ -226,6 +226,7 @@ for depseg in sents_depseg:
 
 	print(comments)
 	indices = []
+	foundRoot = 0
 	for j in range(0, len(tokens)):
 		token = tokens[j]
 		if len(token[1]) > 1: # This is a multi-token word
@@ -245,8 +246,20 @@ for depseg in sents_depseg:
 				line = (word[0], segs[k], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
 				print(format_conllu_line(line))
 				indices.append(int(word[0]))
+				if word[7] == 'root':
+					foundRoot += 1
+				if word[7] == 'root' and word[6] != 0:
+					print('ERROR:',current_sent_id,' Root is not root', line, file=sys.stderr)
+				if word[7] != 'root' and word[6] == 0:
+					print('ERROR:',current_sent_id,' Node 0 is not root', line, file=sys.stderr)
 				if segs[k] == '':
 					print('ERROR:',current_sent_id,' Empty surface token', line, file=sys.stderr)
+				if word[0] == word[6]:
+					print('ERROR:',current_sent_id,' Cycle found', line, file=sys.stderr)
+				if word[7] == '' or word[7] == None:
+					print('ERROR:',current_sent_id,' Invalid deprel', line, file=sys.stderr)
+	
+			converted_words += 1
 			converted_words += len(token[1])
 		else:
 			# {0: ('Rajawaxik', [(1, '_', 'rajawaxik', '_', '_', '_', 0, '_', '_', '_')])}
@@ -255,8 +268,22 @@ for depseg in sents_depseg:
 			#       1        2         3        4            5    6            7        8        9    10
 			line = (word[0], token[0], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
 			print(format_conllu_line(line))
+			if word[7] == 'root' and word[6] != 0:
+				print('ERROR:',current_sent_id,' Root is not root', line, file=sys.stderr)
+			if word[7] != 'root' and word[6] == 0:
+				print('ERROR:',current_sent_id,' Node 0 is not root', line, file=sys.stderr)
+			if word[0] == word[6]:
+				print('ERROR:',current_sent_id,' Cycle found', line, file=sys.stderr)
+			if word[7] == '' or word[7] == None:
+				print('ERROR:',current_sent_id,' Invalid deprel', line, file=sys.stderr)
 			converted_words += 1
 			indices.append(int(word[0]))
+
+			if word[7] == 'root':
+				foundRoot += 1 
+
+	if foundRoot != 1:
+		print('ERROR:',current_sent_id,' Root not found,', foundRoot, 'roots', file=sys.stderr)
 
 	for (x, y) in enumerate(indices):
 		if x+1 != y:

@@ -40,6 +40,7 @@ _	_	p3	_	_	_	Person=3	_
 _	_	ord	_	_	_	NumType=Ord	_
 _	_	percent	_	_	_	_	_
 _	_	pers	_	_	_	PronType=Pers	_
+_	_	pro	_	_	_	PronType=Pers|Clitic=Yes	_
 _	_	pl	_	_	_	Number=Plur	_
 _	_	sg	_	_	_	Number=Sing	_
 _	_	px1pl	_	_	_	Number[psed]=Plur|Person[psed]=1	_
@@ -84,7 +85,7 @@ _	barb	_	_	_	X	Foreign=Yes	_
 _	cnjcoo	_	_	_	CCONJ	_	_
 _	cnjsub	_	_	_	SCONJ	_	_
 _	ij	_	_	_	INTJ	_	_
-_	det	_	_	_	DET	_	_
+_	det	_	_	_	DET	PronType=Art	_
 _	part	_	_	_	PART	_	_
 _	mark	_	_	_	PART	_	_
 _	rpar	_	_	_	PUNCT	_	_	

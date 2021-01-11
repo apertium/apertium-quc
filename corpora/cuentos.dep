@@ -625,7 +625,7 @@
 "<,>"
 	"," cm @punct #10->11
 "<xkichomaj>"
-	"chomaj" v tv perf o_sg3 s_pl3 @root #11->0
+	"chomaj" v tv perf o_sg3 s_pl3 @parataxis #11->1
 "<kebeʼ>"
 	"bʼe" v iv impf s_pl3 @xcomp #12->11
 "<pa>"
@@ -1701,7 +1701,7 @@
 "<awiʼ>"
 	"wiʼ" n rel px2sg @obl #10->6
 "<.>"
-	"." sent @sent #11->6
+	"." sent @punct #11->6
 
 # sent_id = cuentos:Rawasil_ri_jastaq.wiki:5
 # text = Itzel kawil le jabʼ, we katkamik pa jabʼ katmuq wi.
@@ -3065,7 +3065,7 @@
 "<nabʼe>"
 	"nabʼe" adv @advmod #9->10
 "<xsikir>"
-	"sikir" v iv perf s_sg3 @root #10->0
+	"sikir" v iv perf s_sg3 @parataxis #10->3
 "<taq>"
 	"taq" pl @det #11->12
 "<raqan>"
@@ -3298,7 +3298,7 @@
 "<jupuq>"
 	"jupuq" n @obj #11->8
 "<tzʼiʼ>"
-	"tzʼiʼ" n @nmod #12->12
+	"tzʼiʼ" n @nmod #12->11
 "<pa>"
 	"pa" pr @case #13->15
 "<ri>"

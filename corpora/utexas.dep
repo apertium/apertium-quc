@@ -480,7 +480,7 @@
 # text[spa] = Tenemos casa en Nahualá.
 # labels = tijonik-5 complete
 "<Kʼo>"
-	"kʼo" part @root #1->4
+	"kʼo" part @root #1->0
 "<qoʼch>"
 	"oʼch" n px1pl @nsubj #2->1
 "<chilaʼ>"
@@ -1100,7 +1100,7 @@
 "<bʼe>"
 	"bʼe" n @obl #7->2
 "<.>"
-	"." sent #8->2
+	"." sent @punct #8->2
 
 # sent_id = utexas:70
 # text = Na nim ta raqan waʼ we cheʼ.
@@ -3570,7 +3570,7 @@
 "<nutat>"
 	"tat" n px1sg @nsubj #3->1
 "<.>"
-	"." sent @root #4->1
+	"." sent @punct #4->1
 
 # sent_id = utexas:184
 # text = Le nutat kaloqʼon chwe.
@@ -3799,7 +3799,7 @@
 "<le>"
 	"le" prn rel @nsubj #5->6
 "<xinkunan>"
-	"kunaj" v tv anti agfoc perf s_sg1 @root #6->4
+	"kunaj" v tv anti agfoc perf s_sg1 @acl #6->4
 "<iwir>"
 	"iwir" adv @advmod #7->6
 "<?>"
@@ -5179,7 +5179,7 @@
 "<ta>"
 	"taj" neg @discourse #2->3
 "<xatbʼe>"
-	"bʼe" v iv perf s_sg2 @advcl #3->0
+	"bʼe" v iv perf s_sg2 @advcl #3->9
 "<wukʼ>"
 	"ukʼ" n rel px1sg @obl #4->3
 "<pa>"
