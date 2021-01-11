@@ -464,9 +464,9 @@
 	"chi" pr @case #9->10
 		"ech" n rel px3sg @mark #10->11
 "<utijik>"
-	"tij" v tv inf s_sg3 @advcl #12->7
+	"tij" v tv inf s_sg3 @advcl #11->7
 "<.>"
-	"." sent @punct #13->1
+	"." sent @punct #12->1
 
 # sent_id = cuentos:Jun_ajyuq’.wiki:2
 # text = Xkʼulmataj jumul, xubʼan jun nimalaj jabʼ, man xbʼeyetaj ta na xukʼis le uyuqʼ chike.  
@@ -650,7 +650,7 @@
 "<ri>"
 	"ri" det @det #5->6
 "<juyubʼ>"
-	"juyubʼ" n @nmod #7->4
+	"juyubʼ" n @nmod #6->4
 "<,>"
 	"," cm @punct #7->8
 "<xkilo>"
@@ -1203,13 +1203,13 @@
 "<komon>"
 	"komon" adj @amod #4->5
 "<waʼim>"
-	"waʼim" n @nsubj #6->2
+	"waʼim" n @nsubj #5->2
 "<pa>"
-	"pa" pr @case #7->8
+	"pa" pr @case #6->7
 "<kachoch>"
-	"achoch" n px3pl @obl #8->2
+	"achoch" n px3pl @obl #7->2
 "<.>"
-	"." sent @punct #9->2
+	"." sent @punct #8->2
 
 # sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:7
 # text = Ktij ri uwaʼl ik rumal ri kinimaqʼij.
@@ -1224,13 +1224,13 @@
 "<ik>"
 	"ik" n @compound #4->3
 "<rumal>"
-	"umal" n rel px3sg @obl #5->7
+	"umal" n rel px3sg @obl #5->1
 "<ri>"
 	"ri" det @det #6->7
 "<kinimaqʼij>"
-	"nimaqʼij" n px3pl @obl #8->1
+	"nimaqʼij" n px3pl @nmod #7->5
 "<.>"
-	"." sent @punct #9->1
+	"." sent @punct #8->1
 
 # sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:8
 # text = We man je kabʼan chike, kabʼison le rajaw tuj.
@@ -1438,27 +1438,27 @@
 "<chi>"
 	"chi" cnjsub @mark #4->5
 "<kʼo>"
-	"kʼo" part @ccomp #6->3
+	"kʼo" part @ccomp #5->3
 "<jun>"
-	"jun" det ind @det #7->8
+	"jun" det ind @det #6->7
 "<bʼe>"
-	"bʼe" n @nsubj #8->3
+	"bʼe" n @nsubj #7->3
 "<,>"
-	"," cm @punct #9->11
+	"," cm @punct #8->10
 "<areʼ>"
-	"areʼ" prn pers p3 sg @nsubj #10->11
+	"areʼ" prn pers p3 sg @nsubj #9->10
 "<bʼe>"
-	"bʼe" n @parataxis #11->3
+	"bʼe" n @parataxis #10->3
 "<rech>"
-	"ech" n rel px3sg @nmod #12->11
+	"ech" n rel px3sg @nmod #11->10
 "<tinamit>"
-	"tinamit" n @nmod #13->12
+	"tinamit" n @nmod #12->11
 "<ubʼi>"
-	"bʼi" n px3sg @nmod #14->13
+	"bʼi" n px3sg @nmod #13->12
 "<Lemoʼ>"
-	"Lemoʼ" np top @nmod #15->14
+	"Lemoʼ" np top @nmod #14->13
 "<.>"
-	"." sent @punct #16->3
+	"." sent @punct #15->3
 
 # sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:10
 # text = Su kabʼij la, xubʼij le akʼal che le tat Xoʼr.
@@ -1853,9 +1853,9 @@
 "<nikʼaj>"
 	"nikʼaj" adj @amod #11->12
 "<kachil>"
-	"achiʼl" n px3pl @nmod #13->8
+	"achiʼl" n px3pl @nmod #12->8
 "<.>"
-	"." sent @punct #14->1
+	"." sent @punct #13->1
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:5
 # text = Konojel ri akʼalabʼ sibʼalaj utz xkil le imul.
@@ -1906,9 +1906,9 @@
 "<alaj>"
 	"alaj" adj @amod #11->12
 "<imul>"
-	"imul" n @obj #13->8
+	"imul" n @obj #12->8
 "<.>"
-	"." sent @punct #14->4
+	"." sent @punct #13->4
 
 # sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:7
 # text = Ri alaj ali Siʼl xubʼij xqachap pa utzal ri Tyox.
@@ -2218,36 +2218,36 @@
 "<,>"
 	"," cm @punct #9->11
 "<we>"
-	"we" cnjsub @advcl #11->12
+	"we" cnjsub @advcl #10->11
 "<kabʼan>"
-	"bʼan" v tv impf o_sg3 s_sg2 @advcl #12->16
+	"bʼan" v tv impf o_sg3 s_sg2 @advcl #11->15
 "<ri>"
-	"ri" det @det #13->14
+	"ri" det @det #12->13
 "<toqʼobʼ>"
-	"toqʼobʼ" n @obj #14->12
+	"toqʼobʼ" n @obj #13->11
 "<,>"
-	"," cm @punct #15->16
+	"," cm @punct #14->15
 "<chakuyuʼ>"
-	"kuy" v tv imp o_sg3 s_sg2 @parataxis #16->6
-		"uʼ" mark @aux:ss #17->16
+	"kuy" v tv imp o_sg3 s_sg2 @parataxis #15->6
+		"uʼ" mark @aux:ss #16->15
 "<kinkaʼy>"
-	"kaʼy" v iv impf s_sg1 @ccomp #18->16
+	"kaʼy" v iv impf s_sg1 @ccomp #17->15
 "<apan>"
-	"apan" adv dir @advmod #19->18
+	"apan" adv dir @advmod #18->17
 "<jutzʼit>"
-	"jutzʼit" adv @advmod #20->18
+	"jutzʼit" adv @advmod #19->17
 "<ajsik>"
-	"ajsik" adv @advmod #21->18
+	"ajsik" adv @advmod #20->17
 "<,>"
-	"," cm @punct #22->23
+	"," cm @punct #21->22
 "<xchaʼ>"
-	"chaʼ" v iv perf s_sg3 @parataxis #23->16
+	"chaʼ" v iv perf s_sg3 @parataxis #22->15
 "<ri>"
-	"ri" det @det #24->15
+	"ri" det @det #23->24
 "<imul>"
-	"imul" n @nsubj #25->13
+	"imul" n @nsubj #24->22
 "<.>"
-	"." sent @punct #26->3
+	"." sent @punct #25->3
 
 # sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:1
 # text = Xkʼulmataj pa jun Komon chiʼ uwach jun juyubʼ, xuriqa jun qʼij xkiriq kibʼ jun imul rukʼ le kok.
@@ -2612,7 +2612,7 @@
 "<qakʼaslemal>"
 	"kʼaslemal" n px1pl @obl #6->3
 "<.>"
-	"." sent @punct #6->2
+	"." sent @punct #7->2
 
 # sent_id = cuentos:Ri_komon_Xechpup.wiki:1
 # text = Ri komon Xechpup rech uqʼabʼ tinamit Xoʼl Abʼaj rech Qʼumarkaj.
@@ -3025,23 +3025,23 @@
 "<Xa>"
 	"xa" adv @advmod #1->3
 "<rumal>"
-	"umal" n rel px3sg @obl #3->4
+	"umal" n rel px3sg @obl #2->3
 "<ketaʼm>"
-	"etaʼm" v tv perf o_sg3 s_pl3 @root #4->0
+	"etaʼm" v tv perf o_sg3 s_pl3 @root #3->0
 "<konojel>"
-	"onojel" n rel px3pl @nsubj #5->4
+	"onojel" n rel px3pl @nsubj #4->3
 "<ri>"
-	"ri" det @det #6->7
+	"ri" det @det #5->6
 "<winaq>"
-	"winaq" n @nmod #7->5
+	"winaq" n @nmod #6->4
 "<kkiqumuj>"
-	"qumuj" v tv impf o_sg3 s_pl3 @acl #8->7
+	"qumuj" v tv impf o_sg3 s_pl3 @acl #7->6
 "<le>"
-	"le" det @det #9->10
+	"le" det @det #8->9
 "<jaʼ>"
-	"jaʼ" n @obj #10->8
+	"jaʼ" n @obj #9->7
 "<.>"
-	"." sent @punct #11->4
+	"." sent @punct #10->3
 
 # sent_id = cuentos:Ri_sub’unel.wiki:4
 # text = Te kʼu kunaʼo le tataʼ, are nabʼe xsikir taq raqan, uqʼabʼ rumal xibʼribʼ. 
@@ -3065,21 +3065,21 @@
 "<nabʼe>"
 	"nabʼe" adv @advmod #9->10
 "<xsikir>"
-	"sikir" v iv perf s_sg3 @root #11->0
+	"sikir" v iv perf s_sg3 @root #10->0
 "<taq>"
-	"taq" pl @det #12->13
+	"taq" pl @det #11->12
 "<raqan>"
-	"aqän" n px3sg @nsubj #13->11
+	"aqän" n px3sg @nsubj #12->10
 "<,>"
-	"," cm @punct #14->15
+	"," cm @punct #13->14
 "<uqʼabʼ>"
-	"qʼabʼ" n px3sg @conj #15->13
+	"qʼabʼ" n px3sg @conj #14->12
 "<rumal>"
-	"umal" n rel px3sg @obl #16->11
+	"umal" n rel px3sg @obl #15->10
 "<xibʼribʼ>"
-	"xibʼribʼ" n @nmod #17->16
+	"xibʼribʼ" n @nmod #16->15
 "<.>"
-	"." sent @punct #18->11
+	"." sent @punct #17->10
 
 # sent_id = cuentos:Ri_tiko'n_ichaj.wiki:1
 # text = Jelaʼ pa ri timinit Chwikabyok rech Xelajuʼ, le qanan qatat kakitiko jeʼlalaj taq uwach ichaj.
@@ -3207,7 +3207,7 @@
 "<chi>"
 	"chi" pr @case #5->6
 "<ke>"
-	"ech" n rel px3pl @obl #7->4
+	"ech" n rel px3pl @obl #6->4
 "<kebʼ>"
 	"kebʼ" num @nummod #7->8
 "<alaxik>"

@@ -25,15 +25,15 @@
 "<kech>"
 	"ech" n rel px3pl @nmod #11->10
 "<e>"
-	"e" pl @det #11->12
+	"e" pl @det #12->13
 "<winaq>"
-	"winaq" n @nmod #12->11
+	"winaq" n @nmod #13->11
 "<chiʼl>"
-	"chiʼl" cnjcoo @cc #13->14
+	"chiʼl" cnjcoo @cc #14->15
 "<awajibʼ>"
-	"awaj" n pl @conj #14->12
+	"awaj" n pl @conj #15->13
 "<.>"
-	"." sent @punct #15->9
+	"." sent @punct #16->9
 
 # sent_id = wikipedia:Tripanosomiasis_africana:2
 # text = Are kayoʼw le uchikopil le ubʼantajik Trypanosoma brucei.
@@ -394,31 +394,31 @@
 "<uchikopil>"
 	"chikopil" n px3sg @nmod #7->5
 "<pa>"
-	"pa" pr @case #10->12
+	"pa" pr @case #8->10
 "<jun>"
-	"jun" det ind @det #11->12
+	"jun" det ind @det #9->10
 "<usolik>"
-	"solik" n px3sg @nmod #12->7
+	"solik" n px3sg @nmod #10->7
 "<uxeʼ>"
-	"xeʼ" n rel px3sg @nmod #13->12
+	"xeʼ" n rel px3sg @nmod #11->10
 "<le>"
-	"le" det @det #14->15
+	"le" det @det #12->13
 "<kikʼ>"
-	"kikʼ" n @nmod #15->13
+	"kikʼ" n @nmod #13->11
 "<on>"
-	"on" cnjcoo @cc #16->18
+	"on" cnjcoo @cc #14->16
 "<le>"
-	"le" det @det #17->18
+	"le" det @det #15->16
 "<jaʼ>"
-	"jaʼ" n @conj #18->12
+	"jaʼ" n @conj #16->10
 "<rech>"
-	"ech" n rel px3sg @nmod #19->18
+	"ech" n rel px3sg @nmod #17->16
 "<jun>"
-	"jun" det ind @det #20->21
+	"jun" det ind @det #18->19
 "<nodo>"
-	"nodo" n barb @nmod #21->19
+	"nodo" n barb @nmod #19->17
 "<.>"
-	"." sent @punct #22->4
+	"." sent @punct #20->4
 
 # sent_id = wikipedia:Tripanosomiasis_africana:10
 # text = Chech punción lumbar amaqʼel rajawaxik chech rilik le ukʼexbʼem wi le nabʼe rukʼ le ukabʼ ukʼutunem le yabʼilal.

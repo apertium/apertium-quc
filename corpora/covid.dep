@@ -46,14 +46,14 @@
 "<COVID-19>"
 	"COVID-19" np al @obl #10->5
 "<xuqujeʼ>"
-	"xuqujeʼ" adv @advmod #11->13
+	"xuqujeʼ" adv @advmod #11->12
 "<xibʼabʼal>"
-	"xibʼibʼal" adj @parataxis #13->5
+	"xibʼibʼal" adj @parataxis #12->5
 "<chawe>"
-	"chi" pr @case #14->15
-		"ech" n rel px2sg @obl #15->13
+	"chi" pr @case #13->15
+		"ech" n rel px2sg @obl #14->12
 "<.>"
-	"." sent @punct #16->5
+	"." sent @punct #15->5
 
 # sent_id = covid:5
 # text = Le yabʼil (COVID-19) loqʼ kqʼaxix pa ri qʼaqʼ xuqujeʼ chʼaqal taq tinmit.

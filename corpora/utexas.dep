@@ -79,7 +79,7 @@
 "<na>"
 	"na" neg @aux:neg #4->5
 "<kikʼoxomaj>"
-	"kʼoxomaj" v tv impf o_sg3 s_pl2 @acl #6->3
+	"kʼoxomaj" v tv impf o_sg3 s_pl2 @acl #5->3
 "<taj>"
 	"taj" neg fin @aux:neg #6->5
 "<?>"
@@ -672,15 +672,15 @@
 "<e>"
 	"e" pl @dep #2->3
 "<ral>"
-	"al" n px3sg @root #4->0
+	"al" n px3sg @root #3->0
 "<le>"
-	"le" det @det #5->7
+	"le" det @det #4->6
 "<nan>"
-	"nan" clf f @clf #6->7
+	"nan" clf f @clf #5->6
 "<Weʼl>"
-	"Weʼl" np ant f @nmod:psor #7->4
+	"Weʼl" np ant f @nmod:psor #6->3
 "<.>"
-	"." sent @punct #8->4
+	"." sent @punct #7->3
 
 # sent_id = utexas:46
 # text = La utz awach?- Utz maltyox , e kʼu ri at ?– Utz maltyox.
@@ -1529,7 +1529,7 @@
 "<wuj>"
 	"wuj" n @obj #7->4
 "<?>"
-	"?" sent @punct #7->4
+	"?" sent @punct #8->4
 
 # sent_id = utexas:90.3
 # text = Jas ubʼiʼ le atinamit?
@@ -2499,9 +2499,9 @@
 "<le>"
 	"le" det @det #6->7
 "<chʼawebʼal>"
-	"chʼawebʼal" n @obl #8->1
+	"chʼawebʼal" n @obl #7->1
 "<.>"
-	"." sent @punct #9->1
+	"." sent @punct #8->1
 
 # sent_id = utexas:137
 # text = Xopan le wuj awukʼ rumal wech in.
@@ -3132,12 +3132,12 @@
 "<kachʼaw>"
 	"chʼaw" v iv impf s_sg3 @root #5->0
 "<chinuwach>"
-	"chi" pr @case #5->6
-		"wach" n rel px1sg @obl #6->5
+	"chi" pr @case #6->7
+		"wach" n rel px1sg @obl #7->5
 "<in>"
-	"in" prn pers p1 sg @nmod #7->6
+	"in" prn pers p1 sg @nmod #8->7
 "<.>"
-	"." sent @punct #8->5
+	"." sent @punct #9->5
 
 # sent_id = utexas:171
 # text = Xukunaj le yawabʼ le aj qʼij
@@ -3152,11 +3152,11 @@
 "<le>"
 	"le" det @det #4->5
 "<aj>"
-	"aj" n @obj #6->1
+	"aj" n @obj #5->1
 "<qʼij>"
-	"qʼij" n @compound #7->6
+	"qʼij" n @compound #6->5
 "<.>"
-	"." sent @punct #8->1
+	"." sent @punct #7->1
 
 # sent_id = utexas:172
 # text = Xkunax le yawabʼ (rumal le aj qʼij)
@@ -4050,7 +4050,7 @@
 "<kinchakuj>"
 	"chakuj" v tv impf o_sg3 s_sg1 @acl #3->2
 "<.>"
-	"." sent @punct #5->1
+	"." sent @punct #4->1
 
 # sent_id = utexas:210
 # text = Xkos le achi.

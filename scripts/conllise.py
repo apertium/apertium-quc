@@ -66,6 +66,8 @@ def get_segmentations(sent):
 		if line[0] != '^':
 			continue
 		if line.count('/') == 1:
+			if line.count('*') > 0:
+				print('ERROR: Empty segmentations: ', line, file=sys.stderr)
 			(surface, segmentation) = line[1:-1].split('/')
 			segmentations[counter] = (surface, segmentation.split('>'))
 		elif line.count('/') > 1:
@@ -188,10 +190,11 @@ for i in range(0, len(sents_seg)):
 		sents_depseg[sent_id] = {}
 	sents_depseg[sent_id][1] = sents_seg[i]
 
-mono_morphemes = ['pr', 'mark|fin', 'mark', 'part', 'foc']
+mono_morphemes = ['pr', 'mark|fin', 'mark', 'part', 'foc', 'aux']
 
 converted_sents = 0
 converted_tokens = 0
+converted_words = 0
 
 missing_parses = 0
 missing_segmentations = 0
@@ -214,12 +217,15 @@ for depseg in sents_depseg:
 
 #	print(tokens)
 
+	current_sent_id = comments.split('\n')[0]
+
 	if len(tokens) != len(segmentations):
-		print('[tok_seg]',comments.split('\n')[0],'ERROR:',tokens, file=sys.stderr)
-		print('[tok_seg]',comments.split('\n')[0],'ERROR:',segmentations, file=sys.stderr)
+		print('[tok_seg]',current_sent_id,'ERROR:',tokens, file=sys.stderr)
+		print('[tok_seg]',current_sent_id,'ERROR:',segmentations, file=sys.stderr)
 		continue
 
 	print(comments)
+	indices = []
 	for j in range(0, len(tokens)):
 		token = tokens[j]
 		if len(token[1]) > 1: # This is a multi-token word
@@ -238,6 +244,10 @@ for depseg in sents_depseg:
 				#       1        2                       3        4            5    6            7        8        9    10
 				line = (word[0], segs[k], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
 				print(format_conllu_line(line))
+				indices.append(int(word[0]))
+				if segs[k] == '':
+					print('ERROR:',current_sent_id,' Empty surface token', line, file=sys.stderr)
+			converted_words += len(token[1])
 		else:
 			# {0: ('Rajawaxik', [(1, '_', 'rajawaxik', '_', '_', '_', 0, '_', '_', '_')])}
 			word = token[1][0]
@@ -245,10 +255,18 @@ for depseg in sents_depseg:
 			#       1        2         3        4            5    6            7        8        9    10
 			line = (word[0], token[0], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
 			print(format_conllu_line(line))
+			converted_words += 1
+			indices.append(int(word[0]))
+
+	for (x, y) in enumerate(indices):
+		if x+1 != y:
+			print('ERROR:',current_sent_id,' Indices out of sync:', indices, file=sys.stderr)
+			break
+
 	print()
 	converted_sents += 1
 	converted_tokens += len(tokens)
 
 ###############################################################################
 
-print('Converted %d sentences and %d tokens. Missing %d parses and %d segmentations.' % (converted_sents, converted_tokens, missing_parses, missing_segmentations), file=sys.stderr)
+print('Converted %d sentences and %d tokens (%d words). Average length: %.2f. Missing %d parses and %d segmentations.' % (converted_sents, converted_tokens, converted_words ,converted_words/converted_sents,missing_parses, missing_segmentations), file=sys.stderr)

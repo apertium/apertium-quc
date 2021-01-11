@@ -1849,7 +1849,7 @@
 "<ralaxik>"
 	"alaxik" n px3sg @nmod #15->13
 "<.>"
-	"." sent @punct #15->11
+	"." sent @punct #16->11
 
 # sent_id = ley2009-9:227
 # text = Ri pwaq rech we qʼataj riʼ kesax chech ri tojbʼal kʼayinem.
