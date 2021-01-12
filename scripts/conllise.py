@@ -133,6 +133,7 @@ def apply_rules(rules, analysis):
 					o[i] = j
 			msd = remainder
 
+	o[2] = list(set(o[2]))
 	o[2].sort()
 	o[2] = '|'.join(o[2])
 	for i in range(0, len(o)):
