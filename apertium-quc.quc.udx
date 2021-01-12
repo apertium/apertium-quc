@@ -42,8 +42,8 @@ _	_	p2	_	_	_	Person=2	_
 _	_	p3	_	_	_	Person=3	_
 _	_	ord	_	_	_	NumType=Ord	_
 _	_	percent	_	_	_	_	_
-_	_	pers	_	_	_	PronType=Pers	_
-_	_	pro	_	_	_	PronType=Pers|Clitic=Yes	_
+_	_	pers	_	_	_	PronType=Prs	_
+_	_	pro	_	_	_	PronType=Prs|Clitic=Yes	_
 _	_	pl	_	_	_	Number=Plur	_
 _	_	sg	_	_	_	Number=Sing	_
 _	_	px1pl	_	_	_	Number[psor]=Plur|Person[psor]=1	_
