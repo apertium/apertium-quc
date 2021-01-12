@@ -25,7 +25,8 @@ def get_deps_cg(line):
 def get_func_cg(line):
 	for i in line.strip().split(' '):
 		if len(i) > 1 and i[0] == '@':
-			return i[1:]
+			#return i[1:]
+			return i
 
 def get_tags_cg(line):
 	tags = []
@@ -105,8 +106,10 @@ def load_rules(f):
 			continue
 		score = sum([i for (i, j) in enumerate(reversed(row[:4])) if j != '_'])
 		morf = [i for i in row[2].split('|') if i != '_']
-		rule = (score, set([i for i in row[:2] if i != '_'] + morf + [i for i in row[3:4] if i != '_']), row[4:])
-#		print('RULE:',rule)
+		deprel = ['@'+i for i in row[3:4] if i != '_']
+		pattern = set([i for i in row[:2] if i != '_'] + morf + deprel)
+		rule = (score, pattern, row[4:])
+		#print('RULE:',rule)
 		rules.append(rule)
 	rules.sort()
 	rules.reverse()
@@ -244,14 +247,14 @@ for depseg in sents_depseg:
 			for (k, word) in enumerate(token[1]):
 				(analysis, misc) = apply_rules(rules, word)
 				#       1        2                       3        4            5    6            7        8        9    10
-				line = (word[0], segs[k], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
+				line = (word[0], segs[k], word[2], analysis[1], '_', analysis[2], word[6], word[7][1:], '_', '_')
 				print(format_conllu_line(line))
 				indices.append(int(word[0]))
-				if word[7] == 'root':
+				if word[7] == '@root':
 					foundRoot += 1
-				if word[7] == 'root' and word[6] != 0:
+				if word[7] == '@root' and word[6] != 0:
 					print('ERROR:',current_sent_id,' Root is not root', line, file=sys.stderr)
-				if word[7] != 'root' and word[6] == 0:
+				if word[7] != '@root' and word[6] == 0:
 					print('ERROR:',current_sent_id,' Node 0 is not root', line, file=sys.stderr)
 				if segs[k] == '':
 					print('ERROR:',current_sent_id,' Empty surface token', line, file=sys.stderr)
@@ -266,11 +269,11 @@ for depseg in sents_depseg:
 			word = token[1][0]
 			(analysis, misc) = apply_rules(rules, word)
 			#       1        2         3        4            5    6            7        8        9    10
-			line = (word[0], token[0], word[2], analysis[1], '_', analysis[2], word[6], word[7], '_', '_')
+			line = (word[0], token[0], word[2], analysis[1], '_', analysis[2], word[6], word[7][1:], '_', '_')
 			print(format_conllu_line(line))
-			if word[7] == 'root' and word[6] != 0:
+			if word[7] == '@root' and word[6] != 0:
 				print('ERROR:',current_sent_id,' Root is not root', line, file=sys.stderr)
-			if word[7] != 'root' and word[6] == 0:
+			if word[7] != '@root' and word[6] == 0:
 				print('ERROR:',current_sent_id,' Node 0 is not root', line, file=sys.stderr)
 			if word[0] == word[6]:
 				print('ERROR:',current_sent_id,' Cycle found', line, file=sys.stderr)
@@ -279,7 +282,7 @@ for depseg in sents_depseg:
 			converted_words += 1
 			indices.append(int(word[0]))
 
-			if word[7] == 'root':
+			if word[7] == '@root':
 				foundRoot += 1 
 
 	if foundRoot != 1:

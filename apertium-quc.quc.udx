@@ -3,13 +3,15 @@ man	neg	_	_	man	AUX	Polarity=Neg	_
 ma	neg	_	_	ma	AUX	Polarity=Neg	_
 na	neg	_	_	na	AUX	Polarity=Neg	_
 taj	neg	_	_	taj	AUX	Polarity=Neg	_
-taq	pl	_	_	taq	PART	Number=Plur	_
+jetaq	pl	_	_	jetaq	PART	Number=Plur	_
+e	pl	_	_	e	DET	Animacy=Anim|Number=Plur	_
+taq	pl	_	_	taq	DET	Number=Plur	_
 taj	aux	_	_	taj	AUX	Mood=Irr	_	
 tajin	aux	_	_	tajin	AUX	Aspect=Prog	_
-jetaq	pl	_	_	jetaq	PART	Number=Plur	_
-e	pl	_	_	e	PART	Animacy=Anim|Number=Plur	_
 jas	prn	_	advmod	jas	ADV	PronType=Int	advmod
+la	qst	_	discourse	la	PART	PronType=Int	discourse
 jun	det	_	_	jun	DET	PronType=Art|Definite=Ind	_
+ibʼ	n	rel	_	ibʼ	NOUN	NounType=Relat|Reflex=Yes	_
 _	_	abl	_	_	_	Movement=Abl	_
 _	_	lat	_	_	_	Movement=Lat	_
 _	_	ant	_	_	_	_	_
@@ -17,9 +19,10 @@ _	_	cog	_	_	_	_	_
 _	_	dem	_	_	_	PronType=Dem	_
 #_	der_bʼal
 _	_	dir	_	_	_	_	_
+_	_	ints	_	_	_	Degree=Ints	_
 _	_	f	_	_	_	Gender=Fem	_
 _	_	m	_	_	_	Gender=Masc	_
-_	_	frm	_	_	_	Register=Formal	_
+_	_	frm	_	_	_	Polite=Form	_
 _	_	fut	_	_	_	Tense=Fut	_
 _	_	imp	_	_	_	Mood=Imp	_
 _	_	ind	_	_	_	Definite=Ind	_
@@ -79,7 +82,7 @@ _	emph	_	_	_	PART	_	_
 _	foc	_	_	_	PART	Focus=Yes	_
 _	n	_	_	_	NOUN	_	_
 _	clf	_	_	_	NOUN	NounType=Clf	_
-_	abbr	_	_	_	NOUN	_	_
+_	abbr	_	_	_	NOUN	Abbr=Yes	_
 _	np	_	_	_	PROPN	_	_
 _	num	_	_	_	NUM	_	_
 _	adj	_	_	_	ADJ	_	_

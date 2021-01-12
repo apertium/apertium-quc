@@ -8,7 +8,7 @@
 	"kunaj" v tv pass stat impf s_sg2 @csubj #2->1
 "<che>"
 	"chi" pr @case #3->4
-		"ech" n rel px3sg @nmod:relat #4->6
+		"ech" n rel px3sg @nmod #4->6
 "<le>"
 	"le" det @det #5->6
 "<yabʼil>"
@@ -40,7 +40,7 @@
 	"taj" neg @aux #6->5
 "<che>"
 	"chi" pr @case #7->8
-		"ech" n rel px3sg @nmod:relat #8->10
+		"ech" n rel px3sg @nmod #8->10
 "<le>"
 	"le" det @det #9->10
 "<COVID-19>"
@@ -99,7 +99,7 @@
 "<katatin>"
 	"atin" v iv impf s_sg2 @advcl #2->7
 "<rukʼ>"
-	"ukʼ" n rel px3sg @nmod:relat #3->5
+	"ukʼ" n rel px3sg @nmod #3->5
 "<kʼatan>"
 	"kʼatän" adj @amod #4->5
 "<jaʼ>"

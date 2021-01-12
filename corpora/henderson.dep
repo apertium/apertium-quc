@@ -226,11 +226,11 @@
 # text[eng] = I am not working.
 # label = complete
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @aux #1->4
 "<tajin>"
 	"tajin" aux @aux #2->4
 "<ta>"
-	"taj" neg @aux #3->2
+	"taj" neg @aux #3->4
 "<kinchakunik>"
 	"chakun" v iv impf s_sg1 @root #4->0
 		"ik" aux @aux:ss #5->4

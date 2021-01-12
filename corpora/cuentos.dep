@@ -784,7 +784,7 @@
 "<le>"
 	"le" det @det #17->18
 "<kimes>"
-	"mes" n px3pl @obj #18->14
+	"mes" n px3pl @obj #18->15
 "<pa>"
 	"pa" pr @case #19->22
 "<taq>"
@@ -3293,7 +3293,7 @@
 "<xuriq>"
 	"riq" v tv perf o_sg3 s_sg3 @parataxis #8->4
 "<apanoq>"
-	"apan" adv dir @advmod #9->10
+	"apan" adv dir @advmod #9->8
 		"oq" aux @aux:ss #10->8
 "<jupuq>"
 	"jupuq" n @obj #11->8

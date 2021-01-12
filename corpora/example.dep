@@ -65,7 +65,7 @@
 "<wuj>"
 	"wuj" n @nsubj #3->1
 "<rumal>"
-	"umal" n rel px3sg @obl:agent #4->1
+	"umal" n rel px3sg @obl #4->1
 "<ri>"
 	"ri" det @det #5->6
 "<ali>"
