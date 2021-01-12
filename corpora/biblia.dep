@@ -259,7 +259,7 @@
 "<ri>"
 	"ri" det @det #4->5
 "<Lot>"
-	"Lot" np ant m @nmod:psor #5->3
+	"Lot" np ant m @nmod #5->3
 "<.>"
 	"." sent @punct #6->1
 
@@ -326,7 +326,7 @@
 "<ri>"
 	"ri" det @det #5->6
 "<winaq>"
-	"winaq" n @nmod:relat #6->4
+	"winaq" n @nmod #6->4
 "<.>"
 	"." sent @punct #7->2
 
@@ -349,7 +349,7 @@
 "<ri>"
 	"ri" det @det #7->8
 "<Dyos>"
-	"Dyos" n @nmod:psor #8->6
+	"Dyos" n @nmod #8->6
 "<»>"
 	"»" rquot @punct #9->3
 "<.>"
@@ -505,11 +505,11 @@
 "<,>"
 	"," cm @punct #14->16
 "<man>"
-	"man" neg @aux:neg #15->16
+	"man" neg @aux #15->16
 "<kekowin>"
 	"kowin" v iv impf s_pl3 @conj #16->7
 "<taj>"
-	"taj" neg fin @aux:neg #17->16
+	"taj" neg fin @aux #17->16
 "<keqibʼ>"
 	"qibʼ" v iv impf s_pl3 @xcomp #18->16
 "<ukoq>"

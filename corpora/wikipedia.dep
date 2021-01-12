@@ -525,11 +525,11 @@
 "<Are>"
 	"are" foc @discourse #1->3
 "<man>"
-	"man" neg @aux:neg #2->3
+	"man" neg @aux #2->3
 "<kʼax>"
 	"kʼax" adj @root #3->0
 "<ta>"
-	"taj" neg @aux:neg #4->3
+	"taj" neg @aux #4->3
 "<ukunaxik>"
 	"kunaj" v tv pass inf s_sg3 @csubj #5->3
 "<are>"

@@ -84,11 +84,11 @@
 "<,>"
 	"," cm @punct #10->12
 "<ma>"
-	"ma" neg @aux:neg #11->12
+	"ma" neg @aux #11->12
 "<kuxeʼj>"
 	"xeʼj" v tv impf o_sg3 s_sg3 @parataxis #12->8
 "<ta>"
-	"taj" neg @aux:neg #13->12
+	"taj" neg @aux #13->12
 "<ribʼ>"
 	"ibʼ" n rel px3sg @obj #14->12
 "<,>"
@@ -99,12 +99,12 @@
 	"il" v tv perf o_sg3 s_sg3 @advcl #17->12
 		"u" aux @aux:ss #18->17
 "<ma>"
-	"ma" neg @aux:neg #19->17
+	"ma" neg @aux #19->17
 "<ekʼo>"
 	"e" prn pro p3 pl @aux #20->21
 		"kʼo" part @ccomp #21->17
 "<ta>"
-	"taj" neg @aux:neg #22->21
+	"taj" neg @aux #22->21
 "<chik>"
 	"chik" adv @advmod #23->21
 "<ri>"
@@ -215,11 +215,11 @@
 "<,>"
 	"," cm @punct #11->13
 "<man>"
-	"man" neg @aux:neg #12->13
+	"man" neg @aux #12->13
 "<kinbʼan>"
 	"bʼan" v tv impf o_sg3 s_sg1 @parataxis #13->6
 "<ta>"
-	"taj" neg @aux:neg #14->13
+	"taj" neg @aux #14->13
 "<chik>"
 	"chik" adv @advmod #15->13
 "<,>"
@@ -489,11 +489,11 @@
 "<,>"
 	"," cm @punct #8->10
 "<man>"
-	"man" neg @aux:neg #9->10
+	"man" neg @aux #9->10
 "<xbʼeyetaj>"
 	"bʼeyetaj" v iv perf s_sg3 @parataxis #10->4
 "<ta>"
-	"taj" neg @aux:neg #11->10
+	"taj" neg @aux #11->10
 "<na>"
 	"na" adv fut @advmod #12->13
 "<xukʼis>"
@@ -659,11 +659,11 @@
 "<chi>"
 	"chi" cnjsub @mark #10->13
 "<man>"
-	"man" neg @aux:neg #11->12
+	"man" neg @aux #11->12
 "<qas>"
 	"qas" adj @ccomp #12->8
 "<ta>"
-	"taj" neg @aux:neg #13->12
+	"taj" neg @aux #13->12
 "<kʼo>"
 	"kʼo" part @csubj #14->12
 "<qʼayes>"
@@ -820,11 +820,11 @@
 "<rumal>"
 	"umal" n rel px3sg @mark #7->9
 "<man>"
-	"man" neg @aux:neg #8->9
+	"man" neg @aux #8->9
 "<utz>"
 	"utz" adj @advcl #9->1
 "<ta>"
-	"taj" neg @aux:neg #10->9
+	"taj" neg @aux #10->9
 "<chi>" 
 	"chi" cnjsub @mark #11->12
 "<kakayik>"
@@ -966,11 +966,11 @@
 "<winaq>"
 	"winaq" n @nmod #5->3
 "<man>"
-	"man" neg @aux:neg #6->7
+	"man" neg @aux #6->7
 "<utz>"
 	"utz" adj @ccomp #7->1
 "<taj>"
-	"taj" neg fin @aux:neg #8->7
+	"taj" neg fin @aux #8->7
 "<keqasax>"
 	"qasaj" v tv pass impf s_pl3 @csubj #9->7
 "<ri>"
@@ -1239,7 +1239,7 @@
 "<We>"
 	"we" cnjsub @mark #1->4
 "<man>"
-	"man" neg @aux:neg #2->4
+	"man" neg @aux #2->4
 "<je>"
 	"je" adv @advmod #3->4
 "<kabʼan>"
@@ -1362,7 +1362,7 @@
 	"chi" pr @fixed #6->5
 		"ech" n rel px3sg @fixed #7->5
 "<maj>"
-	"maj" part neg @aux:neg #8->10
+	"maj" part neg @aux #8->10
 "<chik>"
 	"chik" adv @advmod #9->10
 "<kutijo>"
@@ -1376,11 +1376,11 @@
 # text[spa'] = No encontró comida sólo así murió de hambre.
 # labels = complete check-subordinator
 "<Man>"
-	"man" neg @aux:neg #1->2
+	"man" neg @aux #1->2
 "<xuriq>"
 	"riq" v tv perf o_sg3 s_sg3 @root #2->0
 "<taj>"
-	"taj" neg fin @aux:neg #3->2
+	"taj" neg fin @aux #3->2
 "<urikil>"
 	"rikiʼl" n px3sg @obj #4->2
 "<xaq>"
@@ -1507,19 +1507,19 @@
 "<,>"
 	"," cm @punct #6->8
 "<man>"
-	"man" neg @aux:neg #7->8
+	"man" neg @aux #7->8
 "<kawaj>"
 	"aj" v tv impf o_sg3 s_sg2 @ccomp #8->5
 "<taj>"
-	"taj" neg fin @aux:neg #9->8
+	"taj" neg fin @aux #9->8
 "<,>"
 	"," cm @punct #10->12
 "<man>"
-	"man" neg @aux:neg #11->12
+	"man" neg @aux #11->12
 "<kawaj>"
 	"aj" v tv impf o_sg3 s_sg2 @conj #12->8
 "<taj>"
-	"taj" neg fin @aux:neg #13->12
+	"taj" neg fin @aux #13->12
 "<.>"
 	"." sent @punct #14->5
 
@@ -2561,11 +2561,11 @@
 "<:>"
 	":" sent @punct #2->4
 "<man>"
-	"man" neg @aux:neg #3->4
+	"man" neg @aux #3->4
 "<utz>"
 	"utz" adj @parataxis #4->1
 "<taj>"
-	"taj" neg fin @aux:neg #5->4
+	"taj" neg fin @aux #5->4
 "<kʼax>"
 	"kʼax" adj @csubj #6->5
 "<kujchʼaw>"
@@ -2587,11 +2587,11 @@
 "<Kqabʼij>"
 	"bʼij" v tv impf o_sg3 s_pl1 @root #1->0
 "<man>"
-	"man" neg @aux:neg #2->3
+	"man" neg @aux #2->3
 "<kekowin>"
 	"kowin" v iv impf s_pl3 @ccomp #3->1
 "<taj>"
-	"taj" neg fin @aux:neg #4->3
+	"taj" neg fin @aux #4->3
 "<.>"
 	"." sent @punct #5->1
 
@@ -3175,11 +3175,11 @@
 "<rajawaxik>"
 	"rajawaxik" n @ccomp #5->3
 "<man>"
-	"man" neg @aux:neg #6->7
+	"man" neg @aux #6->7
 "<kuxej>"
 	"xeʼj" v tv impf o_sg3 s_sg3 @csubj #7->5
 "<ta>"
-	"taj" neg @aux:neg #8->7
+	"taj" neg @aux #8->7
 "<ribʼ>"
 	"ibʼ" n rel px3sg @obj #9->7
 "<che>"
@@ -3618,11 +3618,11 @@
 "<,>"
 	"," cm @punct #16->18
 "<man>"
-	"man" neg @aux:neg #17->18
+	"man" neg @aux #17->18
 "<karaj>"
 	"aj" v tv impf o_sg3 s_sg3 @parataxis #18->10
 "<ta>"
-	"taj" neg @aux:neg #19->18
+	"taj" neg @aux #19->18
 "<chik>"
 	"chik" adv @advmod #20->21
 "<kakʼatisax>"

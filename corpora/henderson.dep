@@ -95,11 +95,11 @@
 # text[eng] = He didn’t eat it.
 # label = complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<xutij>"
 	"tij" v tv perf o_sg3 s_sg3 @root #2->0
 "<taj>"
-	"taj" neg fin @aux:neg #3->2
+	"taj" neg fin @aux #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -110,11 +110,11 @@
 # text[eng] = He didn’t eat the tortilla.
 # label = complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<xutij>"
 	"tij" v tv perf o_sg3 s_sg3 @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<le>"
 	"le" det @det #4->5
 "<wa>"
@@ -163,13 +163,13 @@
 # text[eng] = It wasn’t in the market that he ate it.
 # label = complete
 "<Man>"
-	"man" neg @aux:neg #1->3
+	"man" neg @aux #1->3
 "<pa>"
 	"pa" pr @case #2->3
 "<kʼayibʼal>"
 	"kʼayibʼal" n @obl #3->5
 "<ta>"
-	"taj" neg @aux:neg #4->3
+	"taj" neg @aux #4->3
 "<xutijo>"
 	"tij" v tv perf o_sg3 s_sg3 @root #5->0
 		"u" aux @aux:ss #6->5
@@ -183,11 +183,11 @@
 # text[eng] = It wasn’t with the axe that he cut it.
 # label = complete
 "<Man>"
-	"man" neg @aux:neg #1->2
+	"man" neg @aux #1->2
 "<rukʼ>"
 	"ukʼ" n rel px3sg @obl #2->5
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<ikaj>"
 	"ikaj" n @nmod #4->2
 "<xuchʼaybʼej>"
@@ -202,11 +202,11 @@
 # text[eng] = It wasn’t Juan who left.
 # label = complete
 "<Man>"
-	"man" neg @aux:neg #1->2
+	"man" neg @aux #1->2
 "<are>"
 	"are" foc @discourse #2->7
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<ri>"
 	"ri" det @det #4->6
 "<a>"
@@ -226,11 +226,11 @@
 # text[eng] = I am not working.
 # label = complete
 "<Man>"
-	"man" neg @aux:neg #1->2
+	"man" neg @aux #1->2
 "<tajin>"
 	"tajin" aux @aux #2->4
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<kinchakunik>"
 	"chakun" v iv impf s_sg1 @root #4->0
 		"ik" aux @aux:ss #5->4
@@ -364,11 +364,11 @@
 # text[eng] = It wasn’t yesterday that he saw the leader.
 # label = complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<iwir>"
 	"iwir" adv @advmod #2->4
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<xril>"
 	"il" v tv perf o_sg3 s_sg3 @root #4->0
 "<le>"
@@ -673,11 +673,11 @@
 # text[eng] = It wasn’t him who he saw.
 # label = complete
 "<Man>"
-	"man" neg @aux:neg #1->2
+	"man" neg @aux #1->2
 "<are>"
 	"are" foc @discourse #2->4
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<xril>"
 	"il" v tv perf o_sg3 s_sg3 @root #4->0
 "<.>"
@@ -767,11 +767,11 @@
 # text[eng] = It wasn’t the boy who got tired.
 # label = complete
 "<Man>"
-	"man" neg @aux:neg #1->2
+	"man" neg @aux #1->2
 "<are>"
 	"are" foc @discourse #2->6
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<rala>"
 	"ri" det @det #4->5
 		"ala" n @nsubj #5->6
@@ -852,11 +852,11 @@
 # text[eng] = The dogs didn’t eat it.
 # label = complete
 "<Man>"
-	"man" neg @aux:neg #1->2
+	"man" neg @aux #1->2
 "<xkitij>"
 	"tij" v tv perf o_sg3 s_pl3 @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<le>"
 	"le" det @det #4->5
 "<tzʼiʼ>"
@@ -875,11 +875,11 @@
 "<tzʼiʼ>"
 	"tzʼiʼ" n @nsubj #2->4
 "<man>"
-	"man" neg @aux:neg #3->4
+	"man" neg @aux #3->4
 "<xkitij>"
 	"tij" v tv perf o_sg3 s_pl3 @root #4->0
 "<taj>"
-	"taj" neg fin @aux:neg #5->4
+	"taj" neg fin @aux #5->4
 "<.>"
 	"." sent @punct #6->4
 

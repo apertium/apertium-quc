@@ -1,12 +1,13 @@
 #lem 	pos 	morf 	dep | 	lem 	pos 	morf 		dep
-man	neg	_	_	man	PART	Negative=Yes	_
-ma	neg	_	_	ma	PART	Negative=Yes	_
-na	neg	_	_	na	PART	Negative=Yes	_
-taj	neg	_	_	taj	PART	Negative=Yes	_
+man	neg	_	_	man	AUX	Negative=Yes	_
+ma	neg	_	_	ma	AUX	Negative=Yes	_
+na	neg	_	_	na	AUX	Negative=Yes	_
+taj	neg	_	_	taj	AUX	Negative=Yes	_
 taq	pl	_	_	taq	PART	Number=Plur	_
 taj	aux	_	_	taj	AUX	Mood=Irr	_	
 jetaq	pl	_	_	jetaq	PART	Number=Plur	_
 e	pl	_	_	e	PART	Animacy=Anim|Number=Plur	_
+jas	prn	_	advmod	jas	ADV	PronType=Int	advmod
 _	_	abl	_	_	_	Movement=Abl	_
 _	_	lat	_	_	_	Movement=Lat	_
 _	_	ant	_	_	_	_	_

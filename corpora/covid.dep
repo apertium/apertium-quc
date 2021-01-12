@@ -33,11 +33,11 @@
 "<tzam>"
 	"tzam" n @obj #3->2
 "<man>"
-	"man" neg @aux:neg #4->5
+	"man" neg @aux #4->5
 "<katuchajij>"
 	"chajij" v tv impf o_sg2 s_sg3 @root #5->0
 "<ta>"
-	"taj" neg @aux:neg #6->5
+	"taj" neg @aux #6->5
 "<che>"
 	"chi" pr @case #7->8
 		"ech" n rel px3sg @nmod:relat #8->10
@@ -105,11 +105,11 @@
 "<jaʼ>"
 	"jaʼ" n @obl #5->2
 "<man>"
-	"man" neg @aux:neg #6->7
+	"man" neg @aux #6->7
 "<kuqʼatej>"
 	"qʼatej" v tv impf o_sg3 s_sg3 @root #7->0
 "<ta>"
-	"taj" neg @aux:neg #8->7
+	"taj" neg @aux #8->7
 "<le>"
 	"le" det @det #9->11
 "<kʼakʼ>"
@@ -132,11 +132,11 @@
 "<anxux>"
 	"axux" n @obj #3->2
 "<man>"
-	"man" neg @aux:neg #4->5
+	"man" neg @aux #4->5
 "<katutoʼ>"
 	"toʼ" v tv impf o_sg2 s_sg3 @root #5->0
 "<ta>"
-	"taj" neg @aux:neg #6->5
+	"taj" neg @aux #6->5
 "<chi>"
 	"chi" cnjsub @mark #7->8
 "<uqʼatixik>"

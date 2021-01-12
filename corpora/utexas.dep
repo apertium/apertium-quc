@@ -41,11 +41,11 @@
 "<jun>"
 	"jun" num @nsubj #3->2
 "<na>"
-	"na" neg @aux:neg #4->5
+	"na" neg @aux #4->5
 "<kakʼoxomaj>"
 	"kʼoxomaj" v tv impf o_sg3 s_sg2 @acl #5->3
 "<taj>"
-	"taj" neg fin @aux:neg #6->5
+	"taj" neg fin @aux #6->5
 "<?>"
 	"?" sent @punct #7->2
 
@@ -58,11 +58,11 @@
 "<kʼo>"
 	"kʼo" part @root #2->0
 "<na>"
-	"na" neg @aux:neg #3->4
+	"na" neg @aux #3->4
 "<kikʼoxomaj>"
 	"kʼoxomaj" v tv impf o_sg3 s_pl2 @csubj #4->2
 "<taj>"
-	"taj" neg fin @aux:neg #5->4
+	"taj" neg fin @aux #5->4
 "<?>"
 	"?" sent @punct #6->2
 
@@ -77,11 +77,11 @@
 "<tzij>"
 	"tzij" n @nsubj #3->2
 "<na>"
-	"na" neg @aux:neg #4->5
+	"na" neg @aux #4->5
 "<kikʼoxomaj>"
 	"kʼoxomaj" v tv impf o_sg3 s_pl2 @acl #5->3
 "<taj>"
-	"taj" neg fin @aux:neg #6->5
+	"taj" neg fin @aux #6->5
 "<?>"
 	"?" sent @punct #7->2
 
@@ -91,11 +91,11 @@
 # text[spa] = No entiendo que quiere decir ….
 # labels = tijonik-2 incomplete
 "<Na>"
-	"na" neg @aux:neg @aux:neg #1->2
+	"na" neg @aux @aux #1->2
 "<kinkʼoxomaj>"
 	"kʼoxomaj" v tv impf o_sg3 s_sg1 @root #2->0
 "<taj>"
-	"taj" neg fin @aux:neg #3->2
+	"taj" neg fin @aux #3->2
 "<jas>"
 	"jas" prn itg @obj 
 "<karaj>"
@@ -194,11 +194,11 @@
 # text[spa] = No lo sé.
 # labels = tijonik-2 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<wetaʼm>"
 	"etaʼm" v tv perf o_sg3 s_sg1 @root #2->0
 "<taj>"
-	"taj" neg fin @aux:neg #3->2
+	"taj" neg fin @aux #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -1107,11 +1107,11 @@
 # text[spa] = Este árbol no es alto.
 # labels = tijonik-8 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<nim>"
 	"nim" adj @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<raqan>"
 	"aqän" n px3sg @nsubj #4->2
 "<waʼ>"
@@ -1128,11 +1128,11 @@
 # text[spa] = La montaña no es verde.
 # labels = tijonik-8 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<rax>"
 	"rax" adj @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<uwach>"
 	"wach" n px3sg @nsubj #4->2
 "<le>"
@@ -1163,11 +1163,11 @@
 # text[eng] = Mariyʼs sewing is not good.
 # labels = tijonik-8 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<utz>"
 	"utz" adj @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<le>"
 	"le" det @det #4->5
 "<utʼisom>"
@@ -1186,11 +1186,11 @@
 # text[spa] = Nuestro plátano no está maduro (amarillo).
 # labels = tijonik-8 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<qʼan>"
 	"qʼän" adj @root #2->0
 "<ta>" 
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<uwach>"
 	"wach" n px3sg @nsubj #4->2
 "<le>"
@@ -1354,11 +1354,11 @@
 # text[spa] = No dormimos./No vamos a dormir.
 # labels = tijonik-12 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<kujwar>"
 	"war" v iv impf s_pl1 @root #2->0
 "<taj>"
-	"taj" neg fin @aux:neg #3->2
+	"taj" neg fin @aux #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -1367,11 +1367,11 @@
 # text[spa] = No dormimos aquí.
 # labels = tijonik-12 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<kujwar>"
 	"war" v iv impf s_pl1 @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<waral>"
 	"waral" adv @advmod #4->2
 "<.>"
@@ -1382,11 +1382,11 @@
 # text[spa] = Usted no duerme./Usted no va a dormir
 # labels = tijonik-12 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<kawar>"
 	"war" v iv impf s_sg3 @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<la>"
 	"la" part frm @aux:agr #4->2
 "<.>"
@@ -1414,11 +1414,11 @@
 # text[spa] = No camino.
 # labels = tijonik-12 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<kimbʼin>"
 	"bʼin" v iv impf s_sg1 @root #2->0
 "<taj>"
-	"taj" neg fin @aux:neg #3->2
+	"taj" neg fin @aux #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -1442,11 +1442,11 @@
 # text[spa] = No venimos.
 # labels = tijonik-12 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<kojpe>"
 	"pe" v iv impf s_pl1 @root #2->0
 "<taj>"
-	"taj" neg fin @aux:neg #3->2
+	"taj" neg fin @aux #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -1663,7 +1663,7 @@
 "<chemna>"
 	"chi" pr @case #2->3
 		"ech" n rel px3sg @obl #3->5
-			"man" neg @aux:neg #4->5
+			"man" neg @aux #4->5
 "<kixpe>"
 	"pe" v iv impf s_pl2 @root #5->0
 "<chweʼq>"
@@ -1793,11 +1793,11 @@
 # text[spa] = No, no lo hicimos
 # labels = tijonik-15 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<xqabʼan>"
 	"bʼan" v tv perf o_sg3 s_pl1 @root #2->0
 "<taj>"
-	"taj" neg fin @aux:neg #3->2
+	"taj" neg fin @aux #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -1834,11 +1834,11 @@
 # text[spa] = No te buscó.
 # labels = tijonik-15 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<xatutzukuj>"
 	"tzukuj" v tv perf o_sg2 s_sg3 @root #2->0
 "<taj>"
-	"taj" neg fin @aux:neg #3->2
+	"taj" neg fin @aux #3->2
 "<.>"
 	"." sent @punct #4->2
 
@@ -1860,11 +1860,11 @@
 # text[spa] = No vi el gato en la casa.
 # labels = tijonik-15 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<xinwil>"
 	"il" v tv perf o_sg3 s_sg1 @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<le>"
 	"le" det @det #4->5
 "<meʼs>"
@@ -2529,11 +2529,11 @@
 # text[spa] = No voy a la escuela porque estoy cansado.
 # labels = tijonik-20 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<kinbʼe>"
 	"bʼe" v iv impf s_sg1 @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<pa>"
 	"pa" pr @case #4->6
 "<le>"
@@ -2562,7 +2562,7 @@
 "<riʼ>"
 	"riʼ" prn dem @nmod #5->
 "<na>"
-	"na" neg @aux:neg #6->
+	"na" neg @aux #6->
 "<kimbʼe>"
 	"bʼe" v iv impf s_sg1 @parataxis #7->1
 "<pa>"
@@ -3098,11 +3098,11 @@
 "<Are>"
 	"are" foc @discourse #1->3
 "<na>"
-	"na" neg @aux:neg #2->3
+	"na" neg @aux #2->3
 "<nim>"
 	"nim" adj @root #3->0
 "<ta>"
-	"taj" neg @aux:neg #4->3
+	"taj" neg @aux #4->3
 "<le>"
 	"le" det @det #5->6
 "<atzʼiʼ>"
@@ -3124,11 +3124,11 @@
 "<Are>"
 	"are" foc @discourse #1->5
 "<na>"
-	"na" neg @aux:neg #2->3
+	"na" neg @aux #2->3
 "<aninaq>"
 	"aninäq" adv @advmod #3->5
 "<ta>"
-	"taj" neg @aux:neg #4->3
+	"taj" neg @aux #4->3
 "<kachʼaw>"
 	"chʼaw" v iv impf s_sg3 @root #5->0
 "<chinuwach>"
@@ -3255,11 +3255,11 @@
 # text[spa] = No puedo hacerlo.
 # labels = tijonik-31 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<kabʼantaj>"
 	"bʼan" v tv pass stat impf s_sg3 @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<wumal>"
 	"umal" n rel px1sg @obl #4->2
 "<.>"
@@ -3270,11 +3270,11 @@
 # text[spa] = No puedo hacerlo.
 # labels = tijonik-32 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<kabʼantaj>"
 	"bʼan" v tv pass stat impf s_sg3 @root #2->0
 "<ta>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 "<wumal>"
 	"umal" n rel px1sg @obl #4->2
 "<.>"
@@ -4389,11 +4389,11 @@
 # text[spa] = No lo he traído (aquí).
 # labels = tijonik-36 incomplete check-analyses
 "<Na>"
-	"na" neg @aux:neg
+	"na" neg @aux
 "<nukʼamom>"
 	"kʼam" v tv pp s_sg1 @root
 "<tuʼla>"
-	"taj" neg @aux:neg
+	"taj" neg @aux
 		"la" adv dir @advmod
 "<riʼ>"
 	"riʼ" prn dem @obj
@@ -4519,11 +4519,11 @@
 # text[spa] = No nos lo vamos a llevar hoy.
 # labels = tijonik-36 complete
 "<Na>"
-	"na" neg @aux:neg #1->2
+	"na" neg @aux #1->2
 "<kaqakʼam>"
 	"kʼam" v tv impf o_sg3 s_pl1 @root #2->0
 "<tuʼbʼi>"
-	"taj" neg @aux:neg #3->2
+	"taj" neg @aux #3->2
 		"bʼi" adv dir @advmod #4->2
 "<kamik>"
 	"kamik" adv @advmod #5->2
@@ -4889,11 +4889,11 @@
 "<,>"
 	"," cm @punct #3->2
 "<na>"
-	"na" neg @aux:neg #4->5
+	"na" neg @aux #4->5
 "<katinchʼabʼej>"
 	"chʼabʼej" v tv impf o_sg2 s_sg1 @root #5->0
 "<ta>"
-	"taj" neg @aux:neg #6->5
+	"taj" neg @aux #6->5
 "<chik>"
 	"chik" adv @advmod #7->5
 "<.>"
@@ -4930,7 +4930,7 @@
 # labels = tijonik-42 complete
 "<Wemna>"
 	"we" cnjsub @mark #1->3
-		"man" neg @aux:neg #2->3
+		"man" neg @aux #2->3
 "<chpe>"
 	"pe" v iv imp s_sg3 @advcl #3->6
 "<le>"
@@ -4952,7 +4952,7 @@
 # labels = tijonik-42 complete
 "<Wemna>"
 	"we" cnjsub @mark #1->3
-		"man" neg @aux:neg #2->3
+		"man" neg @aux #2->3
 "<chaloqʼ>"
 	"loqʼ" v tv imp o_sg3 s_sg2 @advcl #3->7
 "<axiyal>"
@@ -4960,11 +4960,11 @@
 "<,>"
 	"," cm @punct #5->3
 "<na>"
-	"na" neg @aux:neg #6->7
+	"na" neg @aux #6->7
 "<kimbʼe>"
 	"bʼe" v iv impf s_sg1 @root #7->0
 "<ta>"
-	"taj" neg @aux:neg #8->7
+	"taj" neg @aux #8->7
 "<awukʼ>"
 	"ukʼ" n rel px2sg @obl #9->7
 "<.>"
@@ -4977,7 +4977,7 @@
 "<Pine>"
 	"pine" cnjsub @mark #1->4
 "<ta>"
-	"taj" neg @aux:neg #2->4
+	"taj" neg @aux #2->4
 "<ne>"
 	"ne" adv @advmod #3->4
 "<maj>"
@@ -5000,7 +5000,7 @@
 "<Pine>"
 	"pine" cnjsub @mark #1->4
 "<ta>"
-	"taj" neg @aux:neg #2->4
+	"taj" neg @aux #2->4
 "<ne>"
 	"ne" adv @advmod #3->4
 "<kinitzapij>"
@@ -5043,11 +5043,11 @@
 "<par>"
 	"par" cnjcoo @cc #11->13
 "<na>"
-	"na" neg @aux:neg #12->13
+	"na" neg @aux #12->13
 "<xkowin>"
 	"kowin" v iv perf s_sg3 @conj #13->3
 "<taj>"
-	"taj" neg fin @aux:neg #14->13
+	"taj" neg fin @aux #14->13
 "<rumal>"
 	"umal" n rel px3sg @mark #15->17
 "<sibʼalaj>"
@@ -5073,11 +5073,11 @@
 "<par>"
 	"par" cnjcoo @cc #6->8
 "<na>"
-	"na" neg @aux:neg #7->8
+	"na" neg @aux #7->8
 "<utz>"
 	"utz" adj @conj #8->3
 "<ta>"
-	"taj" neg @aux:neg #9->8
+	"taj" neg @aux #9->8
 "<le>"
 	"le" det @det #10->11
 "<iqul>"
@@ -5091,7 +5091,7 @@
 # labels = tijonik-42 complete
 "<Pinemna>"
 	"pine" cnjsub @mark #1->3
-		"man" neg @aux:neg #2->3
+		"man" neg @aux #2->3
 "<kabʼe>"
 	"bʼe" v iv impf s_sg3 @advcl #3->7
 "<le>"
@@ -5127,7 +5127,7 @@
 	"chʼichʼ" n @obj #4->1
 "<pinemna>"
 	"pine" cnjsub @mark #5->7
-		"man" neg @aux:neg #6->7
+		"man" neg @aux #6->7
 "<utz>"
 	"utz" adj @advcl #7->1
 "<.>"
@@ -5140,7 +5140,7 @@
 "<We>"
 	"we" cnjsub @mark #1->3
 "<ta>"
-	"taj" neg @aux:neg #2->3
+	"taj" neg @aux #2->3
 "<xatbʼe>"
 	"bʼe" v iv perf s_sg2 @advcl #3->9
 "<wukʼ>"
@@ -5210,11 +5210,11 @@
 "<We>"
 	"we" cnjsub @mark #1->5
 "<ta>"
-	"taj" neg @aux:neg #2->5
+	"taj" neg @aux #2->5
 "<ma>"
-	"ma" neg @aux:neg #3->5
+	"ma" neg @aux #3->5
 "<ta>"
-	"taj" neg @aux:neg #4->5
+	"taj" neg @aux #4->5
 "<xatbʼe>"
 	"bʼe" v iv perf s_sg2 @advcl #5->11
 "<pa>"
@@ -5224,9 +5224,9 @@
 "<tinamit>"
 	"tinamit" n @obl #8->5
 "<ma>"
-	"ma" neg @aux:neg #9->11
+	"ma" neg @aux #9->11
 "<ta>"
-	"taj" neg @aux:neg #10->11
+	"taj" neg @aux #10->11
 "<xaloqʼ>"
 	"loqʼ" v tv perf o_sg3 s_sg2 @root #11->0
 "<laʼ>"
@@ -5249,18 +5249,18 @@
 "<We>"
 	"we" cnjsub @mark
 "<ta>"
-	"taj" neg @aux:neg
+	"taj" neg @aux
 "<ma>"
-	"ma" neg @aux:neg
+	"ma" neg @aux
 "<ta>"
-	"taj" neg @aux:neg
+	"taj" neg @aux
 "<xinawilo>"
 	"il" v tv perf o_sg1 s_sg2 @advcl
 		"u" aux @aux:ss
 "<ma>"
-	"ma" neg @aux:neg
+	"ma" neg @aux
 "<ta>"
-	"taj" neg @aux:neg
+	"taj" neg @aux
 "<kinya>"
 	"yaʼ" v tv impf o_sg3 s_sg1 @root
 "<bʼe>"
@@ -5288,9 +5288,9 @@
 "<atat>"
 	"tat" n px2sg @obj #5->3
 "<ma>"
-	"ma" neg @aux:neg #6->8
+	"ma" neg @aux #6->8
 "<ta>"
-	"taj" neg @aux:neg #7->8
+	"taj" neg @aux #7->8
 "<xkam>"
 	"käm" v iv perf s_sg3 @root #8->0
 "<laʼ>"
@@ -5320,9 +5320,9 @@
 "<,>"
 	"," cm @punct #9->
 "<ma>"
-	"ma" neg @aux:neg #10->
+	"ma" neg @aux #10->
 "<ta>"
-	"taj" neg @aux:neg #11->
+	"taj" neg @aux #11->
 "<je>"
 	"je" adv @
 "<laʼ>"
@@ -5342,11 +5342,11 @@
 "<We>"
 	"we" cnjsub @mark
 "<ta>"
-	"taj" neg @aux:neg
+	"taj" neg @aux
 "<ma>"
-	"ma" neg @aux:neg
+	"ma" neg @aux
 "<ta>"
-	"taj" neg @aux:neg
+	"taj" neg @aux
 "<aqʼabʼ>"
 	"aqʼabʼ" adv @advmod
 "<kabʼek>"
@@ -5380,7 +5380,7 @@
 "<We>"
 	"we" cnjsub @mark #1->3
 "<ta>"
-	"taj" neg @aux:neg #2->3
+	"taj" neg @aux #2->3
 "<kape>"
 	"pe" v iv impf s_sg3 @root #3->0
 "<le>"
@@ -5422,7 +5422,7 @@
 "<We>"
 	"we" cnjsub @mark #1->5
 "<ta>"
-	"taj" neg @aux:neg #2->5
+	"taj" neg @aux #2->5
 "<ne>"
 	"ne" adv @advmod #3->5
 "<in>"
@@ -5453,7 +5453,7 @@
 "<We>"
 	"we" cnjsub @mark
 "<ta>"
-	"taj" neg @aux:neg
+	"taj" neg @aux
 "<ne>"
 	"ne" adv @advmod
 "<aʼre>"
@@ -5483,9 +5483,9 @@
 # text[spa] = No hubieras manejado el carro.
 # labels = tijonik-42 complete
 "<Ma>"
-	"ma" neg @aux:neg #1->3
+	"ma" neg @aux #1->3
 "<ta>"
-	"taj" neg @aux:neg #2->3
+	"taj" neg @aux #2->3
 "<xabʼinsaj>"
 	"bʼinisaj" v tv perf o_sg3 s_sg2 @root #3->0
 "<le>"
@@ -5514,9 +5514,9 @@
 # text[spa] = No hubiera regañado a la muchacha.
 # labels = tijonik-42 complete
 "<Ma>"
-	"ma" neg @aux:neg #1->3
+	"ma" neg @aux #1->3
 "<ta>"
-	"taj" neg @aux:neg #2->3
+	"taj" neg @aux #2->3
 "<xinyaj>"
 	"yaj" v tv perf o_sg3 s_sg1 @root #3->0
 "<le>"
@@ -5572,9 +5572,9 @@
 # text[spa] = Que no vaya mi hermano (de mujer) al pueblo.
 # labels = tijonik-42 complete check-negation
 "<Ma>"
-	"ma" neg @aux:neg #1->3
+	"ma" neg @aux #1->3
 "<ta>"
-	"taj" neg @aux:neg #2->3
+	"taj" neg @aux #2->3
 "<kabʼe>"
 	"bʼe" v iv impf s_sg3 @root #3->0
 "<le>"
@@ -5685,7 +5685,7 @@
 # text[spa] = Que no encuentren dificultades en el camino.
 # labels = tijonik-42 complete
 "<Ma>"
-	"ma" neg @aux:neg #1->4
+	"ma" neg @aux #1->4
 "<ta>"
 	"ta" aux @aux #2->4
 "<bʼa>"
@@ -5736,11 +5736,11 @@
 "<ojer>"
 	"ojer" adv @advmod #4->6
 "<na>"
-	"na" neg @aux:neg #5->6
+	"na" neg @aux #5->6
 "<xkaj>"
 	"aj" v tv perf o_sg3 s_pl3 @root #6->0
 "<taj>" 
-	"taj" neg fin @aux:neg #7->6
+	"taj" neg fin @aux #7->6
 "<cher>"
 	"chi" pr @case #8->9
 		"ech" n rel px3sg @obl #9->6

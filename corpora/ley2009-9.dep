@@ -263,22 +263,22 @@
 "<,>"
 	"," cm @punct #10->8
 "<man>"
-	"man" neg @aux:neg #11->12
+	"man" neg @aux #11->12
 "<ktzaq>"
 	"tzaq" v tv pass impf s_sg3 @root #12->0
 "<ta>"
-	"taj" neg @aux:neg #13->12
+	"taj" neg @aux #13->12
 "<kanoq>"
 	"kan" adv dir @advmod #14->12
 		"oq" aux @aux:ss #15->14
 "<xuqujeʼ>"
 	"xuqujeʼ" cnjcoo @cc #16->18
 "<man>"
-	"man" neg @aux:neg #17->18
+	"man" neg @aux #17->18
 "<ktas>"
 	"tas" v tv pass impf s_sg3 @conj #18->12
 "<taj>"
-	"taj" neg fin @aux:neg #19->18
+	"taj" neg fin @aux #19->18
 "<.>"
 	"." sent @punct #20->12
 
@@ -296,11 +296,11 @@
 	"bʼan" v tv pass impf s_sg3
 		"ik" mark
 "<man>"
-	"man" neg @aux:neg
+	"man" neg @aux
 "<kesax>"
 	"esaj" v tv pass impf s_sg3 @
 "<ta>"
-	"taj" neg @aux:neg
+	"taj" neg @aux
 "<utzijol>"
 	"tzijol" n px3sg @nsubj
 "<.>"
@@ -784,11 +784,11 @@
 "<,>"
 	"," cm @punct
 "<man>"
-	"man" neg @aux:neg
+	"man" neg @aux
 "<kuya>"
 	"yaʼ" v tv impf o_sg3 s_sg3 @root
 "<taj>"
-	"taj" neg fin @aux:neg
+	"taj" neg fin @aux
 "<kbʼayitajisax>"
 	"bʼeyetajisaj" v tv pass impf s_sg3 @ccomp
 "<chik>"
