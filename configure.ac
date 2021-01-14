@@ -24,17 +24,17 @@ m4_define([required_apertium_version], [3.3.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)
 PKG_CHECK_MODULES(HFST,       hfst >= 3.15.3)
 
-AC_PATH_PROG([HFSTLEXC], [hfst-lexc], [false], [$PATH$PATH_SEPARATOR$with_hfst_lexc/bin])
-AS_IF([test x$HFSTLEXC = xfalse], [AC_MSG_ERROR([You don't have hfst-lexc installed])])
+AC_CHECK_PROG([HFSTLEXC], [hfst-lexc], [yes], [no])
+AS_IF([test x$HFSTLEXC = xno], [AC_MSG_ERROR([You don't have hfst-lexc installed])])
 
-AC_PATH_PROG([HFSTTWOLC], [hfst-twolc], [false], [$PATH$PATH_SEPARATOR$with_hfst_twolc/bin])
-AS_IF([test x$HFSTTWOLC = xfalse], [AC_MSG_ERROR([You don't have hfst-twolc installed])])
+AC_CHECK_PROG([HFSTTWOLC], [hfst-twolc], [yes], [no])
+AS_IF([test x$HFSTTWOLC = xno], [AC_MSG_ERROR([You don't have hfst-twolc installed])])
 
-AC_PATH_PROG([HFSTREALIGN], [hfst-realign], [false], [$PATH$PATH_SEPARATOR$with_hfst_realign/bin])
-AS_IF([test x$HFSTREALIGN = xfalse], [AC_MSG_ERROR([You don't have hfst-realign installed])])
+AC_CHECK_PROG([HFSTREALIGN], [hfst-realign], [yes], [no])
+AS_IF([test x$HFSTREALIGN = xno], [AC_MSG_ERROR([You don't have hfst-realign installed])])
 
-AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
-AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed])])
+AC_CHECK_PROG([CGCOMP], [cg-comp], [yes], [no])
+AS_IF([test x$CGCOMP = xno], [AC_MSG_ERROR([You don't have cg-comp installed])])
 
 
 AP_MKINCLUDE
