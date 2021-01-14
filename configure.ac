@@ -22,12 +22,16 @@ AM_CONDITIONAL([HAVE_HFSTOSPELL], [test x$hfstospell = xyes])
 
 m4_define([required_apertium_version], [3.3.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)
+PKG_CHECK_MODULES(HFST,       hfst >= 3.15.3)
 
 AC_PATH_PROG([HFSTLEXC], [hfst-lexc], [false], [$PATH$PATH_SEPARATOR$with_hfst_lexc/bin])
 AS_IF([test x$HFSTLEXC = xfalse], [AC_MSG_ERROR([You don't have hfst-lexc installed])])
 
 AC_PATH_PROG([HFSTTWOLC], [hfst-twolc], [false], [$PATH$PATH_SEPARATOR$with_hfst_twolc/bin])
 AS_IF([test x$HFSTTWOLC = xfalse], [AC_MSG_ERROR([You don't have hfst-twolc installed])])
+
+AC_PATH_PROG([HFSTREALIGN], [hfst-realign], [false], [$PATH$PATH_SEPARATOR$with_hfst_realign/bin])
+AS_IF([test x$HFSTREALIGN = xfalse], [AC_MSG_ERROR([You don't have hfst-realign installed])])
 
 AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
 AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed])])
