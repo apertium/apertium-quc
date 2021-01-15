@@ -281,7 +281,7 @@
 "<kropopik>"
 	"rapap" v iv impf s_sg3 @advcl #10->12
 		"ik" aux @aux:ss #11->10
-"<xpe>"
+"<xpeʼ>"
 	"pe" v iv perf s_sg3 @ccomp #12->8
 "<jun>"
 	"jun" det ind @det #13->14
@@ -462,9 +462,9 @@
 	"chik" adv @advmod #8->7
 "<che>"
 	"chi" pr @case #9->10
-		"ech" n rel px3sg @mark #10->11
+		"ech" n rel px3sg @obl #10->7
 "<utijik>"
-	"tij" v tv inf s_sg3 @advcl #11->7
+	"tij" v tv inf s_sg3 @acl #11->10
 "<.>"
 	"." sent @punct #12->1
 
@@ -657,7 +657,7 @@
 	"il" v tv perf o_sg3 s_pl3 @conj #8->1
 		"u" aux @aux:ss #9->8
 "<chi>"
-	"chi" cnjsub @mark #10->13
+	"chi" cnjsub @mark #10->12
 "<man>"
 	"man" neg @aux #11->12
 "<qas>"
@@ -692,9 +692,9 @@
 "<taq>"
 	"taq" pl @det #9->10
 "<cheʼ>"
-	"cheʼ" n @nsubj #10->5
+	"cheʼ" n @nsubj #10->6
 "<sibʼalaj>"
-	"sibʼ" adj ints @parataxis #11->6
+	"sibʼ" adj ints @parataxis #11->3
 "<,>"
 	"," cm @punct #12->13
 "<jeʼl>"
@@ -818,11 +818,11 @@
 "<uwosaq>"
 	"uwosaq" n @nmod #6->4
 "<rumal>"
-	"umal" n rel px3sg @mark #7->9
+	"umal" n rel px3sg @obl #7->1
 "<man>"
 	"man" neg @aux #8->9
 "<utz>"
-	"utz" adj @advcl #9->1
+	"utz" adj @acl #9->7
 "<ta>"
 	"taj" neg @aux #10->9
 "<chi>" 
@@ -888,7 +888,7 @@
 	"e" cnjcoo @cc #7->9
 "<chiʼ>"
 	"chiʼ" adv @advmod #8->9
-"<kebʼek>"
+"<keʼbʼek>"
 	"bʼe" v iv impf s_pl3 @conj #9->1
 		"ik" aux @aux:ss #10->9
 "<.>"
@@ -2441,9 +2441,9 @@
 	"," cm @punct #7->8
 "<chimaja>"
 	"maj" v tv imp o_sg3 s_pl2 @ccomp #8->4
-		"uʼ" mark fin @dep #9->8
+		"uʼ" mark fin @aux:ss #9->8
 "<ri>"
-	"ri" det @case #10->11
+	"ri" det @det #10->11
 "<anim>"
 	"anim" n @obj #11->8
 "<.>"
@@ -2567,7 +2567,7 @@
 "<taj>"
 	"taj" neg fin @aux #5->4
 "<kʼax>"
-	"kʼax" adj @csubj #6->5
+	"kʼax" adj @csubj #6->4
 "<kujchʼaw>"
 	"chʼaw" v iv impf s_pl1 @csubj #7->6
 "<chikij>"
@@ -2623,7 +2623,7 @@
 "<komon>"
 	"komon" n @nsubj #2->4
 "<Xechpup>"
-	"Xechpup" np top @appos #3->4
+	"Xechpup" np top @appos #3->2
 "<rech>"
 	"ech" n rel px3sg @root #4->0
 "<uqʼabʼ>"

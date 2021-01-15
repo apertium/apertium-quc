@@ -1,5 +1,5 @@
 # sent_id = henderson:1
-# text = Xinchapo
+# text = Xinchapo.
 # text[orig] = Xin-chap-o
 # text[gloss] = INFL-grab-SS
 # text[eng] = I grabbed it.
@@ -11,7 +11,7 @@
 	"." sent @punct #3->1
 
 # sent_id = henderson:2
-# text = Xinwarik
+# text = Xinwarik.
 # text[orig] = Xin-war-ik
 # text[gloss] = INFL-sleep-SS
 # text[eng] = I slept.
@@ -23,7 +23,7 @@
 	"." sent @punct #3->1
 
 # sent_id = henderson:3
-# text = Xchapik
+# text = Xchapik.
 # text[orig] = X-chaap-ik
 # text[gloss] = INFL-grab.PASS-SS
 # text[eng] = It was grabbed.
@@ -35,7 +35,7 @@
 	"." sent @punct #3->1
 
 # sent_id = henderson:4a
-# text = Xutijo
+# text = Xutijo.
 # text[orig] = Xu-tij-o
 # text[gloss] = INFL-eat-SS
 # text[eng] = He ate it.
@@ -62,7 +62,7 @@
 	"." sent @punct #4->1
 
 # sent_id = henderson:5a
-# text = Xinkosik
+# text = Xinkosik.
 # text[orig] = Xin-kos-ik
 # text[gloss] = INFL-tire-SS
 # text[eng] = I am tired.
@@ -516,7 +516,7 @@
 	"." sent @punct #3->1
 
 # sent_id = henderson:33a
-# text = Xuchap ri bʼah ri xutij qakinaq.
+# text = Xuchap ri bʼa ri xutij qakinaq.
 # text[orig] = Xu-chap-Ø ri b’ah ri xu-tij-Ø qa-kinaq.
 # text[gloss] = INFL-catch the gopher PRN INFL-eat our-beans
 # text[eng] = He caught the gopher that ate our beans.
@@ -550,7 +550,7 @@
 	"." sent @punct #3->1
 
 # sent_id = henderson:41a
-# text = Xinkosik rumal xinchakunik
+# text = Xinkosik rumal xinchakunik.
 # text[orig] = Xin-kos-ik r-umal xin-chakun-ik
 # text[gloss] = INFL-tire-SS 3sg-because INFL-work-SS
 # text[eng] = I am tired because I worked.
@@ -563,9 +563,11 @@
 "<xinchakunik>"
 	"chakun" v iv perf s_sg1
 		"ik" aux
+"<.>"
+	"." sent
 
 # sent_id = henderson:49a
-# text = Xinloqʼ kʼih.
+# text = Xinloqʼ kʼi.
 # text[orig] = Xin-loq’-Ø k’ih.
 # text[gloss] = INFL-buy a.lot
 # text[eng] = I bought a lot.
@@ -609,7 +611,7 @@
 	"." sent @punct #5->3
 
 # sent_id = henderson:51a
-# text = Are le bʼah xokik.
+# text = Are le bʼa xokik.
 # text[orig] = Are le b’ah x-ok-ik.
 # text[gloss] = FOC the gopher INFL-enter-SS
 # text[eng] = It was the gopher that entered.
@@ -960,7 +962,7 @@
 	"." sent @punct #5->1
 
 # sent_id = henderson:108b
-# text = Kintij ná.
+# text = Kintij na.
 # text[orig] = Kin-tij-Ø ná.
 # text[gloss] = INFL-eat ASP
 # text[eng] = I am going to eat it.

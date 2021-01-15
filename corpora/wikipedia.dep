@@ -108,7 +108,7 @@
 	"rhodesiense" adj @flat #22->20
 "<(>"
 	"(" lpar @punct #23->24
-"<T.b.r>"
+"<T.b.r.>"
 	"T.b.r" abbr @appos #24->20
 "<)>"
 	")" rpar @punct #25->24
