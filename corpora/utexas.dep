@@ -1507,7 +1507,7 @@
 "<katbʼe>"
 	"bʼe" v iv impf s_sg2 @root #3->0
 "<wi>"
-	"wi" adv dir @advmod #4->3
+	"wi" foc @advmod #4->3
 "<?>"
 	"?" sent @punct #5->3
 
@@ -1523,7 +1523,7 @@
 "<kinya>"
 	"yaʼ" v tv impf o_sg3 s_sg1 @root #4->0
 "<wi>"
-	"wi" adv dir @advmod #5->4
+	"wi" foc @advmod #5->4
 "<le>"
 	"le" det @det #6->7
 "<wuj>"
@@ -2174,7 +2174,7 @@
 "<kape>"
 	"pe" v iv impf s_sg3 @root #8->0
 "<wi>"
-	"wi" adv dir @advmod #9->8
+	"wi" foc @advmod #9->8
 "<le>"
 	"le" det @det #10->11
 "<achi>"
@@ -2309,7 +2309,7 @@
 "<kaqatij>"
 	"tij" v tv impf o_sg3 s_pl1 @root #5->0
 "<wi>"
-	"wi" adv dir @advmod #6->5
+	"wi" foc @advmod #6->5
 "<jun>"
 	"jun" det ind @det #7->8
 "<qameqʼin>"
@@ -2399,7 +2399,7 @@
 "<kʼo>"
 	"kʼo" part @root #2->0
 "<wi>"
-	"wi" adv dir @advmod #3->2
+	"wi" foc @advmod #3->2
 "<le>"
 	"le" det @det #4->5
 "<wuj>"
@@ -2637,7 +2637,7 @@
 "<kintʼuyiʼ>"
 	"tʼuyiʼ" v tv pass impf s_sg1 @root
 "<wi>"
-	"wi" adv dir @advmod
+	"wi" foc @advmod
 "<chawe>"
 	"chi" pr @case
 		"ech" n rel px2sg @obl
@@ -2653,7 +2653,7 @@
 "<kʼo>"
 	"kʼo" part @root
 "<wi>"
-	"wi" adv dir @advmod
+	"wi" foc @advmod
 "<le>"
 	"le" det @det
 "<woʼch>"
@@ -2677,7 +2677,7 @@
 "<kʼo>"
 	"kʼo" part
 "<wi>"
-	"wi" adv dir
+	"wi" foc
 "<le>"
 	"le" det
 "<woʼch>"
@@ -2701,7 +2701,7 @@
 "<kewar>"
 	"war" v iv impf s_pl3 @root #2->0
 "<wi>"
-	"wi" adv dir @advmod #3->2
+	"wi" foc @advmod #3->2
 "<le>"
 	"le" det @det #4->5
 "<akʼalabʼ>"
@@ -3889,7 +3889,7 @@
 "<kakʼut>"
 	"kʼut" v tv pass impf s_sg3 @acl #4->2
 "<wi>"
-	"wi" adv dir @advmod #5->4
+	"wi" foc @advmod #5->4
 "<ri>"
 	"ri" det @det #6->7
 "<qachʼabʼal>"
@@ -3903,7 +3903,7 @@
 "<kʼo>"
 	"kʼo" part @root #11->0
 "<wi>"
-	"wi" adv dir @advmod #12->11
+	"wi" foc @advmod #12->11
 "<.>"
 	"." sent @punct #13->11
 
@@ -4360,7 +4360,7 @@
 "<xakʼam>"
 	"kʼam" v tv perf o_sg3 s_sg2 @root #2->0
 "<wuʼla>"
-	"wi" adv dir @advmod #3->2
+	"wi" foc @advmod #3->2
 		"la" adv dir @advmod #4->2
 "<laʼ>"
 	"laʼ" prn dem @det #5->7
@@ -4495,7 +4495,7 @@
 "<xelaqʼax>"
 	"elaqʼaj" v tv pass perf s_sg3 @root #7->0
 "<wuʼbʼik>"
-	"wi" adv dir @advmod #8->7
+	"wi" foc @advmod #8->7
 		"bʼi" adv dir @advmod #9->7
 			"ik" aux @aux:ss #10->7
 "<?>"
@@ -4992,7 +4992,7 @@
 "<kimbʼe>"
 	"bʼe" v iv impf s_sg1 @root #7->0
 "<wi>"
-	"wi" adv dir @advmod #8->7
+	"wi" foc @advmod #8->7
 "<.>"
 	"." sent @punct #9->7
 
@@ -5106,7 +5106,7 @@
 "<kimbʼe>"
 	"bʼe" v iv impf s_sg1 @root #7->0
 "<wi>"
-	"wi" adv dir @advmod #8->7
+	"wi" foc @advmod #8->7
 "<in>"
 	"in" prn pers p1 sg @nsubj #9->7
 "<pa>"

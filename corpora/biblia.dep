@@ -79,7 +79,7 @@
 "<kuya>"
 	"ya" v tv impf o_sg3 s_sg3 @acl #11->4
 "<wi>"
-	"wi" adv dir @advmod #12->11
+	"wi" foc @advmod #12->11
 "<ri>"
 	"ri" det @det #13->14
 "<kichuqʼabʼ>"

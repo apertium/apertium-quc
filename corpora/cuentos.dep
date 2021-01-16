@@ -1102,7 +1102,7 @@
 "<xekikʼama>"
 	"kʼam" v tv perf o_pl3 s_pl3 @parataxis #10->6
 "<wi>"
-	"wi" adv dir @advmod #11->10
+	"wi" foc @advmod #11->10
 "<ri>"
 	"ri" det @det #12->13
 "<jaʼ>"
@@ -1572,7 +1572,7 @@
 "<kʼo>"
 	"kʼo" part @acl #12->8
 "<wi>"
-	"wi" adv dir @advmod #13->12
+	"wi" foc @advmod #13->12
 "<sibʼalaj>"
 	"sibʼ" adj ints @nsubj #14->12
 "<uwach>"
@@ -1729,7 +1729,7 @@
 "<katmuq>"
 	"muq" v tv pass impf s_sg2 @parataxis #11->2
 "<wi>"
-	"wi" adv dir @advmod #12->11
+	"wi" foc @advmod #12->11
 "<.>"
 	"." sent @punct #13->2
 
@@ -1900,7 +1900,7 @@
 "<xkichap>"
 	"chap" v tv perf o_sg3 s_pl3 @ccomp #8->4
 "<wi>"
-	"wi" adv dir @advmod #9->8
+	"wi" foc @advmod #9->8
 "<ri>"
 	"ri" det @det #10->12
 "<alaj>"
@@ -3386,7 +3386,7 @@
 "<kel>"
 	"el" v iv impf s_sg3 @root
 "<wi>"
-	"wi" adv dir
+	"wi" foc
 "<jun>"
 	"jun" det @det
 "<akʼal>"

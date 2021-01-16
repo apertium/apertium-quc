@@ -1,0 +1,3117 @@
+# sent_id = canpixabaj2015:1:1:
+# text = Rilik.
+# text[orig] = (1) r-iil-iik
+# text[eng] = Its being seen. (from the root il to see)
+# labels = 1:1:
+^Rilik/R>il>ik$
+^./.$
+
+# sent_id = canpixabaj2015:2:2:a
+# text = Xojkisikʼij.
+# text[orig] = (2) a. x-oj-ki-sikʼii-j
+# text[eng] = They called us.
+# labels = 2:2:a
+^Xojkisikʼij/X>oj>ki>sikʼi>j$
+^./.$
+
+# sent_id = canpixabaj2015:12:12:
+# text = Areʼ xraj xinbʼano.
+# text[orig] = (12) areʼ x-ø-r-aa-j [x-ø-in-bʼan-o]
+# text[eng] = He wanted me to do it. {Larsen 1988:392}
+# labels = 12:12:
+^Areʼ/Areʼ$
+^xraj/x>r>aj$
+^xinbʼano/x>in>bʼan>o$
+^./.$
+
+# sent_id = canpixabaj2015:16:14:
+# text = Xyil ix hawayi.
+# text[orig] = (14) x-ø-y-il ix [ha-way-i]
+# text[eng] = She saw you sleeping. {Mateo Toledo, 2013:247}
+# labels = 16:14:
+^Xyil/X>y>il$
+^ix/ix$
+^hawayi/ha>way>i$
+^./.$
+
+# sent_id = canpixabaj2015:18:16:
+# text = Utz le nuqʼabʼ.
+# text[orig] = (16) ø utz [le nu-qʼabʼ]NP
+# text[eng] = My hand is good.
+# labels = 18:16:
+^Utz/Utz$
+^le/le$
+^nuqʼabʼ/nu>qʼabʼ$
+^./.$
+
+# sent_id = canpixabaj2015:25:26:
+# text = Xepetik rech kewaʼ iwukʼ.
+# text[orig] = (26) x-e-pet-ik [r-eech k-e-waʼ iw-uukʼ]
+# text[eng] = They came to eat with you.
+# labels = complete 25:26:
+^Xepetik/X>e>pet>ik$
+^rech/rech$
+^kewaʼ/k>e>waʼ$
+^iwukʼ/iw>ukʼ$
+^./.$
+
+# sent_id = canpixabaj2015:26:27:
+# text = Kebʼe pa waʼim.
+# text[orig] = (27) k-e-bʼee [pa waʼ-iim]
+# text[eng] = They are going to eat.
+# labels = complete 26:27:
+^Kebʼe/K>e>bʼe$
+^pa/pa$
+^waʼim/waʼ>im$
+^./.$
+
+# sent_id = canpixabaj2015:30:28:
+# text = Xojpetik xolqakʼamaʼ.
+# text[orig] = (28) x-oj-peet-ik [x-ø-ol-qa-kʼam-aʼ]
+# text[eng] = We came to take her.
+# labels = 30:28:
+^Xojpetik/X>oj>pet>ik$
+^xolqakʼamaʼ/x>ol>qa>kʼam>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:33:1:
+# text = Xuyupubʼa uwach raʼchi, kachaʼ,.
+# text[orig] = (1) x-ø-u-yup-ubʼa u-wach raʼchi ka-ø-chaʼ,
+# text[eng] = The man closed his eyes, they say…
+# labels = 33:1:
+^Xuyupubʼa/X>u>yupubʼa$
+^uwach/u>wach$
+^raʼchi/r>aʼchi$
+^,/,$
+^kachaʼ/ka>chaʼ$
+^,/,$
+^./.$
+
+# sent_id = canpixabaj2015:34:2:
+# text = Xojkichapo.
+# text[orig] = (2) x-oj-ki-chap-o
+# text[eng] = They grabbed us.
+# labels = 34:2:
+^Xojkichapo/X>oj>ki>chap>o$
+^./.$
+
+# sent_id = canpixabaj2015:35:3:
+# text = Qawuj.
+# text[orig] = (3) qa-wuuj
+# text[eng] = Our book
+# labels = 35:3:
+^Qawuj/Qa>wuj$
+^./.$
+
+# sent_id = canpixabaj2015:36:4:
+# text = Awumal.
+# text[orig] = (4) aw-umaal
+# text[eng] = by you
+# labels = 36:4:
+^Awumal/Aw>umal$
+^./.$
+
+# sent_id = canpixabaj2015:37:5:
+# text = Qilik.
+# text[orig] = (5) q-iil-iik
+# text[eng] = Our being seen.
+# labels = 37:5:
+^Qilik/Q>il>ik$
+^./.$
+
+# sent_id = canpixabaj2015:38:6:
+# text = Xojrilo.
+# text[orig] = (6) x-oj-r-il-o
+# text[eng] = S/he saw us.
+# labels = 38:6:
+^Xojrilo/X>oj>r>il>o$
+^./.$
+
+# sent_id = canpixabaj2015:39:7:
+# text = Xojbʼinik.
+# text[orig] = (7) x-oj-bʼiin-ik
+# text[eng] = We walked.
+# labels = 39:7:
+^Xojbʼinik/X>oj>bʼin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:40:8:
+# text = Xojilik.
+# text[orig] = (8) x-oj-iil-ik
+# text[eng] = We were seen.
+# labels = 40:8:
+^Xojilik/X>oj>il>ik$
+^./.$
+
+# sent_id = canpixabaj2015:41:9:
+# text = Xojpixabʼanik.
+# text[orig] = (9) x-oj-pixabʼa-n-ik
+# text[eng] = We gave some advice.
+# labels = 41:9:
+^Xojpixabʼanik/X>oj>pixabʼa>n>ik$
+^./.$
+
+# sent_id = canpixabaj2015:43:11:c
+# text = Jachin xtzaqow rech?
+# text[orig] = c. jachin x-ø-tzaq-ow r-eech?
+# text[eng] = Who lost it?
+# labels = 43:11:c
+^Jachin/Jachin$
+^xtzaqow/x>tzaq>ow$
+^rech/r>ech$
+^?/?$
+
+# sent_id = canpixabaj2015:47:14:
+# text = Riʼ ri kebʼ nimaq taq ral ri ixoq riʼ.
+# text[orig] = (14) Riʼ ri kebʼ nim-aq taq r-aal ri ixoq riiʼ.
+# text[eng] = Those two sons of that woman.
+# labels = 47:14:
+^Riʼ/Riʼ$
+^ri/ri$
+^kebʼ/kebʼ$
+^nimaq/nim>aq$
+^taq/taq$
+^ral/r>al$
+^ri/ri$
+^ixoq/ixoq$
+^riʼ/riʼ$
+^./.$
+
+# sent_id = canpixabaj2015:48:15:
+# text = Ri ixoq ri xpe Chwitzʼaq xulik.
+# text[orig] = (15) ri ixoq [ri x-ø-pe Chwitzʼaaq] x-ø-ul-ik
+# text[eng] = The woman who came from Totonicapán, arrived.
+# labels = 48:15:
+^Ri/Ri$
+^ixoq/ixoq$
+^ri/ri$
+^xpe/x>pe$
+^Chwitzʼaq/Chwitzʼaq$
+^xulik/x>ul>ik$
+^./.$
+
+# sent_id = canpixabaj2015:55:22:
+# text = Le winaq pa le chʼichʼ e tʼuyul lo wi.
+# text[orig] = (22) le winaq pa le chʼiichʼ e tʼuy-ul lo wi
+# text[eng] = It was in the vehicle that the people came sitting down.
+# labels = 55:22:
+^Le/Le$
+^winaq/winaq$
+^pa/pa$
+^le/le$
+^chʼichʼ/chʼichʼ$
+^e/e$
+^tʼuyul/tʼuyul$
+^lo/lo$
+^wi/wi$
+^./.$
+
+# sent_id = canpixabaj2015:56:23:a
+# text = Xojbʼinik.
+# text[orig] = (23) a. x-oj-bʼiin-ik
+# text[eng] = We walked.
+# labels = 56:23:a
+^Xojbʼinik/X>oj>bʼin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:56:23:b
+# text = Xqatijo.
+# text[orig] = b. x-ø-qa-tij-o
+# text[eng] = We ate it.
+# labels = 56:23:b
+^Xqatijo/X>qa>tij>o$
+^./.$
+
+# sent_id = canpixabaj2015:57:24:a
+# text = Kojbʼinik.
+# text[orig] = (24) a. k-oj-bʼiin-ik
+# text[eng] = We walk.
+# labels = 57:24:a
+^Kojbʼinik/K>oj>bʼin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:57:24:b
+# text = Kaqatijo.
+# text[orig] = b. ka-ø-qa-tij-o
+# text[eng] = We eat it.
+# labels = 57:24:b
+^Kaqatijo/Ka>qa>tij>o$
+^./.$
+
+# sent_id = canpixabaj2015:58:25:a
+# text = Chatbʼinoq.
+# text[orig] = (25) a. ch-at-bʼiin-oq
+# text[eng] = Walk!
+# labels = 58:25:a
+^Chatbʼinoq/Ch>at>bʼin>oq$
+^./.$
+
+# sent_id = canpixabaj2015:58:25:b
+# text = Jaʼwilaʼ.
+# text[orig] = b. j-ø-aʼw-il-aʼ
+# text[eng] = Go see it!
+# labels = 58:25:b
+^Jaʼwilaʼ/J>aʼw>il>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:58:25:c
+# text = Matbʼinik.
+# text[orig] = c. m-at-bʼiin-ik
+# text[eng] = Dont walk!
+# labels = 58:25:c
+^Matbʼinik/M>at>bʼin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:59:26:a
+# text = Jas nu kʼu kuchʼobʼo.
+# text[orig] = (26) a. Jas nu kʼu k-ø-u-chʼobʼ-o
+# text[eng] = Who knows what s/he thinks.
+# labels = 59:26:a
+^Jas/Jas$
+^nu/nu$
+^kʼu/kʼu$
+^kuchʼobʼo/k>u>chʼobʼ>o$
+^./.$
+
+# sent_id = canpixabaj2015:59:26:b
+# text = Jas nu kʼu kuchʼobʼ sin kanma...
+# text[orig] = b. Jas nu kʼu k-ø-u-chʼobʼ [sin k-aanma...]NP
+# text[eng] = Who knows what their hearts wants. {R012I002:167}
+# labels = 59:26:b
+^Jas/Jas$
+^nu/nu$
+^kʼu/kʼu$
+^kuchʼobʼ/k>u>chʼobʼ$
+^sin/sin$
+^kanma/k>anma$
+^.../...$
+
+# sent_id = canpixabaj2015:60:27:
+# text = We kʼu xokik, we kʼna xok ta pa rsin kijolom.
+# text[orig] = (27) we kʼu x-ø-ok-ik, we kʼ-na x-ø-ok ta pa r-sin ki-joloom
+# text[eng] = Whether they understood or not. {R036I002:082}
+# labels = 60:27:
+^We/We$
+^kʼu/kʼu$
+^xokik/x>ok>ik$
+^,/,$
+^we/we$
+^kʼna/kʼ>na$
+^xok/x>ok$
+^ta/ta$
+^pa/pa$
+^rsin/r>sin$
+^kijolom/ki>jolom$
+^./.$
+
+# sent_id = canpixabaj2015:61:28:a
+# text = Xretaʼmaj.
+# text[orig] = (28) a. x-ø-r-etaʼmaa-j
+# text[eng] = S/he learnt it.
+# labels = 61:28:a
+^Xretaʼmaj/X>r>etaʼma>j$
+^./.$
+
+# sent_id = canpixabaj2015:61:28:a
+# text = Xretaʼmaj waʼim.
+# text[orig] = b. x-ø-r-etaʼmaa-j [waʼ-iim]
+# text[eng] = S/he learnt to eat.
+# labels = complete 61:28:a
+^Xretaʼmaj/X>r>etaʼma>j$
+^waʼim/waʼ>im$
+^./.$
+
+# sent_id = canpixabaj2015:62:29:a
+# text = Xutʼuyubʼaʼ.
+# text[orig] = (29) a. x-ø-u-tʼuy-ubʼaaʼ
+# text[eng] = S/he sat it down.
+# labels = 62:29:a
+^Xutʼuyubʼaʼ/X>u>tʼuy>ubʼaʼ$
+^./.$
+
+# sent_id = canpixabaj2015:63:30:a
+# text = Chatbʼinoq.
+# text[orig] = (30) a. ch-at-bʼiin-oq
+# text[eng] = Walk!
+# labels = 63:30:a
+^Chatbʼinoq/Ch>at>bʼin>oq$
+^./.$
+
+# sent_id = canpixabaj2015:64:31:a
+# text = Chawilaʼ.
+# text[orig] = (31) a. ch-ø-aw-il-aʼ
+# text[eng] = Look at it!
+# labels = 64:31:a
+^Chawilaʼ/Ch>aw>il>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:65:32:a
+# text = Xineʼbʼinoq.
+# text[orig] = (32) a. x-in-eʼ-bʼiin-oq
+# text[eng] = I went to walk!
+# labels = 65:32:a
+^Xineʼbʼinoq/X>in>eʼ>bʼin>oq$
+^./.$
+
+# sent_id = canpixabaj2015:65:32:b
+# text = Xiʼnwilaʼ.
+# text[orig] = b. x-ø-iʼnw-il-aʼ
+# text[eng] = I went to look at it.
+# labels = 65:32:b
+^Xiʼnwilaʼ/X>iʼ>nw>il>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:66:33:a
+# text = Matbʼinik.
+# text[orig] = (33) a. m-at-bʼiin-ik
+# text[eng] = Dont walk!
+# labels = 66:33:a
+^Matbʼinik/M>at>bʼin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:66:33:b
+# text = Mawilo.
+# text[orig] = b. m-ø-aw-il-o
+# text[eng] = Dont look at it!
+# labels = 66:33:b
+^Mawilo/M>aw>il>o$
+^./.$
+
+# sent_id = canpixabaj2015:67:34:
+# text = Xojbʼinik.
+# text[orig] = (34) x-oj-bʼiin-ik
+# text[eng] = We walked.
+# labels = 67:34:
+^Xojbʼinik/X>oj>bʼin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:69:36:
+# text = Na jupulik ta xeqaj (laʼkʼalabʼ).
+# text[orig] = (36) na jup-ul-ik ta x-e-qaj (laʼkʼalaabʼ)
+# text[eng] = The children are not born face down. {R056I002:090}
+# labels = 69:36:
+^Na/Na$
+^jupulik/jupulik$
+^ta/ta$
+^xeqaj/x>e>qaj$
+^laʼkʼalabʼ/l>aʼkʼal>abʼ$
+^./.$
+
+# sent_id = canpixabaj2015:70:37:
+# text = Xojkilo.
+# text[orig] = (37) x-oj-k-il-o
+# text[eng] = They saw us.
+# labels = 70:37:
+^Xojkilo/X>oj>k>il>o$
+^./.$
+
+# sent_id = canpixabaj2015:74:41:
+# text = Xchʼajtaj qumal.
+# text[orig] = (41) x-ø-chʼaj-taj q-umaal
+# text[eng] = It was washed by us.
+# labels = 74:41:
+^Xchʼajtaj/X>chʼaj>taj$
+^qumal/q>umal$
+^./.$
+
+# sent_id = canpixabaj2015:75:42:
+# text = Xukachʼ rukʼ le uware.
+# text[orig] = (42) x-ø-u-kachʼ r-ukʼ le u-ware
+# text[eng] = S/he bit it with his/her teeth.
+# labels = 75:42:
+^Xukachʼ/X>u>kachʼ$
+^rukʼ/r>ukʼ$
+^le/le$
+^uware/u>ware$
+^./.$
+
+# sent_id = canpixabaj2015:86:51:a
+# text = Noʼjim ta bʼa kakikʼoxomaj.
+# text[orig] = (51) a. noʼjiim ta bʼa ka-ø-ki-kʼoxomaa-j
+# text[eng] = I hope they could understand it slowly, I hope they could think slowly.
+# labels = 86:51:a
+^Noʼjim/Noʼjim$
+^ta/ta$
+^bʼa/bʼa$
+^kakikʼoxomaj/ka>ki>kʼoxoma>j$
+^./.$
+
+# sent_id = canpixabaj2015:86:51:b
+# text = Pero noʼjimal petnaq loq,.
+# text[orig] = b. pero noʼjimal ø pet-naq loq,
+# text[eng] = But it has been slow. {R007I001:119}
+# labels = 86:51:b
+^Pero/Pero$
+^noʼjimal/noʼjimal$
+^petnaq/pet>naq$
+^loq/loq$
+^,/,$
+^./.$
+
+# sent_id = canpixabaj2015:87:52:a
+# text = E... in kawaj katzjoj bʼi la chwe.
+# text[orig] = (52) a. e... in k-ø-aw-aa-j ka-tzjo-j bʼi la ch-w-e
+# text[eng] = e... I would like you to tell me. {QUC011R007I001:017}
+# labels = 87:52:a
+^E/E$
+^.../...$
+^in/in$
+^kawaj/k>awaj$
+^katzjoj/k>a>tzjoj$
+^bʼi/bʼi$
+^la/la$
+^chwe/ch>w>e$
+^./.$
+
+# sent_id = canpixabaj2015:88:53:a
+# text = We na jupulik ta xeqajik...
+# text[orig] = (53) a. we na jup-ul-ik ta x-e-qaj-ik...
+# text[eng] = If they are not born face down. {R056I002:090}
+# labels = 88:53:a
+^We/We$
+^na/na$
+^jupulik/jupulik$
+^ta/ta$
+^xeqajik/x>e>qaj>ik$
+^.../...$
+
+# sent_id = canpixabaj2015:88:53:b
+# text = Achi xatwilo.
+# text[orig] = b. achi x-at-w-il-o
+# text[eng] = I saw you as a man.
+# labels = 88:53:b
+^Achi/Achi$
+^xatwilo/x>at>w>il>o$
+^./.$
+
+# sent_id = canpixabaj2015:90:55:
+# text = Xinwil wibʼ.
+# text[orig] = (55) x-øi-inwj-il [wj-iibʼ]i
+# text[eng] = I saw myself.
+# labels = 90:55:
+^Xinwil/X>inw>il$
+^wibʼ/w>ibʼ$
+^./.$
+
+# sent_id = canpixabaj2015:99:62:
+# text = I xumin ruʼjolom riʼ rtzʼiʼ.
+# text[orig] = (62) i x-ø-u-min r-uʼ-joloom riʼ r-tzʼiʼ
+# text[eng] = And the dog introduced his head, and it was not released anymore.
+# labels = 99:62:
+^I/I$
+^xumin/x>u>min$
+^ruʼjolom/r>uʼ>jolom$
+^riʼ/riʼ$
+^rtzʼiʼ/r>tzʼiʼ$
+^i/i$
+^na/na$
+^xtzoqopitaj/x>tzoqopi>taj$
+^ta/ta$
+^chuʼloq/ch>uʼloq$
+^./.$
+
+# sent_id = canpixabaj2015:104:66:a
+# text = Are ri ali xojilow kanoq.
+# text[orig] = (66) a. are ri ali x-oj-il-ow kanoq
+# text[eng] = It was the girl who saw us.
+# labels = 104:66:a
+^Are/Are$
+^ri/ri$
+^ali/ali$
+^xojilow/x>oj>il>ow$
+^kanoq/kan>oq$
+^./.$
+
+# sent_id = canpixabaj2015:104:66:b
+# text = Are ri ixoq xinsikʼin uloq.
+# text[orig] = b. are ri ixoq x-in-sikʼi-n uloq
+# text[eng] = It was the woman who called me.
+# labels = 104:66:b
+^Are/Are$
+^ri/ri$
+^ixoq/ixoq$
+^xinsikʼin/x>in>sikʼin$
+^uloq/uloq$
+^./.$
+
+# sent_id = canpixabaj2015:105:67:
+# text = Jachin xatqʼalunik?
+# text[orig] = (67) jachin x-at-qʼalu-n-ik?
+# text[eng] = Who hugged you?
+# labels = 105:67:
+^Jachin/Jachin$
+^xatqʼalunik/x>at>qʼalu>n>ik$
+^?/?$
+
+# sent_id = canpixabaj2015:107:69:
+# text = Qonojel waʼ pa qʼabʼ la oj kʼo wi nudyos.
+# text[orig] = (69) q-onojeel waʼ pa qʼabʼ la oj kʼo wi nu-dyoos
+# text[eng] = For sure we all are in your hands, God. {R146I006:039}
+# labels = 107:69:
+^Qonojel/Q>onojel$
+^waʼ/waʼ$
+^pa/pa$
+^qʼabʼ/qʼabʼ$
+^la/la$
+^oj/oj$
+^kʼo/kʼo$
+^wi/wi$
+^nudyos/nu>dyos$
+^./.$
+
+# sent_id = canpixabaj2015:110:72:
+# text = Jun laj neʼ kʼo chupam.
+# text[orig] = (72) jun laj neʼ ø-kʼo ch-u-paam
+# text[eng] = …a baby was inside… {Can Pixabaj and England, 2011:19}
+# labels = 110:72:
+^Jun/Jun$
+^laj/laj$
+^neʼ/neʼ$
+^kʼo/kʼo$
+^chupam/ch>u>pam$
+^./.$
+
+# sent_id = canpixabaj2015:111:73:
+# text = Are rintat xiʼlowik, in, na xinwil taj.
+# text[orig] = (73) are r-in-taat x-iʼl-ow-ik, in, na x-ø-inw-il taj
+# text[eng] = …it was my parents who saw it, I didnt see it.
+# labels = complete 111:73: check-dislocated
+^Are/Are$
+^rintat/r>in>tat$
+^xilowik/x>il>ow>ik$
+^,/,$
+^in/in$
+^,/,$
+^na/na$
+^xinwil/x>inw>il$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:114:75:
+# text = Na xkikamsaj taj xkikʼam bʼi choja.
+# text[orig] = (75) na x-ø-ki-kamsa-j taj x-ø-ki-kʼam bʼi ch-o-ja
+# text[eng] = They did not kill it, they took it home. {R052I001:067}
+# labels = 114:75:
+^Na/Na$
+^xkikamsaj/x>ki>kamsaj$
+^taj/taj$
+^xkikʼam/x>ki>kʼam$
+^bʼi/bʼi$
+^choja/cho>ja$
+^./.$
+
+# sent_id = canpixabaj2015:115:76:
+# text = Na kikityoxij ta chi kan kiwa.
+# text[orig] = (76) na ki-ø-ki-tyoxi-j ta chi kan ki-wa
+# text[eng] = They did not even give thanks for their food. {R069I001:134}
+# labels = 115:76:
+^Na/Na$
+^kikityoxij/ki>ki>tyoxi>j$
+^ta/ta$
+^chi/chi$
+^kan/kan$
+^kiwa/ki>wa$
+^./.$
+
+# sent_id = canpixabaj2015:120:81:
+# text = La xatwaʼ kʼut?
+# text[orig] = (81) la x-at-waʼ kʼut?
+# text[eng] = Did you eat?
+# labels = 120:81:
+^La/La$
+^xatwaʼ/x>at>waʼ$
+^kʼut/kʼut$
+^?/?$
+
+# sent_id = canpixabaj2015:123:83:
+# text = La waral kʼu xixwaʼ wi?
+# text[orig] = (83) la waraal kʼu x-ix-waʼ wi?
+# text[eng] = Was it here where you ate?
+# labels = 123:83:
+^La/La$
+^waral/waral$
+^kʼu/kʼu$
+^xixwaʼ/x>ix>waʼ$
+^wi/wi$
+^?/?$
+
+# sent_id = canpixabaj2015:126:86:
+# text = Xojkiʼkotik aretaq xatulik.
+# text[orig] = (86) x-oj-kiʼkot-ik [are~taq x-at-ul-ik]
+# text[eng] = We got happy when you got here
+# labels = 126:86:
+^Xojkiʼkotik/X>oj>kiʼkot>ik$
+^aretaq/aretaq$
+^xatulik/x>at>ul>ik$
+^./.$
+
+# sent_id = canpixabaj2015:129:89:a
+# text = Kinxikʼikʼik xinqʼaxik.
+# text[orig] = (89) a. k-in-xikʼikʼ-ik x-in-qʼaax-ik
+# text[eng] = I passed by flying.
+# labels = 129:89:a
+^Kinxikʼikʼik/K>in>xikʼikʼ>ik$
+^xinqʼaxik/x>in>qʼax>ik$
+^./.$
+
+# sent_id = canpixabaj2015:129:89:b
+# text = Kinbʼinik xinʼek.
+# text[orig] = b. k-in-bʼin-ik x-in-ʼee-k
+# text[eng] = I left walking.
+# labels = 129:89:b
+^Kinbʼinik/K>in>bʼin>ik$
+^xinʼek/x>in>ʼe>k$
+^./.$
+
+# sent_id = canpixabaj2015:133:2:
+# text = Xqilo chi na kukʼam ta rajil le asosyasyon.
+# text[orig] = x-ø-q-il-o [chi na k-ø-u-kʼam ta rajil le asosyasyon]
+# text[eng] = We realised that the association does not need money.
+# labels = complete 133:2:
+^Xqilo/X>q>il>o$
+^chi/chi$
+^na/na$
+^kukʼam/k>u>kʼam$
+^ta/ta$
+^rajil/rajil$
+^le/le$
+^asosyasyon/asosyasyon$
+^./.$
+
+# sent_id = canpixabaj2015:133:3:
+# text = Kawaj kinbʼij.
+# text[orig] = (3) ka-ø-w-aaj [k-ø-in-bʼiij]
+# text[eng] = I want to tell it.
+# labels = 133:3:
+^Kawaj/K>awaj$
+^kinbʼij/k>in>bʼij$
+^./.$
+
+# sent_id = canpixabaj2015:134:4:
+# text = Bʼay xaq si xintatabʼej na in taq xumaj ubʼixik laʼ le jwes ...
+# text[orig] = (4) bʼay xaq si x-ø-in-tatabʼe-j na in
+# text[eng] = Then I had to listen when the judge started to tell it. {R149I007:143}
+# labels = 134:4:
+^Bʼay/Bʼay$
+^xaq/xaq$
+^si/si$
+^xintatabʼej/x>in>tatabʼej$
+^na/na$
+^in/in$
+^taq/taq$
+^xumaj/x>u>maj$
+^ubʼixik/u>bʼi>x>ik$
+^laʼ/laʼ$
+^le/le$
+^jwes/jwes$
+^.../...$
+
+# sent_id = canpixabaj2015:137:7:
+# text = ...kinbʼij chi are waʼ sin xiʼan.
+# text[orig] = (7) ...k-ø-in-bʼii-j [chi are waʼ sin x-ø-i-ʼan
+# text[eng] = I would say that this is what I have done. {R153I003:089}
+# labels = 137:7:
+^.../...$
+^kinbʼij/k>in>bʼij$
+^chi/chi$
+^are/are$
+^waʼ/waʼ$
+^sin/sin$
+^xiʼan/x>i>ʼan$
+^./.$
+
+# sent_id = canpixabaj2015:138:8:
+# text = Kaqilo chi na kojukʼam taj.
+# text[orig] = (8) ka-ø-q-il-o [chi na k-oj-u-kʼam taj]
+# text[eng] = We realize that s/he would not receive us.
+# labels = 138:8:
+^Kaqilo/Ka>q>il>o$
+^chi/chi$
+^na/na$
+^kojukʼam/k>oj>u>kʼam$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:139:9:
+# text = Ri al Ixchel, kuchomaj chi ri unan, jun akʼ xuloqʼ uloq.
+# text[orig] = (9) ri al Ixchel, k-ø-u-chomaa-j [chi ri u-naan,
+# text[eng] = Ixchel thinks that as for her mother, it was a chicken she bought.
+# labels = 139:9:
+^Ri/Ri$
+^al/al$
+^Ixchel/Ixchel$
+^,/,$
+^kuchomaj/k>u>choma>j$
+^chi/chi$
+^ri/ri$
+^unan/u>nan$
+^,/,$
+^jun/jun$
+^akʼ/akʼ$
+^xuloqʼ/x>ul>oqʼ$
+^uloq/uloq$
+^./.$
+
+# sent_id = canpixabaj2015:141:11:
+# text = Qʼalaj chi na kawaj taj kabʼij.
+# text[orig] = (11) øi qʼalaaj [chi na k-ø-aw-aj taj [k-ø-a-bʼii-j]]i
+# text[eng] = It seems/clear that you dont want to tell it.
+# labels = 141:11:
+^Qʼalaj/Qʼalaj$
+^chi/chi$
+^na/na$
+^kawaj/k>awaj$
+^taj/taj$
+^kabʼij/k>a>bʼij$
+^./.$
+
+# sent_id = canpixabaj2015:143:13:a
+# text = Xubʼij chwe jawi kʼow kanoq.
+# text[orig] = (13) a. x-ø-u-bʼi-j ch-w-e [jawi ø kʼo-w kanoq]
+# text[eng] = S/he told me where it was.
+# labels = 143:13:a
+^Xubʼij/X>u>bʼij$
+^chwe/ch>w>e$
+^jawi/jawi$
+^kʼow/kʼo>w$
+^kanoq/kan>oq$
+^./.$
+
+# sent_id = canpixabaj2015:143:13:b
+# text = Xuta jampaʼ kojʼek.
+# text[orig] = b. x-ø-u-ta [jampaʼ k-oj-ʼee-k]
+# text[eng] = S/he asked when we will go
+# labels = 143:13:b
+^Xuta/X>u>ta$
+^jampaʼ/jampaʼ$
+^kojʼek/k>oj>ʼe>k$
+^./.$
+
+# sent_id = canpixabaj2015:143:13:c
+# text = Xuta jachin kaʼek.
+# text[orig] = c. x-ø-u-ta [jachin ka-ø-ʼee-k]
+# text[eng] = S/he asked who is going to go.
+# labels = 143:13:c
+^Xuta/X>u>ta$
+^jachin/jachin$
+^kaʼek/k>a>ʼe>k$
+^./.$
+
+# sent_id = canpixabaj2015:144:14:a
+# text = Na xinta taj we are ri akʼal kixtzuquwik.
+# text[orig] = (14) a. na x-ø-in-ta taj [we are ri akʼaal k-ix-tzuq-uw-ik]
+# text[eng] = I did not hear whether it is the child who is going to feed you
+# labels = incomplete 144:14:a
+^Na/Na$
+^xinta/x>in>ta$
+^taj/taj$
+^we/we$
+^are/are$
+^ri/ri$
+^akʼal/akʼal$
+^kixtzuquwik/k>ix>tzuq>uw>ik$
+^./.$
+
+# sent_id = canpixabaj2015:144:14:b
+# text = Na xinta taj we na kixtzuq taj.
+# text[orig] = b. na x-ø-in-ta taj [we na k-ix-tzuuq taj]
+# text[eng] = I did not know if you would not be fed.
+# labels = 144:14:b
+^Na/Na$
+^xinta/x>in>ta$
+^taj/taj$
+^we/we$
+^na/na$
+^kixtzuq/k>ix>tzuq$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:146:16:
+# text = Na qʼalaj taj we kaʼek.
+# text[orig] = (16) Na ø qʼalaj taj [we ka-ø-ʼee-k]
+# text[eng] = It is not clear whether he is going.
+# labels = 146:16:
+^Na/Na$
+^qʼalaj/qʼalaj$
+^taj/taj$
+^we/we$
+^kaʼek/k>a>ʼek$
+^./.$
+
+# sent_id = canpixabaj2015:147:17:a
+# text = Xinqʼiʼo xinatin pa joron.
+# text[orig] = a. x-ø-in-qʼiʼ-o [x-in-atin pa joron]
+# text[eng] = I endured taking a shower in cold water.
+^Xinqʼiʼo/X>in>qʼiʼ>o$
+^xinatin/x>in>atin$
+^pa/pa$
+^joron/joron$
+^./.$
+
+# sent_id = canpixabaj2015:147:17:b
+# text = Kawaj kinbʼij.
+# text[orig] = b. ka-ø-w-aaj [k-ø-in-bʼii-j]
+# text[eng] = I want to tell it.
+# labels = 147:17:b
+^Kawaj/Ka>w>aj$
+^kinbʼij/k>in>bʼij$
+^./.$
+
+# sent_id = canpixabaj2015:149:18:
+# text = Na xintaqchiʼj ta le wachajil kachakunik.
+# text[orig] = (18) na x-ø-in-taqchiʼ-j ta le w-achajiil [ka-ø-chakun-ik]
+# text[eng] = I did not force my husband to work.
+# labels = 149:18:
+^Na/Na$
+^xintaqchiʼj/x>in>taqchiʼ>j$
+^ta/ta$
+^le/le$
+^wachajil/w>achajil$
+^kachakunik/ka>chakun>ik$
+^./.$
+
+# sent_id = canpixabaj2015:151:19:
+# text = Xojutaqchiʼij xojʼek.
+# text[orig] = (19) x-oj-u-taqchiʼii-j [x-oj-ʼee-k]
+# text[eng] = S/he forced us to go
+# labels = 151:19:
+^Xojutaqchiʼij/X>oj>u>taqchiʼi>j$
+^xojʼek/x>oj>ʼe>k$
+^./.$
+
+# sent_id = canpixabaj2015:152:20:
+# text = Xraj katʼek.
+# text[orig] = (20) x-ø-r-aaj [ka-at-ʼee-k]
+# text[eng] = S/he accepted that you go.
+# labels = 152:20:
+^Xraj/X>r>aj$
+^katʼek/k>at>ʼe>k$
+^./.$
+
+# sent_id = canpixabaj2015:152:21:
+# text = Pero xinkochʼo xkibʼij tzij chwe, na xinchʼaʼ ta chke.
+# text[orig] = pero x-ø-in-kochʼo [x-ø-ki-bʼi-j tziij (ch-w-e)], na x-in-chʼaʼ ta ch-k-e
+# text[eng] = But I endured that they told things to me, I did not complain about it.
+# labels = 152:21:
+^Pero/Pero$
+^xinkochʼo/x>in>kochʼ>o$
+^xkibʼij/x>ki>bʼij$
+^tzij/tzij$
+^chwe/ch>w>e$
+^,/,$
+^na/na$
+^xinchʼaʼ/x>in>chʼaʼ$
+^ta/ta$
+^chke/ch>k>e$
+^./.$
+
+# sent_id = canpixabaj2015:154:22:a
+# text = Jawi kawaj katwaʼ wi.
+# text[orig] = (22) a. jawi k-ø-aw-aaj [k-at-waʼ ___ wi]
+# text[eng] = Where do you want to eat?
+# labels = 154:22:a
+^Jawi/Jawi$
+^kawaj/k>aw>aj$
+^katwaʼ/k>at>waʼ$
+^wi/wi$
+^./.$
+
+# sent_id = canpixabaj2015:154:22:b
+# text = Jas kawaj kintijo ?
+# text[orig] = b. Jas k-ø-aw-aaj [k-ø-in-tij-o ___]?
+# text[eng] = What do you want me to eat?
+# labels = 154:22:b
+^Jas/Jas$
+^kawaj/k>aw>aj$
+^kintijo/k>in>tij>o$
+^?/?$
+
+# sent_id = canpixabaj2015:155:23:
+# text = Xinqʼiʼo takʼalik xinpetik.
+# text[orig] = (23) x-ø-in-qʼiʼ-o [takʼ-al-ik x-in-pet-ik]
+# text[eng] = I endured coming standing up
+# labels = 155:23:
+^Xinqʼiʼo/X>in>qʼiʼ>o$
+^takʼalik/takʼalik$
+^xinpetik/x>in>pet>ik$
+^./.$
+
+# sent_id = canpixabaj2015:156:24:
+# text = Xuqʼiʼo are le ukʼulel xyaʼow uwa.
+# text[orig] = (24) x-ø-u-qʼiʼ-o [are le u-kʼuleel x-ø-yaʼ-ow u-wa]
+# text[eng] = S/he endured to be fed by his/her enemy
+# labels = 156:24:
+^Xuqʼiʼo/X>u>qʼiʼ>o$
+^are/are$
+^le/le$
+^ukʼulel/u>kʼulel$
+^xyaʼow/x>yaʼ>ow$
+^uwa/u>wa$
+^./.$
+
+# sent_id = canpixabaj2015:157:25:
+# text = Ri al Ixchel, xuqʼiʼo xa jun akʼ xsipax che.
+# text[orig] = (25) ri al Ixchel, x-ø-u-qʼiʼ-o [xa jun akʼ x-ø-sipa-x ch-e]
+# text[eng] = Ixchel endured that it was only one chicken that she was given.
+# labels = 157:25:
+^Ri/Ri$
+^al/al$
+^Ixchel/Ixchel$
+^,/,$
+^xuqʼiʼo/x>u>qʼiʼ>o$
+^xa/xa$
+^jun/jun$
+^akʼ/akʼ$
+^xsipax/x>sipa>x$
+^che/ch>e$
+^./.$
+
+# sent_id = canpixabaj2015:158:26:a
+# text = Xuqʼiʼo xkamsax ri rachalal choch.
+# text[orig] = (26) a. x-ø-u-qʼiʼ-o [x-ø-kam-sa-x ri r-achalaal ch-och]
+# text[eng] = S/he endured that her brother was killed in her presence.
+# labels = 158:26:a
+^Xuqʼiʼo/X>u>qʼiʼ>o$
+^xkamsax/x>kamsa>x$
+^ri/ri$
+^rachalal/r>achalal$
+^choch/ch>och$
+^./.$
+
+# sent_id = canpixabaj2015:159:27:a
+# text = Xraj kaʼe le unan.
+# text[orig] = (27) a. x-ø-r-aaj [ka-ø-ʼe le u-naan]
+# text[eng] = S/he wanted her/his mother to go.
+# labels = 159:27:a
+^Xraj/X>r>aj$
+^kaʼe/ka>ʼe$
+^le/le$
+^unan/u>nan$
+^./.$
+
+# sent_id = canpixabaj2015:161:28:a
+# text = Xinxiʼj wibʼ xinchʼawik.
+# text[orig] = (28) a. x-ø-in-xiʼj w-iibʼ [x-in-chʼaaw-ik]
+# text[eng] = I was afraid to talk.
+# labels = 161:28:a
+^Xinxiʼj/X>in>xiʼj$
+^wibʼ/w>ibʼ$
+^xinchʼawik/x>in>chʼaw>ik$
+^./.$
+
+# sent_id = canpixabaj2015:162:29:a
+# text = Kaqoyʼej na kixpe taj.
+# text[orig] = (29) a. ka-ø-q-oyʼee-j [na k-ix-pe taj]
+# text[eng] = We hope that you do not come.
+# labels = 162:29:a
+^Kaqoyʼej/Ka>q>oyʼe>j$
+^na/na$
+^kixpe/k>ix>pe$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:162:29:b
+# text = Xinqʼiʼo na xinatin taj.
+# text[orig] = b. x-ø-in-qʼiʼ-o [na x-in-atin taj]
+# text[eng] = I endure to not take a shower.
+# labels = 162:29:b
+^Xinqʼiʼo/X>in>qʼiʼ>o$
+^na/na$
+^xinatin/x>in>atin$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:162:29:c
+# text = In kinbʼij na katsach taj.
+# text[orig] = c. In k-ø-in-bʼii-j na k-at-saach taj
+# text[eng] = I thought that you would not get lost.
+# labels = 162:29:c
+^In/In$
+^kinbʼij/k>in>bʼij$
+^na/na$
+^katsach/k>at>sach$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:163:30:
+# text = Xuqʼiʼo na xatatin taj.
+# text[orig] = (30) x-ø-u-qʼiʼ-o [na x-at-atin taj]
+# text[eng] = S/he endured that you did not take a shower.
+# labels = 163:30:
+^Xuqʼiʼo/X>u>qʼiʼ>o$
+^na/na$
+^xatatin/x>at>atin$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:164:31:
+# text = In kinbʼij na katsach taj.
+# text[orig] = (31) In k-ø-in-bʼii-j [na k-at-saach taj]
+# text[eng] = I thought you would not get lost.
+# labels = 164:31:
+^In/In$
+^kinbʼij/k>in>bʼij$
+^na/na$
+^katsach/k>at>sach$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:165:32:
+# text = Kwaj na katʼe taj.
+# text[orig] = (32) k-ø-w-aaj [na k-at-ʼe taj]
+# text[eng] = I would like/want that you do not to go.
+# labels = 165:32:
+^Kwaj/K>w>aj$
+^na/na$
+^katʼe/k>at>ʼe$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:168:35:a
+# text = Kawaj kinʼek.
+# text[orig] = (35) a. ka-ø-w-aaj [k-in-ʼe-k]
+# text[eng] = I want to go.
+# labels = 168:35:a
+^Kawaj/Ka>w>aj$
+^kinʼek/k>inʼ>ek$
+^./.$
+
+# sent_id = canpixabaj2015:168:35:c
+# text = Kawaj na katʼe taj.
+# text[orig] = c. ka-ø-w-aaj [na k-at-ʼe taj]
+# text[eng] = I want you not to go.
+# labels = 168:35:c
+^Kawaj/Ka>w>aj$
+^na/na$
+^katʼe/k>at>ʼe$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:170:37:
+# text = Are kawaj na kinʼe taj.
+# text[orig] = (37) Are ka-ø-w-aaj [na k-in-ʼe taj]
+# text[eng] = What I want is not to go.
+# labels = 170:37:
+^Are/Are$
+^kawaj/ka>w>aj$
+^na/na$
+^kinʼe/k>in>ʼe$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:175:42:
+# text = Xutaqchiʼj pa waram pulew.
+# text[orig] = (42) x-ø-u-taqchiʼ-j [pa war-aam p-uleew]
+# text[eng] = S/he forced him/her to sleep on the floor.
+# labels = 175:42:
+^Xutaqchiʼj/X>u>taqchiʼ>j$
+^pa/pa$
+^waram/war>am$
+^pulew/p>ulew$
+^./.$
+
+# sent_id = canpixabaj2015:187:52:
+# text = Kʼax le nuqʼabʼ.
+# text[orig] = (52) ø kʼax le nu-qʼabʼ
+# text[eng] = My hand hurts.
+# labels = 187:52:
+^Kʼax/Kʼax$
+^le/le$
+^nuqʼabʼ/nu>qʼabʼ$
+^./.$
+
+# sent_id = canpixabaj2015:194:59:a
+# text = Xretaʼmaj chi rukʼ pakʼ kutij wi.
+# text[orig] = (59) a. x-ø-r-etaʼmaa-j [chi r-ukʼ paakʼ k-ø-u-tij wi]
+# text[eng] = S/he learned that with spoon s/he eats it.
+# labels = 194:59:a
+^Xretaʼmaj/X>r>etaʼma>j$
+^chi/chi$
+^rukʼ/r>ukʼ$
+^pakʼ/pakʼ$
+^kutij/k>u>tij$
+^wi/wi$
+^./.$
+
+# sent_id = canpixabaj2015:194:59:b
+# text = Wetaʼam chi pulew xwar wi.
+# text[orig] = b. ø-w-etaʼ-aam [chi p-uleew x-ø-war wi]
+# text[eng] = I know that on the floor he slept.
+# labels = 194:59:b
+^Wetaʼam/W>etaʼ>am$
+^chi/chi$
+^pulew/p>ulew$
+^xwar/x>war$
+^wi/wi$
+^./.$
+
+# sent_id = canpixabaj2015:196:61:
+# text = Xinwilo chi takʼalik xulik.
+# text[orig] = (61) x-ø-inw-il-o [chi takʼ-al-ik x-ø-ul-ik]
+# text[eng] = I saw that he arrived standing up.
+# labels = 196:61:
+^Xinwilo/X>inw>il>o$
+^chi/chi$
+^takʼalik/takʼal>ik$
+^xulik/x>ul>ik$
+^./.$
+
+# sent_id = canpixabaj2015:201:66:
+# text = Xretaʼmaj uchʼajik.
+# text[orig] = (66) x-ø-r-etaʼmaj [u-chʼaaj-iik]
+# text[eng] = S/he learned to wash it.
+# labels = 201:66:
+^Xretaʼmaj/X>r>etaʼma>j$
+^uchʼajik/u>chʼaj>ik$
+^./.$
+
+# sent_id = canpixabaj2015:202:67:
+# text = Xuchap ukunaxik.
+# text[orig] = (67) x-ø-u-chap [u-kuna-x-iik]
+# text[eng] = S/he began to cure him/her.
+# labels = 202:67:
+^Xuchap/X>u>chap$
+^ukunaxik/u>kuna>x>ik$
+^./.$
+
+# sent_id = canpixabaj2015:203:68:b
+# text = Xuchap nukunaxik.
+# text[orig] = b. x-øi-uj-chap [_jnuk-kuna-x-iik]i
+# text[eng] = S/he began to cure me.
+# labels = 203:68:b
+^Xuchap/X>u>chap$
+^nukunaxik/nu>kuna>x>ik$
+^./.$
+
+# sent_id = canpixabaj2015:204:69:
+# text = Xretaʼmaj awilik.
+# text[orig] = (69) x-ø-ri-etaʼma-j [_iawj-iil-iik]
+# text[eng] = S/he learned to take care of you.
+# labels = 204:69:
+^Xretaʼmaj/X>r>etaʼma>j$
+^awilik/aw>il>ik$
+^./.$
+
+# sent_id = canpixabaj2015:210:75:
+# text = Xinwetaʼmaj rilik wibʼ.
+# text[orig] = (75) x-ø-inw-etaʼma-j [r-iil-ik w-iibʼ]
+# text[eng] = I learned to take care of myself.
+# labels = 210:75:
+^Xinwetaʼmaj/X>inw>etaʼma>j$
+^rilik/r>il>ik$
+^wibʼ/w>ibʼ$
+^./.$
+
+# sent_id = canpixabaj2015:211:76:
+# text = La xatok kʼu chi ratinsaxik awibʼ?
+# text[orig] = (76) la x-at-ok kʼu [chi r-atinsa-x-ik aw-iibʼ]?
+# text[eng] = Did you started bathing yourself?
+# labels = 211:76:
+^La/La$
+^xatok/x>at>ok$
+^kʼu/kʼu$
+^chi/chi$
+^ratinsaxik/r>atinsa>x>ik$
+^awibʼ/aw>ibʼ$
+^?/?$
+
+# sent_id = canpixabaj2015:219:82:a
+# text = Kʼax ukemik le pas awumal.
+# text[orig] = (82) a. ø kʼax [u-keem-ik le paas] aw-umaal
+# text[eng] = It is hard for you to weave the belt.
+# labels = 219:82:a
+^Kʼax/Kʼax$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^awumal/aw>umal$
+^./.$
+
+# sent_id = canpixabaj2015:219:82:b
+# text = Utz ukemik le pas chawe.
+# text[orig] = b. ø utz [u-keem-ik le paas] ch-aw-e
+# text[eng] = It is good for you to weave the belt.
+# labels = 219:82:b
+^Utz/Utz$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^chawe/ch>aw>e$
+^./.$
+
+# sent_id = canpixabaj2015:220:83:
+# text = Noʼjim ukemik le pas awumal.
+# text[orig] = (83) ø noʼjiim [u-keem-ik le paas] aw-umaal
+# text[eng] = You are slow at weaving the belt.
+# labels = 220:83:
+^Noʼjim/Noʼjim$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^awumal/aw>umal$
+^./.$
+
+# sent_id = canpixabaj2015:222:85:
+# text = Utz ukemik le pas chawe.
+# text[orig] = (85) ø utz [u-keem-ik le paas] ch-aw-e
+# text[eng] = It is good for you to weave the belt.
+# labels = 222:85:
+^Utz/Utz$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^chawe/ch>aw>e$
+^./.$
+
+# sent_id = canpixabaj2015:223:86:
+# text = Kʼax ukemik le pas chawe.
+# text[orig] = (86) ø kʼax [u-keem-ik le paas] ch-aw-e
+# text[eng] = It is hard for you to weave the belt.
+# labels = 223:86:
+^Kʼax/Kʼax$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^chawe/ch>aw>e$
+^./.$
+
+# sent_id = canpixabaj2015:224:87:a
+# text = Le ukemik le pas kʼax chawe.
+# text[orig] = (87) a. [le u-keem-ik le paas] ø kʼax ch-aw-e
+# text[eng] = Weaving the belt is hard for you. (because you have a lot to do)
+# labels = 224:87:a
+^Le/Le$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^kʼax/kʼax$
+^chawe/ch>aw>e$
+^./.$
+
+# sent_id = canpixabaj2015:225:88:a
+# text = Le ukemik le pas utz (chawe).
+# text[orig] = (88) a. [le u-keem-ik le paas] ø utz (ch-aw-e)
+# text[eng] = Weaving the belt is good for you.
+# labels = 225:88:a
+^Le/Le$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^utz/utz$
+^(/($
+^chawe/ch>aw>e$
+^)/)$
+^./.$
+
+# sent_id = canpixabaj2015:226:89:
+# text = Noʼjim ukemik le pas awumal.
+# text[orig] = (89) ø noʼjiim [u-keem-ik le paas] aw-umaal
+# text[eng] = It takes you a long time to weave the belt (for you).
+# labels = 226:89:
+^Noʼjim/Noʼjim$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^awumal/aw>umal$
+^./.$
+
+# sent_id = canpixabaj2015:227:90:
+# text = Aninaq ukemik le pas awumal.
+# text[orig] = (90) ø aninaq [u-keem-ik le paas] aw-umaal
+# text[eng] = You are fast at weaving the belt.
+# labels = 227:90:
+^Aninaq/Aninaq$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^awumal/aw>umal$
+^./.$
+
+# sent_id = canpixabaj2015:228:91:
+# text = Tzebʼal ukemik le pas awumal.
+# text[orig] = (91) ø tzebʼal [u-keem-ik le paas] aw-umaal
+# text[eng] = It is funny the way you weave the belt.
+# labels = 228:91:
+^Tzebʼal/Tzebʼal$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^awumal/aw>umal$
+^./.$
+
+# sent_id = canpixabaj2015:229:92:a
+# text = Le ukemik le pas aninaq (awumal).
+# text[orig] = (92) a. [le u-keem-ik le paas] ø aninaq (aw-umaal)
+# text[eng] = You are fast at weaving the belt.
+# labels = 229:92:a
+^Le/Le$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^aninaq/aninaq$
+^(/($
+^awumal/aw>umal$
+^)/)$
+^./.$
+
+# sent_id = canpixabaj2015:230:93:
+# text = Kʼax ukemik le pas chawe.
+# text[orig] = (93) ø kʼax [u-keem-ik le paas] ch-aw-e
+# text[eng] = It is hard for you to weave the belt.
+# labels = 230:93:
+^Kʼax/Kʼax$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^chawe/ch>aw>e$
+^./.$
+
+# sent_id = canpixabaj2015:231:94:
+# text = Kʼax ukemik le pas awumal.
+# text[orig] = (94) ø kʼax [u-keem-ik le paas] aw-umaal
+# text[eng] = It is hard for you to weave the belt.
+# labels = 231:94:
+^Kʼax/Kʼax$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^awumal/aw>umal$
+^./.$
+
+# sent_id = canpixabaj2015:233:96:
+# text = Kʼax rilik le akʼal chawe.
+# text[orig] = (96) ø kʼax [r-iil-ik le akʼaal] ch-aw-e
+# text[eng] = It is difficult for you to take care of the child.
+# labels = 233:96:
+^Kʼax/Kʼax$
+^rilik/r>il>ik$
+^le/le$
+^akʼal/akʼal$
+^chawe/ch>aw>e$
+^./.$
+
+# sent_id = canpixabaj2015:235:97:
+# text = Kʼax waʼim awumal.
+# text[orig] = (97) ø kʼax [waʼ-iim] aw-umaal
+# text[eng] = It is hard for you to eat.
+# labels = 235:97:
+^Kʼax/Kʼax$
+^waʼim/waʼ>im$
+^awumal/aw>umal$
+^./.$
+
+# sent_id = canpixabaj2015:242:103:a
+# text = Xqasikʼij le ixoq chutzakik subʼ.
+# text[orig] = (103) a. x-ø-qa-sikʼi-j le ixoq [ch-u-tzaak-ik subʼ].
+# text[eng] = We called/brought the woman to cook tamalitos.
+# labels = 242:103:a
+^Xqasikʼij/X>qa>sikʼi>j$
+^le/le$
+^ixoq/ixoq$
+^chutzakik/ch>u>tzak>ik$
+^subʼ/subʼ$
+^./.$
+
+# sent_id = canpixabaj2015:242:103:b
+# text = Jeʼ, tajin kachaponik.
+# text[orig] = b. Jeeʼ, tajin ka-ø-chapon-ik
+# text[eng] = Yes, she is working.
+# labels = 242:103:b
+^Jeʼ/Jeʼ$
+^,/,$
+^tajin/tajin$
+^kachaponik/ka>chapon>ik$
+^./.$
+
+# sent_id = canpixabaj2015:242:103:c
+# text = La utzakik kʼu subʼ tajin kuʼano?
+# text[orig] = c. La [u-tzaak-ik kʼu subʼ] tajin k-ø-u-ʼan-o?
+# text[eng] = Is it cooking tamalitos that she is doing?
+# labels = 242:103:c
+^La/La$
+^utzakik/u>tzak>ik$
+^kʼu/kʼu$
+^subʼ/subʼ$
+^tajin/tajin$
+^kuʼano/k>u>ʼan>o$
+^?/?$
+
+# sent_id = canpixabaj2015:242:103:d
+# text = Na utzakik ta subʼ tajin kuʼano.
+# text[orig] = d. na [u-tzaak-ik ta subʼ] tajin k-ø-u-ʼan-o
+# text[eng] = No, it is not cooking tamalitos that she is doing
+# labels = 242:103:d
+^Na/Na$
+^utzakik/u>tzak>ik$
+^ta/ta$
+^subʼ/subʼ$
+^tajin/tajin$
+^kuʼano/k>u>ʼan>o$
+^./.$
+
+# sent_id = canpixabaj2015:242:103:e
+# text = Ulejik wa tajin kuʼano.
+# text[orig] = e. [u-leej-ik wa] tajin k-ø-u-ʼan-o
+# text[eng] = It is making tortillas that she is doing.
+# labels = 242:103:e
+^Ulejik/U>lej>ik$
+^wa/wa$
+^tajin/tajin$
+^kuʼano/k>u>ʼan>o$
+^./.$
+
+# sent_id = canpixabaj2015:243:104:
+# text = Jas utzakik le subʼ xuʼano?
+# text[orig] = (104) [jas u-tzaak-ik le subʼ] x-ø-u-ʼan-o?
+# text[eng] = How did she cook the tamalitos?
+# labels = 243:104:
+^Jas/Jas$
+^utzakik/u>tzak>ik$
+^le/le$
+^subʼ/subʼ$
+^xuʼano/x>u>ʼan>o$
+^?/?$
+
+# sent_id = canpixabaj2015:248:2:
+# text = Xuyupubʼa uwach raʼchi, kachaʼ,.
+# text[orig] = (2) x-ø-u-yup-ubʼa u-wach raʼchi, ka-ø-chaʼ,
+# text[eng] = The man closed his eyes, they say…
+# labels = 248:2:
+^Xuyupubʼa/X>u>yupubʼa$
+^uwach/u>wach$
+^raʼchi/r>aʼchi$
+^,/,$
+^kachaʼ/ka>chaʼ$
+^,/,$
+^./.$
+
+# sent_id = canpixabaj2015:252:7:
+# text = Xnaʼtaj ri akʼal chwe.
+# text[orig] = (7) x-ø-naʼtaj ri akʼaal ch-w-e
+# text[eng] = I remembered the child.
+# labels = 252:7:
+^Xnaʼtaj/X>naʼtaj$
+^ri/ri$
+^akʼal/akʼal$
+^chwe/ch>w>e$
+^./.$
+
+# sent_id = canpixabaj2015:253:8:
+# text = Xsachon ri nuchak chwe.
+# text[orig] = (8) x-ø-sachon ri nu-chaak ch-w-e
+# text[eng] = I forgot my work.
+# labels = 253:8:
+^Xsachon/X>sachon$
+^ri/ri$
+^nuchak/nu>chak$
+^chwe/ch>w>e$
+^./.$
+
+# sent_id = canpixabaj2015:254:9:
+# text = Noʼjim chak wumal.
+# text[orig] = (9) ø Noʼjim chak w-umaal
+# text[eng] = I am slow at work.
+# labels = 254:9:
+^Noʼjim/Noʼjim$
+^chak/chak$
+^wumal/w>umal$
+^./.$
+
+# sent_id = canpixabaj2015:255:10:
+# text = Xnaʼtaj waʼim chwe.
+# text[orig] = (10) x-ø-naʼtaj [waʼ-iim] ch-w-e
+# text[eng] = I remembered to eat
+# labels = 255:10:
+^Xnaʼtaj/X>naʼtaj$
+^waʼim/waʼ>im$
+^chwe/ch>w>e$
+^./.$
+
+# sent_id = canpixabaj2015:256:11:
+# text = Noʼjimal ukemik le pas awumal.
+# text[orig] = (11) ø noʼjimaal [u-keem-ik le paas] aw-umaal
+# text[eng] = You are slow at weaving the belt.
+# labels = 256:11:
+^Noʼjimal/Noʼjimal$
+^ukemik/u>kem>ik$
+^le/le$
+^pas/pas$
+^awumal/aw>umal$
+^./.$
+
+# sent_id = canpixabaj2015:262:17:
+# text = Xuta le nimalaj kʼamol bʼe rech we tinamit chi xuʼl le ajtijabʼ.
+# text[orig] = (17) x-ø-u-ta le nim-alaj kʼam-ol bʼe r-eech we tinamit [chi x-uʼl le ajtijaabʼ]
+# text[eng] = The very important leader of this town knew that teachers arrived.
+# labels = incomplete 262:17:
+^Xuta/X>u>ta$
+^le/le$
+^nimalaj/nim>alaj$
+^kʼamol/kʼamol$
+^bʼe/bʼe$
+^rech/r>ech$
+^we/we$
+^tinamit/tinamit$
+^chi/chi$
+^xuʼl/x>uʼl$
+^le/le$
+^ajtijabʼ/ajtij>abʼ$
+^./.$
+
+# sent_id = canpixabaj2015:263:19:
+# text = Kakaj le akʼalabʼ kewaʼik.
+# text[orig] = (19) ka-ø-k-aj le akʼalaabʼ [k-e-waʼ-ik]
+# text[eng] = Children want to eat
+# labels = 263:19:
+^Kakaj/Ka>k>aj$
+^le/le$
+^akʼalabʼ/akʼal>abʼ$
+^kewaʼik/k>e>waʼ>ik$
+^./.$
+
+# sent_id = canpixabaj2015:268:24:a
+# text = Jas nu kʼu kuchʼobʼo.
+# text[orig] = (24) a. Jas nu kʼu k-ø-u-chʼobʼ-o
+# text[eng] = Who knows what s/he thinks.
+# labels = 268:24:a
+^Jas/Jas$
+^nu/nu$
+^kʼu/kʼu$
+^kuchʼobʼo/k>u>chʼobʼ>o$
+^./.$
+
+# sent_id = canpixabaj2015:269:25:a
+# text = Xwaʼik.
+# text[orig] = (25) a. x-ø-waʼ-ik
+# text[eng] = S/he ate.
+# labels = 269:25:a
+^Xwaʼik/X>waʼ>ik$
+^./.$
+
+# sent_id = canpixabaj2015:270:26:a
+# text = Xretaʼmaj.
+# text[orig] = (26) a. x-ø-r-etaʼmaa-j
+# text[eng] = S/he learned it.
+# labels = 270:26:a
+^Xretaʼmaj/X>r>etaʼma>j$
+^./.$
+
+# sent_id = canpixabaj2015:276:32:
+# text = Na xqil ta chik chi kukʼam rajil le asosyasyon.
+# text[orig] = (32) na x-ø-q-il ta chik [chi k-ø-u-kʼam rajil le asosyasyon]
+# text[eng] = We did not realize anymore that the association needs money.
+# labels = 276:32:
+^Na/Na$
+^xqil/x>q>il$
+^ta/ta$
+^chik/chik$
+^chi/chi$
+^kukʼam/k>u>kʼam$
+^rajil/rajil$
+^le/le$
+^asosyasyon/asosyasyon$
+^./.$
+
+# sent_id = canpixabaj2015:277:33:
+# text = Na xinta taj we kixkitzuqu.
+# text[orig] = (33) na x-ø-in-ta taj [we k-ix-ki-tzuq-u]
+# text[eng] = I did not hear whether they will feed you or not.
+# labels = 277:33:
+^Na/Na$
+^xinta/x>in>ta$
+^taj/taj$
+^we/we$
+^kixkitzuqu/k>ix>ki>tzuq>u$
+^./.$
+
+# sent_id = canpixabaj2015:278:34:a
+# text = Entonses are kʼwaʼ le kawaj kinbʼij pan in.
+# text[orig] = (34) a. entonses are kʼ-waʼ le k-ø-aw-aa-j [k-ø-in-bʼij pan in]
+# text[eng] = Then this is what I would like to say. {R069I001:027}
+# labels = 278:34:a
+^Entonses/Entonses$
+^are/are$
+^kʼwaʼ/kʼ>waʼ$
+^le/le$
+^kawaj/k>aw>aj$
+^kinbʼij/k>in>bʼij$
+^pan/pan$
+^in/in$
+^./.$
+
+# sent_id = canpixabaj2015:278:34:b
+# text = Na xwaj taj xinbʼij.
+# text[orig] = b. na x-ø-w-a-j taj [x-ø-in-bʼii-j]
+# text[eng] = I did not want to say.
+# labels = 278:34:b
+^Na/Na$
+^xwaj/x>w>aj$
+^taj/taj$
+^xinbʼij/x>in>bʼij$
+^./.$
+
+# sent_id = canpixabaj2015:278:34:c
+# text = Na xwaj ta chik xinbʼij.
+# text[orig] = c. na x-ø-w-aj ta chik [x-ø-in-bʼii-j]
+# text[eng] = I did not want to say.
+# labels = 278:34:c
+^Na/Na$
+^xwaj/x>w>aj$
+^ta/ta$
+^chik/chik$
+^xinbʼij/x>in>bʼij$
+^./.$
+
+# sent_id = canpixabaj2015:281:36:
+# text = Are rintat xiʼlowik, in, na xinwil taj.
+# text[orig] = (73) are r-in-taat x-iʼl-ow-ik, in, na x-ø-inw-il taj
+# text[eng] = …it was my parents who saw it, I didnt see it.
+# labels = complete 281:36: check-dislocated
+^Are/Are$
+^rintat/r>in>tat$
+^xilowik/x>il>ow>ik$
+^,/,$
+^in/in$
+^,/,$
+^na/na$
+^xinwil/x>inw>il$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:283:37:b
+# text = Waʼim xuchapo.
+# text[orig] = b. [waʼ-iim] x-ø-u-chap-o
+# text[eng] = It is eating that s/he started.
+# labels = 283:37:b
+^Waʼim/Waʼ>im$
+^xuchapo/x>u>chap>o$
+^./.$
+
+# sent_id = canpixabaj2015:284:38:b
+# text = Kikunaxik akʼalabʼ xretaʼmaj.
+# text[orig] = b. [ki-kuna-x-ik akʼal-aabʼ] x-ø-r-etaʼmaa-j
+# text[eng] = Curing children is what s/he learned.
+# labels = 284:38:b
+^Kikunaxik/Ki>kuna>x>ik$
+^akʼalabʼ/akʼal>abʼ$
+^xretaʼmaj/x>r>etaʼma>j$
+^./.$
+
+# sent_id = canpixabaj2015:285:39:
+# text = Are le ukemik pas xretaʼmaj.
+# text[orig] = (39) [Are le u-keem-ik pas] x-ø-r-etaʼmaa-j
+# text[eng] = What s/he learned was to weave belts.
+# labels = 285:39:
+^Are/Are$
+^le/le$
+^ukemik/u>kem>ik$
+^pas/pas$
+^xretaʼmaj/x>r>etaʼma>j$
+^./.$
+
+# sent_id = canpixabaj2015:287:41:
+# text = Pa waram xutaqchiʼj wi.
+# text[orig] = (41) [pa war-aam] x-ø-u-taqchiʼ-j wi
+# text[eng] = What s/he forced him/her to do was to sleep.
+# labels = 287:41:
+^Pa/Pa$
+^waram/war>am$
+^xutaqchiʼj/x>u>taqchiʼ>j$
+^wi/wi$
+^./.$
+
+# sent_id = canpixabaj2015:289:43:
+# text = Chi relaqʼaxik kinaqʼ xeutaqchiʼj wi.
+# text[orig] = (43) [chi r-elaqʼa-x-ik kinaqʼ] x-e-u-taqchiʼ-j wi
+# text[eng] = What s/he forced them to do was to steal beans.
+# labels = 289:43:
+^Chi/Chi$
+^relaqʼaxik/r>elaqʼa>x>ik$
+^kinaqʼ/kinaqʼ$
+^xeutaqchiʼj/x>e>u>taqchiʼ>j$
+^wi/wi$
+^./.$
+
+# sent_id = canpixabaj2015:293:47:
+# text = Xatwaʼik xinwilo.
+# text[orig] = (47) [x-at-waʼ-ik] x-ø-inw-il-o
+# text[eng] = I saw/realized that you ate.
+# labels = 293:47:
+^Xatwaʼik/X>at>waʼ>ik$
+^xinwilo/x>inw>il>o$
+^./.$
+
+# sent_id = canpixabaj2015:294:48:
+# text = Katʼek xinta.
+# text[orig] = (48) [k-at-ʼee-k] x-ø-in-ta
+# text[eng] = I heard that you are going to leave.
+# labels = 294:48:
+^Katʼek/K>at>ʼek$
+^xinta/x>in>ta$
+^./.$
+
+# sent_id = canpixabaj2015:296:50:
+# text = Xinwilo chi xatwaʼik.
+# text[orig] = (50) x-ø-inw-il-o [chi x-at-waʼ-ik]
+# text[eng] = I saw/realized that you ate.
+# labels = 296:50:
+^Xinwilo/X>inw>il>o$
+^chi/chi$
+^xatwaʼik/x>at>waʼ>ik$
+^./.$
+
+# sent_id = canpixabaj2015:299:53:
+# text = Xinbʼij chi kinʼek.
+# text[orig] = (53) x-ø-in-bʼii-j [chi k-in-ʼee-k]
+# text[eng] = I said that I would go.
+# labels = 299:53:
+^Xinbʼij/X>in>bʼij$
+^chi/chi$
+^kinʼek/k>in>ʼek$
+^./.$
+
+# sent_id = canpixabaj2015:301:55:a
+# text = La katʼe kʼut kabʼij?
+# text[orig] = (55) a. la k-at-ʼe kʼut k-ø-a-bʼii-j?
+# text[eng] = Are you thinking about going?
+# labels = 301:55:a
+^La/La$
+^katʼe/k>at>ʼe$
+^kʼut/kʼut$
+^kabʼij/k>a>bʼij$
+^?/?$
+
+# sent_id = canpixabaj2015:303:57:
+# text = Xuta we katʼek.
+# text[orig] = (57) x-ø-u-ta [we k-at-ʼee-k]
+# text[eng] = S/he asked whether you go.
+# labels = 303:57:
+^Xuta/X>u>ta$
+^we/we$
+^katʼek/k>at>ʼe>k$
+^./.$
+
+# sent_id = canpixabaj2015:307:60:a
+# text = Xataqchiʼj le akʼal chutijik kar.
+# text[orig] = (60) a. x-ø-a-taqchiʼ-j le akʼaal [ch-u-tiij-ik kar]
+# text[eng] = You forced the child to eat fish.
+# labels = 307:60:a
+^Xataqchiʼj/X>a>taqchiʼ>j$
+^le/le$
+^akʼal/akʼal$
+^chutijik/ch>u>tij>ik$
+^kar/kar$
+^./.$
+
+# sent_id = canpixabaj2015:307:60:b
+# text = Jas xataqchiʼj le akʼal chutijik ?
+# text[orig] = b. jas x-ø-a-taqchiʼ-j le akʼaal [ch-u-tiij-iik __]?
+# text[eng] = What did you force the boy to eat?
+# labels = 307:60:b
+^Jas/Jas$
+^xataqchiʼj/x>a>taqchiʼ>j$
+^le/le$
+^akʼal/akʼal$
+^chutijik/ch>u>tij>ik$
+^?/?$
+
+# sent_id = canpixabaj2015:308:61:b
+# text = Jas karaj kutijo ?
+# text[orig] = b. jas ka-ø-r-aaj [k-ø-u-tij-o ___]?
+# text[eng] = What does s/he want to eat?
+# labels = 308:61:b
+^Jas/Jas$
+^karaj/ka>r>aj$
+^kutijo/k>u>tij>o$
+^?/?$
+
+# sent_id = canpixabaj2015:309:62:b
+# text = Jas xurayij le anan xutijo ?
+# text[orig] = b. jas x-ø-u-rayi-j le a-naan [x-ø-u-tij-o ___]?
+# text[eng] = What does your mother want to eat?
+# labels = 309:62:b
+^Jas/Jas$
+^xurayij/x>u>rayi>j$
+^le/le$
+^anan/a>nan$
+^xutijo/x>u>tij>o$
+^?/?$
+
+# sent_id = canpixabaj2015:310:63:b
+# text = Jas xsachon chqe xqachʼajo.
+# text[orig] = b. jas x-ø-sachon ch-q-e [x-ø-qa-chʼaj-o ___]
+# text[eng] = What did we forget to wash?
+# labels = 310:63:b
+^Jas/Jas$
+^xsachon/x>sachon$
+^chqe/ch>q>e$
+^xqachʼajo/x>qa>chʼaj>o$
+^./.$
+
+# sent_id = canpixabaj2015:315:68:b
+# text = Jachin xawilo chi are xtijow ri tiʼj?
+# text[orig] = b. jachin x-ø-aw-il-o [chi are x-ø-tij-ow ri tiʼiij]?
+# text[eng] = Who did you see that ate the meat?
+# labels = 315:68:b
+^Jachin/Jachin$
+^xawilo/x>aw>il>o$
+^chi/chi$
+^are/are$
+^xtijow/x>tij>ow$
+^ri/ri$
+^tiʼj/tiʼj$
+^?/?$
+
+# sent_id = canpixabaj2015:316:69:a
+# text = Jas xutij le ala xawilo?
+# text[orig] = (69) a. [jas x-ø-u-tij ___ le ala] x-ø-aw-il-o?
+# text[eng] = What did the boy eat you saw?
+# labels = 316:69:a
+^Jas/Jas$
+^xutij/x>u>tij$
+^le/le$
+^ala/ala$
+^xawilo/x>aw>il>o$
+^?/?$
+
+# sent_id = canpixabaj2015:316:69:b
+# text = Jas xukʼam bʼi le tzʼiʼ xawilo?
+# text[orig] = b. [jas x-ø-u-kʼam bʼi __ le tzʼiʼ] x-ø-aw-il-o?
+# text[eng] = What did the dog take you saw?
+# labels = 316:69:b
+^Jas/Jas$
+^xukʼam/x>u>kʼam$
+^bʼi/bʼi$
+^le/le$
+^tzʼiʼ/tzʼiʼ$
+^xawilo/x>aw>il>o$
+^?/?$
+
+# sent_id = canpixabaj2015:316:69:c
+# text = Jas xkiyako xata?
+# text[orig] = c. [jas x-ø-ki-yak-o___] x-ø-a-ta?
+# text[eng] = What did they lift you heard.
+# labels = 316:69:c
+^Jas/Jas$
+^xkiyako/x>ki>yak>o$
+^xata/x>a>ta$
+^?/?$
+
+# sent_id = canpixabaj2015:317:70:b
+# text = Jas rukʼ xkitij wi le kirikil?
+# text[orig] = b. jas r-uukʼ x-ø-ki-tij wi le ki-rikiil?
+# text[eng] = With what did they eat their food?
+# labels = 317:70:b
+^Jas/Jas$
+^rukʼ/r>ukʼ$
+^xkitij/x>ki>tij$
+^wi/wi$
+^le/le$
+^kirikil/ki>rikil$
+^?/?$
+
+# sent_id = canpixabaj2015:323:76:b
+# text = Jas rukʼ xkichap wi utijik le rikil?
+# text[orig] = b. jas r-uukʼ x-ø-ki-chap wi [u-tiij-ik le rikiil__]?
+# text[eng] = With what did they start eating their food?
+# labels = 323:76:b
+^Jas/Jas$
+^rukʼ/r>ukʼ$
+^xkichap/x>ki>chap$
+^wi/wi$
+^utijik/u>tij>ik$
+^le/le$
+^rikil/rikil$
+^?/?$
+
+# sent_id = canpixabaj2015:326:78:
+# text = Xsachon kan uyaʼik le pwaq che cho ja.
+# text[orig] = (78) x-ø-sachon kan [u-yaʼ-ik le pwaq ch.e ch-o ja]
+# text[eng] = He forgot to leave the money at home.
+# labels = 326:78:
+^Xsachon/X>sachon$
+^kan/kan$
+^uyaʼik/u>yaʼ>ik$
+^le/le$
+^pwaq/pwaq$
+^che/ch>e$
+^cho/ch>o$
+^ja/ja$
+^./.$
+
+# sent_id = canpixabaj2015:327:79:
+# text = Jawi xsachon wi kan uyaʼik le pwaq che.
+# text[orig] = (79) jawi x-ø-sachon wi kan [u-yaʼ-ik le pwaq ch-e _]
+# text[eng] = Where did he forgot to leave the money?
+# labels = 327:79:
+^Jawi/Jawi$
+^xsachon/x>sachon$
+^wi/wi$
+^kan/kan$
+^uyaʼik/u>yaʼ>ik$
+^le/le$
+^pwaq/pwaq$
+^che/ch>e$
+^./.$
+
+# sent_id = canpixabaj2015:328:80:b
+# text = Jas rukʼ xawil wi chi xkiqupij wi le tiʼij.
+# text[orig] = b. jas r-uukʼ x-ø-aw-il wi [chi x-ø-ki-qupi-j wi le tiʼiij]?
+# text[eng] = With what did you see that they cut the meat?
+# labels = 328:80:b
+^Jas/Jas$
+^rukʼ/r>ukʼ$
+^xawil/x>aw>il$
+^wi/wi$
+^chi/chi$
+^xkiqupij/x>ki>qupi>j$
+^wi/wi$
+^le/le$
+^tiʼj/tiʼj$
+^./.$
+
+# sent_id = canpixabaj2015:329:81:b
+# text = Jawi xkibʼij wi chi keʼe wi?
+# text[orig] = b. jawi x-ø-ki-bʼi-j wi [chi k-e-ʼe wi]?
+# text[eng] = Where did they say that they would go?
+# labels = 329:81:b
+^Jawi/Jawi$
+^xkibʼij/x>ki>bʼij$
+^wi/wi$
+^chi/chi$
+^keʼe/k>e>ʼe$
+^wi/wi$
+^?/?$
+
+# sent_id = canpixabaj2015:334:86:b
+# text = Jas karaj kaʼan chutzakik le ti’ij.
+# text[orig] = b. jas ka-ø-r-aaj [k-ø-a-ʼan [ch-u-tzaak-ik le ti’iij]]?
+# text[eng] = How does she wants you to cook the meat?
+# labels = 334:86:b
+^Jas/Jas$
+^karaj/ka>r>aj$
+^kaʼan/k>a>ʼan$
+^chutzakik/ch>u>tzak>ik$
+^le/le$
+^tiʼij/tiʼij$
+^./.$
+
+# sent_id = canpixabaj2015:339:2:
+# text = Xkʼotochin chi kiwach chi xojalwoʼqa kukʼ.
+# text[orig] = (2) x-ø-kʼotochin chi ki-wach [chi x-oj-al-woʼ-qa k-uukʼ]
+# text[eng] = They imagined that we came to eat with them.
+# labels = 339:2:
+^Xkʼotochin/X>kʼotochin$
+^chi/chi$
+^kiwach/ki>wach$
+^chi/chi$
+^xojalwoʼqa/x>oj>al>woʼ>qa$
+^kukʼ/k>ukʼ$
+^./.$
+
+# sent_id = canpixabaj2015:340:3:
+# text = Xinwetaʼmaj chi na xatpe taj.
+# text[orig] = (3) x-ø-inw-etaʼma-j [chi na x-at-pe taj]
+# text[eng] = I knew that you did not come.
+# labels = 340:3:
+^Xinwetaʼmaj/X>inw>etaʼma>j$
+^chi/chi$
+^na/na$
+^xatpe/x>at>pe$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:342:5:
+# text = Xkʼotochin chi kiwach chi kojalwoʼqa kukʼ.
+# text[orig] = (5) x-ø-kʼotochin chi ki-wach [chi k-oj-al-woʼ-qa k-uukʼ]
+# text[eng] = They imagined that we would come to eat with them.
+# labels = 342:5:
+^Xkʼotochin/X>kʼotochin$
+^chi/chi$
+^kiwach/ki>wach$
+^chi/chi$
+^kojalwoʼqa/k>oj>al>woʼ>qa$
+^kukʼ/k>ukʼ$
+^./.$
+
+# sent_id = canpixabaj2015:343:6:
+# text = Xinwetaʼmaj chi na katpe taj.
+# text[orig] = (6) x-ø-inw-etaʼma-j [chi na k-at-pe taj]
+# text[eng] = I knew that you would not come.
+# labels = 343:6:
+^Xinwetaʼmaj/X>inw>etaʼma>j$
+^chi/chi$
+^na/na$
+^katpe/k>at>pe$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:345:8:
+# text = Xkʼotochin chi kiwach chi kinwaʼ awukʼ.
+# text[orig] = (8) x-ø-kʼotochin chi ki-wach [chi k-in-waʼ aw-uukʼ]
+# text[eng] = They imagined that I would eat with you.
+# labels = 345:8:
+^Xkʼotochin/X>kʼotochin$
+^chi/chi$
+^kiwach/ki>wach$
+^chi/chi$
+^kinwaʼ/k>in>waʼ$
+^awukʼ/aw>ukʼ$
+^./.$
+
+# sent_id = canpixabaj2015:346:9:
+# text = Xinwetaʼmaj chi na katpe taj.
+# text[orig] = (9) x-ø-inw-etaʼmaa-j [chi na k-at-pe taj]
+# text[eng] = I knew that you would not come.
+# labels = 346:9:
+^Xinwetaʼmaj/X>inw>etaʼma>j$
+^chi/chi$
+^na/na$
+^katpe/k>at>pe$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:347:10:
+# text = Wetaʼam jachin kapetik.
+# text[orig] = (10) ø-w-etaʼ-aam [jachin ka-ø-peet-ik]
+# text[eng] = I know who will come.
+# labels = 347:10:
+^Wetaʼam/W>etaʼam$
+^jachin/jachin$
+^kapetik/ka>pet>ik$
+^./.$
+
+# sent_id = canpixabaj2015:348:11:
+# text = Xubʼij chwe jawi at kʼo wi.
+# text[orig] = (11) x-ø-u-bʼij ch-w-e [jawi at kʼo wi]
+# text[eng] = S/he told me where you are.
+# labels = 348:11:
+^Xubʼij/X>u>bʼij$
+^chwe/ch>w>e$
+^jawi/jawi$
+^at/at$
+^kʼo/kʼo$
+^wi/wi$
+^./.$
+
+# sent_id = canpixabaj2015:350:13:
+# text = Xkilo chi kinkʼoxomaj.
+# text[orig] = (13) x-ø-k-il-o [chi k-ø-in-kʼoxomaa-j]
+# text[eng] = They realized that I understand it.
+# labels = 350:13:
+^Xkilo/X>k>il>o$
+^chi/chi$
+^kinkʼoxomaj/k>in>kʼoxoma>j$
+^./.$
+
+# sent_id = canpixabaj2015:351:14:
+# text = Xinnaʼo chi katpetik.
+# text[orig] = (14) x-ø-in-naʼ-o [chi k-at-peet-ik]
+# text[eng] = I had the feeling that you would come.
+# labels = 351:14:
+^Xinnaʼo/X>in>naʼ>o$
+^chi/chi$
+^katpetik/k>at>pet>ik$
+^./.$
+
+# sent_id = canpixabaj2015:353:15:
+# text = Xinta jachin xulik.
+# text[orig] = (15) x-ø-in-ta [jachin x-ø-ul-ik]
+# text[eng] = I heard who arrived.
+# labels = 353:15:
+^Xinta/X>in>ta$
+^jachin/jachin$
+^xulik/x>ul>ik$
+^./.$
+
+# sent_id = canpixabaj2015:355:17:
+# text = Xinnaʼo chi xattʼuyeʼik.
+# text[orig] = (17) x-ø-in-naʼ-o [chi x-at-tʼuy-eʼ-ik]
+# text[eng] = I felt you sit down.
+# labels = 355:17:
+^Xinnaʼo/X>in>naʼ>o$
+^chi/chi$
+^xattʼuyeʼik/x>at>tʼuyeʼ>ik$
+^./.$
+
+# sent_id = canpixabaj2015:356:18:
+# text = Xqata chi xatulik.
+# text[orig] = (18) x-ø-qa-ta [chi x-at-ul-ik]
+# text[eng] = We heard you arrive.
+# labels = 356:18:
+^Xqata/X>qa>ta$
+^chi/chi$
+^xatulik/x>at>ul>ik$
+^./.$
+
+# sent_id = canpixabaj2015:358:20:
+# text = Xinta chi katulik.
+# text[orig] = (20) x-ø-in-ta [chi k-at-ul-ik]
+# text[eng] = I heard that you will arrive.
+# labels = 358:20:
+^Xinta/X>in>ta$
+^chi/chi$
+^katulik/k>at>ul>ik$
+^./.$
+
+# sent_id = canpixabaj2015:362:24:a
+# text = Kaqaxiʼj qibʼ kaqachapo.
+# text[orig] = (24)a. ka-ø-qa-xiʼj q-iibʼ [ka-ø-qa-chap-o]
+# text[eng] = We are afraid of touching it.
+# labels = 362:24:a
+^Kaqaxiʼj/Ka>qa>xiʼj$
+^qibʼ/q>ibʼ$
+^kaqachapo/ka>qa>chap>o$
+^./.$
+
+# sent_id = canpixabaj2015:362:24:b
+# text = Xqaxiʼj qibʼ xqachapo.
+# text[orig] = b. x-ø-qa-xiʼj q-iibʼ [x-ø-qa-chap-o]
+# text[eng] = We were afraid of touching it.
+# labels = 362:24:b
+^Xqaxiʼj/X>qa>xiʼj$
+^qibʼ/q>ibʼ$
+^xqachapo/x>qa>chap>o$
+^./.$
+
+# sent_id = canpixabaj2015:364:26:a
+# text = Xwaj xinʼek.
+# text[orig] = (26) a. x-ø-w-aaj [x-in-ʼee-k]
+# text[eng] = I wanted/accepted to go.
+# labels = 364:26:a
+^Xwaj/X>w>aj$
+^xinʼek/x>in>ʼek$
+^./.$
+
+# sent_id = canpixabaj2015:364:26:b
+# text = Kawaj katʼek.
+# text[orig] = b. ka-ø-w-aaj [k-at-ʼee-k]
+# text[eng] = I want/would like you to go.
+# labels = 364:26:b
+^Kawaj/Ka>w>aj$
+^katʼek/k>at>ʼek$
+^./.$
+
+# sent_id = canpixabaj2015:366:28:a
+# text = Kakowinik kabʼinik.
+# text[orig] = (28) a. ka-ø-kowin-ik [ka-ø-bʼin-ik]
+# text[eng] = S/he is able to walk.
+# labels = 366:28:a
+^Kakowinik/Ka>kowin>ik$
+^kabʼinik/ka>bʼin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:370:31:a
+# text = Kawaj kinʼek.
+# text[orig] = (31) a. ka-ø-w-aa-j [k-in-ʼee-k]
+# text[eng] = I want to go/I would like to go.
+# labels = 370:31:a
+^Kawaj/Ka>w>aj$
+^kinʼek/k>in>ʼek$
+^./.$
+
+# sent_id = canpixabaj2015:373:32:a
+# text = Kinwoyʼej katpetik.
+# text[orig] = (32) a. k-ø-inw-oyʼee-j [k-at-peet-ik]8
+# text[eng] = I hope you will come/I expect you to come.
+# labels = 373:32:a
+^Kinwoyʼej/K>inw>oyʼe>j$
+^katpetik/k>at>pet>ik$
+^./.$
+
+# sent_id = canpixabaj2015:375:34:
+# text = Kawaj chi katʼek.
+# text[orig] = (34) ka-ø-w-aa-j [chi k-at-ʼee-k]
+# text[eng] = I want you to go/I want that you go.
+# labels = 375:34:
+^Kawaj/Ka>w>aj$
+^chi/chi$
+^katʼek/k>at>ʼek$
+^./.$
+
+# sent_id = canpixabaj2015:379:37:
+# text = Xwaj chi xatʼe taj.
+# text[orig] = (37) x-ø-w-aaj [chi x-at-ʼe taj]
+# text[eng] = I wanted you to go/I wanted that you go.
+# labels = 379:37:
+^Xwaj/X>w>aj$
+^chi/chi$
+^xatʼe/x>at>ʼe$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:381:40:
+# text = Bʼay xaq si xintatabʼej na in taq xumaj ubʼixik laʼ le jwes...
+# text[orig] = (4) bʼay xaq si x-ø-in-tatabʼe-j na in taq x-ø-u-maj [u-bʼi-x-ik] laʼ le jwes...
+# text[eng] = Then I had to listen when the judge started to tell it. {R149I007:143}
+# labels = complete 381:40:
+^Bʼay/Bʼay$
+^xaq/xaq$
+^si/si$
+^xintatabʼej/x>in>tatabʼej$
+^na/na$
+^in/in$
+^taq/taq$
+^xumaj/x>u>maj$
+^ubʼixik/u>bʼi>x>ik$
+^laʼ/laʼ$
+^le/le$
+^jwes/jwes$
+^.../...$
+
+# sent_id = canpixabaj2015:388:47:
+# text = Noʼjim upachʼuxik le nuwiʼ.
+# text[orig] = (47) ø noʼjiim [u-pachʼu-x-ik le nu-wiʼ]
+# text[eng] = It takes a long time to braid my hair.
+# labels = 388:47:
+^Noʼjim/Noʼjim$
+^upachʼuxik/u>pachʼu>x>ik$
+^le/le$
+^nuwiʼ/nu>wiʼ$
+^./.$
+
+# sent_id = canpixabaj2015:394:53:a
+# text = Xekiqʼil le ajchakibʼ xkiwok le ja.
+# text[orig] = (53) a. x-e-ki-qʼil le ajchakiibʼ [x-ø-ki-wok le ja]
+# text[eng] = I prevented the workers from building the house.
+# labels = 394:53:a
+^Xekiqʼil/X>e>ki>qʼil$
+^le/le$
+^ajchakibʼ/ajchak>ibʼ$
+^xkiwok/x>ki>wok$
+^le/le$
+^ja/ja$
+^./.$
+
+# sent_id = canpixabaj2015:395:54:a
+# text = Xsachon chke xeatinik.
+# text[orig] = (54) a. x-ø-sachon ch-k-e [x-e-atin-ik]
+# text[eng] = They forgot to bathe themselves. (They did not bathe.)
+# labels = 395:54:a
+^Xsachon/X>sachon$
+^chke/ch>k>e$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:396:55:a
+# text = Xnaʼtaj chke xeatinik.
+# text[orig] = (55) a. x-ø-naʼtaj ch-k-e [x-e-atin-ik]
+# text[eng] = They remembered to bathe themselves.
+# labels = 396:55:a
+^Xnaʼtaj/X>naʼtaj$
+^chke/ch>k>e$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:397:56:
+# text = Xekiqʼil le ajchakibʼ kakiwok le ja.
+# text[orig] = (56) x-e-ki-qʼil le ajchakiibʼ [ka-ø-ki-wok le ja]
+# text[eng] = They prevented the workers from building the house.
+# labels = 397:56:
+^Xekiqʼil/X>e>ki>qʼil$
+^le/le$
+^ajchakibʼ/ajchak>ibʼ$
+^kakiwok/ka>ki>wok$
+^le/le$
+^ja/ja$
+^./.$
+
+# sent_id = canpixabaj2015:398:57:
+# text = Xenutaqchʼij kekil le akʼalabʼ.
+# text[orig] = x-e-nu-taqchiʼ-iij [k-e-k-il le akʼalaabʼ] 
+# text[eng] = I forced them to take care of children.
+# labels = complete 398:57: 
+^Xenutaqchʼij/X>e>nu>taqchʼi>j$
+^kekil/k>e>k>il$
+^le/le$
+^akʼalabʼ/akʼal>abʼ$
+^./.$
+
+# sent_id = canpixabaj2015:400:59:a
+# text = Xsachon chke xeatinik.
+# text[orig] = (59) a. x-ø-sachon ch-k-e [x-e-atin-ik]
+# text[eng] = They forgot to bathe themselves. (they did not bathe)
+# labels = 400:59:a
+^Xsachon/X>sachon$
+^chke/ch>k>e$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:400:59:b
+# text = Xsachon chke xatkisikʼij.
+# text[orig] = b. x-ø-sachon ch-k-e [x-at-ki-sikʼii-j]
+# text[eng] = They forgot to call you. (they did not call you)
+# labels = 400:59:b
+^Xsachon/X>sachon$
+^chke/ch>k>e$
+^xatkisikʼij/x>at>kisikʼi>j$
+^./.$
+
+# sent_id = canpixabaj2015:401:60:a
+# text = Xnaʼtaj chke xeatinik.
+# text[orig] = (60) a. x-ø-naʼtaj ch-k-e [x-e-atin-ik]
+# text[eng] = They remembered to bathe themselves. (They did bathe themselves.)
+# labels = 401:60:a
+^Xnaʼtaj/X>naʼtaj$
+^chke/ch>k>e$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:401:60:b
+# text = Xnaʼtaj chke xatkisikʼij.
+# text[orig] = b. x-ø-naʼtaj ch-k-e [x-at-ki-sikʼii-j]
+# text[eng] = They remembered to call you.
+# labels = 401:60:b
+^Xnaʼtaj/X>naʼtaj$
+^chke/ch>k>e$
+^xatkisikʼij/x>at>ki>sikʼi>j$
+^./.$
+
+# sent_id = canpixabaj2015:403:61:a
+# text = Xojutaqchiʼij xojwaʼik.
+# text[orig] = (61) a. x-oj-u-taqchiʼii-j [x-oj-waʼ-ik]
+# text[eng] = S/he forced us to eat.
+# labels = 403:61:a
+^Xojutaqchiʼij/X>oj>u>taqchiʼi>j$
+^xojwaʼik/x>oj>waʼ>ik$
+^./.$
+
+# sent_id = canpixabaj2015:405:63:a
+# text = Xsachon chwe xinatinik.
+# text[orig] = (63) a. x-ø-sachon ch-w-e [x-in-atin-ik]
+# text[eng] = I forgot to take a shower.
+# labels = 405:63:a
+^Xsachon/X>sachon$
+^chwe/ch>w>e$
+^xinatinik/x>in>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:416:72:a
+# text = Xsachon chke chi xeatinik.
+# text[orig] = (72) a. x-ø-sachon ch-k-e [chi x-e-atin-ik]
+# text[eng] = They forgot that they bathed themselves. (factive)
+# labels = 416:72:a
+^Xsachon/X>sachon$
+^chke/ch>k>e$
+^chi/chi$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:416:72:b
+# text = Xsachon chke jachin xeatinik.
+# text[orig] = b. x-ø-sachon ch-k-e [jachin x-e-atin-ik]
+# text[eng] = They forgot who bathed.
+# labels = 416:72:b
+^Xsachon/X>sachon$
+^chke/ch>k>e$
+^jachin/jachin$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:417:73:a
+# text = Xnaʼtaj chke chi xeatinik.
+# text[orig] = (73) a. x-ø-naʼtaj ch-k-e [chi x-e-atin-ik]
+# text[eng] = They remembered that they bathed themselves. (factive)
+# labels = 417:73:a
+^Xnaʼtaj/X>naʼtaj$
+^chke/ch>k>e$
+^chi/chi$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:418:74:a
+# text = Xsachon chke chi xeatinik.
+# text[orig] = (74) a. x-ø-sachon ch-k-e [chi x-e-atin-ik]
+# text[eng] = They forgot that they bathed themselves.
+# labels = 418:74:a
+^Xsachon/X>sachon$
+^chke/ch>k>e$
+^chi/chi$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:419:75:a
+# text = Xnaʼtaj chke chi xeatinik.
+# text[orig] = (75) a. x-ø-naʼtaj ch-k-e [chi x-e-atin-ik]
+# text[eng] = They remembered that they bathed themselves.
+# labels = 419:75:a
+^Xnaʼtaj/X>naʼtaj$
+^chke/ch>k>e$
+^chi/chi$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:419:75:b
+# text = Na xnaʼtaj ta chke chi xeatinik.
+# text[orig] = b. na x-ø-naʼtaj ta ch-k-e [chi x-e-atin-ik]
+# text[eng] = They did not remember that they bathed themselves.
+# labels = 419:75:b
+^Na/Na$
+^xnaʼtaj/x>naʼtaj$
+^ta/ta$
+^chke/ch>k>e$
+^chi/chi$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:420:76:a
+# text = Xsachon chke xeatinik.
+# text[orig] = (76) a. x-ø-sachon ch-k-e [x-e-atin-ik]
+# text[eng] = They forgot to bathe themselves.
+# labels = 420:76:a
+^Xsachon/X>sachon$
+^chke/ch>k>e$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:420:76:b
+# text = Xnaʼtaj chke xeatinik.
+# text[orig] = b. x-ø-naʼtaj ch-k-e [x-e-atin-ik]
+# text[eng] = They remembered to bathed themselves.
+# labels = 420:76:b
+^Xnaʼtaj/X>naʼtaj$
+^chke/ch>k>e$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:421:77:a
+# text = Na xsachon ta chke xeatinik.
+# text[orig] = (77) a. na x-ø-sachon ta ch-k-e [x-e-atin-ik]
+# text[eng] = They did not forget to bathe themselves.
+# labels = 421:77:a
+^Na/Na$
+^xsachon/x>sachon$
+^ta/ta$
+^chke/ch>k>e$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:421:77:b
+# text = Na xnaʼtaj ta chke xeatinik.
+# text[orig] = b. na x-ø-naʼtaj ta ch-k-e [x-e-atin-ik]
+# text[eng] = They did not remember to bathed themselves.
+# labels = 421:77:b
+^Na/Na$
+^xnaʼtaj/x>naʼtaj$
+^ta/ta$
+^chke/ch>k>e$
+^xeatinik/x>e>atin>ik$
+^./.$
+
+# sent_id = canpixabaj2015:423:2:
+# text = Xinloqʼ ulo jun wuj rech kasikʼij uwach.
+# text[orig] = (2) x-ø-in-loqʼ ulo jun wuuj [r-eech k-ø-a-sikʼi-j u-wach]
+# text[eng] = I bought a book (in order) for you to read it.
+# labels = 423:2:
+^Xinloqʼ/X>in>loqʼ$
+^ulo/ulo$
+^jun/jun$
+^wuj/wuj$
+^rech/r>ech$
+^kasikʼij/k>a>sikʼi>j$
+^uwach/u>wach$
+^./.$
+
+# sent_id = canpixabaj2015:426:5:
+# text = Xojʼek xeʼqilala rqasok.
+# text[orig] = (5) x-oj-ʼee-k [x-eʼ-q-il-a-la r-qa-sook]
+# text[eng] = We went, we went quickly to see our beds. {R022I001:075}
+# labels = 426:5:
+^Xojʼek/X>oj>ʼe>k$
+^xeʼqilala/x>eʼ>q>il>a>la$
+^rqasok/r>qa>sok$
+^./.$
+
+# sent_id = canpixabaj2015:427:6:
+# text = Kinchakunik rech kinwaʼik.
+# text[orig] = (6) k-in-chakun-ik [r-eech k-in-waʼ-ik]
+# text[eng] = I work to eat.
+# labels = 427:6:
+^Kinchakunik/K>in>chakun>ik$
+^rech/r>ech$
+^kinwaʼik/k>in>waʼ>ik$
+^./.$
+
+# sent_id = canpixabaj2015:428:7:
+# text = Xinloqʼ ulo jun alanxax rech kaqatijo.
+# text[orig] = (7) x-ø-in-loqʼ ulo jun alanxax [r-eech ka-ø-qa-tij-o]
+# text[eng] = I bought an orange so that we can eat it
+# labels = 428:7:
+^Xinloqʼ/X>in>loqʼ$
+^ulo/ulo$
+^jun/jun$
+^alanxax/alanxax$
+^rech/r>ech$
+^kaqatijo/ka>qa>tij>o$
+^./.$
+
+# sent_id = canpixabaj2015:433:12:
+# text = Kʼo kan wa rech kaqatijo.
+# text[orig] = (12) ø kʼo kan wa [r-eech ka-ø-qa-tij-o]
+# text[eng] = There is food for us to eat.
+# labels = 433:12:
+^Kʼo/Kʼo$
+^kan/kan$
+^wa/wa$
+^rech/r>ech$
+^kaqatijo/ka>qa>tij>o$
+^./.$
+
+# sent_id = canpixabaj2015:433:13:
+# text = Rajawaxik jun chʼichʼ chwe.
+# text[orig] = ø rajawaxiik jun chʼiichʼ ch-w-e
+# text[eng] = I need a machete to cut the weeds.
+# labels = complete 433:13:
+^Rajawaxik/Rajawaxik$
+^jun/jun$
+^chʼichʼ/chʼichʼ$
+^chwe/ch>w>e$
+^./.$
+
+# sent_id = canpixabaj2015:435:14:a
+# text = Saq chi kan le ichaj rech katzako.
+# text[orig] = (14) a. ø saq chi kan le ichaaj [r-eech k-ø-aa-tzak-o]
+# text[eng] = The greens are clean already so that you (can) cook them.
+# labels = 435:14:a
+^Saq/Saq$
+^chi/chi$
+^kan/kan$
+^le/le$
+^ichaj/ichaj$
+^rech/r>ech$
+^katzako/ka>tzak>o$
+^./.$
+
+# sent_id = canpixabaj2015:435:14:b
+# text = Takʼal le akʼal chlaʼ rech kaqachʼabʼej.
+# text[orig] = b. ø takʼal le akʼaal chlaʼ [r-eech ka-ø-qa-chʼabʼee-j]
+# text[eng] = The child is standing there so that we can talk to him/her.
+# labels = 435:14:b
+^Takʼal/Takʼal$
+^le/le$
+^akʼal/akʼal$
+^chlaʼ/ch>laʼ$
+^rech/r>ech$
+^kaqachʼabʼej/ka>qa>chʼabʼe>j$
+^./.$
+
+# sent_id = canpixabaj2015:439:18:
+# text = Xkilo chi kinkʼoxomaj.
+# text[orig] = (18) x-ø-k-il-o [chi k-ø-in-kʼoxomaa-j]
+# text[eng] = They realized that I understand it.
+# labels = 439:18:
+^Xkilo/X>k>il>o$
+^chi/chi$
+^kinkʼoxomaj/k>in>kʼoxoma>j$
+^./.$
+
+# sent_id = canpixabaj2015:440:19:
+# text = Xukʼutu rech kaqilo.
+# text[orig] = (19) x-ø-u-kʼut-u [r-eech ka-ø-q-il-o]
+# text[eng] = S/he showed it so that we can see it.
+# labels = 440:19:
+^Xukʼutu/X>u>kʼut>u$
+^rech/r>ech$
+^kaqilo/ka>q>il>o$
+^./.$
+
+# sent_id = canpixabaj2015:441:20:
+# text = Xkilo chi na kinkʼoxomaj taj.
+# text[orig] = (20) x-ø-k-il-o [chi na k-ø-in-kʼoxoma-j taj]
+# text[eng] = They realized that I do not understand it.
+# labels = 441:20:
+^Xkilo/X>k>il>o$
+^chi/chi$
+^na/na$
+^kinkʼoxomaj/k>in>kʼoxomaj$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:442:21:
+# text = Kinwaʼik rech na kinyowaj taj.
+# text[orig] = (21) k-in-waʼ-ik [r-eech na k-in-yowaj taj]
+# text[eng] = I eat so that I do not get sick.
+# labels = 442:21:
+^Kinwaʼik/K>in>waʼ>ik$
+^rech/r>ech$
+^na/na$
+^kinyowaj/k>in>yowaj$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:443:22:
+# text = Kinchakunik rech kinwaʼik.
+# text[orig] = (22) k-in-chakun-ik [r-eech k-in-waʼ-ik]
+# text[eng] = I work to eat (I eat).
+# labels = 443:22:
+^Kinchakunik/K>in>chakun>ik$
+^rech/r>ech$
+^kinwaʼik/k>in>waʼ>ik$
+^./.$
+
+# sent_id = canpixabaj2015:445:24:
+# text = Xojkitʼuyubʼaʼ rech kixqatatabʼej.
+# text[orig] = (24) x-oj-ki-tʼuy-ubʼaaʼ [r-eech k-ix-qa-tatabʼee-j]
+# text[eng] = They sat us down to listen to you.
+# labels = 445:24:
+^Xojkitʼuyubʼaʼ/X>oj>ki>tʼuy>ubʼaʼ$
+^rech/r>ech$
+^kixqatatabʼej/k>ix>qa>tatabʼe>j$
+^./.$
+
+# sent_id = canpixabaj2015:446:25:a
+# text = Kinchakunik rech katwaʼik.
+# text[orig] = (25) a. k-in-chakun-ik [r-eech k-at-waʼ-ik]
+# text[eng] = I work so that you can eat.
+# labels = 446:25:a
+^Kinchakunik/K>in>chakun>ik$
+^rech/r>ech$
+^katwaʼik/k>at>waʼ>ik$
+^./.$
+
+# sent_id = canpixabaj2015:446:25:b
+# text = Xukʼaq bʼi jun abʼaj rech kixkil loq.
+# text[orig] = b. x-ø-u-kʼaq bʼi jun abʼaj [r-eech k-ix-k-il loq]
+# text[eng] = S/he threw a stone so that they can see you (pl).
+# labels = 446:25:b
+^Xukʼaq/X>u>kʼaq$
+^bʼi/bʼi$
+^jun/jun$
+^abʼaj/abʼaj$
+^rech/r>ech$
+^kixkil/k>ix>k>il$
+^loq/loq$
+^./.$
+
+# sent_id = canpixabaj2015:447:26:
+# text = Xinbʼisonik taq na xatpet taj.
+# text[orig] = (26) x-in-bʼison-ik [taq na x-at-pet taj]
+# text[eng] = I was sad when you did not come.
+# labels = 447:26:
+^Xinbʼisonik/X>in>bʼison>ik$
+^taq/taq$
+^na/na$
+^xatpet/x>at>pet$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:450:29:a
+# text = Katchakunik rech keatzuq le awalkʼwal.
+# text[orig] = (29) a. k-at-chakun-ik [r-eech k-e-a-tzuq le aw-alkʼwaal]
+# text[eng] = You work so that you feed your children.
+# labels = 450:29:a
+^Katchakunik/K>at>chakun>ik$
+^rech/r>ech$
+^keatzuq/k>e>a>tzuq$
+^le/le$
+^awalkʼwal/awalkʼwal$
+^./.$
+
+# sent_id = canpixabaj2015:451:30:b
+# text = Jawi xkibʼij wi chi keʼe wi?
+# text[orig] = b. jawi x-ø-ki-bʼi-j wi [chi k-e-ʼe wi]?
+# text[eng] = Where did they say that they would go?
+# labels = 451:30:b
+^Jawi/Jawi$
+^xkibʼij/x>ki>bʼij$
+^wi/wi$
+^chi/chi$
+^keʼe/k>e>ʼe$
+^wi/wi$
+^?/?$
+
+# sent_id = canpixabaj2015:452:31:a
+# text = Xawil le ixoq taq xukoj ulo le wa.
+# text[orig] = (31) a. x-ø-aw-il le ixoq [taq x-ø-u-koj ulo le wa]
+# text[eng] = Lit: You saw the woman when she brought the food.
+# labels = complete 452:31:a
+^Xawil/X>aw>il$
+^le/le$
+^ixoq/ixoq$
+^taq/taq$
+^xukoj/x>u>koj$
+^ulo/ulo$
+^le/le$
+^wa/wa$
+^./.$
+
+# sent_id = canpixabaj2015:455:34:
+# text = Kakimulij jusin kifondo rech kakichapobʼej.
+# text[orig] = (34) ka-ø-ki-muli-j ju-sin ki-fondo [r-eech ka-ø-ki-chapobʼee-j]
+# text[eng] = They collect funds so that they can use them. {R042I006:151}
+# labels = 455:34:
+^Kakimulij/Ka>ki>muli>j$
+^jusin/ju>sin$
+^kifondo/ki>fondo$
+^rech/r>ech$
+^kakichapobʼej/ka>ki>chapobʼe>j$
+^./.$
+
+# sent_id = canpixabaj2015:462:41:a
+# text = Xinnabʼej chutasik qakʼolibʼal.
+# text[orig] = (41) a. x-in-nabʼej [ch-u-tas-ik qa-kʼolibʼal]
+# text[eng] = Intended reading: I went ahead to save us a place
+# labels = 462:41:a
+^Xinnabʼej/X>in>nabʼej$
+^chutasik/ch>u>tas>ik$
+^qakʼolibʼal/qa>kʼolibʼal$
+^./.$
+
+# sent_id = canpixabaj2015:463:42:a
+# text = Na xinnabʼej ta chutasik qakʼolibʼal.
+# text[orig] = (42) a. na x-in-nabʼej ta [ch-u-tas-ik qa-kʼolibʼal]
+# text[eng] = I did not go ahead to save us a place
+# labels = 463:42:a
+^Na/Na$
+^xinnabʼej/x>in>nabʼej$
+^ta/ta$
+^chutasik/ch>u>tas>ik$
+^qakʼolibʼal/qa>kʼolibʼal$
+^./.$
+
+# sent_id = canpixabaj2015:464:43:a
+# text = Xojutaqchiʼj le achi chuloqʼik ichaj.
+# text[orig] = (43) a. x-oj-u-taqchiʼ-j le achi [ch-u-looqʼ-iik ichaaj]
+# text[eng] = The man forced us to buy greens.
+# labels = 464:43:a
+^Xojutaqchiʼj/X>oj>u>taqchiʼ>j$
+^le/le$
+^achi/achi$
+^chuloqʼik/ch>u>loqʼ>ik$
+^ichaj/ichaj$
+^./.$
+
+# sent_id = canpixabaj2015:466:45:
+# text = Jas xataqchiʼj le akʼal chutijik ?
+# text[orig] = (45) jas x-ø-a-taqchiʼ-j le akʼaal [ch-u-tiij-iik __]?
+# text[eng] = What did you force the boy to eat?
+# labels = 466:45:
+^Jas/Jas$
+^xataqchiʼj/x>a>taqchiʼ>j$
+^le/le$
+^akʼal/akʼal$
+^chutijik/ch>u>tij>ik$
+^?/?$
+
+# sent_id = canpixabaj2015:467:46:
+# text = Jas xojʼe chuloqʼik ?
+# text[orig] = (46) jas x-oj-ʼe [ch-u-looqʼ-iik __]?
+# text[eng] = What did we go to buy?
+# labels = 467:46:
+^Jas/Jas$
+^xojʼe/x>oj>ʼe$
+^chuloqʼik/ch>u>loqʼ>ik$
+^?/?$
+
+# sent_id = canpixabaj2015:468:47:
+# text = Jawi xojʼe wi chuloqʼik?
+# text[orig] = (47) jawi x-oj-ʼe wi [ch-u-looqʼ-iik]?
+# text[eng] = Where did we go to buy it?
+# labels = 468:47:
+^Jawi/Jawi$
+^xojʼe/x>oj>ʼe$
+^wi/wi$
+^chuloqʼik/ch>u>loqʼ>ik$
+^?/?$
+
+# sent_id = canpixabaj2015:478:57:
+# text = Xixusikʼij ulo chi qilik.
+# text[orig] = (57) x-ixi-uj-sikʼi-j ulo [chi _iq-iil-ik]
+# text[eng] = S/he called you all to take care of us.
+# labels = complete 478:57:
+^Xixusikʼij/X>ix>u>sikʼi>j$
+^ulo/ulo$
+^chi/chi$
+^iqilik/i>q>il>ik$
+^./.$
+
+# sent_id = canpixabaj2015:480:59:
+# text = Xojukʼam uloq rech kojrilo.
+# text[orig] = (59) x-oj-u-kʼam uloq [r-eech k-oj-r-il-o]
+# text[eng] = S/he brought us so that s/he could take care of us.
+# labels = 480:59:
+^Xojukʼam/X>oj>u>kʼam$
+^uloq/uloq$
+^rech/r>ech$
+^kojrilo/k>oj>r>il>o$
+^./.$
+
+# sent_id = canpixabaj2015:484:63:a
+# text = Xineʼwaʼoq.
+# text[orig] = (63) a. x-in-eʼ-waʼ-oq
+# text[eng] = I went to eat.
+# labels = 484:63:a
+^Xineʼwaʼoq/X>in>eʼ>waʼ>oq$
+^./.$
+
+# sent_id = canpixabaj2015:485:64:a
+# text = Xineʼwaʼoq.
+# text[orig] = (64) a. x-in-eʼ-waʼ-oq
+# text[eng] = I went to eat.
+# labels = 485:64:a
+^Xineʼwaʼoq/X>in>eʼ>waʼ>oq$
+^./.$
+
+# sent_id = canpixabaj2015:486:65:a
+# text = Xateʼqilaʼ.
+# text[orig] = (65) a. x-at-eʼ-q-il-aʼ
+# text[eng] = We went to see you.
+# labels = 486:65:a
+^Xateʼqilaʼ/X>at>eʼ>q>il>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:488:66:a
+# text = Xatalqilaʼ.
+# text[orig] = (66) a. x-at-al-q-il-aʼ
+# text[eng] = We came to see you.
+# labels = 488:66:a
+^Xatalqilaʼ/X>at>al>q>il>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:488:66:b
+# text = Xuʼlukʼamaʼ.
+# text[orig] = b. x-uʼl-u-kʼam-aʼ
+# text[eng] = S/he came to take them.
+# labels = 488:66:b
+^Xuʼlukʼamaʼ/X>uʼl>u>kʼam>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:489:67:a
+# text = Xojʼek xeʼqilala rqasok.
+# text[orig] = (67) a. x-oj-ʼee-k [x-eʼ-q-il-a-la r-qa-sook]
+# text[eng] = We went, we went to see our beds quickly. {R022I001:075}
+# labels = 489:67:a
+^Xojʼek/X>oj>ʼe>k$
+^xeʼqilala/x>eʼ>q>il>a>la$
+^rqasok/r>qa>sok$
+^./.$
+
+# sent_id = canpixabaj2015:491:69:
+# text = Xepe le winaq xolkikʼama le ali.
+# text[orig] = (69) x-e-pe le winaq [x-ø-ol-ki-kʼam-a le ali]
+# text[eng] = The people came to take the girl.
+# labels = 491:69:
+^Xepe/X>e>pe$
+^le/le$
+^winaq/winaq$
+^xolkikʼama/x>ol>ki>kʼam>a$
+^le/le$
+^ali/ali$
+^./.$
+
+# sent_id = canpixabaj2015:492:70:
+# text = Xojtzalijik xixeʼqaqʼatuj kukʼ le itat inan.
+# text[orig] = (70) x-oj-tzalij-ik [x-ix-eʼ-qa-qʼatuj k-ukʼ le i-taat i-naan]
+# text[eng] = We went back to visit you at your parents.
+# labels = 492:70:
+^Xojtzalijik/X>oj>tzalij>ik$
+^xixeʼqaqʼatuj/x>ix>eʼ>qa>qʼatuj$
+^kukʼ/k>ukʼ$
+^le/le$
+^itat/i>tat$
+^inan/i>nan$
+^./.$
+
+# sent_id = canpixabaj2015:493:71:
+# text = Xepetik xolkilaʼ.
+# text[orig] = (71) x-e-pet-ik [x-ø-ol-k-il-aʼ]
+# text[eng] = They came to see her.
+# labels = 493:71:
+^Xepetik/X>e>pet>ik$
+^xolkilaʼ/x>ol>k>il>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:494:72:
+# text = Xepetik xkilo5.
+# text[orig] = (72) x-e-pet-ik [x-ø-k-il-o]5
+# text[eng] = They came, they saw her.
+# labels = 494:72:
+^Xepetik/X>e>pet>ik$
+^xkilo/x>k>il>o$
+^./.$
+
+# sent_id = canpixabaj2015:496:74:
+# text = Xojʼek xeʼqilala rqasok.
+# text[orig] = (74) x-oj-ʼee-k [x-eʼ-q-il-a-la r-qa-sook]
+# text[eng] = We did go to see our beds quickly. {R022I001:075}
+# labels = 496:74:
+^Xojʼek/X>oj>ʼe>k$
+^xeʼqilala/x>eʼ>q>il>a>la$
+^rqasok/r>qa>sok$
+^./.$
+
+# sent_id = canpixabaj2015:497:76:
+# text = Xepe le winaq xolkikʼamaʼ.
+# text[orig] = (76) x-e-pe le winaq [x-ø-ol-ki-kʼam-aʼ]
+# text[eng] = People came to take her.
+# labels = 497:76:
+^Xepe/X>e>pe$
+^le/le$
+^winaq/winaq$
+^xolkikʼamaʼ/x>ol>ki>kʼam>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:498:77:a
+# text = Xepetik xolkikʼamaʼ.
+# text[orig] = (77) a. x-e-pet-ik [x-ø-ol-ki-kʼam-aʼ]
+# text[eng] = The people came to take the girl.
+# labels = 498:77:a
+^Xepetik/X>e>pet>ik$
+^xolkikʼamaʼ/x>ol>ki>kʼam>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:500:79:
+# text = Na xeʼe taj na xeʼkiqʼatuj taj.
+# text[orig] = (79) na x-e-ʼe taj [na x-ø-eʼ-ki-qʼatu-j taj]
+# text[eng] = They did not go to visit him/her.
+# labels = 500:79:
+^Na/Na$
+^xeʼe/x>e>ʼe$
+^taj/taj$
+^na/na$
+^xeʼkiqʼatuj/x>eʼ>ki>qʼatuj$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:501:80:
+# text = Na xwaj taj xinchʼawik.
+# text[orig] = (80) na x-ø-w-aj taj [x-in-chʼaw-ik]
+# text[eng] = I did not want to talk.
+# labels = 501:80:
+^Na/Na$
+^xwaj/x>w>aj$
+^taj/taj$
+^xinchʼawik/x>in>chʼaw>ik$
+^./.$
+
+# sent_id = canpixabaj2015:503:82:
+# text = Maj jachin xʼek.
+# text[orig] = (82) maj jachin x-ø-ʼee-k
+# text[eng] = No one went to visit him/her.
+# labels = 503:82:
+^Maj/Maj$
+^jachin/jachin$
+^xʼek/x>ʼe>k$
+^./.$
+
+# sent_id = canpixabaj2015:504:83:a
+# text = La xeʼe kʼu.
+# text[orig] = (83) a. la x-e-ʼe kʼu
+# text[eng] = Did they go to open the door?
+# labels = 504:83:a
+^La/La$
+^xebʼe/x>e>bʼe$
+^kʼu/kʼu$
+^la/la$
+^xeʼkijaqa/x>eʼ>ki>jaq>a$
+^kʼu/kʼu$
+^le/le$
+^uchiʼ/u>chiʼ$
+^ja/ja$
+^?/?$
+
+# sent_id = canpixabaj2015:506:84:
+# text = La kawaj kʼut katʼek?
+# text[orig] = (84) la k-ø-aaw-aj kʼut [k-at-ʼee-k]?
+# text[eng] = Do you want to go?
+# labels = 506:84:
+^La/La$
+^kawaj/k>aw>aj$
+^kʼut/kʼut$
+^katʼek/k>at>ʼe>k$
+^?/?$
+
+# sent_id = canpixabaj2015:508:86:
+# text = Xatulik xatalkiʼkota kukʼ le awalkʼwal.
+# text[orig] = (86) x-at-ul-ik [x-at-al-kiʼkot-a k-ukʼ le aw-alkʼwaal]
+# text[eng] = You came to be happy with your children.
+# labels = 508:86:
+^Xatulik/X>at>ul>ik$
+^xatalkiʼkota/x>at>al>kiʼkot>a$
+^kukʼ/k>ukʼ$
+^le/le$
+^awalkʼwal/awalkʼwal$
+^./.$
+
+# sent_id = canpixabaj2015:512:90:
+# text = Jas xaqʼiʼo xatijo.
+# text[orig] = (90) jas x-ø-a-qʼiʼ-o [x-ø-a-tij-o ___]
+# text[eng] = What did you endure eating?
+# labels = 512:90:
+^Jas/Jas$
+^xaqʼiʼo/x>a>qʼiʼ>o$
+^xatijo/x>a>tij>o$
+^./.$
+
+# sent_id = canpixabaj2015:513:91:a
+# text = Jas xojukʼam lo chukʼayixik?
+# text[orig] = (91) a. jas x-oj-u-kʼam lo [ch-u-kʼayi-x-iik]?
+# text[eng] = What did he bring us to sell?
+# labels = 513:91:a
+^Jas/Jas$
+^xojukʼam/x>oj>u>kʼam$
+^lo/lo$
+^chukʼayixik/ch>u>kʼayi>x>ik$
+^?/?$
+
+# sent_id = canpixabaj2015:514:92:a
+# text = Xojpetik xolqakʼamaʼ.
+# text[orig] = (92) a. x-oj-peet-ik [x-ø-ol-qa-kʼam-aʼ]
+# text[eng] = We came to take her.
+# labels = 514:92:a
+^Xojpetik/X>oj>pet>ik$
+^xolqakʼamaʼ/x>ol>qa>kʼam>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:515:93:a
+# text = Na xeʼe taj na xeʼkiqʼatuj taj.
+# text[orig] = (93) a. na x-e-ʼe taj [na x-ø-eʼ-ki-qʼatu-j taj]
+# text[eng] = They did not go to visit him/her.
+# labels = 515:93:a
+^Na/Na$
+^xeʼe/x>e>ʼe$
+^taj/taj$
+^na/na$
+^xeʼkiqʼatuj/x>eʼ>ki>qʼatu>j$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:516:94:
+# text = Xinpetik, na xinwil taj.
+# text[orig] = (94) x-in-pet-ik, na x-ø-inw-il taj
+# text[eng] = I came (and) I did not see it.
+# labels = 516:94:
+^Xinpetik/X>in>pet>ik$
+^,/,$
+^na/na$
+^xinwil/x>inw>il$
+^taj/taj$
+^./.$
+
+# sent_id = canpixabaj2015:517:95:a
+# text = Xojpetik xolqakʼamaʼ.
+# text[orig] = (95) a. x-oj-peet-ik [x-ø-ol-qa-kʼam-aʼ]
+# text[eng] = We came to take her.
+# labels = 517:95:a
+^Xojpetik/X>oj>pet>ik$
+^xolqakʼamaʼ/x>ol>qa>kʼam>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:517:95:b
+# text = Kojpetik kolqakʼamaʼ.
+# text[orig] = b. k-oj-peet-ik [k-ø-ol-qa-kʼam-aʼ]
+# text[eng] = We will come to take her.
+# labels = 517:95:b
+^Kojpetik/K>oj>pet>ik$
+^kolqakʼamaʼ/k>ol>qa>kʼam>aʼ$
+^./.$
+
+# sent_id = canpixabaj2015:521:99:
+# text = Kawaj kinbʼij.
+# text[orig] = (99) ka-ø-w-aaj [k-ø-in-bʼiij]
+# text[eng] = I want to say it.
+# labels = 521:99:
+^Kawaj/K>awaj$
+^kinbʼij/k>in>bʼij$
+^./.$
+
