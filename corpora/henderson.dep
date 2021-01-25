@@ -276,17 +276,17 @@
 # text[orig] = Xin-kos-ik rumal xin-chakun-ik.
 # text[gloss] = INFL-tire-SS because INFL-worked-SS
 # text[eng] = I am tired because I worked.
-# label = incomplete
+# label = complete 
 "<Xinkosik>"
-	"kos" v iv perf s_sg1 @root
-		"ik" aux @aux:ss
+	"kos" v iv perf s_sg1 @root #1->0
+		"ik" aux @aux:ss #2->1
 "<rumal>"
-	"umal" n rel px3sg
+	"umal" n rel px3sg @obl #3->1
 "<xinchakunik>"
-	"chakun" v iv perf s_sg1
-		"ik" aux @aux:ss
+	"chakun" v iv perf s_sg1 @acl #4->3
+		"ik" aux @aux:ss #5->4
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->1
 
 # sent_id = henderson:14
 # text = Xeʼul le ala chiʼl le ali.
@@ -387,26 +387,21 @@
 # text[eng] = It wasn’t yesterday that he saw the leader.
 # label = incomplete check-translation
 "<La>"
-	"la" adv dir
-	"la" n
-	"la" part frm
-	"la" qst
+	"la" qst @discourse #1->2
 "<iwir>"
-	"iwir" adv
+	"iwir" adv @advmod #2->4
 "<kʼu>"
-	"kʼut" cnjcoo
-	"kʼut" part
+	"kʼut" part @discourse #3->2
 "<xril>"
-	"il" v tv perf o_sg3 s_sg3
+	"il" v tv perf o_sg3 s_sg3 @root #4->0
 "<le>"
-	"le" det
-	"le" prn rel
+	"le" det @det #5->6
 "<kʼamol>"
-	"*kʼamol"
+	"kʼamol" n @obj #6->4
 "<bʼe>"
-	"bʼe" n
+	"bʼe" n @compound #7->6
 "<.>"
-	"." sent
+	"." sent @punct #8->4
 
 # sent_id = henderson:22
 # text = Xinwil le ala.
@@ -554,17 +549,17 @@
 # text[orig] = Xin-kos-ik r-umal xin-chakun-ik
 # text[gloss] = INFL-tire-SS 3sg-because INFL-work-SS
 # text[eng] = I am tired because I worked.
-# label = incomplete
+# label = complete
 "<Xinkosik>"
-	"kos" v iv perf s_sg1
-		"ik" aux
+	"kos" v iv perf s_sg1 @root #1->0
+		"ik" aux @aux:ss #2->1
 "<rumal>"
-	"umal" n rel px3sg
+	"umal" n rel px3sg @obl #3->1
 "<xinchakunik>"
-	"chakun" v iv perf s_sg1
-		"ik" aux
+	"chakun" v iv perf s_sg1 @acl #4->3
+		"ik" aux @aux:ss #5->4
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # sent_id = henderson:49a
 # text = Xinloqʼ kʼi.
@@ -708,21 +703,18 @@
 # text[eng] = It was bad, they say.
 # label = incomplete
 "<Kʼax>"
-	"kʼax" adj
-	"kʼax" n
+	"kʼax" n @nsubj
 "<kʼolik>"
-	"kʼol" v tv inf
-	"kʼol" v tv pass inf
-	"kʼo" part
-		"ik" aux
+	"kʼo" part  @root
+		"ik" aux @aux:ss
 "<,>"
-	"," cm
+	"," cm @punct
 "<kachaʼ>"
 	"chaʼ" v tv impf o_sg3 s_sg2
 	"chaʼ" v iv impf s_sg3
 	"chaʼ" v tv pass impf s_sg3
 "<.>"
-	"." sent
+	"." sent @punct
 
 # sent_id = henderson:60
 # text = Xinwilo chi xeʼelik.

@@ -1401,15 +1401,15 @@
 ^./.$
 
 # sent_id = canpixabaj2015:242:103:a
-# text = Xqasikʼij le ixoq chutzakik subʼ.
+# text = Xqasikʼij le ixoq chutzakik ichaj.
 # text[orig] = (103) a. x-ø-qa-sikʼi-j le ixoq [ch-u-tzaak-ik subʼ].
-# text[eng] = We called/brought the woman to cook tamalitos.
+# text[eng] = We called/brought the woman to cook greens.
 # labels = 242:103:a
 ^Xqasikʼij/X>qa>sikʼi>j$
 ^le/le$
 ^ixoq/ixoq$
 ^chutzakik/ch>u>tzak>ik$
-^subʼ/subʼ$
+^ichaj/ichaj$
 ^./.$
 
 # sent_id = canpixabaj2015:242:103:b
@@ -1424,27 +1424,27 @@
 ^./.$
 
 # sent_id = canpixabaj2015:242:103:c
-# text = La utzakik kʼu subʼ tajin kuʼano?
+# text = La utzakik kʼu ichaj tajin kuʼano?
 # text[orig] = c. La [u-tzaak-ik kʼu subʼ] tajin k-ø-u-ʼan-o?
-# text[eng] = Is it cooking tamalitos that she is doing?
+# text[eng] = Is it cooking greens that she is doing?
 # labels = 242:103:c
 ^La/La$
 ^utzakik/u>tzak>ik$
 ^kʼu/kʼu$
-^subʼ/subʼ$
+^ichaj/ichaj$
 ^tajin/tajin$
 ^kuʼano/k>u>ʼan>o$
 ^?/?$
 
 # sent_id = canpixabaj2015:242:103:d
-# text = Na utzakik ta subʼ tajin kuʼano.
+# text = Na utzakik ta ichaj tajin kuʼano.
 # text[orig] = d. na [u-tzaak-ik ta subʼ] tajin k-ø-u-ʼan-o
-# text[eng] = No, it is not cooking tamalitos that she is doing
+# text[eng] = No, it is not cooking greens that she is doing
 # labels = 242:103:d
 ^Na/Na$
 ^utzakik/u>tzak>ik$
 ^ta/ta$
-^subʼ/subʼ$
+^ichaj/ichaj$
 ^tajin/tajin$
 ^kuʼano/k>u>ʼan>o$
 ^./.$
@@ -1461,14 +1461,14 @@
 ^./.$
 
 # sent_id = canpixabaj2015:243:104:
-# text = Jas utzakik le subʼ xuʼano?
+# text = Jas utzakik le ichaj xuʼano?
 # text[orig] = (104) [jas u-tzaak-ik le subʼ] x-ø-u-ʼan-o?
-# text[eng] = How did she cook the tamalitos?
+# text[eng] = How did she cook the greens?
 # labels = 243:104:
 ^Jas/Jas$
 ^utzakik/u>tzak>ik$
 ^le/le$
-^subʼ/subʼ$
+^ichaj/ichaj$
 ^xuʼano/x>u>ʼan>o$
 ^?/?$
 

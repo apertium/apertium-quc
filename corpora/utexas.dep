@@ -3355,7 +3355,7 @@
 "<Kinbʼisoj>"
 	"bʼisoj" v tv impf o_sg3 s_sg1 @root #1->0
 "<uwach>"
-	"wach" n rel px3sg @obl #2->1
+	"wach" n rel px3sg @obj #2->1
 "<le>"
 	"le" det @det #3->4
 "<wal>"
@@ -3375,7 +3375,7 @@
 "<le>"
 	"le" det @det #4->5
 "<wal>"
-	"al" n px1sg @nsubj #5->1
+	"al" n px1sg @nmod #5->3
 "<.>" 
 	"." sent @punct #6->1
 

@@ -2118,9 +2118,10 @@
 	"." sent @punct #4->1
 
 # sent_id = canpixabaj2015:242:103:a
-# text = Xqasikʼij le ixoq chutzakik subʼ.
+# text = Xqasikʼij le ixoq chutzakik ichaj.
 # text[orig] = (103) a. x-ø-qa-sikʼi-j le ixoq [ch-u-tzaak-ik subʼ]
-# text[eng] = We called/brought the woman to cook tamalitos.
+# text[eng] = We called/brought the woman to cook greens.
+# note = Object changed by request of Telma Can Pixabaj.
 # labels = complete 242:103:a check-complement
 "<Xqasikʼij>"
 	"sikʼij" v tv perf o_sg3 s_pl1 @root #1->0
@@ -2131,8 +2132,8 @@
 "<chutzakik>"
 	"chi" pr @mark #4->5
 		"tzak" v tv pass inf s_sg3 @xcomp #5->1
-"<subʼ>"
-	"subʼ" n @nsubj #6->5
+"<ichaj>"
+	"ichaj" n @nsubj #6->5
 "<.>"
 	"." sent @punct #7->1
 
@@ -2154,9 +2155,10 @@
 	"." sent @punct #6->4
 
 # sent_id = canpixabaj2015:242:103:c
-# text = La utzakik kʼu subʼ tajin kuʼano?
+# text = La utzakik kʼu ichaj tajin kuʼano?
 # text[orig] = c. La [u-tzaak-ik kʼu subʼ] tajin k-ø-u-ʼan-o?
-# text[eng] = Is it cooking tamalitos that she is doing?
+# text[eng] = Is it cooking greens that she is doing?
+# note = Object changed by request of Telma Can Pixabaj
 # labels = complete 242:103:c check-complement
 "<La>"
 	"la" qst @discourse #1->2
@@ -2164,8 +2166,8 @@
 	"tzak" v tv pass inf s_sg3 @xcomp #2->6
 "<kʼu>"
 	"kʼut" part @discourse #3->2
-"<subʼ>"
-	"subʼ" n @obj #4->2
+"<ichaj>"
+	"ichaj" n @obj #4->2
 "<tajin>"
 	"tajin" aux @aux #5->6
 "<kuʼano>"
@@ -2175,9 +2177,10 @@
 	"?" sent @punct #8->6
 
 # sent_id = canpixabaj2015:242:103:d
-# text = Na utzakik ta subʼ tajin kuʼano.
+# text = Na utzakik ta ichaj tajin kuʼano.
 # text[orig] = d. na [u-tzaak-ik ta subʼ] tajin k-ø-u-ʼan-o
-# text[eng] = No, it is not cooking tamalitos that she is doing
+# text[eng] = No, it is not cooking greens that she is doing
+# note = Object changed by request of Telma Can Pixabaj
 # labels = complete 242:103:d check-complement
 "<Na>"
 	"na" neg @aux #1->2
@@ -2185,8 +2188,8 @@
 	"tzak" v tv pass inf s_sg3 @xcomp #2->6
 "<ta>" 
 	"taj" neg @aux #3->2
-"<subʼ>"
-	"subʼ" n @obj #4->2
+"<ichaj>"
+	"ichaj" n @obj #4->2
 "<tajin>"
 	"tajin" aux @aux #5->6
 "<kuʼano>"
@@ -2213,9 +2216,10 @@
 	"." sent @punct #6->4
 
 # sent_id = canpixabaj2015:243:104:
-# text = Jas utzakik le subʼ xuʼano?
+# text = Jas utzakik le ichaj xuʼano?
 # text[orig] = (104) [jas u-tzaak-ik le subʼ] x-ø-u-ʼan-o?
-# text[eng] = How did she cook the tamalitos?
+# text[eng] = How did she cook the greens?
+# note = Object changed by request of Telma Can Pixabaj
 # labels = complete 243:104: check-complement
 "<Jas>"
 	"jas" prn itg @advmod #1->2
@@ -2223,8 +2227,8 @@
 	"tzak" v tv pass inf s_sg3 @xcomp #2->5
 "<le>"
 	"le" det @det #3->4
-"<subʼ>"
-	"subʼ" n @obj #4->2
+"<ichaj>"
+	"ichaj" n @obj #4->2
 "<xuʼano>"
 	"bʼan" v tv perf o_sg3 s_sg3 @root #5->0
 		"u" aux @aux:ss #6->5
@@ -2390,7 +2394,7 @@
 "<Jas>"
 	"jas" prn itg
 "<nu>"
-	"*nu"
+	"nu" part
 "<kʼu>"
 	"kʼut" cnjcoo
 	"kʼut" part
@@ -2857,7 +2861,7 @@
 # text = Jas xukʼam bʼi le tzʼiʼ xawilo?
 # text[orig] = b. [jas x-ø-u-kʼam bʼi __ le tzʼiʼ] x-ø-aw-il-o?
 # text[eng] = What did the dog take you saw?
-# labels = incomplete 316:69:b
+# labels = complete 316:69:b
 "<Jas>"
 	"jas" prn itg @obj #1->2
 "<xukʼam>"
@@ -2878,16 +2882,16 @@
 # text = Jas xkiyako xata?
 # text[orig] = c. [jas x-ø-ki-yak-o___] x-ø-a-ta?
 # text[eng] = What did they lift you heard.
-# labels = incomplete 316:69:c
+# labels = complete 316:69:c check-attachment
 "<Jas>"
-	"jas" prn itg
+	"jas" prn itg @obj #1->2
 "<xkiyako>"
-	"yak" v tv perf o_sg3 s_pl3
-		"u" aux
+	"yak" v tv perf o_sg3 s_pl3 @ccomp #2->4
+		"u" aux @aux:ss #3->2
 "<xata>"
-	"ta" v tv perf o_sg3 s_sg2
+	"ta" v tv perf o_sg3 s_sg2 @root #4->0
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #5->4
 
 # sent_id = canpixabaj2015:317:70:b
 # text = Jas rukʼ xkitij wi le kirikil?
@@ -3977,14 +3981,13 @@
 "<le>"
 	"le" det @det
 "<akʼal>"
-	"akʼal" n
+	"akʼal" n @nsubj
 "<chlaʼ>"
 	"chlaʼ" adv
 "<rech>"
-	"rech" cnjsub
-	"ech" n rel px3sg
+	"ech" n rel px3sg @obl
 "<kaqachʼabʼej>"
-	"chʼabʼej" v tv impf o_sg3 s_pl1
+	"chʼabʼej" v tv impf o_sg3 s_pl1 @acl
 "<.>"
 	"." sent @punct
 
