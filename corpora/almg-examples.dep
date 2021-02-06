@@ -8,9 +8,9 @@
 "<,>"
 	"," cm @punct
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<akej>"
 	"Kej" n px2sg
@@ -152,9 +152,9 @@
 	"rech" cnjsub
 	"ech" n rel px3sg
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<qakʼaslemal>"
 	"kʼaslemal" n px1pl
@@ -929,7 +929,7 @@
 "<,>"
 	"," cm @punct #6->9
 "<we>"
-	"we" cnjsub @mark #7->9
+	"we¹" cnjsub @mark #7->9
 "<man>"
 	"man" neg @aux #8->9
 "<kʼo>"
@@ -1196,9 +1196,9 @@
 "<ajnoʼj>"
 	"*ajnoʼj"
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<kataqej>"
 	"taqej" v tv impf o_sg3 s_sg2
@@ -2025,7 +2025,7 @@
 "<Utz>"
 	"utz" adj @root #1->0
 "<we>"
-	"we" cnjsub @mark #2->3
+	"we¹" cnjsub @mark #2->3
 "<katbʼin>"
 	"bʼin" v iv impf s_sg2 @advcl #3->1
 "<pa>"
@@ -2081,7 +2081,7 @@
 "<Utz>"
 	"utz" adj @root #1->0
 "<we>"
-	"we" cnjsub @mark #2->3
+	"we¹" cnjsub @mark #2->3
 "<kwar>"
 	"war" v iv impf s_sg3 @advcl #3->1
 "<alaq>"
@@ -6665,9 +6665,9 @@
 	"utz" adj
 	"utz" adv
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<kiwetaʼmaj>"
 	"etaʼmaj" v tv impf o_sg3 s_pl2
@@ -8429,9 +8429,9 @@
 	"chi" cnjsub
 	"chi" pr
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<.>"
 	"." sent @punct
@@ -11053,9 +11053,9 @@
 "<wilaʼ>"
 	"*wilaʼ"
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<kʼo>"
 	"kʼo" part
@@ -12805,9 +12805,9 @@
 "<Chqamuj>"
 	"*Chqamuj"
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<juqubʼ>"
 	"juqubʼ" n
@@ -17206,7 +17206,7 @@
 "<Utz>"
 	"utz" adj @root #1->0
 "<we>"
-	"we" cnjsub @mark #2->3
+	"we¹" cnjsub @mark #2->3
 "<kakʼol>"
 	"kʼol" v tv impf o_sg3 s_sg2 @advcl #3->1
 "<ri>"
@@ -20319,9 +20319,9 @@
 	"pam" n px3sg
 	"pam" n rel px3sg
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<wuj>"
 	"wuj" n
@@ -20810,7 +20810,7 @@
 # text[spa] = Si sirves saldrá bien.
 # labels = complete
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<katnimanik>"
 	"niman" v iv impf s_sg2 @advcl #2->5
 		"ik" aux @aux:ss #3->2
@@ -20993,9 +20993,9 @@
 "<ubʼiʼ>"
 	"bʼiʼ" n px3sg
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<qʼij>"
 	"qʼij" n
@@ -21049,9 +21049,9 @@
 	"wach" n rel px3sg
 	"wäch" n px3sg
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<noʼjibʼal>"
 	"noʼjibʼal" n
@@ -21159,7 +21159,7 @@
 "<Utz>"
 	"utz" adj @root #1->0
 "<we>"
-	"we" cnjsub @mark #2->3
+	"we¹" cnjsub @mark #2->3
 "<kaqabʼan>"
 	"bʼan" v tv impf o_sg3 s_pl1 @advcl #3->1
 "<jun>"
@@ -26372,7 +26372,7 @@
 # text[spa] = Si no se usa la urdidora no queda bien el tejido.
 # labels = incomplete
 "<We>"
-	"we" cnjsub
+	"we¹" cnjsub
 "<man>"
 	"man" neg
 "<kakoj>"
@@ -26758,7 +26758,7 @@
 # text[spa] = Si practicamos la ayuda mutua, nos va bien.
 # labels = complete
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<keqbʼan>"
 	"bʼan" v tv impf o_pl3 s_pl1 @advcl #2->6
 "<ri>"
@@ -27874,7 +27874,7 @@
 	"jach" v tv impf o_sg3 s_sg3 @root #2->0
 "<kanoq>"
 	"kan" adv dir @advmod #3->2
-		"oq" mark @aux:ss #4->3
+		"oq" aux @aux:ss #4->3
 "<reqaleʼn>"
 	"eqaleʼn" n px3sg @obj #5->2
 "<ri>"
@@ -29635,7 +29635,7 @@
 "<Utz>"
 	"utz" adj @root #1->0
 "<we>"
-	"we" cnjsub @mark #2->3
+	"we¹" cnjsub @mark #2->3
 "<kutij>"
 	"tij" v tv impf o_sg3 s_sg3 @advcl #3->1
 "<saqmoʼl>"
@@ -31499,7 +31499,7 @@
 	"tokʼopij" v tv perf o_sg3 s_sg1 @root #1->0
 "<kanoq>"
 	"kan" adv dir @advmod #2->1
-		"oq" mark @aux:ss #3->2
+		"oq" aux @aux:ss #3->2
 "<ri>"
 	"ri" det @det #4->5
 "<uchiʼ>"
@@ -31697,7 +31697,7 @@
 "<kʼax>"
 	"kʼax" n @obj #4->3
 "<we>"
-	"we" cnjsub @mark #5->7
+	"we¹" cnjsub @mark #5->7
 "<man>"
 	"man" neg @aux #6->7
 "<chʼajom>"
@@ -31962,9 +31962,9 @@
 	"taʼ" v tv inf s_sg3
 	"taʼ" v tv pass inf s_sg3
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<katpe>"
 	"pe" v iv impf s_sg2
@@ -32432,9 +32432,9 @@
 "<xetikow>"
 	"tik" v tv anti agfoc perf s_pl3
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<uwach>"
 	"wach" n px3sg
@@ -32532,9 +32532,9 @@
 	"rech" cnjsub
 	"ech" n rel px3sg
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<achi>"
 	"achi" n
@@ -32672,9 +32672,9 @@
 "<rajwaxik>"
 	"rajawaxik" n
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<kaqaloqʼ>"
 	"loqʼ" v tv impf o_sg3 s_pl1
@@ -33390,7 +33390,7 @@
 # text[spa] = Si quieres mi ayuda solo dímelo.
 # labels = complete
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<kawaj>"
 	"aj" v tv impf o_sg3 s_sg2 @advcl #2->8
 "<katintoʼo>"
@@ -33478,7 +33478,7 @@
 "<awe>"
 	"ech" n rel px2sg @obl #6->4
 "<we>"
-	"we" cnjsub @mark #7->8
+	"we¹" cnjsub @mark #7->8
 "<kachʼak>"
 	"chʼäk" v tv impf o_sg3 s_sg2 @advcl #8->1
 "<ri>"
@@ -33742,9 +33742,9 @@
 	"chi" cnjsub
 	"chi" pr
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<.>"
 	"." sent @punct
@@ -34595,9 +34595,9 @@
 "<xqakʼis>"
 	"kʼis" v tv perf o_sg3 s_pl1
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<junabʼ>"
 	"junabʼ" n
@@ -35811,9 +35811,9 @@
 "<achi>"
 	"achi" n
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<kayuj>"
 	"yuj" v tv impf o_sg3 s_sg2
@@ -37455,9 +37455,9 @@
 # text[spa] = El instrumento para tejer ha estado conmigo desde hace tiempos.
 # labels = incomplete
 "<We>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<tzʼulubʼ>"
 	"*tzʼulubʼ"
@@ -37939,9 +37939,9 @@
 # text[spa] = Si no haz pensado lo que tienes que decir, mejor si no hablas.
 # labels = incomplete
 "<We>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<man>"
 	"man" neg
@@ -37962,9 +37962,9 @@
 	"utz" adj
 	"utz" adv
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<man>"
 	"man" neg
@@ -38961,9 +38961,9 @@
 "<laʼ>"
 	"laʼ" prn dem
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<kʼo>"
 	"kʼo" part
@@ -39928,9 +39928,9 @@
 	"chi" cnjsub
 	"chi" pr
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<.>"
 	"." sent @punct
@@ -40258,9 +40258,9 @@
 "<uxeʼ>"
 	"xeʼ" n rel px3sg
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<waqan>"
 	"aqan" n px1sg
@@ -40439,9 +40439,9 @@
 	"utz" adj
 	"utz" adv
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<katpe>"
 	"pe" v iv impf s_sg2
@@ -40583,9 +40583,9 @@
 # text[spa] = Sin el sustento moriríamos.
 # labels = incomplete
 "<We>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<man>"
 	"man" neg
@@ -40738,9 +40738,9 @@
 "<nim>"
 	"nim" adj
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<uwach>"
 	"wach" n px3sg
@@ -41137,9 +41137,9 @@
 	"loqʼ" v tv perf o_sg3 s_sg1
 	"loqʼ" v tv pass perf s_sg1
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<riʼ>"
 	"riʼ" prn dem
@@ -41635,9 +41635,9 @@
 	"wa" n
 	"aʼ" n px1sg
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<wuj>"
 	"wuj" n
@@ -43380,9 +43380,9 @@
 	"chi" cnjsub
 	"chi" pr
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det @det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<kinnimarisaj>"
 	"nimarisaj" v tv impf o_sg3 s_sg1

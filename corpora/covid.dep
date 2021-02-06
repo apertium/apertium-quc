@@ -27,7 +27,7 @@
 # text[spa] = Beber alcohol NO lo protegerá del COVID-19 y podría ser peligroso.
 # labels = complete check-relational
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<katij>"
 	"tij" v tv impf o_sg3 s_sg2 @advcl #2->5
 "<tzam>"
@@ -95,7 +95,7 @@
 # text[spa] = Bañarse con agua caliente NO PREVIENE la infección por el nuevo coronavirus.
 # labels = complete
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<katatin>"
 	"atin" v iv impf s_sg2 @advcl #2->7
 "<rukʼ>"
@@ -126,7 +126,7 @@
 # text[spa] = Comer ajo NO ayuda a prevenir el contagio del nuevo coronavirus (2019-nCoV).
 # labels = complete check-subordinate
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<katij>"
 	"tij" v tv impf o_sg3 s_sg2 @advcl #2->5
 "<anxux>"

@@ -724,7 +724,7 @@ xuqujeʼ:xuqujeʼ CC ;                ! "y" ! Src/Ley2009-9 !
 
 pero:pero CC ;                      ! "pero" ! Src/CanPixabaj
 
-we:we CS ;                          ! "si; if"
+we¹:we CS ;                          ! "si; if"
 weta:weta CS ;                      ! "si" ! Src/Biblia
 pune:pune CS ;                      ! "aunque; although"
 kneʼbʼaʼ:kneʼbʼaʼ CS ;              ! "aunque" ! Src/Biblia
@@ -748,10 +748,16 @@ pine:pine CS ; ! "aunque" ;
 pine%<cnjsub%>%+man%<neg%>:pine%>mna # ; ! "aunque no" ;
 pine%<cnjsub%>%+man%<neg%>:pine%>man # ; ! "aunque no" ;
 
-we%<cnjsub%>%+man%<neg%>:we%>mna # ; ! "si no" ;
-we%<cnjsub%>%+man%<neg%>:we%>man # ; ! "si no" ;
+we¹%<cnjsub%>%+man%<neg%>:we%>mna # ; ! "si no" ;
+we¹%<cnjsub%>%+man%<neg%>:we%>man # ; ! "si no" ;
 
 par:par CC ; ! "pero"
+
+!  These ri/le/we articles also serve as subordinators
+ri:ri CS;               ! "" ! ri ixoq ri xpe Chwitzʼaq xulik
+we²:we CS ;               ! ""
+le:le CS ;               ! ""
+
 
 LEXICON Direccionales
 
@@ -1048,11 +1054,6 @@ leʼ:leʼ Pron-waʼ ;                   ! "este"
 weriʼ:weriʼ Pron-waʼ ;               ! "esto"
 
 ki%<prn%>:ki # ;
-
-!  These ri/le/we articles also serve as relative pronouns
-ri%<prn%>%<rel%>:ri # ;               ! "" ! ri ixoq ri xpe Chwitzʼaq xulik
-we%<prn%>%<rel%>:we # ;               ! ""
-le%<prn%>%<rel%>:le # ;               ! ""
 
 LEXICON Cardinals
 

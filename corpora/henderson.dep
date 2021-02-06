@@ -328,7 +328,7 @@
 # text[eng] = If I get tired, I sleep.
 # label = complete
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<kinkosik>"
 	"kos" v iv impf s_sg1 @advcl #2->4
 		"ik" aux @aux:ss #3->2
@@ -795,7 +795,7 @@
 # text[eng] = If I get tired because of it, I sleep.
 # label = complete
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<kinkos>"
 	"kos" v iv impf s_sg1 @advcl #2->5
 "<rumal>"

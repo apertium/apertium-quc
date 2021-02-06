@@ -184,7 +184,7 @@
 # text[spa] = ¿Cuando alguien se siente débil, no comparto yo su debilidad?
 # labels = 8_2CO_11
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<kʼo>"
 	"kʼo" part @advcl #2->11
 "<jun>"
@@ -218,7 +218,7 @@
 # text[spa] = ¿Y cuando a alguien se le hace tropezar, no ardo yo de indignación?
 # labels = 8_2CO_11
 "<We>"
-	"we" cnjsub
+	"we¹" cnjsub
 "<kʼo>"
 	"kʼo" part
 "<jun>"

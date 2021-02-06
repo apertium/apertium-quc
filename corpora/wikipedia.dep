@@ -886,9 +886,9 @@
 "<yaʼtajinaq>"
 	"*yaʼtajinaq"
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<yabʼilal>"
 	"yabʼilal" n
@@ -898,9 +898,9 @@
 	"taq" cnjsub
 	"taq" pl
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<qʼij>"
 	"qʼij" n
@@ -1021,9 +1021,9 @@
 "<kakoqanisaj>"
 	"*kakoqanisaj"
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<yabʼilal>"
 	"yabʼilal" n

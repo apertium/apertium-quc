@@ -407,9 +407,9 @@
 "<kkil>"
 	"il" v tv impf o_sg3 s_pl3
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<jastaq>"
 	"jastaq" n
@@ -423,7 +423,7 @@
 # text[spa] = Si la persona víctima es extranjera, la autoridad competente debe dar aviso inmediato a la agencia consular que corresponda.
 # labels = incomplete
 "<We>"
-	"we" cnjsub @mark
+	"we¹" cnjsub @mark
 "<ri>"
 	"ri" det
 "<winaq>"
@@ -1107,9 +1107,9 @@
 "<.>"
 	"." sent
 "<We>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<ri>"
 	"ri" det
@@ -1154,9 +1154,9 @@
 "<wa>"
 	"wa" n
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<tojbʼal>"
 	"tojbʼal" n
@@ -1309,9 +1309,9 @@
 	"wa" n
 	"aʼ" n px1sg
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<majaʼ>"
 	"majaʼ" adv
@@ -1727,9 +1727,9 @@
 # text[spa] = En ningún caso se tendrá en cuenta el consentimiento prestado por la víctima de trata de personas o por su representante legal.
 # labels = incomplete
 "<We>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<xa>"
 	"xa" adv
@@ -1796,9 +1796,9 @@
 	"il" v tv pass impf s_sg3
 	"il" n px3pl
 "<we>"
-	"we" cnjsub
+	"we¹" cnjsub
 	"we" det
-	"we" prn rel
+	"we²" cnjsub
 	"ech" n rel px1sg
 "<kuriq>"
 	"riq" v tv impf o_sg3 s_sg3
@@ -1819,7 +1819,7 @@
 # text[spa] = La indemnización corresponderá a los herederos, si la víctima hubiere fallecido.
 # labels = complete check-relat
 "<We>"
-	"we" cnjsub @mark #1->2
+	"we¹" cnjsub @mark #1->2
 "<xkam>"
 	"käm" v iv perf s_sg3 @advcl #2->11
 "<ri>"
