@@ -2541,7 +2541,7 @@
 "<nimatijobʼal>"
 	"nimatijobʼal" n @obl #6->2
 "<rumal>"
-	"umal" n rel px3sg @mark #7->8
+	"rumal" cnjsub @mark #7->8
 "<xinkosik>"
 	"kos" v iv perf s_sg1 @advcl #8->2
 		"ik" aux @aux:ss #9->8
@@ -5052,7 +5052,7 @@
 "<taj>"
 	"taj" neg fin @aux #14->13
 "<rumal>"
-	"umal" n rel px3sg @mark #15->17
+	"rumal" cnjsub @mark #15->17
 "<sibʼalaj>"
 	"sibʼalaj" adv @advmod #16->17
 "<nim>"

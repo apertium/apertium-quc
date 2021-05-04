@@ -5,7 +5,7 @@
 # labels = incomplete
 ^Jeʼlik/jeʼl<adj><attr>$
 ^,/,<cm>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^akej/<px2sg>Kej<n>/<px2sg>kej<n>$
 ^./.<sent>$
 
@@ -98,7 +98,7 @@
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
 ^abʼanel/abʼanel<n>$
 ^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^qakʼaslemal/<px1pl>kʼaslemal<n>$
 ^./.<sent>$
 
@@ -559,7 +559,7 @@
 ^taj/taj<neg><fin>$
 ^katchakunik/<impf><s_sg2>chakuj<v><tv><anti>+ik<mark>/<impf><s_sg2>chakuj<v><tv><anti><agfoc>+ik<mark>/<impf><s_sg2>chakun<v><iv>+ik<mark>$
 ^,/,<cm>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^kʼo/kʼo<part>$
 ^ta/taj<neg>$
@@ -721,7 +721,7 @@
 # labels = incomplete
 ^At/at<prn><pers><p2><sg>/at<prn><pro><p2><sg>$
 ^ajnoʼj/*ajnoʼj$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kataqej/<impf><o_sg3><s_sg2>taqej<v><tv>$
 ^kitzij/<impf><o_sg3><s_pl2>tzij<v><tv>/<px3pl>tzij<n>$
 ^ri/ri<det>/ri<prn><rel>$
@@ -1251,7 +1251,7 @@
 # text[spa] = Es mejor si caminas por la vereda.
 # labels = incomplete
 ^Utz/utz<adj>/utz<adv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^katbʼin/<impf><s_sg2>bʼij<v><tv><anti>/<impf><s_sg2>bʼij<v><tv><anti><agfoc>/<impf><s_sg2>bʼin<v><iv>$
 ^pa/pa<pr>$
 ^ri/ri<det>/ri<prn><rel>$
@@ -1288,7 +1288,7 @@
 # text[spa] = Es mejor si ustedes duermen.
 # labels = incomplete
 ^Utz/utz<adj>/utz<adv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kwar/<impf><s_sg3>war<v><iv>$
 ^alaq/alaq<part><frm>/alaq<prn><pers><p2><frm><pl>/<px2sg>laq<n>$
 ^./.<sent>$
@@ -1857,7 +1857,7 @@
 # text[spa] = Es nueva la vestimenta.
 # labels = incomplete
 ^Kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^atzʼyaqibʼal/*atzʼyaqibʼal$
 ^./.<sent>$
 
@@ -3671,7 +3671,7 @@
 ^kʼax/kʼax<adj>/kʼax<n>$
 ^bʼanom/bʼanom<adj>/bʼan<v><tv><pp>$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^qatinamit/<px1pl>tinamit<n>$
 ^./.<sent>$
 
@@ -4251,7 +4251,7 @@
 # text[spa] = Es mejor si entiendo el significado del Calendario.
 # labels = incomplete
 ^Utz/utz<adj>/utz<adv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kiwetaʼmaj/<impf><o_sg3><s_pl2>etaʼmaj<v><tv>$
 ^jas/jas<prn><itg>$
 ^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
@@ -5482,7 +5482,7 @@
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^chʼukaj/chʼukaj<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = almg-examples:495
@@ -6264,7 +6264,7 @@
 # text[spa] = Este instrumento sirve para ver mejor las cosas.
 # labels = incomplete
 ^Waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^Ilbʼal/ilbʼal<n>$
 ^kpatanaj/<impf><s_sg3>patanaj<v><iv>$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
@@ -7267,7 +7267,7 @@
 # labels = incomplete
 ^Pa/pa<pr>$
 ^taq/taq<cnjsub>/taq<pl>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^qʼij/qʼij<n>$
 ^kʼo/kʼo<part>$
 ^ri/ri<det>/ri<prn><rel>$
@@ -7362,7 +7362,7 @@
 ^kabʼij/kabʼij<n>/<impf><o_sg3><s_sg2>bʼij<v><tv>$
 ^ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^\?/?<sent>$
 
 # sent_id = almg-examples:678
@@ -7420,7 +7420,7 @@
 ^kuchomaj/<impf><o_sg3><s_sg3>chomaj<v><tv>$
 ^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = almg-examples:688
@@ -7461,7 +7461,7 @@
 # labels = incomplete
 ^Ja/ja<n>$
 ^wilaʼ/*wilaʼ$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kʼo/kʼo<part>$
 ^chʼi/*chʼi$
 ^aj/Aj<n>/aj<n>/aj<pr>/äj<n>$
@@ -7473,7 +7473,7 @@
 # text[spa] = Este año sembré habas.
 # labels = incomplete
 ^Che/chi<pr>+<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^junabʼ/junabʼ<n>$
 ^xintik/<perf><o_sg3><s_sg1>tik<v><tv>/<perf><s_sg1>tik<v><tv><pass>$
 ^jawux/jawux<n>$
@@ -8772,7 +8772,7 @@
 # labels = incomplete
 ^Chinakuyuʼ/<imp><o_sg1><s_sg2>kuy<v><tv>+uʼ<mark>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^jupaj/jupaj<n>/<imp><mov><o_sg3><s_sg3>paj<v><tv>$
 ^tzij/tzij<adj>/tzij<adv>/tzij<n>$
 ^./.<sent>$
@@ -8839,7 +8839,7 @@
 # text[spa] = Tomate este trago de agua.
 # labels = incomplete
 ^Chqamuj/*Chqamuj$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^juqubʼ/juqubʼ<n>$
 ^joron/jorön<n>$
 ^./.<sent>$
@@ -12111,7 +12111,7 @@
 # text[spa] = Mejor si guardas tu dinero.
 # labels = incomplete
 ^Utz/utz<adj>/utz<adv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kakʼol/<impf><o_sg3><s_sg2>kʼol<v><tv>/<impf><s_sg3>kʼol<v><tv><pass>$
 ^ri/ri<det>/ri<prn><rel>$
 ^arajil/<px2sg>rajil<n>$
@@ -13242,7 +13242,7 @@
 # text[spa] = Es pecado chismosear.
 # labels = incomplete
 ^Awas/awas<adj>/awas<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kbʼan/<impf><s_sg3>bʼaj<v><tv><anti>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>/<impf><s_sg3>bʼan<v><tv><pass>$
 ^tzijtal/tzijtal<n>$
 ^./.<sent>$
@@ -14547,7 +14547,7 @@
 ^nakʼ/*nakʼ$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^upam/<px3sg>pam<n>/<px3sg>pam<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^wuj/wuj<n>$
 ^./.<sent>$
 
@@ -14863,7 +14863,7 @@
 ^taq/taq<cnjsub>/taq<pl>$
 ^ketaʼmabʼal/<px3pl>etaʼmabʼal<n>$
 ^pa/pa<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^qatinamit/<px1pl>tinamit<n>$
 ^./.<sent>$
 
@@ -14933,7 +14933,7 @@
 # text[orig] = We katnimanik ütz kelik.
 # text[spa] = Si sirves saldrá bien.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^katnimanik/<impf><s_sg2>nimaj<v><tv><anti>+ik<mark>/<impf><s_sg2>nimaj<v><tv><anti><agfoc>+ik<mark>/<impf><s_sg2>niman<v><iv>+ik<mark>$
 ^utz/utz<adj>/utz<adv>$
 ^kelik/<impf><s_sg3>el<v><iv>+ik<mark>/<s_pl3>el<v><iv><inf>$
@@ -15054,7 +15054,7 @@
 ^Kabʼlajuj/kabʼlajuj<num>$
 ^Noʼj/Noʼj<n>/noʼj<n>$
 ^ubʼiʼ/<px3sg>bʼiʼ<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^qʼij/qʼij<n>$
 ^kamik/kamik<adv>/käm<v><iv><inf>$
 ^./.<sent>$
@@ -15087,7 +15087,7 @@
 # labels = incomplete
 ^Chsikʼij/*Chsikʼij$
 ^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^noʼjibʼal/noʼjibʼal<n>$
 ^wuj/wuj<n>$
 ^./.<sent>$
@@ -15179,7 +15179,7 @@
 # text[spa] = Es mejor si hacemos un nuevo sistema.
 # labels = incomplete
 ^Utz/utz<adj>/utz<adv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kaqabʼan/<impf><o_sg3><s_pl1>bʼan<v><tv>$
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
@@ -15370,7 +15370,7 @@
 ^uj/uj<prn><pers><p1><pl>/uj<prn><pro><p1><pl>$
 ^bʼenaq/bʼenäq<adj>/bʼe<v><iv><pp>/<s_sg3>bʼe<v><iv><pp>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^junabʼ/junabʼ<n>$
 ^riʼ/riʼ<prn><dem>$
 ^./.<sent>$
@@ -18705,7 +18705,7 @@
 # text[orig] = We katchakunik man kanaʼ täj ri qʼijbʼäl.
 # text[spa] = Si trabajas no sientes el tiempo.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^katchakunik/<impf><s_sg2>chakuj<v><tv><anti>+ik<mark>/<impf><s_sg2>chakuj<v><tv><anti><agfoc>+ik<mark>/<impf><s_sg2>chakun<v><iv>+ik<mark>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^kanaʼ/<impf><o_sg3><s_sg2>naʼ<v><tv>/<impf><s_sg3>naʼ<v><tv><pass>$
@@ -18771,7 +18771,7 @@
 # text[orig] = We man kakoj täj ri qʼinbʼäl man ütz a kel ri kem.
 # text[spa] = Si no se usa la urdidora no queda bien el tejido.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^kakoj/<impf><o_sg3><s_sg2>koj<v><tv>/<impf><s_sg3>koj<v><tv><pass>$
 ^taj/taj<neg><fin>$
@@ -18843,7 +18843,7 @@
 ^kuyaʼ/<impf><o_sg3><s_sg3>yaʼ<v><tv>$
 ^qʼipip/qʼipip<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 ^4/4<num>$
 
@@ -19005,7 +19005,7 @@
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^qʼoxowem/qʼoxowem<n>/qʼoxow<v><iv><inf>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = almg-examples:1840
@@ -19025,7 +19025,7 @@
 # text[orig] = We keqbʼän ri qʼuch ütz kujelik.
 # text[spa] = Si practicamos la ayuda mutua, nos va bien.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^keqbʼan/*keqbʼan$
 ^ri/ri<det>/ri<prn><rel>$
 ^qʼuch/qʼuch<n>$
@@ -19597,7 +19597,7 @@
 ^xpaqiʼ/<perf><s_sg3>paqiʼ<v><iv>$
 ^rajil/rajil<n>/<px3sg>ajil<n>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^qʼalaj/qʼalaj<adj>/qʼalaj<adv>/qʼäläj<n>$
 ^./.<sent>$
 
@@ -20332,7 +20332,7 @@
 ^Xubʼij/<perf><o_sg3><s_sg3>bʼij<v><tv>$
 ^loq/uloq<adv><dir>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
 ^rutzil/<px3sg>utzil<n>$
 ^animaʼ/animaʼ<n>/<px2sg>nimaʼ<n>$
@@ -20481,7 +20481,7 @@
 ^xuyaʼ/<perf><o_sg3><s_sg3>yaʼ<v><tv>$
 ^ubʼixik/<px3sg>bʼixik<n>/<s_sg3>bʼij<v><tv><pass><inf>/<s_sg3>bʼix<v><iv><inf>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^,/,<cm>$
 ^sachinaq/sachinaq<adj>/sach<v><iv><pp>/<s_sg3>sach<v><iv><pp>$
 ^ukʼuʼx/<px3sg>kʼuʼx²<n>/<px3sg>kʼuʼx¹<n>$
@@ -20538,7 +20538,7 @@
 ^ri/ri<det>/ri<prn><rel>$
 ^Pal/Pal<np><ant><m>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^chak/chak<n>$
 ^./.<sent>$
 
@@ -20941,7 +20941,7 @@
 # text[spa] = Es bueno que el niño se alimente con huevos.
 # labels = incomplete
 ^Utz/utz<adj>/utz<adv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kutij/<impf><o_sg3><s_sg3>tij<v><tv>$
 ^saqmoʼl/saqmoʼl<n>$
 ^ri/ri<det>/ri<prn><rel>$
@@ -20968,7 +20968,7 @@
 ^saqpoʼr/saqpoʼr<n>$
 ^ixim/ixim<n>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^junabʼ/junabʼ<n>$
 ^./.<sent>$
 
@@ -22330,7 +22330,7 @@
 ^tapaʼl/tapaʼl<n>$
 ^kubʼan/<impf><o_sg3><s_sg3>bʼan<v><tv>$
 ^kʼax/kʼax<adj>/kʼax<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^chʼajom/chʼajom<adj>/chʼaj<v><tv><pp>$
 ^taj/taj<neg><fin>$
@@ -22384,7 +22384,7 @@
 # labels = incomplete
 ^Che/chi<pr>+<px3sg>ech<n><rel>$
 ^taq/taq<cnjsub>/taq<pl>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^qʼij/qʼij<n>$
 ^riʼ/riʼ<prn><dem>$
 ^,/,<cm>$
@@ -22462,7 +22462,7 @@
 ^taqoʼm/*taqoʼm$
 ^wuj/wuj<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = almg-examples:2137
@@ -22476,7 +22476,7 @@
 ^taqanel/taqanel<n>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
 ^utaʼik/<px3sg>taʼik<n>/<s_sg3>taʼ<v><tv><inf>/<s_sg3>taʼ<v><tv><pass><inf>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^katpe/<impf><s_sg2>pe<v><iv>$
 ^kamik/kamik<adv>/käm<v><iv><inf>$
 ^./.<sent>$
@@ -22746,7 +22746,7 @@
 ^ke/<px3pl>ech<n><rel>$
 ^ri/ri<det>/ri<prn><rel>$
 ^xetikow/<perf><s_pl3>tik<v><tv><anti><agfoc>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
 ^ulew/ulew<n>$
 ^./.<sent>$
@@ -22801,7 +22801,7 @@
 ^sibʼalaj/sibʼalaj<adj>/sibʼalaj<adv>/sibʼ<adj><ints>$
 ^terneʼl/*terneʼl$
 ^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^achi/achi<n>$
 ^./.<sent>$
 
@@ -22891,7 +22891,7 @@
 # labels = incomplete
 ^Kamik/kamik<adv>/käm<v><iv><inf>$
 ^rajwaxik/rajawaxik<adj>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kaqaloqʼ/<impf><o_sg3><s_pl1>loqʼ<v><tv>$
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^qatewrisabʼal/*qatewrisabʼal$
@@ -23169,7 +23169,7 @@
 # text[spa] = Este año no sembré.
 # labels = incomplete
 ^Che/chi<pr>+<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^junabʼ/junabʼ<n>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^kʼo/kʼo<part>$
@@ -23323,7 +23323,7 @@
 # text[orig] = We kawaj katintoʼo xäq xu wi kabʼïj chi we.
 # text[spa] = Si quieres mi ayuda solo dímelo.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kawaj/<impf><o_sg3><s_sg2>aj<v><tv>/<px3pl>awaj<n>$
 ^katintoʼo/<impf><o_sg2><s_sg1>toʼ<v><tv>+u<mark>$
 ^xaq/xaq<adj>/xaq<adv>/xaq<n>/xäq<n>$
@@ -23331,7 +23331,7 @@
 ^wi/wi<adv><dir>$
 ^kabʼij/kabʼij<n>/<impf><o_sg3><s_sg2>bʼij<v><tv>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = almg-examples:2201
@@ -23385,7 +23385,7 @@
 ^kinyaʼ/<impf><o_sg3><s_sg1>yaʼ<v><tv>/<impf><s_sg1>yaʼ<v><tv><pass>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^awe/<px2sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kachʼak/<impf><o_sg3><s_sg2>chʼäk<v><tv>/<impf><s_sg3>chʼaʼ<v><tv><pass>+ik<mark>/<impf><s_sg3>chʼäk<v><tv><pass>$
 ^ri/ri<det>/ri<prn><rel>$
 ^etzʼanem/etzʼanem<n>/etzʼan<v><iv><inf>$
@@ -23518,7 +23518,7 @@
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^toqʼobʼ/toqʼobʼ<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = almg-examples:2215
@@ -24013,7 +24013,7 @@
 ^tyoxinik/tyoxij<v><tv><anti><inf>$
 ^rumal/<px3sg>umal<n><rel>$
 ^xqakʼis/<perf><o_sg3><s_pl1>kʼis<v><tv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^junabʼ/junabʼ<n>$
 ^./.<sent>$
 ^5/5<num>$
@@ -24628,7 +24628,7 @@
 ^pwaq/pwaq<n>$
 ^xutaʼ/<perf><o_sg3><s_sg3>taʼ<v><tv>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = almg-examples:2308
@@ -24797,7 +24797,7 @@
 ^tzeqʼ/tzeqʼ<n>$
 ^ri/ri<det>/ri<prn><rel>$
 ^achi/achi<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kayuj/<impf><o_sg3><s_sg2>yuj<v><tv>/<impf><s_sg3>yuj<v><iv>$
 ^ratzʼiyaq/*ratzʼiyaq$
 ^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
@@ -25757,7 +25757,7 @@
 # text[orig] = We tzʼulubʼ riʼ ojer chïk kʼo wukʼ.
 # text[spa] = El instrumento para tejer ha estado conmigo desde hace tiempos.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^tzʼulubʼ/*tzʼulubʼ$
 ^riʼ/riʼ<prn><dem>$
 ^ojer/ojer<adj>/ojer<adv>$
@@ -26033,7 +26033,7 @@
 # text[orig] = We man achʼabʼom ta ri kabʼij, ütz we man katchʼawik.
 # text[spa] = Si no haz pensado lo que tienes que decir, mejor si no hablas.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^achʼabʼom/*achʼabʼom$
 ^ta/taj<neg>$
@@ -26041,7 +26041,7 @@
 ^kabʼij/kabʼij<n>/<impf><o_sg3><s_sg2>bʼij<v><tv>$
 ^,/,<cm>$
 ^utz/utz<adj>/utz<adv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^katchʼawik/<impf><s_sg2>chʼaw<v><iv>+ik<mark>$
 ^./.<sent>$
@@ -26571,7 +26571,7 @@
 # labels = incomplete
 ^Utz/utz<adj>/utz<adv>$
 ^laʼ/laʼ<prn><dem>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kʼo/kʼo<part>$
 ^rulaʼ/<px3sg>ulaʼ<n>$
 ^./.<sent>$
@@ -27101,7 +27101,7 @@
 ^jun/jun<adj>/jun<n>/jun<num>$
 ^utzil/utzil<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = almg-examples:2501
@@ -27323,7 +27323,7 @@
 # labels = incomplete
 ^Keqʼaxow/*Keqʼaxow$
 ^uxeʼ/<px3sg>xeʼ<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^waqan/<px1sg>aqan<n>/<px1sg>aqän<n>$
 ^./.<sent>$
 
@@ -27446,7 +27446,7 @@
 # text[spa] = Que mejor si vienes mañana.
 # labels = incomplete
 ^Utz/utz<adj>/utz<adv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^katpe/<impf><s_sg2>pe<v><iv>$
 ^chweʼq/chweʼq<adv>$
 ^./.<sent>$
@@ -27522,7 +27522,7 @@
 # text[orig] = We man kʼo le qawaʼ qukʼyaʼ kojkamik.
 # text[spa] = Sin el sustento moriríamos.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^kʼo/kʼo<part>$
 ^le/le<det>/le<prn><rel>$
@@ -27623,7 +27623,7 @@
 # labels = incomplete
 ^Nim/nim<adj>$
 ^nim/nim<adj>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
 ^ulew/ulew<n>$
 ^./.<sent>$
@@ -27848,7 +27848,7 @@
 # text[spa] = Te compré esto porque quiero que lo uses.
 # labels = incomplete
 ^Xinloqʼ/<perf><o_sg3><s_sg1>loqʼ<v><tv>/<perf><s_sg1>loqʼ<v><tv><pass>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^riʼ/riʼ<prn><dem>$
 ^xa/xa<adv>/xa<n>$
 ^kwaj/<impf><o_sg3><s_sg1>aj<v><tv>$
@@ -28155,7 +28155,7 @@
 # text[spa] = Esta clase de papel es demasiado caro.
 # labels = incomplete
 ^Waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^wuj/wuj<n>$
 ^riʼpaqal/*riʼpaqal$
 ^rajil/rajil<n>/<px3sg>ajil<n>$
@@ -29049,7 +29049,7 @@
 ^Ri/ri<det>/ri<prn><rel>$
 ^xtukʼ/xtukʼ<n>$
 ^kelik/<impf><s_sg3>el<v><iv>+ik<mark>/<s_pl3>el<v><iv><inf>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kaxeʼj/<impf><o_sg3><s_sg2>xeʼj<v><tv>/<impf><s_sg3>xeʼj<v><iv>$
 ^awibʼ/<px2sg>ibʼ<n><rel>$
 ^./.<sent>$
@@ -29082,7 +29082,7 @@
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
 ^ubʼixik/<px3sg>bʼixik<n>/<s_sg3>bʼij<v><tv><pass><inf>/<s_sg3>bʼix<v><iv><inf>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^./.<sent>$
 
 # sent_id = almg-examples:2676
@@ -29300,7 +29300,7 @@
 # labels = incomplete
 ^Yaʼtal/yaʼtal<adj>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kinnimarisaj/<impf><o_sg3><s_sg1>nimarisaj<v><tv>$
 ^ri/ri<det>/ri<prn><rel>$
 ^wetamabʼal/<px1sg>etamabʼal<n>$
@@ -29549,12 +29549,12 @@
 # text[orig] = We keʼawil yoʼx chasipaj kirajil we man kasipaj, kkibʼän kʼäx che ri awatzʼiyaq.
 # text[spa] = Cuando veas gemelos dales dinero, porque se te pica la ropa.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^keʼawil/*keʼawil$
 ^yoʼx/*yoʼx$
 ^chasipaj/<imp><o_sg3><s_sg2>sipaj<v><tv>$
 ^kirajil/<px3pl>rajil<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^kasipaj/<impf><o_sg3><s_sg2>sipaj<v><tv>$
 ^,/,<cm>$

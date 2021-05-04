@@ -87,7 +87,7 @@
 # text = We xkam ri winaq, ri pwaq rech tojbʼal makaj kyaʼ chi kech ri ralaxik.
 # text[spa] = La indemnización corresponderá a los herederos, si la víctima hubiere fallecido.
 # labels = incomplete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^xkam/<perf><s_sg3>käm<v><iv>$
 ^ri/ri<det>$
 ^winaq/winaq<n>$

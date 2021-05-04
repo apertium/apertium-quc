@@ -468,7 +468,7 @@
 "<.>"
 	"." sent @punct #12->1
 
-# sent_id = cuentos:Jun_ajyuq’.wiki:2
+# sent_id = cuentos:Jun_ajyuqʼ.wiki:2
 # text = Xkʼulmataj jumul, xubʼan jun nimalaj jabʼ, man xbʼeyetaj ta na xukʼis le uyuqʼ chike.  
 # text[spa'] =  Pasó vez, hizo una lluvia grande, no se les tardó acabar su pastoreo. 
 # labels = complete check-translation
@@ -508,7 +508,7 @@
 "<.>"
 	"." sent @punct #18->1
 
-# sent_id = cuentos:Jun_ajyuq’.wiki:4
+# sent_id = cuentos:Jun_ajyuqʼ.wiki:4
 # text = Le akʼal xubʼij che: - xa che ri nuchij kkaj ta kebʼe pa kikʼolibʼal.
 # text[spa'] = El niño dijo a él: -sólo a mis ovejas quieren ir en su lugar.
 # labels = complete check-translation
@@ -547,7 +547,7 @@
 "<.>"
 	"." sent @punct #18->3
 
-# sent_id = cuentos:Jun_ajyuq’.wiki:6
+# sent_id = cuentos:Jun_ajyuqʼ.wiki:6
 # text = Xopan jun wonon, xutaʼ chike: - jas che kixoqʼik?
 # text[spa'] = Llegó una abeja, preguntó a ellos: - por qué lloran?
 # labels = complete
@@ -579,7 +579,7 @@
 "<?>"
 	"?" sent @punct #15->1
 
-# sent_id = cuentos:Jun_ajyuq’.wiki:8
+# sent_id = cuentos:Jun_ajyuqʼ.wiki:8
 # text = We wonon xubʼij chike: - kixinto.
 # text[spa'] = Esta abeja dijo a ellos: - os ayudo.
 # labels = complete
@@ -601,7 +601,7 @@
 "<.>"
 	"." sent @punct #9->3
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:1
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:1
 # text = Kʼo jumul kebʼ alabʼom, ekʼo jobʼ kichij, xkichomaj kebeʼ pa yuqʼ.
 # text[spa'] = Hay vez dos muchachos, que tenían cinco ovejas, pensaron ir a pastorear.
 # labels = complete check-all
@@ -635,7 +635,7 @@
 "<.>"
 	"." sent @punct #15->11
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:2
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:2
 # text = Are xeʼopan chi uchiʼ ri juyubʼ, xkilo chi man qas ta kʼo qʼayes.
 # text[spa'] = Llegó a la orilla del monte, vieron que no era verdad haber césped.
 # labels = complete
@@ -671,7 +671,7 @@
 "<.>"
 	"." sent @punct #16->2
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:4
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:4
 # text = Kʼa te xkilo ekʼo jujun chomaʼq taq cheʼ sibʼalaj, jeʼl kimujal, xuqujeʼ kʼo jun nimalaj bʼinel jaʼ, jun nim uwosaq.
 # text[spa'] = Entonces vieron que hubo algunos gordos árboles mucho, bonita su sombra, también hubo un grande *bʼinel agua, un campo grande.
 # labels = complete check-translation
@@ -726,7 +726,7 @@
 "<.>"
 	"." sent @punct #26->3
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:5
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:5
 # text = Sibʼalaj jeʼl xkilo xekitzoqopij ri kichij chilaʼ.
 # text[spa'] = Mucho bonito vieron liberar las ovejas allí.
 # labels = complete
@@ -748,7 +748,7 @@
 "<.>"
 	"." sent @punct #9->3
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:6
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:6
 # text = Le jobʼ chij sibʼalaj xewaʼik cho le uwosaq, xbʼantajik chi xkikʼyaq kan le kimes pa taq le cheʼ pa le uwosaq.
 # text[spa'] = Las cinco ovejas comieron mucho al campo, resultó que tiraron su fertilizador en los árboles en el campo.
 # labels = complete check-subject
@@ -802,7 +802,7 @@
 "<.>"
 	"." sent @punct #26->5
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:7
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:7
 # text = Xkibʼan kʼax che le uwosaq rumal man utz ta chi kakayik.
 # text[spa'] = Hicieron malo al campo por el observar no era bueno.
 # labels = complete check-subject
@@ -833,7 +833,7 @@
 "<.>"
 	"." sent @punct #14->1
 
-# sent_id = cuentos:Keb’_ajyuq’ab’.wiki:9
+# sent_id = cuentos:Kebʼ_ajyuqʼabʼ.wiki:9
 # text = Xesikʼixik, kʼate kʼuriʼ xeyajik, xuqujeʼ xetaq bʼi che usikʼik le mes. 
 # text[spa'] =  Se llamaron, entonces regañaron , también se enviaron a agarrar el fertilizador. 
 # labels = complete check-translation
@@ -869,7 +869,7 @@
 "<.>"
 	"." sent @punct #17->1
 
-# sent_id = cuentos:Kik’aslemal_ri_ojer_winaq.wiki:9
+# sent_id = cuentos:Kikʼaslemal_ri_ojer_winaq.wiki:9
 # text = Kikikʼam bʼik nimaʼq taq keqaʼn e chiʼ keʼbʼek.
 # text[spa'] = Los bultos grandes reciben y aquí van.
 # labels = incomplete check-translation
@@ -894,7 +894,7 @@
 "<.>"
 	"." sent @punct #11->1
 
-# sent_id = cuentos:Komon_Xalq’a’t.wiki:5
+# sent_id = cuentos:Komon_Xalqʼaʼt.wiki:5
 # text = Kuyaʼo xuqujeʼ are ri kʼaxkʼolil keʼopan pa kiwi ri jastaq rech.
 # text[spa'] = Lo da y el sufrimiento llega encima de las cosas de él.
 # labels = complete check-translation
@@ -924,7 +924,7 @@
 "<.>"
 	"." sent @punct #13->1
 
-# sent_id = cuentos:Komon_Xalq’a’t.wiki:11
+# sent_id = cuentos:Komon_Xalqʼaʼt.wiki:11
 # text = Rumal laʼ xkoj “Xalqʼat” che ubʼiʼ ri komon.
 # text[spa'] = Por esto se puso “Xalqʼat” al nombre de la comunidad.
 # labels = complete
@@ -952,7 +952,7 @@
 "<.>"
 	"." sent @punct #12->3
 
-# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:2
+# sent_id = cuentos:Kʼamal_taq_bʼe_re_Chwiʼ_suq.wiki:2
 # text = Xkitzijoj chikech ri winaq man utz taj keqasax ri cheʼ, we kabʼanik, kasikʼix saqʼij chaqij. 
 # text[spa'] = Contaron a las personas no es bueno que se derriban las arboles, si se hace, se llama estación seca.
 # labels = complete
@@ -991,11 +991,11 @@
 "<saqʼij>"
 	"saqʼij" n @nsubj #18->17
 "<chaqij>"
-	"chaqi’j" adj @amod #19->18
+	"chaqiʼj" adj @amod #19->18
 "<.>"
 	"." sent @punct #20->1
 
-# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:4
+# sent_id = cuentos:Kʼamal_taq_bʼe_re_Chwiʼ_suq.wiki:4
 # text = Konojel xkichomaj rij, xkibʼij kʼut: areʼ utz ketik cheʼ.
 # text[spa'] = Todos pensaron sobre eso, dijeron pero: es bueno que se sembran árboles.
 # labels = complete check-translation
@@ -1024,7 +1024,7 @@
 "<.>"
 	"." sent @punct #12->2
 
-# sent_id = cuentos:K’amal_taq_b’e_re_Chwi’_suq.wiki:5
+# sent_id = cuentos:Kʼamal_taq_bʼe_re_Chwiʼ_suq.wiki:5
 # text = Xa rumal sibʼalaj rajawaxik le loqʼalaj jaʼ, le winaq xkibʼij: che we ikʼ riʼ qonojel kujbʼe che utikik taq cheʼ.
 # text[spa'] = Sólo por eso es muy necesario el agua querida, las personas dijeron: a esa luna todos nosotros vamos a sembrarse árboles.
 # labels = complete check-translation
@@ -1077,7 +1077,7 @@
 "<.>"
 	"." sent @punct #25->4
 
-# sent_id = cuentos:K’ulmatajem.wiki:7
+# sent_id = cuentos:Kʼulmatajem.wiki:7
 # text = Are kʼut pa le juyubʼ kkʼiy joron, chilaʼ xekikʼama wi ri jaʼ ri winaq.
 # text[spa'] = Pero en el monte crece frío, allí reciben las aguas las personas.
 # labels = complete
@@ -1114,7 +1114,7 @@
 "<.>"
 	"." sent @punct #16->6
 
-# sent_id = cuentos:K’ulmatajem.wiki:10
+# sent_id = cuentos:Kʼulmatajem.wiki:10
 # text = Kamik le jaʼ kchojojik, kchojojik, katatajik pa ri juyubʼ.
 # text[spa'] = Ahora el agua caye, caye, se oye en el monte.
 # labels = complete
@@ -1146,7 +1146,7 @@
 "<.>"
 	"." sent @punct #15->4
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:3
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:3
 # text = Kakoj kyaq usok ri unan rech kachʼaj bʼik.
 # text[spa'] = Pones el nido rojo de la madre para lavas.
 # labels = complete 
@@ -1170,7 +1170,7 @@
 "<.>"
 	"." sent @punct #10->1
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:5
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:5
 # text = E kebʼ kekʼam bʼik pa tuj.
 # text[spa'] = Dos están recibidos en temazcal.
 # labels = complete check-plural
@@ -1190,7 +1190,7 @@
 "<.>"
 	"." sent @punct #8->3
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:6
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:6
 # text = Tekʼuriʼ kabʼan jun komon waʼim pa kachoch.
 # text[spa'] = Y haces una cena comunal en casa.
 # labels = complete
@@ -1211,7 +1211,7 @@
 "<.>"
 	"." sent @punct #8->2
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:7
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:7
 # text = Ktij ri uwaʼl ik rumal ri kinimaqʼij.
 # text[spa'] = Come el jugo de chile para su fiesta.
 # labels = complete check-translation
@@ -1232,7 +1232,7 @@
 "<.>"
 	"." sent @punct #8->1
 
-# sent_id = cuentos:K’ulmatajem_pa_tinimit_Tz’unil.wiki:8
+# sent_id = cuentos:Kʼulmatajem_pa_tinimit_Tzʼunil.wiki:8
 # text = We man je kabʼan chike, kabʼison le rajaw tuj.
 # text[spa'] = Si no haces así a ellos, el dueño de temazcal está triste.
 # labels = complete
@@ -1260,7 +1260,7 @@
 "<.>"
 	"." sent @punct #12->8
 
-# sent_id = cuentos:Le_k’olot_ali.wiki:8
+# sent_id = cuentos:Le_kʼolot_ali.wiki:8
 # text = Xaq uj junam chi uwach ri Ajaw.
 # text[spa'] = Nosotros somos iguales al Dueño.
 # labels = complete
@@ -1281,7 +1281,7 @@
 "<.>"
 	"." sent @punct #8->3
 
-# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:4
+# sent_id = cuentos:Le_joj_rukʼ_ri_par.wiki:4
 # text = Are taq xujaq ri uchiʼ xutzoqopij ri imul, ri par naj uwiʼ che; xuchap ri imul, xutijo xaq jeri xpakun ri unumik.
 # text[spa'] = Cuando abrió la orilla liberó el conejo, el zorillo lejos de encima de él; tocó el conejo, comió sólo así se deshace de tener hambre.
 # labels = incomplete
@@ -1345,7 +1345,7 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:6
+# sent_id = cuentos:Le_joj_rukʼ_ri_par.wiki:6
 # text = Ri joj kabʼisonik rumal che maj chik kutijo.
 # text[spa'] = El cuervo está triste porque otra vez no come.
 # labels = complete check-subordinator
@@ -1357,7 +1357,7 @@
 	"bʼison" v iv impf s_sg3 @root #3->0
 		"ik" aux @aux:ss #4->3
 "<rumal>"
-	"umal" n rel px3sg @mark #5->10
+	"rumal" cnjsub @mark #5->10
 "<che>"
 	"chi" pr @fixed #6->5
 		"ech" n rel px3sg @fixed #7->5
@@ -1371,7 +1371,7 @@
 "<.>"
 	"." sent @punct #12->3
 
-# sent_id = cuentos:Le_joj_ruk’_ri_par.wiki:8
+# sent_id = cuentos:Le_joj_rukʼ_ri_par.wiki:8
 # text = Man xuriq taj urikil xaq jeri xkam che wiʼjal.
 # text[spa'] = No encontró comida sólo así murió de hambre.
 # labels = complete check-subordinator
@@ -1397,7 +1397,7 @@
 "<.>"
 	"." sent @punct #11->2
 
-# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:1
+# sent_id = cuentos:Le_umaybʼal_le_juyubʼ.wiki:1
 # text = Kʼo jun komon ubʼi Chikabʼraqan, kariqatajik pa tinamit Kʼicheʼ.
 # text[spa'] = Hay una comunidad de nombre Chikabʼraqan, se encuentra en tierra Quiché.
 # labels = complete check-parataxis
@@ -1425,7 +1425,7 @@
 "<.>"
 	"." sent @punct #12->1
 
-# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:2
+# sent_id = cuentos:Le_umaybʼal_le_juyubʼ.wiki:2
 # text = Ri winaq kakibʼij chi kʼo jun bʼe, areʼ bʼe rech tinamit ubʼi Lemoʼ.
 # text[spa'] = Las personas dicen que hay una senda, es la senda al pueblo de nombre Lemoʼ.
 # labels = complete check-parataxis
@@ -1460,7 +1460,7 @@
 "<.>"
 	"." sent @punct #15->3
 
-# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:10
+# sent_id = cuentos:Le_umaybʼal_le_juyubʼ.wiki:10
 # text = Su kabʼij la, xubʼij le akʼal che le tat Xoʼr.
 # text[spa'] = Qué pasa, dijo el niño al padre Xoʼr.
 # labels = complete
@@ -1490,7 +1490,7 @@
 "<.>"
 	"." sent @punct #13->2
 
-# sent_id = cuentos:Le_umayb’al_le_juyub’.wiki:11
+# sent_id = cuentos:Le_umaybʼal_le_juyubʼ.wiki:11
 # text = Kʼatekʼuri le tat Xoʼr xubʼij, man kawaj taj, man kawaj taj.
 # text[spa'] = Entonces el padre Xoʼr dijo, no lo quieres, no lo quieres.
 # labels = complete check-2nd-person
@@ -1523,7 +1523,7 @@
 "<.>"
 	"." sent @punct #14->5
 
-# sent_id = cuentos:Mayb’al_k’olib’al.wiki:2
+# sent_id = cuentos:Maybʼal_kʼolibʼal.wiki:2
 # text = Ri wikan Chaliʼy kel pa juyubʼ Chwitziribʼal.
 # text[spa'] = El tío Chaliʼy va en monte Chwitziribʼal.
 # labels = complete
@@ -1544,7 +1544,7 @@
 "<.>"
 	"." sent @punct #8->4
 
-# sent_id = cuentos:Mayb’al_k’olib’al.wiki:4
+# sent_id = cuentos:Maybʼal_kʼolibʼal.wiki:4
 # text = Xkʼam bʼik pa jun utz laj ja, jawijeʼ chiʼ kʼo wi sibʼalaj uwach taq cheʼ, kʼo jalajoj taq kotzʼiʼj, kʼi taq awajibʼ.
 # text[spa'] = Se recibió en una pequeña y bonita casa, dónde aquí hay mucho a árboles, hay flores diferentes, animales muchos.
 # labels = complete check-everything
@@ -1602,7 +1602,7 @@
 "<.>"
 	"." sent @punct #27->1
 
-# sent_id = cuentos:Mayb’al_k’olib’al.wiki:8
+# sent_id = cuentos:Maybʼal_kʼolibʼal.wiki:8
 # text = Ri unan xubʼij che:  -xbʼe oxibʼ qʼij katqatzukuj. 
 # text[spa'] = Su madre le dijo: - se fue tres días que te hemos buscado.
 # labels = complete check-relative
@@ -1630,7 +1630,7 @@
 "<.>"
 	"." sent @punct #12->3
 
-# sent_id = cuentos:Miq’in_ja’_jela’_Chijolom.wiki:2
+# sent_id = cuentos:Miqʼin_jaʼ_jelaʼ_Chijolom.wiki:2
 # text = Keriqitaj kebʼ kʼaybʼal jaʼ jun miqʼin, jun saqliʼ.
 # text[spa'] = Se encuentran dos tiendas de agua un templado, un hirvido.
 # labels = complete check-translation
@@ -1655,7 +1655,349 @@
 "<.>"
 	"." sent @punct #10->1
 
-# sent_id = cuentos:Q’or_re_aj.wiki:1
+# sent_id = cuentos:Nutinimit_Qʼantel.wiki:1
+# text = 
+# text[spa] = 
+# labels = incomplete
+"<Ri>"
+	"ri" cnjsub
+	"ri" det
+"<nutinimit>"
+	"tinamit" n px1sg
+"<Qʼantel>"
+	"Qʼantel" np top
+"<sibʼalaj>"
+	"sibʼalaj" adj
+	"sibʼalaj" adv
+	"sibʼ" adj ints
+"<ekʼi>"
+	"ekʼi" adj
+	"e" pl
+		"kʼi" adj
+	"e" prn pro p3 pl
+		"kʼi" adj
+"<ri>"
+	"ri" cnjsub
+	"ri" det
+"<uwinaqil>"
+	"winaqil" n px3sg
+"<,>"
+	"," cm
+"<kʼo>"
+	"kʼo" part
+"<kʼi>"
+	"kʼi" adj
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<Tyox>"
+	"tyox" n
+"<ja>"
+	"ja" n
+"<,>"
+	"," cm
+"<kʼo>"
+	"kʼo" part
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<tijobʼal>"
+	"tijobʼal" n
+"<,>"
+	"," cm
+"<kʼo>"
+	"kʼo" part
+"<kʼolibʼal>"
+	"kʼolbʼal" n
+	"kʼolibʼal" n
+"<kech>"
+	"ech" n rel px3pl
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<ajkun>"
+	"ajkun" n
+"<,>"
+	"," cm
+"<xuqujeʼ>"
+	"xuqujeʼ" adv
+	"xuqujeʼ" cnjcoo
+"<kʼo>"
+	"kʼo" part
+"<ukʼolibʼal>"
+	"kʼolbʼal" n px3sg
+	"kʼolibʼal" n px3sg
+"<re>"
+	"ech" n rel px3sg
+"<etzʼanen>"
+	"*etzʼanen"
+"<potzʼ>"
+	"potzʼ" adj
+	"potzʼ" n
+"<,>"
+	"," cm
+"<kʼo>"
+	"kʼo" part
+"<ja>"
+	"ja" n
+"<rech>"
+	"rech" cnjsub
+	"ech" n rel px3sg
+"<qʼatbʼal>"
+	"qʼatbʼal" adj
+	"qʼatbʼaʼl" n
+"<tzij>"
+	"tzij" adj
+	"tzij" adv
+	"tzij" n
+"<,>"
+	"," cm
+"<ekʼo>"
+	"e" pl
+		"kʼo" part
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<ajbʼara>"
+	"*ajbʼara"
+"<rech>"
+	"rech" cnjsub
+	"ech" n rel px3sg
+"<le>"
+	"le" cnjsub
+	"le" det
+"<jalajoJ>"
+	"jalajoj" adj
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<komon>"
+	"komon" adj
+	"komon" n
+"<.>"
+	"." sent
+
+# sent_id = cuentos:Nutinimit_Qʼantel.wiki:2
+# text = 
+# text[spa] = 
+# labels = incomplete
+"<Le>"
+	"le" cnjsub
+	"le" det
+"<achijabʼ>"
+	"achij" n pl
+"<kechakunik>"
+	"chakuj" v tv anti impf s_pl3
+		"ik" aux
+	"chakuj" v tv anti agfoc impf s_pl3
+		"ik" aux
+	"chakun" v iv impf s_pl3
+		"ik" aux
+"<kukʼ>"
+	"ukʼ" n px3pl
+	"ukʼ" n rel px3pl
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<kemab>"
+	"*kemab"
+ʼ
+"<al>"
+	"ali" clf f
+	"al" adj
+"<,>"
+	"," cm
+"<ekʼo>"
+	"e" pl
+		"kʼo" part
+"<bʼanal>"
+	"bʼanal" n
+"<kaxlan>"
+	"kaxlan" adj
+"<wa>"
+	"wa" n
+"<,>"
+	"," cm
+"<xuqujeʼ>"
+	"xuqujeʼ" adv
+	"xuqujeʼ" cnjcoo
+"<ekʼo>"
+	"e" pl
+		"kʼo" part
+"<yakal>"
+	"*yakal"
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<ja>"
+	"ja" n
+"<,>"
+	"," cm
+"<ekʼo>"
+	"e" pl
+		"kʼo" part
+"<ajkʼayibʼ>"
+	"ajkʼay" n pl
+"<,>"
+	"," cm
+"<e>"
+	"e" cnjcoo
+	"e" pl
+	"e" prn pro p3 pl
+"<kʼo>"
+	"kʼo" part
+"<esukʼumal>"
+	"e" pl
+		"sukʼumal" n
+	"e" prn pro p3 pl
+		"sukʼumal" n
+"<taq>"
+	"taq" cnjsub
+	"taq" pl
+"<chʼichʼ>"
+	"chʼichʼ" n
+	"chʼichʼ²" n
+"<.>"
+	"." sent
+
+# sent_id = cuentos:Nutinimit_Qʼantel.wiki:3
+# text = 
+# text[spa] = 
+# labels = incomplete
+"<Kʼo>"
+	"kʼo" part
+"<xuqujeʼ>"
+	"xuqujeʼ" adv
+	"xuqujeʼ" cnjcoo
+"<kechakun>"
+	"chakuj" v tv anti impf s_pl3
+	"chakuj" v tv anti agfoc impf s_pl3
+	"chakun" v iv impf s_pl3
+"<pa>"
+	"pa" pr
+"<nim>"
+	"nim" adj
+"<tinamit>"
+	"tinamit" n
+"<,>"
+	"," cm
+"<e>"
+	"e" cnjcoo
+	"e" pl
+	"e" prn pro p3 pl
+"<kʼo>"
+	"kʼo" part
+"<ajtijabʼ>"
+	"ajtij" n pl
+"<,>"
+	"," cm
+"<e>"
+	"e" cnjcoo
+	"e" pl
+	"e" prn pro p3 pl
+"<kʼo>"
+	"kʼo" part
+"<ajkunanelab>"
+	"ajkunanel" n pl
+"<.>"
+	"." sent
+
+# sent_id = cuentos:Nutinimit_Qʼantel.wiki:4
+# text = 
+# text[spa] = 
+# labels = incomplete
+"<Are>"
+	"areʼ" prn pers p3 sg
+	"areʼ" prn pro p3 sg
+	"are" adv
+	"are" foc
+"<le>"
+	"le" cnjsub
+	"le" det
+"<ixoqibʼ>"
+	"ixoq" n pl
+"<ekʼo>"
+	"e" pl
+		"kʼo" part
+"<ajtʼisoʼmanelabʼ>"
+	"ajtʼisoʼmanel" n pl
+"<,>"
+	"," cm
+"<ekʼo>"
+	"e" pl
+		"kʼo" part
+"<ajsolol>"
+	"*ajsolol"
+"<bʼatzʼ>"
+	"Batzʼ" n
+	"bʼatzʼ" n
+	"bʼätzʼ" n
+"<,>"
+	"," cm
+"<e>"
+	"e" cnjcoo
+	"e" pl
+	"e" prn pro p3 pl
+"<kʼo>"
+	"kʼo" part
+"<ajbʼanal>"
+	"ajbʼanal" n
+"<wa>"
+	"wa" n
+"<,>"
+	"," cm
+"<xuqujeʼ>"
+	"xuqujeʼ" adv
+	"xuqujeʼ" cnjcoo
+"<ekʼo>"
+	"e" pl
+		"kʼo" part
+"<ixoqibʼ>"
+	"ixoq" n pl
+"<ajtijabʼ>"
+	"ajtij" n pl
+"<,>"
+	"," cm
+"<ajkununelabʼ>"
+	"ajkunanel" n pl
+"<nim>"
+	"nim" adj
+"<ketamabʼal>"
+	"etamabʼal" n px3pl
+"<.>"
+	"." sent
+
+# sent_id = cuentos:Nutinimit_Qʼantel.wiki:5
+# text = 
+# text[spa] = 
+# labels = incomplete
+"<Sibʼalaj>"
+	"sibʼalaj" adv
+"<jelik>"
+	"jelik" adj
+"<rumal>"
+	"umal" n rel px3sg
+"<le>"
+	"le" cnjsub
+	"le" det
+"<winaq>"
+	"winaq" n
+"<ketzijon>"
+	"tzijoj" v tv anti impf s_pl3
+	"tzijoj" v tv anti agfoc impf s_pl3
+	"tzijon" v iv impf s_pl3
+"<pa>"
+	"pa" pr
+"<le>"
+	"le" det
+"<kichʼabʼal>"
+	"chʼabʼal" n px3pl
+"<kʼicheʼ>"
+	"kʼicheʼ" n
+"<.>"
+	"." sent
+
+# sent_id = cuentos:Qʼor_re_aj.wiki:1
 # text = Pa ri komon rech San Vicente Buenabaj.
 # text[spa'] = En la comunidad de San Vicente Buenabaj.
 # labels = complete
@@ -1733,7 +2075,7 @@
 "<.>"
 	"." sent @punct #13->2
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:1
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:1
 # text = Jun qʼij kanoq pa komon Xechpup uqʼabʼ tinamit Xoʼl Abʼaj.
 # text[spa'] = Un día en comunidad Xechpup de mano del pueblo Xoʼl Abʼaj.
 # labels = complete
@@ -1761,7 +2103,7 @@
 "<.>"
 	"." sent @punct #12->2
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:2
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:2
 # text = Ri alaj ali Choʼn bʼenaq pa tijobʼal rachiʼl ri uchaqʼ Siʼl sibʼalaj kekiʼkotik.
 # text[spa'] = El pequeño Choʼn ha ido a la escuela del amigo del hermano de Siʼl mucho están feliz .
 # labels = complete check-morphology
@@ -1795,7 +2137,7 @@
 "<.>"
 	"." sent @punct #15->5
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:3
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:3
 # text = Pa ri bʼe xkiraq jun alaj imul saq rij, xkikʼam bʼik.
 # text[spa'] = En la senda encontraron un conejo blanco pequeño atrás, lo agarraron.
 # labels = complete
@@ -1827,7 +2169,7 @@
 "<.>"
 	"." sent @punct #14->4
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:4
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:4
 # text = Xkikʼut chi uwach ri ajtij xuqujeʼ chikiwach ri taq nikʼaj kachil.
 # text[spa'] = Lo enseñaron al maestro y a los otros amigos.
 # labels = complete
@@ -1857,7 +2199,7 @@
 "<.>"
 	"." sent @punct #13->1
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:5
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:5
 # text = Konojel ri akʼalabʼ sibʼalaj utz xkil le imul.
 # text[spa'] = Todos los niños muy bien vieron el conejo.
 # labels = incomplete
@@ -1880,7 +2222,7 @@
 "<.>"
 	"." sent @punct #9->6
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:6
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:6
 # text = Ri ajtij Lol xuta chike jawi xkichap wi ri alaj imul.
 # text[spa'] = El maestro Lol preguntó a ellos dónde el conejo pequeño agarraron.
 # labels = complete
@@ -1891,7 +2233,7 @@
 "<Lol>"
 	"Lol" np ant m @appos #3->2
 "<xuta>"
-	"ta’" v tv perf o_sg3 s_sg3 @root #4->0
+	"taʼ" v tv perf o_sg3 s_sg3 @root #4->0
 "<chike>"
 	"chi" pr @case #5->6
 		"ech" n rel px3pl @obl #6->4
@@ -1910,7 +2252,7 @@
 "<.>"
 	"." sent @punct #13->4
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:7
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:7
 # text = Ri alaj ali Siʼl xubʼij xqachap pa utzal ri Tyox.
 # text[spa'] = La pequeña niña Siʼl dijo agarramos al lado del Santo.
 # labels = complete
@@ -1937,7 +2279,7 @@
 "<.>"
 	"." sent @punct #11->5
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:13
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:13
 # text = Ri ajtij kubʼij chike: rajawaxik keqachajij ri awaj, are utikoʼn ri Ajaw.
 # text[spa'] = El maestro dice a ellos: es necesario que cuidemos los animales, la creación del Dueño. 
 # labels = complete check-nonverbal
@@ -1973,7 +2315,7 @@
 "<.>"
 	"." sent @punct #16->3
 
-# sent_id = cuentos:Ri_alaj_ali_Cho’n_ruk’_le_imul.wiki:14
+# sent_id = cuentos:Ri_alaj_ali_Choʼn_rukʼ_le_imul.wiki:14
 # text = Are kabʼan kʼax chike taq awajibʼ, kʼax kunaʼ ukʼuʼx ri Ajaw, xuqujeʼ kʼo kikʼaslemal xa uj junam kukʼ.
 # text[spa'] = Cuando malo se hace a los animales, malo se siente el alma del Señor, también ellos tienen vida, nosotros son igual con ellos.
 # labels = complete check-translation
@@ -2021,7 +2363,7 @@
 "<.>"
 	"." sent @punct #22->10
 
-# sent_id = cuentos:Ri_alaj_tz’unun.wiki:6
+# sent_id = cuentos:Ri_alaj_tzʼunun.wiki:6
 # text = Ri ali Naʼ kakiʼkotik are taq xrilo chi le laj tzʼunun xbʼe pa uwiʼ le jeʼl taq kotzʼiʼj.
 # text[spa'] = Naʼ estaba feliz cuando vio a la chuparrosa pequeña que fue encima de las flores bonitas.
 # labels = complete
@@ -2066,7 +2408,7 @@
 "<.>"
 	"." sent @punct #21->4
 
-# sent_id = cuentos:Ri_alaj_tz’unun.wiki:1
+# sent_id = cuentos:Ri_alaj_tzʼunun.wiki:1
 # text = Jun aqʼabʼil kʼo ri ali Naʼ chi uwach ri rachoch.
 # text[spa'] = Una madrugada está Naʼ en la casa.
 # labels = complete
@@ -2093,7 +2435,7 @@
 "<.>"
 	"." sent @punct #11->3
 
-# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:1
+# sent_id = cuentos:Ri_ali_Poʼx_ajkun.wiki:1
 # text = Pa jun jeʼl tijobʼal kutijoj ribʼ jun akʼal, ubʼiʼ Poʼx, utz kurilo ke pa tijobʼal ronojel taq qʼij.
 # text[spa'] = En una escuela bonita se enseña un niño, el nombre de Poʼx, le gusta a ellos en escuela todos los días.
 # labels = complete
@@ -2141,7 +2483,7 @@
 "<.>"
 	"." sent @punct #22->5
 
-# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:7
+# sent_id = cuentos:Ri_ali_Poʼx_ajkun.wiki:7
 # text = Xumaltyoxij che ri ajtij ronojel le xukʼut chi uwach.
 # text[spa'] = Dio gracias al maestro todo lo que enseñó a él.
 # labels = complete
@@ -2167,7 +2509,7 @@
 "<.>"
 	"." sent @punct #11->1
 
-# sent_id = cuentos:Ri_ali_Po’x_ajkun.wiki:8
+# sent_id = cuentos:Ri_ali_Poʼx_ajkun.wiki:8
 # text = Te kʼu riʼ xutzʼibʼaj ribʼ pa ri nimalaj tijobʼal rech Ajkuʼn.
 # text[spa'] = Ahora pero ése escribió a él en la escuela grande a él *Ajkuʼn.
 # labels = complete
@@ -2196,7 +2538,7 @@
 "<.>"
 	"." sent @punct #12->4
 
-# sent_id = cuentos:Ri_imul_rachi’l_le_xik.wiki:4
+# sent_id = cuentos:Ri_imul_rachiʼl_le_xik.wiki:4
 # text = Ri imul xubʼij: – maltyox chawe, we kabʼan ri toqʼobʼ, chakuyuʼ kinkaʼy apan jutzʼit ajsik, xchaʼ ri imul.
 # text[spa'] = El conejo dijo: – gracias a ti, si haces el favor, soporta que miro un poco arriba, el conejo dijo.
 # labels = complete check-translation
@@ -2249,7 +2591,7 @@
 "<.>"
 	"." sent @punct #25->3
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:1
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:1
 # text = Xkʼulmataj pa jun Komon chiʼ uwach jun juyubʼ, xuriqa jun qʼij xkiriq kibʼ jun imul rukʼ le kok.
 # text[spa'] = Pasó en una Comunidad cerca de un monte, llegó un día se encontraron un conejo y una tortuga.
 # labels = complete check-translation check-attachment
@@ -2294,7 +2636,7 @@
 "<.>"
 	"." sent @punct #20->1
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:3
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:3
 # text = Le imul xubʼij: kok, katkowin taj katzaq anim, nojim katbʼinik.
 # text[spa'] = El conejo dijo: tortuga, puedes perder carrera, lento andas.
 # labels = complete check-translation
@@ -2328,7 +2670,7 @@
 "<.>"
 	"." sent @punct #15->3
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:4
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:4
 # text = Qastzij xcha ri kok, in nojim kinbʼinik.
 # text[spa'] = Es verdad dijo la tortuga, yo lento ando.
 # labels = complete check-attachment
@@ -2352,7 +2694,7 @@
 "<.>"
 	"." sent @punct #10->1
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:5
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:5
 # text = Xa kʼu kinbʼij chawe chi in kinchʼak ri anim.
 # text[spa'] = Sólo pero digo a ti que yo conquisto la carrera.
 # labels = complete check-pronoun
@@ -2378,8 +2720,8 @@
 "<.>"
 	"." sent @punct #11->3
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:6
-# text = Xpe ri imul xutze’j uwach ri kok, xkiyuk b’a k’ib’ le keb’ awajib’ rech kel che anim.
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:6
+# text = Xpe ri imul xutzeʼj uwach ri kok, xkiyuk bʼa kʼibʼ le kebʼ awajibʼ rech kel che anim.
 # text[spa'] = Vino el conejo que se rio a la tortuga, se *xkiyuk los dos animales para ir a carrera.
 # labels = complete check-translation
 "<Xpe>"
@@ -2388,7 +2730,7 @@
 	"ri" det @det #2->3
 "<imul>"
 	"imul" n @nsubj #3->1
-"<xutze’j>"
+"<xutzeʼj>"
 	"tzeʼj" v tv perf o_sg3 s_sg3 @acl #4->3
 "<uwach>"
 	"wach" n rel px3sg @obl #5->4
@@ -2400,15 +2742,15 @@
 	"," cm @punct #8->9
 "<xkiyuk>"
 	"yuk" v tv perf o_sg3 s_pl3 @parataxis #9->1
-"<b’a>"
+"<bʼa>"
 	"bʼaʼ" mod @discourse #10->9
-"<k’ib’>"
+"<kʼibʼ>"
 	"ibʼ" n rel px3pl @obj #11->9
 "<le>" 
 	"le" det @det #12->14
-"<keb’>"
+"<kebʼ>"
 	"kebʼ" num @nummod #13->14
-"<awajib’>"
+"<awajibʼ>"
 	"awaj" n pl @nsubj #14->9
 "<rech>"
 	"ech" n rel px3sg @obl #15->9
@@ -2422,7 +2764,7 @@
 "<.>"
 	"." sent @punct #20->1
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:7
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:7
 # text = Ri kʼamal bʼe xubʼij chike, chimaja ri anim.
 # text[spa'] = La guía dijo a ellos, agarren la carrera.
 # labels = complete
@@ -2449,7 +2791,7 @@
 "<.>"
 	"." sent @punct #12->4
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:8
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:8
 # text = Ri imul xumaj ri anim, xuya kan le kok.
 # text[spa'] = El conejo agarró la carrera, dio la tortuga.
 # labels = complete check-translation
@@ -2476,7 +2818,7 @@
 "<.>"
 	"." sent @punct #11->3
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:9
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:9
 # text = Ri kok nojim xbʼek, xuchʼijo xopan pa ukʼisbʼalil le anim.
 # text[spa'] = La tortuga lenta fue , sufrió llegar en el fin de la carrera.
 # labels = complete
@@ -2507,7 +2849,7 @@
 "<.>"
 	"." sent @punct #14->4
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:10
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:10
 # text = Ri imul xuchʼij taj, xkanaj pa bʼe, rumal ri nimal kujaluj ri imul, xutzaq ri anim.
 # text[spa'] = El conejo enduró, quedó en senda, por eso jefe finge el conejo, perdió la carrera.
 # labels = complete check-translation check-parataxis
@@ -2552,7 +2894,7 @@
 "<.>"
 	"." sent @punct #20->3
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:11
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:11
 # text = Pixabʼ: man utz taj kʼax kujchʼaw chikij nikʼaj qachil.
 # text[spa'] = Consejo: no es bueno que hablemos malo sobre amigo otro.
 # labels = complete check-translation
@@ -2580,7 +2922,7 @@
 "<.>"
 	"." sent @punct #12->1
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:12
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:12
 # text = Kqabʼij man kekowin taj.
 # text[spa'] = Decimos que no pueden.
 # labels = complete
@@ -2595,7 +2937,7 @@
 "<.>"
 	"." sent @punct #5->1
 
-# sent_id = cuentos:Ri_imul_xuquje’_ri_kok.wiki:13
+# sent_id = cuentos:Ri_imul_xuqujeʼ_ri_kok.wiki:13
 # text = Xa rajawaxik kqatoʼ qibʼ pa qakʼaslemal.
 # text[spa'] = Sólo es necesario que ayudemos a nosotros mismos en nuestras vidas.
 # labels = complete
@@ -2662,7 +3004,7 @@
 "<ulew>"
 	"ulew" n @nmod #8->7
 "<rech>"
-	"ech" n rel px3sg @mark #9->10
+	"rech" cnjsub @mark #9->10
 "<kabʼan>"
 	"bʼan" v tv pass impf s_sg3 @advcl #10->5
 "<ri>" 
@@ -2916,7 +3258,7 @@
 "<.>"
 	"." sent @punct #21->7
 
-# sent_id = cuentos:Ri_k’wa’.wiki:1
+# sent_id = cuentos:Ri_kʼwaʼ.wiki:1
 # text = Pa jun nim kʼacheʼlaj, kʼo jun kʼwaʼ sibʼalaj saqloloj, nim uwach.
 # text[spa'] = En un bosque grande, hay un pozo mucho blanco, su aspecto es grande.
 # labels = complete check-translation
@@ -2949,7 +3291,7 @@
 "<.>"
 	"." sent @punct #14->6
 
-# sent_id = cuentos:Ri_k’wa’.wiki:5
+# sent_id = cuentos:Ri_kʼwaʼ.wiki:5
 # text = We kechajix taq le kʼwa jacha kinbʼij; junalik kʼo jaʼ xuqujeʼ sibʼalaj saqloloj.
 # text[spa'] = Si se cuidan los pozos como digo; eterno hay agua también mucho blanco.
 # labels = complete check-translation check-conjunction
@@ -2962,7 +3304,7 @@
 "<le>"
 	"le" det @det #4->5
 "<kʼwa>"
-	"k’wa’" n @nsubj #5->2
+	"kʼwaʼ" n @nsubj #5->2
 "<jacha>"
 	"jacha" adv @advmod #6->7
 "<kinbʼij>"
@@ -2984,10 +3326,10 @@
 "<.>"
 	"." sent @punct #15->10
 
-# sent_id = cuentos:Ri_k’wa’.wiki:6
+# sent_id = cuentos:Ri_kʼwaʼ.wiki:6
 # text = Ri a Kel xkikot ri ranimaʼ, xuto ri xubʼij ri ratiʼt chech.
 # text[spa'] = Kel, su ánima estuvo feliz, ayudó que dijo la abuela a él.
-# labels = complete check-translation
+# labels = complete check-translation light-headed-relative
 "<Ri>"
 	"ri" det @det #1->3
 "<a>"
@@ -3005,7 +3347,7 @@
 "<xuto>"
 	"toʼ" v tv perf o_sg3 s_sg3 @parataxis #8->4
 "<ri>"
-	"ri" prn rel @obj #9->8
+	"ri" det @obj #9->8
 "<xubʼij>"
 	"bʼij" v tv perf o_sg3 s_sg3 @acl #10->9
 "<ri>"
@@ -3018,7 +3360,7 @@
 "<.>"
 	"." sent @punct #15->4
 
-# sent_id = cuentos:Ri_k’wa’.wiki:10
+# sent_id = cuentos:Ri_kʼwaʼ.wiki:10
 # text = Xa rumal ketaʼm konojel ri winaq kkiqumuj le jaʼ. 
 # text[spa'] = Sólo por eso lo supieron todas las personas que beben el agua. 
 # labels = complete check-translation
@@ -3043,7 +3385,7 @@
 "<.>"
 	"." sent @punct #10->3
 
-# sent_id = cuentos:Ri_sub’unel.wiki:4
+# sent_id = cuentos:Ri_subʼunel.wiki:4
 # text = Te kʼu kunaʼo le tataʼ, are nabʼe xsikir taq raqan, uqʼabʼ rumal xibʼribʼ. 
 # text[spa'] = Ahora pero lo siente el señor, primero se durmieron sus pies y sus manos por él miedo.
 # labels = incomplete
@@ -3192,7 +3534,7 @@
 "<.>"
 	"." sent @punct #14->3
 
-# sent_id = cuentos:Ri_xojoj_kech_k’oyab’.wiki:4
+# sent_id = cuentos:Ri_xojoj_kech_kʼoyabʼ.wiki:4
 # text = Rumal ri kʼax xkibʼan chi ke kebʼ alaxik, kibʼiʼ Jun Ajpu rachiʼl Jun Jun Ajpu. 
 # text[spa'] = Por el mal hicieron a ellos dos clanes, su nombre de Hunahpú y su compañero Hun-Hunahpú. 
 # labels = complete check-translation
@@ -3231,7 +3573,7 @@
 "<.>"
 	"." sent @punct #17->4
 
-# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:2
+# sent_id = cuentos:Sakʼaj_alaj_a_Siʼs.wiki:2
 # text = Xa rumal karaj kretaʼmaj unikʼoxik xuqujeʼ utzʼibʼaxik uwach wuj, utz karil le etzʼanem xuqujeʼ le bʼix. 
 # text[spa'] = Sólo quiere aprender leer también escribir a libro, le gusta el juego también el canto. 
 # labels = complete check-attachment
@@ -3272,7 +3614,7 @@
 "<.>"
 	"." sent @punct #18->3
 
-# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:3
+# sent_id = cuentos:Sakʼaj_alaj_a_Siʼs.wiki:3
 # text = Xopan jun qʼij xbʼe utukel pa tijobʼal xuriq apanoq jupuq tzʼiʼ pa ri bʼe. 
 # text[spa'] = Llegó un día fue solo en escuela encontró una camada de perros en la senda. 
 # labels = complete
@@ -3308,7 +3650,7 @@
 "<.>"
 	"." sent @punct #16->1
 
-# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:7
+# sent_id = cuentos:Sakʼaj_alaj_a_Siʼs.wiki:7
 # text = Ri nan Toʼn aninaq xukʼexo ratzʼyaq ri ral, xukʼam bʼi pa tinimit rukʼ ajkun.
 # text[spa'] = Toʼn cambió la ropa del niño, recibió en tierra con médico.
 # labels = complete check-translation
@@ -3346,7 +3688,7 @@
 "<.>"
 	"." sent @punct #17->5
 
-# sent_id = cuentos:Sak’aj_alaj_a_Si’s.wiki:9
+# sent_id = cuentos:Sakʼaj_alaj_a_Siʼs.wiki:9
 # text = Jewa xkibʼano xetzalij cho kachoch rukʼ kikotemal.
 # text[spa'] = Así lo hicieron volver a casa con placer.
 # labels = complete check-complement
@@ -3369,7 +3711,7 @@
 "<.>"
 	"." sent @punct #10->2
 
-# sent_id = cuentos:Sutz’_sachanel.wiki:1
+# sent_id = cuentos:Sutzʼ_sachanel.wiki:1
 # text = Jelaʼ pa ri komon Xeʼwenabʼaj kel wi jun akʼal ubʼiʼ a Tiʼx, ri akʼal sibʼalaj ukʼatik kayuqʼunik, ekʼo jobʼ uchij, jun ukej, jun uwakax, xuqujeʼ jun utzʼiʼ ubʼi a Paʼtz.
 # text[spa'] = Allá en la comunidad Xeʼwenabʼaj es un joven de nombre Tiʼx, el niño mucho fuego pastorea , hay cinco oveja, un caballo, una vaca, también un el perro del nombre de Paʼtz.
 # labels = incomplete
@@ -3451,7 +3793,7 @@
 "<.>"
 	"." sent @punct
 
-# sent_id = cuentos:Sutz’_sachanel.wiki:2
+# sent_id = cuentos:Sutzʼ_sachanel.wiki:2
 # text = Nojel qʼij ri a Tiʼx kuyuqʼuj le taq awaj jelaʼ pa nikʼaj jaʼ, chirij ri juyubʼ ubʼiʼ Tenaʼ.
 # text[spa'] = Cada día Tiʼx pastorea los animales allá en agua otra, atrás de la montaña de nombre Tenaʼ.
 # labels = complete check-attachment
@@ -3497,7 +3839,7 @@
 "<.>"
 	"." sent @punct #21->6
 
-# sent_id = cuentos:Sutz’_sachanel.wiki:7
+# sent_id = cuentos:Sutzʼ_sachanel.wiki:7
 # text = Ri a Tiʼx xeresaj ri awajibʼ, xbʼe pa yuqʼ.
 # text[spa'] = Tiʼx quitó los animales, fue a pastorear.
 # labels = complete
@@ -3524,7 +3866,7 @@
 "<.>"
 	"." sent @punct #11->4
 
-# sent_id = cuentos:Sutz’_sachanel.wiki:15
+# sent_id = cuentos:Sutzʼ_sachanel.wiki:15
 # text = Xetzalij bʼi kukʼ le awaj rukʼ kikotemal.
 # text[spa'] = Volvieron con el animal con placer.
 # labels = complete
@@ -3545,7 +3887,7 @@
 "<.>"
 	"." sent @punct #8->1
 
-# sent_id = cuentos:Upixab’_nan_To’n.wiki:5
+# sent_id = cuentos:Upixabʼ_nan_Toʼn.wiki:5
 # text = Ri a Teʼk xumaltyoxij che ri ratiʼt, rumal ri utzalaj noʼjibʼal xukʼut chech.
 # text[spa'] = Teʼk dio gracias a la abuela, por la idea buenísima que le enseñó.
 # labels = complete check-relative
@@ -3582,7 +3924,7 @@
 "<.>"
 	"." sent @punct #17->4
 
-# sent_id = cuentos:Upixab’_nan_To’n.wiki:6
+# sent_id = cuentos:Upixabʼ_nan_Toʼn.wiki:6
 # text = Pa jun qʼij riʼ, le a Teʼk, kel ukʼuʼx chech ri joʼq, man karaj ta chik kakʼatisax le joʼq.
 # text[spa'] = En día de estos, el Teʼk, tiene compasión del ?, no quiere que otra vez se encienda el ?
 # labels = complete check-translation

@@ -1984,8 +1984,8 @@
 ^?/?$
 
 # sent_id = canpixabaj2015:334:86:b
-# text = Jas karaj kaʼan chutzakik le ti’ij.
-# text[orig] = b. jas ka-ø-r-aaj [k-ø-a-ʼan [ch-u-tzaak-ik le ti’iij]]?
+# text = Jas karaj kaʼan chutzakik le tiʼij.
+# text[orig] = b. jas ka-ø-r-aaj [k-ø-a-ʼan [ch-u-tzaak-ik le tiʼiij]]?
 # text[eng] = How does she wants you to cook the meat?
 # labels = 334:86:b
 ^Jas/Jas$

@@ -22,7 +22,7 @@ AM_CONDITIONAL([HAVE_HFSTOSPELL], [test x$hfstospell = xyes])
 
 m4_define([required_apertium_version], [3.3.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)
-PKG_CHECK_MODULES(HFST,       hfst >= 3.15.3)
+PKG_CHECK_MODULES(HFST,       hfst >= 3.15.2)
 
 AC_CHECK_PROG([HFSTLEXC], [hfst-lexc], [yes], [no])
 AS_IF([test x$HFSTLEXC = xno], [AC_MSG_ERROR([You don't have hfst-lexc installed])])

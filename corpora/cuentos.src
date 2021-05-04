@@ -94,7 +94,7 @@
 # text = We man je kabʼan chike, kabʼison le rajaw tuj.
 # text[spa] =
 # labels = 
-^We/we<cnjsub>/we<det>$
+^We/we¹<cnjsub>/we<det>$
 ^man/man<neg>/<imp><neg><s_sg3>anik<v><iv>$
 ^je/je<adv>$
 ^kabʼan/<impf><o_sg3><s_sg2>bʼan<v><tv>$

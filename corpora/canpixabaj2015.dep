@@ -3849,7 +3849,7 @@
 "<wuj>"
 	"wuj" n @obj #4->1
 "<rech>"
-	"ech" n rel px3sg @mark #5->6
+	"rech" cnjsub @mark #5->6
 "<kasikʼij>"
 	"sikʼij" v tv impf o_sg3 s_sg2 @advcl #6->1
 "<uwach>"
@@ -3905,7 +3905,7 @@
 "<alanxax>"
 	"alanxax" n @obj #4->1
 "<rech>"
-	"ech" n rel px3sg @mark #5->6
+	"rech" cnjsub @mark #5->6
 "<kaqatijo>"
 	"tij" v tv impf o_sg3 s_pl1 @advcl #6->1
 		"u" aux @aux:ss #7->6
@@ -3924,7 +3924,7 @@
 "<wa>"
 	"wa" n @nsubj #3->1
 "<rech>"
-	"ech" n rel px3sg @mark #4->5
+	"rech" cnjsub @mark #4->5
 "<kaqatijo>"
 	"tij" v tv impf o_sg3 s_pl1 @advcl #5->1
 		"u" aux @aux:ss #6->5
@@ -3964,7 +3964,7 @@
 "<ichaj>"
 	"ichäj" n @nsubj #5->1
 "<rech>"
-	"ech" n rel px3sg @mark #6->7
+	"rech" cnjsub @mark #6->7
 "<katzako>"
 	"tzak" v tv impf o_sg3 s_sg2 @advcl #7->1
 		"u" aux @aux:ss #8->7
@@ -4015,7 +4015,7 @@
 	"kʼut" v tv perf o_sg3 s_sg3 @root #1->0
 		"u" aux @aux:ss #2->1
 "<rech>"
-	"ech" n rel px3sg @mark #3->4
+	"rech" cnjsub @mark #3->4
 "<kaqilo>"
 	"il" v tv impf o_sg3 s_pl1 @ccomp #4->1
 		"u" aux @aux:ss #5->4
@@ -4050,7 +4050,7 @@
 	"waʼ" v iv impf s_sg1 @root #1->0
 		"ik" aux @aux:ss #2->1
 "<rech>"
-	"ech" n rel px3sg @mark #3->5
+	"rech" cnjsub @mark #3->5
 "<na>"
 	"na" neg @aux #4->5
 "<kinyowaj>"
@@ -4069,7 +4069,7 @@
 	"chakun" v iv impf s_sg1 @root #1->0
 		"ik" aux @aux:ss #2->1
 "<rech>"
-	"ech" n rel px3sg @mark #3->4
+	"rech" cnjsub @mark #3->4
 "<kinwaʼik>"
 	"waʼ" v iv impf s_sg1 @advcl #4->1
 		"ik" aux @aux:ss #5->4
@@ -4084,7 +4084,7 @@
 "<Xojkitʼuyubʼaʼ>"
 	"tʼuyubʼaʼ" v tv perf o_pl1 s_pl3 @root #1->0
 "<rech>"
-	"ech" n rel px3sg @mark #2->3
+	"rech" cnjsub @mark #2->3
 "<kixqatatabʼej>"
 	"tatabʼej" v tv impf o_pl2 s_pl1 @advcl #3->1
 "<.>"
@@ -4099,7 +4099,7 @@
 	"chakun" v iv impf s_sg1 @root #1->0
 		"ik" aux @aux:ss #2->1
 "<rech>"
-	"ech" n rel px3sg @mark #3->4
+	"rech" cnjsub @mark #3->4
 "<katwaʼik>"
 	"waʼ" v iv impf s_sg2 @advcl #4->1
 		"ik" aux @aux:ss #5->4
@@ -4120,7 +4120,7 @@
 "<abʼaj>"
 	"abʼäj" n @obj #4->1
 "<rech>"
-	"ech" n rel px3sg @mark #5->6
+	"rech" cnjsub @mark #5->6
 "<kixkil>"
 	"il" v tv impf o_pl2 s_pl3 @advcl #6->1
 "<loq>"
@@ -4156,7 +4156,7 @@
 	"chakun" v iv impf s_sg2 @root #1->0
 		"ik" aux @aux:ss #2->1
 "<rech>"
-	"ech" n rel px3sg @mark #3->4
+	"rech" cnjsub @mark #3->4
 "<keatzuq>"
 	"tzuq" v tv impf o_pl3 s_sg2 @advcl #4->1
 "<le>"
@@ -4223,7 +4223,7 @@
 "<kifondo>"
 	"fondo" n px3pl @obj #4->1
 "<rech>"
-	"ech" n rel px3sg @mark #5->6
+	"rech" cnjsub @mark #5->6
 "<kakichapobʼej>"
 	"chapobʼej" v tv impf o_sg3 s_pl3 @advcl #6->1
 "<.>"
@@ -4359,7 +4359,7 @@
 "<uloq>"
 	"uloq" adv dir @advmod #2->1
 "<rech>"
-	"ech" n rel px3sg @mark #3->4
+	"rech" cnjsub @mark #3->4
 "<kojrilo>"
 	"il" v tv impf o_pl1 s_sg3 @advcl #4->1
 		"u" aux @aux:ss #5->4

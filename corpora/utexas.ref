@@ -179,7 +179,7 @@
 # labels = tijonik-2 complete
 ^La/la<qst>$
 ^utz/utz<adj>$
-^we/we<cnjsub>$
+^we/we¹<cnjsub>$
 ^kinbʼij/<impf><o_sg3><s_sg1>bʼij<v><tv>$
 ^…/…<sent>$
 ^?/?<sent>$
@@ -2407,7 +2407,7 @@
 ^Utz/utz<adj>$
 ^we/we<det>$
 ^nutzʼiʼ/<px1sg>tzʼiʼ<n>$
-^we/we<prn><rel>$
+^we/we²<cnjsub>$
 ^xisipaj/<perf><o_sg3><s_pl2>sipaj<v><tv>$
 ^chwe/chi<pr>+<px1sg>ech<n><rel>$
 ^./.<sent>$
@@ -2419,7 +2419,7 @@
 ^Utz/utz<adj>$
 ^we/we<det>$
 ^achi/achi<n>$
-^we/we<prn><rel>$
+^we/we²<cnjsub>$
 ^xinkunanik/<perf><s_sg1>kunaj<v><tv><anti><agfoc>+ik<mark>$
 ^./.<sent>$
 
@@ -2466,7 +2466,7 @@
 # labels = tijonik-34 complete
 ^We/we<det>$
 ^achi/achi<n>$
-^we/we<prn><rel>$
+^we/we²<cnjsub>$
 ^xusipaj/<perf><o_sg3><s_sg3>sipaj<v><tv>$
 ^jun/jun<num>$
 ^poʼt/poʼt<n>$
@@ -2512,7 +2512,7 @@
 # labels = tijonik-34 complete
 ^Chitatabʼej/<imp><o_sg3><s_pl2>tatabʼej<v><tv>$
 ^jas/jas<prn><itg>$
-^we/we<prn><rel>$
+^we/we²<cnjsub>$
 ^kimbʼij/<impf><o_sg3><s_sg1>bʼij<v><tv>$
 ^./.<sent>$
 
@@ -2602,7 +2602,7 @@
 # text[spa] = Es bueno lo que trabajo.
 # labels = tijonik-35 complete
 ^Utz/utz<adj>$
-^we/we<prn><rel>$
+^we/we²<cnjsub>$
 ^kinchakuj/<impf><o_sg3><s_sg1>chakuj<v><tv>$
 ^./.<sent>$
 
@@ -2659,7 +2659,7 @@
 # labels = tijonik-35 complete
 ^In/in<prn><pers><p1><sg>$
 ^waʼ/waʼ<prn><dem>$
-^we/we<prn><rel>$
+^we/we²<cnjsub>$
 ^kinyʼow/<impf><s_sg1>yaʼ<v><tv><anti><agfoc>$
 ^le/le<det>$
 ^tzijonem/tzijonem<n>$
@@ -2749,7 +2749,7 @@
 # text = We kʼo arajil chakʼama loq.
 # text[spa] = Si tenés dinero, traélo (aquí).
 # labels = tijonik-36 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^kʼo/kʼo<part>$
 ^arajil/<px2sg>rajil<n>$
 ^chakʼama/<imp><o_sg3><s_sg2>kʼam<v><tv>+uʼ<mark><fin>$
@@ -2760,7 +2760,7 @@
 # text = We kʼo arajil, chakʼama la chweʼq.
 # text[spa] = Si tenés dinero, traélo (aquí).
 # labels = tijonik-36 incomplete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^kʼo/kʼo<part>$
 ^arajil/<px2sg>rajil<n>$
 ^chakʼama/<imp><o_sg3><s_sg2>kʼam<v><tv>+uʼ<mark><fin>$
@@ -3118,7 +3118,7 @@
 # text = We chatchakunik, kʼo awa.
 # text[spa] = Si vas a trabajar, tienes comida.
 # labels = tijonik-42 complete check-verb
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^chatchakunik/<imp><s_sg2>chakun<v><iv>+ik<mark>$
 ^,/,<cm>$
 ^kʼo/kʼo<part>$
@@ -3129,7 +3129,7 @@
 # text = We chatchakunik, kʼo awa.
 # text[spa] = Si vas a trabajar, tienes comida.
 # labels = tijonik-42 complete check-verb
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^chatchakunik/<imp><s_sg2>chakun<v><iv>+ik<mark>$
 ^,/,<cm>$
 ^kʼo/kʼo<part>$
@@ -3140,7 +3140,7 @@
 # text = We chabʼij, na katinchʼabʼej ta chik.
 # text[spa] = Si vas a decir, ya no te voy a hablar.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^chabʼij/<imp><o_sg3><s_sg2>bʼij<v><tv>$
 ^,/,<cm>$ 
 ^na/na<neg>$
@@ -3153,7 +3153,7 @@
 # text = We chojbʼe pa le nimaqʼij, keqil le ajxojolobʼ.
 # text[spa] = Si vamos a la feria, veremos a los bailadores.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^chojbʼe/<imp><s_pl1>bʼe<v><iv>$
 ^pa/pa<pr>$
 ^le/le<det>$
@@ -3168,7 +3168,7 @@
 # text = Wemna chpe le jabʼ kakam le abʼix.
 # text[spa] =  Si no viene la lluvia se muere la milpa.
 # labels = tijonik-42 complete
-^Wemna/we<cnjsub>+man<neg>$
+^Wemna/we¹<cnjsub>+man<neg>$
 ^chpe/<imp><s_sg3>pe<v><iv>$
 ^le/le<det>$
 ^jabʼ/jäbʼ<n>$
@@ -3181,7 +3181,7 @@
 # text = Wemna chaloqʼ axiyal, na kimbʼe ta awukʼ.
 # text[spa] = Si no te compras un abrigo, no iré contigo.
 # labels = tijonik-42 complete
-^Wemna/we<cnjsub>+man<neg>$
+^Wemna/we¹<cnjsub>+man<neg>$
 ^chaloqʼ/<imp><o_sg3><s_sg2>loqʼ<v><tv>$
 ^axiyal/axiyal<n>$
 ^,/,<cm>$
@@ -3290,7 +3290,7 @@
 # text = We ta xatbʼe wukʼ pa le tinamit, xaloqʼ ta laʼ le ujastaq le akʼajol
 # text[spa] = Si hubieras ido conmigo al pueblo, hubieras comprado la ropa de tu hijo.
 # labels = tijonik-42 incomplete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^xatbʼe/<perf><s_sg2>bʼe<v><iv>$
 ^wukʼ/<px1sg>ukʼ<n><rel>$
@@ -3311,7 +3311,7 @@
 # text = We ta xatbʼe wukʼ pa le tinamit, xaloqʼ ta waʼ we jastaq
 # text[spa] =  Si hubieras ido conmigo al pueblo, hubieras comprado esta ropa.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^xatbʼe/<perf><s_sg2>bʼe<v><iv>$
 ^wukʼ/<px1sg>ukʼ<n><rel>$
@@ -3330,7 +3330,7 @@
 # text = We ta ma ta xatbʼe pa le tinamit ma ta xaloqʼ laʼ le ujastaq le akʼajol.
 # text[spa] =  Si no hubieras ido al pueblo, no hubieras comprado la ropa de tu hijo.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
@@ -3352,7 +3352,7 @@
 # text = We ta ma ta xinawilo ma ta kinya bʼe laʼ chawech.
 # text[spa] = Si no me hubieras visto, no te hubiera dado permiso.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
@@ -3369,7 +3369,7 @@
 # text = We ta xakunaj le atat ma ta xkam laʼ.
 # text[spa] = Si hubieras curado a tu papá, no se hubiera muerto.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^xakunaj/<perf><o_sg3><s_sg2>kunaj<v><tv>$
 ^le/le<det>$
@@ -3384,7 +3384,7 @@
 # text = We ta xanimaj jas le xinbʼij chawech, ma ta je laʼ laʼ xabʼano.
 # text[spa] = Si me hubieras hecho caso, no estarías así.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^xanimaj/<perf><o_sg3><s_sg2>nimaj<v><tv>$
 ^jas/jas<prn><itg>$
@@ -3404,7 +3404,7 @@
 # text = We ta ma ta aqʼabʼ kabʼek, maj ta utem laʼ kuriq pa le nimachʼichʼ.
 # text[spa] = Si no se fuera temprano, no encontraría silla en el bus.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^ma/ma<neg>$
 ^ta/taj<neg>$
@@ -3425,7 +3425,7 @@
 # text = We ta kape le jabʼ kamik.
 # text[spa] = Si hoy viniera la lluvia.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^kape/<impf><s_sg3>pe<v><iv>$
 ^le/le<det>$
@@ -3437,7 +3437,7 @@
 # text = We ta je laʼ kabʼan pa le tinamit.
 # text[spa] = Si así se hiciera en el pueblo.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^je/je<adv>$
 ^laʼ/laʼ<prn><dem>$
@@ -3451,7 +3451,7 @@
 # text = We ta ne in xinbʼanowik, are le a Teʼk xbʼanowik.
 # text[spa] = Si yo no fui quien lo hizo, fue el Diego quien lo hizo.
 # labels = tijonik-42 incomplete check-pronoun
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^ne/ne<adv>$
 ^in/in<prn><pers><p1><sg>$
@@ -3468,7 +3468,7 @@
 # text = We ta ne aʼre xetijow le rikil, are le komon xetijowik.
 # text[spa] = Si no fueron ellos quienes comieron la comida, fueron los de la comunidad.
 # labels = tijonik-42 incomplete check-pronoun
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ta/taj<neg>$
 ^ne/ne<adv>$
 ^aʼre/aʼre<prn><pers><p3><pl>$
@@ -3698,7 +3698,7 @@
 # text = We ne xatkowin ta laʼ xatbʼe rukʼ le al Talin.
 # text[spa] = Tal vez hubieras podido ir con Catarina.
 # labels = tijonik-42 complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ne/ne<adv>$
 ^xatkowin/<perf><s_sg2>kowin<v><iv>$
 ^ta/taj<neg>$ 

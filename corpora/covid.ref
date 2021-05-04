@@ -67,7 +67,7 @@
 # text = We kariq chi jumul le kʼakʼ yabʼil coronavirus man are ta kubʼij kanaj kan pa ri akʼaslemal.
 # text[spa] = Contraer el nuevo coronavirus NO significa que vaya a conservarlo de por vida.
 # labels = incomplete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^kariq/<impf><o_sg3><s_sg2>riq<v><tv>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^jumul/jumul<n>$
@@ -139,7 +139,7 @@
 # text = We katij tzam man katuchajij ta che le COVID-19 xuqujeʼ xibʼabʼal chawe.
 # text[spa] = Beber alcohol NO lo protegerá del COVID-19 y podría ser peligroso.
 # labels = complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^katij/<impf><o_sg3><s_sg2>tij<v><tv>$
 ^tzam/tzam<n>$
 ^man/man<neg>$
@@ -201,7 +201,7 @@
 # text = We katatin rukʼ kʼatan jaʼ man kuqʼatej ta le kʼakʼ yabʼil coronavirus.
 # text[spa] = Bañarse con agua caliente NO PREVIENE la infección por el nuevo coronavirus.
 # labels = complete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^katatin/<impf><s_sg2>atin<v><iv>$
 ^rukʼ/<px3sg>ukʼ<n><rel>$
 ^kʼatan/kʼatän<adj>$
@@ -317,7 +317,7 @@
 ^Man/Man<np><top><barb>/man<neg>/<imp><neg><s_sg3>an<v><iv>$
 ^ilom/ilom<adj>/il<v><tv><pp>$
 ^ta/taj<neg>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kawoq/*kawoq$
 ^atzaʼm/<px2sg>tzaʼm<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
@@ -341,7 +341,7 @@
 # text = We katij anxux man katutoʼ ta chi uqʼatixik le kʼakʼ yabʼil coronavirus (2019-nCOV).
 # text[spa] = Comer ajo NO ayuda a prevenir el contagio del nuevo coronavirus (2019-nCoV).
 # labels = incomplete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^katij/<impf><o_sg3><s_sg2>tij<v><tv>$
 ^anxux/axux<n>$
 ^man/man<neg>$
@@ -462,7 +462,7 @@
 # text = We riʼ are che le e yabʼ winaq kʼateʼ kikʼut le qʼaqʼ chi kij chi uxoʼl le kebʼ xuqujeʼ lajuj qʼij che ri xkiriq le yabʼil.
 # text[spa] = Esto se debe a que las personas infectadas presentan fiebre entre 2 y 10 días después de contraer la enfermedad. 
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^riʼ/riʼ<prn><dem>$
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$
@@ -607,7 +607,7 @@
 # text = We uchanim riʼ man kʼo ta jun kunabʼal kyaʼ ubʼixik che kuqʼatej xuqujeʼ kukunaj le yabʼil coronavirus (2019-nCOV).
 # text[spa] = Por el momento, no se recomienda ningún medicamento específico para prevenir o tratar la infección por coronavirus (2019-nCoV).
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^uchanim/*uchanim$
 ^riʼ/riʼ<prn><dem>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
@@ -654,7 +654,7 @@
 # text = We katij le kunabʼal metanol, etanol xuqujeʼ le chʼajchʼojnel jaʼ man kuqʼatej ta, man kukunaj ta le COVID-19 xuqujeʼ sibʼalaj xibʼabʼal.
 # text[spa] = 
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^katij/<impf><o_sg3><s_sg2>tij<v><tv>/<impf><s_sg3>tij<v><iv>/<impf><s_sg3>tij<v><tv><pass>$
 ^le/le<det>/le<prn><rel>$
 ^kunabʼal/kunabʼal<n>$
@@ -724,7 +724,7 @@
 # text = We ktzaq pimienta che le ronojel rikil man kuqʼatej ta, xuqujeʼ man kukunaj ta le yabʼil COVID-19.
 # text[spa] = 
 # labels = incomplete
-^We/we<cnjsub>$
+^We/we¹<cnjsub>$
 ^ktzaq/<impf><s_sg3>tzaq<v><iv>/<impf><s_sg3>tzaq<v><tv><pass>/<px3pl>tzaq<n>$
 ^pimienta/pimienta<n><barb>$
 ^che/chi<pr>+<px3sg>ech<n><rel>$

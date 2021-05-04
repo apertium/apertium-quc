@@ -1,48 +1,48 @@
 # sent_id = wikipedia:Tripanosomiasis_africana:1
-# text = Tripanosomiasis africana on yab’ilal rech waram are jun uchikopil yab’il kech e winaq chi’l awajib’.
+# text = Tripanosomiasis africana on yabʼilal rech waram are jun uchikopil yabʼil kech e winaq chiʼl awajibʼ.
 # text[eng] = African trypanosomiasis or sleeping sickness is a parasitic disease of humans and other animals.
 # labels = incomplete
 ^Tripanosomiasis/*Tripanosomiasis$
 ^africana/*africana$
 ^on/on<cnjcoo>$
-^yab’ilal/yabʼilal<n>$
+^yabʼilal/yabʼilal<n>$
 ^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
 ^waram/waram<n>/war<v><iv><inf>$
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
 ^jun/jun<adj>/jun<det>\<ind\>/jun<n>/jun<num>$
 ^uchikopil/<px3sg>chikopil<n>$
-^yab’il/yabʼil<n>$
+^yabʼil/yabʼil<n>$
 ^kech/<px3pl>ech<n><rel>$
 ^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
 ^winaq/winaq<n>$
-^chi’l/chiʼl<cnjcoo>$
-^awajib’/awaj<n><pl>$
+^chiʼl/chiʼl<cnjcoo>$
+^awajibʼ/awaj<n><pl>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:2
-# text = Are kayo’w le uchikopil le ub’antajik Trypanosoma brucei.
+# text = Are kayoʼw le uchikopil le ubʼantajik Trypanosoma brucei.
 # text[eng] = It is caused by protozoa of the species Trypanosoma brucei.
 # labels = incomplete
 ^Are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
-^kayo’w/<impf><s_sg3>yoʼw<v><iv>$
+^kayoʼw/<impf><s_sg3>yoʼw<v><iv>$
 ^le/le<det>/le<prn><rel>$
 ^uchikopil/<px3sg>chikopil<n>$
 ^le/le<det>/le<prn><rel>$
-^ub’antajik/<px3sg>bʼantajik<n>/<s_sg3>bʼantaj<v><iv><inf>/<s_sg3>bʼantaj<v><tv><inf>/<s_sg3>bʼan<v><tv><pass><stat><inf>$
+^ubʼantajik/<px3sg>bʼantajik<n>/<s_sg3>bʼantaj<v><iv><inf>/<s_sg3>bʼantaj<v><tv><inf>/<s_sg3>bʼan<v><tv><pass><stat><inf>$
 ^Trypanosoma/*Trypanosoma$
 ^brucei/*brucei$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:3
-# text = K’o keb’ ub’antajik le kub’an k’ax chi kech le e winaq, Trypanosoma brucei gambiense (T.b.g) chi’l Trypanosoma brucei rhodesiense (T.b.r.).
+# text = Kʼo kebʼ ubʼantajik le kubʼan kʼax chi kech le e winaq, Trypanosoma brucei gambiense (T.b.g) chiʼl Trypanosoma brucei rhodesiense (T.b.r.).
 # text[eng] = There are two types that infect humans, Trypanosoma brucei gambiense (T.b.g) and Trypanosoma brucei rhodesiense (T.b.r.).
 # labels = incomplete
-^K’o/kʼo<part>$
-^keb’/kebʼ<num>$
-^ub’antajik/<px3sg>bʼantajik<n>/<s_sg3>bʼantaj<v><iv><inf>/<s_sg3>bʼantaj<v><tv><inf>/<s_sg3>bʼan<v><tv><pass><stat><inf>$
+^Kʼo/kʼo<part>$
+^kebʼ/kebʼ<num>$
+^ubʼantajik/<px3sg>bʼantajik<n>/<s_sg3>bʼantaj<v><iv><inf>/<s_sg3>bʼantaj<v><tv><inf>/<s_sg3>bʼan<v><tv><pass><stat><inf>$
 ^le/le<det>/le<prn><rel>$
-^kub’an/<impf><o_sg3><s_sg3>bʼan<v><tv>$
-^k’ax/kʼax<adj>/kʼax<n>$
+^kubʼan/<impf><o_sg3><s_sg3>bʼan<v><tv>$
+^kʼax/kʼax<adj>/kʼax<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^kech/<px3pl>ech<n><rel>$
 ^le/le<det>/le<prn><rel>$
@@ -59,7 +59,7 @@
 ^./.<sent>$
 ^g/*g$
 ^)/)<rpar>$
-^chi’l/chiʼl<cnjcoo>$
+^chiʼl/chiʼl<cnjcoo>$
 ^Trypanosoma/*Trypanosoma$
 ^brucei/*brucei$
 ^rhodesiense/*rhodesiense$
@@ -74,7 +74,7 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:4
-# text = T.b.g are kab’anow chech le 98% taq yab’il kaya’ ub’ixik.
+# text = T.b.g are kabʼanow chech le 98% taq yabʼil kayaʼ ubʼixik.
 # text[eng] = T.b.g causes over 98% of reported cases.
 # labels = incomplete
 ^T/*T$
@@ -83,41 +83,41 @@
 ^./.<sent>$
 ^g/*g$
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
-^kab’anow/<impf><s_sg3>bʼanow<v><iv>/<impf><s_sg3>bʼan<v><tv><anti><agfoc>$
+^kabʼanow/<impf><s_sg3>bʼanow<v><iv>/<impf><s_sg3>bʼan<v><tv><anti><agfoc>$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
 ^le/le<det>/le<prn><rel>$
 ^98%/98<num><percent>$
 ^taq/taq<cnjsub>/taq<pl>$
-^yab’il/yabʼil<n>$
-^kaya’/<impf><o_sg3><s_sg2>yaʼ<v><tv>/<impf><s_sg3>yaʼ<v><tv><pass>$
-^ub’ixik/<px3sg>bʼixik<n>/<s_sg3>bʼij<v><tv><pass><inf>/<s_sg3>bʼix<v><iv><inf>$
+^yabʼil/yabʼil<n>$
+^kayaʼ/<impf><o_sg3><s_sg2>yaʼ<v><tv>/<impf><s_sg3>yaʼ<v><tv><pass>$
+^ubʼixik/<px3sg>bʼixik<n>/<s_sg3>bʼij<v><tv><pass><inf>/<s_sg3>bʼix<v><iv><inf>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:5
-# text = Kaya’tajik ruk’ uti’onem jun ri uriqom le yab’il amolo tsetsé xuquje’ are kaya’taj pa taq ri juyub’.
+# text = Kayaʼtajik rukʼ utiʼonem jun ri uriqom le yabʼil amolo tsetsé xuqujeʼ are kayaʼtaj pa taq ri juyubʼ.
 # text[eng] = Both are usually transmitted by the bite of an infected tsetse fly and are most common in rural areas.
 # labels = incomplete
-^Kaya’tajik/<impf><s_sg3>yaʼ<v><tv><pass><stat>+ik<aux>$
-^ruk’/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
-^uti’onem/<s_sg3>tiʼon<v><iv><inf>$
+^Kayaʼtajik/<impf><s_sg3>yaʼ<v><tv><pass><stat>+ik<aux>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^utiʼonem/<s_sg3>tiʼon<v><iv><inf>$
 ^jun/jun<adj>/jun<det>\<ind\>/jun<n>/jun<num>$
 ^ri/ri<det>/ri<prn><rel>$
 ^uriqom/<s_sg3>riq<v><tv><pp>$
 ^le/le<det>/le<prn><rel>$
-^yab’il/yabʼil<n>$
+^yabʼil/yabʼil<n>$
 ^amolo/amolo<n>$
 ^tsetsé/*tsetsé$
-^xuquje’/xuqujeʼ<adv>/xuqujeʼ<cnjcoo>$
+^xuqujeʼ/xuqujeʼ<adv>/xuqujeʼ<cnjcoo>$
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
-^kaya’taj/<impf><s_sg3>yaʼ<v><tv><pass><stat>$
+^kayaʼtaj/<impf><s_sg3>yaʼ<v><tv><pass><stat>$
 ^pa/pa<pr>$
 ^taq/taq<cnjsub>/taq<pl>$
 ^ri/ri<det>/ri<prn><rel>$
-^juyub’/juyubʼ<adj>/juyubʼ<n>$
+^juyubʼ/juyubʼ<adj>/juyubʼ<n>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:6
-# text = Kumajib’ej, pa le nab’e uk’utunik le yab’ilal, kaya’taj q’aq’al, uq’oxom jolomaj, k’aqat, chi’l uq’oxom le b’aqilal.
+# text = Kumajibʼej, pa le nabʼe ukʼutunik le yabʼilal, kayaʼtaj qʼaqʼal, uqʼoxom jolomaj, kʼaqat, chiʼl uqʼoxom le bʼaqilal.
 # text[eng] = Initially, in the first stage of the disease, there are fevers, headaches, itchiness, and joint pains.
 # labels = incomplete
 ^Kumajib/*Kumajib$
@@ -125,30 +125,30 @@
 ^,/,<cm>$
 ^pa/pa<pr>$
 ^le/le<det>/le<prn><rel>$
-^nab’e/nabʼe<adv>/nabʼe<num><ord>$
-^uk’utunik/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
+^nabʼe/nabʼe<adv>/nabʼe<num><ord>$
+^ukʼutunik/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
 ^le/le<det>/le<prn><rel>$
-^yab’ilal/yabʼilal<n>$
+^yabʼilal/yabʼilal<n>$
 ^,/,<cm>$
-^kaya’taj/<impf><s_sg3>yaʼ<v><tv><pass><stat>$
-^q’aq’al/qʼaqʼal<n>$
+^kayaʼtaj/<impf><s_sg3>yaʼ<v><tv><pass><stat>$
+^qʼaqʼal/qʼaqʼal<n>$
 ^,/,<cm>$
-^uq’oxom/<px3sg>qʼoxom<n>$
+^uqʼoxom/<px3sg>qʼoxom<n>$
 ^jolomaj/jolom<n>$
 ^,/,<cm>$
-^k’aqat/kʼäqät<adj>$
+^kʼaqat/kʼäqät<adj>$
 ^,/,<cm>$
-^chi’l/chiʼl<cnjcoo>$
-^uq’oxom/<px3sg>qʼoxom<n>$
+^chiʼl/chiʼl<cnjcoo>$
+^uqʼoxom/<px3sg>qʼoxom<n>$
 ^le/le<det>/le<prn><rel>$
-^b’aqilal/bʼaqilal<n>$
+^bʼaqilal/bʼaqilal<n>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:7
-# text = Wa’ kumajij chi jun uwuq on urox uwuq q’ij are taq xti’ le winaq.
+# text = Waʼ kumajij chi jun uwuq on urox uwuq qʼij are taq xtiʼ le winaq.
 # text[eng] = This begins one to three weeks after the bite.
 # labels = incomplete
-^Wa’/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^Waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
 ^kumajij/<impf><o_sg3><s_sg3>majij<v><tv>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^jun/jun<adj>/jun<det>\<ind\>/jun<n>/jun<num>$
@@ -156,123 +156,123 @@
 ^on/on<cnjcoo>$
 ^urox/urox<num><ord>$
 ^uwuq/uwuq<num><ord>$
-^q’ij/qʼij<n>$
+^qʼij/qʼij<n>$
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
 ^taq/taq<cnjsub>/taq<pl>$
-^xti’/<perf><s_sg3>tiʼ<v><iv>/<perf><s_sg3>tiʼ<v><tv><pass>$
+^xtiʼ/<perf><s_sg3>tiʼ<v><iv>/<perf><s_sg3>tiʼ<v><tv><pass>$
 ^le/le<det>/le<prn><rel>$
 ^winaq/winaq<n>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:8
-# text = Are taq q’axinaq chi k’I uwuq q’ij on k’i ik’ kumajij le ukab’ uk’utunik ruk’ taq sachem, man k’o ta chi uch’ob’olik, umok’ok’em chi’l man kab’an ta chi waram.
+# text = Are taq qʼaxinaq chi kʼI uwuq qʼij on kʼi ikʼ kumajij le ukabʼ ukʼutunik rukʼ taq sachem, man kʼo ta chi uchʼobʼolik, umokʼokʼem chiʼl man kabʼan ta chi waram.
 # text[eng] = Weeks to months later the second stage begins with confusion, poor coordination, numbness and trouble sleeping.
 # labels = incomplete
 ^Are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
 ^taq/taq<cnjsub>/taq<pl>$
-^q’axinaq/qʼax<v><iv><pp>/<s_sg3>qʼax<v><iv><pp>$
+^qʼaxinaq/qʼax<v><iv><pp>/<s_sg3>qʼax<v><iv><pp>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^k’I/kʼi<adj>$
+^kʼI/kʼi<adj>$
 ^uwuq/uwuq<num><ord>$
-^q’ij/qʼij<n>$
+^qʼij/qʼij<n>$
 ^on/on<cnjcoo>$
-^k’i/kʼi<adj>$
-^ik’/ikʼ<n>$
+^kʼi/kʼi<adj>$
+^ikʼ/ikʼ<n>$
 ^kumajij/<impf><o_sg3><s_sg3>majij<v><tv>$
 ^le/le<det>/le<prn><rel>$
-^ukab’/ukabʼ<adj>/ukabʼ<num><ord>/<px3sg>kabʼ<n>$
-^uk’utunik/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
-^ruk’/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^ukabʼ/ukabʼ<adj>/ukabʼ<num><ord>/<px3sg>kabʼ<n>$
+^ukʼutunik/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
 ^taq/taq<cnjsub>/taq<pl>$
 ^sachem/sach<v><iv><inf>$
 ^,/,<cm>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
-^k’o/kʼo<part>$
+^kʼo/kʼo<part>$
 ^ta/taj<neg>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^uch’ob’olik/*uch’ob’olik$
+^uchʼobʼolik/*uchʼobʼolik$
 ^,/,<cm>$
-^umok’ok/*umok’ok$
+^umokʼok/*umokʼok$
 ^em/*em$
-^chi’l/chiʼl<cnjcoo>$
+^chiʼl/chiʼl<cnjcoo>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
-^kab’an/<impf><o_sg3><s_sg2>bʼan<v><tv>/<impf><s_sg3>abʼan<v><iv>/<impf><s_sg3>bʼaj<v><tv><anti>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>/<impf><s_sg3>bʼan<v><tv><pass>$
+^kabʼan/<impf><o_sg3><s_sg2>bʼan<v><tv>/<impf><s_sg3>abʼan<v><iv>/<impf><s_sg3>bʼaj<v><tv><anti>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>/<impf><s_sg3>bʼan<v><tv><pass>$
 ^ta/taj<neg>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^waram/waram<n>/war<v><iv><inf>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:9
-# text = Le ukunatajem are ruk’ utzukuxik le uchikopil pa jun usolik uxe’ le kik’ on le ja’ rech jun nodo.
+# text = Le ukunatajem are rukʼ utzukuxik le uchikopil pa jun usolik uxeʼ le kikʼ on le jaʼ rech jun nodo.
 # text[eng] = Diagnosis is via finding the parasite in a blood smear or in the fluid of a lymph node.
 # labels = incomplete
 ^Le/le<det>/le<prn><rel>$
 ^ukunatajem/*ukunatajem$
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
-^ruk’/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
 ^utzukuxik/<px3sg>tzukuxik<n>/<s_sg3>tzukuj<v><tv><pass><inf>$
 ^le/le<det>/le<prn><rel>$
 ^uchikopil/<px3sg>chikopil<n>$
 ^pa/pa<pr>$
 ^jun/jun<adj>/jun<det>\<ind\>/jun<n>/jun<num>$
 ^usolik/<s_sg3>sol<v><tv><inf>/<s_sg3>sol<v><tv><pass><inf>$
-^uxe’/<px3sg>xeʼ<n><rel>$
+^uxeʼ/<px3sg>xeʼ<n><rel>$
 ^le/le<det>/le<prn><rel>$
-^kik’/kikʼ<n>/<px3pl>ikʼ<n>$
+^kikʼ/kikʼ<n>/<px3pl>ikʼ<n>$
 ^on/on<cnjcoo>$
 ^le/le<det>/le<prn><rel>$
-^ja’/jaʼ<n>$
+^jaʼ/jaʼ<n>$
 ^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
 ^jun/jun<adj>/jun<det>\<ind\>/jun<n>/jun<num>$
 ^nodo/*nodo$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:10
-# text = Chech punción lumbar amaq’el rajawaxik chech rilik le uk’exb’em wi le nab’e ruk’ le ukab’ uk’utunem le yab’ilal.
+# text = Chech punción lumbar amaqʼel rajawaxik chech rilik le ukʼexbʼem wi le nabʼe rukʼ le ukabʼ ukʼutunem le yabʼilal.
 # text[eng] = A lumbar puncture is often needed to tell the difference between first and second stage disease.
 # labels = incomplete
 ^Chech/chi<pr>+<px3sg>ech<n><rel>$
 ^punción/punción<n><barb>$
 ^lumbar/*lumbar$
-^amaq’el/amaqʼel<adv>$
+^amaqʼel/amaqʼel<adv>$
 ^rajawaxik/rajawaxik<n>$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
 ^rilik/rilik<adj>/<s_sg3>il<v><tv><inf>/<s_sg3>il<v><tv><pass><inf>$
 ^le/le<det>/le<prn><rel>$
-^uk’exb’em/<px3sg>kʼexbʼem<n>$
+^ukʼexbʼem/<px3sg>kʼexbʼem<n>$
 ^wi/wi<foc>$
 ^le/le<det>/le<prn><rel>$
-^nab’e/nabʼe<adv>/nabʼe<num><ord>$
-^ruk’/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^nabʼe/nabʼe<adv>/nabʼe<num><ord>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
 ^le/le<det>/le<prn><rel>$
-^ukab’/ukabʼ<adj>/ukabʼ<num><ord>/<px3sg>kabʼ<n>$
-^uk’utunem/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
+^ukabʼ/ukabʼ<adj>/ukabʼ<num><ord>/<px3sg>kabʼ<n>$
+^ukʼutunem/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
 ^le/le<det>/le<prn><rel>$
-^yab’ilal/yabʼilal<n>$
+^yabʼilal/yabʼilal<n>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:11
-# text = Le uq’atexik uwach le yab’ilal rajawaxik keq’atux le e winaq le kiriqom we yab’ilal ruk’ uq’atuxik le kik’ chech ukunaxik T.b.g.
+# text = Le uqʼatexik uwach le yabʼilal rajawaxik keqʼatux le e winaq le kiriqom we yabʼilal rukʼ uqʼatuxik le kikʼ chech ukunaxik T.b.g.
 # text[eng] = Prevention of severe disease involves screening the population at risk with blood tests for T.b.g.
 # labels = incomplete
 ^Le/le<det>/le<prn><rel>$
-^uq’atexik/<s_sg3>qʼatej<v><tv><pass><inf>$
+^uqʼatexik/<s_sg3>qʼatej<v><tv><pass><inf>$
 ^uwach/<px3sg>wach<n>/<px3sg>wach<n><rel>/<px3sg>wäch<n>$
 ^le/le<det>/le<prn><rel>$
-^yab’ilal/yabʼilal<n>$
+^yabʼilal/yabʼilal<n>$
 ^rajawaxik/rajawaxik<n>$
-^keq’atux/<impf><s_pl3>qʼatuj<v><tv><pass>/<impf><s_pl3>qʼatux<v><iv>$
+^keqʼatux/<impf><s_pl3>qʼatuj<v><tv><pass>/<impf><s_pl3>qʼatux<v><iv>$
 ^le/le<det>/le<prn><rel>$
 ^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
 ^winaq/winaq<n>$
 ^le/le<det>/le<prn><rel>$
 ^kiriqom/<s_pl3>riq<v><tv><pp>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^yab’ilal/yabʼilal<n>$
-^ruk’/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
-^uq’atuxik/<px3sg>qʼatuxik<n>/<s_sg3>qʼatuj<v><tv><pass><inf>/<s_sg3>qʼatux<v><iv><inf>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
+^yabʼilal/yabʼilal<n>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^uqʼatuxik/<px3sg>qʼatuxik<n>/<s_sg3>qʼatuj<v><tv><pass><inf>/<s_sg3>qʼatux<v><iv><inf>$
 ^le/le<det>/le<prn><rel>$
-^kik’/kikʼ<n>/<px3pl>ikʼ<n>$
+^kikʼ/kikʼ<n>/<px3pl>ikʼ<n>$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
 ^ukunaxik/<px3sg>kunaxik<n>/<s_sg3>kunaj<v><tv><pass><inf>/<s_sg3>kunax<v><iv><inf>$
 ^T/*T$
@@ -283,68 +283,68 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:12
-# text = Are man k’ax ta ukunaxik are taq aninaq ka’ilitaj we yab’ilal xuquje’ mojo’qa kuya’ le k’axk’olil chech le jolomaj.
+# text = Are man kʼax ta ukunaxik are taq aninaq kaʼilitaj we yabʼilal xuqujeʼ mojoʼqa kuyaʼ le kʼaxkʼolil chech le jolomaj.
 # text[eng] = Treatment is easier when the disease is detected early and before neurological symptoms occur.
 # labels = incomplete
 ^Are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
-^k’ax/kʼax<adj>/kʼax<n>$
+^kʼax/kʼax<adj>/kʼax<n>$
 ^ta/taj<neg>$
 ^ukunaxik/<px3sg>kunaxik<n>/<s_sg3>kunaj<v><tv><pass><inf>/<s_sg3>kunax<v><iv><inf>$
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
 ^taq/taq<cnjsub>/taq<pl>$
 ^aninaq/aninäq<adv>/an<v><iv><pp>/<s_sg3>an<v><iv><pp>$
-^ka’/kaʼ<n>/<px3pl>aʼ<n>$
+^kaʼ/kaʼ<n>/<px3pl>aʼ<n>$
 ^ilitaj/*ilitaj$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^yab’ilal/yabʼilal<n>$
-^xuquje’/xuqujeʼ<adv>/xuqujeʼ<cnjcoo>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
+^yabʼilal/yabʼilal<n>$
+^xuqujeʼ/xuqujeʼ<adv>/xuqujeʼ<cnjcoo>$
 ^mojo/*mojo$
 ^qa/*qa$
-^kuya’/<impf><o_sg3><s_sg3>yaʼ<v><tv>$
+^kuyaʼ/<impf><o_sg3><s_sg3>yaʼ<v><tv>$
 ^le/le<det>/le<prn><rel>$
-^k’axk’olil/kʼaxkʼolil<n>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
 ^le/le<det>/le<prn><rel>$
 ^jolomaj/jolom<n>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:13
-# text = Le ukunaxik le nab’e uk’utunik are ruk’ taq kunab’al pentamidina on suramina.
+# text = Le ukunaxik le nabʼe ukʼutunik are rukʼ taq kunabʼal pentamidina on suramina.
 # text[eng] = Treatment of the first stage is with the medications pentamidine or suramin.
 # labels = incomplete
 ^Le/le<det>/le<prn><rel>$
 ^ukunaxik/<px3sg>kunaxik<n>/<s_sg3>kunaj<v><tv><pass><inf>/<s_sg3>kunax<v><iv><inf>$
 ^le/le<det>/le<prn><rel>$
-^nab’e/nabʼe<adv>/nabʼe<num><ord>$
-^uk’utunik/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
+^nabʼe/nabʼe<adv>/nabʼe<num><ord>$
+^ukʼutunik/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
-^ruk’/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
 ^taq/taq<cnjsub>/taq<pl>$
-^kunab’al/kunabʼal<n>$
+^kunabʼal/kunabʼal<n>$
 ^pentamidina/*pentamidina$
 ^on/on<cnjcoo>$
 ^suramina/*suramina$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:14
-# text = Le ukunaxik le ukab’ uk’utunik are ruk’ eflornitina on utunib’axik le nifurtimox chi’l eflornitina chech T.b.g.
+# text = Le ukunaxik le ukabʼ ukʼutunik are rukʼ eflornitina on utunibʼaxik le nifurtimox chiʼl eflornitina chech T.b.g.
 # text[eng] = Treatment of the second stage involves: eflornithine or a combination of nifurtimox and eflornithine for T.b.g.
 # labels = incomplete
 ^Le/le<det>/le<prn><rel>$
 ^ukunaxik/<px3sg>kunaxik<n>/<s_sg3>kunaj<v><tv><pass><inf>/<s_sg3>kunax<v><iv><inf>$
 ^le/le<det>/le<prn><rel>$
-^ukab’/ukabʼ<adj>/ukabʼ<num><ord>/<px3sg>kabʼ<n>$
-^uk’utunik/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
+^ukabʼ/ukabʼ<adj>/ukabʼ<num><ord>/<px3sg>kabʼ<n>$
+^ukʼutunik/<s_sg3>kʼutun<v><iv><inf>/<s_sg3>kʼut<v><tv><anti><inf>$
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
-^ruk’/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
 ^eflornitina/*eflornitina$
 ^on/on<cnjcoo>$
 ^utunib/*utunib$
 ^axik/<px2sg>xik<n>$
 ^le/le<det>/le<prn><rel>$
 ^nifurtimox/*nifurtimox$
-^chi’l/chiʼl<cnjcoo>$
+^chiʼl/chiʼl<cnjcoo>$
 ^eflornitina/*eflornitina$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
 ^T/*T$
@@ -355,18 +355,18 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:15
-# text = Are k’u le melarsoprol kukunaj le keb’, wa’ xew kakoj chech T.b.r. rumal sib’alaj k’o uchuq’ab’ we kunab’al.
+# text = Are kʼu le melarsoprol kukunaj le kebʼ, waʼ xew kakoj chech T.b.r. rumal sibʼalaj kʼo uchuqʼabʼ we kunabʼal.
 # text[eng] = While melarsoprol works for both it is typically only used for T.b.r. due to serious side effects.
 # labels = incomplete
 ^Are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
-^k’u/kʼut<cnjcoo>/kʼut<part>$
+^kʼu/kʼut<cnjcoo>/kʼut<part>$
 ^le/le<det>/le<prn><rel>$
 ^melarsoprol/*melarsoprol$
 ^kukunaj/<impf><o_sg3><s_sg3>kunaj<v><tv>$
 ^le/le<det>/le<prn><rel>$
-^keb’/kebʼ<num>$
+^kebʼ/kebʼ<num>$
 ^,/,<cm>$
-^wa’/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
+^waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
 ^xew/xew<adv>$
 ^kakoj/<impf><o_sg3><s_sg2>koj<v><tv>/<impf><s_sg3>koj<v><tv><pass>$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
@@ -377,21 +377,21 @@
 ^r/*r$
 ^./.<sent>$
 ^rumal/<px3sg>umal<n><rel>$
-^sib’alaj/sibʼalaj<adj>/sibʼalaj<adv>/sibʼ<adj><ints>$
-^k’o/kʼo<part>$
-^uchuq’ab’/<px3sg>chuqʼabʼ<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^kunab’al/kunabʼal<n>$
+^sibʼalaj/sibʼalaj<adj>/sibʼalaj<adv>/sibʼ<adj><ints>$
+^kʼo/kʼo<part>$
+^uchuqʼabʼ/<px3sg>chuqʼabʼ<n>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
+^kunabʼal/kunabʼal<n>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:16
-# text = We yab’ilal sib’alaj kaya’taj pa jujun taq rulewal rech África Subsahariana, k’o k’axk’olil chi kij we e winaq le kajawataj 70 millones de dolares pa 36 amaq’.
+# text = We yabʼilal sibʼalaj kayaʼtaj pa jujun taq rulewal rech África Subsahariana, kʼo kʼaxkʼolil chi kij we e winaq le kajawataj 70 millones de dolares pa 36 amaqʼ.
 # text[eng] = The disease occurs regularly in some regions of sub-Saharan Africa with the population at risk being about 70 million in 36 countries.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^yab’ilal/yabʼilal<n>$
-^sib’alaj/sibʼalaj<adj>/sibʼalaj<adv>/sibʼ<adj><ints>$
-^kaya’taj/<impf><s_sg3>yaʼ<v><tv><pass><stat>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
+^yabʼilal/yabʼilal<n>$
+^sibʼalaj/sibʼalaj<adj>/sibʼalaj<adv>/sibʼ<adj><ints>$
+^kayaʼtaj/<impf><s_sg3>yaʼ<v><tv><pass><stat>$
 ^pa/pa<pr>$
 ^jujun/jujun<adj>$
 ^taq/taq<cnjsub>/taq<pl>$
@@ -400,11 +400,11 @@
 ^África/África<np><top><barb>$
 ^Subsahariana/*Subsahariana$
 ^,/,<cm>$
-^k’o/kʼo<part>$
-^k’axk’olil/kʼaxkʼolil<n>$
+^kʼo/kʼo<part>$
+^kʼaxkʼolil/kʼaxkʼolil<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^kij/<px3pl>ij<n>/<px3pl>ij<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
 ^winaq/winaq<n>$
 ^le/le<det>/le<prn><rel>$
@@ -415,70 +415,70 @@
 ^dolares/*dolares$
 ^pa/pa<pr>$
 ^36/36<num>$
-^amaq’/amaqʼ<n>$
+^amaqʼ/amaqʼ<n>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:17
-# text = Xumajij la pa ri junab’ 2010 le xukamisaj b’i 9,000, kajunamax ruk’ le 34,000 pa ri junab’ 1990.
+# text = Xumajij la pa ri junabʼ 2010 le xukamisaj bʼi 9,000, kajunamax rukʼ le 34,000 pa ri junabʼ 1990.
 # text[eng] = As of 2010 it caused around 9,000 deaths per year, down from 34,000 in 1990.
 # labels = incomplete
 ^Xumajij/<perf><o_sg3><s_sg3>majij<v><tv>$
 ^la/la<adv><dir>/la<n>/la<part><frm>/la<qst>$
 ^pa/pa<pr>$
 ^ri/ri<det>/ri<prn><rel>$
-^junab’/junabʼ<n>$
+^junabʼ/junabʼ<n>$
 ^2010/2010<num>$
 ^le/le<det>/le<prn><rel>$
 ^xukamisaj/<perf><o_sg3><s_sg3>kämisaj<v><tv>$
-^b’i/bʼi<adv><dir>/bʼi<n>$
+^bʼi/bʼi<adv><dir>/bʼi<n>$
 ^9,000/9,000<num>$
 ^,/,<cm>$
 ^kajunamax/<impf><s_sg3>junamaj<v><tv><pass>$
-^ruk’/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
 ^le/le<det>/le<prn><rel>$
 ^34,000/34,000<num>$
 ^pa/pa<pr>$
 ^ri/ri<det>/ri<prn><rel>$
-^junab’/junabʼ<n>$
+^junabʼ/junabʼ<n>$
 ^1990/1990<num>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:18
-# text = Kab’ixik chi 30.000 e winaq kiriqom we yab’ilal, ruk’ 7.000 k’ak’ taq yab’il.
+# text = Kabʼixik chi 30.000 e winaq kiriqom we yabʼilal, rukʼ 7.000 kʼakʼ taq yabʼil.
 # text[eng] = An estimated 30,000 people are currently infected with 7000 new infections in 2012.
 # labels = incomplete
-^Kab’ixik/<impf><s_sg3>abʼix<v><iv>+ik<aux>/<impf><s_sg3>bʼij<v><tv><pass>+ik<aux>/<impf><s_sg3>bʼix<v><iv>+ik<aux>/<s_pl3>abʼix<v><iv><inf>$
+^Kabʼixik/<impf><s_sg3>abʼix<v><iv>+ik<aux>/<impf><s_sg3>bʼij<v><tv><pass>+ik<aux>/<impf><s_sg3>bʼix<v><iv>+ik<aux>/<s_pl3>abʼix<v><iv><inf>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^30.000/30.000<num>$
 ^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
 ^winaq/winaq<n>$
 ^kiriqom/<s_pl3>riq<v><tv><pp>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^yab’ilal/yabʼilal<n>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
+^yabʼilal/yabʼilal<n>$
 ^,/,<cm>$
-^ruk’/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
+^rukʼ/<px3sg>ukʼ<n>/<px3sg>ukʼ<n><rel>$
 ^7.000/7.000<num>$
-^k’ak’/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
+^kʼakʼ/kʼakʼ<adj>/<px3pl>akʼ<n>/<px3pl>äkʼ<n>$
 ^taq/taq<cnjsub>/taq<pl>$
-^yab’il/yabʼil<n>$
+^yabʼil/yabʼil<n>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:19
-# text = Pa ri junab’ 2012 Kaq’ax chech le 80% le kiriqom we yab’ilal keriqitaj pa República Democrática del Congo.
+# text = Pa ri junabʼ 2012 Kaqʼax chech le 80% le kiriqom we yabʼilal keriqitaj pa República Democrática del Congo.
 # text[eng] = More than 80% of these cases are in the Democratic Republic of the Congo.
 # labels = incomplete
 ^Pa/pa<pr>$
 ^ri/ri<det>/ri<prn><rel>$
-^junab’/junabʼ<n>$
+^junabʼ/junabʼ<n>$
 ^2012/2012<num>$
-^Kaq’ax/<impf><s_sg3>qʼaj<v><tv><pass>/<impf><s_sg3>qʼax<v><iv>$
+^Kaqʼax/<impf><s_sg3>qʼaj<v><tv><pass>/<impf><s_sg3>qʼax<v><iv>$
 ^chech/chi<pr>+<px3sg>ech<n><rel>$
 ^le/le<det>/le<prn><rel>$
 ^80%/80<num><percent>$
 ^le/le<det>/le<prn><rel>$
 ^kiriqom/<s_pl3>riq<v><tv><pp>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^yab’ilal/yabʼilal<n>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
+^yabʼilal/yabʼilal<n>$
 ^keriqitaj/<impf><s_pl3>riq<v><tv><pass><stat>$
 ^pa/pa<pr>$
 ^República/*República$
@@ -488,70 +488,70 @@
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:20
-# text = Oxib’ mul ya’tajinaq we yab’ilal pa taq we q’ij ri’: jun pa taq ri junab’ 1896 xuk’is pa ri 1906 xya’taj pa Uganda chi’l pa Cuenca rech Congo chi’l keb’ pa taq ri junab’ 1920 chi’l 1970 pa k’I taq amaq’ rech África.
+# text = Oxibʼ mul yaʼtajinaq we yabʼilal pa taq we qʼij riʼ: jun pa taq ri junabʼ 1896 xukʼis pa ri 1906 xyaʼtaj pa Uganda chiʼl pa Cuenca rech Congo chiʼl kebʼ pa taq ri junabʼ 1920 chiʼl 1970 pa kʼI taq amaqʼ rech África.
 # text[eng] = Three major outbreaks have occurred in recent history: one from 1896 to 1906 primarily in Uganda and the Congo Basin and two in 1920 and 1970 in several African countries.
 # labels = incomplete
-^Oxib’/oxibʼ<num>$
+^Oxibʼ/oxibʼ<num>$
 ^mul/mul<n>/<imp><neg><s_sg3>ul<v><iv>$
-^ya’tajinaq/*ya’tajinaq$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^yab’ilal/yabʼilal<n>$
+^yaʼtajinaq/*yaʼtajinaq$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
+^yabʼilal/yabʼilal<n>$
 ^pa/pa<pr>$
 ^taq/taq<cnjsub>/taq<pl>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^q’ij/qʼij<n>$
-^ri’/riʼ<prn><dem>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
+^qʼij/qʼij<n>$
+^riʼ/riʼ<prn><dem>$
 ^:/:<sent>$
 ^jun/jun<adj>/jun<det>\<ind\>/jun<n>/jun<num>$
 ^pa/pa<pr>$
 ^taq/taq<cnjsub>/taq<pl>$
 ^ri/ri<det>/ri<prn><rel>$
-^junab’/junabʼ<n>$
+^junabʼ/junabʼ<n>$
 ^1896/1896<num>$
-^xuk’is/<perf><o_sg3><s_sg3>kʼis<v><tv>$
+^xukʼis/<perf><o_sg3><s_sg3>kʼis<v><tv>$
 ^pa/pa<pr>$
 ^ri/ri<det>/ri<prn><rel>$
 ^1906/1906<num>$
-^xya’taj/<perf><s_sg3>yaʼ<v><tv><pass><stat>$
+^xyaʼtaj/<perf><s_sg3>yaʼ<v><tv><pass><stat>$
 ^pa/pa<pr>$
 ^Uganda/Uganda<np><top><barb>$
-^chi’l/chiʼl<cnjcoo>$
+^chiʼl/chiʼl<cnjcoo>$
 ^pa/pa<pr>$
 ^Cuenca/Cuenca<np><top><barb>$
 ^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
 ^Congo/Congo<np><top><barb>$
-^chi’l/chiʼl<cnjcoo>$
-^keb’/kebʼ<num>$
+^chiʼl/chiʼl<cnjcoo>$
+^kebʼ/kebʼ<num>$
 ^pa/pa<pr>$
 ^taq/taq<cnjsub>/taq<pl>$
 ^ri/ri<det>/ri<prn><rel>$
-^junab’/junabʼ<n>$
+^junabʼ/junabʼ<n>$
 ^1920/1920<num>$
-^chi’l/chiʼl<cnjcoo>$
+^chiʼl/chiʼl<cnjcoo>$
 ^1970/1970<num>$
 ^pa/pa<pr>$
-^k’I/kʼi<adj>$
+^kʼI/kʼi<adj>$
 ^taq/taq<cnjsub>/taq<pl>$
-^amaq’/amaqʼ<n>$
+^amaqʼ/amaqʼ<n>$
 ^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
 ^África/África<np><top><barb>$
 ^./.<sent>$
 
 # sent_id = wikipedia:Tripanosomiasis_africana:21
-# text = E nik’aj chi awajib’, pacha’ e wakax, kakoqanisaj we yab’ilal.
+# text = E nikʼaj chi awajibʼ, pachaʼ e wakax, kakoqanisaj we yabʼilal.
 # text[eng] = Other animals, such as cows, may carry the disease and become infected.
 # labels = incomplete
 ^E/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
-^nik’aj/nikʼaj<adj>/nikʼaj<n>$
+^nikʼaj/nikʼaj<adj>/nikʼaj<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
-^awajib’/awaj<n><pl>$
+^awajibʼ/awaj<n><pl>$
 ^,/,<cm>$
-^pacha’/pachaʼ<pr>$
+^pachaʼ/pachaʼ<pr>$
 ^e/e<cnjcoo>/e<pl>/e<prn><pro><p3><pl>$
 ^wakax/wakäx<n>$
 ^,/,<cm>$
 ^kakoqanisaj/*kakoqanisaj$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
-^yab’ilal/yabʼilal<n>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
+^yabʼilal/yabʼilal<n>$
 ^./.<sent>$
 

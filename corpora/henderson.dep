@@ -92,7 +92,7 @@
 # text = Na xutij taj.
 # text[orig] = Na xu-tij-Ø taj.
 # text[gloss] = NEG INFL-eat IRR
-# text[eng] = He didn’t eat it.
+# text[eng] = He didnʼt eat it.
 # label = complete
 "<Na>"
 	"na" neg @aux #1->2
@@ -107,7 +107,7 @@
 # text = Na xutij ta le wa.
 # text[orig] = Na xu-tij ta le wah.
 # text[gloss] = NEG INFL-eat IRR le wah
-# text[eng] = He didn’t eat the tortilla.
+# text[eng] = He didnʼt eat the tortilla.
 # label = complete
 "<Na>"
 	"na" neg @aux #1->2
@@ -124,7 +124,7 @@
 
 # sent_id = henderson:7a
 # text = La xutij kʼut?
-# text[orig] = La xu-tij-Ø k’ut
+# text[orig] = La xu-tij-Ø kʼut
 # text[gloss] = Q INFL-eat Q
 # text[eng] = Did he eat it?
 # label = complete
@@ -139,7 +139,7 @@
 
 # sent_id = henderson:7b
 # text = La xutij kʼu le wa?
-# text[orig] = La xu-tij-Ø k’u le wah.
+# text[orig] = La xu-tij-Ø kʼu le wah.
 # text[gloss] = Q INFL-eat Q le wah
 # text[eng] = Did he eat the tortilla?
 # label = complete
@@ -158,9 +158,9 @@
 
 # sent_id = henderson:8
 # text = Man pa kʼayibʼal ta xutijo.
-# text[orig] = Man pa k’ayib’al ta xu-tij-o.
+# text[orig] = Man pa kʼayibʼal ta xu-tij-o.
 # text[gloss] = NEG in market IRR INFL-eat-SS
-# text[eng] = It wasn’t in the market that he ate it.
+# text[eng] = It wasnʼt in the market that he ate it.
 # label = complete
 "<Man>"
 	"man" neg @aux #1->3
@@ -178,9 +178,9 @@
 
 # sent_id = henderson:9
 # text = Man rukʼ ta ikaj xuchʼaybʼej.
-# text[orig] = Man ruk’ ta ikaj xu-ch’ay-b’e-j.
+# text[orig] = Man rukʼ ta ikaj xu-chʼay-bʼe-j.
 # text[gloss] = NEG with IRR axe INFL-cut-INSTR-SS
-# text[eng] = It wasn’t with the axe that he cut it.
+# text[eng] = It wasnʼt with the axe that he cut it.
 # label = complete
 "<Man>"
 	"man" neg @aux #1->2
@@ -199,7 +199,7 @@
 # text = Man are ta ri a Xwan xelik.
 # text[orig] = Man aree ta ri a Xwan x-el-ik.
 # text[gloss] = NEG FOC IRR the CLF Juan INFL-leave-SS
-# text[eng] = It wasn’t Juan who left.
+# text[eng] = It wasnʼt Juan who left.
 # label = complete
 "<Man>"
 	"man" neg @aux #1->2
@@ -239,7 +239,7 @@
 
 # sent_id = henderson:12a
 # text = Xinwilo chi xwaʼik.
-# text[orig] = Xinw-il-o chi xwa’-ik.
+# text[orig] = Xinw-il-o chi xwaʼ-ik.
 # text[gloss] = INFL-see-SS that he.ate-SS
 # text[eng] = I saw that the boy ate.
 # label = complete
@@ -256,7 +256,7 @@
 
 # sent_id = henderson:12c
 # text = Xinchapo su xuloqʼo.
-# text[orig] = Xin-chap-o su xu-loq’-o.
+# text[orig] = Xin-chap-o su xu-loqʼ-o.
 # text[gloss] = INFL-grab-SS what INFL-buy-SS
 # text[eng] = I grabbed what he bought.
 # label = complete check-attachment
@@ -290,7 +290,7 @@
 
 # sent_id = henderson:14
 # text = Xeʼul le ala chiʼl le ali.
-# text[orig] = Xe’-ul-Ø le alah chi’l le alih.
+# text[orig] = Xeʼ-ul-Ø le alah chiʼl le alih.
 # text[gloss] = INFL-arrive the boy and the girl
 # text[eng] = The boy and the girl arrived.
 # label = complete
@@ -311,7 +311,7 @@
 
 # sent_id = henderson:16
 # text = Xeʼulik.
-# text[orig] = Xe’-ul-ik.
+# text[orig] = Xeʼ-ul-ik.
 # text[gloss] = INFL-arrive-SS
 # text[eng] = They arrived.
 # label = complete
@@ -359,9 +359,9 @@
 
 # sent_id = henderson:20a
 # text = Na iwir ta xril le kʼamol bʼe.
-# text[orig] = Na iwir ta xr-il-Ø le k’amol b’e.
+# text[orig] = Na iwir ta xr-il-Ø le kʼamol bʼe.
 # text[gloss] = NEG yesterday IRR INFL-see the leader
-# text[eng] = It wasn’t yesterday that he saw the leader.
+# text[eng] = It wasnʼt yesterday that he saw the leader.
 # label = complete
 "<Na>"
 	"na" neg @aux #1->2
@@ -382,9 +382,9 @@
 
 # sent_id = henderson:21a
 # text = La iwir kʼu xril le kʼamol bʼe.
-# text[orig] = La iwir k’u xr-il-Ø le k’amol b’e.
+# text[orig] = La iwir kʼu xr-il-Ø le kʼamol bʼe.
 # text[gloss] = Q yesterday Q INFL-see the leader
-# text[eng] = It wasn’t yesterday that he saw the leader.
+# text[eng] = It wasnʼt yesterday that he saw the leader.
 # label = incomplete check-translation
 "<La>"
 	"la" qst @discourse #1->2
@@ -420,7 +420,7 @@
 
 # sent_id = henderson:23
 # text = Xinwilo chi xwaʼ ri ala.
-# text[orig] = Xinw-il-o chi xwa’-Ø ri alah.
+# text[orig] = Xinw-il-o chi xwaʼ-Ø ri alah.
 # text[gloss] = INFL-see-SS that he.ate the boy
 # text[eng] = I saw that the boy ate.
 # label = complete
@@ -440,7 +440,7 @@
 
 # sent_id = henderson:25a
 # text = Xril ri a Xwan chi xwaʼ ri ala.
-# text[orig] = Xr-il-Ø ri a Xwan chi x-wa’-Ø ri alah.
+# text[orig] = Xr-il-Ø ri a Xwan chi x-waʼ-Ø ri alah.
 # text[gloss] = INFL-see the CLF Juan that INFL-eat the boy
 # text[eng] = Juan saw that the boy ate.
 # label = complete
@@ -465,7 +465,7 @@
 
 # sent_id = henderson:26a
 # text = Xinbʼij iwir chi xebʼe pa Armita.
-# text[orig] = Xin-b’ij iwir chi xe-b’e-Ø pa Armita.
+# text[orig] = Xin-bʼij iwir chi xe-bʼe-Ø pa Armita.
 # text[gloss] = INFL-say yesterday that INFL-go Guatemala.City
 # text[eng] = Yesterday I said that they went to Guatemala City.
 # label = complete
@@ -512,7 +512,7 @@
 
 # sent_id = henderson:33a
 # text = Xuchap ri bʼa ri xutij qakinaq.
-# text[orig] = Xu-chap-Ø ri b’ah ri xu-tij-Ø qa-kinaq.
+# text[orig] = Xu-chap-Ø ri bʼah ri xu-tij-Ø qa-kinaq.
 # text[gloss] = INFL-catch the gopher PRN INFL-eat our-beans
 # text[eng] = He caught the gopher that ate our beans.
 # label = complete check-relative
@@ -563,7 +563,7 @@
 
 # sent_id = henderson:49a
 # text = Xinloqʼ kʼi.
-# text[orig] = Xin-loq’-Ø k’ih.
+# text[orig] = Xin-loqʼ-Ø kʼih.
 # text[gloss] = INFL-buy a.lot
 # text[eng] = I bought a lot.
 # label = complete check-category
@@ -576,7 +576,7 @@
 
 # sent_id = henderson:49b
 # text = Xinloqʼ kʼi wa.
-# text[orig] = Xin-loq’-Ø k’i wah.
+# text[orig] = Xin-loqʼ-Ø kʼi wah.
 # text[gloss] = INFL-buy a.lot tortilla
 # text[eng] = I bought a lot of tortillas.
 # label = complete check-category
@@ -607,7 +607,7 @@
 
 # sent_id = henderson:51a
 # text = Are le bʼa xokik.
-# text[orig] = Are le b’ah x-ok-ik.
+# text[orig] = Are le bʼah x-ok-ik.
 # text[gloss] = FOC the gopher INFL-enter-SS
 # text[eng] = It was the gopher that entered.
 # label = complete
@@ -625,7 +625,7 @@
 
 # sent_id = henderson:52
 # text = Xril le bʼa le ala.
-# text[orig] = Xr-il-Ø le b’a le alah.
+# text[orig] = Xr-il-Ø le bʼa le alah.
 # text[gloss] = INFL-see the gopher the boy
 # text[eng] = The boy saw the gopher.
 # label = complete
@@ -644,7 +644,7 @@
 
 # sent_id = henderson:53a
 # text = Are le bʼa xril le ala.
-# text[orig] = Are le b’a xr-il-Ø le ala.
+# text[orig] = Are le bʼa xr-il-Ø le ala.
 # text[gloss] = FOC the gopher INFL-see the boy
 # text[eng] = It was the gopher that the boy saw.
 # label = complete
@@ -667,7 +667,7 @@
 # text = Man are ta xril.
 # text[orig] = Man are ta xr-il.
 # text[gloss] = NEG FOC IRR INFL-see-SS
-# text[eng] = It wasn’t him who he saw.
+# text[eng] = It wasnʼt him who he saw.
 # label = complete
 "<Man>"
 	"man" neg @aux #1->2
@@ -698,7 +698,7 @@
 
 # sent_id = henderson:55
 # text = Kʼax kʼolik, kachaʼ.
-# text[orig] = K’ax k’ol-ik, kacha’.
+# text[orig] = Kʼax kʼol-ik, kachaʼ.
 # text[gloss] = bad exist-SS, REP
 # text[eng] = It was bad, they say.
 # label = incomplete
@@ -718,7 +718,7 @@
 
 # sent_id = henderson:60
 # text = Xinwilo chi xeʼelik.
-# text[orig] = Xinw-il-o chi xe’-el-ik.
+# text[orig] = Xinw-il-o chi xeʼ-el-ik.
 # text[gloss] = INFL-see-SS that INFL-left-SS
 # text[eng] = I saw that they left.
 # label = complete
@@ -735,7 +735,7 @@
 
 # sent_id = henderson:63a
 # text = Xkitijo jas xuyloqʼo le ixoqibʼ.
-# text[orig] = Xki-tij-o [jas xuyloq’-o] le ixoqib’.
+# text[orig] = Xki-tij-o [jas xuyloqʼ-o] le ixoqibʼ.
 # text[gloss] = INFL-eat-SS what INFL-buy-SS the women
 # text[eng] = The women ate what he bought.
 # label = complete check-relative
@@ -758,7 +758,7 @@
 # text = Man are ta rala xkosik.
 # text[orig] = Man aree ta ralah x-kos-ik.
 # text[gloss] = NEG FOC IRR DET.boy INFL-tired-SS
-# text[eng] = It wasn’t the boy who got tired.
+# text[eng] = It wasnʼt the boy who got tired.
 # label = complete
 "<Man>"
 	"man" neg @aux #1->2
@@ -810,7 +810,7 @@
 
 # sent_id = henderson:78a
 # text = Xekos le tzʼiʼ.
-# text[orig] = Xe-kos-Ø le tz’i’.
+# text[orig] = Xe-kos-Ø le tzʼiʼ.
 # text[gloss] = INFL-tire the dogs
 # text[eng] = The dogs got tired.
 # label = complete
@@ -825,7 +825,7 @@
 
 # sent_id = henderson:78b
 # text = Le tzʼiʼ xekosik.
-# text[orig] = Le tz’i’ xe-kos-ik.
+# text[orig] = Le tzʼiʼ xe-kos-ik.
 # text[gloss] = The dogs INFL-tire-SS
 # text[eng] = The dogs got tired.
 # label = complete
@@ -841,9 +841,9 @@
 
 # sent_id = henderson:80a
 # text = Man xkitij ta le tzʼiʼ.
-# text[orig] = Man xki-tij-Ø ta le tz’i’.
+# text[orig] = Man xki-tij-Ø ta le tzʼiʼ.
 # text[gloss] = NEG INFL-eat IRR the dogs
-# text[eng] = The dogs didn’t eat it.
+# text[eng] = The dogs didnʼt eat it.
 # label = complete
 "<Man>"
 	"man" neg @aux #1->2
@@ -860,9 +860,9 @@
 
 # sent_id = henderson:80b
 # text = Le tzʼiʼ man xkitij taj.
-# text[orig] = Le tz’i’ man xki-tij-Ø taj.
+# text[orig] = Le tzʼiʼ man xki-tij-Ø taj.
 # text[gloss] = The dogs NEG INFL-eat IRR
-# text[eng] = The dogs didn’t eat it.
+# text[eng] = The dogs didnʼt eat it.
 # label = complete
 "<Le>"
 	"le" det @det #1->2
@@ -879,7 +879,7 @@
 
 # sent_id = henderson:83b
 # text = Xinbʼe.
-# text[orig] = Xinb’é.
+# text[orig] = Xinbʼé.
 # text[gloss] = INFL-go
 # text[eng] = I went.
 # label = complete
@@ -901,9 +901,9 @@
 
 # sent_id = henderson:87
 # text = Ma xinel ta chi el pa bʼey.
-# text[orig] = Ma xin-el-Ø ta chi el pa b’ey.
+# text[orig] = Ma xin-el-Ø ta chi el pa bʼey.
 # text[gloss] = NEG INFL-leave IRR REP DIR on street
-# text[eng] = I didn’t go out again in the street.
+# text[eng] = I didnʼt go out again in the street.
 # label = incomplete
 "<Ma>"
 	"ma" neg
@@ -938,7 +938,7 @@
 
 # sent_id = henderson:108a
 # text = Kintij na le akʼ.
-# text[orig] = Kin-tíj-Ø na le ak’.
+# text[orig] = Kin-tíj-Ø na le akʼ.
 # text[gloss] = INFL-eat ASP the chicken
 # text[eng] = I am going to eat the chicken.
 # label = complete
@@ -968,7 +968,7 @@
 
 # sent_id = henderson:111
 # text = Kinbʼe taj.
-# text[orig] = Kin-b’e-Ø taj.
+# text[orig] = Kin-bʼe-Ø taj.
 # text[gloss] = INFL-go IRR
 # text[eng] = I would go.
 # label = complete
@@ -1005,7 +1005,7 @@
 
 # sent_id = henderson:116b
 # text = Xintij le subʼ.
-# text[orig] = Xin-tíj-Ø le sub’.
+# text[orig] = Xin-tíj-Ø le subʼ.
 # text[gloss] = INFL-eat the tamalito
 # text[eng] = I ate the tamalito.
 # label = complete
@@ -1038,7 +1038,7 @@
 
 # sent_id = henderson:126
 # text = Xintij le akʼ.
-# text[orig] = Xintij-Ø le ak’.
+# text[orig] = Xintij-Ø le akʼ.
 # text[gloss] = INFL-eat the chicken
 # text[eng] = I ate the chicken.
 # label = complete

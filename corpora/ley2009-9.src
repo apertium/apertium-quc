@@ -7,7 +7,7 @@
 ^waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
 ^ri/ri<det>/ri<prn><rel>$
 ^uqʼijol/*uqʼijol$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^taqanik/taqanik<n>/taqan<v><iv><inf>/taq<v><tv><anti><inf>$
 ^./.<sent>$
 
@@ -15,7 +15,7 @@
 # text = We taqanik riʼ kubʼij chi rajawaxik kyaʼ uqʼij ri winaq xuqujeʼ ktoʼ aninaqil.
 # text[spa] = Los procedimientos que establece esta Ley, deben realizarse con especial atención y prioridad.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^taqanik/taqanik<n>/taqan<v><iv><inf>/taq<v><tv><anti><inf>$
 ^riʼ/riʼ<prn><dem>$
 ^kubʼij/<impf><o_sg3><s_sg3>bʼij<v><tv>$
@@ -85,7 +85,7 @@
 # text = We Woktzʼibʼabʼal kʼo pa uqʼabʼ kuchajij xuqujeʼ kupatanij we taqanik riʼ, rachiʼl ri chomanem xuqujeʼ ri ucholchak.
 # text[spa] = La Secretaría es la responsable de velar y dar cumplimiento a esta Ley y a políticas y planes relacionados con la misma.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^Woktzʼibʼabʼal/woktzʼibʼabʼal<n>$
 ^kʼo/kʼo<part>$
 ^pa/pa<pr>$
@@ -93,7 +93,7 @@
 ^kuchajij/<impf><o_sg3><s_sg3>chajij<v><tv>$
 ^xuqujeʼ/xuqujeʼ<adv>$
 ^kupatanij/<impf><o_sg3><s_sg3>patanij<v><tv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^taqanik/taqanik<n>/taqan<v><iv><inf>/taq<v><tv><anti><inf>$
 ^riʼ/riʼ<prn><dem>$
 ^,/,<cm>$
@@ -128,7 +128,7 @@
 ^ri/ri<det>/ri<prn><rel>$
 ^yaʼtalil/*yaʼtalil$
 ^pa/pa<pr>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^qʼataj/qʼataj<n>$
 ^,/,<cm>$
 ^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
@@ -149,7 +149,7 @@
 # text[spa] = La denuncia podrá ser presentada bajo reserva de confidencialidad.
 # labels = incomplete
 ^Ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^tzujunem/tzujuj<v><tv><anti><inf>/tzujun<v><iv><inf>$
 ^kbʼanik/<impf><s_sg3>bʼaj<v><tv><anti>+ik<mark>/<impf><s_sg3>bʼaj<v><tv><anti><agfoc>+ik<mark>/<impf><s_sg3>bʼan<v><tv><pass>+ik<mark>/<px3pl>bʼanik<n>$
 ^man/man<neg>/<imp><neg><s_sg3>an<v><iv>$
@@ -198,7 +198,7 @@
 ^,/,<cm>$
 ^rajawaxik/rajawaxik<adj>$
 ^kkil/<impf><o_sg3><s_pl3>il<v><tv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^jastaq/jastaq<n>$
 ^riʼ/riʼ<prn><dem>$
 ^:/:<sent>$
@@ -207,7 +207,7 @@
 # text = We ri winaq kʼo pa kʼaxkʼolil aj chʼaqap jaʼ, ri qʼatbʼal tzij tobʼanel rajaw
 # text[spa] = Si la persona víctima es extranjera, la autoridad competente debe dar aviso inmediato a la agencia consular que corresponda.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^ri/ri<det>/ri<prn><rel>$
 ^winaq/winaq<n>$
 ^kʼo/kʼo<part>$
@@ -338,7 +338,7 @@
 # text = We tzʼaqat chi ronojel ri kitzalijem pa kitinamit, man kuya taj kbʼayitajisax chik.
 # text[spa] = En el caso que sea seguro para la víctima volver a su país de origen, la repatriación se realizará sin demora indebida o injustificada.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^tzʼaqat/tzʼaqat<adj>/tzʼaqat<n>$
 ^chi/chi<adj>/chi<adv>/chi<cnjsub>/chi<pr>$
 ^ronojel/<px3sg>onojel<n>/<px3sg>onojel<n><rel>$
@@ -486,7 +486,7 @@
 ^pa/pa<pr>$
 ^cheʼ/cheʼ<adj>/cheʼ<n>$
 ^./.<sent>$
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^ri/ri<det>/ri<prn><rel>$
 ^xukʼulmaj/<perf><o_sg3><s_sg3>kʼulmaj<v><tv>$
 ^kʼaxkʼolil/kʼaxkʼolil<n>$
@@ -505,7 +505,7 @@
 ^uchomabʼal/<px3sg>chomabʼal<n>$
 ^,/,<cm>$
 ^wa/wa<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^tojbʼal/tojbʼal<n>$
 ^makaj/makaj<n>/mak<n>$
 ^knimarisax/<impf><s_sg3>nimarisaj<v><tv><pass>$
@@ -573,7 +573,7 @@
 # labels = incomplete
 ^Makaj/makaj<n>/mak<n>$
 ^waʼ/waʼ<prn><dem>/wa<n>/<px1sg>aʼ<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^majaʼ/majaʼ<adv>/<imp><neg><o_sg3><s_sg2>jaʼ<v><tv>$
 ^kajlajuj/kajlajuj<num>$
 ^ujunabʼ/<px3sg>junabʼ<n>$
@@ -751,7 +751,7 @@
 ^Ri/ri<det>/ri<prn><rel>$
 ^winaq/winaq<n>$
 ^kubʼan/<impf><o_sg3><s_sg3>bʼan<v><tv>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kʼaxkʼolil/kʼaxkʼolil<n>$
 ^riʼ/riʼ<prn><dem>$
 ^,/,<cm>$
@@ -779,7 +779,7 @@
 # text = We xa xokisax ukʼuʼx wene xa xtaqachiʼx pa ri kʼaxkʼolil ri winaq on ri kʼamal ubʼe chi uwach qʼatbʼal tzij, are qas kil we kuriq kʼaxkʼolil pa ri ukʼaslemal.
 # text[spa] = En ningún caso se tendrá en cuenta el consentimiento prestado por la víctima de trata de personas o por su representante legal.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^xa/xa<adv>/xa<n>$
 ^xokisax/<perf><s_sg3>okisaj<v><tv><pass>$
 ^ukʼuʼx/<px3sg>kʼuʼx²<n>/<px3sg>kʼuʼx¹<n>$
@@ -803,7 +803,7 @@
 ^are/areʼ<prn><pers><p3><sg>/areʼ<prn><pro><p3><sg>/are<adv>/are<foc>$
 ^qas/qas<adj>$
 ^kil/<impf><s_sg3>il<v><tv><pass>/<px3pl>il<n>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^kuriq/<impf><o_sg3><s_sg3>riq<v><tv>$
 ^kʼaxkʼolil/kʼaxkʼolil<n>$
 ^pa/pa<pr>$
@@ -815,7 +815,7 @@
 # text = We xkam ri winaq, ri pwaq rech tojbʼal makaj kyaʼ chi kech ri ralaxik.
 # text[spa] = La indemnización corresponderá a los herederos, si la víctima hubiere fallecido.
 # labels = incomplete
-^We/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^We/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^xkam/<perf><s_sg3>käm<v><iv>$
 ^ri/ri<det>/ri<prn><rel>$
 ^winaq/winaq<n>$
@@ -839,7 +839,7 @@
 ^Ri/ri<det>/ri<prn><rel>$
 ^pwaq/pwaq<n>$
 ^rech/rech<cnjsub>/<px3sg>ech<n><rel>$
-^we/we<cnjsub>/we<det>/we<prn><rel>/<px1sg>ech<n><rel>$
+^we/we¹<cnjsub>/we<det>/we²<cnjsub>/<px1sg>ech<n><rel>$
 ^qʼataj/qʼataj<n>$
 ^riʼ/riʼ<prn><dem>$
 ^kesax/<impf><s_sg3>esaj<v><tv><pass>$
