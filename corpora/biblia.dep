@@ -505,7 +505,7 @@
 "<,>"
 	"," cm @punct #14->16
 "<man>"
-	"man" neg @aux #15->16
+	"man" neg @advmod:neg #15->16
 "<kekowin>"
 	"kowin" v iv impf s_pl3 @conj #16->7
 "<taj>"

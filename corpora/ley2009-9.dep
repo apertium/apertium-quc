@@ -263,7 +263,7 @@
 "<,>"
 	"," cm @punct #10->8
 "<man>"
-	"man" neg @aux #11->12
+	"man" neg @advmod:neg #11->12
 "<ktzaq>"
 	"tzaq" v tv pass impf s_sg3 @root #12->0
 "<ta>"
@@ -274,7 +274,7 @@
 "<xuqujeʼ>"
 	"xuqujeʼ" cnjcoo @cc #16->18
 "<man>"
-	"man" neg @aux #17->18
+	"man" neg @advmod:neg #17->18
 "<ktas>"
 	"tas" v tv pass impf s_sg3 @conj #18->12
 "<taj>"
@@ -296,7 +296,7 @@
 	"bʼan" v tv pass impf s_sg3
 		"ik" mark
 "<man>"
-	"man" neg @aux
+	"man" neg @advmod:neg
 "<kesax>"
 	"esaj" v tv pass impf s_sg3 @
 "<ta>"
@@ -784,7 +784,7 @@
 "<,>"
 	"," cm @punct
 "<man>"
-	"man" neg @aux
+	"man" neg @advmod:neg
 "<kuya>"
 	"yaʼ" v tv impf o_sg3 s_sg3 @root
 "<taj>"

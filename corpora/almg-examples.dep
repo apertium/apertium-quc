@@ -918,7 +918,7 @@
 # text[spa] = No puedes trabajar sin la calculadora.
 # labels = complete check-complement
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<katkowin>"
 	"kowin" v iv impf s_sg2 @root #2->0
 "<taj>"
@@ -931,7 +931,7 @@
 "<we>"
 	"we¹" cnjsub @mark #7->9
 "<man>"
-	"man" neg @aux #8->9
+	"man" neg @advmod:neg #8->9
 "<kʼo>"
 	"kʼo" part @advcl #9->4
 "<ta>"
@@ -1778,7 +1778,7 @@
 "<Kamik>"
 	"kamik" adv @advmod #1->3
 "<man>"
-	"man" neg @aux #2->3
+	"man" neg @advmod:neg #2->3
 "<kʼo>"
 	"kʼo" part @root #3->0
 "<ta>"
@@ -1955,7 +1955,7 @@
 "<weqaʼn>"
 	"eqaʼn" n px1sg @nsubj #2->4
 "<man>"
-	"man" neg @aux #3->4
+	"man" neg @advmod:neg #3->4
 "<al>"
 	"al" adj @root #4->0
 "<taj>"
@@ -2045,7 +2045,7 @@
 # text[spa] = Las ovejitas no quieren comer.
 # labels = complete
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<kewaʼ>"
 	"waʼ" v iv impf s_pl3 @root #2->0
 "<taj>"
@@ -2142,7 +2142,7 @@
 # text[spa] = No quedó bien el güipil que hizo Pascuala.
 # labels = complete
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<utz>"
 	"utz" adj @root #2->0
 "<taj>"
@@ -3388,7 +3388,7 @@
 # text[spa] = Mi cuñado no me quiere.
 # labels = complete
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<kinraj>"
 	"aj" v tv impf o_sg1 s_sg3 @root #2->0
 "<taj>"
@@ -3817,7 +3817,7 @@
 "<winaq>"
 	"winaq" n @nmod #5->3
 "<man>"
-	"man" neg @aux #6->7
+	"man" neg @advmod:neg #6->7
 "<kaqʼayir>"
 	"qʼayir" v iv impf s_sg3 @root #7->0
 "<taj>"
@@ -3924,7 +3924,7 @@
 "<Kamik>"
 	"kamik" adv @advmod #1->3
 "<man>"
-	"man" neg @aux #2->3
+	"man" neg @advmod:neg #2->3
 "<kinbʼe>"
 	"bʼe" v iv impf s_sg1 @root #3->0
 "<ta>"
@@ -14213,7 +14213,7 @@
 "<ik>"
 	"ik" n @nsubj #3->5
 "<man>"
-	"man" neg @aux #4->5
+	"man" neg @advmod:neg #4->5
 "<poqon>"
 	"poqon" adj @root #5->0
 "<taj>"
@@ -16970,7 +16970,7 @@
 "<,>"
 	"," cm @punct #4->1
 "<man>"
-	"man" neg @aux #5->6
+	"man" neg @advmod:neg #5->6
 "<kewaʼ>"
 	"waʼ" v iv impf s_pl3 @root #6->0
 "<taj>"
@@ -17356,7 +17356,7 @@
 # text[spa] = No me gustan ver a los monos.
 # labels = complete check-attachment
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<utz>"
 	"utz" adv @advmod #2->4
 "<taj>"
@@ -18768,7 +18768,7 @@
 # text[spa] = Ahora está barato el maíz.
 # labels = complete
 "<Ma>"
-	"ma" neg @aux #1->2
+	"ma" neg @advmod:neg #1->2
 "<paqal>"
 	"paqal" adj @root #2->0
 "<taj>"
@@ -18947,7 +18947,7 @@
 "<ixoq>"
 	"ixoq" n @nsubj #5->7
 "<man>"
-	"man" neg @aux #6->7
+	"man" neg @advmod:neg #6->7
 "<kchʼaw>"
 	"chʼaw" v iv impf s_sg3
 "<taj>"
@@ -19843,7 +19843,7 @@
 # text[spa] = No hay dinero para su entierro.
 # labels = complete
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<kʼo>"
 	"kʼo" part @root #2->0
 "<ta>"
@@ -21243,7 +21243,7 @@
 "<Ojer>"
 	"ojer" adv @advmod #1->3
 "<man>"
-	"man" neg @aux #2->3
+	"man" neg @advmod:neg #2->3
 "<kʼo>"
 	"kʼo" part @root #3->0
 "<ri>"
@@ -22724,7 +22724,7 @@
 "<paxlaq>"
 	"paxlaq" n @nsubj #2->4
 "<man>"
-	"man" neg @aux #3->4
+	"man" neg @advmod:neg #3->4
 "<kakam>"
 	"käm" v iv impf s_sg3 @root #4->0
 "<taj>"
@@ -26168,7 +26168,7 @@
 "<qʼeqʼcheʼ>"
 	"qʼeqʼcheʼ" n @nsubj #2->4
 "<man>"
-	"man" neg @aux #3->4
+	"man" neg @advmod:neg #3->4
 "<kuyaʼ>"
 	"yaʼ" v tv impf o_sg3 s_sg3 @root #4->0
 "<taj>"
@@ -26269,7 +26269,7 @@
 # text[spa] = El sol no está alumbrando.
 # labels = complete
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<kkaʼy>"
 	"kaʼy" v iv impf s_sg3 @root #2->0
 "<taj>"
@@ -26336,7 +26336,7 @@
 	"chi" pr @case #5->6
 		"ech" n rel px3sg @obl #6->1
 "<man>"
-	"man" neg @aux #7->8
+	"man" neg @advmod:neg #7->8
 "<kachakun>"
 	"chakun" v iv impf s_sg3 @acl #8->1
 "<taj>"
@@ -30712,7 +30712,7 @@
 "<tzij>"
 	"tzij" n @obj #2->6
 "<man>"
-	"man" neg @aux #3->4
+	"man" neg @advmod:neg #3->4
 "<kachʼobʼ>"
 	"chʼobʼ" v tv impf o_sg3 s_sg2 @acl #4->2
 "<taj>"
@@ -30938,7 +30938,7 @@
 "<Waral>"
 	"waral" adv @advmod #1->3
 "<man>"
-	"man" neg @aux #2->3
+	"man" neg @advmod:neg #2->3
 "<kakʼiy>"
 	"kʼiy" v iv impf s_sg3 @root #3->0
 "<taj>"
@@ -31699,7 +31699,7 @@
 "<we>"
 	"we¹" cnjsub @mark #5->7
 "<man>"
-	"man" neg @aux #6->7
+	"man" neg @advmod:neg #6->7
 "<chʼajom>"
 	"chʼaj" v tv pp @advcl #7->3
 "<taj>"
@@ -32801,7 +32801,7 @@
 "<tiʼtotem>"
 	"tiʼtotem" n @nsubj #2->4
 "<man>"
-	"man" neg @aux #3->4
+	"man" neg @advmod:neg #3->4
 "<utz>"
 	"utz" adj @root #4->0
 "<taj>"
@@ -33150,7 +33150,7 @@
 "<junabʼ>"
 	"junabʼ" n @nmod #4->2
 "<man>"
-	"man" neg @aux #5->6
+	"man" neg @advmod:neg #5->6
 "<kʼo>"
 	"kʼo" part @root #6->0
 "<taj>"
@@ -33206,7 +33206,7 @@
 "<tikonel>"
 	"tikonel" n @nsubj #2->4
 "<man>"
-	"man" neg @aux #3->4
+	"man" neg @advmod:neg #3->4
 "<kpe>"
 	"pe" v iv impf s_sg3 @root #4->0
 "<taj>"
@@ -42333,7 +42333,7 @@
 "<Xep>"
 	"Xep" np ant m @nsubj #2->4
 "<man>"
-	"man" neg @aux #3->4
+	"man" neg @advmod:neg #3->4
 "<xuqʼiy>"
 	"qʼiy" v tv perf o_sg3 s_sg3 @root #4->0
 "<taj>"
@@ -42806,7 +42806,7 @@
 # text[spa] = No se sabe que hablaron.
 # labels = complete check-complement
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<wetaʼm>"
 	"etaʼm" v tv perf o_sg3 s_sg1 @root #2->0
 "<taj>"
@@ -43399,7 +43399,7 @@
 # text[spa] = No mereces que entres a la casa.
 # labels = complete 
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<yaʼtal>"
 	"yaʼtal" adj @root #2->0
 "<taj>"

@@ -1,7 +1,7 @@
 #lem 	pos 	morf 	dep | 	lem 	pos 	morf 		dep
-man	neg	_	_	man	AUX	Polarity=Neg	_
-ma	neg	_	_	ma	AUX	Polarity=Neg	_
-na	neg	_	_	na	AUX	Polarity=Neg	_
+man	neg	_	_	man	PART	Polarity=Neg	_
+ma	neg	_	_	ma	PART	Polarity=Neg	_
+na	neg	_	_	na	PART	Polarity=Neg	_
 taj	neg	_	_	taj	AUX	Polarity=Neg	_
 jetaq	pl	_	_	jetaq	PART	Number=Plur	_
 e	pl	_	_	e	DET	Animacy=Anim|Number=Plur	_

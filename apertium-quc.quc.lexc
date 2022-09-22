@@ -552,6 +552,8 @@ LEXICON MOV-TV
 ! For non-finite forms
 LEXICON A-IV
 
+! ssg1 can also be -nu-, e.g. xenuwilo
+
 %<s_sg1%>:%>in%{w%}    IV;     ! in inw
 %<s_sg2%>:%>a%{w%}     IV;     ! a  aw
 %<s_sg3%>:%>%{r%}      IV;     ! u  r
@@ -560,6 +562,8 @@ LEXICON A-IV
 %<s_pl3%>:%>k%{i%}     IV;     ! ki k
 
 LEXICON A-TV
+
+! ssg1 can also be -nu-, e.g. xenuwilo
 
 %<s_sg1%>:%>in%{w%}    TV;     ! in inw !! FIXME: ^xatwilo/x>at>w>il>o$
 %<s_sg2%>:%>a%{w%}     TV;     ! a  aw

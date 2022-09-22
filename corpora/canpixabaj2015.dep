@@ -419,7 +419,7 @@
 	"we¹" cnjsub @mark #6->9
 "<kʼna>"
 	"kʼut" part @discourse #7->9
-		"na" neg @aux #8->9
+		"na" neg @advmod:neg #8->9
 "<xok>"
 	"ok" v iv perf s_sg3 @conj #9->3
 "<ta>"
@@ -549,7 +549,7 @@
 # text[eng] = The children are not born face down. {R056I002:090}
 # labels = complete 69:36:
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<jupulik>"
 	"jupulik" adj @xcomp #2->4
 "<ta>"
@@ -668,7 +668,7 @@
 "<We>"
 	"we¹" cnjsub @mark #1->5
 "<na>"
-	"na" neg @aux #2->3
+	"na" neg @advmod:neg #2->3
 "<jupulik>"
 	"jupulik" adj @xcomp #3->5
 "<ta>"
@@ -724,7 +724,7 @@
 "<i>"
 	"i" cnjcoo @cc #8->10
 "<na>"
-	"na" neg @aux #9->10
+	"na" neg @advmod:neg #9->10
 "<xtzoqopitaj>"
 	"tzoqopij" v tv pass stat perf s_sg3 @conj #10->2
 "<ta>"
@@ -850,7 +850,7 @@
 "<,>"
 	"," cm @punct #8->7
 "<na>"
-	"na" neg @aux #9->10
+	"na" neg @advmod:neg #9->10
 "<xinwil>"
 	"il" v tv perf o_sg3 s_sg1 @parataxis #10->4
 "<taj>"
@@ -864,7 +864,7 @@
 # text[eng] = They did not kill it, they took it home. {R052I001:067}
 # labels = complete 114:75: check-contraction
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xkikamsaj>"
 	"kamsaj" v tv perf o_sg3 s_pl3 @root #2->0
 "<taj>"
@@ -885,7 +885,7 @@
 # text[eng] = They did not even give thanks for their food. {R069I001:134}
 # labels = complete 115:76:
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<kikityoxij>"
 	"tyoxij" v tv impf o_sg3 s_pl3 @root #2->0
 "<ta>"
@@ -986,7 +986,7 @@
 "<chi>"
 	"chi" cnjsub @mark #3->5
 "<na>"
-	"na" neg @aux #4->5
+	"na" neg @advmod:neg #4->5
 "<kukʼam>"
 	"kʼam" v tv impf o_sg3 s_sg3 @ccomp #5->1
 "<ta>"
@@ -1077,7 +1077,7 @@
 "<chi>"
 	"chi" cnjsub @mark #3->5
 "<na>"
-	"na" neg @aux #4->5
+	"na" neg @advmod:neg #4->5
 "<kojukʼam>"
 	"kʼam" v tv impf o_pl1 s_sg3 @ccomp #5->1
 "<taj>"
@@ -1129,7 +1129,7 @@
 "<chi>"
 	"chi" cnjsub @mark #2->4
 "<na>"
-	"na" neg @aux #3->4
+	"na" neg @advmod:neg #3->4
 "<kawaj>"
 	"aj" v tv impf o_sg3 s_sg2 @csubj #4->1
 "<taj>"
@@ -1196,7 +1196,7 @@
 # text[eng] = I did not hear whether it is the child who is going to feed you
 # labels = complete 144:14:a
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xinta>"
 	"ta" v tv perf o_sg3 s_sg1 @root #2->0
 "<taj>"
@@ -1221,7 +1221,7 @@
 # text[eng] = I did not know if you would not be fed.
 # labels = complete 144:14:b
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xinta>"
 	"ta" v tv perf o_sg3 s_sg1 @root #2->0
 "<taj>"
@@ -1229,7 +1229,7 @@
 "<we>"
 	"we¹" cnjsub @mark #4->6
 "<na>"
-	"na" neg @aux #5->6
+	"na" neg @advmod:neg #5->6
 "<kixtzuq>"
 	"tzuq" v iv impf s_pl2 @advcl #6->2
 "<taj>"
@@ -1243,7 +1243,7 @@
 # text[eng] = It is not clear whether he is going.
 # labels = complete 146:16:
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<qʼalaj>"
 	"qʼalaj" adj @root #2->0
 "<taj>"
@@ -1291,7 +1291,7 @@
 # text[eng] = I did not force my husband to work.
 # labels = complete 149:18: check-complement
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xintaqchiʼj>"
 	"taqchiʼj" v tv perf o_sg3 s_sg1 @root #2->0
 "<ta>"
@@ -1352,7 +1352,7 @@
 "<,>"
 	"," cm @punct #8->10
 "<na>"
-	"na" neg @aux #9->10
+	"na" neg @advmod:neg #9->10
 "<xinchʼaʼ>"
 	"chʼaʼ" v tv perf o_sg3 s_sg1 @conj #10->2
 "<ta>"
@@ -1520,7 +1520,7 @@
 "<Kaqoyʼej>"
 	"oyʼej" v tv impf o_sg3 s_pl1 @root #1->0
 "<na>"
-	"na" neg @aux #2->3
+	"na" neg @advmod:neg #2->3
 "<kixpe>"
 	"pe" v iv impf s_pl2 @ccomp #3->1
 "<taj>"
@@ -1537,7 +1537,7 @@
 	"qʼiʼ" v tv perf o_sg3 s_sg1 @root #1->0
 		"u" aux @aux:ss #2->1
 "<na>"
-	"na" neg @aux #3->4
+	"na" neg @advmod:neg #3->4
 "<xinatin>"
 	"atin" v iv perf s_sg1 @ccomp #4->1
 "<taj>"
@@ -1555,7 +1555,7 @@
 "<kinbʼij>"
 	"bʼij" v tv impf o_sg3 s_sg1 @root #2->0
 "<na>"
-	"na" neg @aux #3->4
+	"na" neg @advmod:neg #3->4
 "<katsach>"
 	"sach" v iv impf s_sg2 @ccomp #4->2
 "<taj>"
@@ -1572,7 +1572,7 @@
 	"qʼiʼ" v tv perf o_sg3 s_sg3 @root #1->0
 		"u" aux @aux:ss #2->1
 "<na>"
-	"na" neg @aux #3->4
+	"na" neg @advmod:neg #3->4
 "<xatatin>"
 	"atin" v iv perf s_sg2 @ccomp #4->1
 "<taj>"
@@ -1590,7 +1590,7 @@
 "<kinbʼij>"
 	"bʼij" v tv impf o_sg3 s_sg1 @root #2->0
 "<na>"
-	"na" neg @aux #3->4
+	"na" neg @advmod:neg #3->4
 "<katsach>"
 	"sach" v iv impf s_sg2 @ccomp #4->2
 "<taj>"
@@ -1606,7 +1606,7 @@
 "<Kwaj>"
 	"aj" v tv impf o_sg3 s_sg1 @root #1->0
 "<na>"
-	"na" neg @aux #2->3
+	"na" neg @advmod:neg #2->3
 "<katʼe>"
 	"bʼe" v iv impf s_sg2 @ccomp #3->1
 "<taj>"
@@ -1634,7 +1634,7 @@
 "<Kawaj>"
 	"aj" v tv impf o_sg3 s_sg1 @root #1->0
 "<na>"
-	"na" neg @aux #2->3
+	"na" neg @advmod:neg #2->3
 "<katʼe>"
 	"bʼe" v iv impf s_sg2 @ccomp #3->1
 "<taj>"
@@ -1652,7 +1652,7 @@
 "<kawaj>"
 	"aj" v tv impf o_sg3 s_sg1 @root #2->0
 "<na>"
-	"na" neg @aux #3->4
+	"na" neg @advmod:neg #3->4
 "<kinʼe>"
 	"bʼe" v iv impf s_sg1 @ccomp #4->2
 "<taj>"
@@ -2183,7 +2183,7 @@
 # note = Object changed by request of Telma Can Pixabaj
 # labels = complete 242:103:d check-complement
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<utzakik>"
 	"tzak" v tv pass inf s_sg3 @xcomp #2->6
 "<ta>" 
@@ -2431,7 +2431,7 @@
 # text[eng] = We did not realize anymore that the association needs money.
 # labels = complete 276:32:
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xqil>"
 	"il" v tv perf o_sg3 s_pl1 @root #2->0
 "<ta>"
@@ -2457,7 +2457,7 @@
 # text[eng] = I did not hear whether they will feed you or not.
 # labels = complete 277:33:
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xinta>"
 	"ta" v tv perf o_sg3 s_sg1 @root #2->0
 "<taj>"
@@ -2501,7 +2501,7 @@
 # text[eng] = I did not want to say.
 # labels = complete 278:34:b
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xwaj>"
 	"aj" v tv perf o_sg3 s_sg1 @root #2->0
 "<taj>"
@@ -2517,7 +2517,7 @@
 # text[eng] = I did not want to say.
 # labels = complete 278:34:c
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xwaj>"
 	"aj" v tv perf o_sg3 s_sg1 @root #2->0
 "<ta>"
@@ -2549,7 +2549,7 @@
 "<,>"
   "," cm @punct #8->7
 "<na>"
-  "na" neg @aux #9->10
+  "na" neg @advmod:neg #9->10
 "<xinwil>"
   "il" v tv perf o_sg3 s_sg1 @parataxis #10->4
 "<taj>"
@@ -3084,7 +3084,7 @@
 "<chi>"
 	"chi" cnjsub @mark #2->4
 "<na>"
-	"na" neg @aux #3->4
+	"na" neg @advmod:neg #3->4
 "<xatpe>"
 	"pe" v iv perf s_sg2 @ccomp #4->1
 "<taj>"
@@ -3123,7 +3123,7 @@
 "<chi>"
 	"chi" cnjsub @mark #2->4
 "<na>"
-	"na" neg @aux #3->4
+	"na" neg @advmod:neg #3->4
 "<katpe>"
 	"pe" v iv impf s_sg2 @ccomp #4->1
 "<taj>"
@@ -3161,7 +3161,7 @@
 "<chi>"
 	"chi" cnjsub @mark #2->4
 "<na>"
-	"na" neg @aux #3->4
+	"na" neg @advmod:neg #3->4
 "<katpe>"
 	"pe" v iv impf s_sg2 @ccomp #4->1
 "<taj>"
@@ -3747,7 +3747,7 @@
 # text[eng] = They did not remember that they bathed themselves.
 # labels = complete 419:75:b check-complement
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xnaʼtaj>"
 	"naʼ" v tv pass stat perf s_sg3 @root #2->0
 "<ta>"
@@ -3801,7 +3801,7 @@
 # text[eng] = They did not forget to bathe themselves.
 # labels = complete 421:77:a check-argument
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xsachon>"
 	"sachon" v iv perf s_sg3 @root #2->0
 "<ta>"
@@ -3821,7 +3821,7 @@
 # text[eng] = They did not remember to bathed themselves.
 # labels = complete 421:77:b check-argument
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xnaʼtaj>"
 	"naʼ" v tv pass stat perf s_sg3 @root #2->0
 "<ta>"
@@ -4033,7 +4033,7 @@
 "<chi>"
 	"chi" cnjsub @mark #3->5
 "<na>"
-	"na" neg @aux #4->5
+	"na" neg @advmod:neg #4->5
 "<kinkʼoxomaj>"
 	"kʼoxomaj" v tv impf o_sg3 s_sg1 @ccomp #5->1
 "<taj>"
@@ -4052,7 +4052,7 @@
 "<rech>"
 	"rech" cnjsub @mark #3->5
 "<na>"
-	"na" neg @aux #4->5
+	"na" neg @advmod:neg #4->5
 "<kinyowaj>"
 	"yowaj" v iv impf s_sg1 @advcl #5->1
 "<taj>"
@@ -4139,7 +4139,7 @@
 "<taq>"
 	"taq" cnjsub @mark #3->5
 "<na>"
-	"na" neg @aux #4->5
+	"na" neg @advmod:neg #4->5
 "<xatpet>"
 	"pet" v iv perf s_sg2 @advcl #5->1
 "<taj>"
@@ -4250,7 +4250,7 @@
 # text[eng] = I did not go ahead to save us a place
 # labels = complete 463:42:a
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xinnabʼej>"
 	"nabʼej" v iv perf s_sg1 @root #2->0
 "<ta>"
@@ -4564,13 +4564,13 @@
 # text[eng] = They did not go to visit him/her.
 # labels = complete 500:79: check-parataxis
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xeʼe>"
 	"bʼe" v iv perf s_pl3 @root #2->0
 "<taj>"
 	"taj" neg fin @aux #3->2
 "<na>"
-	"na" neg @aux #4->5
+	"na" neg @advmod:neg #4->5
 "<xeʼkiqʼatuj>"
 	"qʼatuj" v tv perf o_sg3 abl s_pl3 @parataxis #5->2
 "<taj>"
@@ -4584,7 +4584,7 @@
 # text[eng] = I did not want to talk.
 # labels = complete 501:80:
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xwaj>"
 	"aj" v tv perf o_sg3 s_sg1 @root #2->0
 "<taj>"
@@ -4601,7 +4601,7 @@
 # text[eng] = No one went to visit him/her.
 # labels = complete 503:82:
 "<Maj>"
-	"maj" part neg @aux #1->3
+	"maj" part neg @advmod:neg #1->3
 "<jachin>"
 	"jachin" prn itg @nsubj #2->3
 "<xʼek>"
@@ -4728,13 +4728,13 @@
 # text[eng] = They did not go to visit him/her.
 # labels = complete 515:93:a check-coref
 "<Na>"
-	"na" neg @aux #1->2
+	"na" neg @advmod:neg #1->2
 "<xeʼe>"
 	"bʼe" v iv perf s_pl3 @root #2->0
 "<taj>"
 	"taj" neg fin @aux #3->2
 "<na>"
-	"na" neg @aux #4->5
+	"na" neg @advmod:neg #4->5
 "<xeʼkiqʼatuj>"
 	"qʼatuj" v tv perf o_sg3 abl s_pl3 @advcl #5->2
 "<taj>"
@@ -4753,7 +4753,7 @@
 "<,>"
 	"," cm @punct #3->5
 "<na>"
-	"na" neg @aux #4->5
+	"na" neg @advmod:neg #4->5
 "<xinwil>"
 	"il" v tv perf o_sg3 s_sg1 @conj #5->1
 "<taj>"

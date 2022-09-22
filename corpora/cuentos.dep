@@ -84,7 +84,7 @@
 "<,>"
 	"," cm @punct #10->12
 "<ma>"
-	"ma" neg @aux #11->12
+	"ma" neg @advmod:neg #11->12
 "<kuxeʼj>"
 	"xeʼj" v tv impf o_sg3 s_sg3 @parataxis #12->8
 "<ta>"
@@ -99,7 +99,7 @@
 	"il" v tv perf o_sg3 s_sg3 @advcl #17->12
 		"u" aux @aux:ss #18->17
 "<ma>"
-	"ma" neg @aux #19->17
+	"ma" neg @advmod:neg #19->17
 "<ekʼo>"
 	"e" prn pro p3 pl @aux #20->21
 		"kʼo" part @ccomp #21->17
@@ -215,7 +215,7 @@
 "<,>"
 	"," cm @punct #11->13
 "<man>"
-	"man" neg @aux #12->13
+	"man" neg @advmod:neg #12->13
 "<kinbʼan>"
 	"bʼan" v tv impf o_sg3 s_sg1 @parataxis #13->6
 "<ta>"
@@ -489,7 +489,7 @@
 "<,>"
 	"," cm @punct #8->10
 "<man>"
-	"man" neg @aux #9->10
+	"man" neg @advmod:neg #9->10
 "<xbʼeyetaj>"
 	"bʼeyetaj" v iv perf s_sg3 @parataxis #10->4
 "<ta>"
@@ -659,7 +659,7 @@
 "<chi>"
 	"chi" cnjsub @mark #10->12
 "<man>"
-	"man" neg @aux #11->12
+	"man" neg @advmod:neg #11->12
 "<qas>"
 	"qas" adj @ccomp #12->8
 "<ta>"
@@ -820,7 +820,7 @@
 "<rumal>"
 	"umal" n rel px3sg @obl #7->1
 "<man>"
-	"man" neg @aux #8->9
+	"man" neg @advmod:neg #8->9
 "<utz>"
 	"utz" adj @acl #9->7
 "<ta>"
@@ -966,7 +966,7 @@
 "<winaq>"
 	"winaq" n @nmod #5->3
 "<man>"
-	"man" neg @aux #6->7
+	"man" neg @advmod:neg #6->7
 "<utz>"
 	"utz" adj @ccomp #7->1
 "<taj>"
@@ -1239,7 +1239,7 @@
 "<We>"
 	"we¹" cnjsub @mark #1->4
 "<man>"
-	"man" neg @aux #2->4
+	"man" neg @advmod:neg #2->4
 "<je>"
 	"je" adv @advmod #3->4
 "<kabʼan>"
@@ -1362,7 +1362,7 @@
 	"chi" pr @fixed #6->5
 		"ech" n rel px3sg @fixed #7->5
 "<maj>"
-	"maj" part neg @aux #8->10
+	"maj" part neg @advmod:neg #8->10
 "<chik>"
 	"chik" adv @advmod #9->10
 "<kutijo>"
@@ -1376,7 +1376,7 @@
 # text[spa'] = No encontró comida sólo así murió de hambre.
 # labels = complete check-subordinator
 "<Man>"
-	"man" neg @aux #1->2
+	"man" neg @advmod:neg #1->2
 "<xuriq>"
 	"riq" v tv perf o_sg3 s_sg3 @root #2->0
 "<taj>"
@@ -1507,7 +1507,7 @@
 "<,>"
 	"," cm @punct #6->8
 "<man>"
-	"man" neg @aux #7->8
+	"man" neg @advmod:neg #7->8
 "<kawaj>"
 	"aj" v tv impf o_sg3 s_sg2 @ccomp #8->5
 "<taj>"
@@ -1515,7 +1515,7 @@
 "<,>"
 	"," cm @punct #10->12
 "<man>"
-	"man" neg @aux #11->12
+	"man" neg @advmod:neg #11->12
 "<kawaj>"
 	"aj" v tv impf o_sg3 s_sg2 @conj #12->8
 "<taj>"
@@ -2903,7 +2903,7 @@
 "<:>"
 	":" sent @punct #2->4
 "<man>"
-	"man" neg @aux #3->4
+	"man" neg @advmod:neg #3->4
 "<utz>"
 	"utz" adj @parataxis #4->1
 "<taj>"
@@ -2929,7 +2929,7 @@
 "<Kqabʼij>"
 	"bʼij" v tv impf o_sg3 s_pl1 @root #1->0
 "<man>"
-	"man" neg @aux #2->3
+	"man" neg @advmod:neg #2->3
 "<kekowin>"
 	"kowin" v iv impf s_pl3 @ccomp #3->1
 "<taj>"
@@ -3517,7 +3517,7 @@
 "<rajawaxik>"
 	"rajawaxik" n @ccomp #5->3
 "<man>"
-	"man" neg @aux #6->7
+	"man" neg @advmod:neg #6->7
 "<kuxej>"
 	"xeʼj" v tv impf o_sg3 s_sg3 @csubj #7->5
 "<ta>"
@@ -3960,7 +3960,7 @@
 "<,>"
 	"," cm @punct #16->18
 "<man>"
-	"man" neg @aux #17->18
+	"man" neg @advmod:neg #17->18
 "<karaj>"
 	"aj" v tv impf o_sg3 s_sg3 @parataxis #18->10
 "<ta>"
